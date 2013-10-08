@@ -495,7 +495,7 @@ tc.research_page.RESEARCH.14=times to get them into position.<BR>Inactive runes 
 #
 tc.research_name.KNOWFRAG=Wissensfragmente
 tc.research_text.KNOWFRAG=Fragmente verlorenen Wissens
-tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken und verlorenen Wissens treffen. Einzeln sind sie nicht viel wert, aber wenn du genug von ihnen bekommst, könntest du an einzigartige Forschungen kommen, die du fortführen könntest. Für gewöhnlich kann die Forschung, die sie enthüllen, nicht auf normale Weise erhalten werden.<BR>Diese Fragmente des Wissens können manchmal zu falschen Theorien führen, aber dies wird enthüllt, wenn du versucht, weiter nachzuforschen. Wenn das passiert, wirst du die meisten deiner Wissensfragmente zurückbekommen. Wenn das passiert, heißt es für gewöhnlich, dass du all deine Forschungsanstrengungen in verlorenes Wissen erschöpft hast.
+tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken und verlorenen Wissens treffen. Einzeln sind sie nicht viel wert, aber wenn du genug von ihnen bekommst, könntest du an einzigartige Forschungen kommen, die du fortführen könntest. Für gewöhnlich kann die Forschung, die sie enthüllen, nicht auf normale Weise erhalten werden.<BR>Diese Fragmente des Wissens können manchmal zu falschen Theorien führen, aber dies wird enthüllt, wenn du versucht, weiter nachzuforschen. Wenn das passiert, wirst du die meisten deiner Wissensfragmente zurückbekommen. Es bedeuted für gewöhnlich, dass du all deine Forschungsanstrengungen in verlorenes Wissen verschwendet hast.
 #
 tc.research_name.ASPECTS=Aspekte der Magie
 tc.research_text.ASPECTS=Die Grundsteine der Magie
