@@ -153,10 +153,10 @@ tile.blockStoneDevice.1.name=Arkaner Sockel
 tile.blockStoneDevice.2.name=Runenmatrix
 tile.blockStoneDevice.3.name=Infusionssäule
 tile.blockStoneDevice.4.name=Infusionssäule
-tile.blockStoneDevice.5.name=Stabwiederaufladungssockel
+tile.blockStoneDevice.5.name=Stabaufladungssockel
 tile.blockStoneDevice.6.name=Infusionssäule
 tile.blockStoneDevice.7.name=Infusionssäule
-tile.blockStoneDevice.8.name=Zusammengesetzter Stabfokus
+tile.blockStoneDevice.8.name=Zusammensetzungs-Aufladefokus
 container.alchemyfurnace=Alchemischer Ofen
 #
 # Items
@@ -274,7 +274,7 @@ item.ItemPickThaumium.name=Thaumiumspitzhacke
 item.ItemHoeThaumium.name=Thaumiumhacke
 item.researchnotes.name=Forschungsnotizen
 item.discovery.name=Entdeckung
-item.ItemWispEssence.name=Wispige Essenz
+item.ItemWispEssence.name=Ätherische Essenz
 item.ItemEssence.0.name=Glasphiole
 item.ItemEssence.1.name=Essentiaphiole
 item.ItemGolemCore.name=Golembelebungskern
@@ -495,7 +495,7 @@ tc.research_page.RESEARCH.14=times to get them into position.<BR>Inactive runes 
 #
 tc.research_name.KNOWFRAG=Wissensfragmente
 tc.research_text.KNOWFRAG=Fragmente verlorenen Wissens
-tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge. On their own they aren't worth much, but if you gather enough of them together you might gain unique research that you can pursue. Usually the research they reveal cannot be gained through normal means.<BR>The fragments of knowledge can on occasion lead to a false theory, but this will be revealed when you attempt to research it. When this happens most of your knowledge fragments will be returned to you. When this happens it usually means you have exhausted all current avenues of research into lost knowledge.
+tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken und verlorenen Wissens treffen. Einzeln sind sie nicht viel wert, aber wenn du genug von ihnen bekommst, könntest du an einzigartige Forschungen kommen, die du fortführen könntest. Für gewöhnlich kann die Forschung, die sie enthüllen, nicht auf normale Weise erhalten werden.<BR>Diese Fragmente des Wissens können manchmal zu falschen Theorien führen, aber dies wird enthüllt, wenn du versucht, weiter nachzuforschen. Wenn das passiert, wirst du die meisten deiner Wissensfragmente zurückbekommen. Wenn das passiert, heißt es für gewöhnlich, dass du all deine Forschungsanstrengungen in verlorenes Wissen erschöpft hast.
 #
 tc.research_name.ASPECTS=Aspekte der Magie
 tc.research_text.ASPECTS=Die Grundsteine der Magie
@@ -579,7 +579,7 @@ tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is m
 #
 tc.research_name.HUNGRYCHEST=Hungrige Truhe
 tc.research_text.HUNGRYCHEST=Eine Truhe, die nicht darauf wartet, geöffnet zu werden
-tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
+tc.research_page.HUNGRYCHEST.1=Die Hungrige Truhe ist fähig, Items von selbst aufzusammeln, wenn sie nahe genug sind, dass die Truhe sie berühren kann.
 #
 tc.research_name.CAP_gold=Gold-Stabkappen
 tc.research_text.CAP_gold=Dinge mit Stil bekappen
@@ -967,4 +967,12 @@ tc.research_page.PAVETRAVEL.1=By altering the magical structure of arcane stone 
 tc.research_name.PAVEWARD=Pflasterstein des Bannens
 tc.research_text.PAVEWARD=Behält Dinge draußen
 tc.research_page.PAVEWARD.1=You have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most of common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the area you wish to protect and the outside world.<BR>An active redstone signal will disable this block.
+#
+tc.research_name.WANDPED=Stabaufladungssockel
++tc.research_text.WANDPED=Automatisches Stabaufladen
++tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from nearby nodes.<BR>Nodes will not be fully drained unless it is a poor quality wand crafted from iron or sticks.
++#
++tc.research_name.WANDPEDFOC=Zusammensetzungs-Aufladefokus
++tc.research_text.WANDPEDFOC=Für alles einen Nutzen
++tc.research_page.WANDPEDFOC.1=In your travels you have discovered several nodes that contain compound aspects, but as yet there has been no way to tap this rich source of vis. Until now.<BR>This focus can be placed on top of a wand recharge pedestal which will allow any wand it contains to siphon off the compound vis from nearby nodes. Unfortunately each point of compound vis is broken down into a single point of primal vis and all the excess energy is lost. However it is a good start and you are sure you will discover better ways to access this resource. 
 #
