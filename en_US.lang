@@ -156,7 +156,7 @@ tile.blockStoneDevice.4.name=Infusion Pillar
 tile.blockStoneDevice.5.name=Wand Recharge Pedestal
 tile.blockStoneDevice.6.name=Infusion Pillar
 tile.blockStoneDevice.7.name=Infusion Pillar
-tile.blockStoneDevice.8.name=Compound Wand Focus
+tile.blockStoneDevice.8.name=Compound Recharge Focus
 container.alchemyfurnace=Alchemical Furnace
 #
 # Items
@@ -274,7 +274,7 @@ item.ItemPickThaumium.name=Thaumium Pickaxe
 item.ItemHoeThaumium.name=Thaumium Hoe
 item.researchnotes.name=Research Notes
 item.discovery.name=Discovery
-item.ItemWispEssence.name=Wispy Essence
+item.ItemWispEssence.name=Ethereal Essence
 item.ItemEssence.0.name=Glass Phial
 item.ItemEssence.1.name=Phial of Essentia
 item.ItemGolemCore.name=Golem Animation Core
@@ -967,4 +967,12 @@ tc.research_page.PAVETRAVEL.1=By altering the magical structure of arcane stone 
 tc.research_name.PAVEWARD=Paving Stone of Warding
 tc.research_text.PAVEWARD=Keeping things out
 tc.research_page.PAVEWARD.1=You have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most of common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the area you wish to protect and the outside world.<BR>An active redstone signal will disable this block.
+#
+tc.research_name.WANDPED=Wand Recharge Pedestal
+tc.research_text.WANDPED=Automated Wand Recharging
+tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from nearby nodes.<BR>Nodes will not be fully drained unless it is a poor quality wand crafted from iron or sticks.
+#
+tc.research_name.WANDPEDFOC=Compound Recharge Focus
+tc.research_text.WANDPEDFOC=For everything a use
+tc.research_page.WANDPEDFOC.1=In your travels you have discovered several nodes that contain compound aspects, but as yet there has been no way to tap this rich source of vis. Until now.<BR>This focus can be placed on top of a wand recharge pedestal which will allow any wand it contains to siphon off the compound vis from nearby nodes. Unfortunately each point of compound vis is broken down into a single point of primal vis and all the excess energy is lost. However it is a good start and you are sure you will discover better ways to access this resource. 
 #
