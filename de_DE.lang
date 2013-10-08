@@ -153,8 +153,10 @@ tile.blockStoneDevice.1.name=Arkaner Sockel
 tile.blockStoneDevice.2.name=Runenmatrix
 tile.blockStoneDevice.3.name=Infusionssäule
 tile.blockStoneDevice.4.name=Infusionssäule
+tile.blockStoneDevice.5.name=Stabwiederaufladungssockel
 tile.blockStoneDevice.6.name=Infusionssäule
 tile.blockStoneDevice.7.name=Infusionssäule
+tile.blockStoneDevice.8.name=Zusammengesetzter Stabfokus
 container.alchemyfurnace=Alchemischer Ofen
 #
 # Items
@@ -188,7 +190,7 @@ item.Wand.silverwood.rod=Silberholz -
 item.Wand.obsidian.rod=Obsidian -
 item.Wand.blaze.rod=Lohender
 item.Wand.ice.rod=Eisiger
-item.Wand.ice.rod=Knochen -
+item.Wand.bone.rod=Knochen -
 item.Wand.reed.rod=Rohr -
 item.Wand.quartz.rod=Quarz -
 item.Wand.iron.cap=Eisenbekappter
@@ -584,7 +586,7 @@ tc.research_text.CAP_gold=Dinge mit Stil bekappen
 tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
 #
 tc.research_name.CAP_thaumium=Thaumium-Stabkappen
-tc.research_text.CAP_thaumium=Mystische Stabfoki
+tc.research_text.CAP_thaumium=Mystische Stabkappen
 tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.
 #
 tc.research_name.CAP_silver=Silber-Stabkappen
@@ -626,10 +628,6 @@ tc.research_page.ROD_quartz.1=A wand core chiselled from nether quartz has sligh
 tc.research_name.ROD_reed=Rohr-Stabkern
 tc.research_text.ROD_reed=Luftiger Visspeicher
 tc.research_page.ROD_reed.1=A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of aer stored inside it drops below 10%, its will slowly replenish without the use of a node.
-#
-tc.research_name.ROD_ice=Eisiger Stabkern
-tc.research_text.ROD_ice=Eisiger Visspeicher
-tc.research_page.ROD_ice.1=Wand cores crafted from ice can store the same amount of vis as greatwood cores. What makes it superior to greatwood cores however is that if the level of aqua stored inside it drops below 10%, its icy nature will slowly replenish it.
 #
 tc.research_name.FOCUSFIRE=Stabfoki
 tc.research_text.FOCUSFIRE=Form trifft auf Funktion
@@ -790,7 +788,7 @@ tc.research_text.GOLEMIRON=Wie Dorfgolems, nur kleiner... und besser
 tc.research_page.GOLEMIRON.1=Iron golems are extremely tough and strong, able to carry huge loads. Their weight however causes them to move quite slowly.<BR>§l§nIron Golem Attributes§r<BR>§lDurability:§r High<BR>§lStrength§r High<BR>§lSelf-repair:§r Very Slow<BR>§lCarry Limit:§r 32<BR>§lSpeed:§r Very Slow<BR>§lUpgrades:§r 1
 #
 tc.research_name.GOLEMTHAUMIUM=Thaumium Golems
-tc.research_text.GOLEMTHAUMIUM=Einfache Magische Helfer
+tc.research_text.GOLEMTHAUMIUM=Mystische Helfer
 tc.research_page.GOLEMTHAUMIUM.1=Thaumium golems have slightly better attributes than iron golems and are able to have 2 upgrades. They are also highly resistant to magical damage.<BR>§l§nThaumium Golem Attributes§r<BR>§lDurability:§r Very High<BR>§lStrength§r High<BR>§lSelf-repair:§r Slow<BR>§lCarry Limit:§r 32<BR>§lSpeed:§r Slow<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMBELL=Glocke des Golemanten
