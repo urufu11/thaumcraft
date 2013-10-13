@@ -495,7 +495,7 @@ tc.research_page.RESEARCH.14=times to get them into position.<BR>Inactive runes 
 #
 tc.research_name.KNOWFRAG=Knowledge Fragments
 tc.research_text.KNOWFRAG=Fragments of lost lore
-tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge. On their own they aren't worth much, but if you gather enough of them together you might gain unique research that you can pursue. Usually the research they reveal cannot be gained through normal means.<BR>The fragments of knowledge can on occasion lead to a false theory, but this will be revealed when you attempt to research it. When this happens most of your knowledge fragments will be returned to you. This usually means then that you have exhausted all current avenues of research into lost knowledge.
+tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge. On their own they aren't worth much, but if you gather enough of them together you might gain unique research that you can pursue. Usually the research they reveal cannot be gained through normal means.<BR>The fragments of knowledge can on occasion lead to a false theory, but this will be revealed when you attempt to research it. When this happens most of your knowledge fragments will be returned to you and it usually means you have exhausted all current avenues of research into lost knowledge.
 #
 tc.research_name.ASPECTS=Aspects of Magic
 tc.research_text.ASPECTS=The building blocks of magic
@@ -591,7 +591,7 @@ tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and a
 #
 tc.research_name.CAP_silver=Silver Wand Caps
 tc.research_text.CAP_silver=Capping things off with a little less style
-tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, eart, air and water).
+tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, earth, air and water).
 #
 tc.research_name.CAP_copper=Copper Wand Caps
 tc.research_text.CAP_copper=When iron caps just won't cut it
@@ -656,7 +656,7 @@ tc.research_page.FOCUSHELLBAT.1=Your trips onto the Nether have taught you to fe
 #
 tc.research_name.FOCUSPORTABLEHOLE=Wand Focus: Portable Hole
 tc.research_text.FOCUSPORTABLEHOLE=Never be without an exit again
-tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extradimensional spaces. Using this focus on a wall or other surface wilkl create an extradimensional passage leading to the other side.<BR>This 'hole' only remains open for a few seconds and drains vis from the wand depending on its depth.<BR>Extradimensional holes cannot be created through certain kinds of matter or particularly complex objects.
+tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extradimensional spaces. Using this focus on a wall or other surface will create an extradimensional passage leading to the other side.<BR>This 'hole' only remains open for a few seconds and drains vis from the wand depending on its depth.<BR>Extradimensional holes cannot be created through certain kinds of matter or particularly complex objects.
 #
 tc.research_name.FOCUSPOUCH=Focus Pouch
 tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
@@ -777,7 +777,7 @@ tc.research_page.GOLEMCLAY.1=Fired clay is proven to be a superior crafting mate
 #
 tc.research_name.GOLEMFLESH=Flesh Golems
 tc.research_text.GOLEMFLESH=It's alive!
-tc.research_page.GOLEMFLESH.1=While macabre, golems made from zombie flesh has several features to reccomend them. Not only do they repair themselves very quickly, they are also able to hold 2 upgrades.<BR>§l§nFlesh Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength:§r Average<BR>§lSelf-repair:§r Very Fast<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMFLESH.1=While macabre, golems made from zombie flesh has several features to reccomend them. Not only does it repair itself very quickly, it is able to hold 2 upgrades.<BR>§l§nFlesh Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength:§r Average<BR>§lSelf-repair:§r Very Fast<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMSTONE=Stone Golems
 tc.research_text.GOLEMSTONE=Strong, but slow
@@ -798,7 +798,7 @@ tc.research_page.GOLEMBELL.2=<BR>Shift + right-clicking on a marked location wil
 #
 tc.research_name.COREGATHER=Golem Core: Gather
 tc.research_text.COREGATHER=Picking up what you are putting down
-tc.research_page.COREGATHER.1=Golem Animations cores are used to give your golems purpose - without a core they remain inanimate.<BR>The first such core you are able to create is the §5Gather§0 core.<BR>Golems fitted with this core will seek dropped items within 16 blocks, pick them up and then place them inside an attached inventory. If they are not attached to an inventory they will simply hold on to them.<BR>If you right click on the golem you will be able to set specific kinds of items it should pick up - all others will be ignored.
+tc.research_page.COREGATHER.1=Golem Animations cores are used to give your golems purpose - without a core they remain inanimate.<BR>The first such core you are able to create is the §5Gather§0 core.<BR>Golems fitted with this core will seek dropped items within 16 blocks, pick them up and then place them inside an attached inventory. If they are not attached to an inventory they will simply hold on to them.<BR>If you right click on the golem you will be able to set specific items they should pick up - all others will be ignored.
 tc.research_page.COREGATHER.2=Simply right-click on a freshly placed golem with a core to attach it to the golem. 
 #
 tc.research_name.COREEMPTY=Golem Core: Empty
