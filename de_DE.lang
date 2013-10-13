@@ -153,10 +153,10 @@ tile.blockStoneDevice.1.name=Arkaner Sockel
 tile.blockStoneDevice.2.name=Runenmatrix
 tile.blockStoneDevice.3.name=Infusionssäule
 tile.blockStoneDevice.4.name=Infusionssäule
-tile.blockStoneDevice.5.name=Stabwiederaufladungssockel
+tile.blockStoneDevice.5.name=Stabaufladungssockel
 tile.blockStoneDevice.6.name=Infusionssäule
 tile.blockStoneDevice.7.name=Infusionssäule
-tile.blockStoneDevice.8.name=Zusammengesetzter Stabfokus
+tile.blockStoneDevice.8.name=Zusammensetzungs-Aufladefokus
 container.alchemyfurnace=Alchemischer Ofen
 #
 # Items
@@ -274,10 +274,10 @@ item.ItemPickThaumium.name=Thaumiumspitzhacke
 item.ItemHoeThaumium.name=Thaumiumhacke
 item.researchnotes.name=Forschungsnotizen
 item.discovery.name=Entdeckung
-item.ItemWispEssence.name=Wispige Essenz
+item.ItemWispEssence.name=Ätherische Essenz
 item.ItemEssence.0.name=Glasphiole
 item.ItemEssence.1.name=Essentiaphiole
-item.ItemGolemCore.name=Golembelebungskern
+item.ItemGolemCore.name=Golemanimationskern
 item.ItemGolemCore.0.name=Füllen
 item.ItemGolemCore.1.name=Leeren
 item.ItemGolemCore.2.name=Sammeln
@@ -495,7 +495,7 @@ tc.research_page.RESEARCH.14=times to get them into position.<BR>Inactive runes 
 #
 tc.research_name.KNOWFRAG=Wissensfragmente
 tc.research_text.KNOWFRAG=Fragmente verlorenen Wissens
-tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge. On their own they aren't worth much, but if you gather enough of them together you might gain unique research that you can pursue. Usually the research they reveal cannot be gained through normal means.<BR>The fragments of knowledge can on occasion lead to a false theory, but this will be revealed when you attempt to research it. When this happens most of your knowledge fragments will be returned to you. When this happens it usually means you have exhausted all current avenues of research into lost knowledge.
+tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken und verlorenen Wissens treffen. Einzeln sind sie nicht viel wert, aber wenn du genug von ihnen bekommst, könntest du an einzigartige Forschungen kommen, die du fortführen könntest. Für gewöhnlich kann die Forschung, die sie enthüllen, nicht auf normale Weise erhalten werden.<BR>Diese Fragmente des Wissens können manchmal zu falschen Theorien führen, aber dies wird enthüllt, wenn du versucht, weiter nachzuforschen. Wenn das passiert, wirst du die meisten deiner Wissensfragmente zurückbekommen. Es bedeuted für gewöhnlich, dass du all deine Forschungsanstrengungen in verlorenes Wissen verschwendet hast.
 #
 tc.research_name.ASPECTS=Aspekte der Magie
 tc.research_text.ASPECTS=Die Grundsteine der Magie
@@ -579,11 +579,11 @@ tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is m
 #
 tc.research_name.HUNGRYCHEST=Hungrige Truhe
 tc.research_text.HUNGRYCHEST=Eine Truhe, die nicht darauf wartet, geöffnet zu werden
-tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
+tc.research_page.HUNGRYCHEST.1=Die Hungrige Truhe ist fähig, Items von selbst aufzusammeln, wenn sie nahe genug sind, dass die Truhe sie berühren kann.
 #
 tc.research_name.CAP_gold=Gold-Stabkappen
 tc.research_text.CAP_gold=Dinge mit Stil bekappen
-tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
+tc.research_page.CAP_gold.1=Gold ist ein deutlich besseres Fokussiermaterial als Eisen, und Stabkappen aus diesem Material haben keine Verluste, wenn sie Vis leiten.
 #
 tc.research_name.CAP_thaumium=Thaumium-Stabkappen
 tc.research_text.CAP_thaumium=Mystische Stabkappen
@@ -595,7 +595,7 @@ tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as
 #
 tc.research_name.CAP_copper=Kupfer-Stabkappen
 tc.research_text.CAP_copper=Wenn Eisenkappen es einfach nicht packen
-tc.research_page.CAP_copper.1=Copper has similar properties to iron when used as a wand cap, but is as efficient as gold when used to channel Ordo or Perditio vis.
+tc.research_page.CAP_copper.1=Kupfer hat ähnliche Eigenschaften wie Eisen, wenn als Stabkappe genutzt, aber ist effizient wie Gold, wenn es darum geht, Ordo- oder Perdito-Vis zu leiten.
 #
 tc.research_name.ROD_greatwood=Großholz-Stabkern
 tc.research_text.ROD_greatwood=Behältnis für magische Energie
@@ -666,17 +666,17 @@ tc.research_name.BOOTSTRAVELLER=Stiefel des Reisenden
 tc.research_text.BOOTSTRAVELLER=These boots were made for walking
 tc.research_page.BOOTSTRAVELLER.1=This pair of enchanted boots have been stuffed full of magic to ease the journey of any traveller.<BR>They allow you to move faster than normal. They also allow you to jump higher and fall further.<BR>Lastly they allow you to cut through water like a fish. A slow and clumsy fish, but a fish nonetheless.
 #
-tc.research_name.PHIAL=Glassphiole
+tc.research_name.PHIAL=Glasphiole
 tc.research_text.PHIAL=Mystische Container
-tc.research_page.PHIAL.1=Glass phials are capable of holding all manner of liquids and substances, but their most important use to a thaumaturge is their ability to hold Essentia.<BR>Essentia is not easy to gather however and it indelibly stains the phial, making it only usable once. 
+tc.research_page.PHIAL.1=Glasphiolen sind fähig, alle Arten von Flüssigkeiten und substanzen zu halten, aber ihr größter Nutzen für einen Thaumaturgen ist ihre Fähigkeit, Essentia zu halten.<BR>Essentia ist jedoch nicht einfach zu bekommen und sie verfärbt die Phiole unlöschbar, wodurch man Phiolen nur einmal nutzen kann. 
 #
 tc.research_name.TABLE=Tisch
 tc.research_text.TABLE=Etwas Änderung ist nötig
-tc.research_page.TABLE.1=The table is more than a simple decorative block - it also serves as a base for other surfaces useful in the practice of magic, like the Arcane Worktable and the Research Table. 
+tc.research_page.TABLE.1=Der Tisch ist mehr als ein einfacher dekorativer Block - er dient auch als Basis für andere Oberflächen, die für die Praxis der Magie nützlich sind, wie den Arkanen Werktisch oder den Forschungstisch. 
 #
 tc.research_name.ARCTABLE=Arkaner Werktisch
 tc.research_text.ARCTABLE=Herstellung mit Magie
-tc.research_page.ARCTABLE.1=To create an Arcane Worktable simply right-click with a wand on a table you have placed in the world. The Arcane Worktable serves the same purpose as a normal crafting table, with a few key exceptions.<BR>Apart from normal crafting recipes, it can also craft some of the items unique to Thaumaturgy. To do that you need to place a wand in the top-right slot. This will allow you to craft items that require vis by drawing the energy directly from the wand.<BR>The vis required to craft an item will be shown in the six circular symbols surrounding the crafting grid.
+tc.research_page.ARCTABLE.1=Um einen Arkanen Werktisch zu kreieren, musst du einfach mit einem Stab einen Tisch, den du platziert hast, rechtsklicken. Der Arkane Werktisch funktioniert wie eine normale Werkbank, mit ein paar wichtigen Unterschieden.<BR>Neben normalen Herstellungsrezepten kann er auch einige der Items herstellen, die einzig für Thaumaturgie sind. Dafür musst du einen Stab in den Slot oben rechts platzieren. Das wird dir erlauben, Items herzustellen, die Vis benötigen, indem die Energie direkt aus dem Stab gesogen wird.<BR>Das Vis, das nur Herstellung eines Items nötig ist, wird in den sechs runden Symbolen, die das Handwerksgitter umgeben, angezeigt.
 #
 tc.research_name.RESTABLE=Forschungstisch
 tc.research_text.RESTABLE=Um sich Wissen anzueignen
@@ -727,83 +727,83 @@ tc.research_page.ELEMENTALHOE.1=By merging the magical energy from order and ent
 #
 tc.research_name.GUNPOWDER=Schwarzpulver
 tc.research_text.GUNPOWDER=Wer braucht schon Creeper?
-tc.research_page.GUNPOWDER.1=You have discovered an alternate source of gunpowder! No more hunting creepers for this explosive substance.
+tc.research_page.GUNPOWDER.1=Du hast eine alternative Quelle für Schwarzpulver entdeckt! Nie wieder musst du nun für diese explosive Substanz Creeper jagen.
 #
 tc.research_name.TRANSIRON=Eisentransmutation
 tc.research_text.TRANSIRON=Transformation von Metallen zu Eisen
-tc.research_page.TRANSIRON.1=You have discovered a way to multiply iron by steeping iron nuggets in §5metallum§0 harvested from other metals.
+tc.research_page.TRANSIRON.1=Du hast einen Weg gefunden, Eisen zu verfielfachen, indem du Eisennuggets in §5Metallum§0 tränkst, das du von anderen Metallen bekommen hast.
 #
 tc.research_name.TRANSGOLD=Goldtansmutation
 tc.research_text.TRANSGOLD=Transformation von Metallen zu Gold
-tc.research_page.TRANSGOLD.1=You have discovered a way to multiply gold by steeping gold nuggets in §5metallum§0 harvested from other metals.
+tc.research_page.TRANSGOLD.1=Du hast einen Weg gefunden, Gold zu verfielfachen, indem du Goldnuggets in §5Metallum§0 tränkst, das du von anderen Metallen bekommen hast.
 #
 tc.research_name.TRANSCOPPER=Kupfertransmutation
 tc.research_text.TRANSCOPPER=Transformation von Metallen zu Kupfer
-tc.research_page.TRANSCOPPER.1=You have discovered a way to multiply copper by steeping copper nuggets in §5metallum§0 harvested from other metals.
+tc.research_page.TRANSCOPPER.1=Du hast einen Weg gefunden, Kupfer zu verfielfachen, indem du Kupfernuggets in §5Metallum§0 tränkst, das du von anderen Metallen bekommen hast.
 #
 tc.research_name.TRANSTIN=Zinntransmutation
 tc.research_text.TRANSTIN=Transformation von Metallen zu Zinn
-tc.research_page.TRANSTIN.1=You have discovered a way to multiply tin by steeping tin nuggets in §5metallum§0 harvested from other metals.
+tc.research_page.TRANSTIN.1=Du hast einen Weg gefunden, Zinn zu verfielfachen, indem du Zinnnuggets in §5Metallum§0 tränkst, das du von anderen Metallen bekommen hast.
 #
 tc.research_name.TRANSSILVER=Sibertransmutation
 tc.research_text.TRANSSILVER=Transformation von Metallen zu Silber
-tc.research_page.TRANSSILVER.1=You have discovered a way to multiply silver by steeping silver nuggets in §5metallum§0 harvested from other metals.
+tc.research_page.TRANSSILVER.1=Du hast einen Weg gefunden, Silber zu verfielfachen, indem du Silbernuggets in §5Metallum§0 tränkst, das du von anderen Metallen bekommen hast.
 #
 tc.research_name.TRANSLEAD=Bleitransmutation
 tc.research_text.TRANSLEAD=Transformation von Metallen zu Blei
-tc.research_page.TRANSLEAD.1=You have discovered a way to multiply lead by steeping lead nuggets in §5metallum§0 harvested from other metals.
+tc.research_page.TRANSLEAD.1=Du hast einen Weg gefunden, Blei zu verfielfachen, indem du Bleinuggets in §5Metallum§0 tränkst, das du von anderen Metallen bekommen hast.
 #
 tc.research_name.TALLOW=Magischer Talg
 tc.research_text.TALLOW=Bares Fett mit einem Hauch Magie
-tc.research_page.TALLOW.1=By processing and heating flesh in a crucible, you you can create a mystical tallow suited for many arcane uses.<BR>This tallow can be used to craft candles. It is also possible to craft different coloured candles by combining a candle with a dye in an arcane workbench.
+tc.research_page.TALLOW.1=Wenn du Fleisch in einem Tiegel erhitt und verarbeitest, kannst du mystischen Talg kreieren, passend für viele arkane Nutzungsmöglichkeiten.<BR>Dieser Talg kann genutzt werden, um Kerzen herzustellen. Es ist auch möglich, verschiedenfarbige Kerzen herzustellen, indem du eine Kerze in einem Arkanen Werktisch mit einem Farbstoff kombinierst.
 #
 tc.research_name.GOLEMSTRAW=Strohgolems
 tc.research_text.GOLEMSTRAW=Einfache Magische Helfer
 tc.research_page.GOLEMSTRAW.1=You have discovered the secret of creating golem workers. While the Iron Golem is impressive in its own way, it is very limited and uncontrollable. You have managed to solve both those problems.<BR>Your golem workers have just enough will and self-awareness to make them useful tools, but not enough to render them uncontrollable.<LINE>You have also discovered how to make the §5Golemancer's Bell§0 and §5Golem Animation Cores§0 (see their respective research entries for more detail).
 tc.research_page.GOLEMSTRAW.2=The golem you craft can be placed in the world, but will remain inactive until given an animation core.<BR>The placement of the golem needs to be considered carefully - if you wish it to interact with inventories, you will need to place it by clicking (or shift-clicking) on the inventory on the side you wish it to interact with.<BR>Most golems can operate in a range of 16 blocks around their home location.
-tc.research_page.GOLEMSTRAW.3=The first golem you can create is made from bundles of hay and straw. It is physically weak and easy to destroy, but very light and nimble.<BR>§l§nStraw Golem Attributes§r<BR>§lDurability:§r Very Low<BR>§lStrength§r Very Low<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 1<BR>§lSpeed:§r Fast<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMSTRAW.3=The first golem you can create is made from bundles of hay and straw. It is physically weak and easy to destroy, but very light and nimble.<BR>§l§nStraw Golem Attributes§r<BR>§lDurability:§r Very Low<BR>§lStrength§r Very Low<BR>§lSelf-repair:§r Durchschnittlich<BR>§lCarry Limit:§r 1<BR>§lSpeed:§r Fast<BR>§lUpgrades:§r 1
 #
 tc.research_name.GOLEMWOOD=Hölzerne Golems
 tc.research_text.GOLEMWOOD=Wie viel Holz würd' ein Holzgolem fällen, würd' ein Holzgolem Holz fällen können?
-tc.research_page.GOLEMWOOD.1=This golem is carved from a greatwood log. It is a moderate improvement over the straw golem.<BR>§l§nWood Golem Attributes§r<BR>§lDurability:§r Below Average<BR>§lStrength§r Low<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 4<BR>§lSpeed:§r Above Average<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMWOOD.1=Dieser Golem ist aus einem Großholzstamm geschnitzt. Er ist eine mäßige Verbesserung gegenüber dem Strohgolem.<BR>§l§nHolzgolem-Attribute§r<BR>§lHaltbarkeit:§r Unterdurchschnittlich<BR>§lStärke:§r Gering<BR>§lSelbstreparatur:§r Durchschnittlich<BR>§lTragelimit:§r 4<BR>§lGeschwindigkeit:§r Überdurchschnittlich<BR>§lUpgrades:§r 1
 #
 tc.research_name.GOLEMTALLOW=Talggolems
 tc.research_text.GOLEMTALLOW=Von offenem Feuer fernhalten
-tc.research_page.GOLEMTALLOW.1=This advanced golem is only marginally better than the wood golem, but is capable of holding two upgrades.<BR>§l§nTallow Golem Attributes§r<BR>§lDurability:§r Low<BR>§lStrength§r Low<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 4<BR>§lSpeed:§r Above Average<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMTALLOW.1=Dieser fortgeschrittene Golem ist nur geringfügig besser als der Holzgolem, aber er ist fähig, zwei Upgrades zu tragen.<BR>§l§nTalggolem-Attribute§r<BR>§lHaltbarkeit:§r Gering<BR>§lStärke:§r Gering<BR>§lSelbstreparatur:§r Durchschnittlich<BR>§lTragelimit:§r 4<BR>§lGeschwindigkeit:§r Überdurchschnittlich<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMCLAY=Lehmgolems
 tc.research_text.GOLEMCLAY=Robust und strapazierfähig
-tc.research_page.GOLEMCLAY.1=Fired clay is proven to be a superior crafting material for golems. It is fireproof and has more than adequate mobility.<BR>§l§nClay Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength§r Average<BR>§lSelf-repair:§r Slow<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMCLAY.1=Gebrannter Ton hat sich als überragendes Baumaterial für Golems bewährt. Er ist feuerfest und bietet mehr als adäquate Mobilität.<BR>§l§nLehmgolem-Attribute§r<BR>§lHaltbarkeit:§r Durchschnittlich<BR>§lStärke:§r Durchschnittlich<BR>§lSelbstreparatur:§r Langsam<BR>§lTragelimit:§r 8<BR>§lGeschwindigkeit:§r Durchschnittlich<BR>§lUpgrades:§r 1
 #
 tc.research_name.GOLEMFLESH=Fleischgolems
 tc.research_text.GOLEMFLESH=Es lebt!
-tc.research_page.GOLEMFLESH.1=While macabre, golems made from zombie flesh has several features to reccomend them. Not only does it repair itself very quickly, it is able to hold 2 upgrades.<BR>§l§nFlesh Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength§r Average<BR>§lSelf-repair:§r Very Fast<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMFLESH.1=Während makaber, haben Golems gemacht aus Zombiefleisch einige Eigenschaften, die sie empfehlenswert machen. Nicht nur, dass sie sich selbst sehr schnell reparieren, sie können auch zwei Upgrades tragen.<BR>§l§nFleischgolem-Attribute§r<BR>§lHaltbarkeit:§rDurchschnittlich<BR>§lStärke:§r Durchschnittlich<BR>§lSelbstreparatur:§r Sehr schnell<BR>§lTragelimit:§r 8<BR>§lGeschwindigkeit:§r Durchschnittlich<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMSTONE=Steingolems
 tc.research_text.GOLEMSTONE=Stark, aber langsam
-tc.research_page.GOLEMSTONE.1=Stone golems are very durable and able to carry heavy loads, but they are much slower than most other golems.<BR>§l§nStone Golem Attributes§r<BR>§lDurability:§r Above Average<BR>§lStrength§r Above Average<BR>§lSelf-repair:§r Slow<BR>§lCarry Limit:§r 16<BR>§lSpeed:§r Slow<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMSTONE.1=Steingolems sind sehr haltbar und fähig, große Lasten zu tragen, aber sie sind viel langsamer als die meisten anderen Golems.<BR>§l§nSteingolem-Attribute§r<BR>§lHaltbarkeit:§r Überdurchschnittlich<BR>§lStärke:§r Überdurchschnittlich<BR>§lSelbstreparatur:§r Langsam<BR>§lTragelimit:§r 16<BR>§lGeschwindigkeit:§r Langsam<BR>§lUpgrades:§r 1
 #
 tc.research_name.GOLEMIRON=Eisengolems
 tc.research_text.GOLEMIRON=Wie Dorfgolems, nur kleiner... und besser
-tc.research_page.GOLEMIRON.1=Iron golems are extremely tough and strong, able to carry huge loads. Their weight however causes them to move quite slowly.<BR>§l§nIron Golem Attributes§r<BR>§lDurability:§r High<BR>§lStrength§r High<BR>§lSelf-repair:§r Very Slow<BR>§lCarry Limit:§r 32<BR>§lSpeed:§r Very Slow<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMIRON.1=Eisengolems sind extrem robust und stark, fähig, gewaltige Lasten zu tragen. Ihr Gewicht jedoch verursacht, dass sie sich ziemlich langsam bewegen.<BR>§l§nEisengolem-Attribute§r<BR>§lHaltbarkeit:§r Hoch<BR>§lStärke:§r Hoch<BR>§lSelbstreparatur:§r Sehr langsam<BR>§lTragelimit:§r 32<BR>§lGeschwindigkeit:§r Sehr langsam<BR>§lUpgrades:§r 1
 #
 tc.research_name.GOLEMTHAUMIUM=Thaumium Golems
 tc.research_text.GOLEMTHAUMIUM=Mystische Helfer
-tc.research_page.GOLEMTHAUMIUM.1=Thaumium golems have slightly better attributes than iron golems and are able to have 2 upgrades. They are also highly resistant to magical damage.<BR>§l§nThaumium Golem Attributes§r<BR>§lDurability:§r Very High<BR>§lStrength§r High<BR>§lSelf-repair:§r Slow<BR>§lCarry Limit:§r 32<BR>§lSpeed:§r Slow<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMTHAUMIUM.1=Thaumiumgolems haben etwas bessere Attribute als Eisengolems und sind fähig, zwei Upgrades zu tragen. Auch sind sie äußerst resistent gegen magischen Schaden.<BR>§l§nThaumiumgolem-Attribute§r<BR>§lHaltbarkeit:§r Sehr hoch<BR>§lSärke:§r Hoch<BR>§lSelbstreparatur:§r Langsam<BR>§lTragelimit:§r 32<BR>§lGeschwindigkeit:§r Langsam<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMBELL=Glocke des Golemanten
 tc.research_text.GOLEMBELL=Gib Acht
-tc.research_page.GOLEMBELL.1=Golems are notoriously bad at following verbal commands, but this bell allows you to avoid all that.<BR>Simply right click on a golem to select it. Once that is done a glowing, gearlike circle will appear indicating the golems 'home' location and the side it is attached to.<BR> You are now able to right click anywhere in the world to link the golem to blocks, locations or inventories it may interact with. Clicking on the same location will either unmark it, or cycle through different colors if the golem is able to interact with different colored markers.
-tc.research_page.GOLEMBELL.2=<BR>Shift + right-clicking on a marked location will always clear it and pressing F will clear all marked locations.<LINE>Left-clicking on a golem picks it up with all its current upgrades and settings intact. Shift + left-clicking picks up the golem, but removes its core and any attached upgrades which drops separately. There is a good chance that upgrades will be lost if you do this however. 
+tc.research_page.GOLEMBELL.1=Golems sind notorisch schlecht darin, verbalen Befehlen zu folgen, aber diese Glocke erlaubt es dir, all das zu vermeiden.<BR>Rechtsklicke einfach einen Golem, um ihn auszuwählen. Wenn das getan ist, wird ein leuchtender, zahnradartiger Kreis erscheinen, der die 'Heimposition' des Golems und die Seite markiert, an die er gebunden ist.<BR> Du kannst nun irgendwo in der Welt rechtsklicken, um den Golem mit Blöcken, Orten oder Inventaren, mit denen er interagieren darf, zu verbinden. Wenn du die Position noch einmal anklickst, wird sie entweder demarkiert oder zwischen verschiedenen Farben wechseln, wenn der Golem fähig ist, mit verschiedenfarbigen Markern zu interagieren.
+tc.research_page.GOLEMBELL.2=<BR>Das Shift-rechtsklicken einer markierten Position wird sie auf jeden Fall demarkieren, und F zu drücken wird alle markierten Positionen demarkieren.<LINE>Wenn du einen Golem linksklickst, nimmst du ihn auf, wobei alle aktuellen Upgrades und Einstellungen intakt bleiben. Shift-linksklicken nimmt den Golem auf, aber entfernt seinen Kern und alle Upgrades, welche seperat abfallen. Es besteht jedoch eine gute Chance, dass Upgrades, wenn du das machst, verloren gehen. 
 #
 tc.research_name.COREGATHER=Golemkern: Sammeln
 tc.research_text.COREGATHER=Er sammelt auf, was du wegwirfst
-tc.research_page.COREGATHER.1=Golem Animations cores are used to give your golems purpose - without a core they remain inanimate.<BR>The first such core you are able to create is the §5Gather§0 core.<BR>Golems fitted with this core will seek dropped items within 16 blocks, pick them up and then place them inside an attached inventory. If they are not attached to an inventory they will simply hold on to them.<BR>If you right click on the golem you will be able to set specific items they should pick up - all others will be ignored.
-tc.research_page.COREGATHER.2=Simply right-click on a freshly placed golem with a core to attach it to the golem. 
+tc.research_page.COREGATHER.1=Golemanimationskerne werden genutzt, um deinen Golems einen Zweck zu geben - ohne Kern bleiben sie unbelebt.<BR>Der erste dieser Kerne, den du fähig bist zu kreieren, ist der §5Sammel§0kern.<BR>Golems, die diesen Kern tragen, werden fallengelassene Items in einem Radius von 16 Blöcken suchen, sie aufsammeln und dann in dem Inventar platzieren, an das sie gebunden sind. Wenn sie an kein Inventar gebunden sind, werden sie die Items einfach weiter festhalten.<BR>Wenn du den Golem rechtsklickst, wirst du fähig sein, spezifische Arten von Items einzustellen, die er aufsammeln soll - alle anderen werden ignoriert.
+tc.research_page.COREGATHER.2=Du musst den frisch platzierten Golem nur mit einem Kern rechtsklicken, um ihn an den Golem anzubringen.
 #
 tc.research_name.COREEMPTY=Golemkern: Leeren
 tc.research_text.COREEMPTY=Bring Dinge woanders hin
-tc.research_page.COREEMPTY.1=Golems fitted with this core will remove items from an attached inventory and take them to the marked location. If the marked location is a container, they will place it inside.<BR>If you wish, you can specify what items should be removed from the inventory by accessing the golems interface. All other items will be ignored.
+tc.research_page.COREEMPTY.1=Golems mit diesem Kern werden Items aus dem zugeteilten Inventar entfernen und zur markierten Position bringen. Wenn die markierte Position ein Container ist, werden sie die Items in ihm platzieren.<BR>Wenn du willst, kannst du festlegen, welche Items entfernt werden sollen, indem du das Interface des Golems öffnest. Alle anderen Items werden ignoriert.
 #
 tc.research_name.COREUSE=Golemkern: Nutzen
 tc.research_text.COREUSE=Clickety click
@@ -861,35 +861,35 @@ tc.research_page.UPGRADEENTROPY.1=Golems fitted with this upgrade automatically 
 #
 tc.research_name.TINYHAT=Winzige Hüte
 tc.research_text.TINYHAT=Halten die Sonne unter Kontrolle
-tc.research_page.TINYHAT.1=This tiny hat is the perfect accessory for any golem. Not only is it stylish and dashing, but any golem wearing it will have increased health and vitality.
+tc.research_page.TINYHAT.1=Dieser winzige Hut ist das perfekte Accessoire für jeden Golem. Er ist nicht nur stylisch und fesch, auch wird jeder Golem, der einen trägt, erhöhte Gesundheit und Vitalität haben.
 #
 tc.research_name.TINYFEZ=Winzige Fese
 tc.research_text.TINYFEZ=...sind auch cool
-tc.research_page.TINYFEZ.1=This strange headgear seems to fill any golem wearing it with unusual vitality, allowing it to repair damage at a much faster pace.
+tc.research_page.TINYFEZ.1=Diese seltsame Kopfbedeckung scheint einen Golem, der sie trägt, mit ungewöhnlicher Vitalität zu erfüllen, was ihm erlaubt, Schaden in deutlich höherem Tempo zu reparieren.
 #
 tc.research_name.TINYBOWTIE=Winzige Fliegen
 tc.research_text.TINYBOWTIE=...sind cool
-tc.research_page.TINYBOWTIE.1=A must for any golem on the go, this bowtie will fill it with additional energy, increasing its pace.
+tc.research_page.TINYBOWTIE.1=Ein Muss für jeden Golem on-the-go, diese Fliege wird ihn mit zusätzlicher Energie füllen, was sein Tempo erhöht.
 #
 tc.research_name.TINYGLASSES=Winzige Brillen
 tc.research_text.TINYGLASSES=Damit ich dich besser sehen kann
-tc.research_page.TINYGLASSES.1=Golems are notoriously short sighted, and these glasses alleviate that weakness to some degree.
+tc.research_page.TINYGLASSES.1=Golems sind notorisch kurzsichtig, und diese Brille behebt dieses Problem bis zu einem bestimmten Grad.
 #
 tc.research_name.TINYDART=Golemdartschießer
 tc.research_text.TINYDART=Klein aber spitz
-tc.research_page.TINYDART.1=This dart launcher can only be attached to combat golems. It is not quite as powerful as the golems primary attack, but gives golems limited to melee combat a means of attacking foes at range.
+tc.research_page.TINYDART.1=Dieser Dartschießer kann nur an Kampfgolems angebracht werden. Er ist nicht so stark wie die Primärattacke der Golems, gibt ihnen, sonst auf Nahkampfangriffe beschränkt, aber eine Möglichkeit, Feinde aus Entfernung anzugreifen.
 #
 tc.research_name.TINYVISOR=Golemvisier
 tc.research_text.TINYVISOR=Vielen Dank für Ihr Verständnis
-tc.research_page.TINYVISOR.1=This metal visor will grant a combat golem a small amount of additional armor protection. It will also insure that any foes attacked by the golem will drop experience orbs when they die.
+tc.research_page.TINYVISOR.1=Dieses Metallvisier wird einem Kampfgolem ein klein wenig mehr Schutz bieten. Es wird auch absichern, dass alle Feinde, die von dem Golem attackiert werden, Erfahrungsorbs fallen lassen, wenn sie sterben.
 #
 tc.research_name.TINYARMOR=Golem-Eisenpanzerung
 tc.research_text.TINYARMOR=Eine harte Nuss
-tc.research_page.TINYARMOR.1=The armored plating grants the golem wearing it increased resistance to physical harm. Unfortunately the additional protection comes at a cost, as all the heavy ironmongery will slow it down.
+tc.research_page.TINYARMOR.1=Die Eisenpanzerung gewährt dem Golem, der sie trägt, erhöhte Resistenz gegen pysischen Schaden. Leider kommt der zusätzliche Schutz mit einem Nachteil, denn all das schwere Eisen wird ihn langsamer machen.
 #
 tc.research_name.TINYHAMMER=Golem-Keule
 tc.research_text.TINYHAMMER=Es ist Prügelzeit
-tc.research_page.TINYHAMMER.1=This weapon increases the damage a golem will do with melee attacks.
+tc.research_page.TINYHAMMER.1=Diese Waffe erhöht den Schaden, den ein Golem mit Nahkampfattacken zufügen wird.
 #
 tc.research_name.DISTILESSENTIA=Essentia-Destillation
 tc.research_text.DISTILESSENTIA=Essentia ernten
@@ -929,8 +929,8 @@ tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of
 tc.research_page.HOVERHARNESS.2=While active the harness will constantly use Potentia.<BR>It can be enchanted with the Haste enchant to increase the speed at which you move while flying.
 #
 tc.research_name.ADVANCEDGOLEM=Fortgeschrittene Golems
-tc.research_text.ADVANCEDGOLEM=Vielleicht sollte is das noch einmal durchdenken...
-tc.research_page.ADVANCEDGOLEM.1=You have discovered a way of improving golems in several minor, but significant ways.<BR>Firstly, golems that go through this process are able to hold one additional upgrade, though they can never have more than two upgrades of a single type.<BR>Secondly, they move slightly faster.<BR>Thirdly, they have a slightly greater sight radius.<BR>You are sure the malevolant intent in their eyes is just your imagination.  
+tc.research_text.ADVANCEDGOLEM=Vielleicht sollte ich das noch einmal durchdenken...
+tc.research_page.ADVANCEDGOLEM.1=Du hast einen Weg gefunden, Golems auf viele kleine, aber bedeutende Weisen zu verbessern.<BR>Erstens sind Golems, die durch diesen Prozess kommen, fähig, ein zusätzliches Upgrade zu tragen, jedoch können sie niemals mehr als zwei einer Art tragen.<BR>Zweitens bewegen sie sich etwas schneller.<BR>Drittens haben sie eine leicht erhöhte Sichtweite.<BR>Du bist dir sicher, dass du dir den heimtückischen Ausdruck in ihren Augen nur einbildest.  
 #
 tc.research_name.ARCANEBORE=Arkaner Bohrer
 tc.research_text.ARCANEBORE=Bergbau entwickelt sich
@@ -967,4 +967,12 @@ tc.research_page.PAVETRAVEL.1=By altering the magical structure of arcane stone 
 tc.research_name.PAVEWARD=Pflasterstein des Bannens
 tc.research_text.PAVEWARD=Behält Dinge draußen
 tc.research_page.PAVEWARD.1=You have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most of common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the area you wish to protect and the outside world.<BR>An active redstone signal will disable this block.
+#
+tc.research_name.WANDPED=Stabaufladungssockel
++tc.research_text.WANDPED=Automatisches Stabaufladen
++tc.research_page.WANDPED.1=Durch die Lande zu ziehen, um deinen Stab aufzuladen, ist schön und gut, aber ein automatischer Weg, das zu tun, wäre viel besser.<BR>Dieser speziell gefertigte Sockel macht genau das - jeder Stab, der auf ihm platziert wird, wird automatisch Vis aus nahen Nodien aufnehmen.<BR>Nodien werden nicht komplett geleert, außer wenn der Stab von schlechter Qualität, gemacht aus Eisen oder Stöcken, ist.
++#
++tc.research_name.WANDPEDFOC=Zusammensetzungs-Aufladefokus
++tc.research_text.WANDPEDFOC=Für alles einen Nutzen
++tc.research_page.WANDPEDFOC.1=Auf deinen Reisen hast du einige Nodien entdeckt, die zusammengesetzte Aspekte enthalten, aber bis jetzt gab es keinen Weg, diese reiche Quelle zu nutzen. Bis jetzt.<BR>Dieser Fokus kann auf einem Stabaufladungssockel platziert werden, was jeglichem Stab in ihm erlaubt, die zusammengesetzten Aspekte naher Nodien aufzunehmen. Leider wird jeder Punkt zusammengesetzen Vis in einen einzigen Punkt primären Vis aufgebrochen und alle verbleibende Energie geht verloren. Jedoch ist es ein guter Start und du bist sicher, du wirst bessere Wege entdecken, diese Ressource zu nutzen. 
 #
