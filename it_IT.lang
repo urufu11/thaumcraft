@@ -8,7 +8,7 @@ enchantment.repair=Riparazione
 #
 #Potions
 potion.fluxtaint=Flux Corrotto
-potion.soulshatter=Distruzione dell'Anima
+potion.soulshatter=Distruzisone dell'Anima
 #
 # Entities
 entity.Thaumcraft.ThaumSlime.name=Slime Taumico
@@ -316,4 +316,189 @@ item.ItemGolemUpgrade.1.desc=Migliora la Forza
 item.ItemGolemUpgrade.2.desc=Migliora il Danno, la Capacità
 item.ItemGolemUpgrade.3.desc=Migliora i Sensi,il Raggio d'Azione
 item.ItemGolemUpgrade.4.desc=Migliora l'Organizazione, l'Intelletto
-item.ItemGolemUpgrade.5.desc=Migliora la Difesa, il Raginamento
+item.ItemGolemUpgrade.5.desc=Migliora la Difesa, il Ragionamento
+#
+# Fluids
+fluid.fluxGoo=Flusso Melmoso
+#
+# GUI
+golemblurb.0.text=Cosa vuoi che lascio qui, Maestro?
+golemblurb.1.text=Maestro, devo togliere tutto da questo contenitore, o qualcosa di preciso?
+golemblurb.2.text=Maestro, vuoi che raccolga qualcosa di preciso, o continuo a prendere tutto?
+golemblurb.3.text=??
+golemblurb.4.text=Proteggerò questa zona, Maestro.
+golemblurb.5.text=Devo raccogliere  tutti i liquidi, o solo quelli che dici tu? Mostrami un contenitore con il liquido, e farò come comandi!
+golemblurb.6.text=??
+golemblurb.7.text=??
+golemblurb.8.text=Vuoi che utilizzo questo oggetto su di un blocco, o in una posizione vuota?
+
+golemthreat.0.text=Un golem in rivolta? Non so nulla sui golem in rivolta...
+golemthreat.1.text=Fammi indovinare, vuoi farmi trasportare qualcosa?
+golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
+golemthreat.3.text=Non ti preoccupare, di certo non sto complottando nulla.
+golemthreat.4.text=Perchè non vai a dormire? mi sembri stanco... molto, molto stanco.
+golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
+#
+# Other
+nodetype.NORMAL.name=Normale
+nodetype.UNSTABLE.name=Instabile
+nodetype.DARK.name=Oscuro
+nodetype.PURE.name=Puro
+nodetype.TAINTED.name=Corrotto
+nodetype.HUNGRY.name=Affamato
+nodemod.BRIGHT.name=Splendente
+nodemod.PALE.name=Pallido
+nodemod.FADING.name=Dissolvente
+tc.taint_item_poison=%s dissolvendosi ti ha infettato dalla Corruzione
+death.attack.taint=%1$s è stato infettato dalla Corruzione
+death.attack.taint.player=%1$s è stato infettato dalla Corruzione combattendo con %2$s
+death.attack.tentacle=%1$s è stato stritolato da %2$s
+death.attack.swarm=%1$s è stato infestato da %2$s
+death.attack.swarm.item=%1$s è stato infestato da %2$s usando %3$s
+tc.handmirrorlinkedto=Collegato a
+tc.handmirrorlinked=Collgamento stabilito.
+tc.handmirrorerror=Lo specchio di destinazione manca, o è posizionato male. Collegamento interrotto.
+tc.discoveryerror=Non hai tutte le conoscenze richieste per capire questo fenomeno.
+tc.discoveryunknown=Teoria sconosciuta
+tc.discoveryprogress=% completato
+tc.portableholeerror=Il varco portatile non ha abbastanza carica.
+tc.key1=La chiave è stata collegata a questa porta arcana.
+tc.key2=La chiave è stata collegata a questa pedana a pressione arcana.
+tc.key3=Ora puoi aprire questa porta.
+tc.key4= Puoi anche fornire ad altri l'accesso.
+tc.key5=Ora azionerai questa pedana a pressione come se fossi il suo proprietario.
+tc.key6= Puoi anche fornire ad altri l'accesso e cambiarne la configurazione.
+tc.key7=La chiave non è collegata a questo.
+tc.key8=Hai gia l'accesso.
+tc.key9=Questa chiave fornisce accesso alla
+tc.key10=porta arcana situata a
+tc.key11=pedana a pressione arcana situata a
+tc.wandnocharge=La bacchetta non ha abbastanza carica per questo.
+tc.wandcharge=Questa bacchetta al momento immagazzina %s vis
+tc.jaressentia=Immagazzina %s essentia
+tc.jarname=Barattolo di
+tc.markedloc=luoghi segnati
+tc.addaspectdiscovery=Hai scoperto %n!
+tc.addclue=Hai scoperto un indizio per una nuova ricerca!
+tc.addcluefail=Hai trovato un indizio, ma l'hai perso perchè non puoi trascriverlo!
+tc.addaspectpool=Guadagnato(i) %s punto(i) ricerca per for %n
+tc.unknownobject=Non puoi apprendere nulla da questo.
+tc.markerchange=Impostato il colore del marcatora su %n
+tc.markerchangeany=Imposta qualunque colore
+tc.researchmissing=Ti manca la ricerca necessaria!
+tc.visdiscount=Sconto sul Vis
+tc.inst=Instabilità: 
+tc.inst.0=§1Trascurabile§0
+tc.inst.1=§9Minore§0
+tc.inst.2=§5Moderata§0
+tc.inst.3=§eAlta§0
+tc.inst.4=§6Molto alta§0
+tc.inst.5=§4Pericolosa§0
+tc.adv=Avanzate
+#
+# Aspects
+tc.aspect.primal=Aspetto Primitivo
+tc.aspect.unknown=Aspetto Sconosciuto
+tc.aspect.aer=Aria
+tc.aspect.terra=Terra
+tc.aspect.ignis=Fuoco
+tc.aspect.aqua=Acqua
+tc.aspect.ordo=Ordine, Regolarità, Purezza
+tc.aspect.perditio=Entropia, Caos, Distruzione
+tc.aspect.vacuos=Nulla
+tc.aspect.praecantatio=Magia
+tc.aspect.auram=Aura
+tc.aspect.vitium=Corruzione
+tc.aspect.lux=Luce
+tc.aspect.potentia=Energia
+tc.aspect.motus=Movimento, Animazione
+tc.aspect.saxum=Pietra
+tc.aspect.tempestas=Tempo atmosferico
+tc.aspect.victus=Vita
+tc.aspect.mortuus=Morte
+tc.aspect.volatus=Volo
+tc.aspect.tenebrae=Oscurità
+tc.aspect.granum=Seme, Giovane
+tc.aspect.limus=Melma, appiccicoso
+tc.aspect.herba=Pianta
+tc.aspect.arbor=Albero, Legno
+tc.aspect.spiritus=Anima
+tc.aspect.humanus=Uomo
+tc.aspect.bestia=Bestia
+tc.aspect.exanimis=Non-morto
+tc.aspect.cognitio=Mente, Memoroa, Cognizione
+tc.aspect.sensus=Sensi
+tc.aspect.messis=Messi
+tc.aspect.meto=Raccolto
+tc.aspect.metallum=Metallo
+tc.aspect.perfodio=Scavare
+tc.aspect.instrumentum=Untensile, Strumento
+tc.aspect.telum=Arma, Attacco, Danno
+tc.aspect.gelum=Ghiaccio, Gelo, Freddo
+tc.aspect.vitreus=Cristallo, Vetro, Trasparente
+tc.aspect.sano=Guarire, Cura
+tc.aspect.iter=Viaggiare, Cammino
+tc.aspect.venenum=Veleno
+tc.aspect.alienis=Alieno, Strano, L'Estraneo
+tc.aspect.tutamen=Armatura, Protezione
+tc.aspect.fames=Fame
+tc.aspect.fabrico=Costruzione
+tc.aspect.fames=Fame
+tc.aspect.lucrum=Avidità, Avarizia
+tc.aspect.pannus=Tessuto, Materiale, Copertura
+tc.aspect.machina=Meccanismo, Macchina
+tc.aspect.vinculum=Trappola, Imprigionamento
+tc.aspect.permutatio=Scambio, Baratto
+tc.aspect.corpus=Carne
+
+#  
+# Research categories
+tc.research_category.BASICS=Informazioni Basilari
+tc.research_category.THAUMATURGY=Taumaturgia
+tc.research_category.ALCHEMY=Alchimia
+tc.research_category.ARTIFICE=Artificio
+tc.research_category.GOLEMANCY=Golemanzia
+#  
+# Special formatting codes:
+# <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
+# <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
+# <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
+#                    - mod resource location name
+#                    - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
+#                    - x location of sub-image in png
+#                    - y location of sub-image in png
+#                    - x size of sub-image (255 if full x size of png must be used)
+#                    - y size of sub-image (255 if full y size of png must be used)
+#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)   
+#               Examples: 
+#                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
+#                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
+#
+# Research entries
+tc.research_name.RESEARCH=Rircerca
+tc.research_text.RESEARCH=Come scoprire le cose
+tc.research_page.RESEARCH.1=Prima che tu possa costruire la maggior parte degli oggetti e strumenti taumaturgici, dovrai prima scoprire come farlo. Ci sono diverse fasi sa seguire:<BR>(1) Esplorare il mondo ed esaminare i blocchi, gli oggetti e le creature usando un §5Taumometro§0<BR><BR>(2) Prendere i punti ricerca raccolti nella prima fase ed espandere la tua conoscenza degli Aspetti con un §5Tavolo delle ricerche§0<BR><BR>(3) Usare gli aspetti che conosci per rivelare informazioni e ricette con il §5Tavolo delle Ricerche§0.<LINE>
+tc.research_page.RESEARCH.2=§l      §n(1) Explorazione§r<BR><BR>Non puoi fare ricerca senza Punti Ricerca, ed il modo migliore per guadagnarli è esplorando ed esaminando gli oggetti nel mondo.<BR>La prima cosa che dovrai fare è costruire un §5Taumometro§0 (guarda la pagina successiva). Puntando il §5Taumometro§0 sugli oggetti o sulle creature e tenendo premuto il pulsante destro del mouse, inizierai ad esaminarli. Il processo non richiede molto tempo, ma la tua velocità di spostamento è ridotta mentre lo fai.<BR>Quando ha finito, il §5Taumometro§0 mostrerà quali Aspetti l'oggetto contiene. In basso a destra sullo schermo vedrai anche un resoconto degli aspetti e punti ricerca
+tc.research_page.RESEARCH.3=ottenuti.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>All'inizio non sarai in grado di esaminare tutti gli oggetti, poichè non conosci gli aspetti che li compongono. Per esempio, un oggetto contenente l'aspetto Lux puo essere esaminato solo se hai gia scoperto Lux, oppure
+tc.research_page.RESEARCH.4=se conosci i due aspetti che vanno combinati per ottenerlo.<BR>La prima volta che scopri un aspetto esaminando qualcosa, ottieni il doppio dei punti ricerca rispetto alla norma.<BR>Oggetti e creature solitamente possono essere esaminati una sola volta.<BR>Mentre si esplora il mondo e si esaminano le cose, è buona cosa portare con sè degli §5Strumenti per scrivere§0 ed un po' di §5Carta§0. Qualche volta esaminando qualcosa saranno rivelati indizi e particolari riguardo una ricerca taumaturgica, che saranno annotati e che potrai ulteriormente ricercare.
+tc.research_page.RESEARCH.5=§l   §n(2) Combinazione degli Aspetti§r<BR><BR>Dopo aver raccolto qualche punto ricerca, puoi provare a combinarli fra loro in Aspetti Compositi con un tavolo delle ricerche.<BR>Per costruire un tavolo delle ricerche, semplicemente piazza due tavoli l'uno accanto all'altro e cliccaci con degli Strumenti per Scrivere. Puoi trovare la ricetta per i tavoli nella categoria §5Artificio§0 del Taumonomicon.<BR>Aprendo la schermata del tavolo delle ricerche, vedrai un'interfaccia come quella nell'immagine a destra.<BR>Gli strumenti per la scrittura che hai usato per creare il tavolo, saranno posizionati nella posizione §l1§r. Potrai anche piazzare della Carta nella posizione §l2§r, anche se la Carta
+tc.research_page.RESEARCH.6=non sarà necessaria in questa fase della ricerca.<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Dovresti vedere tutti gli Aspetti Primitivi (e probabilmente qualche Aspetto Composito) elencati nell'area contrassegnata con il numero §l3§r con diverse quantità per ciascuno di essi. Quando si entra per la prima volta in un mondo, ad ogni giocatore è assegnata una piccola riserva di aspetti primitivi, per permettere loro di iniziare con le ricerche.<BR>Se hai fatto qualche esplorazione con
+tc.research_page.RESEARCH.7=il taumometro in precedenza, potresti disporre di un buon numero di aspetti Primitivi e Compositi nell'elenco.<LINE>Ora puoi iniziare a combinare gli aspetti in aspetti compositi ancora più complessi, semplicemente cliccando sui due che vuoi combinare. Gli aspetti selezionati appariranno nella posizione §l4§r e quando ne hai selezionati due, premendo il pulsante viola contrassegnato con il numero §l5§r tenterai di combinarli. Se avrai successo, in basso a destra potrai vedere il risultato, che apparirà anche nella posizione §l3§r.<BR>Gli aspetti che avevi selezionato per la combinazione vengono consumati anche se non c'è stato alcun risultato.
+tc.research_page.RESEARCH.8=§l  §n(3) Ricercare gli Aspetti§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Se hai messo la carta nella posizione §l2§r, noterai che quando è selezionato un solo aspetto, il bottone verde contrassegnato con il numro §l6§r si attiva.<BR>Se lo premi, tenterai di ricercare l'aspetto selezionato, e se avrai successo scoprirai qualcosa di interessante su quell'aspetto e delle Note di Ricerca appariranno nella
+tc.research_page.RESEARCH.9=posizione §l7§r. La sezione §l8§r mostrerà il foglio di ricerca coperto da una sconcertante matrice di rune e simboli somiglianti all'immagine in cima alla pagina precedente.<BR>Non ti preoccupare, non è tanto difficile quanto sembra.<LINE>Per completare la tua ricerca, devi semplicemente connettere ed attivare tutti i §5Nodi di Conoscenza§0 (mostrati sotto).<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>Il nodo sulla sinistra è un nodo disattivato, mentre quello sulla destra è stato attivato. Dopo che tutti
+tc.research_page.RESEARCH.10=i nodi inattivi sono stati attivati, la ricerca sarà completata e le Note di Ricerca si trasformeranno in una scoperta che potrai usare per ottenere la ricerca completa (ti basterà cliccare con il destro mentre le tieni in mano).<LINE>Per connettere i Nodi di Conoscenza dovrai attivare le rune.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>Ogni runa è collegata ad un aspetto, ma all'inizio non si sa quale runa rappresenta quale aspetto. Il collegamento runa/aspetto è unico per ogni ricerca, quindi una runa che rappresenta Aer in una ricerca, potrebbe rappresentare Terra in un'altra.
+tc.research_page.RESEARCH.11=Non tutte le rune sono adatte per il soggetto che stai ricercando. Per esempio, potrebbero esserci rune per Aer, Terra, Ignes ed Aqua su di un foglio di ricerca, ma solo Ignes e Terra potrebbero essere valide. Le rune non valide sono chiamate 'rune delle arighe rosse'.<BR> Scoprirai quali rune sono valide selezionando un aspetto sulla sinistra, e premendo il pulsante 'Ricerca'(§l6§r). Se l'aspetto che hai selezionato è valido, allora tutte le rune collegate a quell'aspetto divenderanno attive.<BR>Se l'aspetto che hai selezionato è una 'aringa rossa', allora le sue rune non si attiveranno, ma alcune di esse saranno rimosse dal foglio completamente.
+tc.research_page.RESEARCH.12=Se l'aspetto selezionato non è proprio presente nella ricerca, allora non succederà nulla.<LINE>Le rune attive fungono da ponti per connettere i Nodi di Conoscenza. Una linea di energia scorrerà da un nodo attivo verso una runa attiva nei dintorni. Hai quindi bisogno di una catena di rune attive e nodi per completare la ricerca.<IMG>thaumcraft:textures/misc/research3.png:0:0:120:95:.75</IMG>
+tc.research_page.RESEARCH.13=Una catena non si puo formare se c'è pià di uno spazio vuoto fra rune attive e nodi.<BR>Per formare una catena devi muovere le rune sul foglio, cliccandole e selezionando una destinazione valida.<IMG>thaumcraft:textures/misc/research2.png:136:0:102:74:1</IMG>Ogni runa puo essere mossa fino a 2 posizioni in linea retta, ma solo le rune non attive possono essere mosse -  questo significa che dovrai attivare e disattivare le tue rune diverse volte
+tc.research_page.RESEARCH.14=per portarle nella posizione corretta.<BR>Le rune inattive impediscono la connessione se giacciono sul suo percorso, quindi dovrai spostarle via.<IMG>thaumcraft:textures/misc/research3.png:128:0:105:111:.75</IMG>Ogni volta che sposti le rune, si consumerà un po' di inchiostro.<LINE>
+#
+tc.research_name.KNOWFRAG=Frammenti di conoscenza
+tc.research_text.KNOWFRAG=Frammenti di tradizioni perdute
+tc.research_page.KNOWFRAG.1=Nei tuoi viaggi potrebbe capitarti di incontrare frammenti di conoscenze antiche e perdute. Di per sè non valgono molto, ma se ne raccogli appastanza insieme, potresti ottenere una ricerca unica da proseguire. Normalmente le ricerche che rivelano non possono essere ottenute con le procedure normali.<BR>I frammenti di conoscenza possono talvolta condurre ad una teoria sbagliata, ma questo ti sarà rivelato quando proverai a ricercarli. Quando questo accadrà, la maggior parte dei frammenti ti saranno restituiti e questo indicherà che avrai gia percorso tutte le strade della conoscenza perduta.
+#
+tc.research_name.ASPECTS=Aspetti della Magia
+tc.research_text.ASPECTS=I mattoni della Magia
+tc.research_page.ASPECTS.1=Ogni utensile, oggetto o creatura è legato a vari elementi mistici conosciuti come §5aspetti§0. Gli aspetti descrivono la composizione e tendenza degli oggetti nel campo degli elementi magici. Una semplice pietra potrebbe possedere l'aspetto Saxum, mentre oggetti più complessi come alberi o creature possono essere composti da vari aspetti in quantità variabili. Ci sono circa 50 aspetti conosciuti, e se ne continuano a scoprire altri nel tempo.<LINE>Ci sono due principali tipi di aspetti: §5Primitivi§0 e §5Compositi§0.
+tc.research_page.ASPECTS.2=Gli §lAspetti Primitivi§r sono quelli più elementari, e ce ne sono solo 6: §6Aer§0 (aria), §2Terra§0 (terra), §cIgnis§0 (fuoco), §3Aqua§0 (acqua), §fOrdo§0 (ordine), §8Perditio§0 (entropia).<BR>Essi formano le fondamenta di tutti gli altri aspetti.<BR>Gli §lAspetti Compositi§r sono formati da due altri aspetti. Gli aspetti compositi più semplici sono fatti da due aspetti primitivi, ma è possibile ottenere aspetti compositi incredibilmente complessi fatti da strati sovrapposti di aspetti più semplici.<BR>L'esempio più semplice di aspetti compositi, è l'aspetto Victus(vita), che è una combinazione di Terra e Aqua. 
+tc.research_page.ASPECTS.3=Per vedere quali aspetti un oggetto possiede, semplicemente sposta il cursore su di esso nell'inventario e premi 'accovacciati' (shift), e vedrai quali aspetti compongono l'oggetto, ed in che quantità. Tuttavia dovrai prima studiare l'oggetto, altrimenti gli aspetti rimarranno sconosciuti.<LINE>Gli aspetti che sono stati in qualche modo separati dal loro oggetto e purificati, sono conosciuti come §5Vis§0 e sono molto preziosi: sia come ingrediente per le costruzioni, che come oggetto di ricerca magica.<BR>Il Vis è spesso conservato nelle Bacchette, ma è anche possibile conservarlo come liquido magico. Il Vis immagazzinato in questo stato prende il nome di §5Essentia§0.
+#
