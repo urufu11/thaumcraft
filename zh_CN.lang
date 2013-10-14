@@ -66,6 +66,7 @@ tile.blockCustomPlant.0.name=宏伟之木树苗
 tile.blockCustomPlant.1.name=银树树苗
 tile.blockCustomPlant.2.name=水银花
 tile.blockCustomPlant.3.name=火焰草
+tile.blockCustomPlant.4.name=天域花
 tile.blockMetalDevice.0.name=坩埚
 tile.blockMetalDevice.1.name=奥术蒸馏器
 tile.alembic.msg.1=蒸馏器是空的
@@ -101,6 +102,8 @@ tile.blockWoodenDevice.1.name=奥术之耳
 tile.blockWoodenDevice.2.name=奥术压力盘
 tile.blockWoodenDevice.4.name=奥术钻探机基座
 tile.blockWoodenDevice.5.name=奥术钻探机
+tile.blockWoodenDevice.6.name=宏伟之树木板
+tile.blockWoodenDevice.7.name=银树木板
 tile.blockMarker.0.name=白色标记
 tile.blockMarker.1.name=橙色标记
 tile.blockMarker.2.name=品红色标记
@@ -483,7 +486,7 @@ tc.research_page.RESEARCH.5=§l   §n(2) 复合要素§r<BR><BR>当收集到一�
 tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>§l3§r号区域会列出全部元始要素以及可能出现的一些复合要素,且下标会注明数量.当你首次进入世界时,会获得少量元始要素作为初始奖励.
 tc.research_page.RESEARCH.7=<BR>若你之前通过魔导透镜做过一些探索研究,则会列出相关的元始要素以及复合要素.<LINE>你可以通过点击希望组合的要素来尝试将其融合成复合要素.选定的要素将会出现在§l4§r号格子中,当你已经选定2种要素后按下标记§l5§r所在的紫色按钮来尝试融合它们.如若融合成功,在屏幕右下角会提示信息且复合要素会出现在§l3§r号格子中.<BR>即使没有实际得到复合要素参与融合的要素也会被消耗掉.
 tc.research_page.RESEARCH.8=§l  §n(3) 研究要素§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>如果在§l2§r号格子中放置了纸张, 那么你应当已经注意到当仅仅选定单一要素时绿色按钮(标记为§l6§r)会被激活发亮.<BR>如果你按下该按钮即视为你尝试研究选中的要素.如若成功你会发现一些和这种要素相关的有趣信息,且在§l7§r号格子中会出现研究笔记.
-tc.research_page.RESEARCH.9=§l8§r所标注的区域会如前页上端的图片那些显示一系列令人眼花缭乱的符文和徽记.<BR>无须担心,其实并没有看起来那么复杂困难.<LINE>为完成研究你只需要连接和接货所有的§5知识节点§0(图片下方)即可.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>左端的节点为未激活的节点,而右边的节点为已激活状态.
+tc.research_page.RESEARCH.9=§l8§r所标注的区域会如前页上端的图片那些显示一系列令人眼花缭乱的符文和徽记.<BR>无须担心,其实并没有看起来那么复杂困难.<LINE>为完成研究你只需要连接和激活所有的§5知识节点§0(图片下方)即可.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>左端的节点为未激活的节点,而右边的节点为已激活状态.
 tc.research_page.RESEARCH.10=当所有节点被激活后就能完成研究,此时研究笔记会变成你可以学习的发现卷轴 (持有卷轴右击即可学会).<LINE>你可以通过激活符文来连接知识节点.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>每个符文都与一种要素相对应,但是一开始我们并不知道符文具体呈现为哪种要素.符文与要素的对应关系在具体的某一次研究中是唯一的,因此在不同的研究项目中,同样位置的符文此时表现为Aer要素,而下次可能表现为Terra要素.
 tc.research_page.RESEARCH.11=在某一次研究中并非所有符文都会激活.<BR>比如尽管在研究面板中同时出现了Aer,Terra,Ignes以及Aqua要素,但实际可能只有Ignes和Terra在研究中用到.无效的符文通常被称之为“红鲱鱼”符文(意即干扰项).<BR>你可以通过选定左侧的要素并按下研究按钮(§l6§r)来研究那些符文有效.<BR>如果你选定的要素对应的是“红鲱鱼”符文,那么相应符文并不会激活,且这两者会从研究面板上被完全移除.
 tc.research_page.RESEARCH.12=如果你选中的要素在右侧的研究面板中并未出现,那什么都不会发生.<LINE>激活的符文会尽可能地桥接知识节点.激活的知识节点与相邻的激活符文之间会荡漾起流光溢彩的能量束.你需要连接所有的符文和节点来完成研究.<IMG>thaumcraft:textures/misc/research3.png:0:0:120:95:.75</IMG>
@@ -496,7 +499,7 @@ tc.research_page.KNOWFRAG.1=在旅途中你偶然发现了一些古代遗迹以�
 #
 tc.research_name.ASPECTS=魔力要素
 tc.research_text.ASPECTS=万物构造之源
-tc.research_page.ASPECTS.1=一切造物(道具,对象及生物)均系于被名为§5“要素”§0的魔力元素.要素描绘了物品的构成及其对魔力元素的偏向.普通的岩石可能蕴含Saxum(即拉丁文的岩石)要素,而更复杂的事物,比如树木,甚至生物则可能蕴含多种数量不等的要素.目前已经有将近50种要素被发现.<LINE>有两类截然不同的要素:§5元始要素l§0以及§5复合要素§0.
+tc.research_page.ASPECTS.1=一切造物(道具,对象及生物)均系于被名为§5“要素”§0的魔力元素.要素描绘了物品的构成及其对魔力元素的偏向.普通的岩石可能蕴含Saxum(即拉丁文的岩石)要素,而更复杂的事物,比如树木,甚至生物则可能蕴含多种数量不等的要素.目前已经有将近50种要素被发现.<LINE>有两类截然不同的要素:§5元始要素§0以及§5复合要素§0.
 tc.research_page.ASPECTS.2=§l元始要素§r是六种最基本的要素类型:§6Aer§0(风之要素),§2Terra§0(地之要素),§cIgnis§0(火之要素),§3Aqua§0(水之要素),§fOrdo§0(秩序要素),§8Perditio§0(混沌要素).<BR>它们是构成其它要素的基础.<BR>§l复合要素§r由两种其它要素复合而成. 相对简单的复合要素由两种元始要素复合而成, 但也存在一些经过多次复合,非常复杂的复合要素.<BR>举简单的例子来说,比如Terra(地之要素)与Aqua(水之要素)复合可以得到Victus(生命要素). 
 tc.research_page.ASPECTS.3=若想要查看一个物品所具备的要素,需要在选中物品时按下潜行键(默认shift),这样你就能看见其蕴含要素的种类和数量.但是你需要先对该物品进行初步的研究,否则其蕴含的要素会显示未知.<LINE>要素在一定程度上分离于其对象,并且作为纯粹的本质物,要素非常具有价值：无论是用作合成的工具还是用于魔法研究.<BR>魔力通常存储于法杖中,但它也可能以液相存储,此时我们通常称其为§5要素源质§0,为方便起见,本手册中有时也统一简称其为要素.
 #
@@ -972,4 +975,9 @@ tc.research_page.WANDPED.1=在旅途中为法杖补魔虽好,但如果有自动�
 tc.research_name.WANDPEDFOC=复合充能核心
 tc.research_text.WANDPEDFOC=终有其用
 tc.research_page.WANDPEDFOC.1=在旅途中你已经发现了许多蕴含复合魔力的节点,但你之前却无法利用这种丰富的魔力资源.而目前的这项研究却提供了解决之道.<BR>这种核心可以被放置在法杖充能基座上,这样放置于其内的法杖将能够从附近的节点中吸收复合要素魔力,并将其分流成元始要素.不幸的是一点复合要素只能为分解成一点元始要素,其余的能量会直接流失掉.然后这是个好的开端,你确定你会发现更好的利用这些资源的方法.
+#
+tc.research_name.ETHEREALBLOOM=天域花
+tc.research_text.ETHEREALBLOOM=纯洁的花朵
+tc.research_page.ETHEREALBLOOM.1=水银花常常生长在银树附近的阴影之中,但是它亦有自己独特的魔法属性.<BR>类似银树,水银花也潜藏着休眠中的净化魔力.你已经找到一种方法唤醒这种魔力,并将其转化为天域花.<BR>天域花,能够十分缓慢但确定无疑地恢复这片被神秘力量(包括我们通常称之为腐化的咒波污染)所污染和破坏的大地，使其重回昔日的荣光之下.虽然它并不能够直接对抗腐化,但腐化的植物会很难蔓延到天域花所处的环境中,并会渐渐趋向于枯萎死亡.
+tc.research_page.ETHEREALBLOOM.2=这种花只能净化沐浴在它荣光之下的8格范围内的土地.<BR>天域花十分脆弱,如果试图采摘,会使它们的魔力失活变回水银花. 
 #
