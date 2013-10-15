@@ -63,9 +63,10 @@ tile.blockCosmeticSolid.6.name=Arkaner Steinblock
 tile.blockCosmeticSolid.7.name=Arkaner Steinziegel
 tile.blockCosmeticSolid.8.name=Geladenes Obsidian-Totem
 tile.blockCustomPlant.0.name=Großholzsetzling
-tile.blockCustomPlant.1.name=SilberholzSetzling
+tile.blockCustomPlant.1.name=Silberholzsetzling
 tile.blockCustomPlant.2.name=Schimmerblatt
 tile.blockCustomPlant.3.name=Aschperle
+tile.blockCustomPlant.4.name=Ätherblüte
 tile.blockMetalDevice.0.name=Tiegel
 tile.blockMetalDevice.1.name=Arkaner Alambik
 tile.alembic.msg.1=Der Alambik ist leer
@@ -101,6 +102,8 @@ tile.blockWoodenDevice.1.name=Arkanes Ohr
 tile.blockWoodenDevice.2.name=Arkane Druckplatte
 tile.blockWoodenDevice.4.name=Arkane Bohrerbasis
 tile.blockWoodenDevice.5.name=Arkaner Bohrer
+tile.blockWoodenDevice.6.name=Großholzplanken
+tile.blockWoodenDevice.7.name=Silberholzplanken
 tile.blockMarker.0.name=Weißer Marker
 tile.blockMarker.1.name=Oranger Marker
 tile.blockMarker.2.name=Pinker Marker
@@ -301,7 +304,7 @@ item.ItemGolemDecoration.0.name=Zylinder
 item.ItemGolemDecoration.1.name=Brille
 item.ItemGolemDecoration.2.name=Fliege
 item.ItemGolemDecoration.3.name=Fes
-item.ItemGolemDecoration.4.name=Dartschießer
+item.ItemGolemDecoration.4.name=Dartgeschütz
 item.ItemGolemDecoration.5.name=Visier
 item.ItemGolemDecoration.6.name=Eisenpanzerung
 item.ItemGolemDecoration.7.name=Keulenarm
@@ -969,10 +972,15 @@ tc.research_text.PAVEWARD=Behält Dinge draußen
 tc.research_page.PAVEWARD.1=You have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most of common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the area you wish to protect and the outside world.<BR>An active redstone signal will disable this block.
 #
 tc.research_name.WANDPED=Stabaufladungssockel
-+tc.research_text.WANDPED=Automatisches Stabaufladen
-+tc.research_page.WANDPED.1=Durch die Lande zu ziehen, um deinen Stab aufzuladen, ist schön und gut, aber ein automatischer Weg, das zu tun, wäre viel besser.<BR>Dieser speziell gefertigte Sockel macht genau das - jeder Stab, der auf ihm platziert wird, wird automatisch Vis aus nahen Nodien aufnehmen.<BR>Nodien werden nicht komplett geleert, außer wenn der Stab von schlechter Qualität, gemacht aus Eisen oder Stöcken, ist.
-+#
-+tc.research_name.WANDPEDFOC=Zusammensetzungs-Aufladefokus
-+tc.research_text.WANDPEDFOC=Für alles einen Nutzen
-+tc.research_page.WANDPEDFOC.1=Auf deinen Reisen hast du einige Nodien entdeckt, die zusammengesetzte Aspekte enthalten, aber bis jetzt gab es keinen Weg, diese reiche Quelle zu nutzen. Bis jetzt.<BR>Dieser Fokus kann auf einem Stabaufladungssockel platziert werden, was jeglichem Stab in ihm erlaubt, die zusammengesetzten Aspekte naher Nodien aufzunehmen. Leider wird jeder Punkt zusammengesetzen Vis in einen einzigen Punkt primären Vis aufgebrochen und alle verbleibende Energie geht verloren. Jedoch ist es ein guter Start und du bist sicher, du wirst bessere Wege entdecken, diese Ressource zu nutzen. 
+tc.research_text.WANDPED=Automatisches Stabaufladen
+tc.research_page.WANDPED.1=Durch die Lande zu ziehen, um deinen Stab aufzuladen, ist schön und gut, aber ein automatischer Weg, das zu tun, wäre viel besser.<BR>Dieser speziell gefertigte Sockel macht genau das - jeder Stab, der auf ihm platziert wird, wird automatisch Vis aus nahen Nodien aufnehmen.<BR>Nodien werden nicht komplett geleert, außer wenn der Stab von schlechter Qualität, gemacht aus Eisen oder Stöcken, ist.
+#
+tc.research_name.WANDPEDFOC=Zusammensetzungs-Aufladefokus
+tc.research_text.WANDPEDFOC=Für alles einen Nutzen
+tc.research_page.WANDPEDFOC.1=Auf deinen Reisen hast du einige Nodien entdeckt, die zusammengesetzte Aspekte enthalten, aber bis jetzt gab es keinen Weg, diese reiche Quelle zu nutzen. Bis jetzt.<BR>Dieser Fokus kann auf einem Stabaufladungssockel platziert werden, was jeglichem Stab in ihm erlaubt, die zusammengesetzten Aspekte naher Nodien aufzunehmen. Leider wird jeder Punkt zusammengesetzen Vis in einen einzigen Punkt primären Vis aufgebrochen und alle verbleibende Energie geht verloren. Jedoch ist es ein guter Start und du bist sicher, du wirst bessere Wege entdecken, diese Ressource zu nutzen. 
+
+tc.research_name.ETHEREALBLOOM=Ätherblüte
+tc.research_text.ETHEREALBLOOM=Purifizierende Blume
+tc.research_page.ETHEREALBLOOM.1=Shimmerleaf is often overshadowed by its mystical neighbour the Silverwood tree, but it has magical properties of it's own.<BR>Like the Silverwood, Shimmerleaf flowers have purifying properties that lie dorment. You have found a way to awaken these properties and turn it into an Ethereal Bloom.<BR>Ethereal blooms slowly, but surely, restores land corrupted by mystical means to its former glory - this includes the blight known as Taint. While it cannot combat Taint directly, few tainted growths can survive outside their native environment for long and tend to die back.
+tc.research_page.ETHEREALBLOOM.2=The flower only purifies the land bathed in its light out to a range of about 8 blocks.<BR>Ethereal Blooms are quite fragile and breaking them will turn them back into a Shimmerleaf flower. 
 #
