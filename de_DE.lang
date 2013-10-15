@@ -973,6 +973,7 @@ tc.research_page.PAVEWARD.1=You have discovered a way of turning arcane stone bl
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 tc.research_name.WANDPED=Stabaufladungssockel
 tc.research_text.WANDPED=Automatisches Stabaufladen
 tc.research_page.WANDPED.1=Durch die Lande zu ziehen, um deinen Stab aufzuladen, ist schön und gut, aber ein automatischer Weg, das zu tun, wäre viel besser.<BR>Dieser speziell gefertigte Sockel macht genau das - jeder Stab, der auf ihm platziert wird, wird automatisch Vis aus nahen Nodien aufnehmen.<BR>Nodien werden nicht komplett geleert, außer wenn der Stab von schlechter Qualität, gemacht aus Eisen oder Stöcken, ist.
@@ -988,6 +989,8 @@ tc.research_page.ETHEREALBLOOM.2=The flower only purifies the land bathed in its
 =======
 =======
 >>>>>>> b4b1e7823920bf1691a456fa8684a1fa68b0aaf2
+=======
+>>>>>>> b4b1e7823920bf1691a456fa8684a1fa68b0aaf2
 tc.research_name.WANDPED=Stabladesockel
 +tc.research_text.WANDPED=Automatisches Stabaufladen
 +tc.research_page.WANDPED.1=Durch die Lande zu ziehen um deinen Stab aufzuladen ist schön und gut, aber ein automatischer Weg das zu erledigen wäre viel besser.<BR>Dieser speziell gefertigte Sockel macht genau das - jeder Stab der auf ihm platziert wird wird automatisch Vis aus nahen Nodien aufnehmen.<BR>Nodien werden nicht komplett geleert, außer wenn der Stab von schlechter Qualität, gemacht aus Eisen oder Stöcken, ist.
@@ -996,6 +999,9 @@ tc.research_name.WANDPED=Stabladesockel
 +tc.research_text.WANDPEDFOC=Für alles einen Nutzen
 +tc.research_page.WANDPEDFOC.1=Auf deinen Reisen hast du einige Nodien entdeckt die zusammengesetzte Aspekte enthalten, aber bis jetzt gab es keinen Weg diese reiche Quelle zu nutzen. Bis jetzt.<BR>Dieser Fokus kann auf einem Stabaufladungssockel platziert werden, was jeglichem Stab in ihm erlaubt die zusammengesetzten Aspekte naher Nodien aufzunehmen. Leider wird jeder Punkt zusammengesetzen Vis in einen einzigen Punkt primären Vis aufgebrochen und alle verbleibende Energie geht verloren. Jedoch ist es ein guter Start und du bist sicher, du wirst bessere Wege entdecken diese Ressource zu nutzen. 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> b4b1e7823920bf1691a456fa8684a1fa68b0aaf2
+=======
 >>>>>>> b4b1e7823920bf1691a456fa8684a1fa68b0aaf2
 =======
 >>>>>>> b4b1e7823920bf1691a456fa8684a1fa68b0aaf2
