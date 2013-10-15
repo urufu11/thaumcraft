@@ -63,6 +63,7 @@ tile.blockCosmeticSolid.6.name=Магический каменный блок
 tile.blockCosmeticSolid.7.name=Магический каменный кирпич
 tile.blockCosmeticSolid.8.name=Заряженный обсидиановый тотем
 tile.blockCustomPlant.0.name=Саженец великого дерева
+<<<<<<< HEAD
 tile.blockCustomPlant.1.name=Саженец серебрянного дерева
 tile.blockCustomPlant.2.name=Сребролист
 tile.blockCustomPlant.3.name=Огненный жемчуг
@@ -78,6 +79,23 @@ tile.blockMetalDevice.5.name=Железная решетка
 tile.blockMetalDevice.6.name=Железная решетка (Закрытая)
 tile.blockMagicalLog.greatwood.name=Древесина Великого Дерева
 tile.blockMagicalLog.silverwood.name=Древесина Серебряного Дерева
+=======
+tile.blockCustomPlant.1.name=Саженец серебряного дерева
+tile.blockCustomPlant.2.name=Ртутноцвет
+tile.blockCustomPlant.3.name=Пепельная жемчужина
+tile.blockCustomPlant.4.name=Этериевая корона
+tile.blockMetalDevice.0.name=Тигель
+tile.blockMetalDevice.1.name=Реторта
+tile.alembic.msg.1=Реторта пуста
+tile.alembic.msg.2=Реторта почти пуста
+tile.alembic.msg.3=Реторта наполовину полная
+tile.alembic.msg.4=Реторта почти почти заполнена
+tile.alembic.msg.5=Реторта почти заполнена
+tile.blockMetalDevice.5.name=Решетка 
+tile.blockMetalDevice.6.name=Решетка (Закрыта)
+tile.blockMagicalLog.greatwood.name=Бревно великого дерева
+tile.blockMagicalLog.silverwood.name=Бревно серебряного дерева
+>>>>>>> d749039fa0a105cb4d0503ef0699fdc2f03d3206
 tile.blockMagicalLeaves.greatwood.name=Листва великого дерева
 tile.blockMagicalLeaves.silverwood.name=Листва серебряного дерева
 tile.blockCandle.0.name=Белая свеча
@@ -95,6 +113,7 @@ tile.blockCandle.11.name=Синяя свеча
 tile.blockCandle.12.name=Коричневая свеча
 tile.blockCandle.13.name=Зелёная свеча
 tile.blockCandle.14.name=Красная свеча
+<<<<<<< HEAD
 tile.blockCandle.15.name=Чёрная свеча
 tile.blockWooden.name=Магический деревянный блок
 tile.blockWoodenDevice.0.name=Магические печные меха
@@ -120,6 +139,33 @@ tile.blockMarker.12.name=Коричневый маркер
 tile.blockMarker.13.name=Зелёный маркер
 tile.blockMarker.14.name=Красный маркер
 tile.blockMarker.15.name=Чёрный маркер
+=======
+tile.blockCandle.15.name=Черная свеча
+tile.blockWooden.name=Магические доски
+tile.blockWoodenDevice.0.name=Магические меха
+tile.blockWoodenDevice.1.name=Магическое ухо
+tile.blockWoodenDevice.2.name=Магическая нажимная плита
+tile.blockWoodenDevice.4.name=Магический бур (основа)
+tile.blockWoodenDevice.5.name=Магический бур
+tile.blockWoodenDevice.6.name=Доски из великого дерева
+tile.blockWoodenDevice.7.name=Доски из серебряного дерева
+tile.blockMarker.0.name=Белая пометка
+tile.blockMarker.1.name=Оранжевая пометка
+tile.blockMarker.2.name=Пурпурная пометка
+tile.blockMarker.3.name=Голубая пометка
+tile.blockMarker.4.name=Желтая пометка
+tile.blockMarker.5.name=Лафмовая пометка
+tile.blockMarker.6.name=Розовая пометка
+tile.blockMarker.7.name=Серая пометка
+tile.blockMarker.8.name=Светло-серая пометка
+tile.blockMarker.9.name=Бирюзовая пометка
+tile.blockMarker.10.name=Фиолетовая пометка
+tile.blockMarker.11.name=Синяя пометка
+tile.blockMarker.12.name=Коричневая пометка
+tile.blockMarker.13.name=Зеленая пометка
+tile.blockMarker.14.name=Красная пометка
+tile.blockMarker.15.name=Черная пометка
+>>>>>>> d749039fa0a105cb4d0503ef0699fdc2f03d3206
 tile.blockJar.0.name=Банка
 tile.blockJar.1.name=Мозг в банке
 tile.blockJar.2.name=Нода в банке
@@ -277,9 +323,15 @@ item.ItemPickThaumium.name=Таумическая кирка
 item.ItemHoeThaumium.name=Таумическая мотыга
 item.researchnotes.name=Заметки исследований
 item.discovery.name=Открытие
+<<<<<<< HEAD
 item.ItemWispEssence.name=Эссенция светлячка
 item.ItemEssence.0.name=Стеклянный Пузырёк
 item.ItemEssence.1.name=Пузырёк с эссенцией
+=======
+item.ItemWispEssence.name=Этериевая эссенция
+item.ItemEssence.0.name=Пузырек
+item.ItemEssence.1.name=Пузырек эссенции
+>>>>>>> d749039fa0a105cb4d0503ef0699fdc2f03d3206
 item.ItemGolemCore.name=Сердце голема
 item.ItemGolemCore.0.name=Наполнение
 item.ItemGolemCore.1.name=Опустошение
@@ -987,4 +1039,9 @@ tc.research_name.ETHEREALBLOOM=Эфирный цветок
 tc.research_text.ETHEREALBLOOM=Очищяющяя флора
 tc.research_page.ETHEREALBLOOM.1=Сребролист часто находится в тени его мистического соседа - Серебряного дерева и на первый взгляд ничем не примечателен, но оказалось, что и у этого цветка есть волшебные свойства.<BR>Как и Серебряное дерево, Сребролист обладает очищающими свойствами, которые не были известны до этого момента. Вы нашли способ пробудить эти свойства и превратить Сребролист в Эфирный Цветок.<BR>Эфирные цветы способны медленно, но верно восстанавливать землю, окутанную мистической заразой, также известной как Магическая порча. Поскольку бороться с
 tc.research_page.ETHEREALBLOOM.2=заразой напрямую невозможно, есть шанс что некоторые участки зараженных областей смогут выживать вне их родной среды обитания довольно долгое время, но также будут иметь склонность к отмиранию. Эфирный цветок очищает зараженную землю вокруг себя в приблизительном радиусе около 8 блоков.<BR>Эфирные Цветы очень хрупкие и будучи сломанными, они снова принимают форму Сребролиста.
+#
+tc.research_name.ETHEREALBLOOM=Этериевая корона
+tc.research_text.ETHEREALBLOOM=Очищающий свет
+tc.research_page.ETHEREALBLOOM.1=Ртутноцвет зачастую находится в тени своего мистического соседа, Серебряного дерева, но он имеет и свои силы.<BR>Как и Серебряное дерево, ртутноцвет защищает от заражения. Но его свойства "спят". Вы открыли способ пробудить его силы, превратив ртутноцвет в Этериевую корону.<BR>Этериевая корона медленно, но верно восстанавливает землю, испорченную мистической энергией, известной, как Заражение. Хотя она и не может бороться с заражением напрямую, но она мешает распространению заражения.
+tc.research_page.ETHEREALBLOOM.2=Этот цветок только очищает своим светом зараженную местность в радиусе 8 блоков.<BR>Этериевая корона - хрупкий цветок. Если Вы ее сломаете, то она превратится в ртутноцвет. 
 #
