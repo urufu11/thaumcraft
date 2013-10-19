@@ -130,7 +130,7 @@ tile.blockTable.14.name=Mesa De Deconstrucción
 tile.blockTable.15.name=Mesa De Trabajo Arcana
 tile.researchtable.noink=Se Te Acabo La Tinta!
 tile.researchtable.nomove=No Se Pueden Mover Runas Activas!
-tile.blockChestHungry.name=Cofre Ambriento
+tile.blockChestHungry.name=Cofre Hambriento
 tile.blockArcaneDoor.name=Puerta Arcana
 tile.blockLifter.name=Levitador Arcano
 tile.blockCrystal.0.name=Racimo De Cristal De Aire
@@ -174,7 +174,7 @@ item.FocusShock.name=Foco De Varita: Electrocución
 item.FocusTrade.name=Foco De Varita: Cambio 
 item.FocusFrost.name=Foco De Varita: Congelación
 item.FocusExcavation.name=Foco De Varita: Excavación
-item.FocusPortableHole.name=Foco De Varita: Hueco Portable
+item.FocusPortableHole.name=Foco De Varita: Agujero Portable
 item.WandCap.0.name=Tapa De Hierro
 item.WandCap.1.name=Tapa De Oro
 item.WandCap.2.name=Tapa De Thaumio
@@ -539,7 +539,7 @@ tc.research_text.DECONSTRUCTOR=Solo tomar una buena mirada no es suficiente
 tc.research_page.DECONSTRUCTOR.1=Llega un momento en la carrera de cualquier taumaturgo y es que no está en condiciones de avanzar en la investigación debido a su falta de conocimiento.<BR>Un recurso posible es la mesa de deconstrucción. La mesa permite descomponer objetos en sus partes más simples para que se pueden examinar. Hay límites sin embargo - la mesa descompone los materiales hasta sus aspectos primarios. Durante este proceso mucho conocimiento se pierde y a lo mejor el taumaturgo puede esperar una simple pieza de conocimiento primario.<BR>Por ejemplo la piedra labrada (saxum y 
 tc.research_page.DECONSTRUCTOR.2=perditio) se simplificará en 2 terra y 1 perditio, solo uno de ellos podra ser descubierto.<BR>También es bastante lento y entre menos objetos y aspectos tengas, seran menores las posibilidades de descubrir algo.
 #
-tc.research_name.BASICTHAUMATURGY=Haciendo baritas
+tc.research_name.BASICTHAUMATURGY=Haciendo varitas
 tc.research_text.BASICTHAUMATURGY=Tu primera herramienta
 tc.research_page.BASICTHAUMATURGY.1=La barita es tu herramienta mas básica, pero tambien es tu herramienta mas importante. Es lo que usas para crear objetos, activar bloques como el crisol, e incontables tareas más.<BR>La barita mas básica guarda un cantidad limitada de energia mágica (llamada vis) que se utiliza para llevar abalo las tareas. Para cargar de energia una varita, tendras que drenar la energia de un nodo de aura y para hacer esto tendras que mantener el click derecho sobre en nodo.<BR> Mientras drenas la energia veras como el indicador de la parte superior izquierda se llenay te muestra cuanta vis estas guardando.
 tc.research_page.BASICTHAUMATURGY.2=Manteniendo shift se mostrara exactamente en numeros la cantidad de vis almacenada y mostrará los posibles descuentos que hara cada vez que uses mágia.<BR>Las varitas siempre estan construidas a partir de la combinación de varas y  dos tapas. Progresando en tus estudios seguramente encontraras diferentes materiales para contruir tus varitas. Solo la varita más basica se puede hacer en la mesa de trabajo. El resto de varitas requieren la §5mesa de trabajo arcana§0  y te costará vis para poder crearla.<BR>La varita básica esta hecha de materiales mundanos como la madera y el hierro, los cuales son materiales malos para la mágia.
@@ -552,65 +552,65 @@ tc.research_name.NODETAPPER1=Conocimiento de nodos avanzado
 tc.research_text.NODETAPPER1=Tomalo todo
 tc.research_page.NODETAPPER1.1=Usualmente el porceso de extraer vis de un nodo con una varita es algo lento... pero ya no.<BR>Has descubierto un forma más eficiente de aprovechar los nodos, el resultado es que has doblado la velocidad a la que el vis es drenado.
 #
-tc.research_name.NODETAPPER2=Maestria en el conocimiento de nodos
+tc.research_name.NODETAPPER2=Maestría en el conocimiento de nodos
 tc.research_text.NODETAPPER2=Todo tu vis pertenece a nosotros
 tc.research_page.NODETAPPER2.1=Has agregado nuevas mejoras a los metodos usados con los nodos.<BR>Ahora eres capaz de drenar viz tres veces más rápido que lo normal.
 #
 tc.research_name.NODEPRESERVE=Preservando los nodos
 tc.research_text.NODEPRESERVE=Salvando algunos para despues
-tc.research_page.NODEPRESERVE=You now have better control over the amount of vis you draw from nodes. You will always leave at least one vis of each aspect in the node, unless you are sneaking.<BR>Be warned, this level of control is not possible when using wands crafted from normal wood and iron.
+tc.research_page.NODEPRESERVE=Haora tienes un mejor control sobre la cantidad de vis que drenas de los nodos. Siempre dejarás al monos uno de vis por cada aspecto en el nodo, a menos de que estes agachado.<BR>Ten cuidado, este nivel de control no es posible cuando se utilizan varitas elaboradas a partir de madera normal y de hierro.
 #
-tc.research_name.THAUMOMETER=Thaumometer
-tc.research_text.THAUMOMETER=Measuring Magic
-tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to hold the right mouse button and wait.<BR>Secondly it makes discovering nodes easier, as they become clearly visible if viewed through the Thaumometer's lens - even through solid objects! 
+tc.research_name.THAUMOMETER=Thaumometro
+tc.research_text.THAUMOMETER=Midiendo la mágia
+tc.research_page.THAUMOMETER.1=Este Thaumometro es una de las herramientas mas útiles e importanets en el arsenal de un thaumaturgico, despues de la varita.<BR>Primero te permite escanear objetos, creaturas o fenomenos misticos y determinar su esencia mágica. Simplemente necesitas mantener el boton derecho del ratón y esperar.<BR>En segundo lugar hace mas facil descubrir nodos, porque los deja clara mente visible si los ves a traves de la lente del thaumometro - incluso a traves de objetos solidos! 
 #
-tc.research_name.GOGGLES=Goggles of Revealing
-tc.research_text.GOGGLES=Seeing the Unseen
-tc.research_page.GOGGLES.1=Building on the basic principles of the Thaumometer, you have begun refining its ability to detect magic into something more... revealing.<BR>This set of mystical lenses will make aura nodes much easier to find along with revealing all manner of hidden things.<BR>They form an important tool in any Thaumaturgist's arsenal.
+tc.research_name.GOGGLES=Gafas de la revelación
+tc.research_text.GOGGLES=Viendo lo invisible
+tc.research_page.GOGGLES.1=Construyendo sobre las bases del Thaumometro, Has comenzado a refinar su habilidad de detectar magia<BR>Este conjunto de misticas lentes haran mucho mas sencillo encontrar nodos de aura, junto con todo tipo de cosas ocultas.<BR>Son una parte importante del arsenal para un thaumaturgico.
 #
-tc.research_name.THAUMIUM=Thaumium
-tc.research_text.THAUMIUM=A Magical Metal
-tc.research_page.THAUMIUM.1=Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armour in a crafting table using the normal recipes.
+tc.research_name.THAUMIUM=Thaumio
+tc.research_text.THAUMIUM=Un metal mágico
+tc.research_page.THAUMIUM.1=El thaumio es el resultado de infundir energia mágica a los metales básicos. El resultado es un metal más duro que el hiero con la habilidad de aceptar encantamiento que el hierro no puede.<BR>Un metal como este tiene muchas aplicaciones en la creación de aparatos magicos más avanzados.<BR>Tambien se puede usar para crear herramientas, armas y armaduras en la mesa de trabajo, usando las recetas normales.
 #
 tc.research_name.NITOR=Nitor
-tc.research_text.NITOR=Mystical Flame
-tc.research_page.NITOR.1=This flame seems to be fuelled by magic itself. The number of uses for an everburning flame seems endless, but unfortunately it doesn't seem to produce much more light than heat, though it could prove to be a steady source of light and energy.<BR>Nitor can also be placed in the world to act as a magical light source.
+tc.research_text.NITOR=Llama mística
+tc.research_page.NITOR.1=Esta llama parece estar alimentada por la propia mágia. El número de usos de una llama siempre ardiente parece no tener fin, pero desafortunadamente no parece producir más luz que calor, aunque podría llegar a ser una fuente constante de luz y energía.<BR>El nitor también se puede colocar en el mundo para actuar como una fuente de luz mágica.
 #
 tc.research_name.ALUMENTUM=Alumentum
-tc.research_text.ALUMENTUM=Mystical Energy Source
-tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is more than eager to release that energy at the slightest bump. It may be unstable, but it would probably make a good source of fuel.<BR>It is probably not a good idea to throw it against a solid surface unless you enjoy explosions.
+tc.research_text.ALUMENTUM=Mística fuente de energía
+tc.research_page.ALUMENTUM.1=Esta sustancia vibra con energía ardiente y está más que dispuesta a liberar esa energía al más mínimo golpe. Puede ser inestable, pero probablemente sería una buena fuente de combustible.<BR>No es una buena idea tirarla contra una superficie solida a menos de que disfrutes las explosiones.
 #
-tc.research_name.HUNGRYCHEST=Hungry Chest
-tc.research_text.HUNGRYCHEST=A chest that doesn't wait to be opened
-tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
+tc.research_name.HUNGRYCHEST=Cofre hambriento
+tc.research_text.HUNGRYCHEST=Un cofre que no espera para abrirse
+tc.research_page.HUNGRYCHEST.1=El cofre hambriento es capaz de recoger objetos sueltos cerca de el.
 #
-tc.research_name.CAP_gold=Gold Wand Caps
-tc.research_text.CAP_gold=Capping things off with style
-tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
+tc.research_name.CAP_gold=Tapa de oro
+tc.research_text.CAP_gold=Tapando las cosas con estilo
+tc.research_page.CAP_gold.1=El oro es un material capaz de enfocar la energia mejor que el hierro, y las varitas tapadas con este material no tienen ninguna penalización si se utiliza para canalizar vis. 
 #
-tc.research_name.CAP_thaumium=Thaumium Wand Caps
-tc.research_text.CAP_thaumium=Magical wand caps
-tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.
+tc.research_name.CAP_thaumium=Tapa de thaumio
+tc.research_text.CAP_thaumium=Tapas mágicas
+tc.research_page.CAP_thaumium.1=El Thaumio es conocido por su habilidad para guardar y absorver mágia, usarlo para crear una tapa de varita es la elección más lógica. Es muy eficiente enfocando todos los tipos de vis.
 #
-tc.research_name.CAP_silver=Silver Wand Caps
-tc.research_text.CAP_silver=Capping things off with a little less style
-tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, earth, air and water).
+tc.research_name.CAP_silver=Tapa de plata
+tc.research_text.CAP_silver=Tapando las cosas con un poco menos de estilo
+tc.research_page.CAP_silver.1=La plata tiene propiedades similares a las del oro cuando se usa como tapa, pero es un poco mas eficiente canalizando los cuatro elementos primarios (fuego, tierra, aire y agua).
 #
-tc.research_name.CAP_copper=Copper Wand Caps
-tc.research_text.CAP_copper=When iron caps just won't cut it
-tc.research_page.CAP_copper.1=Copper has similar properties to iron when used as a wand cap, but is as efficient as gold when used to channel Ordo or Perditio vis.
+tc.research_name.CAP_copper=Tapa de cobre
+tc.research_text.CAP_copper=Cuando las tapas de hierro solo no sirven
+tc.research_page.CAP_copper.1=El cobre tiene propiedades similares a las del hierro cuando se usa como tapa, pero es tan eficiente como el oro cuando se usa para canalizar vis de Orden o de Entropia.
 #
-tc.research_name.ROD_greatwood=Greatwood Wand Core
-tc.research_text.ROD_greatwood=Repository of magical energy
-tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double the vis storage potential of mundane wood, being able to store up to 50 vis of each type.
+tc.research_name.ROD_greatwood=Vara de Greatwood
+tc.research_text.ROD_greatwood=Almacén de energia mágica
+tc.research_page.ROD_greatwood.1=Tallada de los tablones de greatwood, esta vara tiene el potencial de guardar el doble de vis que la madera mundana, siendo capaz de guardar hasta 50 de vis por cada tipo.
 #
-tc.research_name.ROD_silverwood=Silverwood Wand Core
-tc.research_text.ROD_silverwood=Magical to the core
-tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 100 vis of each type.
+tc.research_name.ROD_silverwood=Vara de Silverwood
+tc.research_text.ROD_silverwood=Núcleo mágico
+tc.research_page.ROD_silverwood.1=La madera de Silverwood ha provado ser un excelente almacén de energia mágica, y una vara hecha de esta madera puede guardar hasta 100 de vis por cada tipo.
 #
-tc.research_name.ROD_obsidian=Obsidian Wand Core
-tc.research_text.ROD_obsidian=Earthen vis storage
-tc.research_page.ROD_obsidian.1=A wand core chiselled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of terra stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_name.ROD_obsidian=Vara de obsidiana
+tc.research_text.ROD_obsidian=Almacenamiento de vis terrareo
+tc.research_page.ROD_obsidian.1=Una vara tallada de obsidiana tiene ligeramente mayor potencial de almacenamiento que las varas de greatwood. Lo que las hace superiores a las varas de greatwood sin embargo es su capacidad de guardar 10% mas de terra en su interior, lentamente se repondra su nivel de terra sin requerir de un nodo.
 #
 tc.research_name.ROD_bone=Bone Wand Core
 tc.research_text.ROD_bone=Entropic vis storage
