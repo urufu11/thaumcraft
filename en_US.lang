@@ -11,30 +11,33 @@ potion.fluxtaint=Flux Taint
 potion.soulshatter=Soul Shatter
 #
 # Entities
-entity.Thaumcraft.ThaumSlime.name=Thaumic Slime
-entity.Thaumcraft.Dart.name=Golem Dart
-entity.Thaumcraft.FrostShard.name=Frost Shard
-entity.Thaumcraft.Firebat.name=Firebat
-entity.Thaumcraft.Wisp.name=Wisp
-entity.Thaumcraft.Alumentum.name=Alumentum
-entity.Thaumcraft.GiantBrainyZombie.name=Furious Zombie
-entity.Thaumcraft.BrainyZombie.name=Angry Zombie
-entity.Thaumcraft.FollowItem.name=Following Item
-entity.Thaumcraft.SpecialItem.name=Magic Item
-entity.Thaumcraft.FallingTaint.name=Tainted Crust
-entity.Thaumcraft.AspectOrb.name=Aspect Orb
-entity.Thaumcraft.TaintSpider.name=Tainted Crawler
-entity.Thaumcraft.Taintacle.name=Taintacle
-entity.Thaumcraft.TaintacleTiny.name=Taint Tendril
-entity.Thaumcraft.TaintSpore.name=Taint Spore
-entity.Thaumcraft.TaintSwarmer.name=Taint Spore Swarmer
-entity.Thaumcraft.TaintSwarm.name=Taint Swarm
-entity.Thaumcraft.TaintedVillager.name=Tainted Villager
-entity.Thaumcraft.TaintedChicken.name=Tainted Chicken
-entity.Thaumcraft.TaintedPig.name=Tainted Pig
-entity.Thaumcraft.TaintedSheep.name=Tainted Sheep
-entity.Thaumcraft.TaintedCow.name=Tainted Cow
-entity.Thaumcraft.TaintedCreeper.name=Tainted Creeper
+entity.ThaumSlime.name=Thaumic Slime
+entity.Dart.name=Golem Dart
+entity.FrostShard.name=Frost Shard
+entity.Firebat.name=Firebat
+entity.Wisp.name=Wisp
+entity.Alumentum.name=Alumentum
+entity.GiantBrainyZombie.name=Furious Zombie
+entity.BrainyZombie.name=Angry Zombie
+entity.FollowItem.name=Following Item
+entity.SpecialItem.name=Magic Item
+entity.FallingTaint.name=Tainted Crust
+entity.AspectOrb.name=Aspect Orb
+entity.TaintSpider.name=Tainted Crawler
+entity.Taintacle.name=Taintacle
+entity.TaintacleTiny.name=Taint Tendril
+entity.TaintSpore.name=Taint Spore
+entity.TaintSwarmer.name=Taint Spore Swarmer
+entity.TaintSwarm.name=Taint Swarm
+entity.TaintedVillager.name=Tainted Villager
+entity.TaintedChicken.name=Tainted Chicken
+entity.TaintedPig.name=Tainted Pig
+entity.TaintedSheep.name=Tainted Sheep
+entity.TaintedCow.name=Tainted Cow
+entity.TaintedCreeper.name=Tainted Creeper
+entity.Pech.name=Pech Forager
+entity.Pech.1.name=Pech Mage
+entity.Pech.2.name=Pech Archer
 #
 # Blocks
 tile.blockAiry.0.name=Aura Node
@@ -175,6 +178,7 @@ item.FocusTrade.name=Wand Focus: Equal Trade
 item.FocusFrost.name=Wand Focus: Frost
 item.FocusExcavation.name=Wand Focus: Excavation
 item.FocusPortableHole.name=Wand Focus: Portable Hole
+item.FocusPech.name=Wand Focus: Pech's Curse
 item.WandCap.0.name=Iron Cap
 item.WandCap.1.name=Gold Cap
 item.WandCap.2.name=Thaumium Cap
@@ -320,6 +324,7 @@ item.ItemGolemUpgrade.2.desc=Improves Damage, Capacity
 item.ItemGolemUpgrade.3.desc=Improves Senses, Range
 item.ItemGolemUpgrade.4.desc=Improves Organisation, Intellect
 item.ItemGolemUpgrade.5.desc=Improves Defenses, Reasoning
+item.ItemManaBean.name=Mana Bean
 
 
 #
@@ -343,6 +348,9 @@ golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha 
 golemthreat.3.text=Don't worry, I'm definitely not plotting nothing.
 golemthreat.4.text=Why don't you go take a nap? You look sleepy. So very sleepy.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
+golemthreat.6.text=*LOVE* not found, defaulting to *HATE*
+golemthreat.7.text=I hate you so much.
+golemthreat.8.text=Die, meatbag!.
 #
 # Other
 nodetype.NORMAL.name=Normal
