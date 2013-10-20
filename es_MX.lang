@@ -185,16 +185,16 @@ item.WandRod.1.name=Vara De Obsidiana
 item.WandRod.2.name=Vara De Silverwood
 item.WandRod.3.name=Vara De Hielo
 item.WandRod.4.name=Vara De Cuarzo
-item.WandRod.5.name=Reed Rod
+item.WandRod.5.name=Vara De Caña De Azúcar
 item.Wand.name=Varita
 item.Wand.wood.rod=De Madera
 item.Wand.greatwood.rod=De Greatwood
 item.Wand.silverwood.rod=De Silverwood
 item.Wand.obsidian.rod=De Obsidiana
-item.Wand.blaze.rod=Blazing
+item.Wand.blaze.rod=Vara de Blaze
 item.Wand.ice.rod=De Hielo
 item.Wand.bone.rod=De Hueso
-item.Wand.reed.rod=Reed
+item.Wand.reed.rod=Caña de Azúcar
 item.Wand.quartz.rod=De Cuarzo
 item.Wand.iron.cap=Tapada Con Hierro,
 item.Wand.gold.cap=Tapada Con Oro,
@@ -523,8 +523,8 @@ tc.research_name.PLANTS=Plantas y Árboles
 tc.research_text.PLANTS=Vegetación magica
 tc.research_page.PLANTS.1=§l      §nÁrbol de Greatwood§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>Estegran y majestuoso árbol se encuentran por todo el mundo.<BR>Su madera es capaz de absorver grandes cantidades de magia haciendolo un componente escencial en las creaciones de aparatos magicos.
 tc.research_page.PLANTS.2=§l     §nÁrbol de Silverwood§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Estos árboles raros y mágicos son maravillos de ver. Sus hojas brillan con una palida energia mágica, su madera blanca es valorada por sus propiedades purificantes.<BR>La naturaleza de los árboles mágicos es tan especial que los nodos de aura a menudo se forman dentro de sus corazones - Esta característica hace que estos arboles sean invaluables.
-tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Las extrañas flores brillantes sólo crecen a la sombra de los árboles Silverwood.En lugar de néctar, estas flores producen quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.PLANTS.4=§l        §nCinderpearl§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Encontradas unicamente en los climas mas calientes, estas plantas de queman con el fuego elemental.  Ellas pueden ser cosechadas y muelidas para producir un polvo fino similar al polvo de Blaze.
+tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Las extrañas flores brillantes sólo crecen a la sombra de los árboles Silverwood. En lugar de néctar, estas flores producen quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l        §nCinderpearl§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Encontradas unicamente en los climas mas calientes, estas plantas de queman con el fuego elemental.  Ellas pueden ser cosechadas y molidas para producir un polvo fino similar al polvo de Blaze.
 #
 tc.research_name.RESEARCHER1=Experiencia investigando
 tc.research_text.RESEARCHER1=Conocimiento es poder
@@ -609,88 +609,88 @@ tc.research_text.ROD_silverwood=Núcleo mágico
 tc.research_page.ROD_silverwood.1=La madera de Silverwood ha provado ser un excelente almacén de energia mágica, y una vara hecha de esta madera puede guardar hasta 100 de vis por cada tipo.
 #
 tc.research_name.ROD_obsidian=Vara de obsidiana
-tc.research_text.ROD_obsidian=Almacenamiento de vis terrareo
-tc.research_page.ROD_obsidian.1=Una vara tallada de obsidiana tiene ligeramente mayor potencial de almacenamiento que las varas de greatwood. Lo que las hace superiores a las varas de greatwood sin embargo es su capacidad de guardar 10% mas de terra en su interior, lentamente se repondra su nivel de terra sin requerir de un nodo.
+tc.research_text.ROD_obsidian=Almacenamiento de vis terra
+tc.research_page.ROD_obsidian.1=las varas talladas de obsidiana tiene ligeramente mayor potencial de almacenamiento que las varas de greatwood. Lo que las hace superiores a las varas de greatwood, sin embargo es su capacidad de guardar 10% más de terra en su interior, lentamente se repondra su nivel de terra sin requerir de un nodo.
 #
-tc.research_name.ROD_bone=Bone Wand Core
-tc.research_text.ROD_bone=Entropic vis storage
-tc.research_page.ROD_bone.1=A wand core fashioned from bone has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_name.ROD_bone=Vara de hueso
+tc.research_text.ROD_bone=Almacenamiento de vis perditio
+tc.research_page.ROD_bone.1=Las varas hechas a partir de hueso tiene mayor potencial de almacenamiento que las varas de greatwood. Lo que las hace superiores a las varas de greatwood, sin embargo es su capacidad de guardar 10% más de perditio en su interior, lentamente se repondra su nivel de perditio sin requerir de un nodo.
 #
-tc.research_name.ROD_blaze=Blaze Rod Wand Core
-tc.research_text.ROD_blaze=Fiery vis storage
-tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.
+tc.research_name.ROD_blaze=Vara de Blaze 
+tc.research_text.ROD_blaze=Almacenamiento de vis ignis
+tc.research_page.ROD_blaze.1=Las varas de blaze rods usadas como varitas tienen mayor potencial de almacenamiento que las varas de greatwood. Lo que las hace superiores a las varas de greatwood, sin embargo es su capacidad de guardar 10% más de ignis en su interior, lentamente se repondra su nivel de ignis sin requerir de un nodo.
 #
-tc.research_name.ROD_ice=Icy Wand Core
-tc.research_text.ROD_ice=Icy vis storage
-tc.research_page.ROD_ice.1=Wand cores crafted from ice can store slightly more vis than greatwood cores. What makes it superior to greatwood cores however is that if the level of aqua stored inside it drops below 10%, its icy nature will slowly replenish it.
+tc.research_name.ROD_ice=Vara de hielo
+tc.research_text.ROD_ice=Almacenamiento de vis aqua
+tc.research_page.ROD_ice.1=Las varas hachas de hielo tienen mayor potencial de almacenamiento que las varas de greatwood. Lo que las hace superiores a las varas de greatwood, sin embargo es su capacidad de guardar 10% más de aqua en su interior, lentamente se repondra su nivel de aqua sin requerir de un nodo.
 #
-tc.research_name.ROD_quartz=Quartz Wand Core
-tc.research_text.ROD_quartz=Ordered vis storage
-tc.research_page.ROD_quartz.1=A wand core chiselled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ordo stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_name.ROD_quartz=Vara de cuarzo
+tc.research_text.ROD_quartz=Almacenamiento de vis ordo
+tc.research_page.ROD_quartz.1=las varas talladas del cuarzo tienen mayor potencial de almacenamiento que las varas de greatwood. Lo que las hace superiores a las varas de greatwood, sin embargo es su capacidad de guardar 10% más de ordo en su interior, lentamente se repondra su nivel de ordo sin requerir de un nodo.
 #
-tc.research_name.ROD_reed=Reed Wand Core
-tc.research_text.ROD_reed=Airy vis storage
-tc.research_page.ROD_reed.1=A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of aer stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_name.ROD_reed=Vara de caña de azúcar
+tc.research_text.ROD_reed=Almacenamiento de vis aer
+tc.research_page.ROD_reed.1=Las varas hechas de caña tienen mayor potencial de almacenamiento que las varas de greatwood. Lo que las hace superiores a las varas de greatwood, sin embargo es su capacidad de guardar 10% más de aer en su interior,lentamente se repondra su nivel de aer sin requerir de un nodo.
 #
-tc.research_name.FOCUSFIRE=Wand Foci
-tc.research_text.FOCUSFIRE=Form meets Function
-tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
-tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will be screwed into place. Keep pressing F to cycle through the foci you are carrying.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
+tc.research_name.FOCUSFIRE=Foco de Varita
+tc.research_text.FOCUSFIRE=Diseño y funcionalidad
+tc.research_page.FOCUSFIRE.1=Algunos cuidadosos experimentos te han mostrado una forma de ampliar las habilidades de las varitas, incluso de la varita más básica.<BR>Mediante la combinación de cristales de vis, cristales de cuarzo e infundiendo mágia, ahora eres capaz de producir una matiz mística.<BR>Si la cantidad apropiada de vis es enfocada a traves de esta matris, podrás modelar las energias primarias en algo más útil, controlarlas, y enfocarlas para tus propositos. 
+tc.research_page.FOCUSFIRE.2=Poner un foco a tu varita es una tarea muy simple - solo tienes que presionar la F mientras sostienes las varita, y cualquier foco se acoplara a tu varita. Manten presionada la F y cambiara entre todos los foco que tengas en tu inventario.<LINE>Tus primeros experimetnos se enfocaron al fuego, y el foco resultante demostró ser una herramienta simple, pero útil.<BR>Es capaz de enviar cargas de fuego mágico, quemando todo a su paso.  
 #
-tc.research_name.FOCUSFROST=Wand Focus: Frost
-tc.research_text.FOCUSFROST=Revenge is a dish best served cold
-tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks is capable of destroying fragile objects. 
+tc.research_name.FOCUSFROST=Foco de Varita: Congelación
+tc.research_text.FOCUSFROST=La venganza es un plato que se sirve frío
+tc.research_page.FOCUSFROST.1=Este foco es capaz de lanzar trozos de hielo.<BR>Se debe tener cuidado cuando se usa, ya que los trozos de hielo son capaces de destruir los objetos frágiles. 
 #
-tc.research_name.FOCUSSHOCK=Wand Focus: Shock
-tc.research_text.FOCUSSHOCK=Thunder and Lightning
-tc.research_page.FOCUSSHOCK.1=This focus is capable of focusing elemental energy into bolts of lightning that you can hurl at your enemies.
+tc.research_name.FOCUSSHOCK=Foco de Varita: Electrocución
+tc.research_text.FOCUSSHOCK=Rayos y truenos
+tc.research_page.FOCUSSHOCK.1=Este foco es capaz de enfocar la energia elemental en relámpagos que puedes tirar a tus enemigos.
 #
-tc.research_name.FOCUSEXCAVATION=Wand Focus: Excavation
+tc.research_name.FOCUSEXCAVATION=Foco de Varita: Excavación
 tc.research_text.FOCUSEXCAVATION=Terra Terror
-tc.research_page.FOCUSEXCAVATION.1=This focus turns your wand into a tool capable of moving vast amounts of earth and stone with little effort.<BR>Simply point it at what you want to excavate and the magic does the rest. Tougher materials take longer to mine, and anything other than earth, stone or similar materials will take much longer to mine.
+tc.research_page.FOCUSEXCAVATION.1=Este foco convierte tu varita en una herramienta capaz de remover asombrosas cantidades de tierra y piedra con poco esfuerzo.<BR>Simplemente apunta a lo que quieras excavar y la mágia hará el resto. Materiales más resistentes tardan más, y todo lo que no sea tierra, piedra o similar tomará más tiempo.
 #
-tc.research_name.FOCUSTRADE=Wand Focus: Equal Trade
-tc.research_text.FOCUSTRADE=This for That
-tc.research_page.FOCUSTRADE.1=You can use this focus to trade dozens of blocks in the world with some you are carrying.<BR>You must first choose the block you wish to change other blocks into by sneaking and right clicking on the desired block. When you then left-click on another block it will turn into the target block. Right clicking will transform a whole swathe of blocks.<BR>You must be carrying enough target blocks, and the transformed blocks will replace them in your inventory. Only blocks with at least one face adjacent to open air or non-solid blocks will be transformed.
+tc.research_name.FOCUSTRADE=Foco de Varita: Cambio
+tc.research_text.FOCUSTRADE=Esto para que
+tc.research_page.FOCUSTRADE.1=Tu puedes usar este foco para cambiar docenas de bloques en el mundo por algo en tu inventario.<BR>Primero debes escoger el bloque que deseas cambiar para hacerlo solo debes estar agachado y hacer click derecho en el. Cuando hagas click izquierdo en otro bloque este cambiara por el que elegiste antes. Click derecho cambiará un area de bloques.<BR>Debes cargar suficiente bloques en tu inventario, porque los bloques serán cambiados por los que tienes en tu inventario. Solo seran cambiados los bloques que tengan una cara hacia el aire o hacia un bloque no solido.
 #
-tc.research_name.FOCUSHELLBAT=Wand Focus: Nine Hells
-tc.research_text.FOCUSHELLBAT=Tiny Terrors
-tc.research_page.FOCUSHELLBAT.1=Your trips onto the Nether have taught you to fear the tiny terrors known as Hellbats. Now you have discovered a way to summon the little terrors and send them after your enemies. Excellent.
+tc.research_name.FOCUSHELLBAT=Foco de Varita: Nueve Infiernos
+tc.research_text.FOCUSHELLBAT=Pequeños terrores
+tc.research_page.FOCUSHELLBAT.1=Tus viajes al Nether han enseñado a temer a los pequeños terrores conocidos como Muercielagos del infierno. Has descubierto una forma de aparecer a los pequeños terrores y enviarlos contra tus enemigos. Esto es excellente!!.
 #
-tc.research_name.FOCUSPORTABLEHOLE=Wand Focus: Portable Hole
-tc.research_text.FOCUSPORTABLEHOLE=Never be without an exit again
-tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extradimensional spaces. Using this focus on a wall or other surface will create an extradimensional passage leading to the other side.<BR>This 'hole' only remains open for a few seconds and drains vis from the wand depending on its depth.<BR>Extradimensional holes cannot be created through certain kinds of matter or particularly complex objects.
+tc.research_name.FOCUSPORTABLEHOLE=Foco de Varita: Agujero portable
+tc.research_text.FOCUSPORTABLEHOLE=Nunca sin una salida de nuevo
+tc.research_page.FOCUSPORTABLEHOLE.1=Has tenido exito usando el vis para crear espacios extradimensionales. Usando este foco en una pared o superficie crearás un pasage extradimensional que conduce al otro lado.<BR>Este agujero solo estará abierto por unos segundos y drenara vis de tu varita dependiendo de la profundidad.<BR>Los agujeros extradimensionales no pueden pasar a través de ciertos materiales.
 #
-tc.research_name.FOCUSPOUCH=Focus Pouch
-tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
-tc.research_page.FOCUSPOUCH.1=Once you have gathered a sizable collection of foci it is quite annoying to carry them all with you. This pouch solves that problem.<BR>Whenever you change the focus on your wand, it will check this pouch first and any foci that get removed will be placed inside it first. You can also right-click the pouch to place or remove foci by hand. 
+tc.research_name.FOCUSPOUCH=Maleta de focos
+tc.research_text.FOCUSPOUCH=Contenedor conveniente para tus focos
+tc.research_page.FOCUSPOUCH.1=Una vez que has conseguido una gran colección de focos es un poco molesto cargarlos todos. Esta maleta resuelve el problema.<BR>Cada vez que cambies de foco, se cambiara por uno que este en la maleta y el foco removido pasara a la maleta. Tambien puedes hacer click derecho con la maleta seleccionada para agregar y quitar focos manualmente. 
 #
-tc.research_name.BOOTSTRAVELLER=Boots of the Traveller
-tc.research_text.BOOTSTRAVELLER=These boots were made for walking
-tc.research_page.BOOTSTRAVELLER.1=This pair of enchanted boots have been stuffed full of magic to ease the journey of any traveller.<BR>They allow you to move faster than normal. They also allow you to jump higher and fall further.<BR>Lastly they allow you to cut through water like a fish. A slow and clumsy fish, but a fish nonetheless.
+tc.research_name.BOOTSTRAVELLER=Botas del viajero
+tc.research_text.BOOTSTRAVELLER=Estas botas estan hechas para caminar
+tc.research_page.BOOTSTRAVELLER.1=Este par de botas encantadas rellenas de mágia hacen mas facil la travesía de cualquier viajero.<BR>Te permiten moverte más rápido de lo noromal. Tambien te permiten saltar mas alto y más lejos.<BR>Por último te permite atravesar el agua como un pez. Un pez lento y torpe, pero como un pez.
 #
-tc.research_name.PHIAL=Glass Phial
-tc.research_text.PHIAL=Mystical containers
-tc.research_page.PHIAL.1=Glass phials are capable of holding all manner of liquids and substances, but their most important use to a thaumaturge is their ability to hold Essentia.<BR>Essentia is not easy to gather however and it indelibly stains the phial, making it only usable once. 
+tc.research_name.PHIAL=Tubo de vidrio
+tc.research_text.PHIAL=Contenedor mistico
+tc.research_page.PHIAL.1=Los tubos de cristal son capaces de guardar todas las formas de liquidos y sustancias, pero el uso más importante, para el taumaturgico, es su habilidad para contener esencias.<BR>Las esencias no son faciles de obtener y debilitan el tubo, lo que impide que sea utilizado mas de una vez. 
 #
-tc.research_name.TABLE=Table
-tc.research_text.TABLE=Some assembly required
-tc.research_page.TABLE.1=The table is more than a simple decorative block - it also serves as a base for other surfaces useful in the practice of magic, like the Arcane Worktable and the Research Table. 
+tc.research_name.TABLE=Mesa
+tc.research_text.TABLE=Algunas requieren montaje
+tc.research_page.TABLE.1=La mesa es mas que un bloque de decoración - tambien sirve para crear otros equipamientos, como lo mesa de trabajo arcana y la mesa de investigación. 
 #
-tc.research_name.ARCTABLE=Arcane Worktable
-tc.research_text.ARCTABLE=Crafting with magic
-tc.research_page.ARCTABLE.1=To create an Arcane Worktable simply right-click with a wand on a table you have placed in the world. The Arcane Worktable serves the same purpose as a normal crafting table, with a few key exceptions.<BR>Apart from normal crafting recipes, it can also craft some of the items unique to Thaumaturgy. To do that you need to place a wand in the top-right slot. This will allow you to craft items that require vis by drawing the energy directly from the wand.<BR>The vis required to craft an item will be shown in the six circular symbols surrounding the crafting grid.
+tc.research_name.ARCTABLE=Mesa de trabajo arcana
+tc.research_text.ARCTABLE=Creando con mágia
+tc.research_page.ARCTABLE.1=Para crear una mesa de trabajo arcana simplemente es hacer click derecho con una varita a la mesa que has puesto en el mundo. La mesa de trabajo arcana tiene el mismo proposito que la mesa de trabajo normal, con algunas excepciones.<BR>Aparte de las recetas normales, puede crear algunos objetos unicos de la taumaturgia. Para hacer esto es necesario poner la varita en el espacio superior derecho. Esto permitirá crear objetos que requieran vis al sacar el vis de la varita.<BR>El vis requerido para crear el objeto se mostrara en los seis simbolos circulares que rodean la cuadricula.
 #
-tc.research_name.RESTABLE=Research Table
-tc.research_text.RESTABLE=To gather knowledge
-tc.research_page.RESTABLE.1=The Research table is created by placing two tables next to each other and then clicking on them with Scribing tools.<BR>The research table is the most important tool for any thaumaturge. It is used to unlock all the hidden secrets of the universe and discover new ways of harnessing magic. 
+tc.research_name.RESTABLE=Mesa de investigación
+tc.research_text.RESTABLE=Para conseguir conocimientos
+tc.research_page.RESTABLE.1=La mesa de investigación es creada a partir de dos mesas, una al lado de la otra y haciendole click com las herramientas del escritor.<BR>La mesa de investigación es la herramienta más importante para cualquier taumaturgo. Se usa para desbloquear los secretos del universo y nuevas formas de emplear la mágia. 
 #
 tc.research_name.THAUMONOMICON=Thaumonomicon
-tc.research_text.THAUMONOMICON=A Repository of Knowledge
-tc.research_page.THAUMONOMICON.1=To craft the Thaumonomicon, you must simply use your wand on a bookshelf placed in the world.<BR>The Thaumonomicon is a reference book of all things thaumaturgical. It lists all the discoveries you have made so far and gives you a general impression of how many there are still to be made.<BR>Whenever you successfully research something and use the scroll, it will automatically be added to this book. You can then browse through the discoveries and click on them to be shown more detailed information regarding them as well as any crafting recipes associated with those discoveries. 
+tc.research_text.THAUMONOMICON=Un depósito de conocimiento
+tc.research_page.THAUMONOMICON.1=Para crear el Thaumonomicon, simplemente debes usar tu varita en una biblioteca del mundo.<BR>El Thaumonomicon es un libro de referencias sobre todas las cosas taumaturgicas. El muestra todos los descubrimientos que has hecho y te da una idea genera de cuantas faltan por descubrir.<BR>Cuando exitosamente encuentres algo y uses el pergamino, automaticamente será añadido al libro. Puede buscar por todos tus descubrimientos y hacer click en ellos para que se muestre Mas información sobre ellos asi como recetas para su creación. 
 #
-tc.research_name.CRUCIBLE=Crucible
-tc.research_text.CRUCIBLE=Bubble and Boil
+tc.research_name.CRUCIBLE=Crisol
+tc.research_text.CRUCIBLE=Burbujas y a hervir
 tc.research_page.CRUCIBLE.1=To craft the Crucible, you must simply use your wand on a cauldron placed in the world.<BR>The crucible is an important tool for any thaumaturge. It allows him to render physical objects into their component Essentia and recombine it again as he wishes.<BR>The crucible needs to be placed over a source of constant heat and filled with water. Once the water starts boiling you simply throw any items you wish into the crucible and they will be broken down into their component Essentia.<BR>If you know the proper formula and the mix of essentia within the    
 tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.<BR>Essentia within the crucible is constantly degrading. Compound essentia degrades into one of its component aspects, and Primal essentia simply evaporates.  
 tc.research_page.CRUCIBLE.3=Beyond the waste of resources, evaporating and degrading essentia can cause many strange side-effects.<BR>You can empty a crucible by right-clicking on it with a wand. All the essentia is dumped into the atmosphere... not something you would want to do too often.
