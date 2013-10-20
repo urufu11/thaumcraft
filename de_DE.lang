@@ -11,30 +11,33 @@ potion.fluxtaint=Fluxbeschmutzung
 potion.soulshatter=Seelensplittern
 #
 # Entities
-entity.Thaumcraft.ThaumSlime.name=Thaumischer Schleim
-entity.Thaumcraft.Dart.name=Golemdart
-entity.Thaumcraft.FrostShard.name=Frostscherbe
-entity.Thaumcraft.Firebat.name=Flammfledermaus
-entity.Thaumcraft.Wisp.name=Wisp
-entity.Thaumcraft.Alumentum.name=Alumentum
-entity.Thaumcraft.GiantBrainyZombie.name=Tobender Zombie
-entity.Thaumcraft.BrainyZombie.name=Wütender Zombie
-entity.Thaumcraft.FollowItem.name=Verfolgendes Item
-entity.Thaumcraft.SpecialItem.name=Magisches Item
-entity.Thaumcraft.FallingTaint.name=Beschmutzte Kruste
-entity.Thaumcraft.AspectOrb.name=Aspektorb
-entity.Thaumcraft.TaintSpider.name=Verseuchter Krabbler
-entity.Thaumcraft.Taintacle.name=Schmutztentakel
-entity.Thaumcraft.TaintacleTiny.name=Schmutzranke
-entity.Thaumcraft.TaintSpore.name=Schmutzspore
-entity.Thaumcraft.TaintSwarmer.name=Schmutzsporen-Spawner
-entity.Thaumcraft.TaintSwarm.name=Schmutzschwarm
-entity.Thaumcraft.TaintedVillager.name=Verseuchter Dorfbewohner
-entity.Thaumcraft.TaintedChicken.name=Verseuchtes Huhn
-entity.Thaumcraft.TaintedPig.name=Verseuchtes Schwein
-entity.Thaumcraft.TaintedSheep.name=Verseuchtes Schaf
-entity.Thaumcraft.TaintedCow.name=Verseuchte Kuh
-entity.Thaumcraft.TaintedCreeper.name=Verseuchter Creeper
+entity.ThaumSlime.name=Thaumischer Schleim
+entity.Dart.name=Golemdart
+entity.FrostShard.name=Frostscherbe
+entity.Firebat.name=Flammfledermaus
+entity.Wisp.name=Wisp
+entity.Alumentum.name=Alumentum
+entity.GiantBrainyZombie.name=Tobender Zombie
+entity.BrainyZombie.name=Wütender Zombie
+entity.FollowItem.name=Verfolgendes Item
+entity.SpecialItem.name=Magisches Item
+entity.FallingTaint.name=Beschmutzte Kruste
+entity.AspectOrb.name=Aspektorb
+entity.TaintSpider.name=Verseuchter Krabbler
+entity.Taintacle.name=Schmutztentakel
+entity.TaintacleTiny.name=Schmutzranke
+entity.TaintSpore.name=Schmutzspore
+entity.TaintSwarmer.name=Schmutzsporen-Spawner
+entity.TaintSwarm.name=Schmutzschwarm
+entity.TaintedVillager.name=Verseuchter Dorfbewohner
+entity.TaintedChicken.name=Verseuchtes Huhn
+entity.TaintedPig.name=Verseuchtes Schwein
+entity.TaintedSheep.name=Verseuchtes Schaf
+entity.TaintedCow.name=Verseuchte Kuh
+entity.TaintedCreeper.name=Verseuchter Creeper
+entity.Pech.name=Pechfurier
+entity.Pech.1.name=Pechmagier
+entity.Pech.2.name=Pechschütze
 #
 # Blocks
 tile.blockAiry.0.name=Auranodie
@@ -175,6 +178,7 @@ item.FocusTrade.name=Stabfokus: Gleicher Handel
 item.FocusFrost.name=Stabfokus: Frost
 item.FocusExcavation.name=Stabfokus: Grabung
 item.FocusPortableHole.name=Stabfokus: Tragbares Loch
+item.FocusPech.name=Stabfokus: Pech's Fluch
 item.WandCap.0.name=Eisenkappe
 item.WandCap.1.name=Goldkappe
 item.WandCap.2.name=Thaumiumkappe
@@ -320,6 +324,7 @@ item.ItemGolemUpgrade.2.desc=Verbessert Schaden, Kapazität
 item.ItemGolemUpgrade.3.desc=Verbessert Sinne, Reichweite
 item.ItemGolemUpgrade.4.desc=Verbessert Organisation, Intellekt
 item.ItemGolemUpgrade.5.desc=Verbessert Verteidigung, Denkvermögen
+item.ItemManaBean.name=Manabohne
 
 
 #
@@ -343,6 +348,9 @@ golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha 
 golemthreat.3.text=Keine Sorge, ich schmiede definitiv keine Pläne.
 golemthreat.4.text=Warum machst du nicht mal ein Nickerchen? Du siehst müde aus. Sehr, sehr müde.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
+golemthreat.6.text=*LIEBE* nicht gefunden, Standardmäßig auf *HASS* stellen
+golemthreat.7.text=Ich hasse dich so sehr.
+golemthreat.8.text=Stirb, Fleischsack!.
 #
 # Other
 nodetype.NORMAL.name=Normal
