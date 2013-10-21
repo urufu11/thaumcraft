@@ -707,7 +707,7 @@ tc.research_page.ENCHANT.2=§nVelocidad§r<BR>Este encantamiento puede ser aplic
 #
 tc.research_name.ELEMENTALAXE=Hacha del rio
 tc.research_text.ELEMENTALAXE=Rios de madera
-tc.research_page.ELEMENTALAXE.1=By combining water shards and a thaumium axe, you have created a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block. 
+tc.research_page.ELEMENTALAXE.1=Combinando cristales de agua con una hacha de taumio, you have created a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block. 
 tc.research_page.ELEMENTALAXE.2=In addition all blocks harvested in this manner will automatically flow towards you to be collected.<BR>If you press and hold right click the axe will harvest at a much faster speed, but at a greater cost to its durability.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.#
 #
 tc.research_name.ELEMENTALPICK=Pickaxe of the Core
