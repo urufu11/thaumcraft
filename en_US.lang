@@ -37,7 +37,7 @@ entity.TaintedCow.name=Tainted Cow
 entity.TaintedCreeper.name=Tainted Creeper
 entity.Pech.name=Pech Forager
 entity.Pech.1.name=Pech Mage
-entity.Pech.2.name=Pech Archer
+entity.Pech.2.name=Pech Stalker
 #
 # Blocks
 tile.blockAiry.0.name=Aura Node
@@ -507,7 +507,7 @@ tc.research_page.RESEARCH.14=times to get them into position.<BR>Inactive runes 
 #
 tc.research_name.KNOWFRAG=Knowledge Fragments
 tc.research_text.KNOWFRAG=Fragments of lost lore
-tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge. On their own they aren't worth much, but if you gather enough of them together you might gain unique research that you can pursue. Usually the research they reveal cannot be gained through normal means.<BR>The fragments of knowledge can on occasion lead to a false theory, but this will be revealed when you attempt to research it. When this happens most of your knowledge fragments will be returned to you and it usually means you have exhausted all current avenues of research into lost knowledge.
+tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge. On their own they are only worth a few research points when used, but if you gather enough of them together you might gain unique research that you can pursue. Usually the research they reveal cannot be gained through normal means.<BR>The fragments of knowledge can on occasion lead to a false theory, but this will be revealed when you attempt to research it. When this happens most of your knowledge fragments will be returned to you and it usually means you have exhausted all current avenues of research into lost knowledge.
 #
 tc.research_name.ASPECTS=Aspects of Magic
 tc.research_text.ASPECTS=The building blocks of magic
@@ -625,11 +625,11 @@ tc.research_page.ROD_obsidian.1=A wand core chiselled from obsidian has slightly
 #
 tc.research_name.ROD_bone=Bone Wand Core
 tc.research_text.ROD_bone=Entropic vis storage
-tc.research_page.ROD_bone.1=A wand core fashioned from bone has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.<BR>There is no recipe for this rod, just use a normal bone.
 #
 tc.research_name.ROD_blaze=Blaze Rod Wand Core
 tc.research_text.ROD_blaze=Fiery vis storage
-tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.
+tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.<BR>There is no recipe for this rod, just use a normal blaze rod.
 #
 tc.research_name.ROD_ice=Icy Wand Core
 tc.research_text.ROD_ice=Icy vis storage
@@ -909,7 +909,7 @@ tc.research_name.DISTILESSENTIA=Essentia Distillation
 tc.research_text.DISTILESSENTIA=Harvesting essentia
 tc.research_page.DISTILESSENTIA.1=You see a future need where you will need ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have divised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lAlchemical Furnace§r. The alchemical furnace works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia.
 tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of an alchemy furnace. The essentia slurry will slowly be drawn into the alembic and the indivual aspected essentia separated out.<BR>If the alchemical furnace is being powered by alumentum, this distillation process is much faster.<BR>You can stack up to 5 different alembics on top if a single furnace.<BR>The essentia can then be extracted out of an alembic using phials.
-tc.research_page.DISTILESSENTIA.3=As an alternative essentia can also be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams en preserves. 
+tc.research_page.DISTILESSENTIA.3=As an alternative essentia can also be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams en preserves.<BR>Shift clicking on jars and alembics with an empty hand will empty them.
 #
 tc.research_name.INFERNALFURNACE=Infernal Furnace
 tc.research_text.INFERNALFURNACE=Hot enough?
@@ -995,3 +995,7 @@ tc.research_text.ETHEREALBLOOM=Purifying Flower
 tc.research_page.ETHEREALBLOOM.1=Shimmerleaf is often overshadowed by its mystical neighbour the Silverwood tree, but it has magical properties of it's own.<BR>Like the Silverwood, Shimmerleaf flowers have purifying properties that lie dorment. You have found a way to awaken these properties and turn it into an Ethereal Bloom.<BR>Ethereal blooms slowly, but surely, restores land corrupted by mystical means to its former glory - this includes the blight known as Taint. While it cannot combat Taint directly, few tainted growths can survive outside their native environment for long and tend to die back.
 tc.research_page.ETHEREALBLOOM.2=The flower only purifies the land bathed in its light out to a range of about 8 blocks.<BR>Ethereal Blooms are quite fragile and breaking them will turn them back into a Shimmerleaf flower. 
 #
+tc.research_name.PECH=The Pech
+tc.research_text.PECH=Strange Creatures
+tc.research_page.PECH.1=These strange humanoids can be found wherever the veil between worlds are at its thinnest. They seem drawn to the magical energies that abound in such places.<BR>Don't let their small stature fool you. They have incredible strength and can carry many times their own bodyweight.<BR>Pech are normally not aggressive, but when riled up they will band together and hunt down their attacker. Under normal conditions they avoid people at all costs.<BR>Pechs are notoriously avaricious, and will loot anything not nailed
+tc.research_page.PECH.2=down, though they prefer precious things. It is said that if you feed this desire for material wealth it could be possible to befriend one. Once befriended they often carry wonderous objects that they might be willing to part with.<BR>It should be noted that such 'friendships' seldom last long.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
