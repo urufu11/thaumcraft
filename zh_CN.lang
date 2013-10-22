@@ -11,30 +11,33 @@ potion.fluxtaint=咒波污染
 potion.soulshatter=灵魂裂片
 #
 # Entities
-entity.Thaumcraft.ThaumSlime.name=神秘史莱姆
-entity.Thaumcraft.Dart.name=傀儡飞镖
-entity.Thaumcraft.FrostShard.name=霜星
-entity.Thaumcraft.Firebat.name=九狱焱蝠
-entity.Thaumcraft.Wisp.name=精灵
-entity.Thaumcraft.Alumentum.name=源动之焰
-entity.Thaumcraft.GiantBrainyZombie.name=红眼僵尸巨人
-entity.Thaumcraft.BrainyZombie.name=红眼僵尸
-entity.Thaumcraft.FollowItem.name=跟随物品
-entity.Thaumcraft.SpecialItem.name=魔力物品
-entity.Thaumcraft.FallingTaint.name=腐化泥土
-entity.Thaumcraft.AspectOrb.name=要素球
-entity.Thaumcraft.TaintSpider.name=腐化魔蛛
-entity.Thaumcraft.Taintacle.name=腐化触手怪
-entity.Thaumcraft.TaintacleTiny.name=腐化触手
-entity.Thaumcraft.TaintSpore.name=腐化孢子
-entity.Thaumcraft.TaintSwarmer.name=腐化浮游孢子
-entity.Thaumcraft.TaintSwarm.name=腐化孢子群
-entity.Thaumcraft.TaintedVillager.name=腐化村民
-entity.Thaumcraft.TaintedChicken.name=腐化鸡
-entity.Thaumcraft.TaintedPig.name=腐化猪
-entity.Thaumcraft.TaintedSheep.name=腐化羊
-entity.Thaumcraft.TaintedCow.name=腐化牛
-entity.Thaumcraft.TaintedCreeper.name=腐化爬行者
+entity.ThaumSlime.name=神秘史莱姆
+entity.Dart.name=傀儡飞镖
+entity.FrostShard.name=霜星
+entity.Firebat.name=九狱焱蝠
+entity.Wisp.name=精灵
+entity.Alumentum.name=源动之焰
+entity.GiantBrainyZombie.name=红眼僵尸巨人
+entity.BrainyZombie.name=红眼僵尸
+entity.FollowItem.name=跟随物品
+entity.SpecialItem.name=魔力物品
+entity.FallingTaint.name=腐化泥土
+entity.AspectOrb.name=要素球
+entity.TaintSpider.name=腐化蜘蛛
+entity.Taintacle.name=腐化触手怪
+entity.TaintacleTiny.name=腐化触手
+entity.TaintSpore.name=腐化孢子
+entity.TaintSwarmer.name=腐化浮游孢子
+entity.TaintSwarm.name=腐化孢子群
+entity.TaintedVillager.name=腐化村民
+entity.TaintedChicken.name=腐化鸡
+entity.TaintedPig.name=腐化猪
+entity.TaintedSheep.name=腐化羊
+entity.TaintedCow.name=腐化牛
+entity.TaintedCreeper.name=腐化爬行者
+entity.Pech.name=岩精强盗
+entity.Pech.1.name=岩精法师
+entity.Pech.2.name=岩精射手
 #
 # Blocks
 tile.blockAiry.0.name=灵气节点
@@ -161,6 +164,7 @@ tile.blockStoneDevice.6.name=注魔桩
 tile.blockStoneDevice.7.name=注魔桩
 tile.blockStoneDevice.8.name=复合充能核心
 container.alchemyfurnace=炼金炉
+tile.blockArcaneFurnace.name=炼狱熔炉
 #
 # Items
 item.GolemBell.name=傀儡使铃铛
@@ -175,6 +179,7 @@ item.FocusTrade.name=法杖核心: 更替
 item.FocusFrost.name=法杖核心: 寒霜
 item.FocusExcavation.name=法杖核心: 采掘
 item.FocusPortableHole.name=法杖核心: 便携式洞穴
+item.FocusPech.name=法杖核心:岩精之诅咒
 item.WandCap.0.name=铁杖端
 item.WandCap.1.name=金杖端
 item.WandCap.2.name=神秘杖端
@@ -320,6 +325,7 @@ item.ItemGolemUpgrade.2.desc=威猛似火:伤害,容量提升
 item.ItemGolemUpgrade.3.desc=灵动若水:感知,范围提升
 item.ItemGolemUpgrade.4.desc=威严井然之秩序：智力,组织力提升
 item.ItemGolemUpgrade.5.desc=理辩守卫之混沌：防御,推理力提升
+item.ItemManaBean.name=魔豆
 #
 # Fluids
 fluid.fluxGoo=咒波粘浆
@@ -341,6 +347,9 @@ golemthreat.2.text=唔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈!
 golemthreat.3.text=无须担忧,我并无阴谋.
 golemthreat.4.text=为什么你不去打个盹儿呢?你看起来如此疲乏,非常非常地疲乏.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!(意:在拉莱耶的宅邸中,长眠的克苏鲁候汝入梦!)
+golemthreat.6.text=*爱*模式已遗失或者损坏,默认转为*恨*模式.
+golemthreat.7.text=我非常憎恨你.
+golemthreat.8.text=你这酒肉皮囊,去死吧!
 #
 # Other
 nodetype.NORMAL.name=标准
@@ -361,7 +370,7 @@ death.attack.swarm.item=%1$s被%2$s使用%3$s感染了.
 tc.handmirrorlinkedto=链接到
 tc.handmirrorlinked=链接已建立.
 tc.handmirrorerror=目标魔镜重置或者遗失,链接损坏.
-tc.discoveryerror=你简陋的学识不足以理解个中奥妙.
+tc.discoveryerror=你浅陋的学识不足以理解个中奥妙.
 tc.discoveryunknown=未知理论
 tc.discoveryprogress=% 完成
 tc.portableholeerror=便携式洞穴能量不足.
@@ -522,6 +531,8 @@ tc.research_page.PLANTS.1=§l      §n宏伟之木§r<BR><IMG>thaumcraft:texture
 tc.research_page.PLANTS.2=§l     §n银树§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>这种罕见的神奇树木算得上奇妙的景观.其枝叶散发出蕴含着魔力能量的柔和光芒,而其柔韧白皙的干部则因净化咒波的能力而非常有价值.<BR>这种神秘的树木心部还常常能够孕育出一个灵气节点,这种特性让银树树苗足以成为一种比珍宝更贵重的奖励.
 tc.research_page.PLANTS.3=§l        §n水银花§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.它们是一种出产水银而非花蜜的植物.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l        §n火焰草§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>这些植物随着熊熊的元素烈火而生长,只能在炎热气候的地区发现.它们能够被采集并且研磨成重要的炼金材料之一：烈焰粉.
+tc.research_page.PLANTS.5=§l         §n魔豆§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这种奇异的,荚状的植物仅仅生长于魔法森林的树荫中.它们生长缓慢,收获时仅能掉落1~2个魔豆.
+tc.research_page.PLANTS.6=这种被名为魔豆的豆子内含丰富的要素.它们可以食用,但出现的效果经常会有点无法预期.<BR>魔豆可以移植,但是培育这种作物困难费时.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
 tc.research_name.RESEARCHER1=研究专长
 tc.research_text.RESEARCHER1=知识就是力量
@@ -607,27 +618,27 @@ tc.research_page.ROD_silverwood.1=银树被证明是极其优良的魔力存储�
 #
 tc.research_name.ROD_obsidian=黑曜石杖柄
 tc.research_text.ROD_obsidian=地之魔力容器
-tc.research_page.ROD_obsidian.1=黑曜石雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用地之魔力时能减免10%,且无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_obsidian.1=黑曜石雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于当地之魔力时低于10%时无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_bone=白骨杖柄
 tc.research_text.ROD_bone=混沌魔力容器
-tc.research_page.ROD_bone.1=白骨制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用混沌魔力时能减免10%,且无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_bone.1=白骨制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用混沌魔力低于10%时无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_blaze=烈焰杖柄
 tc.research_text.ROD_blaze=火之魔力容器
-tc.research_page.ROD_blaze.1=烈焰棒制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用火之魔力时能减免10%,且在炎热环境中无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_blaze.1=烈焰棒制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用火之魔力低于10%时在炎热环境中无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_ice=寒霜杖柄
 tc.research_text.ROD_ice=冰之魔力容器
-tc.research_page.ROD_ice.1=冰块雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用水之魔力时能减免10%,且在寒冷环境中无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_ice.1=冰块雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用水之魔力低于10%时在寒冷环境中无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_quartz=石英杖柄
 tc.research_text.ROD_quartz=秩序魔力容器
-tc.research_page.ROD_quartz.1=石英雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用秩序魔力时能减免10%,且无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_quartz.1=石英雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用秩序魔力低于10%时无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_reed=甘蔗杖柄
 tc.research_text.ROD_reed=风之魔力容器
-tc.research_page.ROD_reed.1=甘蔗制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用风之魔力时能减免10%,且无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_reed.1=甘蔗制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用风之魔力低于10%时无需节点也能缓慢恢复魔力.
 #
 tc.research_name.FOCUSFIRE=法杖核心
 tc.research_text.FOCUSFIRE=形式遇上功能
