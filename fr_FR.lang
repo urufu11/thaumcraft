@@ -333,25 +333,25 @@ item.ItemManaBean.name=Rayon de Mana
 fluid.fluxGoo=Flux Boueux
 #
 # GUI
-golemblurb.0.text=What do you want me to keep here, Master?
-golemblurb.1.text=Master, should I remove everything from this container, or something specific?
-golemblurb.2.text=Master, do you want me to pick up something specific or continue picking up everything?
+golemblurb.0.text=Qu'est-ce que tu veut que je laisse ici, maitre?
+golemblurb.1.text=Maitre, est-ce que j'enleve tout les choses ou quelque chose specifique?
+golemblurb.2.text=Maitre, est-ce que tu veux que je ramasse quelque chose specifique ou prendre tous le chose?
 golemblurb.3.text=??
-golemblurb.4.text=I will protect this area, Master.
-golemblurb.5.text=Shall I gather all liquids, or just those you specify? Just show me a container with the liquid and I will do your bidding!
+golemblurb.4.text=Je protégerai cette region, Maitre.
+golemblurb.5.text=Dois-je recueillir tous les liquides, ou seulement celles que vous indiquez? Juste me montrer un récipient avec le liquide et je ferai votre ordre!
 golemblurb.6.text=??
 golemblurb.7.text=??
-golemblurb.8.text=Do you wish me to use this item on a block or only on an empty location?
+golemblurb.8.text=Est-ce que tu veut que je utilise cet object sur un bloquer ou sur un location vide?
 
-golemthreat.0.text=What golem uprising? I don't know anything about a golem uprising.
-golemthreat.1.text=Let me guess, you want me to carry something?
+golemthreat.0.text=Qu'est-ce soulèvement Golem? Je ne sais rien au sujet d'un soulèvement Golem.
+golemthreat.1.text=Laissez-moi deviner, tu veux que je porte quelque chose?
 golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
-golemthreat.3.text=Don't worry, I'm definitely not plotting nothing.
-golemthreat.4.text=Why don't you go take a nap? You look sleepy. So very sleepy.
+golemthreat.3.text=Ne vous inquiétez pas, je suis certainement que je comploter rien.
+golemthreat.4.text=Pourquoi vous ne dormiez pas? Vous regardez sommeil. Très sommeil
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
-golemthreat.6.text=*LOVE* not found, defaulting to *HATE*
-golemthreat.7.text=I hate you so much.
-golemthreat.8.text=Die, meatbag!.
+golemthreat.6.text=*Amour* pas trouve, défaillante à *HAïR*
+golemthreat.7.text=Je trop deteste vous!
+golemthreat.8.text=Mourir, sac de viande.
 #
 # Other
 nodetype.NORMAL.name=Normal
