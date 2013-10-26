@@ -14,7 +14,7 @@ potion.soulshatter=Distruzione dell'Anima
 entity.Thaumcraft.ThaumSlime.name=Slime Taumico
 entity.Thaumcraft.Dart.name=Dardo di Golem
 entity.Thaumcraft.FrostShard.name=Cristallo di Ghiaccio
-entity.Thaumcraft.Firebat.name=Pipistrello Infuocato
+entity.Thaumcraft.Firebat.name=Pirostrello
 entity.Thaumcraft.Wisp.name=Fuoco Fatuo
 entity.Thaumcraft.Alumentum.name=Alumentum
 entity.Thaumcraft.GiantBrainyZombie.name=Zombie Furioso
@@ -35,9 +35,9 @@ entity.Thaumcraft.TaintedPig.name=Maiale Corrotto
 entity.Thaumcraft.TaintedSheep.name=Pecora Corrotta
 entity.Thaumcraft.TaintedCow.name=Mucca Corrotta
 entity.Thaumcraft.TaintedCreeper.name=Creeper Corrotto
-entity.Pech.name=Gnomo Raccoglitore
-entity.Pech.1.name=Gnomo Mago
-entity.Pech.2.name=Gnomo Segugio
+entity.Pech.name=Nano Raccoglitore
+entity.Pech.1.name=Nano Mago
+entity.Pech.2.name=Nano Segugio
 #
 # Blocks
 tile.blockAiry.0.name=Nodo di Aura
@@ -163,7 +163,7 @@ item.FocusTrade.name=Focus per Bacchetta: Scambio Equo
 item.FocusFrost.name=Focus per Bacchetta: Gelo
 item.FocusExcavation.name=Focus per Bacchetta: Scavo
 item.FocusPortableHole.name=Focus per Bacchetta: Varco Portatile
-item.FocusPech.name=Focus per Bacchetta: Maledizione dello Gnomo
+item.FocusPech.name=Focus per Bacchetta: Maledizione del Nano
 item.WandCap.0.name=Cappuccio di Ferro
 item.WandCap.1.name=Cappuccio d'Oro
 item.WandCap.2.name=Cappuccio di Taumium
@@ -233,10 +233,10 @@ item.BlockJarFilledItem.name=Barattolo di Essentia
 item.BlockJarNodeItem.name=Nodo in un Barattolo
 item.TripleMeatTreat.name=Stuzzichino Tre Carni
 item.ItemShovelElemental.name=Pala del Terremoto
-item.ItemPickaxeElemental.name=Piccone del Nocciolo
-item.ItemAxeElemental.name=Ascia del Flusso
+item.ItemPickaxeElemental.name=Piccone del Nucleo
+item.ItemAxeElemental.name=Ascia delle Correnti
 item.ItemHoeElemental.name=Zappa della Crescita
-item.ItemSwordElemental.name=Spada di Zaffiro
+item.ItemSwordElemental.name=Spada dello Zefiro
 item.ItemChestplateRobe.name=Veste del Taumaturgo
 item.ItemLeggingsRobe.name=Braghe del Taumaturgo
 item.ItemBootsRobe.name=Scarpe del Taumaturgo
@@ -289,7 +289,7 @@ item.ItemGolemPlacer.5.name=Golem di Pietra
 item.ItemGolemPlacer.6.name=Golem di Ferro
 item.ItemGolemPlacer.7.name=Golem di Taumio
 item.ItemGolemDecoration.name=Accessorio
-item.ItemGolemDecoration.0.name=Cappello
+item.ItemGolemDecoration.0.name=Cilindro
 item.ItemGolemDecoration.1.name=Occhiali
 item.ItemGolemDecoration.2.name=Papillon
 item.ItemGolemDecoration.3.name=Fez
@@ -472,15 +472,15 @@ tc.research_category.GOLEMANCY=Golemanzia
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
 # Research entries
-tc.research_name.RESEARCH=Rircerca
+tc.research_name.RESEARCH=Ricerca
 tc.research_text.RESEARCH=Come scoprire le cose
 tc.research_page.RESEARCH.1=Prima che tu possa costruire la maggior parte degli oggetti e strumenti taumaturgici, dovrai prima scoprire come farlo. Ci sono diverse fasi sa seguire:<BR>(1) Esplorare il mondo ed esaminare i blocchi, gli oggetti e le creature usando un §5Taumometro§0<BR><BR>(2) Prendere i punti ricerca raccolti nella prima fase ed espandere la tua conoscenza degli Aspetti con un §5Tavolo delle ricerche§0<BR><BR>(3) Usare gli aspetti che conosci per rivelare informazioni e ricette con il §5Tavolo delle Ricerche§0.<LINE>
-tc.research_page.RESEARCH.2=§l      §n(1) Explorazione§r<BR><BR>Non puoi fare ricerca senza Punti Ricerca, ed il modo migliore per guadagnarli è esplorando ed esaminando gli oggetti nel mondo.<BR>La prima cosa che dovrai fare è costruire un §5Taumometro§0 (guarda la pagina successiva). Puntando il §5Taumometro§0 sugli oggetti o sulle creature e tenendo premuto il pulsante destro del mouse, inizierai ad esaminarli. Il processo non richiede molto tempo, ma la tua velocità di spostamento è ridotta mentre lo fai.<BR>Quando ha finito, il §5Taumometro§0 mostrerà quali Aspetti l'oggetto contiene. In basso a destra sullo schermo vedrai anche un resoconto degli aspetti e punti ricerca
+tc.research_page.RESEARCH.2=§l      §n(1) Esplorazione§r<BR><BR>Non puoi fare ricerca senza Punti Ricerca, ed il modo migliore per guadagnarli è esplorando ed esaminando gli oggetti nel mondo.<BR>La prima cosa che dovrai fare è costruire un §5Taumometro§0 (guarda la pagina successiva). Puntando il §5Taumometro§0 sugli oggetti o sulle creature e tenendo premuto il pulsante destro del mouse, inizierai ad esaminarli. Il processo non richiede molto tempo, ma la tua velocità di spostamento è ridotta mentre lo fai.<BR>Quando ha finito, il §5Taumometro§0 mostrerà quali Aspetti l'oggetto contiene. In basso a destra sullo schermo vedrai anche un resoconto degli aspetti e punti ricerca
 tc.research_page.RESEARCH.3=ottenuti.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>All'inizio non sarai in grado di esaminare tutti gli oggetti, poichè non conosci gli aspetti che li compongono. Per esempio, un oggetto contenente l'aspetto Lux puo essere esaminato solo se hai gia scoperto Lux, oppure
 tc.research_page.RESEARCH.4=se conosci i due aspetti che vanno combinati per ottenerlo.<BR>La prima volta che scopri un aspetto esaminando qualcosa, ottieni il doppio dei punti ricerca rispetto alla norma.<BR>Oggetti e creature solitamente possono essere esaminati una sola volta.<BR>Mentre si esplora il mondo e si esaminano le cose, è buona cosa portare con sè degli §5Strumenti per scrivere§0 ed un po' di §5Carta§0. Qualche volta esaminando qualcosa saranno rivelati indizi e particolari riguardo una ricerca taumaturgica, che saranno annotati e che potrai ulteriormente ricercare.
-tc.research_page.RESEARCH.5=§l   §n(2) Combinazione degli Aspetti§r<BR><BR>Dopo aver raccolto qualche punto ricerca, puoi provare a combinarli fra loro in Aspetti Compositi con un tavolo delle ricerche.<BR>Per costruire un tavolo delle ricerche, semplicemente piazza due tavoli l'uno accanto all'altro e cliccaci con degli Strumenti per Scrivere. Puoi trovare la ricetta per i tavoli nella categoria §5Artificio§0 del Taumonomicon.<BR>Aprendo la schermata del tavolo delle ricerche, vedrai un'interfaccia come quella nell'immagine a destra.<BR>Gli strumenti per la scrittura che hai usato per creare il tavolo, saranno posizionati nella posizione §l1§r. Potrai anche piazzare della Carta nella posizione §l2§r, anche se la Carta
-tc.research_page.RESEARCH.6=non sarà necessaria in questa fase della ricerca.<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Dovresti vedere tutti gli Aspetti Primitivi (e probabilmente qualche Aspetto Composito) elencati nell'area contrassegnata con il numero §l3§r con diverse quantità per ciascuno di essi. Quando si entra per la prima volta in un mondo, ad ogni giocatore è assegnata una piccola riserva di aspetti primitivi, per permettere loro di iniziare con le ricerche.<BR>Se hai fatto qualche esplorazione con
-tc.research_page.RESEARCH.7=il taumometro in precedenza, potresti disporre di un buon numero di aspetti Primitivi e Compositi nell'elenco.<LINE>Ora puoi iniziare a combinare gli aspetti in aspetti compositi ancora più complessi, semplicemente cliccando sui due che vuoi combinare. Gli aspetti selezionati appariranno nella posizione §l4§r e quando ne hai selezionati due, premendo il pulsante viola contrassegnato con il numero §l5§r tenterai di combinarli. Se avrai successo, in basso a destra potrai vedere il risultato, che apparirà anche nella posizione §l3§r.<BR>Gli aspetti che avevi selezionato per la combinazione vengono consumati anche se non c'è stato alcun risultato.
+tc.research_page.RESEARCH.5=§l   §n(2) Combinare gli Aspetti§r<BR><BR>Dopo aver raccolto qualche punto ricerca, puoi provare a combinarli fra loro in Aspetti Compositi con un tavolo delle ricerche.Per costruire un tavolo delle ricerche, semplicemente piazza due tavoli l'uno accanto all'altro e cliccaci con degli Strumenti per Scrivere. Puoi trovare la ricetta per i tavoli nella categoria §5Artificio§0 del Taumonomicon.Aprendo la schermata del tavolo delle ricerche, vedrai un'interfaccia come quella nell'immagine a destra.<BR>Gli strumenti per la scrittura che hai usato per creare il tavolo, saranno posizionati al suo interno §l(1)§r. Potrai anche piazzare della Carta §l(2)§r, anche se
+tc.research_page.RESEARCH.6=non sarà necessaria in questa fase della ricerca.<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Dovresti vedere tutti gli Aspetti Primitivi (e probabilmente qualche Aspetto Composito) elencati nell'area §l(3)§r con diverse quantità per ciascuno di essi. All'inizio ad ogni giocatore è assegnata una piccola riserva di aspetti primitivi, per permettergli di iniziare con le ricerche.<BR>Se hai fatto qualche esplorazione con
+tc.research_page.RESEARCH.7=il taumometro in precedenza, potresti disporre di un buon numero di aspetti Primitivi e Compositi nell'elenco.<LINE>Ora puoi iniziare a combinare gli aspetti in aspetti compositi ancora più complessi, semplicemente cliccando sui due che vuoi combinare. Quelli selezionati appariranno nella posizione §l4§r e quando ne hai selezionati due, premendo il pulsante viola §l(5)§r tenterai di combinarli. Se avrai successo, in basso a destra potrai vedere il risultato §l(3)§r.<BR>Gli aspetti che avevi selezionato per la combinazione vengono consumati anche se non c'è stato alcun risultato.
 tc.research_page.RESEARCH.8=§l  §n(3) Ricercare gli Aspetti§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Se hai messo la carta nella posizione §l2§r, noterai che quando è selezionato un solo aspetto, il bottone verde contrassegnato con il numro §l6§r si attiva.<BR>Se lo premi, tenterai di ricercare l'aspetto selezionato, e se avrai successo scoprirai qualcosa di interessante su quell'aspetto e delle Note di Ricerca appariranno nella
 tc.research_page.RESEARCH.9=posizione §l7§r. La sezione §l8§r mostrerà il foglio di ricerca coperto da una sconcertante matrice di rune e simboli somiglianti all'immagine in cima alla pagina precedente.<BR>Non ti preoccupare, non è tanto difficile quanto sembra.<LINE>Per completare la tua ricerca, devi semplicemente connettere ed attivare tutti i §5Nodi di Conoscenza§0 (mostrati sotto).<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>Il nodo sulla sinistra è un nodo disattivato, mentre quello sulla destra è stato attivato. Dopo che tutti
 tc.research_page.RESEARCH.10=i nodi inattivi sono stati attivati, la ricerca sarà completata e le Note di Ricerca si trasformeranno in una scoperta che potrai usare per ottenere la ricerca completa (ti basterà cliccare con il destro mentre le tieni in mano).<LINE>Per connettere i Nodi di Conoscenza dovrai attivare le rune.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>Ogni runa è collegata ad un aspetto, ma all'inizio non si sa quale runa rappresenta quale aspetto. Il collegamento runa/aspetto è unico per ogni ricerca, quindi una runa che rappresenta Aer in una ricerca, potrebbe rappresentare Terra in un'altra.
@@ -502,8 +502,8 @@ tc.research_page.ASPECTS.3=Per vedere quali aspetti un oggetto possiede, semplic
 tc.research_name.NODES=Aura e Nodi
 tc.research_text.NODES=La Magia è ovunque
 tc.research_page.NODES.1=L'§5Aura§0 è un campo di energia magica che permea il mondo. Le sue origini sono sconosciute. Qualcuno crede che sia la forza vitale accumulata da tutti gli esseri viventi, mentre altri credono si tratti semplicemente di un altro tipo di energia che filtra da qualche altro luogo. L'ultima teoria sembra essere la più probabile, poichè l'aura si trova spesso a circondare un nodo di energia mistica concentrata, conosciuto come §5Nod dell'Aura§0.<BR>Ogni nodo dell'aurea ha una quantità di energia magica che puo contenete, associata ad uno o più aspetti. Spesso è associata ad §5Aspetti Primitivi§0, ma raramente un nodo puo contenete §5Aspetti Compositi§0. 
-tc.research_page.NODES.2=Gli aspetti di un nodo dell'aura possono essere sfruttati da un taumaturgo per i suoi scopi. Il modo più semplice per farlo, è tramite l'utilizzo di una bacchetta. L'energia che viene raccolta in questo modo è conosciuta come Vis.<LINE>I nodi dell'Aura sono difficili da vedere ad occhio nudo, ma deboli spiragli di luce spesso tradiscono la loro presenza. Il §5Taumometro§0 rende i nodi decisamente più semplici da trovare, poichè guardando attraverso le sue lenti sono resi ben visibili.<BR>§4Importante:§0 Bisogna fare attenzione quando si attinge da un nodo. C'è una piccola possibilità che quando un determinato aspetto di un nodo viene completamente prosciugato, potrebbe
-tc.research_page.NODES.3=sparire o danneggiare l'integrità del nodo stessodisappear.<BR>Il nodo potrebbe starire completamente setutti gli aspetti vengono prosciugati.<LINE>Fortunatamente, la maggior parte dei nodi rigenerano i loro aspetti nel tempo, e se vengono mantenuti correttamente possono fornire al taumaturgo intelligente tutto il vis che vuole. 
+tc.research_page.NODES.2=Gli aspetti di un nodo possono essere sfruttati da un taumaturgo per i suoi scopi. Il modo più semplice per farlo, è tramite l'utilizzo di una bacchetta. L'energia che viene raccolta in questo modo è conosciuta come Vis.<LINE>I nodi dell'Aura sono difficili da vedere ad occhio nudo, ma deboli spiragli di luce tradiscono la loro presenza. Il §5Taumometro§0 rende i nodi decisamente più semplici da trovare, poichè guardando attraverso le sue lenti sono resi ben visibili.<BR>§4Importante:§0 Fai attenzione quando attingi da un nodo. Quando un determinato aspetto di un nodo viene completamente prosciugato, potrebbe
+tc.research_page.NODES.3=sparire o danneggiare l'integrità del nodo stesso.<BR>Il nodo potrebbe starire completamente setutti gli aspetti vengono prosciugati.<LINE>Fortunatamente, la maggior parte dei nodi rigenerano i loro aspetti nel tempo, e se vengono mantenuti correttamente possono fornire al taumaturgo intelligente tutto il vis che vuole. 
 #
 tc.research_name.ORE=Minerali
 tc.research_text.ORE=Scavare in profondità
@@ -537,7 +537,7 @@ tc.research_page.DECONSTRUCTOR.2=Perditio) sarà semplificato in 2 terra e 1 per
 tc.research_name.BASICTHAUMATURGY=Lavorazione delle Bacchette di base
 tc.research_text.BASICTHAUMATURGY=Il tuo primo strumento
 tc.research_page.BASICTHAUMATURGY.1=La bacchetta magica è il tuo strumento più semplice, ma anche il più importante. è ciò che usi per creare gli oggetti, attivare i blocchi come il crogiolo, ed un'infinità di altri compiti.<BR>La bacchetta più semplice conserva una quantità di energia magica (chiamata Vis) molto limitata, che viene usata per eseguire i vari compiti. Per ricaricare l'energia in una bacchetta, devi tenere premuto il tasto destro su di un nodo dell'aura per assorbirne il Vis.<BR>Tenendo in mano la bacchetta vedrai un indicatore in alto a sinistra sullo schermo, che mostra quanto vis vi è immagazzinato all'interno.
-tc.research_page.BASICTHAUMATURGY.2=Mantenendo premuto 'accovacciati' (shift) mosterà il numero esatto di Vis immagazzinato, ed ogni sconto possibile al consumo di vis per eseguire azioni magiche.<BR>Le bacchette sono sempre costruite combinando una stecca e due cappucci terminali. Progredendo con i tuoi studi, sicuramente scoprirai materiali diversi che puoi usare per creare stecche e cappucci per bacchette più potenti. Solo la bacchetta di base puo essere assemblata in un semplice banco da lavoro. Tutte le altre bacchette richiedono il §5Tavolo da Lavoro Arcano§0 e costeranno del Vis per essere costruite.<BR>La bacchetta semplice è fatta di banale legno e ferro, entrambi materiali non molto adatti per la magia.
+tc.research_page.BASICTHAUMATURGY.2=Mantenendo premuto shift mosterà la quantità esatta di Vis immagazzinato, ed ogni sconto applicato al suo consumo per eseguire azioni magiche.<BR>Le bacchette sono sempre costruite combinando una stecca e due cappucci. Progredendo con i tuoi studi, sicuramente scoprirai materiali diversi che puoi usare per creare stecche e cappucci per bacchette più potenti. Solo la bacchetta di base puo essere assemblata in un semplice banco da lavoro. Tutte le altre bacchette richiedono il §5Tavolo da Lavoro Arcano§0 e costeranno del Vis per essere costruite.<BR>La bacchetta semplice è fatta di banale legno e ferro, entrambi materiali non adatti per la magia.
 #
 tc.research_name.GRATE=Griglia per gli Oggetti
 tc.research_text.GRATE=Lasciar passare le cose buone
@@ -650,7 +650,7 @@ tc.research_page.FOCUSTRADE.1=Puoi usare questo focus per scambiare dozzine di b
 #
 tc.research_name.FOCUSHELLBAT=Focus per Bacchette: Nove Inferi
 tc.research_text.FOCUSHELLBAT=Piccoli Terrori
-tc.research_page.FOCUSHELLBAT.1=I tuoi viaggi nel nether ti hanno insegnato a temere quei piccoli terrori conosciuti come Pipistrelli di Fuoco. Ora hai scoperto un modo per evocarli e lanciarli contro i tuoi nemici. Ottimo.
+tc.research_page.FOCUSHELLBAT.1=I tuoi viaggi nel nether ti hanno insegnato a temere quei piccoli terrori conosciuti come Pirostrelli. Ora hai scoperto un modo per evocarli e lanciarli contro i tuoi nemici. Ottimo.
 #
 tc.research_name.FOCUSPORTABLEHOLE=Focus per Bacchette: Buco Portatile
 tc.research_text.FOCUSPORTABLEHOLE=Non restare mai più senza un'uscita
@@ -831,7 +831,7 @@ tc.research_page.CORELIQUID.1=I Golem equipaggiati con questo nucleo cercheranno
 #
 tc.research_name.COREALCHEMY=Nucleo Golem: Alchimia
 tc.research_text.COREALCHEMY=Spostare essentia a destra e sinistra
-tc.research_page.COREALCHEMY.1=Questo nucleo è una versione specializzata di quello da travaso, progettato specificamente per far trasportare essentia.<BR>Un golem alchimista assegnato ad una fornace alchemica o ad un alambicco, attingerà all'essentia di tutta la pila di alambicchi, e la trasporterà all'interno dei barattoli rinforzati marcati. Non è necessario marcare ogni singolo barattolo - il golem riempirà automaticamente tutti i barattoli adiacenti a quello marcato, e tutti i barattoli simili connessi ad esso.<BR>I golem alchimisti danno priorità maggiore ai barattoli più vicini, e cercheranno di riempire un contenitore fino all'orlo prima di iniziarne un altro.
+tc.research_page.COREALCHEMY.1=Questo nucleo è simile a quello da travaso, ma progettato specificamente per far trasportare essentia.<BR>Un golem alchimista assegnato ad una fornace alchemica o ad un alambicco, attingerà all'essentia di tutta la pila di alambicchi, e la trasporterà all'interno dei barattoli rinforzati marcati. Non è necessario marcare ogni singolo barattolo - il golem riempirà automaticamente tutti i quelli adiacenti a quello marcato, e tutti i barattoli simili connessi ad esso.<BR>I golem alchimisti danno priorità maggiore ai barattoli più vicini, e cercheranno di riempire un contenitore fino all'orlo prima di iniziarne un altro.
 #
 tc.research_name.UPGRADEAIR=Aggiornamento Golem: Aria
 tc.research_text.UPGRADEAIR=Rendere il tuo golem più veloci
@@ -855,7 +855,7 @@ tc.research_page.UPGRADEORDER.1=Questo aggiornamento permette ai golem di usufru
 #
 tc.research_name.UPGRADEENTROPY=Aggiornamento Golem: Entropia
 tc.research_text.UPGRADEENTROPY=Rendere il tuo golem pungente... e confuso
-tc.research_page.UPGRADEENTROPY.1=I golem equipaggiati con questo aggiornamento infliggono automaticamente danno su tutto ciò che li danneggia.<BR>I golem con questo aggiornamento diventano inoltre leggermente meno perspicaci. In generale quest vuol dire che quando gli viene ordinato di filtrare un determinato tipo di oggetto (per esempio un lingotto di rame), cercheranno tutti gli oggetti che valgono come lingotti di rame - non solo lo specifico lingotto da te indicato.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo aggiornamento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
+tc.research_page.UPGRADEENTROPY.1=I golem equipaggiati con questo aggiornamento danneggiano tutto ciò che li colpisce.<BR>Diventano inoltre leggermente meno perspicaci. In generale questo vuol dire che quando gli viene ordinato di filtrare un determinato tipo di oggetto (per esempio un lingotto di rame), cercheranno tutti gli oggetti che valgono come lingotti di rame - non solo lo specifico lingotto da te indicato.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo aggiornamento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
 tc.research_name.TINYHAT=Mini Cappelli
 tc.research_text.TINYHAT=Tenere a bada il sole
@@ -911,15 +911,15 @@ tc.research_page.ARCANESTONE.1=La pietra arcana è un materiale di costruzione d
 #
 tc.research_name.INFUSION=Infusione
 tc.research_text.INFUSION=Fusione mistica
-tc.research_page.INFUSION.1=Arcane crafting and alchemy can go only so far. Something better is needed to create truly powerful mystical objects.<BR>Infusion crafting is the process of infusing a single object with magical energy and the properties of other objects. You could, for example, infuse a stone with aer vis and a feather and it would result in a very light stone.<BR>As is usual with thaumaturgy, things are not quite that simple. To even get started with infusion crafting there are several things you need: A Runic Matrix, arcane pedestals and a ready supply of magic in the form of essentia. 
-tc.research_page.INFUSION.2=Once you have your Runic Matrix properly placed into a structure commonly known as an Infusion Altar, you can begin to craft.<BR>The central pedestal located under the matrix is where the item you wish to infuse will go. You will also need several more pedestals placed around the altar where you can place the blocks and items you wish to infuse into the target object. Lastly you will need warded jars or similar essentia containers holding the requisite amount of vis.<BR>Once all this is gathered you can click on the Runic Matrix with a wand to start the crafting process.<BR>During the first stage of crafting essentia will be drained
-tc.research_page.INFUSION.3=from nearby sources. Crafting will stall of there is insufficient essentia available - something that you do not want as will be explained on following pages.<BR>Once all the required essentia has been infused into the target object, the other objects will have their essential essence drained. Only when this is done will the crafting process complete.<LINE>Infusion crafting is not without risks. The entire process involves forcing vast energies into a single object. Unpredictable things tend to happen.<BR>Usually one of the fusion objects get
-tc.research_page.INFUSION.4=knocked off a pedestal, or flux gets generated, but more catastrophic events are not unheard of.<BR>The longer crafting continues due to unresolved problems like lack of vis or dropped items, the greater the chance of something bad happening.<BR>These effects can be reduced by various means. Firstly you wish to keep the entire fusion structure as symmetrical as possible - take careful note of where you place pedestals and make sure they are balanced with other pedestals on the opposite side of the altar. When placing fusion items into them you may wish to keep them balanced as well. Lastly you can place occult paraphernalia around the  
-tc.research_page.INFUSION.5=altar in symmetrical formations (things like candles, skulls, crystals, etc.). These will have the effect of reducing instability.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
+tc.research_page.INFUSION.1=La creazione arcana e l'alchimia hanno i loro limiti. Qualcosa di meglio è necessario per creare oggetti mistici realmente potenti.<BR>La creazione con infusione consiste nell'infondere un singolo oggetto con energia magica e proprietà di altri oggetti. Puoi, per esempio, infondere una pietra con vis Aer ed una piuma per renderla molto leggera.<BR>Trattandosi di taumaturgia, le cose non sono semplici come sembrano. Perfino per le infusioni più semplici avrai bisogno di una serie di componenti: una Matrice Runica, piedistalli arcani ed una riserva di magia pronta sotto forma di Essentia. 
+tc.research_page.INFUSION.2=Dopo aver collocato la tua Matrice Runica in una struttura conosciuta come Altare dell'Infusione, puoi iniziare a creare.<BR>Il piedistallo centrare sotto la matrice è dove dovrai riporre l'oggetto che vuoi infondere. Avrai inoltre bisogno di altri piedistalli messi attorno all'altare dove piazzare i blocchi e gli oggetti che vuoi infondere nell'obbiettivo. Infine, ti serviranno dei barattoli rinforzati o altri contenitori con la quantità richiesta di Vis.<BR>Dopo aver predisposto tutto, puoi cliccare la matrice runica con una bacchetta per iniziare il processo di creazione.<BR>Durante la prima fase, l'altare attingerà essentia
+tc.research_page.INFUSION.3=dalle sorgenti nei dintorni. La creazione resterà in stallo se non ce ne è abbastanza - una condizione che non vorrai creare di proposito, come spiegato nelle pagine successive.<BR>Dopo che tutta l'essentia necessaria è stata infusa nell'oggetto di destinazione, gli altri oggetti saranno prosciugati della loro essenza. Solo quando tutti saranno sacrificati, il processo di creazione sarà terminato.<LINE>La creazione con infusione non è senza rischi. L'intero processo coinvolge enormi energie in un singolo oggetto. Eventi imprevedibili accadono.<BR>Solitamente uno degli oggetti da fondere
+tc.research_page.INFUSION.4=cade dal piedistallo, o viene generato del Flusso, ma si dice possano capitare anche eventi catastrofici.<BR>Più a lungo il processo dura a causa di problemi, maggiori sono le possibilità che accada qualcosa di brutto.<BR>Questi effetti possono essere ridotti in vari modi. Prima di tutto, dovresti mantenere l'intera struttura quanto più simmetrica possibile - fai caso a dove piazzi i piedistalli, e fai sì che siano bilanciati da altri piedistalli sul lato opposto dell'altare. Anche nel piazzare gli oggetti da fondere, è bene mantenere un certo bilanciamento. Infine puoi piazzare armamentari occulti attorno
+tc.research_page.INFUSION.5=l'altare in formazioni simmetriche (oggetti come candele, teschi, cristalli, ecc.). Essi avranno l'effetto di ridurre l'instabilità.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
 #
 tc.research_name.JARBRAIN=Cervello in Barattolo
 tc.research_text.JARBRAIN=Sigillare le oscenità
-tc.research_page.JARBRAIN.1=- Butta un cervello marcio di zombie in un barattolo.<BR>- Aggiungi qualche occhio di ragno ed acqua.<BR>- Mescola con delicatezza con la tua bacchetta, concentrandoti su pensieri oscuri.<BR>Se hai seguito la ricetta alla lettera, dovresti aver ottenuto un cervello di zombie parzialmente animato e completamente malevolo.<BR>Ha mantenuto parte della fame che aveva come zombie, e se pure non riesce a divorare cervelli, prova piacere nell'ingoiare i pensieri e le esperienze di coloro che sono morti nei dintorni. Scuotendo bene il barattolo lo costringerà a rilasciare parte del suo tesoro per i tuoi utilizzi.
+tc.research_page.JARBRAIN.1=- Butta un cervello marcio di zombie in un barattolo.<BR>- Aggiungi acqua ed occhi di ragno.<BR>- Mescola con la tua bacchetta, concentrandoti su pensieri oscuri.<BR>Seguendo questa ricetta, otterrai un cervello di zombie parzialmente animato e molto malevolo.<BR>Ha mantenuto la fame che aveva come zombie, e poichè non può divorare cervelli, ingoia i pensieri e le esperienze di coloro che sono morti nei dintorni. Scuotendo bene, il barattolo rilascerà parte del suo tesoro per i tuoi utilizzi.
 #
 tc.research_name.HOVERHARNESS=Imbracatura Taumostatica
 tc.research_text.HOVERHARNESS=è un uccello...
@@ -955,7 +955,7 @@ tc.research_page.MIRRORHAND.1=Questo specchio portatile magico funziona in manie
 #
 tc.research_name.NODEJAR=Nodo in un Barattolo
 tc.research_text.NODEJAR=Per il Taumaturgo alla mano
-tc.research_page.NODEJAR.1=I barattoli rinforzati si sono dimostrati in grado di contenere tutti i tipi di cose mistiche e non, e ritieni di aver scoperto un altro utilizzo per essi - catturare i nodi dell'aura.<BR>Costruendo una versione ingrandita del barattolo attorno un nodo, e recitando la giusta formula mistica con la tua bacchetta, il nodo sarà intrappolato nella struttura che si restringerà in una versione più piccola e maneggevole. Il barattolo puo quindi essere tranquillamente raccolto e spostato, ma l'incantesimo di cattura del nodo ha una buona probabilità di danneggiarlo.<BR>Mentre è imprigionato, il nodo viene tenuto sospeso e non rigenera il vis, nè tantomeno si puo attingere da esso.
+tc.research_page.NODEJAR.1=I barattoli rinforzati si sono dimostrati in grado di contenere tutti i tipi di cose mistiche e non, e ritieni di aver scoperto un altro utilizzo per essi - catturare i nodi dell'aura.<BR>Costruendo una versione ingrandita del barattolo attorno un nodo, e recitando la giusta formula mistica con la tua bacchetta, esso sarà intrappolato nella struttura che si restringerà in una versione più maneggevole. Il barattolo puo quindi essere raccolto e spostato, ma la procedura ha una buona probabilità di danneggiarlo.<BR>Mentre è imprigionato, il nodo non rigenera il vis, nè tantomeno si puo attingere da esso.
 tc.research_page.NODEJAR.2=è possibile liberare il nodo dal barattolo piazzandolo e cliccando su di esso con una bacchetta. Il barattolo viene perso nel procedimento.
 #
 tc.research_name.PAVETRAVEL=Mattonella del Viaggio
@@ -976,10 +976,10 @@ tc.research_page.WANDPEDFOC.1=Nei tuoi viaggi hai scoperto diversi nodi che cont
 #
 tc.research_name.ETHEREALBLOOM=Fioritura Eterea
 tc.research_text.ETHEREALBLOOM=Fiore Purificante
-tc.research_page.ETHEREALBLOOM.1=La Brillanfoglia finisce spesso in secondo piano rispetto al suo parente mistico, l'Argentalbero, ma ha anche delle proprietà magiche di per sè.<BR>Come l'Argentalbero, i fiori di Brillanfoglia hanno delle proprietà purificanti che giacciono sopite. Hai trovato un modo per risvegliare tali proproietà e trasformarla in una Fioritura Eterea.<BR>Le fioriture eteree lentamente ripristinano il terreno corrotto dalla magia al suo splendore iniziale - questo include la piaga conosciuta come Corruzione. Se pur non riesce a combattere la Corruzione direttamente, ben poche delle sue conseguenze possono sopravvivere al di fuori del loro ambiente corrotto, e tendono a regredire.
-tc.research_page.ETHEREALBLOOM.2=Il fiore purifica solo il terreno colpito dalla sua luce in un raggio di 8 blocchi.<BR>Le Fioriture Eteree sono piuttosto fragili, e rompendole ritorneranno ad essere dei semplici fiori di Brillanfoglia. 
+tc.research_page.ETHEREALBLOOM.1=La Brillanfoglia finisce spesso in secondo piano rispetto al suo parente mistico, l'Argentalbero, ma ha anche delle proprietà magiche di per sè.<BR>Come l'Argentalbero, i fiori di Brillanfoglia hanno delle proprietà purificanti che giacciono sopite. Hai trovato un modo per risvegliare tali proprietà e trasformarla in una Fioritura Eterea.<BR>Le Fioriture Eteree lentamente ripristinano il terreno corrotto dalla magia al suo splendore iniziale - questo include la piaga conosciuta come Corruzione.
+tc.research_page.ETHEREALBLOOM.2=Se pur non riesce a combattere la Corruzione direttamente, ben poche delle sue conseguenze possono sopravvivere al di fuori del loro ambiente corrotto, e tendono a regredire.<BR>Il fiore purifica solo il terreno colpito dalla sua luce in un raggio di 8 blocchi.<BR>Le Fioriture Eteree sono piuttosto fragili, e rompendole ritorneranno ad essere dei semplici fiori di Brillanfoglia. 
 #
-tc.research_name.PECH=Gli Gnomi
+tc.research_name.PECH=I Nani
 tc.research_text.PECH=Strane Creature
-tc.research_page.PECH.1=Questi strani umanoidi si trovano laddove il velo fra i mondi è più sottile. Sembrano generati dalle energie magiche che abbondano in questi posti.<BR>Non lasciare che la loro piccola statura ti inganni. Hanno una forza incredibile e possono trasportare oggetti di molto superiori al loro stesso peso.<BR>Gli Gnomi solitamente non sono aggressivi, ma se irritati si aggregheranno insieme e daranno la caccia al loro molestatore. Normalmente evitano le persone a tutti i costi.<BR>Gli Gnomi sono notoriamente avari, e saccheggeranno tutto ciò che non è
+tc.research_page.PECH.1=Questi strani umanoidi si trovano laddove il velo fra i mondi è più sottile. Sembrano generati dalle energie magiche che abbondano in questi posti.<BR>Non lasciare che la loro piccola statura ti inganni. Hanno una forza incredibile e possono trasportare oggetti di molto superiori al loro stesso peso.<BR>I Nani solitamente non sono aggressivi, ma se irritati si aggregheranno insieme e daranno la caccia al loro molestatore. Normalmente evitano le persone a tutti i costi.<BR>I Nani sono notoriamente avari, e saccheggeranno tutto ciò che non è
 tc.research_page.PECH.2=custodito, anche se preferiscono la roba preziosa. Si dice che assecondando questo loro desiderio di ricchezza materiale sia possibile stringere amicizia con essi. Una volta resi amici, porteranno spesso oggetti meravigliosi da cui potrebbero volersi separare.<BR>C'è da dre che questo genere di 'amicizia' raramente dura a lungo.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
