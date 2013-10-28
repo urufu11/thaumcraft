@@ -35,7 +35,7 @@ entity.TaintedPig.name=Заражённая свинья
 entity.TaintedSheep.name=Заражённая овца
 entity.TaintedCow.name=Заражённая корова
 entity.TaintedCreeper.name=Заражённый крипер
-entity.Pech.name=Пыч Собиратель
+entity.Pech.name=Пыч Добытчик
 entity.Pech.1.name=Пыч Маг
 entity.Pech.2.name=Пыч Сталкер
 #
