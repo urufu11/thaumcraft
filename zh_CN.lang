@@ -11,6 +11,7 @@ potion.fluxtaint=咒波污染
 potion.soulshatter=灵魂裂片
 #
 # Entities
+<<<<<<< HEAD
 entity.Thaumcraft.ThaumSlime.name=神秘史莱姆
 entity.Thaumcraft.Dart.name=傀儡飞镖
 entity.Thaumcraft.FrostShard.name=霜星
@@ -35,6 +36,35 @@ entity.Thaumcraft.TaintedPig.name=腐化猪
 entity.Thaumcraft.TaintedSheep.name=腐化羊
 entity.Thaumcraft.TaintedCow.name=腐化牛
 entity.Thaumcraft.TaintedCreeper.name=腐化爬行者
+=======
+entity.ThaumSlime.name=神秘史莱姆
+entity.Dart.name=傀儡飞镖
+entity.FrostShard.name=霜星
+entity.Firebat.name=九狱焱蝠
+entity.Wisp.name=精灵
+entity.Alumentum.name=源动之焰
+entity.GiantBrainyZombie.name=红眼僵尸巨人
+entity.BrainyZombie.name=红眼僵尸
+entity.FollowItem.name=跟随物品
+entity.SpecialItem.name=魔力物品
+entity.FallingTaint.name=腐化泥土
+entity.AspectOrb.name=要素球
+entity.TaintSpider.name=腐化蜘蛛
+entity.Taintacle.name=腐化触手怪
+entity.TaintacleTiny.name=腐化触手
+entity.TaintSpore.name=腐化孢子
+entity.TaintSwarmer.name=腐化浮游孢子
+entity.TaintSwarm.name=腐化孢子群
+entity.TaintedVillager.name=腐化村民
+entity.TaintedChicken.name=腐化鸡
+entity.TaintedPig.name=腐化猪
+entity.TaintedSheep.name=腐化羊
+entity.TaintedCow.name=腐化牛
+entity.TaintedCreeper.name=腐化爬行者
+entity.Pech.name=岩精强盗
+entity.Pech.1.name=岩精法师
+entity.Pech.2.name=岩精猎手
+>>>>>>> pr/144
 #
 # Blocks
 tile.blockAiry.0.name=灵气节点
@@ -104,22 +134,6 @@ tile.blockWoodenDevice.4.name=奥术钻探机基座
 tile.blockWoodenDevice.5.name=奥术钻探机
 tile.blockWoodenDevice.6.name=宏伟之树木板
 tile.blockWoodenDevice.7.name=银树木板
-tile.blockMarker.0.name=白色标记
-tile.blockMarker.1.name=橙色标记
-tile.blockMarker.2.name=品红色标记
-tile.blockMarker.3.name=浅蓝色标记
-tile.blockMarker.4.name=黄色标记
-tile.blockMarker.5.name=柠檬色标记
-tile.blockMarker.6.name=粉色标记
-tile.blockMarker.7.name=灰色标记
-tile.blockMarker.8.name=浅灰色标记
-tile.blockMarker.9.name=青色标记
-tile.blockMarker.10.name=紫色标记
-tile.blockMarker.11.name=蓝色标记
-tile.blockMarker.12.name=棕色标记
-tile.blockMarker.13.name=绿色标记
-tile.blockMarker.14.name=红色标记
-tile.blockMarker.15.name=黑色标记
 tile.blockJar.0.name=要素罐子
 tile.blockJar.1.name=缸中之脑
 tile.blockJar.2.name=缸中节点
@@ -495,7 +509,7 @@ tc.research_page.RESEARCH.14=这意味着你有时候必须激活以及注销数
 #
 tc.research_name.KNOWFRAG=知识碎片
 tc.research_text.KNOWFRAG=遗落的卷章碎片
-tc.research_page.KNOWFRAG.1=在旅途中你偶然发现了一些古代遗迹以及失落的知识.有时候那些原住民中的神秘研究者也会收集一些自古代就失落的知识.就零散的碎片而言它们毫无价值,但当你收集到足够多的碎片后,也许你可以开始一些独特的研究.通常这类研究是别的手段无法触及的.<BR>知识碎片有时候会试图将你导向错误的原理,当但你试图深入研究的时候便将能够揭示出错误.一旦遇到这种情况,大部分知识碎片会退还到你手中.而这可能意味着这项失落知识的研究中,你现在已经别无手段.
+tc.research_page.KNOWFRAG.1=在旅途中你偶然发现了一些古代遗迹以及失落的知识.有时候那些原住民中的神秘研究者也会收集一些自古代就失落的知识.使用零散的碎片仅仅能获得少量的要素点,但若是收集到足够多的数量,能够将它们拼凑成独特的研究-一些通常的研究方法均不能获得的独特研究.<BR>知识碎片有时候会试图将你导向错误的原理,当但你试图深入研究的时候便将能够揭示出错误.一旦遇到这种情况,大部分知识碎片会退还到你手中.而这可能意味着在该方向的研究中你已经涉及到了所有失落的知识.
 #
 tc.research_name.ASPECTS=魔力要素
 tc.research_text.ASPECTS=万物构造之源
@@ -611,11 +625,19 @@ tc.research_page.ROD_obsidian.1=黑曜石雕琢成的稍好于宏伟之木杖柄
 #
 tc.research_name.ROD_bone=白骨杖柄
 tc.research_text.ROD_bone=混沌魔力容器
+<<<<<<< HEAD
 tc.research_page.ROD_bone.1=白骨制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用混沌魔力时能减免10%,且无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_blaze=烈焰杖柄
 tc.research_text.ROD_blaze=火之魔力容器
 tc.research_page.ROD_blaze.1=烈焰棒制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用火之魔力时能减免10%,且在炎热环境中无需节点也能缓慢恢复魔力.
+=======
+tc.research_page.ROD_bone.1=使用白骨作为杖柄稍好于宏伟之木杖柄,相对于宏伟之木杖柄来说,其优势在于使用混沌魔力低于10%时无需节点也能缓慢恢复魔力.<BR>不需要合成,使用普通白骨即可.
+#
+tc.research_name.ROD_blaze=烈焰杖柄
+tc.research_text.ROD_blaze=火之魔力容器
+tc.research_page.ROD_blaze.1=使用烈焰棒作为杖柄稍好于宏伟之木杖柄,相对于宏伟之木杖柄来说,其优势在于使用火之魔力低于10%时在炎热环境中无需节点也能缓慢恢复魔力.<BR>不需要合成,使用普通烈焰棒即可.
+>>>>>>> pr/144
 #
 tc.research_name.ROD_ice=寒霜杖柄
 tc.research_text.ROD_ice=冰之魔力容器
@@ -905,7 +927,7 @@ tc.research_page.INFERNALFURNACE.2=你应该还要注意的是炼狱熔炉偶尔
 tc.research_name.BELLOWS=奥术风箱
 tc.research_text.BELLOWS=煽风点火
 tc.research_page.BELLOWS.1=奥术风箱功能正如其名,不过它能够自己动作,对着需要的方向发出阵阵气流.<BR>将其安装在地狱熔炉侧面和后面的开孔处(一个熔炉可以安装3个)会出现有趣的现象：蕴含魔力的气流不仅仅加快了熔炉燃烧的速度,也让火焰更加纯净,减少了咒波的产生率,增大了获得金属粒或者其他材料的额外产物的机会.
-tc.research_page.BELLOWS.2=它也能安装在普通熔炉边上来为其加速.<BR>如果安装在坩埚旁边,则能缩短水煮沸的时间.<BR>你相信你未来能发掘出它更多的应用. 
+tc.research_page.BELLOWS.2=它也能安装在普通熔炉边上来为其加速.<BR>如果安装在坩埚旁边,则能缩短水煮沸的时间.<BR>你相信你未来能发掘出它更多的应用. <BR>按住Shift点击罐子或者蒸馏器能够清空它们.
 #
 tc.research_name.ARCANESTONE=奥术石材
 tc.research_text.ARCANESTONE=魔力强化的建筑材料
@@ -981,3 +1003,7 @@ tc.research_text.ETHEREALBLOOM=纯洁的花朵
 tc.research_page.ETHEREALBLOOM.1=水银花常常生长在银树附近的阴影之中,但是它亦有自己独特的魔法属性.<BR>类似银树,水银花也潜藏着休眠中的净化魔力.你已经找到一种方法唤醒这种魔力,并将其转化为天域花.<BR>天域花,能够十分缓慢但确定无疑地恢复这片被神秘力量(包括我们通常称之为腐化的咒波污染)所污染和破坏的大地，使其重回昔日的荣光之下.虽然它并不能够直接对抗腐化,但腐化的植物会很难蔓延到天域花所处的环境中,并会渐渐趋向于枯萎死亡.
 tc.research_page.ETHEREALBLOOM.2=这种花只能净化沐浴在它荣光之下的8格范围内的土地.<BR>天域花十分脆弱,如果试图采摘,会使它们的魔力失活变回水银花. 
 #
+tc.research_name.PECH=岩精
+tc.research_text.PECH=奇怪的生物
+tc.research_page.PECH.1=这些奇怪的类人生物生活在位面间隙的薄层之中.它们被魔力所吸引,在魔力浓郁之处遍地皆是.<BR>不要被它们小小的个头愚弄了,实际上它们拥有不可思议的力气,能够携运数倍于自身重量的物品.<BR>岩精通常不具有主动攻击性.但一旦被激怒,会结队追杀攻击它们的人.一般情况下尽可能不要招惹它们.<BR>岩精是出了名的吝啬鬼,尽管它们收藏了很多贵重物品,
+tc.research_page.PECH.2=可杀死它们不会得到任何战利品.据说如果你为它们提供想要的材料就有可能能够与它们结交.成为朋友后它们常常会搬来一些它们不想要了的神奇物品给你.<BR>应该说明的一点是,这样的友谊很少能长久维持.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
