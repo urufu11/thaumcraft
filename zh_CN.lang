@@ -11,7 +11,6 @@ potion.fluxtaint=咒波污染
 potion.soulshatter=灵魂裂片
 #
 # Entities
-<<<<<<< HEAD
 entity.Thaumcraft.ThaumSlime.name=神秘史莱姆
 entity.Thaumcraft.Dart.name=傀儡飞镖
 entity.Thaumcraft.FrostShard.name=霜星
@@ -36,7 +35,6 @@ entity.Thaumcraft.TaintedPig.name=腐化猪
 entity.Thaumcraft.TaintedSheep.name=腐化羊
 entity.Thaumcraft.TaintedCow.name=腐化牛
 entity.Thaumcraft.TaintedCreeper.name=腐化爬行者
-=======
 entity.ThaumSlime.name=神秘史莱姆
 entity.Dart.name=傀儡飞镖
 entity.FrostShard.name=霜星
@@ -64,7 +62,6 @@ entity.TaintedCreeper.name=腐化爬行者
 entity.Pech.name=岩精强盗
 entity.Pech.1.name=岩精法师
 entity.Pech.2.name=岩精猎手
->>>>>>> pr/144
 #
 # Blocks
 tile.blockAiry.0.name=灵气节点

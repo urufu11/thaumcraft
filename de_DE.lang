@@ -11,7 +11,6 @@ potion.fluxtaint=Fluxbeschmutzung
 potion.soulshatter=Seelensplittern
 #
 # Entities
-<<<<<<< HEAD
 entity.Thaumcraft.ThaumSlime.name=Thaumischer Schleim
 entity.Thaumcraft.Dart.name=Golemdart
 entity.Thaumcraft.FrostShard.name=Frostscherbe
@@ -36,7 +35,6 @@ entity.Thaumcraft.TaintedPig.name=Verseuchtes Schwein
 entity.Thaumcraft.TaintedSheep.name=Verseuchtes Schaf
 entity.Thaumcraft.TaintedCow.name=Verseuchte Kuh
 entity.Thaumcraft.TaintedCreeper.name=Verseuchter Creeper
-=======
 entity.ThaumSlime.name=Thaumischer Schleim
 entity.Dart.name=Golemdart
 entity.FrostShard.name=Frostscherbe
@@ -64,7 +62,6 @@ entity.TaintedCreeper.name=Verseuchter Creeper
 entity.Pech.name=Pechfurier
 entity.Pech.1.name=Pechmagier
 entity.Pech.2.name=Pechjäger
->>>>>>> pr/142
 #
 # Blocks
 tile.blockAiry.0.name=Auranodie
