@@ -11,6 +11,7 @@ potion.fluxtaint=Fluxbeschmutzung
 potion.soulshatter=Seelensplittern
 #
 # Entities
+<<<<<<< HEAD
 entity.Thaumcraft.ThaumSlime.name=Thaumischer Schleim
 entity.Thaumcraft.Dart.name=Golemdart
 entity.Thaumcraft.FrostShard.name=Frostscherbe
@@ -35,6 +36,35 @@ entity.Thaumcraft.TaintedPig.name=Verseuchtes Schwein
 entity.Thaumcraft.TaintedSheep.name=Verseuchtes Schaf
 entity.Thaumcraft.TaintedCow.name=Verseuchte Kuh
 entity.Thaumcraft.TaintedCreeper.name=Verseuchter Creeper
+=======
+entity.ThaumSlime.name=Thaumischer Schleim
+entity.Dart.name=Golemdart
+entity.FrostShard.name=Frostscherbe
+entity.Firebat.name=Flammfledermaus
+entity.Wisp.name=Wisp
+entity.Alumentum.name=Alumentum
+entity.GiantBrainyZombie.name=Tobender Zombie
+entity.BrainyZombie.name=Wütender Zombie
+entity.FollowItem.name=Verfolgendes Item
+entity.SpecialItem.name=Magisches Item
+entity.FallingTaint.name=Beschmutzte Kruste
+entity.AspectOrb.name=Aspektorb
+entity.TaintSpider.name=Verseuchter Krabbler
+entity.Taintacle.name=Schmutztentakel
+entity.TaintacleTiny.name=Schmutzranke
+entity.TaintSpore.name=Schmutzspore
+entity.TaintSwarmer.name=Schmutzsporen-Spawner
+entity.TaintSwarm.name=Schmutzschwarm
+entity.TaintedVillager.name=Verseuchter Dorfbewohner
+entity.TaintedChicken.name=Verseuchtes Huhn
+entity.TaintedPig.name=Verseuchtes Schwein
+entity.TaintedSheep.name=Verseuchtes Schaf
+entity.TaintedCow.name=Verseuchte Kuh
+entity.TaintedCreeper.name=Verseuchter Creeper
+entity.Pech.name=Pechfurier
+entity.Pech.1.name=Pechmagier
+entity.Pech.2.name=Pechjäger
+>>>>>>> pr/142
 #
 # Blocks
 tile.blockAiry.0.name=Auranodie
@@ -104,22 +134,6 @@ tile.blockWoodenDevice.4.name=Arkane Bohrerbasis
 tile.blockWoodenDevice.5.name=Arkaner Bohrer
 tile.blockWoodenDevice.6.name=Großholzplanken
 tile.blockWoodenDevice.7.name=Silberholzplanken
-tile.blockMarker.0.name=Weißer Marker
-tile.blockMarker.1.name=Oranger Marker
-tile.blockMarker.2.name=Pinker Marker
-tile.blockMarker.3.name=Hellblauer Marker
-tile.blockMarker.4.name=Gelber Marker
-tile.blockMarker.5.name=Hellgrüner Marker
-tile.blockMarker.6.name=Rosa Marker
-tile.blockMarker.7.name=Grauer Marker
-tile.blockMarker.8.name=Hellgrauer Marker
-tile.blockMarker.9.name=Türkiser Marker
-tile.blockMarker.10.name=Violetter Marker
-tile.blockMarker.11.name=Blauer Marker
-tile.blockMarker.12.name=Brauner Marker
-tile.blockMarker.13.name=Grüner Marker
-tile.blockMarker.14.name=Roter Marker
-tile.blockMarker.15.name=Schwarzer Marker
 tile.blockJar.0.name=Bannendes Glas
 tile.blockJar.1.name=Gehirn im Glas
 tile.blockJar.2.name=Nodie im Glas
@@ -498,7 +512,7 @@ tc.research_page.RESEARCH.14=times to get them into position.<BR>Inactive runes 
 #
 tc.research_name.KNOWFRAG=Wissensfragmente
 tc.research_text.KNOWFRAG=Fragmente verlorenen Wissens
-tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken und verlorenen Wissens treffen. Einzeln sind sie nicht viel wert, aber wenn du genug von ihnen bekommst, könntest du an einzigartige Forschungen kommen, die du fortführen könntest. Für gewöhnlich kann die Forschung, die sie enthüllen, nicht auf normale Weise erhalten werden.<BR>Diese Fragmente des Wissens können manchmal zu falschen Theorien führen, aber dies wird enthüllt, wenn du versucht, weiter nachzuforschen. Wenn das passiert, wirst du die meisten deiner Wissensfragmente zurückbekommen. Es bedeuted für gewöhnlich, dass du all deine Forschungsanstrengungen in verlorenes Wissen verschwendet hast.
+tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken und verlorenen Wissens treffen. Einzeln bringen sie lediglich ein paar Forschungspunkte, wenn benutzt, aber wenn du genug von ihnen bekommst, könntest du an einzigartige Forschungen kommen, die du fortführen könntest. Für gewöhnlich kann die Forschung, die sie enthüllen, nicht auf normale Weise erhalten werden.<BR>Diese Fragmente des Wissens können manchmal zu falschen Theorien führen, aber dies wird enthüllt, wenn du versucht, weiter nachzuforschen. Wenn das passiert, wirst du die meisten deiner Wissensfragmente zurückbekommen. Es bedeuted für gewöhnlich, dass du all deine Forschungsanstrengungen in verlorenes Wissen verschwendet hast.
 #
 tc.research_name.ASPECTS=Aspekte der Magie
 tc.research_text.ASPECTS=Die Grundsteine der Magie
@@ -614,11 +628,11 @@ tc.research_page.ROD_obsidian.1=A wand core chiselled from obsidian has slightly
 #
 tc.research_name.ROD_bone=Knochen-Stabkern
 tc.research_text.ROD_bone=Entropischer  Visspeicher
-tc.research_page.ROD_bone.1=A wand core fashioned from bone has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.<BR>There is no recipe for this rod, just use a normal bone.
 #
 tc.research_name.ROD_blaze=Lohenruten-Stabkern
 tc.research_text.ROD_blaze=Feuriger Visspeicher
-tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.
+tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.<BR>There is no recipe for this rod, just use a normal bone.
 #
 tc.research_name.ROD_ice=Eisiger Stabkern
 tc.research_text.ROD_ice=Eisiger Visspeicher
@@ -898,7 +912,7 @@ tc.research_name.DISTILESSENTIA=Essentia-Destillation
 tc.research_text.DISTILESSENTIA=Essentia ernten
 tc.research_page.DISTILESSENTIA.1=You see a future need where you will need ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have divised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lAlchemical Furnace§r. The alchemical furnace works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia.
 tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of an alchemy furnace. The essentia slurry will slowly be drawn into the alembic and the indivual aspected essentia separated out.<BR>If the alchemical furnace is being powered by alumentum, this distillation process is much faster.<BR>You can stack up to 5 different alembics on top if a single furnace.<BR>The essentia can then be extracted out of an alembic using phials.
-tc.research_page.DISTILESSENTIA.3=As an alternative essentia can also be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams en preserves. 
+tc.research_page.DISTILESSENTIA.3=As an alternative essentia can also be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams en preserves..<BR>Shift clicking on jars and alembics with an empty hand will empty them.
 #
 tc.research_name.INFERNALFURNACE=Höllischer Ofen
 tc.research_text.INFERNALFURNACE=Heiß genug?
@@ -984,3 +998,7 @@ tc.research_text.ETHEREALBLOOM=Purifizierende Blume
 tc.research_page.ETHEREALBLOOM.1=Shimmerleaf is often overshadowed by its mystical neighbour the Silverwood tree, but it has magical properties of it's own.<BR>Like the Silverwood, Shimmerleaf flowers have purifying properties that lie dorment. You have found a way to awaken these properties and turn it into an Ethereal Bloom.<BR>Ethereal blooms slowly, but surely, restores land corrupted by mystical means to its former glory - this includes the blight known as Taint. While it cannot combat Taint directly, few tainted growths can survive outside their native environment for long and tend to die back.
 tc.research_page.ETHEREALBLOOM.2=The flower only purifies the land bathed in its light out to a range of about 8 blocks.<BR>Ethereal Blooms are quite fragile and breaking them will turn them back into a Shimmerleaf flower. 
 #
++tc.research_name.PECH=Die Pech
++tc.research_text.PECH=Seltsame Kreaturen
++tc.research_page.PECH.1=Diese seltsamen humanoiden Wesen können überall gefunden werden, wo der Schleier zwischen Welten am dünnsten ist. Sie scheinen von magischen Energien, die an solchen Orten herrschen, angezogen zu werden.<BR>Lass dich nicht von ihrer kleinen Statur täuschen. Sie sind unglaublich start und können ein Vielfaches ihres eigenen Körpergewichts tragen.<BR>Pech sind normalerweise nicht aggressiv, aber wenn sie geärgert werden, werden sie sich zusammenschließen und den Angreifer zur Strecke bringen. Unter normalen Umständen meiden sie Menschen um jeden Preis.<BR>Pechs sind notorisch habgierig und werden alles,
++tc.research_page.PECH.2=was nicht niet- und nagelfest ist, stehlen, jedoch bevorzugen sie wertvolle Dinge. Es wird gesagt, dass, wenn du dieses Bedürfnis für materiellen Wohlstand befriedigst, es möglich wäre, sich mit einem anzufreunden. Einmal befreundet, tragen sie oft wundersame Objekte, die sie vielleicht bereit sind, zu teilen.<BR>Es sollte erwähnt werden, dass solche 'Freundschaften' selten lange halten.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
