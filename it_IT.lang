@@ -35,6 +35,9 @@ entity.TaintedPig.name=Maiale Corrotto
 entity.TaintedSheep.name=Pecora Corrotta
 entity.TaintedCow.name=Mucca Corrotta
 entity.TaintedCreeper.name=Creeper Corrotto
+entity.Pech.name=Nano Raccoglitore
+entity.Pech.1.name=Nano Mago
+entity.Pech.2.name=Nano Segugio
 #
 # Blocks
 tile.blockAiry.0.name=Nodo di Aura
