@@ -66,6 +66,8 @@ entity.Pech.2.name=岩精猎手
 # Blocks
 tile.blockAiry.0.name=灵气节点
 tile.blockAiry.1.name=闪耀之光
+tile.blockAiry.2.name=闪烁之光
+tile.blockAiry.3.name=闪烁之光
 tile.blockAiry.5.name=灵气节点
 tile.blockHole.name=隙间
 tile.blockSecure.name=守卫者方块
@@ -103,6 +105,7 @@ tile.alembic.msg.4=蒸馏器快满了
 tile.alembic.msg.5=蒸馏器已经满了
 tile.blockMetalDevice.5.name=物品格栅
 tile.blockMetalDevice.6.name=物品格栅(关闭)
+tile.blockMetalDevice.7.name=奥术灯
 tile.blockMagicalLog.greatwood.name=宏伟之木原木
 tile.blockMagicalLog.silverwood.name=银树原木
 tile.blockMagicalLeaves.greatwood.name=宏伟之木树叶
@@ -225,6 +228,7 @@ item.ItemResource.9.name=知识碎片
 item.ItemResource.10.name=镜面玻璃
 item.ItemResource.11.name=腐化粘浆
 item.ItemResource.12.name=腐化触手
+item.ItemResource.13.name=罐子标签
 item.ItemShard.0.name=风之碎片
 item.ItemShard.1.name=火之碎片
 item.ItemShard.2.name=水之碎片
@@ -356,7 +360,7 @@ golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!(意:在�
 # Other
 nodetype.NORMAL.name=标准
 nodetype.UNSTABLE.name=不稳定
-nodetype.DARK.name=黑暗
+nodetype.DARK.name=凶险
 nodetype.PURE.name=纯净
 nodetype.TAINTED.name=污染
 nodetype.HUNGRY.name=饕餮
@@ -724,7 +728,7 @@ tc.research_page.ENCHANT.2=§n急迫§r<BR>进行该附魔的鞋子能够让穿�
 tc.research_name.ELEMENTALAXE=奔流斧
 tc.research_text.ELEMENTALAXE=木材的河流
 tc.research_page.ELEMENTALAXE.1=通过将水之碎片与神秘锭制作的斧融合,你打造出一柄拥有流水特性的魔斧.<BR>这把斧头除了对木材和原木使用外,与普通斧头相比无甚特殊之处.当用它来采伐木头的时候,它会首先将与这个方块相连最远的方块采掘并吸收过来.<BR>因此你可以用这柄斧头从上到下地砍树.
-tc.research_page.ELEMENTALAXE.2=另外,奔流斧采掘的目标能够自动流向其使用者.<BR>如果你长按右键的同时使用斧头,将会消耗更多耐久,但以更快的速度来采伐目标木材或原木.<BR>当你按住潜行键则可以抑制其特效,将其作为普通斧头使用,
+tc.research_page.ELEMENTALAXE.2=如果你长按右键的同时使用斧头,将会消耗更多耐久,但以更快的速度来采伐目标木材或原木.<BR>当你按住潜行键则可以抑制其特效,将其作为普通斧头使用,
 #
 tc.research_name.ELEMENTALPICK=炽心镐
 tc.research_text.ELEMENTALPICK=熔岩之心
@@ -1004,3 +1008,15 @@ tc.research_name.PECH=岩精
 tc.research_text.PECH=奇怪的生物
 tc.research_page.PECH.1=这些奇怪的类人生物生活在位面间隙的薄层之中.它们被魔力所吸引,在魔力浓郁之处遍地皆是.<BR>不要被它们小小的个头愚弄了,实际上它们拥有不可思议的力气,能够携运数倍于自身重量的物品.<BR>岩精通常不具有主动攻击性.但一旦被激怒,会结队追杀攻击它们的人.一般情况下尽可能不要招惹它们.<BR>岩精是出了名的吝啬鬼,尽管它们收藏了很多贵重物品,
 tc.research_page.PECH.2=可杀死它们不会得到任何战利品.据说如果你为它们提供想要的材料就有可能能够与它们结交.成为朋友后它们常常会搬来一些它们不想要了的神奇物品给你.<BR>应该说明的一点是,这样的友谊很少能长久维持.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
+#
+tc.research_name.INFUSIONENCHANTMENT=注魔法附魔
+tc.research_text.INFUSIONENCHANTMENT=用要素源质附魔
+tc.research_page.INFUSIONENCHANTMENT.1=悠悠数载岁月以降,巫师和神秘使已经将自己的生命能量灌注进物品来制造附魔武器,工具以及装备.而此种附魔方法过程单调乏味,结果难以预知.你关于注魔合成的研究揭露了解决这些问题的新方法.<BR>你对如何使用注魔坛对物品附魔已经了然于心.只需将你希望附魔的物品放置在中央的基座上，并提高合适的材料以及源质即可.
+tc.research_page.INFUSIONENCHANTMENT.2=这种附魔同样需要提供经验形式的生命源质,但需求量远低于普通附魔所需.这些经验将从注魔坛附近的任意玩家身上抽取,因此使用时需要当心.<BR>I级附魔所消耗的源质和经验在如下配方中列出.若想对物品进行更高级别的附魔,只需重复进行注魔过程即可-该过程可重复进行直到所进行的附魔达到可能的最高等级.根据附魔等级不同,所消耗的源质和经验也将会有所不同,就比方说II级附魔将消耗I级附魔两倍的资源.
+tc.research_page.INFUSIONENCHANTMENT.3=如若物品已包含你当前进行附魔类型外的附魔,可能会需要更多的消耗.每一级其他的附魔将会使得当前进行的附魔多消耗10%.例如,对一把亡灵杀手III的剑进行火焰附加I附魔,会额外消耗30%的源质和经验.<BR>随着物品上附魔增加注魔的不稳定性也会增加.<BR>使用注魔坛附魔同样遵循一般物品附魔的搭配组合规律-附魔只能对特定类型物品进行.
+#
+tc.research_name.ARCANELAMP=奥术灯
+tc.research_text.ARCANELAMP=大型光源
+tc.research_page.ARCANELAMP.1=这种神秘的灯具可以被安附在墙壁，地板以及天花板上用作强烈而稳定的光源.<BR>这种灯具会在16格范围内制造出额外的光源保证亮度等级不低于可接受的安全亮度以下.记住,只有你猜呢阻止僵尸狂潮.<BR>这些伴生光源在拆卸掉神秘灯具后很快就会消失掉.<LINE>你确定这种灯具的应用将陆续呈现,因此拥有新的发现后请记得回来再查阅一遍这里.
+tc.research_page.ARCANELAMP.2=           §n奥术钻探机§r<BR>依附在奥术钻探机上时, 奥术灯将额外具有以下功能: 它将从附近吸取Lux要素来照亮钻探机挖通的隧道.<BR>每一点Lux要素能够产生一点光源,这种光源即使在灯具被拆卸后也不会消失.
+#
