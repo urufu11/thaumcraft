@@ -150,6 +150,9 @@ tile.blockStoneDevice.5.name=Wand Recharge Pedestal
 tile.blockStoneDevice.6.name=Infusion Pillar
 tile.blockStoneDevice.7.name=Infusion Pillar
 tile.blockStoneDevice.8.name=Compound Recharge Focus
+tile.blockTube.0.name=Essentia Tube
+tile.blockTube.1.name=Essentia Valve
+tile.blockTube.2.name=Alchemical Centrifuge
 container.alchemyfurnace=Alchemical Furnace
 tile.blockArcaneFurnace.name=Infernal Furnace
 #
@@ -169,15 +172,19 @@ item.FocusPortableHole.name=Wand Focus: Portable Hole
 item.FocusPech.name=Wand Focus: Pech's Curse
 item.WandCap.0.name=Iron Cap
 item.WandCap.1.name=Gold Cap
-item.WandCap.2.name=Thaumium Cap
+item.WandCap.2.name=Charged Thaumium Cap
 item.WandCap.3.name=Copper Cap
-item.WandCap.4.name=Silver Cap
+item.WandCap.4.name=Charged Silver Cap
+item.WandCap.5.name=Inert Silver Cap
+item.WandCap.6.name=Inert Thaumium Cap
 item.WandRod.0.name=Greatwood Rod
 item.WandRod.1.name=Obsidian Rod
 item.WandRod.2.name=Silverwood Rod
 item.WandRod.3.name=Icy Rod
 item.WandRod.4.name=Quartz Rod
 item.WandRod.5.name=Reed Rod
+item.WandRod.6.name=Blazing Rod
+item.WandRod.7.name=Bone Rod
 item.Wand.name=Wand
 item.Wand.wood.rod=Wooden
 item.Wand.greatwood.rod=Greatwood
@@ -207,6 +214,7 @@ item.ItemResource.10.name=Mirrored Glass
 item.ItemResource.11.name=Tainted Goo
 item.ItemResource.12.name=Taint Tendril
 item.ItemResource.13.name=Jar Label
+item.ItemResource.14.name=Salis Mundus
 item.ItemShard.0.name=Air Shard
 item.ItemShard.1.name=Fire Shard
 item.ItemShard.2.name=Water Shard
@@ -247,11 +255,7 @@ item.ItemBootsRobe.name=Thaumaturge's Boots
 item.ArcaneDoorKey.0.name=Iron Arcane Key
 item.ArcaneDoorKey.1.name=Gold Arcane Key
 item.HandMirror.name=Magic Hand Mirror
-item.ThaumicCamera.name=Thaumic Iconograph
-item.PhotoPlate.0.name=Iconograph Plate
-item.PhotoPlate.1.name=Exposed Iconograph Plate
 item.ItemInkwell.name=Scribing Tools
-item.ItemPortableHole.name=Portable Hole
 item.ItemThaumometer.name=Thaumometer
 item.ItemThaumonomicon.name=Thaumonomicon
 item.ItemGoggles.name=Goggles of Revealing
@@ -259,10 +263,6 @@ item.ItemHelmetThaumium.name=Thaumium Helm
 item.ItemChestplateThaumium.name=Thaumium Chestplate
 item.ItemLeggingsThaumium.name=Thaumium Leggings
 item.ItemBootsThaumium.name=Thaumium Boots
-item.ItemHelmetRunic.name=Protective Head Runes
-item.ItemChestplateRunic.name=Protective Chest Runes
-item.ItemLeggingsRunic.name=Protective Leg Runes
-item.ItemBootsRunic.name=Protective Feet Runes
 item.ItemShovelThaumium.name=Thaumium Shovel
 item.ItemAxeThaumium.name=Thaumium Axe
 item.ItemSwordThaumium.name=Thaumium Sword
@@ -589,11 +589,11 @@ tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and
 #
 tc.research_name.CAP_thaumium=Thaumium Wand Caps
 tc.research_text.CAP_thaumium=Magical wand caps
-tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.
+tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.<BR>Crafting these wand caps in an arcane worktable is not sufficient - they need to be infused with additional magical energy to make them usable.
 #
 tc.research_name.CAP_silver=Silver Wand Caps
 tc.research_text.CAP_silver=Capping things off with a little less style
-tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, earth, air and water).
+tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, earth, air and water).<BR>Crafting these wand caps in an arcane worktable is not sufficient - they need to be infused with additional magical energy to make them usable.
 #
 tc.research_name.CAP_copper=Copper Wand Caps
 tc.research_text.CAP_copper=When iron caps just won't cut it
@@ -613,11 +613,11 @@ tc.research_page.ROD_obsidian.1=A wand core chiselled from obsidian has slightly
 #
 tc.research_name.ROD_bone=Bone Wand Core
 tc.research_text.ROD_bone=Entropic vis storage
-tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.<BR>There is no recipe for this rod, just use a normal bone.
+tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #
 tc.research_name.ROD_blaze=Blaze Rod Wand Core
 tc.research_text.ROD_blaze=Fiery vis storage
-tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.<BR>There is no recipe for this rod, just use a normal blaze rod.
+tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.
 #
 tc.research_name.ROD_ice=Icy Wand Core
 tc.research_text.ROD_ice=Icy vis storage
@@ -670,7 +670,7 @@ tc.research_page.BOOTSTRAVELLER.1=This pair of enchanted boots have been stuffed
 #
 tc.research_name.PHIAL=Glass Phial
 tc.research_text.PHIAL=Mystical containers
-tc.research_page.PHIAL.1=Glass phials are capable of holding all manner of liquids and substances, but their most important use to a thaumaturge is their ability to hold Essentia.<BR>Essentia is not easy to gather however and it indelibly stains the phial, making it only usable once. 
+tc.research_page.PHIAL.1=Glass phials are capable of holding all manner of liquids and substances, but their most important use to a thaumaturge is their ability to hold Essentia. 
 #
 tc.research_name.TABLE=Table
 tc.research_text.TABLE=Some assembly required
@@ -771,7 +771,7 @@ tc.research_page.GOLEMWOOD.1=This golem is carved from a greatwood log. It is a 
 #
 tc.research_name.GOLEMTALLOW=Tallow Golems
 tc.research_text.GOLEMTALLOW=Keep away from open flames
-tc.research_page.GOLEMTALLOW.1=This advanced golem is only marginally better than the wood golem, but is capable of holding two upgrades.<BR>§l§nTallow Golem Attributes§r<BR>§lDurability:§r Low<BR>§lStrength:§r Low<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 4<BR>§lSpeed:§r Above Average<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMTALLOW.1=This advanced golem is only marginally better than the wood golem, but is capable of holding two upgrades.<BR>§l§nTallow Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength:§r Average<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMCLAY=Clay Golems
 tc.research_text.GOLEMCLAY=Tough and durable
@@ -779,7 +779,7 @@ tc.research_page.GOLEMCLAY.1=Fired clay is proven to be a superior crafting mate
 #
 tc.research_name.GOLEMFLESH=Flesh Golems
 tc.research_text.GOLEMFLESH=It's alive!
-tc.research_page.GOLEMFLESH.1=While macabre, golems made from zombie flesh has several features to reccomend them. Not only does it repair itself very quickly, it is able to hold 2 upgrades.<BR>§l§nFlesh Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength:§r Average<BR>§lSelf-repair:§r Very Fast<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMFLESH.1=While macabre, golems made from zombie flesh has several features to reccomend them. Not only does it repair itself very quickly, it is able to hold 2 upgrades.<BR>§l§nFlesh Golem Attributes§r<BR>§lDurability:§r Low<BR>§lStrength:§r Low<BR>§lSelf-repair:§r Very Fast<BR>§lCarry Limit:§r 4<BR>§lSpeed:§r Above Average<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMSTONE=Stone Golems
 tc.research_text.GOLEMSTONE=Strong, but slow
@@ -952,7 +952,7 @@ tc.research_page.ARCANEEAR.1=The Arcane Ear is a device that is capable of detec
 tc.research_name.MIRROR=Mirror Magic
 tc.research_text.MIRROR=Through the looking glass
 tc.research_page.MIRROR.1=You are now able to enchant a pair of magical mirrors that act as doorways to the void between the worlds. Anything shoved through the one mirror will pass through this realm and exit through the other mirror - even across dimensional bounderies.<BR>Unfortunately this realm is extremely hostile to mortal creatures like yourself so using these mirrors to transport living creatures is not yet possible.<BR>To link a pair of these magical mirrors you simply need to place one of them in a desired location. You then right-click with a second  
-tc.research_page.MIRROR.2=mirror on the one you placed, and the pair will become linked. You may then place the second wherever you wish and items thrown into one will be ejected out the other.<BR>Mirrors can only be linked in pairs, so while both are placed in the world and able to transmit items you cannot link them to another mirror. When you pick up a mirror it will remember the last partner it was linked with, allowing you to easily move it without having to relink it. However while one of the paired mirrors is picked up, you may easily relink either of them.
+tc.research_page.MIRROR.2=mirror on the one you placed, and the pair will become linked. You may then place the second wherever you wish and items thrown into one will be ejected out the other.<BR>Mirrors can only be linked in pairs, so while both are placed in the world and able to transmit items you cannot link them to another mirror. When you pick up a mirror it will remember the last partner it was linked with, allowing you to easily move it without having to relink it. However while one of the paired mirrors is picked up, you may easily relink either of them.<BR>Tranporting items is not free. You require a source of Iter nearby and each full stack of items will drain 1 essentia.
 #
 tc.research_name.MIRRORHAND=Magical Hand Mirror
 tc.research_text.MIRRORHAND=Personal reflection
@@ -999,4 +999,17 @@ tc.research_name.ARCANELAMP=Arcane Lamp
 tc.research_text.ARCANELAMP=Large Source of Light
 tc.research_page.ARCANELAMP.1=This mystical lamp can be attached to walls, floors or ceilings and will provide strong and steady light.<BR>Additional sources of light may also appear up to 16 blocks away wherever light levels fall below accepted 'safe' levels. Remember: Only YOU can prevent zombie outbreaks.<BR>These secondary sources of light will dissapear soon after the lamp has been removed.<LINE>You are sure additional uses for this lamp will present itself, so remember to check here after making new discoveries.
 tc.research_page.ARCANELAMP.2=           §nArcane Bore§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will draw Lux essentia from a nearby source to light up the tunnel that the bore digs.<BR>A single point of lux creates a single point of light. These sources of light will not dissapear after the lamp has been removed.
+#
+tc.research_name.SALT=Salis Mundus
+tc.research_text.SALT=Just a pinch
+tc.research_page.SALT.1=Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by crushing vis crystals and mixing them with substances naturally rich in magic.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavour (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.<BR>There are several substances that can be mixed with the crushed crystals to create Salis Mundus.
+#
+tc.research_name.TUBES=Essentia Tubes
+tc.research_text.TUBES=Transportation of essentia
+tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either disolves or simply passes right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and make it visually appealing.
+tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars. Labelled jars have a much greater drawing strength - so strong in fact that they will draw essentia from unlabeled jars.<LINE>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off. 
+#
+tc.research_name.CENTRIFUGE=Alchemical Centrifuge
+tc.research_text.CENTRIFUGE=Taking things apart
+tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. 
 #
