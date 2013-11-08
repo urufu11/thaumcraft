@@ -1,4 +1,5 @@
 * Make sure you are running the latest version of Thaumcraft and Forge;
+* Make sure you list your TC and Forge version at the top of any issue.
 * Issues regarding MCPC+ are not accepted;
 * Issues regarding running Thaumcraft in a developer environment are not accepted, this is not TC addon development hotline;
 * Render related issues with Optifine (that work fine without it) are not accepted;
