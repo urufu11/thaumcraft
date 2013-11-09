@@ -150,6 +150,9 @@ tile.blockStoneDevice.5.name=Piedistallo di Ricarica per Bacchette
 tile.blockStoneDevice.6.name=Pilastro dell'Infusione
 tile.blockStoneDevice.7.name=Pilastro dell'Infusione
 tile.blockStoneDevice.8.name=Focus della Ricarica Composita
+tile.blockTube.0.name=Tubo per Essentia
+tile.blockTube.1.name=Valvola per Essentia
+tile.blockTube.2.name=Centrifuga Alchemica
 container.alchemyfurnace=Fornace Alchemica
 tile.blockArcaneFurnace.name=Fornace Infernale
 #
@@ -169,15 +172,19 @@ item.FocusPortableHole.name=Focus per Bacchetta: Varco Portatile
 item.FocusPech.name=Focus per Bacchetta: Maledizione del Nano
 item.WandCap.0.name=Cappuccio di Ferro
 item.WandCap.1.name=Cappuccio d'Oro
-item.WandCap.2.name=Cappuccio di Taumium
+item.WandCap.2.name=Cappuccio di Taumium Carico
 item.WandCap.3.name=Cappuccio di Rame
-item.WandCap.4.name=Cappuccio d'Argento
+item.WandCap.4.name=Cappuccio d'Argento Carico
+item.WandCap.5.name=Cappuccio di Taumium Inerte
+item.WandCap.6.name=Cappuccio d'Argento Inerte
 item.WandRod.0.name=Verga di Grandalbero
 item.WandRod.1.name=Verga di Ossidiana
 item.WandRod.2.name=Verga di Argentalbero
 item.WandRod.3.name=Verga di Ghiaccio
 item.WandRod.4.name=Verga di Quarzo
 item.WandRod.5.name=Verga di Canne
+item.WandRod.6.name=Verga Fiammeggiante
+item.WandRod.7.name=Verga d'Osso
 item.Wand.name=Bacchetta
 item.Wand.wood.rod=di Legno
 item.Wand.greatwood.rod=di Grandalbero
@@ -207,6 +214,7 @@ item.ItemResource.10.name=Vetro Riflettente
 item.ItemResource.11.name=Melma Corrotta
 item.ItemResource.12.name=Viticcio Corrotto
 item.ItemResource.13.name=Etichetta per Barattoli
+item.ItemResource.14.name=Salis Mundus
 item.ItemShard.0.name=Frammento d'Aria
 item.ItemShard.1.name=Frammento di Fuoco
 item.ItemShard.2.name=Frammento d'Acqua
@@ -247,11 +255,7 @@ item.ItemBootsRobe.name=Scarpe del Taumaturgo
 item.ArcaneDoorKey.0.name=Chiave Arcana di Ferro
 item.ArcaneDoorKey.1.name=Chiave Arcana d'Oro
 item.HandMirror.name=Specchio Magico Portatile
-item.ThaumicCamera.name=Iconografia Taumica
-item.PhotoPlate.0.name=Lastra Iconografica
-item.PhotoPlate.1.name=Lastra Iconografica Esposta
 item.ItemInkwell.name=Strumenti per Scrivere
-item.ItemPortableHole.name=Varco Portatile
 item.ItemThaumometer.name=Taumometro
 item.ItemThaumonomicon.name=Taumonomicon
 item.ItemGoggles.name=Occhiali della Rivelazione
@@ -259,10 +263,6 @@ item.ItemHelmetThaumium.name=Elmo di Taumio
 item.ItemChestplateThaumium.name=Corazza di Taumio
 item.ItemLeggingsThaumium.name=Gambali di Taumio
 item.ItemBootsThaumium.name=Stivali di Taumio
-item.ItemHelmetRunic.name=Rune Protettive della Testa
-item.ItemChestplateRunic.name=Rune Protettive del Petto
-item.ItemLeggingsRunic.name=Rune Protettive delle Gambe
-item.ItemBootsRunic.name=Rune Protettive dei Piedi
 item.ItemShovelThaumium.name=Pala di Taumio
 item.ItemAxeThaumium.name=Ascia di Taumio
 item.ItemSwordThaumium.name=Spada di Taumio
@@ -589,11 +589,11 @@ tc.research_page.CAP_gold.1=L'oro è un agente focale decisamente migliore del f
 #
 tc.research_name.CAP_thaumium=Cappucci in Taumio per Bacchette
 tc.research_text.CAP_thaumium=Cappucci magici per Bacchette
-tc.research_page.CAP_thaumium.1=Il Taumio è famoso per la sua abilità di immagazzinare ed assorbire energia, quindi usandolo per creare Cappucci per Bacchette è una scelta scontata. è molto efficiente nel focalizzare il vis di tutti i tipi.
+tc.research_page.CAP_thaumium.1=Il Taumio è famoso per la sua abilità di immagazzinare ed assorbire energia, quindi usandolo per creare Cappucci per Bacchette è una scelta scontata. è molto efficiente nel focalizzare il vis di tutti i tipi.<BR>Creando questi cappucci per bacchette in un banco da lavoro arcano non è sufficiente -d evono essere infusi con ulteriore energia magica per renderli utilizzabili.
 #
 tc.research_name.CAP_silver=Cappucci in Argento per Bacchette
 tc.research_text.CAP_silver=Incappucciare le cose con un po' meno stile
-tc.research_page.CAP_silver.1=L'argento ha caratteristiche simili all'oro quando utilizzato come cappuccio per bacchette, ma è leggermente più efficiente nell'incanalare i quattro elementi primari (fuoco, terra, aria ed acqua).
+tc.research_page.CAP_silver.1=L'argento ha caratteristiche simili all'oro quando utilizzato come cappuccio per bacchette, ma è leggermente più efficiente nell'incanalare i quattro elementi primari (fuoco, terra, aria ed acqua).<BR>Creando questi cappucci per bacchette in un banco da lavoro arcano non è sufficiente - devono essere infusi con ulteriore energia magica per renderli utilizzabili.
 #
 tc.research_name.CAP_copper=Cappucci in Rame per Bacchette
 tc.research_text.CAP_copper=Quando i cappucci in ferro semplicemente non @interromperanno
@@ -670,7 +670,7 @@ tc.research_page.BOOTSTRAVELLER.1=Questo paio di stivali incantati è stato riem
 #
 tc.research_name.PHIAL=Fiala di Vetro
 tc.research_text.PHIAL=Contenitori Mistici
-tc.research_page.PHIAL.1=Le fiale di vetro sono in grado di contenere tutti i liquidi e sostanze, ma il loro utilizzo più importante per un taumaturgo è la loro abilità di immagazzinare Essentia.<BR>L'Essentia non è facile da ottenere, e macchierà in maniera indelebile la fiala, rendendola monouso. 
+tc.research_page.PHIAL.1=Le fiale di vetro sono in grado di contenere tutti i liquidi e sostanze, ma il loro utilizzo più importante per un taumaturgo è la loro abilità di immagazzinare Essentia.
 #
 tc.research_name.TABLE=Tavolo
 tc.research_text.TABLE=Richiede un po' di montaggio
@@ -767,7 +767,7 @@ tc.research_page.GOLEMSTRAW.3=Il primo golem che puoi creare è fatto di fasce d
 #
 tc.research_name.GOLEMWOOD=Golem di Legno
 tc.research_text.GOLEMWOOD=Quanto legno taglierebbe un golem di legno se un golem di legno potesse tagliare legno?
-tc.research_page.GOLEMWOOD.1=Questo golem è intagliato dal legno di Grandalbero. è un miglioramento discreto rispetto al golem di paglia.<BR>§l§nAttributi del Golem di Legno§r<BR>§lDurabilità:§r Inferiore alla Media<BR>§lForza:§r Bassa<BR>§lAutoriparazione:§r Media<BR>§lPortata massima:§r 4<BR>§lVelocità:§r Sopra la Media<BR>§lMiglioramenti:§r 1
+tc.research_page.GOLEMWOOD.1=Questo golem è intagliato dal legno di Grandalbero. è un miglioramento discreto rispetto al golem di paglia.<BR>§l§nAttributi del Golem di Legno§r<BR>§lDurabilità:§r Media<BR>§lForza:§r Media<BR>§lAutoriparazione:§r Media<BR>§lPortata massima:§r 8<BR>§lVelocità:§r Sopra la Media<BR>§lMiglioramenti:§r 1
 #
 tc.research_name.GOLEMTALLOW=Golem di Sego
 tc.research_text.GOLEMTALLOW=Tenere lontano dalle fiamme
@@ -779,7 +779,7 @@ tc.research_page.GOLEMCLAY.1=L'argilla cotta si è dimostrata un materiale di co
 #
 tc.research_name.GOLEMFLESH=Golem di Carne
 tc.research_text.GOLEMFLESH=è vivo!
-tc.research_page.GOLEMFLESH.1=Se pur macabri, i golem fatti con la carne di zombi hanno diverse caratteristiche che li rendono consigliati. Non solo si ripara molto velocemente, ma è anche in grado di sostenere 2 migliorie.<BR>§l§nAttributi de Golem di Carne§r<BR>§lDurabilità:§r Media<BR>§lForza:§r Media<BR>§lAutoriparazione:§r Molto Veloce<BR>§lPortata Massima:§r 8<BR>§lVelocità:§r Media<BR>§lMiglioramenti:§r 2
+tc.research_page.GOLEMFLESH.1=Se pur macabri, i golem fatti con la carne di zombi hanno diverse caratteristiche che li rendono consigliati. Non solo si ripara molto velocemente, ma è anche in grado di sostenere 2 migliorie.<BR>§l§nAttributi de Golem di Carne§r<BR>§lDurabilità:§r Bassa<BR>§lForza:§r Media<BR>§lAutoriparazione:§r Molto Veloce<BR>§lPortata Massima:§r 4<BR>§lVelocità:§r Sopra la MediaMedia<BR>§lMiglioramenti:§r 2
 #
 tc.research_name.GOLEMSTONE=Golem di Pietra
 tc.research_text.GOLEMSTONE=Forte, ma lento
@@ -952,7 +952,7 @@ tc.research_page.ARCANEEAR.1=L'orecchio arcano è un dispositivo in grado di ril
 tc.research_name.MIRROR=Magia degli Specchi
 tc.research_text.MIRROR=Attraverso il cristallo da scrutamento
 tc.research_page.MIRROR.1=Sei ora in grado di incantare un paio di specchi magici che fungono da porte verso il nulla fra i mondi. Tutto ciò che viene gettato in uno specchio passerà attraverso questo regno, ed uscirà attraverso l'altro specchio - oltrepassando perfino i confini dimensionali.<BR>Sfortunatamente questo regno è estremamente ostile nei confronti delle creature mortali come te, quindi utilizzare questi specchi per trasportare creature viventi non è ancora possibile.<BR>Per collegare un paio di questi specchi magici devi semplicemente piazzarne uno nel luogo desiderato. Dopodichè, cliccalo con un secondo
-tc.research_page.MIRROR.2=specchio  in mano, ed i due saranno collegati. Puoi quindi piazzare il secondo dove vuoi, e gli oggetti lanciati attraverso uno dei due saranno sputati dall'altro.<BR>Gli specchi possono solo essere collegati in coppie, quindi se entrambi sono piazzati nel mondo e sono in grado di trasmettere oggetti, non puoi collegarli ad un altro specchio. Quando raccogli uno specchio, esso ricorderà l'ultimo compagno con cui era collegato, permettendoti di spostarli facilmente senza aver bisogno di ricollegarli. Tuttavia, quando raccogli uno specchio collegato, puoi ricollegarlo facilmente ad un altro.
+tc.research_page.MIRROR.2=specchio  in mano, ed i due saranno collegati. Puoi quindi piazzare il secondo dove vuoi, e gli oggetti lanciati attraverso uno dei due saranno sputati dall'altro.<BR>Gli specchi possono solo essere collegati in coppie, quindi se entrambi sono piazzati nel mondo e sono in grado di trasmettere oggetti, non puoi collegarli ad un altro specchio. Quando raccogli uno specchio, esso ricorderà l'ultimo compagno con cui era collegato, permettendoti di spostarli facilmente senza aver bisogno di ricollegarli. Tuttavia, quando raccogli uno specchio collegato, puoi ricollegarlo facilmente ad un altro.<BR>Tranportare oggetti non è gratis. Hai bisogno di una fonte di Iter nbelle vicinanze e uno stack di oggetti userà una unità di essentia.
 #
 tc.research_name.MIRRORHAND=Specchio magico portatile
 tc.research_text.MIRRORHAND=Riflesso personale
@@ -999,4 +999,17 @@ tc.research_name.ARCANELAMP=Lampada Arcana
 tc.research_text.ARCANELAMP=Una grande fonte di luce
 tc.research_page.ARCANELAMP.1=Questa mistica lampada può essere posizionata su muri, pavimenti e soffiti e fornirà una luce potente<BR>Risorse di luce possono apparire fino a 16 blocchi quando il livello della luce scende sotto il livello "sicuro". Ricorda: Solo TU puoi prevenire un attacco di zombie.<BR>Queste fonti di luce secondarie scompaiono velocemente dopo che la lampada viene.<LINE>Sei sicuro che compariranno nuovi usi per la lampada, quindi ricordati di tronare qua se fai delle nuove scoperte.
 tc.research_page.ARCANELAMP.2=           §nTrivella Arcana§r<BR>Quando viene attaccata alla base di una trivella arcana, la lampada arcana ottiene questa abilità: Attingerà essentia di Lux da una fonte vicina per illuminare il tunnel scavato dalla trivella.<BR>Una singola unità di Lux creerà una luce. Queste risorse di luce non scompariranno dopo che la lampada viene rimossa.
+#
+tc.research_name.SALT=Salis Mundus
+tc.research_text.SALT=Solo un pizzico
+tc.research_page.SALT.1=Salis Mundus, o più comunemente conosciuto come il Sale del Taumaturgo, è creato schiacciando cristalli di vis e combinandoli con sostanze ricche di magia.<BR>Come la sua controparte normale, il Sale del Taumaturgo aggiunge gusto (parlando metaforicamente) a qualunque formula o magia. é un forte agente vincolante, capace di tener insieme i più diversi elementi magici.<BR>Ci sono diverse sostanze che possono essereuniti con i cristalli frantumati per creare Salis Mundus.
+#
+tc.research_name.TUBES=Tubi per Essentia
+tc.research_text.TUBES=Transporto di essentia
+tc.research_page.TUBES.1=Hai scoperto diversi modi per trasportare essentia, ma nessuno di essi si è trovato utile per operazioni alchemiche in grande scala - fino ad ora.<BR>Hai scoperto come creare tubature stabili e relativamente anti-perdita. Mentre sostanze chimiche possono essere trasportati in vetro, alcuni tipi di essentia o si dissolve o ci passano attraverso. Circondando il vetro con ferro e trattandolo con mercurio sei riuscito a proteggerlo persino da molti tipi di essentia volatili. Decorazioni d'oro lo finisce rendendolo bello da vedere.
+tc.research_page.TUBES.2=I tubi possono essere collegati a qualunque dispositivo alchemico, anche se barattoli e alambicchi sono i loro obiettivi primari.<BR>Essentia scorre attraverso i tubi ogni volta che qualcosa è collegato a loro che la possono accettare, come i barattoli. Barattoli etichettati hanno una maggiore forza nell'estrarre - così forte, infatti, che possono trarre essentia da barattoli senza etichetta<LINE>La valvola per essentia agisce come un tubo normale, tranne che può essere disattivato a mano o con un segnale di pietrarossa. Quando questo è fatto il flusso di essentia sarà tagliato fuori. 
+#
+tc.research_name.CENTRIFUGE=Centrifuga Alchemica
+tc.research_text.CENTRIFUGE=Dividendo cose
+tc.research_page.CENTRIFUGE.1=La centrifuga alchemica è una invenzione fantastica che permette di spezzare essentia nelle sue parti componenti.<BR>Quando essentia composta sfocia nella centrifuga dal basso sarà lentamente suddivisa in essentia primimitiva o di composti dal quale è fattoa. Solo uno dei componenti è creata per ogni punto di essentia usata.<BR>L'Essentia creata deve essere estratta dall'alto della centrifuga.
 #
