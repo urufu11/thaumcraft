@@ -726,7 +726,7 @@ tc.research_page.ELEMENTALSHOVEL.2=Tenendo premuto shift mentre si usa questo st
 #
 tc.research_name.ELEMENTALHOE=Zappa della Crescita
 tc.research_text.ELEMENTALHOE=L'Equilibrio della Natura
-tc.research_page.ELEMENTALHOE.1=Unendo l'energia magica dei cristalli di ordine ed entropia con una zappa in taumio, hai creato un attrezzo da contadino con pochi eguali.<BR>Quando lo usi per arare i campi, arerà un'area 3x3 anzichè un solo blocco.<BR>Quando viene utilizzato sul grano o su altre piante, funzionerà come la farina d'ossa per incentivare la sua crescita, causando però una perdita di durabilità. Potrebbe perfino far crescere piante che la semplice farina d'ossa non riesce.<BR>Tenendo premuto shift mentre si usa questo strmento, tutti i suoi poteri speciali sono sospesi e funziona come una normale zappa.
+tc.research_page.ELEMENTALHOE.1=Unendo l'energia magica dei cristalli di ordine ed entropia con una zappa in taumio, hai creato un attrezzo da contadino con pochi eguali.<BR>Quando lo usi per arare i campi, arerà un'area 3x3 anzichè un blocco.<BR>Quando viene utilizzato sul grano o su altre piante, funzionerà come la farina d'ossa per incentivare la sua crescita, causando però una perdita di durabilità. Potrebbe perfino far crescere piante che la semplice farina d'ossa non riesce.<BR>Tenendo premuto shift mentre si usa questo strmento, tutti i suoi poteri speciali sono sospesi e funziona come una normale zappa.
 #
 tc.research_name.GUNPOWDER=Polvere da sparo
 tc.research_text.GUNPOWDER=Chi ha bisogno dei creeper?
@@ -970,7 +970,7 @@ tc.research_page.PAVETRAVEL.1=Alterando la struttura magica della pietra arcana,
 #
 tc.research_name.PAVEWARD=Mattonella della Protezione
 tc.research_text.PAVEWARD=Tenere alla larga certe cose
-tc.research_page.PAVEWARD.1=Hai scoperto un modo per trasformare i blocchi di pietra arcani in protezioni mistiche che impediranno alla maggior parte delle creature di attraversarli.<BR>C'è da notare che queste protezioni non sono a prova di stupido, e non possono impedire ad altri giocatori di intrufolarsi in una zona, ma tengono a bada la maggior parte dei pericolo più comuni. Impediranno inoltre ai golem di attraversarli.<BR>Per un risultato ottimale, avrai bisogno di una linea continua di essi fra l'area che vuoi proteggere ed il mondo esterno.<BR>Un segnale di pietrarossa li disattiva.
+tc.research_page.PAVEWARD.1=Hai scoperto un modo per trasformare i blocchi di pietra arcani in protezioni mistiche che impediranno alla maggior parte delle creature di attraversarli.<BR>C'è da notare che queste protezioni non sono a prova di stupido, e non possono impedire ad altri giocatori di intrufolarsi in una zona, ma tengono a bada la maggior parte dei pericolo più comuni. Impediranno inoltre ai golem di attraversarli.<BR>Per un risultato ottimale, avrai bisogno di una linea continua di essi fra l'area che vuoi proteggere ed il mondo esterno. Un segnale di pietrarossa li disattiva.
 #
 tc.research_name.WANDPED=Piedistallo di Ricarica per Bacchette
 tc.research_text.WANDPED=Ricarica Automatizzata per Bacchette
