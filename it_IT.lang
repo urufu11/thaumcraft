@@ -57,13 +57,13 @@ tile.blockCustomOre.6.name=Pietra Infusa di Entropia
 tile.blockCustomOre.7.name=Ambra Grezza
 tile.blockCosmeticOpaque.0.name=Blocco d'Ambra
 tile.blockCosmeticOpaque.1.name=Mattoni d'Ambra
-tile.blockCosmeticOpaque.2.name=Vetro Protetto
+tile.blockCosmeticOpaque.2.name=Vetro Rinforzato
 tile.blockCosmeticSolid.0.name=Totem di Ossidiana
 tile.blockCosmeticSolid.1.name=Mattone di Ossidiana
 tile.blockCosmeticSolid.2.name=Mattonella del Viaggio
-tile.blockCosmeticSolid.3.name=Pavimentazione della Protezione
+tile.blockCosmeticSolid.3.name=Mattonella della Protezione
 tile.blockCosmeticSolid.4.name=Blocco di Taumio
-tile.blockCosmeticSolid.5.name=Blocco di Sego Magico
+tile.blockCosmeticSolid.5.name=Blocco di Sego
 tile.blockCosmeticSolid.6.name=Blocco di Pietra Arcana
 tile.blockCosmeticSolid.7.name=Mattoni di Pietra Arcana
 tile.blockCosmeticSolid.8.name=Totem di Ossidiana Carico
@@ -163,8 +163,8 @@ item.Focus.cost1=Vis per lancio
 item.Focus.cost2=Vis per tick
 item.FocusPouch.name=Borsa per Foci
 item.FocusFire.name=Focus per Bacchetta: Fuoco
-item.FocusHellbat.name=Focus per Bacchetta: Nove Infero
-item.FocusShock.name=Focus per Bacchetta: Fulmine
+item.FocusHellbat.name=Focus per Bacchetta: Nove Inferi
+item.FocusShock.name=Focus per Bacchetta: Scossa
 item.FocusTrade.name=Focus per Bacchetta: Scambio Equo 
 item.FocusFrost.name=Focus per Bacchetta: Gelo
 item.FocusExcavation.name=Focus per Bacchetta: Scavo
@@ -236,7 +236,7 @@ item.ItemNugget.19.name=Agglomerato d'Argento puro
 item.ItemNugget.20.name=Agglomerato di Piombo puro
 item.ItemNugget.21.name=Agglomerato di Mercurio puro   
 item.ItemNugget.31.name=Agglomerato d'Oro puro
-item.BootsTraveller.name=Stivali del Viaggiatore
+item.BootsTraveller.name=Stivali del Viandante
 item.ItemNuggetChicken.name=Bocconcino di Pollo
 item.ItemNuggetBeef.name=Bocconcino di Manzo
 item.ItemNuggetPork.name=Bocconcino di Maiale
@@ -318,7 +318,7 @@ item.ItemManaBean.name=Fagiolo Magico
 
 #
 # Fluids
-fluid.fluxGoo=Melma del Flusso
+fluid.fluxGoo=Flusso Melmoso
 #
 # GUI
 golemblurb.0.text=Cosa devo lasciare qui, Maestro?
@@ -991,25 +991,25 @@ tc.research_page.PECH.2=custodito, anche se preferiscono la roba preziosa. Si di
 #
 tc.research_name.INFUSIONENCHANTMENT=Incantare con Infusione
 tc.research_text.INFUSIONENCHANTMENT=Incantare con Essentia
-tc.research_page.INFUSIONENCHANTMENT.1Per secoli maghi e taumaturghi hanno incantato armi, strumenti e armature diffondendo negli oggetti la propria energia vitale. Sebbene efficace il processo è noioso e i risultati sono del tutto imprevedibili. La scoperta della Infusione potrebbe risolvere entrambi i problemi.<BR>Hai scoperto un modo per incantare oggetti con l'Altare dell'Infusione. Sempicemente posiziona l'elemento che desideri incantare sul piedistallo centrale e fornisci gli ingredienti giusti e Essentia.
-tc.research_page.INFUSIONENCHANTMENT.2=Richiede anche un po' di essenza vitale sotto forma di esperienza, ma molto meno di quello normalmente necessario per incantare qualcosa. L'esperienza è presa da chiunque presso l'altare, per questo occorre prestare attenzione.<BR> I seguenti costi di essentia ed esperienza sono richiesti per il primo livello di incanto. Per incantare un oggetto a livelli più alti, è sufficiente eseguire nuovamente il processo - può essere ripetuto fino al livello massimo di un incantesimo. Il costo di essentia ed esperienza è moltiplicata per il livello di incantesimo che viene eseguito, quindi un incantesimo livello II costa il doppio di un livello I.
+tc.research_page.INFUSIONENCHANTMENT.1Per secoli maghi e taumaturghi hanno incantato armi, strumenti e armature infondendo negli oggetti la propria energia vitale. Sebbene efficace il processo è noioso e i risultati sono del tutto imprevedibili. La scoperta dell'Infusione potrebbe risolvere entrambi i problemi.<BR>Hai scoperto un modo per incantare oggetti con l'Altare dell'Infusione. Sempicemente posiziona l'elemento che desideri incantare sul piedistallo centrale e fornisci gli ingredienti e l'Essentia giusti.
+tc.research_page.INFUSIONENCHANTMENT.2=Richiede anche un po' di essenza vitale sotto forma di esperienza, ma molta meno di quella normalmente necessaria per incantare qualcosa. L'esperienza è presa da chiunque nei dintorni dell'altare, per questo occorre prestare attenzione.<BR> I seguenti costi di essentia ed esperienza sono richiesti per il primo livello di incanto. Per incantare un oggetto a livelli più alti, è sufficiente eseguire nuovamente il processo - può essere ripetuto fino al livello massimo di un incantesimo. Il costo di essentia ed esperienza è moltiplicata per il livello di incantesimo che viene eseguito, quindi un incantesimo livello II costa il doppio di un livello I.
 tc.research_page.INFUSIONENCHANTMENT.3=Inoltre, se l'oggetto che si incanta ha già un altro tipo di incantesimo, quello che si stà eseguendo avrà un costo aggiuntivo.Questo costo è circa il 10% per livello di incantesimo. Quindi incantando una spada con Aspetto di Fuoco I che ha già Anatema III costerà 30% in più.<BR>Inoltre l'instabilità aumenta per ogni tipo incantesimo sull'oggetto.<BR>L'incantare oggetti con un altare dell'infusione segue le normali regole dell'incantare, infatti non si può applicare incantesimi su oggetti che normalmente non posso avere quei incantesimi.
 #
 tc.research_name.ARCANELAMP=Lampada Arcana
 tc.research_text.ARCANELAMP=Una grande fonte di luce
-tc.research_page.ARCANELAMP.1=Questa mistica lampada può essere posizionata su muri, pavimenti e soffiti e fornirà una luce potente<BR>Risorse di luce possono apparire fino a 16 blocchi quando il livello della luce scende sotto il livello "sicuro". Ricorda: Solo TU puoi prevenire un attacco di zombie.<BR>Queste fonti di luce secondarie scompaiono velocemente dopo che la lampada viene.<LINE>Sei sicuro che compariranno nuovi usi per la lampada, quindi ricordati di tronare qua se fai delle nuove scoperte.
-tc.research_page.ARCANELAMP.2=           §nTrivella Arcana§r<BR>Quando viene attaccata alla base di una trivella arcana, la lampada arcana ottiene questa abilità: Attingerà essentia di Lux da una fonte vicina per illuminare il tunnel scavato dalla trivella.<BR>Una singola unità di Lux creerà una luce. Queste risorse di luce non scompariranno dopo che la lampada viene rimossa.
+tc.research_page.ARCANELAMP.1=Questa lampada mistica può essere posizionata su muri, pavimenti e soffiti e fornirà una luce potente<BR>Altre fonti di luce possono apparire fino a 16 blocchi quando l'illuminazione scende sotto la soglia del "sicuro". Ricorda: Solo TU puoi prevenire un attacco di zombie.<BR>Queste fonti di luce secondarie scompaiono velocemente con la rimozione della lampada.<LINE>Sei sicuro che compariranno nuovi usi per la lampada, quindi ricordati di tronare qua se fai delle nuove scoperte.
+tc.research_page.ARCANELAMP.2=           §nTrivella Arcana§r<BR>Quando viene attaccata alla base di una trivella arcana, la lampada arcana ottiene questa abilità: Attingerà essentia di Lux da una fonte vicina per illuminare il tunnel scavato dalla trivella.<BR>Una singola unità di Lux creerà un punto luce. Queste fonti luminose non scompariranno con la rimozione della lampada.
 #
 tc.research_name.SALT=Salis Mundus
 tc.research_text.SALT=Solo un pizzico
-tc.research_page.SALT.1=Salis Mundus, o più comunemente conosciuto come il Sale del Taumaturgo, è creato schiacciando cristalli di vis e combinandoli con sostanze ricche di magia.<BR>Come la sua controparte normale, il Sale del Taumaturgo aggiunge gusto (metaforicamente parlando) a qualunque formula o magia. E' un forte agente vincolante, capace di tener insieme i più diversi elementi magici.<BR>Ci sono diverse sostanze che possono essere uniti con i cristalli frantumati per creare Salis Mundus.
+tc.research_page.SALT.1=Salis Mundus, o più comunemente conosciuto come il Sale del Taumaturgo, è creato schiacciando cristalli di vis e combinandoli con sostanze ricche di magia.<BR>Come la sua controparte normale, il Sale del Taumaturgo aggiunge gusto (metaforicamente parlando) a qualunque formula o magia. E' un forte agente vincolante, capace di tener insieme i più diversi elementi magici.<BR>Ci sono diverse sostanze che possono essere unite con i cristalli frantumati per creare Salis Mundus.
 #
 tc.research_name.TUBES=Tubi per Essentia
-tc.research_text.TUBES=Transporto di essentia
-tc.research_page.TUBES.1=Hai scoperto diversi modi per trasportare essentia, ma nessuno di essi si è trovato utile per operazioni alchemiche in grande scala - fino ad ora.<BR>Hai scoperto come creare tubature stabili e relativamente anti-perdita. Mentre le comuni sostanze chimiche possono essere trasportate con il vetro, alcuni tipi di essentia si dissolvono o addirittura ci passano attraverso. Circondando il vetro con ferro e trattandolo con mercurio sei riuscito a proteggerlo persino da molti tipi di essentia volatili. Decorazioni d'oro lo finisce rendendolo bello da vedere.
-tc.research_page.TUBES.2=I tubi possono essere collegati a qualunque dispositivo alchemico, anche se barattoli e alambicchi sono i loro obiettivi primari.<BR>Essentia scorre attraverso i tubi ogni volta che qualcosa è collegato a loro che la possono accettare, come i barattoli. Barattoli etichettati hanno una maggiore forza nell'estrarre - così forte, infatti, che possono trarre essentia da barattoli senza etichetta<LINE>La valvola per essentia agisce come un tubo normale, tranne che può essere disattivato a mano o con un segnale di pietrarossa. Quando questo è fatto il flusso di essentia sarà tagliato fuori. 
+tc.research_text.TUBES=Trasporto di essentia
+tc.research_page.TUBES.1=Hai scoperto diversi modi per trasportare essentia, ma nessuno di essi si è rivelato utile per operazioni alchemiche in grande scala - fino ad ora.<BR>Hai scoperto come creare tubature stabili e relativamente anti-perdita. Mentre le comuni sostanze chimiche possono essere trasportate con il vetro, alcuni tipi di essentia si dissolvono o addirittura ci passano attraverso. Circondando il vetro con ferro e trattandolo con mercurio sei riuscito a proteggerlo persino da molti tipi di essentia volatili. Decorazioni d'oro lo completano rendendolo gradevole alla vista.
+tc.research_page.TUBES.2=I tubi possono essere collegati a qualunque dispositivo alchemico, anche se barattoli e alambicchi sono i loro obiettivi primari.<BR>L'Essentia scorre attraverso i tubi ogni volta che sono collegati a qualcosa che puo contenerla, come i barattoli. I Barattoli etichettati hanno una maggiore potenza di estrazione - talmente potenti, infatti, che possono trarre essentia da barattoli senza etichetta<LINE>La valvola per essentia agisce come un tubo normale, ma può essere disattivata a mano o con un segnale di pietrarossa. Quando avviene, il flusso di essentia sarà interrotto. 
 #
 tc.research_name.CENTRIFUGE=Centrifuga Alchemica
-tc.research_text.CENTRIFUGE=Dividendo cose
-tc.research_page.CENTRIFUGE.1=La centrifuga alchemica è una invenzione fantastica che permette di spezzare essentia nelle sue parti componenti.<BR>Quando essentia composta sfocia nella centrifuga dal basso sarà lentamente suddivisa in essentia primimitiva o di composti dal quale è fattoa. Solo uno dei componenti è creata per ogni punto di essentia usata.<BR>L'Essentia creata deve essere estratta dall'alto della centrifuga.
+tc.research_text.CENTRIFUGE=Separare le cose
+tc.research_page.CENTRIFUGE.1=La centrifuga alchemica è una invenzione fantastica che permette di dividere l'Essentia nelle sue parti componenti.<BR>Quando l'essentia composita scorre nella centrifuga dal basso sarà lentamente suddivisa in essentia primimitiva, o nell'essentia composita che la compone. Solo uno dei componenti è creato per ogni punto di essentia centrifugato.<BR>L'Essentia creata deve essere estratta dall'alto della centrifuga.
 #
