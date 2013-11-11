@@ -1011,5 +1011,5 @@ tc.research_page.TUBES.2=I tubi possono essere collegati a qualunque dispositivo
 #
 tc.research_name.CENTRIFUGE=Centrifuga Alchemica
 tc.research_text.CENTRIFUGE=Separare le cose
-tc.research_page.CENTRIFUGE.1=La centrifuga alchemica è una invenzione fantastica che permette di dividere l'Essentia nelle sue parti componenti.<BR>Quando l'essentia composita scorre nella centrifuga dal basso sarà lentamente suddivisa in essentia primimitiva, o nell'essentia composita che la compone. Solo uno dei componenti è creato per ogni punto di essentia centrifugato.<BR>L'Essentia creata deve essere estratta dall'alto della centrifuga.
+tc.research_page.CENTRIFUGE.1=La centrifuga alchemica è una invenzione fantastica che permette di dividere l'Essentia nelle sue parti componenti.<BR>Quando l'essentia composita scorre nella centrifuga dal basso, viene lentamente suddivisa in essentia primitiva, o nell'essentia composita che la compone. Solo uno dei componenti è ricavato da ogni punto di essentia centrifugato.<BR>L'Essentia creata deve essere estratta dall'alto della centrifuga.
 #
