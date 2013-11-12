@@ -330,7 +330,6 @@ golemblurb.5.text=Shall I gather all liquids, or just those you specify? Just sh
 golemblurb.6.text=??
 golemblurb.7.text=??
 golemblurb.8.text=Do you wish me to use this item on a block or only on an empty location?
-
 golemthreat.0.text=What golem uprising? I don't know anything about a golem uprising.
 golemthreat.1.text=Let me guess, you want me to carry something?
 golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
@@ -340,6 +339,15 @@ golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
 golemthreat.6.text=*LOVE* not found, defaulting to *HATE*
 golemthreat.7.text=I hate you so much.
 golemthreat.8.text=Die, meatbag!.
+recipe.return=Return
+recipe.clickthrough=Click for research
+recipe.type.workbench=Workbench
+recipe.type.workbenchshapeless=Workbench (Shapeless)
+recipe.type.arcane=Arcane Workbench
+recipe.type.crucible=Crucible
+recipe.type.infusion=Arcane Infusion
+recipe.type.infusionenchantment=Infusion Enchantment
+recipe.type.construct=Mystical Construct
 #
 # Other
 nodetype.NORMAL.name=Normal
