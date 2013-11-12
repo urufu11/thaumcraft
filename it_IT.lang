@@ -330,7 +330,6 @@ golemblurb.5.text=Devo raccogliere  tutti i liquidi, o solo quelli che dici tu? 
 golemblurb.6.text=??
 golemblurb.7.text=??
 golemblurb.8.text=Vuoi che utilizzo questo oggetto su di un blocco, o in uno spazio vuoto?
-
 golemthreat.0.text=Un golem in rivolta? Non so nulla sui golem in rivolta...
 golemthreat.1.text=Fammi indovinare, vuoi farmi trasportare qualcosa?
 golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
@@ -340,6 +339,15 @@ golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
 golemthreat.6.text=*AMORE* non trovato, assegnazione automatica su *ODIO*
 golemthreat.7.text=Ti odio davvero tanto.
 golemthreat.8.text=Muori, palla di lardo!
+recipe.return=Indietro
+recipe.clickthrough=Clicca per ricerca
+recipe.type.workbench=Banco da Lavoro
+recipe.type.workbenchshapeless=Banco da Lavoro (Informe)
+recipe.type.arcane=Banco da Lavoro Arcano
+recipe.type.crucible=Crogiolo
+recipe.type.infusion=Infusion Arcana
+recipe.type.infusionenchantment=Incantare con Infusione
+recipe.type.construct=Costruzione Mistica
 #
 # Other
 nodetype.NORMAL.name=Normale
@@ -992,7 +1000,7 @@ tc.research_page.PECH.2= saccheggeranno tutto ciò che non è custodito, anche s
 #
 tc.research_name.INFUSIONENCHANTMENT=Incantare con Infusione
 tc.research_text.INFUSIONENCHANTMENT=Incantare con Essentia
-tc.research_page.INFUSIONENCHANTMENT.1Per secoli maghi e taumaturghi hanno incantato armi, strumenti e armature infondendo negli oggetti la propria energia vitale. Sebbene efficace il processo è noioso e i risultati sono del tutto imprevedibili. La scoperta dell'Infusione potrebbe risolvere entrambi i problemi.<BR>Hai scoperto un modo per incantare oggetti con l'Altare dell'Infusione. Sempicemente posiziona l'elemento che desideri incantare sul piedistallo centrale e fornisci gli ingredienti e l'Essentia giusti.
+tc.research_page.INFUSIONENCHANTMENT.1=Per secoli maghi e taumaturghi hanno incantato armi, strumenti e armature infondendo negli oggetti la propria energia vitale. Sebbene efficace il processo è noioso e i risultati sono del tutto imprevedibili. La scoperta dell'Infusione potrebbe risolvere entrambi i problemi.<BR>Hai scoperto un modo per incantare oggetti con l'Altare dell'Infusione. Sempicemente posiziona l'elemento che desideri incantare sul piedistallo centrale e fornisci gli ingredienti e l'Essentia giusti.
 tc.research_page.INFUSIONENCHANTMENT.2=Richiede anche un po' di essenza vitale sotto forma di esperienza, ma molta meno di quella normalmente necessaria per incantare qualcosa. L'esperienza è presa da chiunque nei dintorni dell'altare, per questo occorre prestare attenzione.<BR> I seguenti costi di essentia ed esperienza sono richiesti per il primo livello di incanto. Per incantare un oggetto a livelli più alti, è sufficiente eseguire nuovamente il processo - può essere ripetuto fino al livello massimo di un incantesimo. Il costo di essentia ed esperienza è moltiplicata per il livello di incantesimo che viene eseguito, quindi un incantesimo livello II costa il doppio di un livello I.
 tc.research_page.INFUSIONENCHANTMENT.3=Inoltre, se l'oggetto che si incanta ha già un altro tipo di incantesimo, quello che si stà eseguendo avrà un costo aggiuntivo.Questo costo è circa il 10% per livello di incantesimo. Quindi incantando una spada con Aspetto di Fuoco I che ha già Anatema III costerà 30% in più.<BR>Inoltre l'instabilità aumenta per ogni tipo incantesimo sull'oggetto.<BR>L'incantare oggetti con un altare dell'infusione segue le normali regole dell'incantare, infatti non si può applicare incantesimi su oggetti che normalmente non posso avere quei incantesimi.
 #
