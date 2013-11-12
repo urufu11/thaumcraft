@@ -330,7 +330,6 @@ golemblurb.5.text=Soll ich alle Flüssigkeiten sammeln oder jene die du festlegs
 golemblurb.6.text=??
 golemblurb.7.text=??
 golemblurb.8.text=Wünschst du, dass ich dieses Item auf einen Block benutze oder nur an einer leeren Position?
-
 golemthreat.0.text=Welcher Golemaufstand? Ich weiß gar nichts über einen Golemaufstand.
 golemthreat.1.text=Lass mich raten, du möchtest, dass ich etwas trage?
 golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
@@ -340,6 +339,15 @@ golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
 golemthreat.6.text=*LIEBE* nicht gefunden, Standardmäßig auf *HASS* stellen
 golemthreat.7.text=Ich hasse dich so sehr.
 golemthreat.8.text=Stirb, Fleischsack!.
+recipe.return=Zurück
+recipe.clickthrough=Klicke für Forschung
+recipe.type.workbench=Werkbank
+recipe.type.workbenchshapeless=Werkbank (Formlos)
+recipe.type.arcane=Arkane Werkbank
+recipe.type.crucible=Tiegel
+recipe.type.infusion=Arkane Infusion
+recipe.type.infusionenchantment=Infusionsverzauberung
+recipe.type.construct=Mystisches Konstrukt
 #
 # Other
 nodetype.NORMAL.name=Normal
