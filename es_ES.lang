@@ -9,7 +9,7 @@ enchantment.haste=Velocidad
 enchantment.repair=Reparacion
 #
 #Potions
-potion.fluxtaint=Flux Taint
+potion.fluxtaint=Tinte
 potion.soulshatter=Soul Shatter
 #
 # Entities
@@ -44,19 +44,19 @@ tile.blockAiry.1.name=Nitor
 tile.blockAiry.5.name=Nodo de Aura
 tile.blockHole.name=Vacio
 tile.blockSecure.name=Bloque de Piedra Magico
-tile.blockCustomOre.0.name=Cinnabar Ore
+tile.blockCustomOre.0.name=Mineral de Mercurio
 tile.blockCustomOre.1.name=Piedra Con Fragmentos de Aire
 tile.blockCustomOre.2.name=Piedra Con Fragmentos de Fuego
 tile.blockCustomOre.3.name=Piedra Con Fragmentos de Agua  
 tile.blockCustomOre.4.name=Piedra Con Fragmentos de Tierra
 tile.blockCustomOre.5.name=Piedra Con Fragmentos de Orden
 tile.blockCustomOre.6.name=Piedra Con Fragmentos de Entropia
-tile.blockCustomOre.7.name=Amber Bearing Stone
+tile.blockCustomOre.7.name=Piedra Con Ambar
 tile.blockCosmeticOpaque.0.name=Bloque de Ambar
 tile.blockCosmeticOpaque.1.name=Ladrillo de Ambar
 tile.blockCosmeticOpaque.2.name=Cristal Magico
 tile.blockCosmeticSolid.0.name=Totem de Obsidiana
-tile.blockCosmeticSolid.1.name=Obsidian Tile
+tile.blockCosmeticSolid.1.name=Cabeza De Obsidiana
 tile.blockCosmeticSolid.2.name=Paving Stone of Travel
 tile.blockCosmeticSolid.3.name=Paving Stone of Warding
 tile.blockCosmeticSolid.4.name=Thaumium Block

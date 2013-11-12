@@ -174,6 +174,9 @@ tile.blockStoneDevice.5.name=法杖充能基座
 tile.blockStoneDevice.6.name=注魔桩
 tile.blockStoneDevice.7.name=注魔桩
 tile.blockStoneDevice.8.name=复合充能核心
+tile.blockTube.0.name=要素源质管道
+tile.blockTube.1.name=要素源质阀门
+tile.blockTube.2.name=奥法离心机
 container.alchemyfurnace=炼金炉
 #
 # Items
@@ -191,15 +194,19 @@ item.FocusExcavation.name=法杖核心: 采掘
 item.FocusPortableHole.name=法杖核心: 便携式洞穴
 item.WandCap.0.name=铁杖端
 item.WandCap.1.name=金杖端
-item.WandCap.2.name=神秘杖端
+item.WandCap.2.name=充能神秘杖端
 item.WandCap.3.name=铜杖端
-item.WandCap.4.name=银杖端
+item.WandCap.4.name=充能银杖端
+item.WandCap.5.name=惰性银杖端
+item.WandCap.6.name=惰性神秘杖端
 item.WandRod.0.name=宏伟之木杖柄
 item.WandRod.1.name=黑曜石杖柄
 item.WandRod.2.name=银树杖柄
 item.WandRod.3.name=寒霜杖柄
 item.WandRod.4.name=石英杖柄
 item.WandRod.5.name=甘蔗杖柄
+item.WandRod.6.name=烈焰杖柄
+item.WandRod.7.name=白骨杖柄
 item.Wand.name=法杖
 item.Wand.wood.rod=木质
 item.Wand.greatwood.rod=宏伟之木
@@ -229,6 +236,7 @@ item.ItemResource.10.name=镜面玻璃
 item.ItemResource.11.name=腐化粘浆
 item.ItemResource.12.name=腐化触手
 item.ItemResource.13.name=罐子标签
+item.ItemResource.14.name=世界盐
 item.ItemShard.0.name=风之碎片
 item.ItemShard.1.name=火之碎片
 item.ItemShard.2.name=水之碎片
@@ -269,11 +277,7 @@ item.ItemBootsRobe.name=神秘使之靴
 item.ArcaneDoorKey.0.name=铁钥匙
 item.ArcaneDoorKey.1.name=金钥匙
 item.HandMirror.name=魔力手镜
-item.ThaumicCamera.name=奥能照相机
-item.PhotoPlate.0.name=奥能照片
-item.PhotoPlate.1.name=曝光奥能照片
 item.ItemInkwell.name=笔与墨
-item.ItemPortableHole.name=便携式洞穴
 item.ItemThaumometer.name=魔导透镜
 item.ItemThaumonomicon.name=魔导手册
 item.ItemGoggles.name=揭示之护目镜
@@ -281,10 +285,6 @@ item.ItemHelmetThaumium.name=神秘头盔
 item.ItemChestplateThaumium.name=神秘胸甲
 item.ItemLeggingsThaumium.name=神秘护腿
 item.ItemBootsThaumium.name=神秘靴子
-item.ItemHelmetRunic.name=护头符文
-item.ItemChestplateRunic.name=护身符文
-item.ItemLeggingsRunic.name=护腿符文
-item.ItemBootsRunic.name=护脚符文
 item.ItemShovelThaumium.name=神秘铲
 item.ItemAxeThaumium.name=神秘斧
 item.ItemSwordThaumium.name=神秘剑
@@ -602,11 +602,11 @@ tc.research_page.CAP_gold.1=金是比铁更好的魔导介质,使用金杖端的
 #
 tc.research_name.CAP_thaumium=神秘杖端
 tc.research_text.CAP_thaumium=神秘法杖核心
-tc.research_page.CAP_thaumium.1=神秘锭以其优良的法力吸纳能力而著称,因此使用它来制作杖端是非常明智的选择.它在汇聚各种种类的魔力时都非常高效.
+tc.research_page.CAP_thaumium.1=神秘锭以其优良的法力吸纳能力而著称,因此使用它来制作杖端是非常明智的选择.它在汇聚各种种类的魔力时都非常高效.<BR>仅仅在奥术工作台中制做出的法杖杖端还不能马上投入使用-还需要灌注额外的魔力使其激活.
 #
 tc.research_name.CAP_silver=银杖端
 tc.research_text.CAP_silver=低调做事
-tc.research_page.CAP_silver.1=银作为杖端和金性质相似.但它在传导4种基本要素(火,地,风,水)的时候效率稍高.
+tc.research_page.CAP_silver.1=银作为杖端和金性质相似.但它在传导4种基本要素(火,地,风,水)的时候效率稍高.<BR>仅仅在奥术工作台中制做出的法杖杖端还不能马上投入使用-还需要灌注额外的魔力使其激活.
 #
 tc.research_name.CAP_copper=铜杖端
 tc.research_text.CAP_copper=铁杖端不够好之时
@@ -626,31 +626,23 @@ tc.research_page.ROD_obsidian.1=黑曜石雕琢成的稍好于宏伟之木杖柄
 #
 tc.research_name.ROD_bone=白骨杖柄
 tc.research_text.ROD_bone=混沌魔力容器
-<<<<<<< HEAD
-tc.research_page.ROD_bone.1=白骨制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用混沌魔力时能减免10%,且无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_bone.1=使用白骨作为杖柄稍好于宏伟之木杖柄,相对于宏伟之木杖柄来说,其优势在于使用混沌魔力低于10%时无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_blaze=烈焰杖柄
 tc.research_text.ROD_blaze=火之魔力容器
-tc.research_page.ROD_blaze.1=烈焰棒制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用火之魔力时能减免10%,且在炎热环境中无需节点也能缓慢恢复魔力.
-=======
-tc.research_page.ROD_bone.1=使用白骨作为杖柄稍好于宏伟之木杖柄,相对于宏伟之木杖柄来说,其优势在于使用混沌魔力低于10%时无需节点也能缓慢恢复魔力.<BR>不需要合成,使用普通白骨即可.
-#
-tc.research_name.ROD_blaze=烈焰杖柄
-tc.research_text.ROD_blaze=火之魔力容器
-tc.research_page.ROD_blaze.1=使用烈焰棒作为杖柄稍好于宏伟之木杖柄,相对于宏伟之木杖柄来说,其优势在于使用火之魔力低于10%时在炎热环境中无需节点也能缓慢恢复魔力.<BR>不需要合成,使用普通烈焰棒即可.
->>>>>>> pr/144
+tc.research_page.ROD_blaze.1=使用烈焰棒作为杖柄稍好于宏伟之木杖柄,相对于宏伟之木杖柄来说,其优势在于使用火之魔力低于10%时在炎热环境中无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_ice=寒霜杖柄
 tc.research_text.ROD_ice=冰之魔力容器
-tc.research_page.ROD_ice.1=冰块雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用水之魔力时能减免10%,且在寒冷环境中无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_ice.1=冰块雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于水之魔力低于10%且在寒冷环境中时无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_quartz=石英杖柄
 tc.research_text.ROD_quartz=秩序魔力容器
-tc.research_page.ROD_quartz.1=石英雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用秩序魔力时能减免10%,且无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_quartz.1=石英雕琢成的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于秩序魔力低于10%时无需节点也能缓慢恢复魔力.
 #
 tc.research_name.ROD_reed=甘蔗杖柄
 tc.research_text.ROD_reed=风之魔力容器
-tc.research_page.ROD_reed.1=甘蔗制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于使用风之魔力时能减免10%,且无需节点也能缓慢恢复魔力.
+tc.research_page.ROD_reed.1=甘蔗制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于风之魔力低于10%时无需节点也能缓慢恢复魔力.
 #
 tc.research_name.FOCUSFIRE=法杖核心
 tc.research_text.FOCUSFIRE=形式遇上功能
@@ -792,7 +784,7 @@ tc.research_page.GOLEMWOOD.1=这种傀儡由宏伟之木的原木雕刻而成.�
 #
 tc.research_name.GOLEMTALLOW=油脂傀儡
 tc.research_text.GOLEMTALLOW=远离明火
-tc.research_page.GOLEMTALLOW.1=这种更高级的傀儡略胜过木头傀儡,能够进行两次升级.<BR>§l§n油脂傀儡属性§r<BR>§l耐久:§r 低<BR>§l强度:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 4<BR>§l速度:§r 高于均值<BR>§l升级:§r 2
+tc.research_page.GOLEMTALLOW.1=这种更高级的傀儡略胜过木头傀儡,能够进行两次升级.<BR>§l§n油脂傀儡属性§r<BR>§l耐久:§r 一般<BR>§l强度:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 2
 #
 tc.research_name.GOLEMCLAY=粘土傀儡
 tc.research_text.GOLEMCLAY=坚韧耐用
@@ -800,7 +792,7 @@ tc.research_page.GOLEMCLAY.1=耐火的粘土被证明是一种卓越的傀儡制
 #
 tc.research_name.GOLEMFLESH=血肉傀儡
 tc.research_text.GOLEMFLESH=它是活的
-tc.research_page.GOLEMFLESH.1=尽管听上去可怕极了,但僵尸腐肉制作的傀儡却拥有若干让它们值得推荐的特性.它们不但能够快速地自我修复,还能够进行两次升级.<BR>§l§n血肉傀儡属性§r<BR>§l耐久:§r 一般<BR>§l强度§r 一半<BR>§l回复:§r 非常迅速<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 2
+tc.research_page.GOLEMFLESH.1=尽管听上去可怕极了,但僵尸腐肉制作的傀儡却拥有若干让它们值得推荐的特性.它们不但能够快速地自我修复,还能够进行两次升级.<BR>§l§n血肉傀儡属性§r<BR>§l耐久:§r 低<BR>§l强度§r 低<BR>§l回复:§r 非常迅速<BR>§l运载量:§r 4<BR>§l速度:§r 高于均值<BR>§l升级:§r 2
 #
 tc.research_name.GOLEMSTONE=石头傀儡
 tc.research_text.GOLEMSTONE=壮硕而迟钝
@@ -972,7 +964,7 @@ tc.research_page.ARCANEEAR.1=奥术之耳是一个能够检测附近的音符盒
 tc.research_name.MIRROR=魔镜
 tc.research_text.MIRROR=镜中奇缘
 tc.research_page.MIRROR.1=暂时将物体转移到位面之间的隙间被证明是可能的,但你确信你还能做更多事情.任何懂得些许魔法尝试的人都会意识到镜子也许能够连接到其他的空间,那么何不尝试研究以镜子为基础的空间魔法物品呢?现在你研究出一种可以链接不同空间的神奇魔镜.通过镜子的物品能够在不同位置,甚至不同位面间相互传递.<BR>不幸的是空间通道对像你这样的实体生物非常排斥,因此用这种魔镜来传输生物暂时是不可能的.<BR>要链接一对魔镜,你需要将其中一面镜子安装在目标位置. 
-tc.research_page.MIRROR.2=并用第二面镜子右击第一名镜子,并安装在需要的位置.当两面都装好后会建立连接,镜面会出现黑洞的图案.当你将物品投入其中,物品会自动从另一个镜子被抛出.<BR>魔镜只能成对链接.当安装好后不能与第三个魔镜建立链接.当你拆卸后重新安装魔镜的时候,它能够自动回忆上次建立配对的魔镜. 然而,拆卸配对的魔镜后,你也能很方便地用它建立新的链接.
+tc.research_page.MIRROR.2=并用第二面镜子右击第一名镜子,并安装在需要的位置.当两面都装好后会建立连接,镜面会出现黑洞的图案.当你将物品投入其中,物品会自动从另一个镜子被抛出.<BR>魔镜只能成对链接.当安装好后不能与第三个魔镜建立链接.当你拆卸后重新安装魔镜的时候,它能够自动回忆上次建立配对的魔镜. 然而,拆卸配对的魔镜后,你也能很方便地用它建立新的链接.<BR>传送物品并非无偿,你需要在附近提供Iter要素源质,每堆叠物品消耗一点源质.
 #
 tc.research_name.MIRRORHAND=魔力手镜
 tc.research_text.MIRRORHAND=反思时间
@@ -1019,4 +1011,17 @@ tc.research_name.ARCANELAMP=奥术灯
 tc.research_text.ARCANELAMP=大型光源
 tc.research_page.ARCANELAMP.1=这种神秘的灯具可以被安附在墙壁，地板以及天花板上用作强烈而稳定的光源.<BR>这种灯具会在16格范围内制造出额外的光源保证亮度等级不低于可接受的安全亮度以下.记住,只有你猜呢阻止僵尸狂潮.<BR>这些伴生光源在拆卸掉神秘灯具后很快就会消失掉.<LINE>你确定这种灯具的应用将陆续呈现,因此拥有新的发现后请记得回来再查阅一遍这里.
 tc.research_page.ARCANELAMP.2=           §n奥术钻探机§r<BR>依附在奥术钻探机上时, 奥术灯将额外具有以下功能: 它将从附近吸取Lux要素来照亮钻探机挖通的隧道.<BR>每一点Lux要素能够产生一点光源,这种光源即使在灯具被拆卸后也不会消失.
+#
+tc.research_name.SALT=世界盐
+tc.research_text.SALT=仅仅一小撮
+tc.research_page.SALT.1=世界盐，也就是人们称为神秘使之盐的东西是一种魔力水晶磨制的粉末,富含魔力. <BR>就像类似其他奥术材料,它能够对奥术-比方说奥术合成或奥术附魔-产生增益.它是一种强大的中和药剂,能够让最不尽相同的魔力元素聚合在一起. <BR>有数种物质在磨碎后能够与磨粉后的魔力水晶混合制成世界盐.
+#
+tc.research_name.TUBES=要素源质管道
+tc.research_text.TUBES=运输要素源质
+tc.research_page.TUBES.1=你已发现了好些运输要素源质的方法,但都被证明难以与大规模的炼金操作相适应-但现在这问题解决了.<BR>你已破解了制作稳定以及相对密封的管道的关键所在.尽管普通的化学物质可以用玻璃管道运输,但某些类型的要素源质却可能溶解掉或者直接穿透玻璃.在玻璃管道上裹上铁皮并用水银处理,让即使最不稳定的源质也能安全通过.黄金的管道配件装饰得管道系统极其美观.
+tc.research_page.TUBES.2=管道可以与各种类型的奥法设备相连,尽管一般你主要用它连接要素罐子和蒸馏器.<BR>要素源质会主动流向任意可以容纳它的容器-比方说要素罐子.贴上标签的罐子拥有更大的吸引力,以至于它们会从未标记过的罐子中吸取源质..<LINE>要素源质阀门类似一截正常的管道,但可以手动或者用红石信号控制它是否堵塞或导通.
+#
+tc.research_name.CENTRIFUGE=奥法离心机
+tc.research_text.CENTRIFUGE=分离物品
+tc.research_page.CENTRIFUGE.1=奥法离心机是一种惊艳的能够将符合要素分解为更基本的前置要素的炼金设备<BR>当复合要素的源质从下方流入离心机,就会被慢慢分解成组成它们的前置的复合要素或元始要素.但每消耗一点源质只能得到一点前置要素.<BR>分离得到的要素源质需要从离心机顶部抽走.
 #

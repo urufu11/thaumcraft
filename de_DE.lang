@@ -150,6 +150,9 @@ tile.blockStoneDevice.5.name=Stabaufladungssockel
 tile.blockStoneDevice.6.name=Infusionssäule
 tile.blockStoneDevice.7.name=Infusionssäule
 tile.blockStoneDevice.8.name=Zusammensetzungs-Aufladefokus
+tile.blockTube.0.name=Essentiaröhre
+tile.blockTube.1.name=Essentiaventil
+tile.blockTube.2.name=Alchemische Zentrifuge
 container.alchemyfurnace=Alchemischer Ofen
 tile.blockArcaneFurnace.name=Höllenofen
 #
@@ -169,15 +172,19 @@ item.FocusPortableHole.name=Stabfokus: Tragbares Loch
 item.FocusPech.name=Stabfokus: Pech's Fluch
 item.WandCap.0.name=Eisenkappe
 item.WandCap.1.name=Goldkappe
-item.WandCap.2.name=Thaumiumkappe
+item.WandCap.2.name=Geladene Thaumiumkappe
 item.WandCap.3.name=Kupferkappe
-item.WandCap.4.name=Silberkappe
+item.WandCap.4.name=Geladene Silberkappe
+item.WandCap.5.name=Inerte Silberkappe
+item.WandCap.6.name=Inerte Thaumiumkappe
 item.WandRod.0.name=Großholzstab
 item.WandRod.1.name=Obsidianstab
 item.WandRod.2.name=Silberholzstab
 item.WandRod.3.name=Eisiger Stab
 item.WandRod.4.name=Quarzstab
 item.WandRod.5.name=Rohrstab
+item.WandRod.6.name=Flammender Stab
+item.WandRod.7.name=Knochenstab
 item.Wand.name=Stab
 item.Wand.wood.rod=Hölzerner
 item.Wand.greatwood.rod=Großholz -
@@ -207,6 +214,7 @@ item.ItemResource.10.name=Spiegelndes Glas
 item.ItemResource.11.name=Schmutzschleim
 item.ItemResource.12.name=Schmutzranke
 item.ItemResource.13.name=Glassschildchen
+item.ItemResource.14.name=Salis Mundus
 item.ItemShard.0.name=Luft-Scherbe
 item.ItemShard.1.name=Feuer-Scherbe
 item.ItemShard.2.name=Wasser-Scherbe
@@ -247,11 +255,7 @@ item.ItemBootsRobe.name=Stiefel des Thaumaturgen
 item.ArcaneDoorKey.0.name=Arkaner Eisenschlüssel
 item.ArcaneDoorKey.1.name=Arkaner Goldschlüssel
 item.HandMirror.name=Magischer Handspiegel
-item.ThaumicCamera.name=Thaumischer Ikonograph
-item.PhotoPlate.0.name=Ikonographenplatte
-item.PhotoPlate.1.name=Belichtete Ikonographenplatte
 item.ItemInkwell.name=Schreibwerkzeug
-item.ItemPortableHole.name=Tragbares Loch
 item.ItemThaumometer.name=Thaumometer
 item.ItemThaumonomicon.name=Thaumonomikon
 item.ItemGoggles.name=Brille der Enthüllung
@@ -259,10 +263,6 @@ item.ItemHelmetThaumium.name=Thaumiumhelm
 item.ItemChestplateThaumium.name=Thaumiumbrustplatte
 item.ItemLeggingsThaumium.name=Thaumiumbeinschutz
 item.ItemBootsThaumium.name=Thaumiumstiefel
-item.ItemHelmetRunic.name=Schützende Kopfrunen
-item.ItemChestplateRunic.name=Schützende Brustrunen
-item.ItemLeggingsRunic.name=Schützende Beinrunen
-item.ItemBootsRunic.name=Schützende Fußrunen
 item.ItemShovelThaumium.name=Thaumiumschaufel
 item.ItemAxeThaumium.name=Thaumiumaxt
 item.ItemSwordThaumium.name=Thaumiumschwert
@@ -589,11 +589,11 @@ tc.research_page.CAP_gold.1=Gold ist ein deutlich besseres Fokussiermaterial als
 #
 tc.research_name.CAP_thaumium=Thaumium-Stabkappen
 tc.research_text.CAP_thaumium=Mystische Stabkappen
-tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.
+tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.<BR>Crafting these wand caps in an arcane worktable is not sufficient - they need to be infused with additional magical energy to make them usable.
 #
 tc.research_name.CAP_silver=Silber-Stabkappen
 tc.research_text.CAP_silver=Dinge mit etwas weniger Stil bekappen
-tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, eart, air and water).
+tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, eart, air and water).<BR>Crafting these wand caps in an arcane worktable is not sufficient - they need to be infused with additional magical energy to make them usable.
 #
 tc.research_name.CAP_copper=Kupfer-Stabkappen
 tc.research_text.CAP_copper=Wenn Eisenkappen es einfach nicht packen
@@ -613,11 +613,11 @@ tc.research_page.ROD_obsidian.1=A wand core chiselled from obsidian has slightly
 #
 tc.research_name.ROD_bone=Knochen-Stabkern
 tc.research_text.ROD_bone=Entropischer  Visspeicher
-tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.<BR>There is no recipe for this rod, just use a normal bone.
+tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #
 tc.research_name.ROD_blaze=Lohenruten-Stabkern
 tc.research_text.ROD_blaze=Feuriger Visspeicher
-tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.<BR>There is no recipe for this rod, just use a normal bone.
+tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.
 #
 tc.research_name.ROD_ice=Eisiger Stabkern
 tc.research_text.ROD_ice=Eisiger Visspeicher
@@ -670,7 +670,7 @@ tc.research_page.BOOTSTRAVELLER.1=This pair of enchanted boots have been stuffed
 #
 tc.research_name.PHIAL=Glasphiole
 tc.research_text.PHIAL=Mystische Container
-tc.research_page.PHIAL.1=Glasphiolen sind fähig, alle Arten von Flüssigkeiten und substanzen zu halten, aber ihr größter Nutzen für einen Thaumaturgen ist ihre Fähigkeit, Essentia zu halten.<BR>Essentia ist jedoch nicht einfach zu bekommen und sie verfärbt die Phiole unlöschbar, wodurch man Phiolen nur einmal nutzen kann. 
+tc.research_page.PHIAL.1=Glasphiolen sind fähig, alle Arten von Flüssigkeiten und substanzen zu halten, aber ihr größter Nutzen für einen Thaumaturgen ist ihre Fähigkeit, Essentia zu halten. 
 #
 tc.research_name.TABLE=Tisch
 tc.research_text.TABLE=Etwas Änderung ist nötig
@@ -771,7 +771,7 @@ tc.research_page.GOLEMWOOD.1=Dieser Golem ist aus einem Großholzstamm geschnitz
 #
 tc.research_name.GOLEMTALLOW=Talggolems
 tc.research_text.GOLEMTALLOW=Von offenem Feuer fernhalten
-tc.research_page.GOLEMTALLOW.1=Dieser fortgeschrittene Golem ist nur geringfügig besser als der Holzgolem, aber er ist fähig, zwei Upgrades zu tragen.<BR>§l§nTalggolem-Attribute§r<BR>§lHaltbarkeit:§r Gering<BR>§lStärke:§r Gering<BR>§lSelbstreparatur:§r Durchschnittlich<BR>§lTragelimit:§r 4<BR>§lGeschwindigkeit:§r Überdurchschnittlich<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMTALLOW.1=Dieser fortgeschrittene Golem ist nur geringfügig besser als der Holzgolem, aber er ist fähig, zwei Upgrades zu tragen.<BR>§l§nTalggolem-Attribute§r<BR>§lHaltbarkeit:§r Durchschnittlich<BR>§lStärke:§r Durchschnittlich<BR>§lSelbstreparatur:§r Durchschnittlich<BR>§lTragelimit:§r 8<BR>§lGeschwindigkeit:§r Durchschnittlich<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMCLAY=Lehmgolems
 tc.research_text.GOLEMCLAY=Robust und strapazierfähig
@@ -779,7 +779,7 @@ tc.research_page.GOLEMCLAY.1=Gebrannter Ton hat sich als überragendes Baumateri
 #
 tc.research_name.GOLEMFLESH=Fleischgolems
 tc.research_text.GOLEMFLESH=Es lebt!
-tc.research_page.GOLEMFLESH.1=Während makaber, haben Golems gemacht aus Zombiefleisch einige Eigenschaften, die sie empfehlenswert machen. Nicht nur, dass sie sich selbst sehr schnell reparieren, sie können auch zwei Upgrades tragen.<BR>§l§nFleischgolem-Attribute§r<BR>§lHaltbarkeit:§rDurchschnittlich<BR>§lStärke:§r Durchschnittlich<BR>§lSelbstreparatur:§r Sehr schnell<BR>§lTragelimit:§r 8<BR>§lGeschwindigkeit:§r Durchschnittlich<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMFLESH.1=Während makaber, haben Golems gemacht aus Zombiefleisch einige Eigenschaften, die sie empfehlenswert machen. Nicht nur, dass sie sich selbst sehr schnell reparieren, sie können auch zwei Upgrades tragen.<BR>§l§nFleischgolem-Attribute§r<BR>§lHaltbarkeit:§r Gering<BR>§lStärke:§r Gering<BR>§lSelbstreparatur:§r Sehr schnell<BR>§lTragelimit:§r 4<BR>§lGeschwindigkeit:§r Überdurchschnittlich<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMSTONE=Steingolems
 tc.research_text.GOLEMSTONE=Stark, aber langsam
@@ -952,7 +952,7 @@ tc.research_page.ARCANEEAR.1=The Arcane Ear is a device that is capable of detec
 tc.research_name.MIRROR=Spiegelmagie
 tc.research_text.MIRROR=Hinter den Spiegeln
 tc.research_page.MIRROR.1=You are now able to enchant a pair of magical mirrors that act as doorways to the void between the worlds. Anything shoved through the one mirror will pass through this realm and exit through the other mirror - even across dimensional bounderies.<BR>Unfortunately this realm is extremely hostile to mortal creatures like yourself so using these mirrors to transport living creatures is not yet possible.<BR>To link a pair of these magical mirrors you simply need to place one of them in a desired location. You then right-click with a second  
-tc.research_page.MIRROR.2=mirror on the one you placed, and the pair will become linked. You may then place the second wherever you wish and items thrown into one will be ejected out the other.<BR>Mirrors can only be linked in pairs, so while both are placed in the world and able to transmit items you cannot link them to another mirror. When you pick up a mirror it will remember the last partner it was linked with, allowing you to easily move it without having to relink it. However while one of the paired mirrors is picked up, you may easily relink either of them.
+tc.research_page.MIRROR.2=mirror on the one you placed, and the pair will become linked. You may then place the second wherever you wish and items thrown into one will be ejected out the other.<BR>Mirrors can only be linked in pairs, so while both are placed in the world and able to transmit items you cannot link them to another mirror. When you pick up a mirror it will remember the last partner it was linked with, allowing you to easily move it without having to relink it. However while one of the paired mirrors is picked up, you may easily relink either of them.<BR>Tranporting items is not free. You require a source of Iter nearby and each full stack of items will drain 1 essentia.
 #
 tc.research_name.MIRRORHAND=Magischer Handspiegel
 tc.research_text.MIRRORHAND=Persönliche Reflektion
@@ -999,4 +999,17 @@ tc.research_name.ARCANELAMP=Arkane Lampe
 tc.research_text.ARCANELAMP=Große Lichtquelle
 tc.research_page.ARCANELAMP.1=This mystical lamp can be attached to walls, floors or ceilings and will provide strong and steady light.<BR>Additional sources of light may also appear up to 16 blocks away wherever light levels fall below accepted 'safe' levels. Remember: Only YOU can prevent zombie outbreaks.<BR>These secondary sources of light will dissapear soon after the lamp has been removed.<LINE>You are sure additional uses for this lamp will present itself, so remember to check here after making new discoveries.
 tc.research_page.ARCANELAMP.2=           §nArcane Bore§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will draw Lux essentia from a nearby source to light up the tunnel that the bore digs.<BR>A single point of lux creates a single point of light. These sources of light will not dissapear after the lamp has been removed.
+#
+tc.research_name.SALT=Salis Mundus
+tc.research_text.SALT=Nur eine Prise
+tc.research_page.SALT.1=Salis Mundus, oder Thaumaturgensalz, wie es für gewöhnlich genannt wird, wird hergestellt, indem Viskristalle zerstoßen und mit Substanzen, die natürlich reich an Magie sind, gemischt werden.<BR>Wie sein gewöhnliches Gegenstück fügt Thaumaturgensalz jedem magischen Rezept und jeder Formel Geschmack (metaphorisch gesehen) hinzu. Es ist ein starkes Bindemittel, fähig, selbst die grundverschiedensten magischen Elemente zusammenzuhalten.<BR>Es gibt einige Substanzen, die mit den zerstoßenen Kristallen gemischt werden können, um Salis Mundus zu kreieren.
+#
+tc.research_name.TUBES=Essentiaröhren
+tc.research_text.TUBES=Transport von Essentia
+tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either disolves or simply passes right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and make it visually appealing.
+tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars. Labelled jars have a much greater drawing strength - so strong in fact that they will draw essentia from unlabeled jars.<LINE>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off. 
+#
+tc.research_name.CENTRIFUGE=Alchemische Zentrifuge
+tc.research_text.CENTRIFUGE=Nimmt Dinge auseinander
+tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. 
 #
