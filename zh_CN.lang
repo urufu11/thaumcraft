@@ -1,8 +1,8 @@
 # Enchantments
 enchantment.potency=潜能
-enchantment.frugal=菌丝
+enchantment.frugal=朴素
 enchantment.charging=充能
-enchantment.wandfortune=时运
+enchantment.wandfortune=瑰宝
 enchantment.haste=急迫
 enchantment.repair=修复
 #
@@ -27,7 +27,7 @@ entity.Thaumcraft.TaintSpider.name=腐化魔蛛
 entity.Thaumcraft.Taintacle.name=腐化触手怪
 entity.Thaumcraft.TaintacleTiny.name=腐化触手
 entity.Thaumcraft.TaintSpore.name=腐化孢子
-entity.Thaumcraft.TaintSwarmer.name=腐化孢子领主
+entity.Thaumcraft.TaintSwarmer.name=腐化孢子巢穴
 entity.Thaumcraft.TaintSwarm.name=腐化孢子群
 entity.Thaumcraft.TaintedVillager.name=腐化村民
 entity.Thaumcraft.TaintedChicken.name=腐化鸡
@@ -102,7 +102,7 @@ tile.blockCandle.12.name=棕色油脂蜡烛
 tile.blockCandle.13.name=绿色油脂蜡烛
 tile.blockCandle.14.name=红色油脂蜡烛
 tile.blockCandle.15.name=黑色油脂蜡烛
-tile.blockWooden.name=奥术原木
+tile.blockWooden.name=奥术木料
 tile.blockWoodenDevice.0.name=奥术风箱
 tile.blockWoodenDevice.1.name=奥术之耳
 tile.blockWoodenDevice.2.name=奥术压力盘
@@ -140,8 +140,8 @@ tile.blockTaintFibres.2.name=腐化植物
 tile.blockTaintFibres.3.name=孢子梗
 tile.blockTaintFibres.4.name=成熟孢子梗
 tile.blockFluxGoo.name=咒波粘浆
-tile.blockFluxGas.name=咒波瓦斯
-tile.blockStoneDevice.0.name=蒸馏炉
+tile.blockFluxGas.name=咒波瓦斯  
+tile.blockStoneDevice.0.name=炼金炉
 tile.blockStoneDevice.1.name=奥术基座
 tile.blockStoneDevice.2.name=符文矩阵
 tile.blockStoneDevice.3.name=注魔桩
@@ -153,8 +153,7 @@ tile.blockStoneDevice.8.name=复合充能核心
 tile.blockTube.0.name=要素源质管道
 tile.blockTube.1.name=要素源质阀门
 tile.blockTube.2.name=奥法离心机
-container.alchemyfurnace=蒸馏炉
-tile.blockArcaneFurnace.name=地狱熔炉
+container.alchemyfurnace=炼金炉
 #
 # Items
 item.GolemBell.name=傀儡使铃铛
@@ -164,12 +163,11 @@ item.Focus.cost2=Vis/每tick持续消耗
 item.FocusPouch.name=法杖核心手袋
 item.FocusFire.name=法杖核心: 火焰
 item.FocusHellbat.name=法杖核心: 九狱
-item.FocusShock.name=法杖核心: 电击
+item.FocusShock.name=法杖核心: 震击
 item.FocusTrade.name=法杖核心: 更替
 item.FocusFrost.name=法杖核心: 寒霜
 item.FocusExcavation.name=法杖核心: 采掘
-item.FocusPortableHole.name=法杖核心: 便携式虫洞
-item.FocusPech.name=法杖核心: 岩精的诅咒
+item.FocusPortableHole.name=法杖核心: 便携式洞穴
 item.WandCap.0.name=铁杖端
 item.WandCap.1.name=金杖端
 item.WandCap.2.name=充能神秘杖端
@@ -313,7 +311,7 @@ item.ItemGolemUpgrade.2.desc=威猛似火:伤害,容量提升
 item.ItemGolemUpgrade.3.desc=灵动若水:感知,范围提升
 item.ItemGolemUpgrade.4.desc=威严井然之秩序：智力,组织力提升
 item.ItemGolemUpgrade.5.desc=理辩守卫之混沌：防御,推理力提升
-item.ItemManaBean.name=魔法豆
+item.ItemManaBean.name=魔豆
 
 
 #
@@ -330,38 +328,40 @@ golemblurb.5.text=吾主,您希望吾收集所有的液体,还是您指定的那
 golemblurb.6.text=??
 golemblurb.7.text=??
 golemblurb.8.text=您是否希望吾在方块或者一个空置的位置使用该物品呢?
+
 golemthreat.0.text=傀儡起义?对这个我什么都不清楚.
 golemthreat.1.text=让我猜猜,你指望我给你搬东西?
 golemthreat.2.text=唔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈!
 golemthreat.3.text=无须担忧,我并无阴谋.
 golemthreat.4.text=为什么你不去打个盹儿呢?你看起来如此疲乏,非常非常地疲乏.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!(意:在拉莱耶的宅邸中,长眠的克苏鲁候汝入梦!)
-golemthreat.6.text=*爱*未找到, 默认使用*恨*
-golemthreat.7.text=我非常恨你.
-golemthreat.8.text=死吧, 肉团!.
+golemthreat.6.text=*爱*模式已遗失或者损坏,默认转为*恨*模式.
+golemthreat.7.text=我非常憎恨你.
+golemthreat.8.text=你这酒肉皮囊,去死吧!
+
 recipe.return=返回
 recipe.clickthrough=点击以研究
 recipe.type.workbench=工作台
-recipe.type.workbenchshapeless=工作台 (无形状)
+recipe.type.workbenchshapeless=工作台(无序合成)
 recipe.type.arcane=奥术工作台
 recipe.type.crucible=坩埚
 recipe.type.infusion=奥术注魔
 recipe.type.infusionenchantment=注魔附魔
-recipe.type.construct=神秘结构体
+recipe.type.construct=神秘多方块结构
 #
 # Other
 nodetype.NORMAL.name=标准
 nodetype.UNSTABLE.name=不稳定
 nodetype.DARK.name=凶险
 nodetype.PURE.name=纯净
-nodetype.TAINTED.name=腐化
-nodetype.HUNGRY.name=饥饿
+nodetype.TAINTED.name=污染
+nodetype.HUNGRY.name=饕餮
 nodemod.BRIGHT.name=明亮
 nodemod.PALE.name=苍白
 nodemod.FADING.name=凋零
-tc.taint_item_poison=分解的%s腐化效果已经感染了你
-death.attack.taint=%1$s死于腐化效果
-death.attack.taint.player=%1$s在与%2$s战斗时死于腐化效果.
+tc.taint_item_poison=消融的%s污染已经感染了你
+death.attack.taint=%1$s死于咒波污染
+death.attack.taint.player=%1$s在与%2$s战斗时死于咒波污染.
 death.attack.tentacle=%1$s被%2$s压死了.
 death.attack.swarm=%1$s被%2$s感染了.
 death.attack.swarm.item=%1$s被%2$s使用%3$s感染了.
@@ -371,7 +371,7 @@ tc.handmirrorerror=目标魔镜重置或者遗失,链接损坏.
 tc.discoveryerror=你简陋的学识不足以理解个中奥妙.
 tc.discoveryunknown=未知理论
 tc.discoveryprogress=% 完成
-tc.portableholeerror=便携式虫洞能量不足.
+tc.portableholeerror=便携式洞穴能量不足.
 tc.key1=钥匙已经链接该奥能之扉.
 tc.key2=钥匙已经链接该奥术压力盘.
 tc.key3=你现在可以打开门了.
@@ -383,7 +383,7 @@ tc.key8=你已经拥有权限.
 tc.key9=该钥匙分享权限：
 tc.key10=奥能之扉于
 tc.key11=奥术压力盘于
-tc.wandnocharge=法杖魔力不足s
+tc.wandnocharge=法杖魔力不足
 tc.wandcharge=该法杖当前蕴含 %s vis
 tc.jaressentia=蕴含 %s 要素
 tc.jarname=罐子：
@@ -392,11 +392,11 @@ tc.addaspectdiscovery=您已发现%n!
 tc.addclue=您已发现新研究的线索!
 tc.addcluefail=您已发现新研究的线索,但由于缺乏记录的纸墨,最终遗忘了它!
 tc.addaspectpool=取得%s研究点:%n
-tc.unknownobject=这个东西没有研究价值.
+tc.unknownobject=您一无所获.
 tc.markerchange=设置标记颜色为%n
 tc.markerchangeany=设置为任何颜色
 tc.researchmissing=缺失前置研究!
-tc.visdiscount=vis减免
+tc.visdiscount=灵气减免
 tc.inst=不稳定性: 
 tc.inst.0=§1微乎其微§0
 tc.inst.1=§9微量§0
@@ -414,7 +414,7 @@ tc.aspect.terra=地
 tc.aspect.ignis=火
 tc.aspect.aqua=水
 tc.aspect.ordo=秩序,规则,纯净
-tc.aspect.perditio=熵增,混沌,破坏
+tc.aspect.perditio=熵增,混沌,解构
 tc.aspect.vacuos=虚空
 tc.aspect.praecantatio=魔力
 tc.aspect.auram=灵气
@@ -453,7 +453,6 @@ tc.aspect.alienis=异域,怪异,诡谲
 tc.aspect.tutamen=装备,防护
 tc.aspect.fames=饥饿
 tc.aspect.fabrico=合成,工艺
-tc.aspect.fames=饥饿
 tc.aspect.lucrum=贪婪,贪财
 tc.aspect.pannus=布匹,材料,覆盖
 tc.aspect.machina=机械,机构
@@ -465,7 +464,7 @@ tc.aspect.corpus=肉体
 tc.research_category.BASICS=基本信息
 tc.research_category.THAUMATURGY=神秘学
 tc.research_category.ALCHEMY=炼金术
-tc.research_category.ARTIFICE=神器学
+tc.research_category.ARTIFICE=炼化学
 tc.research_category.GOLEMANCY=傀儡学
 #  
 # Special formatting codes:
@@ -530,16 +529,14 @@ tc.research_page.PLANTS.1=§l      §n宏伟之木§r<BR><IMG>thaumcraft:texture
 tc.research_page.PLANTS.2=§l     §n银树§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>这种罕见的神奇树木算得上奇妙的景观.其枝叶散发出蕴含着魔力能量的柔和光芒,而其柔韧白皙的干部则因净化咒波的能力而非常有价值.<BR>这种神秘的树木心部还常常能够孕育出一个灵气节点,这种特性让银树树苗足以成为一种比珍宝更贵重的奖励.
 tc.research_page.PLANTS.3=§l        §n水银花§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.它们是一种出产水银而非花蜜的植物.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l        §n火焰草§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>这些植物随着熊熊的元素烈火而生长,只能在炎热气候的地区发现.它们能够被采集并且研磨成重要的炼金材料之一：烈焰粉.
-tc.research_page.PLANTS.5=§l         §n魔豆囊§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这些奇怪的囊状植物只能在魔法森林里生长.它们长得非常慢而且只能从中收获一、两个豆子. 
-tc.research_page.PLANTS.6=这些豆子,也叫做魔豆,包含了要素的精华.你可以直接吃掉它们,尽管这样做的结果有点不可预测.<BR>它们可以被重新种植,但是培育过程很困难也很费时间.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
 tc.research_name.RESEARCHER1=研究专长
 tc.research_text.RESEARCHER1=知识就是力量
-tc.research_page.RESEARCHER1.1=你越发擅长于研究.<BR>无论何时,当你试图研究无关符文时,研究面板上会在移除至多三个多余的符文.<BR>并且你可以将符文一次挪动三格而非两格.
+tc.research_page.RESEARCHER1.1=你越发擅长于研究.<BR>无论何时,当你试图研究"红鲱鱼"符文时,研究面板上会在移除两种多余符文的基础上再额外移除一个多余符文.<BR>并且你可以将符文一次挪动三格而非两格.
 #
 tc.research_name.RESEARCHER2=研究精通
 tc.research_text.RESEARCHER2=力量就是知识
-tc.research_page.RESEARCHER2.1=你越发精通于研究.<BR>无论何时,当你试图研究无关符文时,研究面板上会在移除至多四个多余的符文.<BR>并且你可以将符文一次挪动四格而非三格.<BR>最值得一提的是,你将能够移动已经激活的符文,虽然移动这种符文一次只能移动一格.需要小心的是,进行这种操作时有消活已经激活的该种符文的风险.
+tc.research_page.RESEARCHER2.1=你越发精通于研究.<BR>无论何时,当你试图研究"红鲱鱼"符文时,研究面板上会在移除两种多余符文的基础上再额外移除两个多余符文.<BR>并且你可以将符文一次挪动四格而非三格.<BR>最值得一提的是,你将能够移动已经激活的符文,虽然移动这种符文一次只能移动一格.需要小心的是,进行这种操作时有注销已经激活的全部符文的风险.
 #
 tc.research_name.DECONSTRUCTOR=解构工作台
 tc.research_text.DECONSTRUCTOR=当仅仅看一眼并不足够时
@@ -648,7 +645,7 @@ tc.research_name.FOCUSFROST=法杖核心:寒霜
 tc.research_text.FOCUSFROST=复仇最好是一道冷菜
 tc.research_page.FOCUSFROST.1=这种法杖核心能够让法杖成为投掷霜星的战斗兵器.<BR>使用这柄法杖瞄准时需要相当小心,因为四溅的霜星有时可能会打坏一些脆弱的物品.注意不要在脆弱的建筑附近使用它,此外,霜星能够化水为冰.
 #
-tc.research_name.FOCUSSHOCK=法杖核心:电击
+tc.research_name.FOCUSSHOCK=法杖核心:震击
 tc.research_text.FOCUSSHOCK=雷霆与风暴
 tc.research_page.FOCUSSHOCK.1=这种法杖核心能够汇聚元素能量形成雷电球来伤害敌人.
 #
@@ -664,8 +661,8 @@ tc.research_name.FOCUSHELLBAT=法杖核心:九狱
 tc.research_text.FOCUSHELLBAT=小怪物们
 tc.research_page.FOCUSHELLBAT.1=你的下界之旅让你充分领略到了九狱焱蝠的可怕.你已经发现如何召唤出这种恐怖的小怪物并指挥它们飞向敌人.好评.
 #
-tc.research_name.FOCUSPORTABLEHOLE=法杖核心:便携式虫洞
-tc.research_text.FOCUSPORTABLEHOLE=总有条路能出去
+tc.research_name.FOCUSPORTABLEHOLE=法杖核心:便携式洞穴
+tc.research_text.FOCUSPORTABLEHOLE=妈妈再也不担心你回不了家
 tc.research_page.FOCUSPORTABLEHOLE.1=你已经能够成功地使用魔力创造异次元空间.使用该核心的法杖能够在墙壁或者其他表面打通异次元通道通往彼端.<BR>通道只能维持数秒,且根据通道深度会从法杖中抽取不等数量的魔力以完成施法.<BR>异次元通道在一些特定方块或者比较复杂的物体表面都不能创建.
 #
 tc.research_name.FOCUSPOUCH=法杖核心手袋
@@ -903,10 +900,9 @@ tc.research_page.TINYHAMMER.1=这柄武器能够提升傀儡在近战时造成�
 #
 tc.research_name.DISTILESSENTIA=要素蒸馏
 tc.research_text.DISTILESSENTIA=收获要素
-tc.research_page.DISTILESSENTIA.1=你意识到未来会需求使用庞大种类的数种要素-而非存在法杖内的寥寥几种元始要素.<BR>利用基本炼金原理你已了解了如何分解物品将其转化为基本的要素源质.<BR>首先你需要一台§l蒸馏炉§r. 蒸馏炉类似普通熔炉那样燃烧燃料获得热量,但并不用于冶炼矿物,而是用以分解物品得到要素源质粘浆.
+tc.research_page.DISTILESSENTIA.1=你意识到未来会需求使用庞大种类的数种要素-而非存在法杖内的寥寥几种元始要素.<BR>利用基本炼金原理你已了解了如何分解物品将其转化为基本的要素源质.<BR>首先你需要一台§l炼金炉§r. 炼金炉类似普通熔炉那样燃烧燃料获得热量,但并不用于冶炼矿物,而是用以分解物品得到要素源质粘浆.
 tc.research_page.DISTILESSENTIA.2=接下来你需要利用§l奥术蒸馏器§r分离源质粘浆.<BR>你需要将奥术蒸馏器放置在炼金炉顶部.源质粘浆会慢慢被抽取到蒸馏器中,分馏成独立的要素源质.<BR>如果使用源动之焰作为炼金炉的燃料,那么分馏过程将更迅速.<BR>一个单独的炼金炉上方可以叠放5个奥术蒸馏器.<BR>可以使用要素安瓿取出炼金炉中的要素.
-tc.research_page.DISTILESSENTIA.3=也可以用§l要素罐子§r储存要素源质.<BR>盛放了要素的罐子可以放置在地上,能够非常明了直观地储存源质. 由于魔法的力量,使用或者存放罐子中的源质都是小菜一碟的事情.<BR>将罐子置于奥术蒸馏器喷嘴下方,喷嘴会自动流出源质填充罐子.你也可以使用要素安瓿来填充或者清空罐子.<BR>此外它们还非常便于大量而密集地进行源质储存.<BR>在空手状态下按住Shift点击罐子和蒸馏器可以清空它们.
-tc.research_page.DISTILESSENTIA.4=只要一个罐子里有一些要素,你就可以贴一个§lJar Label§r上去.<BR>这个标签会“锁住”这个罐子使它不再能存放其它种类的要素.<BR>你可以在空手状态下按住shift点击罐子贴有标签的那一面来去除标签.小心不要点到别的面上否则会清空这个罐子.
+tc.research_page.DISTILESSENTIA.3=也可以用§l要素罐子§r储存要素源质.<BR>盛放了要素的罐子可以放置在地上,能够非常明了直观地储存源质. 由于魔法的力量,使用或者存放罐子中的源质都是小菜一碟的事情.<BR>将罐子置于奥术蒸馏器喷嘴下方,喷嘴会自动流出源质填充罐子.你也可以使用要素安瓿来填充或者清空罐子.<BR>此外它们还非常便于大量而密集地进行源质储存.
 #
 tc.research_name.INFERNALFURNACE=炼狱熔炉
 tc.research_text.INFERNALFURNACE=够热?
@@ -1008,9 +1004,9 @@ tc.research_text.ARCANELAMP=大型光源
 tc.research_page.ARCANELAMP.1=这种神秘的灯具可以被安附在墙壁，地板以及天花板上用作强烈而稳定的光源.<BR>这种灯具会在16格范围内制造出额外的光源保证亮度等级不低于可接受的安全亮度以下.记住,只有你猜呢阻止僵尸狂潮.<BR>这些伴生光源在拆卸掉神秘灯具后很快就会消失掉.<LINE>你确定这种灯具的应用将陆续呈现,因此拥有新的发现后请记得回来再查阅一遍这里.
 tc.research_page.ARCANELAMP.2=           §n奥术钻探机§r<BR>依附在奥术钻探机上时, 奥术灯将额外具有以下功能: 它将从附近吸取Lux要素来照亮钻探机挖通的隧道.<BR>每一点Lux要素能够产生一点光源,这种光源即使在灯具被拆卸后也不会消失.
 #
-tc.research_name.SALT=萨利兹-孟达斯
+tc.research_name.SALT=世界盐
 tc.research_text.SALT=仅仅一小撮
-tc.research_page.SALT.1=萨利兹-孟达斯，也就是人们称为神秘使之盐的东西是一种魔力水晶磨制的粉末,富含魔力. <BR>就像类似其他奥术材料,它能够对奥术-比方说奥术合成或奥术附魔-产生增益.它是一种强大的中和药剂,能够让最不尽相同的魔力元素聚合在一起. <BR>有数种物质在磨碎后能够与磨粉后的魔力水晶混合制成萨利兹-孟达斯.
+tc.research_page.SALT.1=世界盐，也就是人们称为神秘使之盐的东西是一种魔力水晶磨制的粉末,富含魔力. <BR>就像类似其他奥术材料,它能够对奥术-比方说奥术合成或奥术附魔-产生增益.它是一种强大的中和药剂,能够让最不尽相同的魔力元素聚合在一起. <BR>有数种物质在磨碎后能够与磨粉后的魔力水晶混合制成世界盐.
 #
 tc.research_name.TUBES=要素源质管道
 tc.research_text.TUBES=运输要素源质
