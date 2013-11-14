@@ -154,6 +154,7 @@ tile.blockTube.0.name=要素源质管道
 tile.blockTube.1.name=要素源质阀门
 tile.blockTube.2.name=奥法离心机
 container.alchemyfurnace=炼金炉
+tile.blockArcaneFurnace.name=炼狱熔炉
 #
 # Items
 item.GolemBell.name=傀儡使铃铛
