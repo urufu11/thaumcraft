@@ -169,6 +169,7 @@ item.FocusTrade.name=法杖核心: 更替
 item.FocusFrost.name=法杖核心: 寒霜
 item.FocusExcavation.name=法杖核心: 采掘
 item.FocusPortableHole.name=法杖核心: 便携式洞穴
+item.FocusPech.name=法杖核心:岩精之诅咒
 item.WandCap.0.name=铁杖端
 item.WandCap.1.name=金杖端
 item.WandCap.2.name=充能神秘杖端
@@ -530,6 +531,8 @@ tc.research_page.PLANTS.1=§l      §n宏伟之木§r<BR><IMG>thaumcraft:texture
 tc.research_page.PLANTS.2=§l     §n银树§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>这种罕见的神奇树木算得上奇妙的景观.其枝叶散发出蕴含着魔力能量的柔和光芒,而其柔韧白皙的干部则因净化咒波的能力而非常有价值.<BR>这种神秘的树木心部还常常能够孕育出一个灵气节点,这种特性让银树树苗足以成为一种比珍宝更贵重的奖励.
 tc.research_page.PLANTS.3=§l        §n水银花§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.它们是一种出产水银而非花蜜的植物.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l        §n火焰草§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>这些植物随着熊熊的元素烈火而生长,只能在炎热气候的地区发现.它们能够被采集并且研磨成重要的炼金材料之一：烈焰粉.
+tc.research_page.PLANTS.5=§l         §n魔豆§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这种奇异的,荚状的植物仅仅生长于魔法森林的树荫中.它们生长缓慢,收获时仅能掉落1~2个魔豆.
+tc.research_page.PLANTS.6=这种被名为魔豆的豆子内含丰富的要素.它们可以食用,但出现的效果经常会有点无法预期.<BR>魔豆可以移植,但是培育这种作物困难费时.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
 tc.research_name.RESEARCHER1=研究专长
 tc.research_text.RESEARCHER1=知识就是力量
