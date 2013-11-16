@@ -2,7 +2,7 @@
 enchantment.potency=Potência
 enchantment.frugal=Frugal
 enchantment.charging=Recarga
-enchantment.wandfortune=Tesouro
+enchantment.wandfortune=Fortuna
 enchantment.haste=Pressa
 enchantment.repair=Auto-Reparo
 #
@@ -109,7 +109,7 @@ tile.blockWoodenDevice.2.name=Placa de Pressão Arcana
 tile.blockWoodenDevice.4.name=Base Para Escavador Arcano
 tile.blockWoodenDevice.5.name=Escavador Arcano
 tile.blockWoodenDevice.6.name=Tábuas de Greatwood
-tile.blockWoodenDevice.7.name=Tábuas deSilverwood
+tile.blockWoodenDevice.7.name=Tábuas de Silverwood
 tile.blockJar.0.name=Jarro Guardião
 tile.blockJar.1.name=Cérebro em Jarra
 tile.blockJar.2.name=Node na Jarra
@@ -157,7 +157,7 @@ container.alchemyfurnace=Fornalha Alquímica
 tile.blockArcaneFurnace.name=Fornalha Infernal
 #
 # Items
-item.GolemBell.name=Sino de Golemancia
+item.GolemBell.name=Sino de Golemância
 item.HoverHarness.name=Catalizador Thaumostático
 item.Focus.cost1=Vis por execução
 item.Focus.cost2=Vis por tick
@@ -185,7 +185,7 @@ item.WandRod.4.name=Haste de Quartzo
 item.WandRod.5.name=Haste de Cana
 item.WandRod.6.name=Haste de Blaze
 item.WandRod.7.name=Haste de Osso
-item.Wand.name=Varinha
+item.Wand.name=
 item.Wand.wood.rod=de Madeira
 item.Wand.greatwood.rod=de Greatwood
 item.Wand.silverwood.rod=de Silverwood
@@ -195,11 +195,11 @@ item.Wand.ice.rod=Invernal
 item.Wand.bone.rod=de Osso
 item.Wand.reed.rod=de Cana
 item.Wand.quartz.rod=de Quartzo
-item.Wand.iron.cap=Cabeça de Ferro
-item.Wand.gold.cap=Cabeça de Ouro
-item.Wand.copper.cap=Cabeça de Cobre
-item.Wand.silver.cap=Cabeça de Prata
-item.Wand.thaumium.cap=Cabeça de Thaumium
+item.Wand.iron.cap=Varinha de Ferro
+item.Wand.gold.cap=Varinha de Ouro
+item.Wand.copper.cap=Varinha de Cobre
+item.Wand.silver.cap=Varinha de Prata
+item.Wand.thaumium.cap=Varinha de Thaumium
 item.ItemResource.0.name=Alumentum
 item.ItemResource.1.name=Nitor
 item.ItemResource.2.name=Barra de Thaumium
@@ -213,7 +213,7 @@ item.ItemResource.9.name=Fragmento de Conhecimento
 item.ItemResource.10.name=Vidro Espelhado
 item.ItemResource.11.name=Gosma Maculada
 item.ItemResource.12.name=Vinha Maculada
-item.ItemResource.13.name=Jar Label
+item.ItemResource.13.name=Rótulo de Jarra
 item.ItemResource.14.name=Salis Mundus
 item.ItemShard.0.name=Estilhaço de Ar
 item.ItemShard.1.name=Estilhaço de Fogo
@@ -466,7 +466,7 @@ tc.research_category.BASICS=Informações Básicas
 tc.research_category.THAUMATURGY=Thaumaturgia
 tc.research_category.ALCHEMY=Alquimia
 tc.research_category.ARTIFICE=Artificío
-tc.research_category.GOLEMANCY=Golemancia
+tc.research_category.GOLEMANCY=Golemância
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -599,11 +599,11 @@ tc.research_name.CAP_thaumium=Ponta de Varinha de Thaumium
 tc.research_text.CAP_thaumium=Pontas de varinha mágica
 tc.research_page.CAP_thaumium.1=Thaumium é conhecido por sua habilidade de guardar e absorver magia, então utilizar ele para fazer varinhas é uma escolha lógica. Ela é muito eficiente ao focar vis de todos os tipos.
 #
-tc.research_name.CAP_silver=Pontas de Varinhas de Prata
+tc.research_name.CAP_silver=Ponta de Varinha de Prata
 tc.research_text.CAP_silver=Apontando com um pouco menos de estilo
 tc.research_page.CAP_silver.1=Prata propriedades similares ao ouro quando utilizada como ponta de de varinha, porém é ligeiramente mais eficiente para canalizar energias dos quatros elementos primários (fogo, terra, ar e água).
 #
-tc.research_name.CAP_copper=Pontas de Varinhas de Cobre
+tc.research_name.CAP_copper=Ponta de Varinha de Cobre
 tc.research_text.CAP_copper=Quando as pontas de ferro simplesmente não bastam
 tc.research_page.CAP_copper.1=Cobre tem propriedades similares ao ferro quando usada como ponta de varinha, porém é tão eficiente quanto ouro para canalizar vis de Ordem e Entropia.
 #
@@ -619,7 +619,7 @@ tc.research_name.ROD_obsidian=Vara de Obsidiano
 tc.research_text.ROD_obsidian=Depósito de vis Terrestre
 tc.research_page.ROD_obsidian.1=Uma vara esculpida em obsidiano têm um pontencial um pouco maior para guardar vis do que as varas de Greatwood. O que a faz superior a uma vara de greatwood entretanto é que se o nível de terra guardado nela ficar abaixo de 10%, ela será lentamente recuperada sem precisar de um nó.
 #
-tc.research_name.ROD_bone=Vara de Ossos
+tc.research_name.ROD_bone=Vara de Osso
 tc.research_text.ROD_bone=Depósito de vis entrópico
 tc.research_page.ROD_bone.1=A vara feita de ossos têm um pontencial um pouco maior para guardar vis do que as varas de Greatwood. O que a faz superior a uma vara de greatwood entretanto é que se o nível de entropia dela cair abaixo de 10% ela será lentamente recuperada sem precisar de um nó.
 #
@@ -806,7 +806,7 @@ tc.research_text.GOLEMBELL=Pay Attention
 tc.research_page.GOLEMBELL.1=Golems are notoriously bad at following verbal commands, but this bell allows you to avoid all that.<BR>Simply right click on a golem to select it. Once that is done a glowing, gearlike circle will appear indicating the golems 'home' location and the side it is attached to.<BR> You are now able to right click anywhere in the world to link the golem to blocks, locations or inventories it may interact with. Clicking on the same location will either unmark it, or cycle through different colors if the golem is able to interact with different colored markers.
 tc.research_page.GOLEMBELL.2=<BR>Shift + right-clicking on a marked location will always clear it and pressing F will clear all marked locations.<LINE>Left-clicking on a golem picks it up with all its current upgrades and settings intact. Shift + left-clicking picks up the golem, but removes its core and any attached upgrades which drops separately. There is a good chance that upgrades will be lost if you do this however. 
 #
-tc.research_name.COREGATHER=Golem Core: Preencher
+tc.research_name.COREGATHER=Núcleo do Golem: Preencher
 tc.research_text.COREGATHER=Picking up what you are putting down
 tc.research_page.COREGATHER.1=Golem Animations cores are used to give your golems purpose - without a core they remain inanimate.<BR>The first such core you are able to create is the §5Gather§0 core.<BR>Golems fitted with this core will seek dropped items within 16 blocks, pick them up and then place them inside an attached inventory. If they are not attached to an inventory they will simply hold on to them.<BR>If you right click on the golem you will be able to set specific items they should pick up - all others will be ignored.
 tc.research_page.COREGATHER.2=Simply right-click on a freshly placed golem with a core to attach it to the golem. 
@@ -997,7 +997,7 @@ tc.research_text.PECH=Strange Creatures
 tc.research_page.PECH.1=These strange humanoids can be found wherever the veil between worlds is at its thinnest. They seem drawn to the magical energies that abound in such places.<BR>Don't let their small stature fool you. They have incredible strength and can carry many times their own bodyweight.<BR>Pech are normally not aggressive, but when riled up they will band together and hunt down their attacker. Under normal conditions they avoid people at all costs.<BR>Pechs are notoriously avaricious, and will loot anything not nailed
 tc.research_page.PECH.2=down, though they prefer precious things. It is said that if you feed this desire for material wealth it could be possible to befriend one. Once befriended they often carry wonderous objects that they might be willing to part with.<BR>It should be noted that such 'friendships' seldom last long.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
 #
-tc.research_name.INFUSIONENCHANTMENT=Infusion Enchantment
+tc.research_name.INFUSIONENCHANTMENT=Infusão de Encantamento
 tc.research_text.INFUSIONENCHANTMENT=Enchanting with Essentia
 tc.research_page.INFUSIONENCHANTMENT.1=For ages now wizards and thaumaturges have been enchanting weapons, tools and armor by imbueing objects with their own life energy. While effective the process is tedious and the results are completely unpredictable. Your discovery of infusion crafting might have uncovered a solution to both those problems.<BR>You have discovered a way to enchant objects with an infusion altar. Simply place the item you wish to enchant on the central pedestal and supply the proper ingredients and essentia. 
 tc.research_page.INFUSIONENCHANTMENT.2=It also requires some life essence in the form of experience, but much less than would be normally required to enchant something. This experience is drawn from anyone near the infusion altar so care should be taken.<BR>The essentia and experience costs listed in following recipes are for the first level of enchantment. To enchant an item to higher levels, simply perform the infusion process again - it can be repeated till the required enchantment has reached its maximum possible level. Essentia and experience cost are multiplied by the level of enchantment you are performing, so a level II enchant costs twice as much as a level I.
