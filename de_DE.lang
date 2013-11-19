@@ -341,6 +341,18 @@ golemthreat.6.text=*LIEBE* nicht gefunden, Standardmäßig auf *HASS* stellen
 golemthreat.7.text=Ich hasse dich so sehr.
 golemthreat.8.text=Stirb, Fleischsack!.
 #
+#recipe
+recipe.return=Zurück
+recipe.clickthrough=Klicke für Forschung
+recipe.type.workbench=Werkbank
+recipe.type.workbenchshapeless=Werkbank (Formlos)
+recipe.type.arcane=Arkane Werkbank
+recipe.type.crucible=Tiegel
+recipe.type.infusion=Arkane Infusion
+recipe.type.infusionenchantment=Infusionsverzauberung
+recipe.type.construct=Mystisches Konstrukt
+
+#
 # Other
 nodetype.NORMAL.name=Normal
 nodetype.UNSTABLE.name=Instabil
