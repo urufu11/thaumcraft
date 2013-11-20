@@ -352,7 +352,7 @@ recipe.type.construct=Construção Mística
 # Other
 nodetype.NORMAL.name=Normal
 nodetype.UNSTABLE.name=Instável
-nodetype.DARK.name=Escuro
+nodetype.DARK.name=Obscuro
 nodetype.PURE.name=Puro
 nodetype.TAINTED.name=Maculado
 nodetype.HUNGRY.name=Faminto
@@ -399,12 +399,12 @@ tc.researchmissing=Pesquisa requerida em falta!
 tc.visdiscount=Descondo em vis
 tc.inst=Instabilidade: 
 tc.inst.0=§1Negligenciável§0
-tc.inst.1=§9Menor§0
+tc.inst.1=§9Baixa§0
 tc.inst.2=§5Moderada§0
 tc.inst.3=§eAlta§0
 tc.inst.4=§6Muito Alta§0
 tc.inst.5=§4Perigosa§0
-tc.adv=Avançado
+tc.adv=Avançada
 #
 # Aspects
 tc.aspect.primal=Aspecto Primário
