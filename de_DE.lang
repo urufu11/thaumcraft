@@ -38,6 +38,10 @@ entity.TaintedCreeper.name=Verseuchter Creeper
 entity.Pech.name=Pechfurier
 entity.Pech.1.name=Pechmagier
 entity.Pech.2.name=Pechjäger
+entity.TravelingTrunk.name=Reisekoffer
+entity.trunk.guiname='s Koffer
+entity.trunk.move=Der Koffer wird die nun folgen
+entity.trunk.stay=Der Koffer wird bleiben, wo er ist
 #
 # Blocks
 tile.blockAiry.0.name=Auranodie
@@ -82,6 +86,7 @@ tile.alembic.msg.5=Der Alambik ist voll
 tile.blockMetalDevice.5.name=Itemgitter 
 tile.blockMetalDevice.6.name=Itemgitter (Geschlossen)
 tile.blockMetalDevice.7.name=Arkane Lampe
+tile.blockMetalDevice.8.name=Lampe des Wachstums
 tile.blockMagicalLog.greatwood.name=Großholzstamm
 tile.blockMagicalLog.silverwood.name=Silberholzstamm
 tile.blockMagicalLeaves.greatwood.name=Großholzblätter
@@ -113,6 +118,7 @@ tile.blockWoodenDevice.7.name=Silberholzbretter
 tile.blockJar.0.name=Bannendes Glas
 tile.blockJar.1.name=Gehirn im Glas
 tile.blockJar.2.name=Nodie im Glas
+tile.blockJar.3.name=Glas der Leere
 tile.blockTable.0.name=Tisch
 tile.blockTable.1.name=Tisch
 tile.blockTable.research.name=Forschungstisch
@@ -153,6 +159,7 @@ tile.blockStoneDevice.8.name=Verbunds-Aufladefokus
 tile.blockTube.0.name=Essentiaröhre
 tile.blockTube.1.name=Essentiaventil
 tile.blockTube.2.name=Alchemische Zentrifuge
+tile.blockTube.3.name=Gefilterte Essentiaröhre
 container.alchemyfurnace=Alchemischer Ofen
 tile.blockArcaneFurnace.name=Höllenofen
 #
@@ -208,7 +215,7 @@ item.ItemResource.4.name=Magischer Talg
 item.ItemResource.5.name=Zombiehirn
 item.ItemResource.6.name=Bernstein
 item.ItemResource.7.name=Verzauberter Stoff
-item.ItemResource.8.name=Fluxfilter
+item.ItemResource.8.name=Visfilter
 item.ItemResource.9.name=Wissensfragment
 item.ItemResource.10.name=Spiegelndes Glas
 item.ItemResource.11.name=Schmutzschleim
@@ -242,6 +249,7 @@ item.ItemNuggetBeef.name=Rindernugget
 item.ItemNuggetPork.name=Schweinsnugget
 item.ItemNuggetFish.name=Fischnugget
 item.BlockJarFilledItem.name=Essentiaglas
+item.BlockJarFilledItem.void.name=Essentiaglas der Leere
 item.BlockJarNodeItem.name=Nodie im Glas
 item.TripleMeatTreat.name=Dreifacher Fleischgenuss
 item.ItemShovelElemental.name=Schaufel des Erdschürfers
@@ -314,6 +322,8 @@ item.ItemGolemUpgrade.3.desc=Verbessert Sinne, Reichweite
 item.ItemGolemUpgrade.4.desc=Verbessert Organisation, Intellekt
 item.ItemGolemUpgrade.5.desc=Verbessert Verteidigung, Denkvermögen
 item.ItemManaBean.name=Manabohne
+item.TrunkSpawner.name=Reisekoffer
+item.TrunkSpawner.text.1=Dieser Koffer hält Items
 
 
 #
@@ -904,8 +914,12 @@ tc.research_name.DISTILESSENTIA=Essentia-Destillation
 tc.research_text.DISTILESSENTIA=Essentia ernten
 tc.research_page.DISTILESSENTIA.1=You see a future need where you will need ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have divised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lAlchemical Furnace§r. The alchemical furnace works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia.
 tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of an alchemy furnace. The essentia slurry will slowly be drawn into the alembic and the indivual aspected essentia separated out.<BR>If the alchemical furnace is being powered by alumentum, this distillation process is much faster.<BR>You can stack up to 5 different alembics on top if a single furnace.<BR>The essentia can then be extracted out of an alembic using phials.
-tc.research_page.DISTILESSENTIA.3=As an alternative essentia can also be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams en preserves..<BR>Shift clicking on jars and alembics with an empty hand will empty them.
-tc.research_page.DISTILESSENTIA.4=As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
+#
+tc.research_name.JARLABEL=Bannende Gläser und Schildchen
+tc.research_text.JARLABEL=Essentia speichern und organisieren
+tc.research_page.JARLABEL.1=Kann in §lBannenden Gläsern§r gespeichert werden.<BR>Bannende Gläser können in der Welt platziert werden und sind fähig, Essentia nahezu unbegrenzt lange zu lagern. Die Verzauberungen auf den Gläsern machen auch das Hinzufügen oder Extrahieren von Essentia zum Kinderspiel.<BR>Gläser, die unter dem Ausguss des Alambiks platziert sind, werden automatisch gefüllt. Sie können auch mit Phiolen befüllt werden.<BR>Auch bieten sie ein exzellentes Lagermedium für Marmeladen und Eingemachtes.
+tc.research_page.JARLABEL.2=Auf Gläser und Alambiks  mit Shift zu klicken, wird sie leeren.<BR>So lange ein Glas etwas Essentia enthält, kannst du ein §lGlassschildchen§r an ihm anbringen.<BR>Dieses Schildchen wird dem Glas diesen Essentiatyp 'zuordnen' und es wird nicht mehr fähig sein, andere Arten von Essentia aufzunehmen.<BR>Du kannst ein Schildchen entfernen, indem du mit einer leeren Hand auf die Seite des Glases, auf der das Schildchen ist, shift-rechtsklickst. Sei vorsichtig, nicht auf eine andere Seite zu shift-rechtsklicken, da dies wie gewöhnlich das Glas leeren würde.
+tc.research_page.JARLABEL.3=Du kannst ein Schildchen mit einer Essentiaphiole in einer Werkbank kombinieren, um ihm einen Aspekt zuzuordnen, und, wenn auf einem leeren Glas platziert, wird es dem Glas automatisch den Aspekt zuordnen. Die für das Rezept nötige Essentia wird nicht verbraucht.<BR>Ein Schildchen auf einem gefüllten Glas zu platzieren, wird seinen Aspekt zum Essentiatyp des Glases ändern.<LINE>Ein Schildchen kann wieder leer gemacht werden, indem es einfach allein in einem Werkgitter platziert wird.
 #
 tc.research_name.INFERNALFURNACE=Höllischer Ofen
 tc.research_text.INFERNALFURNACE=Heiß genug?
@@ -1000,7 +1014,7 @@ tc.research_name.INFUSIONENCHANTMENT=Infusionsverzauberung
 tc.research_text.INFUSIONENCHANTMENT=Verzaubern mit Essenz
 tc.research_page.INFUSIONENCHANTMENT.1=For ages now wizards and thaumaturges have been enchanting weapons, tools and armor by imbueing objects with their own life energy. While effective the process is tedious and the results are completely unpredictable. Your discovery of infusion crafting might have uncovered a solution to both those problems.<BR>You have discovered a way to enchant objects with an infusion altar. Simply place the item you wish to enchant on the central pedestal and supply the proper ingredients and essentia. 
 tc.research_page.INFUSIONENCHANTMENT.2=It also requires some life essence in the form of experience, but much less than would be normally required to enchant something. This experience is drawn from anyone near the infusion altar so care should be taken.<BR>The essentia and experience costs listed in following recipes are for the first level of enchantment. To enchant an item to higher levels, simply perform the infusion process again - it can be repeated till the required enchantment has reached its maximum possible level. Essentia and experience cost are multiplied by the level of enchantment you are performing, so a level II enchant costs twice as much as a level I.
-tc.research_page.INFUSIONENCHANTMENT.3=Additional costs might is also required if the item already contains enchants other than the one you are currently performing. This cost is usually around 10% per level of enchantment. So enchanting a sword with Fire Aspect I that alread contains Smite III will cost 30% more.<BR>Instabilit also increases as the total number of enchantments on the object increases.<BR>Enchanting items with an infusion altar follows the normal rules for enchantment as it applies to what enchants can combine with others.
+tc.research_page.INFUSIONENCHANTMENT.3=Additional costs might is also required if the item already contains enchants other than the one you are currently performing. This cost is usually around 10% per level of enchantment. So enchanting a sword with Fire Aspect I that alread contains Smite III will cost 30% more.<BR>Instability also increases as the total number of enchantments on the object increases.<BR>Enchanting items with an infusion altar follows the normal rules for enchantment as it applies to what enchants can combine with others.
 #
 tc.research_name.ARCANELAMP=Arkane Lampe
 tc.research_text.ARCANELAMP=Große Lichtquelle
@@ -1019,4 +1033,27 @@ tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical 
 tc.research_name.CENTRIFUGE=Alchemische Zentrifuge
 tc.research_text.CENTRIFUGE=Nimmt Dinge auseinander
 tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. 
+#
+tc.research_name.TRAVELTRUNK=Reisekoffer
+tc.research_text.TRAVELTRUNK=Mobiles Gepäck
+tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happilly hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its gui
+tc.research_page.TRAVELTRUNK.2=which will make it remain in its current position.<BR>The traveling trunk slowly heals itself over time, but you can also feed it all manner of food to speed up this process.<BR>Like normal golems, the trunk can be picked up by left-clicking with a golemancer's bell. It will drop all items in its inventory of you do so. Shift-clicking will also cause it to drop any upgrades you have applied to it with the normal loss chance.<BR>It can accept a single upgrade like normal golems, but they grant unique abilities to the trunk. See the following pages for details as you discover the relevant upgrades.
+tc.research_page.TRAVELTRUNK.UAI=      §nGolem Upgrade: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
+tc.research_page.TRAVELTRUNK.UEA=     §nGolem Upgrade: Earth§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
+tc.research_page.TRAVELTRUNK.UFI=     §nGolem Upgrade: Fire§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
+tc.research_page.TRAVELTRUNK.UWA=     §nGolem Upgrade: Water§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
+tc.research_page.TRAVELTRUNK.UOR=     §nGolem Upgrade: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
+tc.research_page.TRAVELTRUNK.UEN=    §nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
+#
+tc.research_name.LAMPGROWTH=Lampe des Wachstums
+tc.research_text.LAMPGROWTH=Dinge zum Wachsen motivieren
+tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system. The pipes are slightly more efficient and will make a single point of essentia last about 10% longer.
+#
+tc.research_name.JARVOID=Glas der Leere
+tc.research_text.JARVOID=Zu viel Essentia? Unmöglich!
+tc.research_page.JARVOID.1=Gläser der Leere funktionieren größtenteils wie normale Bannende Gläser, mit einem wichtigen Unterschied - Auch, wenn voll, sind sie noch immer fähig, Essentia anzunehmen, aber die überschüssige Essentia geht einfach verloren. Das erlaubt es dir, immer etwas Essentia dieses Typs vorrätig zu haben, aber all den Überschuss, der sich aufbauen könnte, loszuwerden.<BR>Wie normale Gläser können Gläser der Leere Schildchen annehmen, aber ihre Saugkraft mit einem Schildchen ist geringer als die eines normalen beschilderten Glases (ungefähr mittig zwischen beschilderten und unbeschilderten Gläsern).
+#
+tc.research_name.TUBEFILTER=Gefilterte Essentiaröhre
+tc.research_text.TUBEFILTER=Was zu willst, wo du willst
+tc.research_page.TUBEFILTER.1=Gefilterte Essentiaröhren funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Schildchen zu markieren. Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Schildchen entfernen.
 #
