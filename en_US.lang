@@ -1034,7 +1034,6 @@ tc.research_name.CENTRIFUGE=Alchemical Centrifuge
 tc.research_text.CENTRIFUGE=Taking things apart
 tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. 
 #
-<<<<<<< HEAD
 tc.research_name.TRAVELTRUNK=Traveling Trunk
 tc.research_text.TRAVELTRUNK=Mobile Luggage
 tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happilly hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its gui
@@ -1058,5 +1057,3 @@ tc.research_name.TUBEFILTER=Filtered Essentia Tube
 tc.research_text.TUBEFILTER=What you want, where you want it
 tc.research_page.TUBEFILTER.1=Filtered essentia tubes work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
 #
-=======
->>>>>>> 3a0ee4da610d327feef26f792b9bcf80a3a0703c
