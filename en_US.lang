@@ -917,7 +917,7 @@ tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the es
 #
 tc.research_name.JARLABEL=Warded Jars and Labels
 tc.research_text.JARLABEL=Storing and organizing essentia
-tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams en preserves.
+tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
 tc.research_page.JARLABEL.2=Shift clicking on jars and alembics with an empty hand will empty them.<BR>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
 tc.research_page.JARLABEL.3=You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<LINE>A label can be made blank again by simply placing it by itself in a crafting grid.
 #
@@ -1051,7 +1051,7 @@ tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the 
 #
 tc.research_name.JARVOID=Void Jar
 tc.research_text.JARVOID=Too much essentia? Impossible!
-tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halway between unlabeled and labeled jar).
+tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
 #
 tc.research_name.TUBEFILTER=Filtered Essentia Tube
 tc.research_text.TUBEFILTER=What you want, where you want it
