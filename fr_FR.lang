@@ -38,6 +38,10 @@ entity.TaintedCreeper.name=Creeper corrompu
 entity.Pech.name=Fouineur Pech
 entity.Pech.1.name=Mage Pech
 entity.Pech.2.name=Archer Pech
+entity.TravelingTrunk.name=Malle de voyage
+entity.trunk.guiname= La malle de
+entity.trunk.move=La malle va maintenant vous suivre
+entity.trunk.stay=La malle va rester où elle est
 #
 # Blocks
 tile.blockAiry.0.name=Noeud d'aura
@@ -80,6 +84,7 @@ tile.alembic.msg.5=L'alembique est plein
 tile.blockMetalDevice.5.name=Grille à objets
 tile.blockMetalDevice.6.name=Grille à objets (fermée)
 tile.blockMetalDevice.7.name=Lampe arcanique
+tile.blockMetalDevice.8.name=Lampe de croissance 
 tile.blockMagicalLog.greatwood.name=Bois arcanique
 tile.blockMagicalLog.silverwood.name=Bois d'argent
 tile.blockMagicalLeaves.greatwood.name=Feuilles de bois arcanique
@@ -127,6 +132,7 @@ tile.blockMarker.15.name=Marqueur noir
 tile.blockJar.0.name=Bocal Renforcé
 tile.blockJar.1.name=Cerveau en bocal
 tile.blockJar.2.name=Noeud en bocal
+tile.blockJar.3.name=Bocal du vide
 tile.blockTable.0.name=Table
 tile.blockTable.1.name=Table
 tile.blockTable.research.name=Table de recherche
@@ -167,6 +173,7 @@ tile.blockStoneDevice.8.name=Focalisateur d'aspects composés
 tile.blockTube.0.name=Tube à essentia
 tile.blockTube.1.name=Vanne à essentia
 tile.blockTube.2.name=Centrifugeuse alchimique
+tile.blockTube.3.name=Tube à essentia filtré
 container.alchemyfurnace=Four alchimique
 tile.blockArcaneFurnace.name=Four infernal
 #
@@ -335,7 +342,9 @@ item.ItemGolemUpgrade.2.desc=Augmente les dégats, la capacité
 item.ItemGolemUpgrade.3.desc=Augmente les sens, la portée
 item.ItemGolemUpgrade.4.desc=Augmente l'intelligence, l'organisation 
 item.ItemGolemUpgrade.5.desc=Augmente la défense, le raisonnement
-item.ItemManaBean.name=Rayon de mana
+item.ItemManaBean.name=Gousse de mana
+item.TrunkSpawner.name=Malle de voyage
+item.TrunkSpawner.text.1=Cette malle contient les objets
 
 
 #
@@ -533,10 +542,10 @@ tc.research_page.NODES.3=Il y'a une petite chance lorsqu'un type d'aspect spéci
 #
 tc.research_name.ORE=Minerais
 tc.research_text.ORE=Creusez profondément
-tc.research_page.ORE.1=§l §nRoche infusée§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>Dans certaines circonstances, il y'a tellement d'énergie primaire dans l'aura qu'il s'installerait dans la roche sous forme de minerai infusée. La magie forme des cristaux dans la roche qui peuvent être récolté.
+tc.research_page.ORE.1=      §l §nRoche infusée§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>Dans certaines circonstances, il y'a tellement d'énergie primaire dans l'aura qu'il s'installerait dans la roche sous forme de minerai infusée. La magie forme des cristaux dans la roche qui peuvent être récolté.
 tc.research_page.ORE.2=Ces cristaux ont différentes propriétés élémentaires et plusieurs utilisations en thaumaturgie.<BR>Il y'a six types de roche infusée, un pour chaque aspect primaire.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>Ils peuvent être combinés ensemble pour former un amas de cristaux. Les amas de cristaux n'ont pas de propriétés spéciales à part donner une touche de classe à n'importe quelle maison. Briser un amas de cristaux vous renderas les morceaux.
-tc.research_page.ORE.3=§l §nCinabre§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>Ce minerai rougeâtre se trouve profondément sous terre et une fois fondu produit du vif-argent.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.ORE.4=§l §nAmbre§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>Ce minerai se trouve près de la surface et une fois miné fournit de l'ambre.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.3=       §l §nCinabre§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>Ce minerai rougeâtre se trouve profondément sous terre et une fois fondu produit du vif-argent.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=       §l §nAmbre§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>Ce minerai se trouve près de la surface et une fois miné fournit de l'ambre.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
 tc.research_name.PLANTS=Plantes et arbres
 tc.research_text.PLANTS=Végétation magique
@@ -920,8 +929,12 @@ tc.research_name.DISTILESSENTIA=Distillation de l'essentia
 tc.research_text.DISTILESSENTIA=La récolte d'essentia
 tc.research_page.DISTILESSENTIA.1=Vous voyez un besoin futur où vous devrez être prêt à accéder facilement à différents types d'aspects, pas seulement les aspects primaires drainer par votre baguette. Utilisant les principes alchimique de base, vous avez découvert un moyen de briser les objets et de les convertir en essentia.<BR>La première étape de ce procédé nécessite un §lfour alchémique§r. Le four alchémique fonctionne plutôt comme un four normal en brûlant du charbon pour produire de la chaleur, mais au lieu de fondre le minerai en metal, il décompose l'objet en bouillie de matière brut, de l'essentia non traité.
 tc.research_page.DISTILESSENTIA.2=La prochaine étape du processus consiste de prendre la bouillie d'essentia et de la distillé en utilisant un §lalembique arcanique§r.<BR>Pour marcher, l'alembique arcanique a besoin d'être placé au dessus du four alchimique. La bouillie d'essentia va doucement être drainée dans les alembiques et chaque différent aspect de l'essentia être séparé. Si le four alchimique est alimenté par de l'alumentum, le procédé de distillation se fera plus vite.<BR>Vous pouvez empiler jusqu'à 5 différents alembiques au dessus d'un seul four.<BR>L'essentia peut être extraite de l'alembique en utilisant des fioles.
-tc.research_page.DISTILESSENTIA.3=L'alternative est de stocké l'essentia dans des §lbocaux renforcés§r.<BR>Les bocaux renforcés doivent être placés dans le monde et sont cabale de stocker l'essentia pratiquement indéfiniment. Les enchantements présent sur les bocaux vont aussi permettre l'ajout et l'extraction d'essentia sans effort.<BR> Les bocaux placé sous le bec d'un alembique seront automatiquement remplis. Ils peuvent également être remplis et vidé en utilisant les fioles.<BR>Qui plus est, c'est un excellent support de stockage pour conserver la confiture.
-tc.research_page.DISTILESSENTIA.4=MAJ+clique droit sur les bocaux ou alembiques avec votre main vide les videra.<BR>Tant qu'un pot contient un peu d'essentia, vous pouvez lui attacher une §létiquette de bocal§r.<BR>Cette étiquette va vérouiller le bocal pour ce type d'essentia et ne sera pas capable d'accepter un autre type d'essentia.<BR>Vous pouvez retirer l'étiquette en faisant MAJ+clique droit avec votre main sur le côté où elle est situé. Prenez garde de ne peut pas faire MAJ+clique droit sur un autre côté où il videra le bocal normalement.
+#
+tc.research_name.JARLABEL=Bocaux renforcé et étiquettes
+tc.research_text.JARLABEL=Stocker et organiser l'essentia
+tc.research_page.JARLABEL.1=L'essentia peut être stocké dans des §lbocaux renforcés§r.<BR>Les bocaux renforcés doivent être placés dans le monde et sont cabale de stocker l'essentia pratiquement indéfiniment. Les enchantements présent sur les bocaux vont aussi permettre l'ajout et l'extraction d'essentia sans effort.<BR> Les bocaux placé sous le bec d'un alembique seront automatiquement remplis. Ils peuvent également être remplis et vidé en utilisant les fioles.<BR>Qui plus est, c'est un excellent support de stockage pour conserver la confiture.
+tc.research_page.JARLABEL.2=MAJ+clique droit sur les bocaux ou alembiques avec votre main vide les videra.<BR>Tant qu'un pot contient un peu d'essentia, vous pouvez lui attacher une §létiquette de bocal§r.<BR>Cette étiquette va vérouiller le bocal pour ce type d'essentia et ne sera pas capable d'accepter un autre type d'essentia.<BR>Vous pouvez retirer l'étiquette en faisant MAJ+clique droit avec votre main sur le côté où elle est situé. Prenez garde de ne peut pas faire MAJ+clique droit sur un autre côté où il videra le bocal normalement.
+tc.research_page.JARLABEL.3=Vous pouvez placer une étiquette dans un atelier avec une fiole d'essentia pour lui assigner un aspect et une fois placé sur un bocal, elle va automatiquement le vérouiller sur cet aspect. L'essentia n'est pas consommé dans la recette.<BR>Le placer sur un bocal remplis va changer le type d'essentia de l'étiquette par celui du bocal.<LINE>Une étiquette peut redevenir vierge en la plaçant simplement dans l'atelier.
 #
 tc.research_name.INFERNALFURNACE=Four infernal
 tc.research_text.INFERNALFURNACE=Suffisamment chaud?
@@ -1036,4 +1049,29 @@ tc.research_name.CENTRIFUGE=Centrifugeuse alchimique
 tc.research_text.CENTRIFUGE=Prendre les choses différement
 tc.research_page.CENTRIFUGE.1=La centrifugeuse alchimique est une magnifique invention qui vous permet de briser l'essentia en partie qui les compose.<BR>Lorsque L'essentia composé va dans la centrifuge par dessous, cela va le décomposer en essentia primaire ou parent à partir duquel il est fait. Seul un des composants est créé pour chaque point d'essentia brisé.<BR>L'essentia résultant a besoin d'être drainé par le dessus de la centrifugeuse.
 #
-
+<<<<<<< HEAD
+tc.research_name.TRAVELTRUNK=Malle de voyage
+tc.research_text.TRAVELTRUNK=Bagages mobile
+tc.research_page.TRAVELTRUNK.1=Une extension de vos recherches en golèmancie a conduit à un compagnon utile pour tout thaumaturge sur la route: La malle de voyage. Ce coffre en bois va volontier sautiller auprès de son maître, toujours prêt à offrir un espace de rangement pour tout ce que vous ramassez.<BR>La malle de voyage est solide et peut prendre un important nombre de coups. Elle est très résistante au feu et ne se blesse pas en chutant<BR>La malle peut suivre son maître partout même entre les dimensions. Si vous souhaitez qu'elle reste sur place cependant, il y'a un bouton pratique situé dans son interface
+tc.research_page.TRAVELTRUNK.2=ce qui la laissera dans sa position actuelle.La malle de voyage se guérit lentement dans le temps mais peut être également alimenter par toute sorte de nourriture pour accélérer ce processus. Comme les golems normaux, la malle peut être reprise en faisant clique gauche avec la cloche de golèmancien. Elle va laisser tomber tous les objets de son inventaire si vous faites ainsi. MAJ+clique va aussi laisser tomber toute les améliorations que vous lui avez appliqué avec les chances de perte normales. Elle peut accepter une seule amélioration comme les golems normaux mais elles accordent des abilités uniques à la malle. Regardez les pages suivantes pour les détails quand vous découvrirez les améliorations appropriées.
+tc.research_page.TRAVELTRUNK.UAI=  §nAmélioration de golem: Air§r<BR>Avec cette amélioration d'installée, la malle de voyage se déplacera plus vite.
+tc.research_page.TRAVELTRUNK.UEA= §nAmélioration de golem: Terre§r<BR>Avec cette amélioration d'installée, la malle de voyage sera en mesure de transporter plus d'objets. Elle gagnera une ligne supplémentaire dans son inventaire.
+tc.research_page.TRAVELTRUNK.UFI= §nAmélioration de golem: Feu§r<BR>Avec cette amélioration d'installée, la malle de voyage pourra défendre son maître lorqu'il est attaqué.
+tc.research_page.TRAVELTRUNK.UWA= §nAmélioration de golem: Eau§r<BR>Avec cette amélioration d'installée, la malle de voyage ne pourra pas être ouverte par quiconque d'autre que son maîte.<BR>Elle devient également plus résistant à tous, même les dégâts les plus dévastateurs.
+tc.research_page.TRAVELTRUNK.UOR= §nAmélioration de golem: Ordre§r<BR>Avec cette amélioration d'installée, la malle de voyage conservera ses objets lorsqu'il sera repris avec la cloche de golèmancien. Elle va laisser tomber ses objets comme d'habitude quon on utilise MAJ+clique.
+tc.research_page.TRAVELTRUNK.UEN=§nAmélioration de golem: Entropie§r<BR>Avec cette amélioration d'installée, la malle de voyage va aspirer tous les objets à proximité si elle a de la place pour.
+#
+tc.research_name.LAMPGROWTH=Lampe de croissance 
+tc.research_text.LAMPGROWTH=Encourager les choses à croître
+tc.research_page.LAMPGROWTH.1=Contrairement à la lampe arcanique à partir de quoi elle est fait, la lampe de croissance ne distribue pas beaucoup de lumière sauf si elle est approvisionnée en essentia Herba. Si cela est fait, toutes les plantes qui poussent à sa lumière vont croître beaucoup plus vite que la normale.<BR>L'essentia peut être amené à la lampe soit en plaçant un bocal à procimité, soit en attachant la lampe directement à un système de tuyauterie d'essentia. Les tubes sont un peu plus efficaces et utiliseront un point d'essentia 10% plus longtemps. 
+#
+tc.research_name.JARVOID=Bocal du vide
+tc.research_text.JARVOID=Trop d'essentia? Impossible!
+tc.research_page.JARVOID.1=La fonction des bocaux du vide est la même que les bocaux renforcés normaux avec une importante différence, même remplis, ils sont capablent d'accepter l'essentia mais l'excès d'essentia est simplement perdu. Cela vous permet d'avoir toujours de l'essentia de ce type mais de se débarrasser de tout excès susceptible de s'accumuler.<BR>Comme les bocaux normaux, les bocaux du vide peuvent accepter les étiquettes mais leur aspiration avec celles-ci est inférieur à un bocal normal étiqueté (à propos de l'entrée entre les bocaux étiquetés ou non)
+#
+tc.research_name.TUBEFILTER=Tube à essentia filtré
+tc.research_text.TUBEFILTER=Ce que vous voulez, où vous le souhaitez
+tc.research_page.TUBEFILTER.1=Les tubes à essentia filtrés fonctionnent comme les tubes normaux, sauf qu'il est possible de les marquer avec des étiquettes. Lorsqu'ils sont marqués, ils vont restreindre l'écoulement d'essentia qui les traversent au type qui a été marqué.<BR>MAJ+clique sur eux avec une main vide va retirer l'étiquette.
+#
+=======
+>>>>>>> 3a0ee4da610d327feef26f792b9bcf80a3a0703c
