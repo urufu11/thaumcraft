@@ -38,10 +38,10 @@ entity.TaintedCreeper.name=Pilaantunut Lurkki
 entity.Pech.name=Menninkäiskeräilijä
 entity.Pech.1.name=Menninkäisvelho
 entity.Pech.2.name=Menninkäis-stalkkeri
-entity.TravelingTrunk.name=Matkusteleva Runko
-entity.trunk.guiname=:n runko
-entity.trunk.move=Runko seuraa sinua nyt
-entity.trunk.stay=Runko pysyy siinä missä se on nyt
+entity.TravelingTrunk.name=Matkusteleva Matkalaukku
+entity.trunk.guiname=:n matkalaukku
+entity.trunk.move=Matkalaukku seuraa sinua nyt
+entity.trunk.stay=Matkalaukku pysyy siinä missä se on nyt
 #
 # Blocks
 tile.blockAiry.0.name=Sädesolmu
@@ -322,8 +322,8 @@ item.ItemGolemUpgrade.3.desc=Parantaa Näköä, Aluetta
 item.ItemGolemUpgrade.4.desc=Parantaa Järjestystä, Älyä
 item.ItemGolemUpgrade.5.desc=Parantaa Puolustusta, Ajattelua
 item.ItemManaBean.name=Mana papu
-item.TrunkSpawner.name=Matkusteleva Runko
-item.TrunkSpawner.text.1=Tämä runko pitää sisällään tavaroita
+item.TrunkSpawner.name=Matkusteleva Matkalaukku
+item.TrunkSpawner.text.1=Tämä matkalaukku pitää sisällään tavaroita
 
 
 #
