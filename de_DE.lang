@@ -44,7 +44,7 @@ entity.trunk.move=Der Koffer wird die nun folgen
 entity.trunk.stay=Der Koffer wird bleiben, wo er ist
 #
 # Blocks
-tile.blockAiry.0.name=Auranode
+tile.blockAiry.0.name=Auranodie
 tile.blockAiry.1.name=Nitor
 tile.blockAiry.2.name=Lichtschimmer
 tile.blockAiry.3.name=Lichtschimmer
@@ -77,12 +77,12 @@ tile.blockCustomPlant.2.name=Schimmerblatt
 tile.blockCustomPlant.3.name=Aschperle
 tile.blockCustomPlant.4.name=Ätherblüte
 tile.blockMetalDevice.0.name=Tiegel
-tile.blockMetalDevice.1.name=Arkaner Alembik
-tile.alembic.msg.1=Der Alembik ist leer
-tile.alembic.msg.2=Der Alembik ist fast leer
-tile.alembic.msg.3=Der Alembik ist etwa halb voll
-tile.alembic.msg.4=Der Alembik ist fast voll
-tile.alembic.msg.5=Der Alembik ist voll
+tile.blockMetalDevice.1.name=Arkaner Alambik
+tile.alembic.msg.1=Der Alambik ist leer
+tile.alembic.msg.2=Der Alambik ist fast leer
+tile.alembic.msg.3=Der Alambik ist etwa halb voll
+tile.alembic.msg.4=Der Alambik ist fast voll
+tile.alembic.msg.5=Der Alambik ist voll
 tile.blockMetalDevice.5.name=Itemgitter 
 tile.blockMetalDevice.6.name=Itemgitter (Geschlossen)
 tile.blockMetalDevice.7.name=Arkane Lampe
@@ -128,7 +128,7 @@ tile.researchtable.noink=Du hast keine Tinte mehr!
 tile.researchtable.nomove=Aktive Runen können nicht bewegt werden!
 tile.blockChestHungry.name=Hungrige Truhe
 tile.blockArcaneDoor.name=Arkane Tür
-tile.blockLifter.name=Arkaner Aufzug
+tile.blockLifter.name=Arkaner Levitator
 tile.blockCrystal.0.name=Luft-Kristallbündel
 tile.blockCrystal.1.name=Feuer-Kristallbündel
 tile.blockCrystal.2.name=Wasser-Kristallbündel
@@ -175,7 +175,7 @@ item.FocusShock.name=Stabfokus: Schock
 item.FocusTrade.name=Stabfokus: Blocktausch
 item.FocusFrost.name=Stabfokus: Frost
 item.FocusExcavation.name=Stabfokus: Graben
-item.FocusPortableHole.name=Stabfokus: Tragbarer Tunnel
+item.FocusPortableHole.name=Stabfokus: Tragbares Loch
 item.FocusPech.name=Stabfokus: Pech's Fluch
 item.WandCap.0.name=Eisenkappe
 item.WandCap.1.name=Goldkappe
@@ -256,7 +256,7 @@ item.ItemShovelElemental.name=Schaufel des Erdschürfers
 item.ItemPickaxeElemental.name=Spitzhacke des Kerns
 item.ItemAxeElemental.name=Axt des Stroms
 item.ItemHoeElemental.name=Hacke des Wachstums
-item.ItemSwordElemental.name=Schwert des Zephirs
+item.ItemSwordElemental.name=Schwert des Zephir
 item.ItemChestplateRobe.name=Robe des Thaumaturgen
 item.ItemLeggingsRobe.name=Gamaschen des Thaumaturgen
 item.ItemBootsRobe.name=Stiefel des Thaumaturgen
@@ -381,7 +381,7 @@ tc.handmirrorerror=Zielspiegel wurde entfernt oder ist falsch angebracht. Verbin
 tc.discoveryerror=Du besitzt nicht das nötige Wissen um das zu verstehen.
 tc.discoveryunknown=Unbekannte Theorie
 tc.discoveryprogress=% komplett
-tc.portableholeerror=Der Tragbare Tunnel hat nicht genug Ladung um das zu tun.
+tc.portableholeerror=Das Tragbare Loch hat nicht genug Ladung, um das zu tun.
 tc.key1=Der Schlüssel wurde mit dieser Arkanen Tür verbunden.
 tc.key2=Der Schlüssel wurde mit dieser Arkanen Druckplatte verbunden.
 tc.key3=Du kannst diese Tür nun öffnen.
@@ -661,11 +661,11 @@ tc.research_name.FOCUSSHOCK=Stabfokus: Schock
 tc.research_text.FOCUSSHOCK=Donner und Blitz
 tc.research_page.FOCUSSHOCK.1=This focus is capable of focusing elemental energy into bolts of lightning that you can hurl at your enemies.
 #
-tc.research_name.FOCUSEXCAVATION=Stabfokus: Grabung
+tc.research_name.FOCUSEXCAVATION=Stabfokus: Graben
 tc.research_text.FOCUSEXCAVATION=Terra Terror
 tc.research_page.FOCUSEXCAVATION.1=This focus turns your wand into a tool capable of moving vast amounts of earth and stone with little effort.<BR>Simply point it at what you want to excavate and the magic does the rest. Tougher materials take longer to mine, and anything other than earth, stone or similar materials will take much longer to mine.
 #
-tc.research_name.FOCUSTRADE=Stabfokus: Gleicher Handel
+tc.research_name.FOCUSTRADE=Stabfokus: Blocktausch
 tc.research_text.FOCUSTRADE=Dies für Das
 tc.research_page.FOCUSTRADE.1=You can use this focus to trade dozens of blocks in the world with some you are carrying.<BR>You must first choose the block you wish to change other blocks into by sneaking and right clicking on the desired block. When you then left-click on another block it will turn into the target block. Right clicking will transform a whole swathe of blocks.<BR>You must be carrying enough target blocks, and the transformed blocks will replace them in your inventory. Only blocks with at least one face adjacent to open air or non-solid blocks will be transformed.
 #
@@ -915,11 +915,11 @@ tc.research_text.DISTILESSENTIA=Essentia ernten
 tc.research_page.DISTILESSENTIA.1=You see a future need where you will need ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have divised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lAlchemical Furnace§r. The alchemical furnace works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia.
 tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of an alchemy furnace. The essentia slurry will slowly be drawn into the alembic and the indivual aspected essentia separated out.<BR>If the alchemical furnace is being powered by alumentum, this distillation process is much faster.<BR>You can stack up to 5 different alembics on top if a single furnace.<BR>The essentia can then be extracted out of an alembic using phials.
 #
-tc.research_name.JARLABEL=Bannende Gläser und Schildchen
+tc.research_name.JARLABEL=Bannende Gläser und Glasschilder
 tc.research_text.JARLABEL=Essentia speichern und organisieren
 tc.research_page.JARLABEL.1=Kann in §lBannenden Gläsern§r gespeichert werden.<BR>Bannende Gläser können in der Welt platziert werden und sind fähig, Essentia nahezu unbegrenzt lange zu lagern. Die Verzauberungen auf den Gläsern machen auch das Hinzufügen oder Extrahieren von Essentia zum Kinderspiel.<BR>Gläser, die unter dem Ausguss des Alambiks platziert sind, werden automatisch gefüllt. Sie können auch mit Phiolen befüllt werden.<BR>Auch bieten sie ein exzellentes Lagermedium für Marmeladen und Eingemachtes.
-tc.research_page.JARLABEL.2=Auf Gläser und Alambiks  mit Shift zu klicken, wird sie leeren.<BR>So lange ein Glas etwas Essentia enthält, kannst du ein §lGlassschildchen§r an ihm anbringen.<BR>Dieses Schildchen wird dem Glas diesen Essentiatyp 'zuordnen' und es wird nicht mehr fähig sein, andere Arten von Essentia aufzunehmen.<BR>Du kannst ein Schildchen entfernen, indem du mit einer leeren Hand auf die Seite des Glases, auf der das Schildchen ist, shift-rechtsklickst. Sei vorsichtig, nicht auf eine andere Seite zu shift-rechtsklicken, da dies wie gewöhnlich das Glas leeren würde.
-tc.research_page.JARLABEL.3=Du kannst ein Schildchen mit einer Essentiaphiole in einer Werkbank kombinieren, um ihm einen Aspekt zuzuordnen, und, wenn auf einem leeren Glas platziert, wird es dem Glas automatisch den Aspekt zuordnen. Die für das Rezept nötige Essentia wird nicht verbraucht.<BR>Ein Schildchen auf einem gefüllten Glas zu platzieren, wird seinen Aspekt zum Essentiatyp des Glases ändern.<LINE>Ein Schildchen kann wieder leer gemacht werden, indem es einfach allein in einem Werkgitter platziert wird.
+tc.research_page.JARLABEL.2=Auf Gläser und Alambiks  mit Shift zu klicken, wird sie leeren.<BR>So lange ein Glas etwas Essentia enthält, kannst du ein §lGlassschild§r an ihm anbringen.<BR>Dieses Glasschild wird dem Glas diesen Essentiatyp 'zuordnen' und es wird nicht mehr fähig sein, andere Arten von Essentia aufzunehmen.<BR>Du kannst ein Glasschild entfernen, indem du mit einer leeren Hand auf die Seite des Glases, auf der das Glasschild ist, shift-rechtsklickst. Sei vorsichtig, nicht auf eine andere Seite zu shift-rechtsklicken, da dies wie gewöhnlich das Glas leeren würde.
+tc.research_page.JARLABEL.3=Du kannst ein Glasschild mit einer Essentiaphiole in einer Werkbank kombinieren, um ihm einen Aspekt zuzuordnen, und, wenn auf einem leeren Glas platziert, wird es dem Glas automatisch den Aspekt zuordnen. Die für das Rezept nötige Essentia wird nicht verbraucht.<BR>Ein Glasschild auf einem gefüllten Glas zu platzieren, wird seinen Aspekt zum Essentiatyp des Glases ändern.<LINE>Ein Glasschild kann wieder leer gemacht werden, indem es einfach allein in einem Werkgitter platziert wird.
 #
 tc.research_name.INFERNALFURNACE=Höllischer Ofen
 tc.research_text.INFERNALFURNACE=Heiß genug?
@@ -1051,9 +1051,9 @@ tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the 
 #
 tc.research_name.JARVOID=Glas der Leere
 tc.research_text.JARVOID=Zu viel Essentia? Unmöglich!
-tc.research_page.JARVOID.1=Gläser der Leere funktionieren größtenteils wie normale Bannende Gläser, mit einem wichtigen Unterschied - Auch, wenn voll, sind sie noch immer fähig, Essentia anzunehmen, aber die überschüssige Essentia geht einfach verloren. Das erlaubt es dir, immer etwas Essentia dieses Typs vorrätig zu haben, aber all den Überschuss, der sich aufbauen könnte, loszuwerden.<BR>Wie normale Gläser können Gläser der Leere Schildchen annehmen, aber ihre Saugkraft mit einem Schildchen ist geringer als die eines normalen beschilderten Glases (ungefähr mittig zwischen beschilderten und unbeschilderten Gläsern).
+tc.research_page.JARVOID.1=Gläser der Leere funktionieren größtenteils wie normale Bannende Gläser, mit einem wichtigen Unterschied - Auch, wenn voll, sind sie noch immer fähig, Essentia anzunehmen, aber die überschüssige Essentia geht einfach verloren. Das erlaubt es dir, immer etwas Essentia dieses Typs vorrätig zu haben, aber all den Überschuss, der sich aufbauen könnte, loszuwerden.<BR>Wie normale Gläser können Gläser der Leere Glasschilder annehmen, aber ihre Saugkraft mit einem Glasschild ist geringer als die eines normalen beschilderten Glases (ungefähr mittig zwischen beschilderten und unbeschilderten Gläsern).
 #
 tc.research_name.TUBEFILTER=Gefilterte Essentiaröhre
 tc.research_text.TUBEFILTER=Was zu willst, wo du willst
-tc.research_page.TUBEFILTER.1=Gefilterte Essentiaröhren funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Schildchen zu markieren. Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Schildchen entfernen.
+tc.research_page.TUBEFILTER.1=Gefilterte Essentiaröhren funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Glasschildern zu markieren. Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Glasschild entfernen.
 #
