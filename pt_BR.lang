@@ -38,6 +38,10 @@ entity.TaintedCreeper.name=Creeper Maculado
 entity.Pech.name=Pêch Forrageador
 entity.Pech.1.name=Pêch Mago
 entity.Pech.2.name=Pêch Perseguidor
+entity.TravelingTrunk.name=Báu Itinerante
+entity.trunk.guiname='s - Báu
+entity.trunk.move=O báu agora o seguirá
+entity.trunk.stay=O báu irá ficar onde está
 #
 # Blocks
 tile.blockAiry.0.name=Aura Node
@@ -82,6 +86,7 @@ tile.alembic.msg.5=O Alambique está cheio
 tile.blockMetalDevice.5.name=Gradil de Itens
 tile.blockMetalDevice.6.name=Gradil de Itens (Fechado)
 tile.blockMetalDevice.7.name=Lâmpada Arcana 
+tile.blockMetalDevice.8.name=Lâmpada do Crescimento
 tile.blockMagicalLog.greatwood.name=Madeira de Greatwood
 tile.blockMagicalLog.silverwood.name=Madeira de Silverwood
 tile.blockMagicalLeaves.greatwood.name=Folhas de Greatwood
@@ -111,8 +116,9 @@ tile.blockWoodenDevice.5.name=Escavador Arcano
 tile.blockWoodenDevice.6.name=Tábuas de Greatwood
 tile.blockWoodenDevice.7.name=Tábuas de Silverwood
 tile.blockJar.0.name=Jarro Guardião
-tile.blockJar.1.name=Cérebro em Jarra
+tile.blockJar.1.name=Cérebro na Jarra
 tile.blockJar.2.name=Node na Jarra
+tile.blockJar.3.name=Void na Jarra
 tile.blockTable.0.name=Mesa
 tile.blockTable.1.name=Mesa
 tile.blockTable.research.name=Mesa de Pesquisa
@@ -153,6 +159,7 @@ tile.blockStoneDevice.8.name=Composto de Recarga de Focus
 tile.blockTube.0.name=Tubo de Essência
 tile.blockTube.1.name=Válvula de Essência
 tile.blockTube.2.name=Centrifugador Alquímico
+tile.blockTube.3.name=Tubo de Essência Filtrada
 container.alchemyfurnace=Fornalha Alquímica
 tile.blockArcaneFurnace.name=Fornalha Infernal
 #
@@ -242,6 +249,7 @@ item.ItemNuggetBeef.name=Nugget de Vaca
 item.ItemNuggetPork.name=Nugget de Porco
 item.ItemNuggetFish.name=Nugget de Peixe
 item.BlockJarFilledItem.name=Jarra de Essência
+item.BlockJarFilledItem.void.name=Jarra de Essência do Void
 item.BlockJarNodeItem.name=Node na Jarra
 item.TripleMeatTreat.name=Surpresa Tripla de Carne
 item.ItemShovelElemental.name=Pá do Movedor de Terra
@@ -314,6 +322,8 @@ item.ItemGolemUpgrade.3.desc=Melhora Sentidos, Alcançe
 item.ItemGolemUpgrade.4.desc=Melhora Organização, Intellecto
 item.ItemGolemUpgrade.5.desc=Melhora Defesa, Raciocínio
 item.ItemManaBean.name=Semente de Mana
+item.TrunkSpawner.name=Báu Itinerante
+item.TrunkSpawner.text.1=Neste báu contém itens
 
 
 #
@@ -702,68 +712,68 @@ tc.research_page.CRUCIBLE.2=no crisol estiver correta você pode jogar um item e
 tc.research_page.CRUCIBLE.3=Além da perda de recursos, essência que se evapora e degrada pode causar muitos efeitos colaterais peculiares.<BR>Você pode esvaziar um crisol clicando nele com o botão direito e uma varinha. Toda a essência é despejada na atmosfera.. o que não é algo que você gostaria de fazer com frequência.
 #
 tc.research_name.ENCHFABRIC=Tecido Encantado
-tc.research_text.ENCHFABRIC=Silky and Stylish
+tc.research_text.ENCHFABRIC=Sedoso e elegante
 tc.research_page.ENCHFABRIC.1=By combining spider silk and wool and infusing it with primal vis, you have created a silky length of magical cloth that would have numerous uses.<BR>You have also discovered patterns to create cloth robes from the magical fabric. These robes have similar protective properties to leather armor, but they are much more durable than mundane materials could ever be.<BR>They also hold mystical enchantments very well and can hold powerful magic much better than even expensive armor.  
 tc.research_page.ENCHFABRIC.2=The various pieces of this outfit grant a small discount to the amount of vis drained from casting wands when you use them.<BR>You can dye the armor like you would leather armor.
 #
 tc.research_name.ENCHANT=Encantamentos
-tc.research_text.ENCHANT=New Enchantments
+tc.research_text.ENCHANT=Novos Encantamentos
 tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nPotency (foci only)§r<BR>This enchantment increases the damage, range or area of the focus it is applied to.<BR>§nFrugal (foci only)§r<BR>Foci with this enchantment use less vis when activated.<BR>§nTreasure (foci only)§r<BR>This enchantment functions like the Fortune enchantment, increasing the amount of items gained when harvesting.
 tc.research_page.ENCHANT.2=§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearers landspeed. The higher the level of the enchant, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from the aura. The higher the level of the enchantment, the quicker this takes place. This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.
 #
 tc.research_name.ELEMENTALAXE=Machado da Corrente
-tc.research_text.ELEMENTALAXE=Rivers of Wood
+tc.research_text.ELEMENTALAXE=Rios da Madeira
 tc.research_page.ELEMENTALAXE.1=By combining water shards and a thaumium axe, you have created a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block. 
 tc.research_page.ELEMENTALAXE.2=If you press and hold right click the axe will harvest at a much faster speed, but at a greater cost to its durability.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.#
 #
 tc.research_name.ELEMENTALPICK=Picareta do Núcleo
-tc.research_text.ELEMENTALPICK=Purifying Heat
+tc.research_text.ELEMENTALPICK=Purificador de Calor
 tc.research_page.ELEMENTALPICK.1=By infusing a thaumium pickaxe with fire shards, you have created a pickaxe that glows with the heat of a forge.<BR>When you mine ore blocks there is a chance that you will mine a cluster instead. Native clusters are much easier to process and produces double the normal amount of metal when smelted.<BR>It can also be use to sound out any surface you right click against to find out what valuable materials can be found nearby.
 tc.research_page.ELEMENTALPICK.2=If shift is held while using this tool all its special properties are suspended and it functions like a normal pickaxe.
 #
 tc.research_name.ELEMENTALSWORD=Espada de Zephyr
-tc.research_text.ELEMENTALSWORD=Angry Winds
+tc.research_text.ELEMENTALSWORD=Ventos Zangados
 tc.research_page.ELEMENTALSWORD.1=You have merged the elemental fury of air shards with a thaumium sword.<BR>When used to strike a foe, the blade will sweep in a wide arc, hitting additional foes near you main target.<BR>While blocking the sword will conjure a sphere of whirling winds around you, pushing enemies and loose objects away and deflecting incoming projectiles.<BR>While blocking it will also slowly lift you into the air.
 #
 tc.research_name.ELEMENTALSHOVEL=Pá do Movedor de Terra
-tc.research_text.ELEMENTALSHOVEL=Shifting Earth
+tc.research_text.ELEMENTALSHOVEL=Deslocando Terra
 tc.research_page.ELEMENTALSHOVEL.1=Combining earth shards with a thaumium shovel you have created a peerless digging implement.<BR>When used to dig earth, sand and similar materials it will dig a 3x3 area.<BR>If you right click on the side of a block, it will attempt to place a 3x3 section of the same material in the world as long as you have sufficient blocks in your inventory.<BR>The orientation of both the digging and construction depends on the face you dug or clicked.
 tc.research_page.ELEMENTALSHOVEL.2=If shift is held while using this tool all its special properties are suspended and it functions like a normal shovel.
 #
 tc.research_name.ELEMENTALHOE=Enxada do Crescimento
-tc.research_text.ELEMENTALHOE=Balance of Nature
+tc.research_text.ELEMENTALHOE=Equilíbrio da Natureza
 tc.research_page.ELEMENTALHOE.1=By merging the magical energy from order and entropy shards with a thaumium hoe, you have created a farming implement with few equals.<BR>When used to till fields, it will till a 3x3 area instead of just a single block.<BR>When used to crops or other plants it will act as bonemeal to promote its growth, though at a higher cost to its durability. It might even be able to grow plants that normal bonemeal can't.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal hoe.
 #
 tc.research_name.GUNPOWDER=Pólvora
-tc.research_text.GUNPOWDER=Who needs creepers?
+tc.research_text.GUNPOWDER=Quem precisa de creepers?
 tc.research_page.GUNPOWDER.1=You have discovered an alternate source of gunpowder! No more hunting creepers for this explosive substance.
 #
 tc.research_name.TRANSIRON=Transmutação de Ferro
-tc.research_text.TRANSIRON=Transformation of metals into iron
+tc.research_text.TRANSIRON=Transformação de metais em ferro
 tc.research_page.TRANSIRON.1=You have discovered a way to multiply iron by steeping iron nuggets in §5metallum§0 harvested from other metals.
 #
 tc.research_name.TRANSGOLD=Transmutação de Ouro
-tc.research_text.TRANSGOLD=Transformation of metals into gold
+tc.research_text.TRANSGOLD=Transformação de metais em ouro
 tc.research_page.TRANSGOLD.1=You have discovered a way to multiply gold by steeping gold nuggets in §5metallum§0 harvested from other metals.
 #
 tc.research_name.TRANSCOPPER=Transmutação de Cobre
-tc.research_text.TRANSCOPPER=Transformation of metals into copper
+tc.research_text.TRANSCOPPER=Transformação de metais em cobre
 tc.research_page.TRANSCOPPER.1=You have discovered a way to multiply copper by steeping copper nuggets in §5metallum§0 harvested from other metals.
 #
 tc.research_name.TRANSTIN=Transmutação de Estanho
-tc.research_text.TRANSTIN=Transformation of metals into tin
+tc.research_text.TRANSTIN=Transformação de metais em estanho
 tc.research_page.TRANSTIN.1=You have discovered a way to multiply tin by steeping tin nuggets in §5metallum§0 harvested from other metals.
 #
 tc.research_name.TRANSSILVER=Transmutação de Prata
-tc.research_text.TRANSSILVER=Transformation of metals into silver
+tc.research_text.TRANSSILVER=Transformação de metais em prata
 tc.research_page.TRANSSILVER.1=You have discovered a way to multiply silver by steeping silver nuggets in §5metallum§0 harvested from other metals.
 #
 tc.research_name.TRANSLEAD=Transmutação de Chumbo
-tc.research_text.TRANSLEAD=Transformation of metals into lead
+tc.research_text.TRANSLEAD=Transformação de metais em chumbo
 tc.research_page.TRANSLEAD.1=You have discovered a way to multiply lead by steeping lead nuggets in §5metallum§0 harvested from other metals.
 #
 tc.research_name.TALLOW=Sebo Mágico
-tc.research_text.TALLOW=Rendered fat with a touch of magic
+tc.research_text.TALLOW=Gorduras fundidas com um toque de mágica
 tc.research_page.TALLOW.1=By processing and heating flesh in a crucible, you can create a mystical tallow suited for many arcane uses.<BR>This tallow can be used to craft candles. It is also possible to craft different coloured candles by combining a candle with a dye in an arcane workbench.
 #
 tc.research_name.GOLEMSTRAW=Golem de Palha
@@ -904,8 +914,12 @@ tc.research_name.DISTILESSENTIA=Destilação de Essência
 tc.research_text.DISTILESSENTIA=Harvesting essentia
 tc.research_page.DISTILESSENTIA.1=You see a future need where you will need ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have divised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lAlchemical Furnace§r. The alchemical furnace works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia.
 tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of an alchemy furnace. The essentia slurry will slowly be drawn into the alembic and the indivual aspected essentia separated out.<BR>If the alchemical furnace is being powered by alumentum, this distillation process is much faster.<BR>You can stack up to 5 different alembics on top if a single furnace.<BR>The essentia can then be extracted out of an alembic using phials.
-tc.research_page.DISTILESSENTIA.3=As an alternative essentia can also be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams en preserves. 
-tc.research_page.DISTILESSENTIA.4=As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
+#
+tc.research_name.JARLABEL=Jarros Guardiões e Rótulos
+tc.research_text.JARLABEL=Armazenando e organizando as essências
+tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
+tc.research_page.JARLABEL.2=Shift clicking on jars and alembics with an empty hand will empty them.<BR>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
+tc.research_page.JARLABEL.3=You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<LINE>A label can be made blank again by simply placing it by itself in a crafting grid.
 #
 tc.research_name.INFERNALFURNACE=Fornalha Infernal
 tc.research_text.INFERNALFURNACE=Hot enough?
@@ -1019,4 +1033,27 @@ tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical 
 tc.research_name.CENTRIFUGE=Centrifugador Alquímico
 tc.research_text.CENTRIFUGE=Taking things apart
 tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. 
+#
+tc.research_name.TRAVELTRUNK=Báu Itinerante
+tc.research_text.TRAVELTRUNK=Mobile Luggage
+tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happilly hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its gui
+tc.research_page.TRAVELTRUNK.2=which will make it remain in its current position.<BR>The traveling trunk slowly heals itself over time, but you can also feed it all manner of food to speed up this process.<BR>Like normal golems, the trunk can be picked up by left-clicking with a golemancer's bell. It will drop all items in its inventory of you do so. Shift-clicking will also cause it to drop any upgrades you have applied to it with the normal loss chance.<BR>It can accept a single upgrade like normal golems, but they grant unique abilities to the trunk. See the following pages for details as you discover the relevant upgrades.
+tc.research_page.TRAVELTRUNK.UAI=      §nGolem Upgrade: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
+tc.research_page.TRAVELTRUNK.UEA=     §nGolem Upgrade: Earth§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
+tc.research_page.TRAVELTRUNK.UFI=     §nGolem Upgrade: Fire§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
+tc.research_page.TRAVELTRUNK.UWA=     §nGolem Upgrade: Water§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
+tc.research_page.TRAVELTRUNK.UOR=     §nGolem Upgrade: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
+tc.research_page.TRAVELTRUNK.UEN=    §nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
+#
+tc.research_name.LAMPGROWTH=Lâmpada do Crescimento
+tc.research_text.LAMPGROWTH=Encouraging things to grow
+tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system. The pipes are slightly more efficient and will make a single point of essentia last about 10% longer.
+#
+tc.research_name.JARVOID=Void na Jarra
+tc.research_text.JARVOID=Too much essentia? Impossible!
+tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
+#
+tc.research_name.TUBEFILTER=Tubo de Essência Filtrada
+tc.research_text.TUBEFILTER=What you want, where you want it
+tc.research_page.TUBEFILTER.1=Filtered essentia tubes work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
 #
