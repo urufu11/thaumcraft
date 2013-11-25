@@ -38,7 +38,11 @@ entity.TaintedCreeper.name=Creeper Corrotto
 entity.Pech.name=Nano Raccoglitore
 entity.Pech.1.name=Nano Mago
 entity.Pech.2.name=Nano Segugio
-#
+entity.TravelingTrunk.name=Tronco Semovente
+entity.trunk.guiname= possiede questa cassa
+entity.trunk.move=Ora la cassa ti seguirà
+entity.trunk.stay=Ora la cassa rimarrà al suo posto
+
 # Blocks
 tile.blockAiry.0.name=Nodo di Aura
 tile.blockAiry.1.name=Nitor
@@ -82,6 +86,7 @@ tile.alembic.msg.5=L'alambicco è pieno
 tile.blockMetalDevice.5.name=Grata per gli Oggetti
 tile.blockMetalDevice.6.name=Grata per gli Oggetti (Chiusa)
 tile.blockMetalDevice.7.name=Lampada Arcana
+tile.blockMetalDevice.8.name=Lampada della Crescita 
 tile.blockMagicalLog.greatwood.name=Legno di Grandalbero
 tile.blockMagicalLog.silverwood.name=Legno di Argentalbero
 tile.blockMagicalLeaves.greatwood.name=Foglie di Grandalbero
@@ -113,6 +118,7 @@ tile.blockWoodenDevice.7.name=Assi di Argentalbero
 tile.blockJar.0.name=Barattolo Rinforzato
 tile.blockJar.1.name=Cervello in un Barattolo
 tile.blockJar.2.name=Nodo in un Barattolo
+tile.blockJar.3.name=Barattolo Vacuo
 tile.blockTable.0.name=Tavolo
 tile.blockTable.1.name=Tavolo
 tile.blockTable.research.name=Tavolo delle Ricerche
@@ -153,6 +159,7 @@ tile.blockStoneDevice.8.name=Focus della Ricarica Composita
 tile.blockTube.0.name=Tubo per Essentia
 tile.blockTube.1.name=Valvola per Essentia
 tile.blockTube.2.name=Centrifuga Alchemica
+tile.blockTube.3.name=Tubo per Essentia Filtrato
 container.alchemyfurnace=Fornace Alchemica
 tile.blockArcaneFurnace.name=Fornace Infernale
 #
@@ -242,6 +249,7 @@ item.ItemNuggetBeef.name=Bocconcino di Manzo
 item.ItemNuggetPork.name=Bocconcino di Maiale
 item.ItemNuggetFish.name=Bocconcino di Pesce
 item.BlockJarFilledItem.name=Barattolo di Essentia
+item.BlockJarFilledItem.void.name=Barattolo Vacuo di Essentia
 item.BlockJarNodeItem.name=Nodo in un Barattolo
 item.TripleMeatTreat.name=Stuzzichino Tre Carni
 item.ItemShovelElemental.name=Pala del Terremoto
@@ -314,6 +322,8 @@ item.ItemGolemUpgrade.3.desc=Migliora i Sensi, il Raggio d'Azione
 item.ItemGolemUpgrade.4.desc=Migliora l'Organizazione, l'Intelletto
 item.ItemGolemUpgrade.5.desc=Migliora la Difesa, il Ragionamento
 item.ItemManaBean.name=Fagiolo Magico
+item.TrunkSpawner.name=Cassa Fedele
+item.TrunkSpawner.text.1=Questa cassa contiene oggetti
 
 
 #
@@ -699,7 +709,6 @@ tc.research_name.CRUCIBLE=Crogiolo
 tc.research_text.CRUCIBLE=Bolle e Bollori
 tc.research_page.CRUCIBLE.1=Per creare un Crogiolo, devi semplicemente usare la tua bacchetta su di un calderone.<BR>Il crogiolo è uno strumento importante per ogni taumaturgo. Esso gli permette di sciogliere gli oggetti fisici nella loro Essentia, e ricombinarla nuovamente secondo i suoi desideri.<BR>Il Crogiolo ha bisogno di essere piazzato su di una sorgente di calore costante, e riempito con l'acqua. Quando l'acqua inizia a bollire, semplicemente lancia al suo interno tutti gli oggetti che vuoi ridurre alla loro Essentia.<BR>Se conosci la formula corretta, ed il
 tc.research_page.CRUCIBLE.2=miscuglio di essentia all'interno del crogiolo è corretto, potrai lasciar cadere al suo interno un oggetto particolare che fungerà da Catalizzatore. Il catalizzatore assorbe l'essentia e si trasforma in un oggetto completamente nuovo che sarà espulso dal crogiolo.<BR>L'Essentia avanzata resta all'interno del crogiolo per ulteriori utilizzi, ma non è una buona idea lasciarvela all'interno per troppo tempo.<BR>La creazione di oggetti consumerà anche parte dell'acqua del crogiolo, quindi ogni tanto dovrai rifonderla.<BR>L'Essentia nel crogiolo è soggetta ad un decadimento costante. L'Essentia composita decade in uno dei suoi aspetti componenti, e l'Essentia primitiva semplicemente evapora.
-tc.research_page.CRUCIBLE.2=del crogiolo è corretto, potrai lasciar cadere al suo interno un oggetto particolare che fungerà da Catalizzatore. Il catalizzatore assorbe l'essentia e si trasforma in un oggetto completamente nuovo che sarà espulso dal crogiolo.<BR>L'Essentia avanzata resta all'interno del crogiolo per ulteriori utilizzi, ma non è una buona idea lasciarvela all'interno per troppo tempo.<BR>La creazione di oggetti consumerà anche parte dell'acqua del crogiolo, quindi ogni tanto dovrai rifonderla.<BR>L'Essentia nel crogiolo è soggetta ad un decadimento costante. L'Essentia composita decade in uno dei suoi aspetti componenti, e l'Essentia primitiva semplicemente evapora.
 tc.research_page.CRUCIBLE.3=Al di la dello spreco di risorse, lasciare che l'Essentia decada ed evapori puo causare diversi effetti collaterali.<BR>Puoi svuotare un crogiolo cliccandolo con il destro con una bacchetta. Tutta l'Essentia viene rilasciata nell'atmosfera... qualcosa che non vorrai fare troppo spesso.
 #
 tc.research_name.ENCHFABRIC=Tessuto Incantato
@@ -905,8 +914,12 @@ tc.research_name.DISTILESSENTIA=Distillazione dell'Essentia
 tc.research_text.DISTILESSENTIA=Raccogliere Essentia
 tc.research_page.DISTILESSENTIA.1=Prevedi che in futuro avrai bisogno di diversi tipi di aspetti pronti all'utilizzo - non solo quelli primitivi della tua bacchetta.<BR>Utilizzando i principi alchemici di base hai trovato un modo per spezzare gli oggetti e convertirli nella loro essentia.<BR>Il primo passo in questo processo richiede una §lFornace Alchemica§r. La fornace alchemica si comporta come una fornace normale, bruciando carbone per produrre calore, ma anzichè fondere i minerali in metallo, riduce gli oggetti in essentia grezza liquida.
 tc.research_page.DISTILESSENTIA.2=Il passo successivo consiste nel prendere l'essentia liquida e distillarla usando un §lAlambicco Arcano§r.<BR>Per funzionare, gli alambicchi arcani devono essere piazzati sopra una fornace alchemica. L'essentia liquida sarà lentamente assorbita dall'alambicco e sarà separata nei suoi vari aspetti.<BR>Se la fornace alchemica è alimentata da alumentum, il processo di distillazione è molto più veloce.<BR>Puoi impilare fino a 5 alambicchi su di una sola fornace.<BR>L'essentia puo essere successivamente estratta da un alambicco usando le fiale.
-tc.research_page.DISTILESSENTIA.3=In alternativa, l'essentia puo anche essere conservata in §lBarattoli Rinforzati§r.<BR>I barattoli rinforzati possono essere piazzati e sono in grado di immagazzinare essentia un numero illimitato di volte. Gli incantesimi applicati ai barattoli rendono l'estrazione e l'inserimento di essentia semplicissimo.<BR>I barattoli piazzati sotto il rubinetto di un alambicco saranno automaticamente riempiti. Possono anche essere riempiti e svuotati usando le fiale.<BR>In più, sono un ottimo contenitore per marmellate e conserve. 
-tc.research_page.DISTILESSENTIA.4=Finché un barattolo contiene un po' di essentia, ci puoi attaccare una §lEtichetta per Barattoli§r.<BR>Questa etichetta 'blocchera' il barattolo al tipo di essentia contenuta e e non accetterà altri tipi di essentia.<BR>Puoi rimuovere una etichetta premendo "shift" e cliccando con una mano vuota sul lato del barattolo con l'etichetta.Nota che se se premi shift e clicchi su un altro lato svuoterai il barattolo come farebbe normalmente.
+#
+tc.research_name.JARLABEL=Barattoli Rinforzati ed Etichette
+tc.research_text.JARLABEL=Immagazzinare ed organizzare l'Essentia
+tc.research_page.JARLABEL.1=L'Essentia puo essere immagazzinata in §lBarattoli Rinforzati§r.<BR>I barattoli rinforzati possono essere piazzati e sono in grado di immagazzinare essentia un numero illimitato di volte.  Gli incantesimi applicati ai barattoli rendono l'estrazione e l'inserimento di essentia semplicissimo.<BR>I barattoli piazzati sotto il rubinetto di un alambicco saranno automaticamente riempiti. Possono anche essere riempiti e svuotati usando le fiale.<BR>In più, sono un ottimo contenitore per marmellate e conserve.
+tc.research_page.JARLABEL.2=Barattoli ed alambicchi possono essere svuotati cliccandoli mentre si tiene premuto shift.<BR>Finché un barattolo contiene un po' di essentia, ci puoi attaccare una §lEtichetta per Barattoli§r.<BR>Questa etichetta 'blocchera' il barattolo al tipo di essentia contenuta e e non accetterà altri tipi di essentia.<BR>Puoi rimuovere una etichetta premendo "shift" e cliccando con una mano vuota sul lato del barattolo con l'etichetta.Nota che se se premi shift e clicchi su un altro lato svuoterai il barattolo come farebbe normalmente.
+tc.research_page.JARLABEL.3=Puoi piazzare un'etichetta in un banco da lavoro, insieme ad una fiala di essentia, per assegnargli un determinato aspetto, in modo che quando sarà posizionata su di un barattolo vuoto, lo bloccherà sin da subito. L'essentia utilizzata nella creazione non viene consumata.<BR>Piazzandola su di un barattolo pieno, modificherà l'etichetta per il tipo di essentia contenuta al suo interno.<LINE>Un'etichetta puo essere resettata semplicemente piazzandola in una griglia di costruzione.
 #
 tc.research_name.INFERNALFURNACE=Fornace Infernale
 tc.research_text.INFERNALFURNACE=Abbastanza caldo?
@@ -1020,4 +1033,27 @@ tc.research_page.TUBES.2=I tubi possono essere collegati a qualunque dispositivo
 tc.research_name.CENTRIFUGE=Centrifuga Alchemica
 tc.research_text.CENTRIFUGE=Separare le cose
 tc.research_page.CENTRIFUGE.1=La centrifuga alchemica è una invenzione fantastica che permette di dividere l'Essentia nelle sue parti componenti.<BR>Quando l'essentia composita scorre nella centrifuga dal basso, viene lentamente suddivisa in essentia primitiva, o nell'essentia composita che la compone. Solo uno dei componenti è ricavato da ogni punto di essentia centrifugato.<BR>L'Essentia creata deve essere estratta dall'alto della centrifuga.
+#
+tc.research_name.TRAVELTRUNK=Cassa Fedele
+tc.research_text.TRAVELTRUNK=Bagaglio mobile
+tc.research_page.TRAVELTRUNK.1=Poseguendo nelle tue ricerche golemantiche hai trovato un compagno utile per ogni taumaturgo alla mano: La Cassa Fedele.<BR>Questa cassa di legno saltellerà allegramente al seguito del suo proprietario, sempre pronta a fornire uno spazio di immagazzinamento per tutto ciò che raccogli.<BR>La cassa fedele è robusta e puo essere picchiata a lungo. è molto resistente alle fiamme, e non subisce danni da caduta.<BR>La cassa puo seguire il suo proprietario ovunque - perfino in altre dimensioni. Per chi invece desidera tenerla fferma, c'è un comodo pulsante nella sua interfaccia
+tc.research_page.TRAVELTRUNK.2=che la farà restare al suo posto.<BR>La cassa fedele guarisce lentamente nel tempo, ma puoi darle da mangiare qualunque cibo per velocizzare il processo.<BR>Come i soliti golem, la cassa puo essere raccolta cliccandola con il sinistro usando la campanella del golemante. Lascerà a terra tutti gli oggetti del suo inventario, se lo fai. Cliccandola tenendo premuti shift t permetterà di rimuovere tutti gli eventuali miglioramenti che vi hai applicato, con la solita possibilità di perderli.<BR>Puo portare un solo miglioramento come i golem, ma riceve abilità uniche. Consulta le pagine seguenti per avere i dettagli dei benefici man mano che li scopri..
+tc.research_page.TRAVELTRUNK.UAI=      §nMiglioramento Golem: Aria§r<BR>Con questo aggiornamento, la cassa sarà più veloce.
+tc.research_page.TRAVELTRUNK.UEA=     §nMiglioramento Golem: Terra§r<BR>Con questo aggiornamento, la cassa potrà contenere più oggetti (una riga in più nell'inventario).
+tc.research_page.TRAVELTRUNK.UFI=     §nMiglioramento Golem: Fuoco§r<BR>Con questo aggiornamento la cassa difenderà il suo proprietario quando viene attaccato.
+tc.research_page.TRAVELTRUNK.UWA=     §nMiglioramento Golem: Acqua§r<BR>Con questo aggiornamento, la cassa non potrà essere aperta da nessuno al di la del suo proprietario.<BR>Diventa inoltre resistente a quasi tutti i danni, tranne i più devastanti.
+tc.research_page.TRAVELTRUNK.UOR=     §nMiglioramento Golem: Ordine§r<BR>Con questo aggiornamento, la cassa manterrà i suoi oggetti quando viene raccolta con la campanella del golemante. Li lascerà cadere se si raccoglie tenendo premuto shift.
+tc.research_page.TRAVELTRUNK.UEN=    §nMiglioramento Golem: Entropia§r<BR>Con questo aggiornamento, la cassa fedele risucchierà automaticamente dai dintorni tutti gli oggetti per cui ha spazio
+#
+tc.research_name.LAMPGROWTH=Lampada della Crescita
+tc.research_text.LAMPGROWTH=Incoraggiare la crescita delle cose
+tc.research_page.LAMPGROWTH.1=A differenza della Lampada Arcana da cui è formata, la Lampada della Crescita non produce molta luce se non viene rifornita con Essentia di Herba. Se lo è, qualunque cosa piantata e  bagnada dalla sua luce, crescerà molto più rapidamente del solito.<BR>L'Essentia puo essere fornita piazzando dei barattoli nei dintorni, o collegando direttamente alla lampada un sistema di tubature. I tubi sono leggermente più efficaci e faranno durare ogni unità di essentia circa il 10% in più.
+#
+tc.research_name.JARVOID=Barattolo Vacuo
+tc.research_text.JARVOID=Troppa essentia? Impossibile!
+tc.research_page.JARVOID.1=I barattoli vacui funzionano più o meno come i classici barattoli rinforzati, ma con un'importante differenza - anche quando sono pieni, sono comunque in grado di accettare l'essentia,even when full they are still able to accept essentia, ma quella in eccesso viene perduta. Questo ti permette di avere sempre disponibile l'essentia di quel tipo, ma disfarti di eventuali eccessi che si accumulerebbero.<BR>Come i barattoli normali, quelli vacui possono portare etichette, ma la loro potenza di aspirazione con un'etichetta è minore di quella di un barattolo normale etichettato (una via di mezzo fra barattolo con e senza etichetta).
+#
+tc.research_name.TUBEFILTER=Tubo per Essentia Filtrato
+tc.research_text.TUBEFILTER=Ciò che vuoi, dove lo vuoi.
+tc.research_page.TUBEFILTER.1=I tubi per essentia filtrati funzionano come tubi normali, tranne per il fatto che possono essere segnati con le etichette. Quando vengono etichettati, limiteranno il flusso dell'essentia al loro interno al tipo con cui sono stati segnati.<BR>Per togliere l'etichetta occorre cliccarli tenendo premuto shift con la mano vuota.
 #
