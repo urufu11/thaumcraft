@@ -39,7 +39,7 @@ entity.Pech.name=Pêch Forrageador
 entity.Pech.1.name=Pêch Mago
 entity.Pech.2.name=Pêch Perseguidor
 entity.TravelingTrunk.name=Báu Itinerante
-entity.trunk.guiname=Báu de 's
+entity.trunk.guiname='s - Báu
 entity.trunk.move=O báu agora o seguirá
 entity.trunk.stay=O báu irá ficar onde está
 #
