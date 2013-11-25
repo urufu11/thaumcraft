@@ -118,7 +118,7 @@ tile.blockWoodenDevice.7.name=Assi di Argentalbero
 tile.blockJar.0.name=Barattolo Rinforzato
 tile.blockJar.1.name=Cervello in un Barattolo
 tile.blockJar.2.name=Nodo in un Barattolo
-tile.blockJar.3.name=Barattolo Vacuo
+tile.blockJar.3.name=Barattolo Senza Fondo
 tile.blockTable.0.name=Tavolo
 tile.blockTable.1.name=Tavolo
 tile.blockTable.research.name=Tavolo delle Ricerche
@@ -249,7 +249,7 @@ item.ItemNuggetBeef.name=Bocconcino di Manzo
 item.ItemNuggetPork.name=Bocconcino di Maiale
 item.ItemNuggetFish.name=Bocconcino di Pesce
 item.BlockJarFilledItem.name=Barattolo di Essentia
-item.BlockJarFilledItem.void.name=Barattolo Vacuo di Essentia
+item.BlockJarFilledItem.void.name=Barattolo Senza Fondo di Essentia
 item.BlockJarNodeItem.name=Nodo in un Barattolo
 item.TripleMeatTreat.name=Stuzzichino Tre Carni
 item.ItemShovelElemental.name=Pala del Terremoto
@@ -322,8 +322,8 @@ item.ItemGolemUpgrade.3.desc=Migliora i Sensi, il Raggio d'Azione
 item.ItemGolemUpgrade.4.desc=Migliora l'Organizazione, l'Intelletto
 item.ItemGolemUpgrade.5.desc=Migliora la Difesa, il Ragionamento
 item.ItemManaBean.name=Fagiolo Magico
-item.TrunkSpawner.name=Cassa Fedele
-item.TrunkSpawner.text.1=Questa cassa contiene oggetti
+item.TrunkSpawner.name=Baule da Viaggio
+item.TrunkSpawner.text.1=Questo baule contiene oggetti
 
 
 #
@@ -1034,24 +1034,24 @@ tc.research_name.CENTRIFUGE=Centrifuga Alchemica
 tc.research_text.CENTRIFUGE=Separare le cose
 tc.research_page.CENTRIFUGE.1=La centrifuga alchemica è una invenzione fantastica che permette di dividere l'Essentia nelle sue parti componenti.<BR>Quando l'essentia composita scorre nella centrifuga dal basso, viene lentamente suddivisa in essentia primitiva, o nell'essentia composita che la compone. Solo uno dei componenti è ricavato da ogni punto di essentia centrifugato.<BR>L'Essentia creata deve essere estratta dall'alto della centrifuga.
 #
-tc.research_name.TRAVELTRUNK=Cassa Fedele
+tc.research_name.TRAVELTRUNK=Baule da Viaggio
 tc.research_text.TRAVELTRUNK=Bagaglio mobile
-tc.research_page.TRAVELTRUNK.1=Poseguendo nelle tue ricerche golemantiche hai trovato un compagno utile per ogni taumaturgo alla mano: La Cassa Fedele.<BR>Questa cassa di legno saltellerà allegramente al seguito del suo proprietario, sempre pronta a fornire uno spazio di immagazzinamento per tutto ciò che raccogli.<BR>La cassa fedele è robusta e puo essere picchiata a lungo. è molto resistente alle fiamme, e non subisce danni da caduta.<BR>La cassa puo seguire il suo proprietario ovunque - perfino in altre dimensioni. Per chi invece desidera tenerla fferma, c'è un comodo pulsante nella sua interfaccia
-tc.research_page.TRAVELTRUNK.2=che la farà restare al suo posto.<BR>La cassa fedele guarisce lentamente nel tempo, ma puoi darle da mangiare qualunque cibo per velocizzare il processo.<BR>Come i soliti golem, la cassa puo essere raccolta cliccandola con il sinistro usando la campanella del golemante. Lascerà a terra tutti gli oggetti del suo inventario, se lo fai. Cliccandola tenendo premuti shift t permetterà di rimuovere tutti gli eventuali miglioramenti che vi hai applicato, con la solita possibilità di perderli.<BR>Puo portare un solo miglioramento come i golem, ma riceve abilità uniche. Consulta le pagine seguenti per avere i dettagli dei benefici man mano che li scopri..
-tc.research_page.TRAVELTRUNK.UAI=      §nMiglioramento Golem: Aria§r<BR>Con questo aggiornamento, la cassa sarà più veloce.
-tc.research_page.TRAVELTRUNK.UEA=     §nMiglioramento Golem: Terra§r<BR>Con questo aggiornamento, la cassa potrà contenere più oggetti (una riga in più nell'inventario).
-tc.research_page.TRAVELTRUNK.UFI=     §nMiglioramento Golem: Fuoco§r<BR>Con questo aggiornamento la cassa difenderà il suo proprietario quando viene attaccato.
-tc.research_page.TRAVELTRUNK.UWA=     §nMiglioramento Golem: Acqua§r<BR>Con questo aggiornamento, la cassa non potrà essere aperta da nessuno al di la del suo proprietario.<BR>Diventa inoltre resistente a quasi tutti i danni, tranne i più devastanti.
-tc.research_page.TRAVELTRUNK.UOR=     §nMiglioramento Golem: Ordine§r<BR>Con questo aggiornamento, la cassa manterrà i suoi oggetti quando viene raccolta con la campanella del golemante. Li lascerà cadere se si raccoglie tenendo premuto shift.
-tc.research_page.TRAVELTRUNK.UEN=    §nMiglioramento Golem: Entropia§r<BR>Con questo aggiornamento, la cassa fedele risucchierà automaticamente dai dintorni tutti gli oggetti per cui ha spazio
+tc.research_page.TRAVELTRUNK.1=Poseguendo nelle tue ricerche golemantiche hai trovato un compagno utile per ogni taumaturgo alla mano: il Baule da Viaggio.<BR>Questa cassa di legno saltellerà allegramente al seguito del suo proprietario, sempre pronta a fornire uno spazio di immagazzinamento per tutto ciò che raccogli.<BR>Il baule da viaggio è robusto e puo subire molti danni. è molto resistente alle fiamme, e non subisce danni da caduta.<BR>La cassa puo seguire il suo proprietario ovunque - perfino in altre dimensioni. Per chi invece desidera tenerla ferma, c'è un comodo pulsante nella sua interfaccia
+tc.research_page.TRAVELTRUNK.2=che la farà restare al suo posto.<BR>Il baule da viaggio guarisce lentamente col tempo, ma puoi dargli da mangiare qualunque cibo per velocizzare il processo.<BR>Come i golem, puo essere raccolto cliccandolo con il sinistro usando la campanella del golemante. Lascerà a terra tutti gli oggetti del suo inventario, se lo fai. Cliccandolo tenendo premuti shift ti permetterà di rimuovere tutti gli eventuali miglioramenti che vi hai applicato, con la solita possibilità di perderli.<BR>Puo portare un solo miglioramento per golem, ma riceve abilità uniche. Consulta le pagine seguenti per avere i dettagli dei benefici man mano che li scopri..
+tc.research_page.TRAVELTRUNK.UAI=      §nMiglioramento Golem: Aria§r<BR>Con questo aggiornamento, il baule sarà più veloce.
+tc.research_page.TRAVELTRUNK.UEA=     §nMiglioramento Golem: Terra§r<BR>Con questo aggiornamento, il baule potrà contenere più oggetti (una riga in più nell'inventario).
+tc.research_page.TRAVELTRUNK.UFI=     §nMiglioramento Golem: Fuoco§r<BR>Con questo aggiornamento il baule difenderà il suo proprietario quando viene attaccato.
+tc.research_page.TRAVELTRUNK.UWA=     §nMiglioramento Golem: Acqua§r<BR>Con questo aggiornamento, il baule non potrà essere aperto da nessuno al di la del suo proprietario.<BR>Diventa inoltre resistente a quasi tutti i danni, tranne i più devastanti.
+tc.research_page.TRAVELTRUNK.UOR=     §nMiglioramento Golem: Ordine§r<BR>Con questo aggiornamento, il baule manterrà i suoi oggetti quando viene raccolto con la campanella del golemante. Li lascerà cadere se si raccoglie tenendo premuto shift.
+tc.research_page.TRAVELTRUNK.UEN=    §nMiglioramento Golem: Entropia§r<BR>Con questo aggiornamento, il baule risucchierà automaticamente dai dintorni tutti gli oggetti per cui ha spazio
 #
 tc.research_name.LAMPGROWTH=Lampada della Crescita
 tc.research_text.LAMPGROWTH=Incoraggiare la crescita delle cose
 tc.research_page.LAMPGROWTH.1=A differenza della Lampada Arcana da cui è formata, la Lampada della Crescita non produce molta luce se non viene rifornita con Essentia di Herba. Se lo è, qualunque cosa piantata e  bagnada dalla sua luce, crescerà molto più rapidamente del solito.<BR>L'Essentia puo essere fornita piazzando dei barattoli nei dintorni, o collegando direttamente alla lampada un sistema di tubature. I tubi sono leggermente più efficaci e faranno durare ogni unità di essentia circa il 10% in più.
 #
-tc.research_name.JARVOID=Barattolo Vacuo
+tc.research_name.JARVOID=Barattolo Senza Fondo
 tc.research_text.JARVOID=Troppa essentia? Impossibile!
-tc.research_page.JARVOID.1=I barattoli vacui funzionano più o meno come i classici barattoli rinforzati, ma con un'importante differenza - anche quando sono pieni, sono comunque in grado di accettare l'essentia,even when full they are still able to accept essentia, ma quella in eccesso viene perduta. Questo ti permette di avere sempre disponibile l'essentia di quel tipo, ma disfarti di eventuali eccessi che si accumulerebbero.<BR>Come i barattoli normali, quelli vacui possono portare etichette, ma la loro potenza di aspirazione con un'etichetta è minore di quella di un barattolo normale etichettato (una via di mezzo fra barattolo con e senza etichetta).
+tc.research_page.JARVOID.1=I barattoli senza fondo funzionano più o meno come i classici barattoli rinforzati, ma con un'importante differenza - anche quando sono pieni, sono comunque in grado di accettare l'essentia, ma quella in eccesso viene perduta. Questo ti permette di avere sempre disponibile l'essentia di quel tipo, ma disfarti di eventuali eccessi che si accumulerebbero.<BR>Come i barattoli normali, quelli senza fondo possono portare etichette, ma la loro potenza di aspirazione con un'etichetta è minore di quella di un barattolo normale etichettato (una via di mezzo fra barattolo con e senza etichetta).
 #
 tc.research_name.TUBEFILTER=Tubo per Essentia Filtrato
 tc.research_text.TUBEFILTER=Ciò che vuoi, dove lo vuoi.
