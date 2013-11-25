@@ -1047,7 +1047,7 @@ tc.research_page.TRAVELTRUNK.UEN=    §nMiglioramento Golem: Entropia§r<BR>Con 
 #
 tc.research_name.LAMPGROWTH=Lampada della Crescita
 tc.research_text.LAMPGROWTH=Incoraggiare la crescita delle cose
-tc.research_page.LAMPGROWTH.1=A differenza della Lampada Arcana da cui è formata, la Lampada della Crescita non produce molta luce se non viene rifornita con Essentia di Herba. Se lo è, qualunque cosa piantata e  bagnada dalla sua luce, crescerà molto più rapidamente del solito.<BR>L'Essentia puo essere fornita piazzando dei barattoli nei dintorni, o collegando direttamente alla lampada un sistema di tubature. I tubi sono leggermente più efficaci e faranno durare ogni unità di essentia circa il 10% in più.
+tc.research_page.LAMPGROWTH.1=A differenza della Lampada Arcana da cui è formata, la Lampada della Crescita non produce molta luce se non viene rifornita con Essentia di Herba. Se lo è, qualunque cosa piantata e bagnata dalla sua luce crescerà molto più rapidamente del solito.<BR>L'Essentia puo essere fornita piazzando dei barattoli nei dintorni, o collegando direttamente alla lampada un sistema di tubature. I tubi sono leggermente più efficaci e faranno durare ogni unità di essentia circa il 10% in più.
 #
 tc.research_name.JARVOID=Barattolo Senza Fondo
 tc.research_text.JARVOID=Troppa essentia? Impossibile!
