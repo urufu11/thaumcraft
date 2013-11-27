@@ -533,14 +533,14 @@ tc.research_page.ORE.2=Näillä kristalleilla on eri aineellisia ominaisuuksia j
 tc.research_page.ORE.3=§l         §nSinioperi§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>Tämä punertava malmi löytyy syvältä maan alta ja kun sen sulattaa siitä saa elohopeaa.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.ORE.4=§l         §nMeripihka§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>Tämä malmi löytyy läheltä maata ja kun sen kaivaa se pudottaa palan meripihkaa.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
-tc.research_name.PLANTS=Plants & Trees
-tc.research_text.PLANTS=Magical vegetation
-tc.research_page.PLANTS.1=§l      §nGreatwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-tc.research_page.PLANTS.2=§l     §nSilverwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that aura nodes often form within their hearts - this feature alone makes a silverwood sapling a prize beyond measure.
-tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. Instead of nectar, these flowers produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.PLANTS.4=§l        §nCinderpearl§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
-tc.research_page.PLANTS.5=§l         §nMana Pod§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>This strange, podlike plant is only found growing on trees in magical forests. The grow very slowly and when harvested usually only yield one or two beans. 
-tc.research_page.PLANTS.6=These beans, known as Mana Beans, contain concentrated amounts of essentia. They can also be consumed, though the results are often a bit unpredictable.<BR>They can be replanted, but cultivation is difficult and time-consuming.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
+tc.research_name.PLANTS=Kasvit & Puut
+tc.research_text.PLANTS=Maagista kasvillisuutta
+tc.research_page.PLANTS.1=§l        §nSuuripuut§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>Nämä suuret majesteettiset puut löytää ympäri maata.<BR>Niiden puu pystyy imemään vaikuttavan määrän taikaa tehden siitä suositun osan maagisien laitteiden tekemisessä.
+tc.research_page.PLANTS.2=§l        §nHopeapuut§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Nämä harvinaiset maagiset puut ovat ihmeellinen näky. Niiden lehdet hehkuvat maagisesti ja sen kalpealla, pehmeällä puulla on puhdistavia ominaisuuksia.<BR>Sädesolmut yleensä muodostuvat näiden sydämissä - tämä ominaisuus pelkästäänkin tekee hopapuun taimenesta mittaamattoman palkinnon.
+tc.research_page.PLANTS.3=§l         §nHohtolehti§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Oudot, hehkuvat kukat kasvavat vain Hopeapuun varjossa. Nektarin sijaan, nämä kukat tuottavat elohopeaa.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l         §nTuhkahelmi§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Löytyy vain kuumimmalla seudulla, nämä kasvit palavat perus tulella. Ne voi kerätä ja jauhaa tuottaakseen hienoa rouhujauheen kaltaista jauhetta.
+tc.research_page.PLANTS.5=§l        §nMana palko§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Tämä outo, palkon kaltainen kasvi löytyy kasvavan vain maagisen metsän puissa. Ne kasvavat tosi hitaasti ja kerättynä tuottaa yleensä 1 tai 2 papua. 
+tc.research_page.PLANTS.6=Nämä pavut, tunnettuna nimellä Mana Papu, sisältää pyhitettyn määrän essentiaa. Ne voi myös syödä, mutta tulokset ovat odottamattomia.<BR>Ne voi uudelleenistuttaa, mutta viljely on vaikeaa ja aikaa vievää.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
 tc.research_name.RESEARCHER1=Research Expertise
 tc.research_text.RESEARCHER1=Knowledge is Power
@@ -917,7 +917,7 @@ tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the es
 #
 tc.research_name.JARLABEL=Warded Jars and Labels
 tc.research_text.JARLABEL=Storing and organizing essentia
-tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams en preserves.
+tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
 tc.research_page.JARLABEL.2=Shift clicking on jars and alembics with an empty hand will empty them.<BR>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
 tc.research_page.JARLABEL.3=You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<LINE>A label can be made blank again by simply placing it by itself in a crafting grid.
 #
@@ -1051,7 +1051,7 @@ tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the 
 #
 tc.research_name.JARVOID=Void Jar
 tc.research_text.JARVOID=Too much essentia? Impossible!
-tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halway between unlabeled and labeled jar).
+tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
 #
 tc.research_name.TUBEFILTER=Filtered Essentia Tube
 tc.research_text.TUBEFILTER=What you want, where you want it
