@@ -4,7 +4,7 @@ enchantment.frugal=Frugal
 enchantment.charging=Recarga
 enchantment.wandfortune=Fortuna
 enchantment.haste=Pressa
-enchantment.repair=Auto-Reparo
+enchantment.repair=Auto Reparo
 #
 #Potions
 potion.fluxtaint=Fluxo Maculado
@@ -19,12 +19,12 @@ entity.Wisp.name=Wisp
 entity.Alumentum.name=Alumentum
 entity.GiantBrainyZombie.name=Zumbi Furioso
 entity.BrainyZombie.name=Zumbi Raivoso
-entity.FollowItem.name=Following Item
+entity.FollowItem.name=Item Seguinte
 entity.SpecialItem.name=Item Mágico
 entity.FallingTaint.name=Crosta Maculada
 entity.Thaumcraft.AspectOrb.name=Esfera de Aspecto
 entity.TaintSpider.name=Aranha Maculada
-entity.Taintacle.name=Tentaculo de Mácula
+entity.Taintacle.name=Tentáculo de Mácula
 entity.TaintacleTiny.name=Ramo Maculado
 entity.TaintSpore.name=Esporo Maculado
 entity.TaintSwarmer.name=Taint Spore Swarmer
@@ -38,10 +38,10 @@ entity.TaintedCreeper.name=Creeper Maculado
 entity.Pech.name=Pêch Forrageador
 entity.Pech.1.name=Pêch Mago
 entity.Pech.2.name=Pêch Perseguidor
-entity.TravelingTrunk.name=Báu Itinerante
-entity.trunk.guiname='s - Báu
-entity.trunk.move=O báu agora o seguirá
-entity.trunk.stay=O báu irá ficar onde está
+entity.TravelingTrunk.name=Baú Itinerante
+entity.trunk.guiname='s - Baú
+entity.trunk.move=O baú agora o seguirá
+entity.trunk.stay=O baú irá ficar onde está
 #
 # Blocks
 tile.blockAiry.0.name=Aura Node
@@ -122,11 +122,11 @@ tile.blockJar.3.name=Void na Jarra
 tile.blockTable.0.name=Mesa
 tile.blockTable.1.name=Mesa
 tile.blockTable.research.name=Mesa de Pesquisa
-tile.blockTable.14.name=Mesa de Descontrução
-tile.blockTable.15.name=Mesa de Manufatura Arcano
+tile.blockTable.14.name=Mesa de Desconstrução
+tile.blockTable.15.name=Mesa de Manufatura Arcana
 tile.researchtable.noink=Acabou a sua tinta!
 tile.researchtable.nomove=Runas ativas não podem ser movidas!
-tile.blockChestHungry.name=Báu Faminto
+tile.blockChestHungry.name=Baú Faminto
 tile.blockArcaneDoor.name=Porta Arcana
 tile.blockLifter.name=Levitador Arcano
 tile.blockCrystal.0.name=Cacho de Cristais do Ar
@@ -143,8 +143,8 @@ tile.blockTaint.2.name=Bloco de Carne
 tile.blockTaintFibres.0.name=Mácula Fibrosa
 tile.blockTaintFibres.1.name=Grama Maculada
 tile.blockTaintFibres.2.name=Planta Maculada
-tile.blockTaintFibres.3.name=Pénduculo de Esporo
-tile.blockTaintFibres.4.name=Penduculo de Esporo Maduro
+tile.blockTaintFibres.3.name=Pedúnculo de Esporo
+tile.blockTaintFibres.4.name=Pedúnculo de Esporo Maduro
 tile.blockFluxGoo.name=Gosma de Fluxo
 tile.blockFluxGas.name=Gás de Fluxo
 tile.blockStoneDevice.0.name=Fornalha Alquímica
@@ -164,7 +164,7 @@ container.alchemyfurnace=Fornalha Alquímica
 tile.blockArcaneFurnace.name=Fornalha Infernal
 #
 # Items
-item.GolemBell.name=Sino de Golemância
+item.GolemBell.name=Sino dos Golem
 item.HoverHarness.name=Catalizador Thaumostático
 item.Focus.cost1=Vis por execução
 item.Focus.cost2=Vis por tick
@@ -176,7 +176,7 @@ item.FocusTrade.name=Focus de Varinha: Troca Equivalente
 item.FocusFrost.name=Focus de Varinha: Gelo
 item.FocusExcavation.name=Focus de Varinha: Escavação
 item.FocusPortableHole.name=Focus de Varinha: Buraco Portátil
-item.FocusPech.name=Focus de Varinha: Maldição do Pêch
+item.FocusPech.name=Focus de Varinha: Maldição dos Pêch
 item.WandCap.0.name=Ponta de Ferro
 item.WandCap.1.name=Ponta de Ouro
 item.WandCap.2.name=Ponta de Thaumium
@@ -318,12 +318,12 @@ item.ItemGolemUpgrade.5.name=Melhoria de Golem: Entropia
 item.ItemGolemUpgrade.0.desc=Acelera
 item.ItemGolemUpgrade.1.desc=Fortalece
 item.ItemGolemUpgrade.2.desc=Melhora  Dano, Capacidade
-item.ItemGolemUpgrade.3.desc=Melhora Sentidos, Alcançe
-item.ItemGolemUpgrade.4.desc=Melhora Organização, Intellecto
+item.ItemGolemUpgrade.3.desc=Melhora Sentidos, Alcance
+item.ItemGolemUpgrade.4.desc=Melhora Organização, Intelecto
 item.ItemGolemUpgrade.5.desc=Melhora Defesa, Raciocínio
 item.ItemManaBean.name=Semente de Mana
-item.TrunkSpawner.name=Báu Itinerante
-item.TrunkSpawner.text.1=Neste báu contém itens
+item.TrunkSpawner.name=Baú Itinerante
+item.TrunkSpawner.text.1=Neste baú contém itens
 
 
 #
@@ -333,10 +333,10 @@ fluid.fluxGoo=Gel de Fluxo
 # GUI
 golemblurb.0.text=O que o senhor deseja que isto mantenha neste lugar, Mestre?
 golemblurb.1.text=Mestre, isto deve recolher tudo deste receptáculo, ou algo específico?
-golemblurb.2.text=Mestre, o senhor deseja que isto pegue algo específigo ou continue a recolher tudo?
+golemblurb.2.text=Mestre, o senhor deseja que isto pegue algo específico ou continue a recolher tudo?
 golemblurb.3.text=??
 golemblurb.4.text=Irei proteger toda a área, Mestre.
-golemblurb.5.text=Isto deve pegar todos os liquidos ou algum em especial? Mostre-me um receptáculo com o liquido e vossa vontade será feita!
+golemblurb.5.text=Isto deve pegar todos os líquidos ou algum em especial? Mostre-me um receptáculo com o liquido e vossa vontade será feita!
 golemblurb.6.text=??
 golemblurb.7.text=??
 golemblurb.8.text=O senhor deseja que eu use este item em um bloco ou num local vazio?
@@ -348,7 +348,7 @@ golemthreat.4.text=Porque você não cochila um pouquinho? Você parece sonolent
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
 golemthreat.6.text=*AMOR* não encontrado, alternando para *ÓDIO*
 golemthreat.7.text=Eu te odeio tanto.
-golemthreat.8.text=Morra, saco de carne!.
+golemthreat.8.text=Morra, saco de carne!
 recipe.return=Retornar
 recipe.clickthrough=Clique para pesquisar
 recipe.type.workbench=Bancada de Trabalho
@@ -367,7 +367,7 @@ nodetype.PURE.name=Puro
 nodetype.TAINTED.name=Maculado
 nodetype.HUNGRY.name=Faminto
 nodemod.BRIGHT.name=Brilhante
-nodemod.PALE.name=Palído
+nodemod.PALE.name=Pálido
 nodemod.FADING.name=Desvanecendo
 tc.taint_item_poison=Um %s maculou você enquanto se dissolve
 death.attack.taint=%1$s foi corrompido pela Mácula
@@ -378,7 +378,7 @@ death.attack.swarm.item=%1$s foi infectado por %2$s usando %3$s
 tc.handmirrorlinkedto=Conectado com
 tc.handmirrorlinked=Ligação estabelecida.
 tc.handmirrorerror=O espelho de destino desapareceu ou foi deslocado. Ligação quebrada.
-tc.discoveryerror=Você não possue o conhecimento necessário para entender isto.
+tc.discoveryerror=Você não possui o conhecimento necessário para entender isto.
 tc.discoveryunknown=Teoria Desconhecida.
 tc.discoveryprogress=% completados
 tc.portableholeerror=O buraco portátil não têm carga suficiente para fazer isto.
@@ -393,7 +393,7 @@ tc.key8=Você já possui acesso.
 tc.key9=Esta chave dá acesso para
 tc.key10=a porta arcana localizada em
 tc.key11=a placa de pressão localizada em
-tc.wandnocharge=A varinha não possue carga suficiente para fazer isto.
+tc.wandnocharge=A varinha não possui carga suficiente para fazer isto.
 tc.wandcharge=A varinha carrega atualmente %s vis
 tc.jaressentia=Carrega %s essência
 tc.jarname=Jarro de
@@ -406,7 +406,7 @@ tc.unknownobject=Nada pode ser aprendido disto.
 tc.markerchange=Cor do marcador trocada para %n
 tc.markerchangeany=Trocada para qualquer cor
 tc.researchmissing=Pesquisa requerida em falta!
-tc.visdiscount=Descondo em vis
+tc.visdiscount=Desconto em vis
 tc.inst=Instabilidade: 
 tc.inst.0=§1Negligenciável§0
 tc.inst.1=§9Baixa§0
@@ -422,7 +422,7 @@ tc.aspect.unknown=Aspecto Desconhecido
 tc.aspect.aer=Ar
 tc.aspect.terra=Terra
 tc.aspect.ignis=Fogo
-tc.aspect.aqua=Áqua
+tc.aspect.aqua=Água
 tc.aspect.ordo=Ordem, Regularidade, Pureza
 tc.aspect.perditio=Entropia, Perdição, Caos, Destruição
 tc.aspect.vacuos=Vácuo
@@ -436,7 +436,7 @@ tc.aspect.saxum=Pedra
 tc.aspect.tempestas=Clima
 tc.aspect.victus=Vida
 tc.aspect.mortuus=Morte
-tc.aspect.volatus=Vôo
+tc.aspect.volatus=Voo
 tc.aspect.tenebrae=Trevas
 tc.aspect.granum=Semente, Juventude
 tc.aspect.limus=Pegajoso, Grudento
@@ -451,7 +451,7 @@ tc.aspect.sensus=Sentidos
 tc.aspect.messis=Plantação
 tc.aspect.meto=Colheita
 tc.aspect.metallum=Metal
-tc.aspect.perfodio=Mineiração
+tc.aspect.perfodio=Mineração
 tc.aspect.instrumentum=Ferramenta, Instrumento
 tc.aspect.telum=Arma, Ataque, Dano
 tc.aspect.gelum=Gelo, Geada, Frio
@@ -810,7 +810,7 @@ tc.research_name.GOLEMTHAUMIUM=Golem de Thaumium
 tc.research_text.GOLEMTHAUMIUM=Mystical Minions
 tc.research_page.GOLEMTHAUMIUM.1=Thaumium golems have slightly better attributes than iron golems and are able to have 2 upgrades. They are also highly resistant to magical damage.<BR>§l§nThaumium Golem Attributes§r<BR>§lDurability:§r Very High<BR>§lStrength:§r High<BR>§lSelf-repair:§r Slow<BR>§lCarry Limit:§r 32<BR>§lSpeed:§r Slow<BR>§lUpgrades:§r 2
 #
-tc.research_name.GOLEMBELL=Sino de Golemância
+tc.research_name.GOLEMBELL=Sino dos Golem
 tc.research_text.GOLEMBELL=Pay Attention
 tc.research_page.GOLEMBELL.1=Golems are notoriously bad at following verbal commands, but this bell allows you to avoid all that.<BR>Simply right click on a golem to select it. Once that is done a glowing, gearlike circle will appear indicating the golems 'home' location and the side it is attached to.<BR> You are now able to right click anywhere in the world to link the golem to blocks, locations or inventories it may interact with. Clicking on the same location will either unmark it, or cycle through different colors if the golem is able to interact with different colored markers.
 tc.research_page.GOLEMBELL.2=<BR>Shift + right-clicking on a marked location will always clear it and pressing F will clear all marked locations.<LINE>Left-clicking on a golem picks it up with all its current upgrades and settings intact. Shift + left-clicking picks up the golem, but removes its core and any attached upgrades which drops separately. There is a good chance that upgrades will be lost if you do this however. 
@@ -957,7 +957,7 @@ tc.research_text.ADVANCEDGOLEM=Maybe I should think this through...
 tc.research_page.ADVANCEDGOLEM.1=You have discovered a way of improving golems in several minor, but significant ways.<BR>Firstly, golems that go through this process are able to hold one additional upgrade, though they can never have more than two upgrades of a single type.<BR>Secondly, they move slightly faster.<BR>Thirdly, they have a slightly greater sight radius.<BR>You are sure the malevolant intent in their eyes is just your imagination.  
 #
 tc.research_name.ARCANEBORE=Escavador Arcano
-tc.research_text.ARCANEBORE=Mining evolved
+tc.research_text.ARCANEBORE=Mineração evoluída
 tc.research_page.ARCANEBORE.1=You have discovered a device capable of extending the range and power of an Excavation focus. Of even greater use is the fact that the machine can do so without your constant supervision. You merely need to place it on a specially constructed base, point it in the right direction with a wand and apply a redstone signal.<BR>The arcane bore requires two things to function. The first is an excavation focus placed in its leftmost inventory slot. Any enchantments applied to the focus will also alter the functions of the bore. 
 tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>Placing a jar of perditio essentia somewhere behind the bore (within 5 blocks) will greatly speed up the rate at which it mines.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing. 
 tc.research_page.ARCANEBORE.3=It will eject into an inventory if possible. This direction can be changed with a wand.
@@ -967,16 +967,16 @@ tc.research_text.LEVITATOR=Next best thing to flying
 tc.research_page.LEVITATOR.1=While not true flight, the Arcane Levitator is the next best thing.<BR>When placed the levitator lifts any item or creature above it up to 10 blocks into the air. A sneaking creature or player will be slowly lowered.<BR>Each levitator placed upon another increases the range at which it can lift entities by 10 blocks, so a stack of 3 can lift entities up to 30 blocks.<BR>Levitators can be deactivated by applying a redstone signal to them.  
 #
 tc.research_name.ARCANEEAR=Jukebox Arcana
-tc.research_text.ARCANEEAR=Shhh, do you hear something?
+tc.research_text.ARCANEEAR=Shhh, você ouve alguma coisa?
 tc.research_page.ARCANEEAR.1=The Arcane Ear is a device that is capable of detecting the sound emitted from nearby note blocks. If it hears a note it recognizes it will emit a short redstone pulse.<BR>The Arcane Ear needs to be tuned in a manner identical to note blocks, the tone and note it listens for depends on the material it is placed upon.
 #
 tc.research_name.MIRROR=Espelho Mágico
-tc.research_text.MIRROR=Through the looking glass
+tc.research_text.MIRROR=Através do espelho
 tc.research_page.MIRROR.1=You are now able to enchant a pair of magical mirrors that act as doorways to the void between the worlds. Anything shoved through the one mirror will pass through this realm and exit through the other mirror - even across dimensional bounderies.<BR>Unfortunately this realm is extremely hostile to mortal creatures like yourself so using these mirrors to transport living creatures is not yet possible.<BR>To link a pair of these magical mirrors you simply need to place one of them in a desired location. You then right-click with a second  
 tc.research_page.MIRROR.2=mirror on the one you placed, and the pair will become linked. You may then place the second wherever you wish and items thrown into one will be ejected out the other.<BR>Mirrors can only be linked in pairs, so while both are placed in the world and able to transmit items you cannot link them to another mirror. When you pick up a mirror it will remember the last partner it was linked with, allowing you to easily move it without having to relink it. However while one of the paired mirrors is picked up, you may easily relink either of them.
 #
 tc.research_name.MIRRORHAND=Espelho Mágico de Mão
-tc.research_text.MIRRORHAND=Personal reflection
+tc.research_text.MIRRORHAND=Reflexão pessoal
 tc.research_page.MIRRORHAND.1=This magical hand mirror functions much the same way as other magical mirrors. You simply push items through the glass and they will pop out at the linked mirror.<BR>Simple right-click while holding the linked hand mirror and you will be able to place any items in your inventory into the looking glass to have them transported.<BR>The hand mirror can be linked to a mirror that is already paired with another.<BR>It should be noted that the hand mirror can only send items, not recieve them.
 #
 tc.research_name.NODEJAR=Node na Jarra
@@ -985,75 +985,75 @@ tc.research_page.NODEJAR.1=Warded jars have proven themselves capable of storing
 tc.research_page.NODEJAR.2=It is possible to free the node from the jar by placing it in the world and clicking on it with a wand. The jar will be destroyed in the process.
 #
 tc.research_name.PAVETRAVEL=Pedra Pavimentada de Viagem
-tc.research_text.PAVETRAVEL=Easing your journey
+tc.research_text.PAVETRAVEL=Facilitando a sua jornada
 tc.research_page.PAVETRAVEL.1=By altering the magical structure of arcane stone you are able to create a paving stone that adds new bounce to the step of anyone walking across it.<BR>Anything walking across it will have greater speed and agility for a couple of seconds.
 #
 tc.research_name.PAVEWARD=Pedra Pavimentada Guardiã
-tc.research_text.PAVEWARD=Keeping things out
+tc.research_text.PAVEWARD=Mantendo as coisas para fora
 tc.research_page.PAVEWARD.1=You have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most of common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the area you wish to protect and the outside world.<BR>An active redstone signal will disable this block.
 #
 tc.research_name.WANDPED=Pedestal de Recarga de Varinha
-tc.research_text.WANDPED=Automated Wand Recharging
+tc.research_text.WANDPED=Recarga de Varinha Automatizado
 tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from nearby nodes.<BR>Nodes will not be fully drained unless it is a poor quality wand crafted from iron or sticks.
 #
 tc.research_name.WANDPEDFOC=Composto de Recarga de Focus
-tc.research_text.WANDPEDFOC=For everything a use
+tc.research_text.WANDPEDFOC=Para obter tudo o que um uso
 tc.research_page.WANDPEDFOC.1=In your travels you have discovered several nodes that contain compound aspects, but as yet there has been no way to tap this rich source of vis. Until now.<BR>This focus can be placed on top of a wand recharge pedestal which will allow any wand it contains to siphon off the compound vis from nearby nodes. Unfortunately each point of compound vis is broken down into a single point of primal vis and all the excess energy is lost. However it is a good start and you are sure you will discover better ways to access this resource. 
 #
 tc.research_name.ETHEREALBLOOM=Flor de Etérea
-tc.research_text.ETHEREALBLOOM=Purifying Flower
+tc.research_text.ETHEREALBLOOM=Flor Purificante
 tc.research_page.ETHEREALBLOOM.1=Shimmerleaf is often overshadowed by its mystical neighbour the Silverwood tree, but it has magical properties of it's own.<BR>Like the Silverwood, Shimmerleaf flowers have purifying properties that lie dorment. You have found a way to awaken these properties and turn it into an Ethereal Bloom.<BR>Ethereal blooms slowly, but surely, restores land corrupted by mystical means to its former glory - this includes the blight known as Taint. While it cannot combat Taint directly, few tainted growths can survive outside their native environment for long and tend to die back.
 tc.research_page.ETHEREALBLOOM.2=The flower only purifies the land bathed in its light out to a range of about 8 blocks.<BR>Ethereal Blooms are quite fragile and breaking them will turn them back into a Shimmerleaf flower. 
 #
 tc.research_name.PECH=O Pêch
-tc.research_text.PECH=Strange Creatures
+tc.research_text.PECH=Criaturas Estranhas
 tc.research_page.PECH.1=These strange humanoids can be found wherever the veil between worlds is at its thinnest. They seem drawn to the magical energies that abound in such places.<BR>Don't let their small stature fool you. They have incredible strength and can carry many times their own bodyweight.<BR>Pech are normally not aggressive, but when riled up they will band together and hunt down their attacker. Under normal conditions they avoid people at all costs.<BR>Pechs are notoriously avaricious, and will loot anything not nailed
 tc.research_page.PECH.2=down, though they prefer precious things. It is said that if you feed this desire for material wealth it could be possible to befriend one. Once befriended they often carry wonderous objects that they might be willing to part with.<BR>It should be noted that such 'friendships' seldom last long.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
 #
 tc.research_name.INFUSIONENCHANTMENT=Infusão de Encantamento
-tc.research_text.INFUSIONENCHANTMENT=Enchanting with Essentia
+tc.research_text.INFUSIONENCHANTMENT=Encantando com Essência
 tc.research_page.INFUSIONENCHANTMENT.1=For ages now wizards and thaumaturges have been enchanting weapons, tools and armor by imbueing objects with their own life energy. While effective the process is tedious and the results are completely unpredictable. Your discovery of infusion crafting might have uncovered a solution to both those problems.<BR>You have discovered a way to enchant objects with an infusion altar. Simply place the item you wish to enchant on the central pedestal and supply the proper ingredients and essentia. 
 tc.research_page.INFUSIONENCHANTMENT.2=It also requires some life essence in the form of experience, but much less than would be normally required to enchant something. This experience is drawn from anyone near the infusion altar so care should be taken.<BR>The essentia and experience costs listed in following recipes are for the first level of enchantment. To enchant an item to higher levels, simply perform the infusion process again - it can be repeated till the required enchantment has reached its maximum possible level. Essentia and experience cost are multiplied by the level of enchantment you are performing, so a level II enchant costs twice as much as a level I.
 tc.research_page.INFUSIONENCHANTMENT.3=Additional costs might is also required if the item already contains enchants other than the one you are currently performing. This cost is usually around 10% per level of enchantment. So enchanting a sword with Fire Aspect I that alread contains Smite III will cost 30% more.<BR>Instabilit also increases as the total number of enchantments on the object increases.<BR>Enchanting items with an infusion altar follows the normal rules for enchantment as it applies to what enchants can combine with others.
 #
 tc.research_name.ARCANELAMP=Lâmpada Arcana
-tc.research_text.ARCANELAMP=Large Source of Light
+tc.research_text.ARCANELAMP=Grande Fonte de Luz
 tc.research_page.ARCANELAMP.1=This mystical lamp can be attached to walls, floors or ceilings and will provide strong and steady light.<BR>Additional sources of light may also appear up to 16 blocks away wherever light levels fall below accepted 'safe' levels. Remember: Only YOU can prevent zombie outbreaks.<BR>These secondary sources of light will dissapear soon after the lamp has been removed.<LINE>You are sure additional uses for this lamp will present itself, so remember to check here after making new discoveries.
 tc.research_page.ARCANELAMP.2=           §nArcane Bore§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will draw Lux essentia from a nearby source to light up the tunnel that the bore digs.<BR>A single point of lux creates a single point of light. These sources of light will not dissapear after the lamp has been removed.
 #
 tc.research_name.SALT=Salis Mundus
-tc.research_text.SALT=Just a pinch
+tc.research_text.SALT=Apenas uma pitada
 tc.research_page.SALT.1=Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by crushing vis crystals and mixing them with substances naturally rich in magic.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavour (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.<BR>There are several substances that can be mixed with the crushed crystals to create Salis Mundus.
 #
 tc.research_name.TUBES=Tubo de Essência
-tc.research_text.TUBES=Transportation of essentia
+tc.research_text.TUBES=Transporte de essência
 tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either disolves or simply passes right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and make it visually appealing.
 tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars. Labelled jars have a much greater drawing strength - so strong in fact that they will draw essentia from unlabeled jars.<LINE>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off. 
 #
 tc.research_name.CENTRIFUGE=Centrifugador Alquímico
-tc.research_text.CENTRIFUGE=Taking things apart
+tc.research_text.CENTRIFUGE=Levando as coisas para o além
 tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. 
 #
 tc.research_name.TRAVELTRUNK=Báu Itinerante
-tc.research_text.TRAVELTRUNK=Mobile Luggage
+tc.research_text.TRAVELTRUNK=Bagagem Móvel
 tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happilly hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its gui
 tc.research_page.TRAVELTRUNK.2=which will make it remain in its current position.<BR>The traveling trunk slowly heals itself over time, but you can also feed it all manner of food to speed up this process.<BR>Like normal golems, the trunk can be picked up by left-clicking with a golemancer's bell. It will drop all items in its inventory of you do so. Shift-clicking will also cause it to drop any upgrades you have applied to it with the normal loss chance.<BR>It can accept a single upgrade like normal golems, but they grant unique abilities to the trunk. See the following pages for details as you discover the relevant upgrades.
-tc.research_page.TRAVELTRUNK.UAI=      §nGolem Upgrade: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
-tc.research_page.TRAVELTRUNK.UEA=     §nGolem Upgrade: Earth§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
-tc.research_page.TRAVELTRUNK.UFI=     §nGolem Upgrade: Fire§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
-tc.research_page.TRAVELTRUNK.UWA=     §nGolem Upgrade: Water§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
-tc.research_page.TRAVELTRUNK.UOR=     §nGolem Upgrade: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
-tc.research_page.TRAVELTRUNK.UEN=    §nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
+tc.research_page.TRAVELTRUNK.UAI=      §nMelhoria de Golem: Ar§r<BR>With this upgrade installed the traveling trunk will move faster.
+tc.research_page.TRAVELTRUNK.UEA=     §nMelhoria de Golem: Terra§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
+tc.research_page.TRAVELTRUNK.UFI=     §nMelhoria de Golem: Fogo§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
+tc.research_page.TRAVELTRUNK.UWA=     §nMelhoria de Golem: Água§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
+tc.research_page.TRAVELTRUNK.UOR=     §nMelhoria de Golem: Ordem§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
+tc.research_page.TRAVELTRUNK.UEN=    §nMelhoria de Golem: Entropia§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
 #
 tc.research_name.LAMPGROWTH=Lâmpada do Crescimento
-tc.research_text.LAMPGROWTH=Encouraging things to grow
+tc.research_text.LAMPGROWTH=Incentivando as coisas para crescer
 tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system. The pipes are slightly more efficient and will make a single point of essentia last about 10% longer.
 #
 tc.research_name.JARVOID=Void na Jarra
-tc.research_text.JARVOID=Too much essentia? Impossible!
+tc.research_text.JARVOID=Demasiado de essência? Impossível!
 tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
 #
 tc.research_name.TUBEFILTER=Tubo de Essência Filtrada
-tc.research_text.TUBEFILTER=What you want, where you want it
+tc.research_text.TUBEFILTER=O que você quer, onde você quiser
 tc.research_page.TUBEFILTER.1=Filtered essentia tubes work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
 #
