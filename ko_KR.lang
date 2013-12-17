@@ -1,8 +1,8 @@
 # Enchantments
-enchantment.potency=잠재력
-enchantment.frugal=절약
+enchantment.potency=파워
+enchantment.frugal=효율
 enchantment.charging=충전
-enchantment.wandfortune=행운
+enchantment.wandfortune=행운 (포커스)
 enchantment.haste=신속
 enchantment.repair=수리
 #
@@ -35,10 +35,10 @@ entity.TaintedPig.name=테인트 돼지
 entity.TaintedSheep.name=테인트 양
 entity.TaintedCow.name=테인트 소
 entity.TaintedCreeper.name=테인트 크리퍼
-entity.Pech.name=페치 약탈자
-entity.Pech.1.name=페치 마법사
-entity.Pech.2.name=페치 스토커
-entity.TravelingTrunk.name=여행용 트렁크
+entity.Pech.name=펙 약탈자
+entity.Pech.1.name=펙 마법사
+entity.Pech.2.name=펙 스토커
+entity.TravelingTrunk.name=여행 트렁크
 entity.trunk.guiname=의 트렁크
 entity.trunk.move=이제 트렁크가 따라다닙니다.
 entity.trunk.stay=이제 트렁크가 이곳에서 기다립니다.
@@ -46,6 +46,8 @@ entity.trunk.stay=이제 트렁크가 이곳에서 기다립니다.
 # Blocks
 tile.blockAiry.0.name=오라 노드
 tile.blockAiry.1.name=나이터
+tile.blockAiry.2.name=희미한 빛
+tile.blockAiry.3.name=희미한 빛
 tile.blockAiry.5.name=오라 노드
 tile.blockHole.name=빈 공간
 tile.blockSecure.name=마법 강화 돌
@@ -66,8 +68,8 @@ tile.blockCosmeticSolid.2.name=이동용 돌 바닥재
 tile.blockCosmeticSolid.3.name=경계용 돌 바닥재
 tile.blockCosmeticSolid.4.name=사우뮴 블럭
 tile.blockCosmeticSolid.5.name=수지 블럭
-tile.blockCosmeticSolid.6.name=아케인스톤 블럭
-tile.blockCosmeticSolid.7.name=아케인스톤 벽돌
+tile.blockCosmeticSolid.6.name=아케인 스톤 블럭
+tile.blockCosmeticSolid.7.name=아케인 스톤 벽돌
 tile.blockCosmeticSolid.8.name=충전된 흑요석 토템
 tile.blockCustomPlant.0.name=그레이트우드 묘목
 tile.blockCustomPlant.1.name=실버우드 묘목
@@ -81,8 +83,10 @@ tile.alembic.msg.2=증류기가 거의 비어있음
 tile.alembic.msg.3=증류기가 절반정도 차있음
 tile.alembic.msg.4=증류기가 거의 차있음
 tile.alembic.msg.5=증류기가 가득 차있음
-tile.blockMetalDevice.5.name=아이템 창살
-tile.blockMetalDevice.6.name=아이템 창살 (닫힘)
+tile.blockMetalDevice.5.name=받침쇠
+tile.blockMetalDevice.6.name=받침쇠 (닫힘)
+tile.blockMetalDevice.7.name=아케인 램프
+tile.blockMetalDevice.8.name=성장의 램프
 tile.blockMagicalLog.greatwood.name=그레이트우드 원목
 tile.blockMagicalLog.silverwood.name=실버우드 원목
 tile.blockMagicalLeaves.greatwood.name=그레이트우드 잎
@@ -114,10 +118,11 @@ tile.blockWoodenDevice.7.name=실버우드 판자
 tile.blockJar.0.name=단지
 tile.blockJar.1.name=단지 안의 뇌
 tile.blockJar.2.name=단지 안의 노드
+tile.blockJar.3.name=공허의 단지
 tile.blockTable.0.name=테이블
 tile.blockTable.1.name=테이블
 tile.blockTable.research.name=연구 테이블
-tile.blockTable.14.name=해체 테이블
+tile.blockTable.14.name=분석 테이블
 tile.blockTable.15.name=아케인 작업대
 tile.researchtable.noink=잉크가 부족합니다.
 tile.researchtable.nomove=활성화된 룬은 이동시킬 수 없습니다.
@@ -140,18 +145,22 @@ tile.blockTaintFibres.1.name=테인트 풀
 tile.blockTaintFibres.2.name=테인트 식물
 tile.blockTaintFibres.3.name=포자 줄기
 tile.blockTaintFibres.4.name=자란 포자 줄기
-tile.blockFluxGoo.name=플럭스 덩어리
+tile.blockFluxGoo.name=플럭스 점액
 tile.blockFluxGas.name=플럭스 기체
-tile.blockStoneDevice.0.name=연금술 화로
-tile.blockStoneDevice.1.name=아케인 제단
+tile.blockStoneDevice.0.name=연성 화로
+tile.blockStoneDevice.1.name=아케인 주각
 tile.blockStoneDevice.2.name=루닉 매트릭스
 tile.blockStoneDevice.3.name=인퓨전 기둥
 tile.blockStoneDevice.4.name=인퓨젼 기둥
-tile.blockStoneDevice.5.name=지팡이 충전 제단
+tile.blockStoneDevice.5.name=지팡이 충전 주각
 tile.blockStoneDevice.6.name=인퓨전 기둥
 tile.blockStoneDevice.7.name=인퓨전 기둥
 tile.blockStoneDevice.8.name=복합 충전 포커스
-container.alchemyfurnace=연금술 화로
+tile.blockTube.0.name=에센시아 관
+tile.blockTube.1.name=에센시아 밸브
+tile.blockTube.2.name=연금술 원심분리기
+tile.blockTube.3.name=에센시아 선별관
+container.alchemyfurnace=연성 화로
 tile.blockArcaneFurnace.name=지옥불 화로
 #
 # Items
@@ -160,25 +169,29 @@ item.HoverHarness.name=사우모스태틱 하네스
 item.Focus.cost1=시전시 비스 소모량
 item.Focus.cost2=틱당 비스 소모량
 item.FocusPouch.name=포커스 주머니
-item.FocusFire.name=완드 포커스 불
-item.FocusHellbat.name=완드 포커스:나인 헬
-item.FocusShock.name=완드 포커스:쇼크
-item.FocusTrade.name=완드 포커스:등가 교환
-item.FocusFrost.name=완드 포커스:프로스트
-item.FocusExcavation.name=완드 포커스:채굴
-item.FocusPortableHole.name=완드 포커스:포터블 홀
-item.FocusPech.name=완드 포커스:페치의 저주
+item.FocusFire.name=완드 포커스: 화염
+item.FocusHellbat.name=완드 포커스: 나인 헬
+item.FocusShock.name=완드 포커스: 쇼크
+item.FocusTrade.name=완드 포커스: 등가 교환
+item.FocusFrost.name=완드 포커스: 프로스트
+item.FocusExcavation.name=완드 포커스: 채굴
+item.FocusPortableHole.name=완드 포커스: 포터블 홀
+item.FocusPech.name=완드 포커스: 펙의 저주
 item.WandCap.0.name=철 마개
 item.WandCap.1.name=금 마개
-item.WandCap.2.name=사우뮴 마개
+item.WandCap.2.name=활성화된 사우뮴 마개
 item.WandCap.3.name=구리 마개
-item.WandCap.4.name=은 마개
+item.WandCap.4.name=활성화된 은 마개
+item.WandCap.5.name=활성화되지 않은 은 마개
+item.WandCap.6.name=활성화되지 않은 사우뮴 마개
 item.WandRod.0.name=그레이트우드 막대
 item.WandRod.1.name=흑요석 막대
 item.WandRod.2.name=실버우드 막대
 item.WandRod.3.name얼음 막대
 item.WandRod.4.name=석영 막대
 item.WandRod.5.name=사탕수수 막대
+item.WandRod.6.name=타오르는 막대
+item.WandRod.7.name=뼈 막대
 item.Wand.name=완드
 item.Wand.wood.rod=나무
 item.Wand.greatwood.rod=그레이트우드
@@ -207,6 +220,8 @@ item.ItemResource.9.name=지식의 파편
 item.ItemResource.10.name=거울 유리
 item.ItemResource.11.name=테인트 덩어리
 item.ItemResource.12.name=테인트 덩굴
+item.ItemResource.13.name=단지 라벨
+item.ItemResource.14.name=정화된 소금
 item.ItemShard.0.name=에어 샤드
 item.ItemShard.1.name=파이어 샤드
 item.ItemShard.2.name=워터 샤드
@@ -239,20 +254,16 @@ item.BlockJarNodeItem.name=단지 안의 노드
 item.TripleMeatTreat.name=삼종 고기 간식
 item.ItemShovelElemental.name=땅을 움직이는 자의 삽
 item.ItemPickaxeElemental.name=중심의 곡괭이
-item.ItemAxeElemental.name=연속의 도끼
+item.ItemAxeElemental.name=흐름의 도끼
 item.ItemHoeElemental.name=성장의 괭이
 item.ItemSwordElemental.name=미풍의 검
-item.ItemChestplateRobe.name=마술사의 로브
-item.ItemLeggingsRobe.name=마술사의 바지
-item.ItemBootsRobe.name=마술사의 부츠
+item.ItemChestplateRobe.name=마도학자의 로브
+item.ItemLeggingsRobe.name=마도학자의 바지
+item.ItemBootsRobe.name=마도학자의 부츠
 item.ArcaneDoorKey.0.name=아케인 철 열쇠
 item.ArcaneDoorKey.1.name=아케인 금 열쇠
 item.HandMirror.name=마법 손거울
-item.ThaumicCamera.name=사우믹 이코노그래프
-item.PhotoPlate.0.name=이코노그래프 판
-item.PhotoPlate.1.name=노출된 이코노그래프 판
 item.ItemInkwell.name=필기도구
-item.ItemPortableHole.name=휴대용 구멍
 item.ItemThaumometer.name=사우모미터
 item.ItemThaumonomicon.name=사우모노미콘
 item.ItemGoggles.name=발견의 고글
@@ -276,7 +287,7 @@ item.ItemGolemCore.1.name=비우기
 item.ItemGolemCore.2.name=줍기
 item.ItemGolemCore.3.name=수확하기
 item.ItemGolemCore.4.name=보호하기
-item.ItemGolemCore.5.name=액체 붓기
+item.ItemGolemCore.5.name=액체 채우기
 item.ItemGolemCore.6.name=연금술
 item.ItemGolemCore.7.name=벌목하기
 item.ItemGolemCore.8.name=사용하기
@@ -298,12 +309,12 @@ item.ItemGolemDecoration.4.name=다트 발사기
 item.ItemGolemDecoration.5.name=바이저
 item.ItemGolemDecoration.6.name=철 갑옷
 item.ItemGolemDecoration.7.name=메이스 
-item.ItemGolemUpgrade.0.name=골렘 업그레이드 : 에어
-item.ItemGolemUpgrade.1.name=골렘 업그레이드 : 어스
-item.ItemGolemUpgrade.2.name=골렘 업그레이드 : 파이어
-item.ItemGolemUpgrade.3.name=골렘 업그레이드 : 워터
-item.ItemGolemUpgrade.4.name=골렘 업그레이드 : 오더
-item.ItemGolemUpgrade.5.name=골렘 업그레이드 : 엔트로피
+item.ItemGolemUpgrade.0.name=골렘 업그레이드: 에어
+item.ItemGolemUpgrade.1.name=골렘 업그레이드: 어스
+item.ItemGolemUpgrade.2.name=골렘 업그레이드: 파이어
+item.ItemGolemUpgrade.3.name=골렘 업그레이드: 워터
+item.ItemGolemUpgrade.4.name=골렘 업그레이드: 오더
+item.ItemGolemUpgrade.5.name=골렘 업그레이드: 엔트로피
 item.ItemGolemUpgrade.0.desc=속도 향상
 item.ItemGolemUpgrade.1.desc=힘 향상
 item.ItemGolemUpgrade.2.desc=공격력, 용량 향상
@@ -311,7 +322,7 @@ item.ItemGolemUpgrade.3.desc=사거리, 감각 향상
 item.ItemGolemUpgrade.4.desc=지능, 조직 향상
 item.ItemGolemUpgrade.5.desc=방어력, 추론 향상
 item.ItemManaBean.name=마나 콩
-item.TrunkSpawner.name=여행용 트렁크
+item.TrunkSpawner.name=여행 트렁크
 item.TrunkSpawner.text.1=트렁크에 아이템이 있습니다.
 
 
@@ -322,10 +333,10 @@ fluid.fluxGoo=플럭스 점액
 # GUI
 golemblurb.0.text=뭘 남겨둘까요 주인님?
 golemblurb.1.text=여길 싹 비울까요? 아니면 뭐 특별히 비울거라도?
-golemblurb.2.text=특별히 주워야 하는 것이 있습니까? 딱히 없으시다면 주변에 떨어진 건 모두 모아두겠습니다.
+golemblurb.2.text=특별히 모아야 하는 것이 있습니까? 딱히 없으시다면 주변에 떨어진 건 모두 모아두겠습니다.
 golemblurb.3.text=??
-golemblurb.4.text=이곳을 지키겠습니다, 주인님.
-golemblurb.5.text=Shall I gather all liquids, or just those you specify? Just show me a container with the liquid and I will do your bidding!
+golemblurb.4.text=이곳을 지키겠습니다.
+golemblurb.5.text=제가 모아두길 원하는 액체가 든 용기를 보여주세요. 특별히 정해 주실 게 없다면 주변의 모든 액체를 모아두겠습니다.
 golemblurb.6.text=??
 golemblurb.7.text=??
 golemblurb.8.text=이 아이템을 블럭 위에 사용할까요, 아니면 특정 장소에서 사용할까요?
@@ -333,7 +344,7 @@ golemthreat.0.text=뭐, 골렘의 반란? 그게 뭐야? 난 아무것도 몰라
 golemthreat.1.text=내가 맞춰보지, 넌 내가 뭔갈 옮겨주길 원하는 거지?
 golemthreat.2.text=크하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하!
 golemthreat.3.text=걱정하지 말라고, 아무짓도 안하지 않을테니까.
-golemthreat.4.text=낮잠이나 좀 자지 그래? 정말 졸려보이는군. 아주 많이 말이야.
+golemthreat.4.text=낮잠이나 좀 자는 건 어때? 정말 졸려보이는군. 아주 많이 말이야.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
 golemthreat.6.text=*LOVE* not found, defaulting to *HATE*
 golemthreat.7.text=난 네녀석이 정말 싫어.
@@ -403,11 +414,11 @@ tc.inst.2=§5보통§0
 tc.inst.3=§e높음§0
 tc.inst.4=§6매우 높음§0
 tc.inst.5=§4위험함§0
-tc.adv=고급
+tc.adv=강화
 #
 # Aspects
-tc.aspect.primal=태초의 속성
-tc.aspect.unknown=알 수 없는 속성
+tc.aspect.primal=태초의 위상
+tc.aspect.unknown=알 수 없는 위상
 tc.aspect.aer=공기
 tc.aspect.terra=땅
 tc.aspect.ignis=불
@@ -455,16 +466,16 @@ tc.aspect.fabrico=제작, 공예
 tc.aspect.lucrum=식탐, 탐욕
 tc.aspect.pannus=옷, 천, 덮개
 tc.aspect.machina=기계, 기구
-tc.aspect.vinculum=함정, 감금
+tc.aspect.vinculum=함정, 속박
 tc.aspect.permutatio=교환, 거래
 tc.aspect.corpus=살, 시체
 #  
 # Research categories
-tc.research_category.BASICS=Basic Information
-tc.research_category.THAUMATURGY=Thaumaturgy
-tc.research_category.ALCHEMY=Alchemy
-tc.research_category.ARTIFICE=Artifice
-tc.research_category.GOLEMANCY=Golemancy
+tc.research_category.BASICS=기본 정보
+tc.research_category.THAUMATURGY=마도학
+tc.research_category.ALCHEMY=연금술
+tc.research_category.ARTIFICE=마공학
+tc.research_category.GOLEMANCY=골렘학
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -484,51 +495,51 @@ tc.research_category.GOLEMANCY=Golemancy
 # Research entries
 tc.research_name.RESEARCH=연구
 tc.research_text.RESEARCH=발견의 기본
-tc.research_page.RESEARCH.1=마법물품의 제작에 앞서 제작방법 발견이 선행되어야 하는 것은 당연지사입니다. 이 발견은<BR>(1) 세계를 탐험하면서 §5사우모미터§0를 이용해 블럭과 아이템을 스캔하고<BR><BR>(2) 첫번째 단계를 통해 연구포인트를 획득한 다음 §5연구 테이블§0을 이용해 위상에 대한 지식을 늘린 뒤에<BR><BR>(3) §5연구 테이블§0에서 위상들을 이용해 연구를 함으로써 성취할 수 있습니다.<LINE>
-tc.research_page.RESEARCH.2=§l      §n(1) 탐험§r<BR><BR>연구포인트가 없이는 연구를 진행할 수 없기 때문에 먼저 세계를 탐험하며 온갖 물체들을 스캔해서 연구포인트를 얻어야만 합니다.<BR>물체를 스캔하는데는 §5사우모미터§0가 필요합니다(조합법은 다음 페이지에). §5사우모미터§0를 사물이나 생명체에게 조준하고 마우스 오른쪽 버튼을 잠시동안 누르고 있는 것으로 스캔을 할 수 있습니다.<BR>스캔이 완료된다면 물체가 포함하고 있는 위상이 무엇인지 §5사우모미터§0가 알려줄 겁니다.
-tc.research_page.RESEARCH.3=<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>물체를 이루는 위상들의 하위 위상들을 모른다면 그 물체는 스캔할 수 없습니다. 예를 들어 Lux위상을 포함하고 있는 물체는 이미 Lux위상을 알고 있거나 Lux위상을 구성하는 하위 위상들을 알고 있지
-tc.research_page.RESEARCH.4=않는 한은 스캔할 수 없습니다.<BR>만약 스캔을 통해 새로운 위상을 발견했다면 그 위상의 연구포인트를 평상시의 두 배로 받게 됩니다.<BR>일반적으로 물체나 생물은 한 번만 스캔될 수 있습니다.<BR>세계를 탐험하면서 물체들을 스캔할땐 잉크가 충분한§5필기도구§0 와 몇장의 §5종이§0를 지참하는 것이 좋습니다. 물체를 스캔할 때 의도치 않게 추가적인 발견을 했음에도 기록할 곳이 없다면 정말 아쉽겠죠.
-tc.research_page.RESEARCH.5=§l   §n(2) 위상의 조합§r<BR><BR>연구포인트가 충분히 모였다면 연구 테이블에서 그것들을 조합해서 복합위상을 만들어 보세요.<BR>연구 테이블을 만들기 위해서는 두 개의 §5테이블§0을 양옆으로 붙여놓고 필기도구로 우클릭을 하면 됩니다. 테이블 조합법은 §5Artifice§0의 연구 항목에 있습니다.<BR>연구 테이블을 우클릭하면 우측의 사진과 같은 UI가 표시됩니다.<BR>연구 테이블을 만들 때 쓰였던 필기도구는 §l1§r번 칸에 표시될 겁니다. §l2§r번 칸은 종이를 놓는 자리지만 종이는 이번
-tc.research_page.RESEARCH.6=단계에선 굳이 필요하지 않습니다.<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>§l3§r번 칸에는 모든 태초의 위상과 약간의 복합위상들의 포인트가 표시됩니다. 월드에 처음으로 접속한 모든 플레이어들은 태초의 위상들에 대한 연구포인트를 조금씩 지급받습니다.<BR>이전에 이미 사우모미터와 함께
-tc.research_page.RESEARCH.7=탐험을 했었다면 꽤 많은 양의 태초/복합 위상이 여기에 표시될겁니다.<LINE>이제 이곳에서 위상들을 조합해서 더 복잡한 복합위상을 만들 수 있습니다. 먼저, 조합하고 싶은 위상을 두 개 선택합니다. 선택된 위상은 §l4§r번 칸에 나타나고 두 가지 전부 선택했을 때 §l5§r번 칸의 보라색버튼을 눌러서 합칠 수 있습니다. 만일 조합이 성공적이라면, 무엇을 얻었는지 우측 하단에 나옴과 함께 얻은 위상이 §l3§r번 칸에 나타납니다.<BR>해당 조합으로 만들 수 있는 복합위상이 없더라도 재료 위상들은 소모되니 주의합시다.
-tc.research_page.RESEARCH.8=§l  §n(3) 위상의 연구§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>§l2§r번 칸에 종이가 있을경우 위상을 하나 선택할 경우 §l6§r번 칸의 초록색 버튼에 불이 들어옵니다.<BR>이 버튼을 누르면 선택된 위상으로 연구를 시작하게 됩니다. 그 위상에 대한 무언가를 발견하였다면 §l7§r번 칸에 연구 일지가 생성됩니다.
-tc.research_page.RESEARCH.9=또한 §l8§r번 칸에는 전 페이지 상단의 이미지에 있던 이상한 룬들로 뒤덮인 연구지가 나타납니다.<BR>의외로 그리 복잡하진 않으니 걱정하진 마세요.<LINE>연구를 완료하기 위해선 아래 이미지의 §5지식의 중심점§0들을 모두 연결해서 활성화시켜야 합니다.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>오른쪽이 활성화된 중심점이고 왼쪽은 아직 활성화되지 않은 중심점입니다.
-tc.research_page.RESEARCH.10=모든 중심점들이 활성화되면 연구가 완료되고 연구 일지가 발견으로 바뀝니다. 이걸 든 상태에서 오른쪽클릭을 해줍시다.<LINE>룬들을 활성화시킴으로써 중심점들을 연결할 수 있습니다.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>각각의 룬들은 특정 위상을 의미하지만 처음엔 어떤 룬이 어떤 위상을 의미하는지 알 수 없습니다. 룬이 의미하는 위상은 연구마다 다르기 때문에 한 연구에서 Aer를 의미하던 룬이 다른 연구에서는 Terra를 의미할수도 있습니다.
-tc.research_page.RESEARCH.11=모든 룬들이 연구에 관련된 건 아닙니다.<BR>예를 들어 연구지에는 Aer, Terra, Ignes, Aqua를 의미하는 룬들이 있지만 Ignes와 Terra만이 연구와 관련되었을 수 있다는 겁니다. 이런 쓸모없는 룬들은 보통 '붉은 청어'룬이라 부릅니다.<BR>왼쪽에서 위상을 선택하고 §l6§r번 칸의 연구 버튼을 눌러서 어느 룬이 필요한지 알 수 있습니다. 선택한 위상이 연구와 관련이 있다면 그 위상에 연결된 룬들이 빛나기 시작합니다.<BR>만약 선택한 위상이 '붉은 청어'였다면 연결된 룬들에서 빛이 나는 대신에 그 룬들이 연구지에서 지워집니다.
+tc.research_page.RESEARCH.1=모든 마법은 연구로부터 시작됩니다. 마법은<BR>(1) 세계를 탐험하면서 §5사우모미터§0를 이용해 블럭과 아이템을 분석하고<BR><BR>(2) 분석과정을 통해 연구포인트를 획득한 다음 §5연구 테이블§0을 이용해 위상에 대한 지식을 늘린 뒤에<BR><BR>(3) §5연구 테이블§0에서 발견한 위상들을 이용해 연구를 할 수 있습니다.<LINE>
+tc.research_page.RESEARCH.2=§l           §n(1) 탐험§r<BR><BR>연구에 있어서 연구포인트는 필수불가결한 존재입니다. 따라서 연구에 앞서서 세계를 돌아다니며 이것저것을 분석해봐야 합니다.<BR>물체를 분석하는데는 §5사우모미터§0가 필요합니다(조합법은 다음 페이지에). §5사우모미터§0를 원하는 물체에 조준하고 마우스 오른쪽 버튼을 1~2초 정도 눌러서 분석을 할 수 있습니다.<BR>분석이 완료된다면 물체가 포함하고 있는 위상이 무엇인지 §5사우모미터§0의 렌즈에 표시됩니다.
+tc.research_page.RESEARCH.3=<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>물체를 이루는 위상들의 하위 위상들을 모른다면 그 물체는 분석할 수 없습니다. 예를 들어 Lux위상을 포함하고 있는 물체는 이미 Lux위상을 알고 있거나 Lux위상을 구성하는 하위 위상들을 알고 있지
+tc.research_page.RESEARCH.4=않는 한은 분석할 수 없습니다.<BR>만약 분석을 통해 새로운 위상을 발견했다면 그 위상의 연구포인트를 평상시의 두 배로 얻을 수 있습니다.<BR>하나의 물체는 한 번만 스캔될 수 있습니다. 또한 생명체의 분석도 가능합니다.<BR>간혹 분석 도중 새로운 지식에 대한 단서를 얻을 때가 있으니 분석을 위해 세계를 돌아다닐 땐 잉크가 충분한§5필기도구§0 와 몇장의 §5종이§0를 지참하는 것이 좋습니다.
+tc.research_page.RESEARCH.5=§l       §n(2) 위상의 조합§r<BR><BR>연구포인트가 충분히 모였다면 연구 테이블에서 그것들을 조합해서 복합위상을 만들 수 있습니다.<BR>연구 테이블은 두 개의 §5테이블§0을 양옆으로 붙여놓고 필기도구로 우클릭해서 만들 수 있습니다. 테이블 조합법은 사우모노미콘의 §5도구&장치§0항목에 있습니다.<BR>연구 테이블을 우클릭하면 우측의 이미지와 같은 UI가 표시됩니다.<BR>연구 테이블을 만들 때 쓰였던 필기도구는 §l1§r번 칸에 표시됩니다. §l2§r번 칸은 종이를 놓는 자리지만 위상을 조합만 할
+tc.research_page.RESEARCH.6=때는 종이가 굳이 필요하지 않습니다.<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>§l3§r번 칸에는 알고 있는 위상들에 대한 연구포인트가 표시됩니다. 월드에 처음으로 접속한 모든 플레이어들은 태초의 위상들에 대한 연구포인트를 조금씩 지급받습니다.<BR>이전에 이미 사우모미터와 함께
+tc.research_page.RESEARCH.7=탐험을 했었다면 꽤 많은 양의 태초/복합 위상이 여기에 표시될수도 있습니다.<LINE>이제 이곳에서 위상들을 조합해서 더 복잡한 새로운 위상들을 만들 수 있습니다. 먼저, 조합하고 싶은 위상을 두 개 선택합니다. 선택한 위상은 §l4§r번 칸에 나타나고, 조합하고 싶은 두가지 위상을 모두 선택한 뒤 §l5§r번 칸의 보라색버튼을 눌러서 조합할 수 있습니다. 그 조합으로 만들 수 있는 위상이 있다면 어떤 위상을 얻었는지 우측 하단에 나옴과 함께 얻은 위상이 §l3§r번 칸에 나타납니다.<BR>해당 조합으로 만들 수 있는 복합위상이 없더라도 재료 위상들은 소모되어버립니다.
+tc.research_page.RESEARCH.8=§l       §n(3) 위상의 연구§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>§l2§r번 칸에 종이가 있다면 위상을 하나 선택할 경우 §l6§r번 칸의 초록색 버튼에 불이 들어옵니다.<BR>이 버튼을 누르면 선택된 위상으로 연구를 시작하게 됩니다. 그 위상과 관련된 무언가를 발견하였다면 §l7§r번 칸에 연구 일지가 생성됩니다.
+tc.research_page.RESEARCH.9=또한 §l8§r번 칸에는 전 페이지 상단의 이미지에 있던 이상한 룬들로 뒤덮인 연구지가 나타납니다.<BR>보기보다 복잡하지 않으니 벌써부터 걱정할 필요는 없습니다.<LINE>연구를 완료하기 위해선 아래와 같은 §5지식의 중심점§0들을 모두 연결해서 활성화시켜야 합니다.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>오른쪽이 활성화된 중심점이고 왼쪽은 아직 활성화되지 않은 중심점입니다.
+tc.research_page.RESEARCH.10=모든 중심점들이 활성화되면 연구가 완료되고 연구 일지가 발견으로 바뀝니다. 이걸 든 상태에서 마우스 오른쪽 클릭을 함으로써 그 연구를 자신의 것으로 만들 수 있습니다.<LINE>떨어져있는 중심점들은 룬들을 활성화시켜서 연결할 수 있습니다.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>각각의 룬들은 특정 위상을 의미하지만 처음엔 어떤 룬이 어떤 위상을 의미하는지 알 수 없습니다. 룬이 의미하는 위상은 각각의 연구마다 다르기 때문에 한 연구에서 Aer를 의미하던 룬이 다른 연구에서는 Terra를 의미할수도 있습니다.
+tc.research_page.RESEARCH.11=또한 모든 룬들이 연구에 관련된 건 아닙니다.<BR>예를 들어 연구지에는 Aer, Terra, Ignis, Aqua를 의미하는 룬들이 있지만 Ignis와 Terra만이 연구와 관련되었을 수 있다는 겁니다. 이런 쓸모없는 룬들은 보통 '붉은 청어'룬이라 부릅니다.<BR>왼쪽에서 위상을 선택하고 §l6§r번 칸의 연구 버튼을 눌러서 어느 룬이 필요한지 알 수 있습니다. 선택한 위상이 연구와 관련이 있다면 그 위상에 연결된 룬들이 빛나기 시작합니다.<BR>만약 선택한 위상이 '붉은 청어'였다면 그 위상에 해당하는 룬들이 활성화되는 것이 아니라 연구지에서 지워지게 됩니다.
 tc.research_page.RESEARCH.12=만약 선택된 위상이 아무 룬과도 연결되지 않았다면 아무 일도 일어나지 않습니다.<LINE>활성화된 룬은 중심점들을 연결하는 다리의 역할을 합니다. 활성화된 중심점에서 뿜어져 나온 에너지 줄기는 주변의 다른 중심점이나 활성화된 룬에 연결됩니다. 연구가 완료되기 위해선 에너지 줄기가 모든 중심점을 지나야 합니다.<IMG>thaumcraft:textures/misc/research3.png:0:0:120:95:.75</IMG>
-tc.research_page.RESEARCH.13=활성화된 룬이나 노드가 두 칸 이상 떨어져 있다면 연결되지 않습니다.<BR>룬을 클릭해 움직여서 중심점이나 다른 룬들과 연결시킬 수 있습니다.<IMG>thaumcraft:textures/misc/research2.png:136:0:102:74:1</IMG>룬은 한 번 클릭으로 일직선상에서 최대 두 칸 움직일 수 있으며, 활성화된 룬은 움직일 수 없기 때문에 정확한 자리를 잡기 위해 룬을 여러번
+tc.research_page.RESEARCH.13=활성화된 룬이나 중심점 사이에 빈 공간이 두 칸 이상이 있다면 있다면 연결되지 않습니다.<BR>룬을 클릭해 움직여서 중심점이나 다른 룬들과 연결시킬 수 있습니다.<IMG>thaumcraft:textures/misc/research2.png:136:0:102:74:1</IMG>룬은 한 번 클릭으로 일직선상에서 최대 두 칸 움직일 수 있으며, 활성화된 룬은 움직일 수 없기 때문에 정확한 자리를 잡기 위해 룬을 여러번
 tc.research_page.RESEARCH.14=활성화/비활성화 시켜야 할수도 있습니다. 연결 사이에 비활성화된 룬이 끼어있을 경우 연결이 이루어지지 않습니다. 따라서 필요할 경우 이 룬을 치워줘야 합니다.<IMG>thaumcraft:textures/misc/research3.png:128:0:105:111:.75</IMG>룬을 움직일 때마다 약간의 잉크를 소모합니다.<LINE>
 #
 tc.research_name.KNOWFRAG=지식의 조각
 tc.research_text.KNOWFRAG=잃어버린 지식의 조각들
-tc.research_page.KNOWFRAG.1=탐험을 하다 보면 고대의 잃어버린 지식의 조각이 간혹 발견되곤 합니다. 그 자체로는 약간의 연구 포인트밖에 되지 않지만 조각을 충분히 모아서 합친다면 파고 들어볼 만한 독특한 연구과제가 될 수 있습니다. 이렇게 얻은 연구거리는 대체로 일반적인 방법으로는 얻을 수 없는 내용을 담고 있습니다.<BR>이런 연구거리들을 연구하다 보면 종종 엉뚱한 가설로 드러날 때도 있으니 주의합시다. 이런 일이 벌어지면 대부분의 지식의 조각들은 다시 반환되는데, 이 경우엔 해당 연구에 대한 현재 가능한 모든 방법들을 시도해봤다는 의미이기도 합니다.
+tc.research_page.KNOWFRAG.1=탐험을 하다 보면 고대의 잃어버린 지식의 조각이 간혹 발견되곤 합니다. 그 자체로는 약간의 연구 포인트정도의 가치밖에 되지 않지만 조각을 모아서 합치면 새로운 연구일지를 얻을 수 있습니다. 이렇게 얻은 연구일지는 대체로 일반적인 방법으로는 얻을 수 없는 내용을 담고 있습니다.<BR>이런 연구일지들을 연구하다 보면 종종 엉뚱한 가설로 드러날 때도 있으니 주의합시다. 연구일지에서 지식의 조각들이 다시 반환된다면 해당 연구일지는 엉뚱한 가설이었다는 의미입니다.
 #
 tc.research_name.ASPECTS=마법의 위상들
 tc.research_text.ASPECTS=마법의 구성요소
-tc.research_page.ASPECTS.1=모든 물체들과 생물들은 §5위상§0이라 알려진 신비로운 원소들로 엮여 있습니다. 위상들은 물체의 구성원리를 담고 있습니다. 아주 단순한 돌도 Saxum이란 위상을 갖고 있고 돌보다는 훨씬 복잡한, 이를테면 나무나 생명체들 또한 다양한 위상들을 다양한 수량으로 포함하고 있습니다. 위상은 약 50종류가 있는것으로 알려졌으며, 현재도 계속해서 새로운 위상이 발견되고 있습니다.<LINE>위상은 §5태초의 위상§0과 §5복합위상§0으로 구분되어집니다.
-tc.research_page.ASPECTS.2=§l태초의 위상§r에는 §6Aer§0 (공기), §2Terra§0 (대지), §cIgnis§0 (불), §3Aqua§0 (물), §fOrdo§0 (질서), §8Perditio§0 (파괴)의 총 6종류가 있으며 가장 기본이 되는 위상입니다.<BR>이 위상들은 다른 위상의 기본 재료가 됩니다.<BR>§l복합위상§r 은 이름 그대로 두가지 위상이 합쳐진 것입니다. 가장 단순한 것은 태초의 위상 두가지로 만들수 있지만 복합위상끼리 합쳐서 만드는 복잡한 복합위상 또한 존재합니다.<BR>가장 단순한 복합위상으로는 Victus (생명)가 있으며 Terra와 Aqua로 이루어져 있습니다. 
-tc.research_page.ASPECTS.3=아이템이 가지고 있는 위상을 알고싶다면 Shift키를 누른 채로 마우스를 아이템 위에 올려놓으면 됩니다. 하지만 이렇게 구성 위상을 보기 위해선 그 위상들이 알고 있는 위상이어야 하는데, 그 전까진 알수없는 위상으로 남아있게 됩니다.<LINE>어떤 방법을 통해 물체에서 추출되어져 정화된 위상은 §5비스(Vis)§0라고 부르며 마법물품 제작에 들어가는 재료로써, 마법연구 과제로써 대단히 큰 가치를 지닙니다.<BR>비스는 보통 완드에 저장하지만 액체상태로 저장하는 것 또한 가능합니다. 액체상태의 비스는 §5에센시아§0라 부릅니다.
+tc.research_page.ASPECTS.1=모든 물체들과 생물들은 §5위상§0이라 알려진 신비로운 원소들로 엮여 있습니다. 위상들은 물체의 구성원리를 담고 있습니다. 아주 단순한 돌도 Saxum이란 위상을 갖고 있으며 돌보다 훨씬 복잡한, 이를테면 나무나 생명체들 또한 다양한 위상들을 제각각 포함하고 있습니다. 위상은 약 50종류가 있는것으로 알려졌으며, 현재도 계속해서 새로운 위상이 발견되고 있습니다.<LINE>위상은 §5태초의 위상§0과 §5복합위상§0으로 구분되어집니다.
+tc.research_page.ASPECTS.2=§l태초의 위상§r에는 §6Aer§0 (공기), §2Terra§0 (대지), §cIgnis§0 (불), §3Aqua§0 (물), §fOrdo§0 (질서), §8Perditio§0 (파괴)의 총 6종류가 있으며 이것들은 다른 위상의 기본 재료가 되는 위상입니다.<BR>§l복합위상§r 은 이름 그대로 두가지 위상이 합성된 것입니다. 가장 단순한 것은 태초의 위상 두가지로 만들수 있지만 복합위상끼리 합성해서 만드는 복잡한 복합위상 또한 존재합니다.<BR>가장 단순한 복합위상으로는 Victus (생명)가 있으며 Terra와 Aqua로 이루어져 있습니다. 
+tc.research_page.ASPECTS.3=아이템이 가지고 있는 위상을 알고싶다면 Shift키를 누른 채로 마우스를 아이템 위에 올려놓으면 됩니다. 하지만 이렇게 구성 위상을 보기 위해선 그 위상들이 알고 있는 위상이어야 하는데, 그 전까진 알 수 없는 위상으로 남아있게 됩니다.<LINE>특수한 방법을 통해 물체로부터 추출되서 정화된 위상은 §5비스(Vis)§0라고 부릅니다. 비스는 마법물품 제작에 들어가는 재료로도, 연구 과제로도 대단히 큰 가치를 지닙니다.<BR>비스는 보통 완드에 저장하지만 액체상태로 저장하는 것 또한 가능합니다. 액체상태의 비스는 §5에센시아§0라 부릅니다.
 #
 tc.research_name.NODES=오라와 노드
 tc.research_text.NODES=마법은 모든 곳에
-tc.research_page.NODES.1=§5오라§0는 세계 전체를 덮고 있는 에너지장으로, 그 기원은 밝혀지지 않았습니다. 생명체의 생명에너지가 축적된 것이란 설도 있고, 전혀 다른 이계의 에너지가 흘러들어온 것이라는 설도 있는데, 오라는 주로 §5오라 노드§라 불리는, 마법 에너지가 축적된 지점 주변을 두텁게 감싸고 있는 것으로 보아 후자의 가설이 설득력을 얻고 있습니다0.<BR>각각의 오라 노드들은 담을 수 있는 마법 에너지의 최대량이 정해져 있으며  이 에너지는 위상의 형태로 표출됩니다. 보통은 §5태초의 위상§0으로 존재하지만, 희귀하긴 해도 §5복합위상§0의 형태 또한 가질 수 있습니다. 
-tc.research_page.NODES.2=오라 노드의 위상들은 마법사에 의해 추출될 수 있습니다. 가장 쉬운 방법은 완드를 사용하는 것입니다.<BR>이렇게 추출된 에너지는 비스(Vis)라고 부릅니다.<LINE>오라 노드는 육안으로는 희미한 빛 덩어리로 보이기에 거의 찾을 수 없습니다. §5사우모미터§0 의 렌즈를 통해서 보면 좀 더 확실하게 볼 수 있습니다.<BR>§4중요:§0 노드에서 비스를 추출 할 때 주의하세요. 노드에서 어느 한 종류의 위상이 완전히 추출되어지면, 사라져버리거나 
+tc.research_page.NODES.1=§5오라§0는 세계 전체를 덮고 있는 에너지장으로, 그 기원은 아직 명확히 밝혀지지 않았습니다. 생명체의 생명에너지가 축적된 것이란 설도 있고, 전혀 다른 이계의 에너지가 흘러들어온 것이라는 설도 있는데, 오라는 §5오라 노드§0라 불리는 마법 에너지가 축적된 지점 주변을 두텁게 감싸고 있는 형태로 주로 발견되는것으로 보아 후자의 가설이 설득력을 얻고 있습니다.<BR>각각의 오라 노드들은 담을 수 있는 마법 에너지의 최대량이 정해져 있으며  이 에너지는 위상의 형태로 표출됩니다. 보통은 §5태초의 위상§0으로 존재하지만, 희귀하긴 해도 §5복합위상§0의 형태로 존재하는 경우  
+tc.research_page.NODES.2=또한 있습니다.<BR>오라 노드의 위상들은 마법사에 의해 추출될 수 있습니다. 가장 쉬운 방법은 완드를 사용하는 것입니다.<BR>이렇게 추출된 에너지는 비스(Vis)라고 부릅니다.<LINE>오라 노드는 육안으로는 희미한 빛 덩어리로 보이기에 거의 찾을 수 없지만 §5사우모미터§0 의 렌즈를 통해서 보면 좀 더 확실하게 볼 수 있습니다.<BR>§4중요:§0 노드에서 비스를 추출 할 때는 주의해야 합니다. 노드에서 어느 한 종류의 위상이 완전히 추출되어지면, 사라져버리거나 
 tc.research_page.NODES.3=노드에 안좋은 영향을 끼칠 수 있습니다.<BR>모든 위상들이 완전히 추출되면 노드가 사라져버릴 수 있습니다.<LINE>하지만 대부분의 노드는 빨려나간 위상을 천천히 회복하며 제대로 관리한다면 계속해서 필요한 만큼의 비스를 추출할 수 있습니다. 
 #
 tc.research_name.ORE=광물
 tc.research_text.ORE=깊은 곳으로
 tc.research_page.ORE.1=§l       §n인퓨즈드 스톤§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>오라에 태초의 에너지가 과도하게 존재하면 이 에너지들이 돌에 스며들어 인퓨즈드 스톤을 형성할 때가 있습니다. 이렇게 돌 안에 형성된 마법 수정은 캘 수 있습니다.
 tc.research_page.ORE.2=이 수정들은 다양한 원소들의 속성을 지니고 있으며 많은 곳에 이용됩니다.<BR>인퓨즈드 스톤은 각각 하나의태초의 위상에 대응되는 6종류가 존재합니다.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>수정들을 합쳐서 크리스탈 덩어리를 만들 수 있습니다. 이 크리스탈 덩어리들은 장식용 외에 별 다른 용도는 없습니다. 크리스탈 덩어리를 부수면 만들 때 들어간 수정들을 되돌려받을 수 있습니다.
-tc.research_page.ORE.3=§l         §n진사§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>이 붉은색 광석은 지하 깊은 곳에서 발견되며 수은으로 가공할 수 있습니다.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.3=§l         §n진사 광석§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>이 붉은색 광석은 지하 깊은 곳에서 발견되며 수은으로 가공할 수 있습니다.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.ORE.4=§l           §n호박석§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>이 광석은 지표 근처에서 발견되며 캤을 경우 호박 덩어리를 줍니다.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
 tc.research_name.PLANTS=풀과 나무
 tc.research_text.PLANTS=마법 식물들
 tc.research_page.PLANTS.1=§l      §n그레이트우드 나무§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>이 크고 웅장한 나무는 세계 곳곳에서 발견됩니다.<BR>이 나무는 어마어마한 양의 마법에너지를 머금을 수 있기 때문에 마법 도구들을 만드는 데 자주 쓰입니다.
-tc.research_page.PLANTS.2=§l     §n실버우드 나무§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>이 신비로운 나무는 굉장히 희귀하며 매우 아름답게 생겼습니다. 마법에너지로 인해 잎사귀에서 빛이 나며 희고 부드러운 목재는 정화능력이 있어 가치가 매우 높습니다.<BR>이런 신비로운 특징들은 이 나무의 중심부에 오라 노드가 형성되기 때문인데 이때문에 실버우드 나무 묘목은 그 값을 매길 수 없을 정도로 귀합니다.
+tc.research_page.PLANTS.2=§l       §n실버우드 나무§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>이 신비로운 나무는 굉장히 희귀하며 매우 아름답게 생겼습니다. 마법에너지로 인해 잎사귀에서 빛이 나며 희고 부드러운 목재는 정화능력이 있어 가치가 매우 높습니다.<BR>이런 신비로운 특징들은 이 나무의 중심부에 오라 노드가 형성되기 때문인데 이때문에 실버우드 나무 묘목은 그 값을 매길 수 없을 정도로 귀합니다.
 tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>이 반짝이는 꽃은 실버우드의 그늘 아래서만 자랍니다. 이 꽃은 꿀 대신 수은을 만들어냅니다.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l        §nCinderpearl§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>매우 뜨거운 기후에서만 발견되는 이 꽃은 불의 원소로 충만해 타오릅니다. 채집한 뒤 빻으면 블레이즈 가루와 매우 유사한 가루를 만들 수 있습니다.
-tc.research_page.PLANTS.5=§l         §n마나 콩§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>이 콩깍지처럼 생긴 이상한 식물은 마법의 숲 에 있는 나무에서만 자랍니다. 자라는 속도가 매우 느리며 수확해도 콩을 한개에서 두개정도밖에 주지 않습니다. 
+tc.research_page.PLANTS.5=§l          §n마나 콩§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>이 콩깍지처럼 생긴 이상한 식물은 마법의 숲 에 있는 나무에서만 자랍니다. 자라는 속도가 매우 느리며 수확해도 콩을 한개에서 두개정도밖에 주지 않습니다. 
 tc.research_page.PLANTS.6=마나 콩으로 알려진 이 콩들에는 에센시아가 농축되어있습니다. 먹을 수도 있지만 무슨일이 벌어질지는 알 수 없습니다.<BR>이 콩은 다시 심을 수 있지만 재배하기 까다롭고 시간을 많이 소요합니다.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
 tc.research_name.RESEARCHER1=연구 전문가
@@ -539,27 +550,27 @@ tc.research_name.RESEARCHER2=연구 마스터
 tc.research_text.RESEARCHER2=힘은 곧 지식
 tc.research_page.RESEARCHER2.1=굉장히 효율적인 연구 진행.<BR>'붉은 청어'위상에 연결된 룬이 이젠 4개씩 사라집니다.<BR>그리고 이제 룬을 4칸씩 움직일수 있습니다.<BR>또한 이제 활성화된 룬을 비록 한칸 뿐이지만 움직일 수 있습니다. 하지만 활성화된 룬을 움직일 경우 그 룬이 비활성화될 가능성이 있습니다.
 #
-tc.research_name.DECONSTRUCTOR=분해 테이블
+tc.research_name.DECONSTRUCTOR=분석 테이블
 tc.research_text.DECONSTRUCTOR=관찰만으로는 충분하지 않을 때
-tc.research_page.DECONSTRUCTOR.1=There comes a point in any thaumaturge's career where he is unable to progress with research due to his lack of knowledge. <BR>One possible recourse is the Deconstruction Table. The table allows you to break down objects into their simplest parts which you can examine. There are limits however - the table breaks compound aspects into their component aspects until only primal aspects remain. During this process much knowledge is lost and at best the thaumaturge can hope for is a single piece of primal knowledge.<BR>For example cobblestone (saxum and 
-tc.research_page.DECONSTRUCTOR.2=perditio) will be simplified into 2 terra and 1 perditio, only one of which will have a chance of being discovered.<BR>It is also fairly slow and the fewer aspects and object has, the lower the chance to discover something.
+tc.research_page.DECONSTRUCTOR.1=마도학자들에게는 지식의 부족으로 인해 연구 진행이 불가능해지는 시점이 올 때가 있습니다. <BR>이 때 가능한 해결책이 바로 분석 테이블입니다. 이 테이블은 물체를 연구할 수 있는 가장 기본이 되는 단위로 쪼갤 수 있도록 해 줍니다. 하지만 이 테이블에도 한계가 있는데, 복합위상을 분해할 경우 가장 기본적인 태초의 위상 단 하나만 나오게 됩니다. 이 과정에서 많은 지식이 소실되며, 마도학자는 필요한 위상이 나오기를 바라는 수밖에 없습니다.<BR>예를 들어, 조약돌(Saxum과 
+tc.research_page.DECONSTRUCTOR.2=Perditio)는 2 Terra와 1 Perditio로 분해되며, 이 중 하나만이 발견됩니다.<BR>이 과정은 매우 느리며, 분해 대상이 가진 위상이 적을수록 무언가 발견될 확률도 낮아집니다.
 #
 tc.research_name.BASICTHAUMATURGY=기본 완드 제작
 tc.research_text.BASICTHAUMATURGY=첫 번째 도구
 tc.research_page.BASICTHAUMATURGY.1=완드는 가장 기본적이면서도 가장 중요한 도구입니다. 물건을 제작할 때도 쓰이고 도가니를 활성화시킬 때도 쓰이며 그 용도가 무궁무진합니다.<BR>가장 기본적인 완드는 작업에 필요한 마법 에너지(비스)를 그리 많이 저장하지 못합니다. 완드의 에너지를 보충하기 위해선 완드를 들고 오라 노드를 우클릭해서 에너지를 추출해야 합니다.<BR>완드를 손에 들면 화면 좌측 상단에 완드에 충전된 비스의 양을 보여주는 게이지가 나타납니다.
 tc.research_page.BASICTHAUMATURGY.2=Shift키를 누르면 비스의 양과 작업할 때 절감할 수 있는 비스의 양이 정확한 수치로 표시됩니다.<BR>완드는 몸통 하나와 두 개의 꼭지 덮개로 제작됩니다. 연구가 진척될수록 완드 제작에 쓸 수 있는 여러 종류의 물질들을 발견하게 됩니다. 가장 기본적인 완드만에 일반 제작대에서 제작할 수 있습니다. 다른 완드들은 §5아케인 제작대§0에서만 만들 수 있으며 제작에 비스가 들어갑니다.<BR>기본 완드는 철과 평범한 나무로 제작되며 마법을 행하기에 그리 적합한 완드는 아닙니다.
 #
-tc.research_name.GRATE=아이템 창살
+tc.research_name.GRATE=받침쇠
 tc.research_text.GRATE=좋은 것은 안으로
-tc.research_page.GRATE.1= 아이템 창살은 손이나 레드스톤 신호로 열고 닫을 수 있습니다. 열린 상태에선 아이템이 통과할 수 있습니다. 
+tc.research_page.GRATE.1= 받침쇠는 손이나 레드스톤 신호로 열고 닫을 수 있습니다. 열린 상태에선 아이템이 통과할 수 있습니다. 
 #
 tc.research_name.NODETAPPER1=더 나은 노드 추출
 tc.research_text.NODETAPPER1=모두 내 꺼!
-tc.research_page.NODETAPPER1.1=보통 노드에서 비스를 추출하는 작업은 꽤 느립니다. 하지만 더이상은 아니죠.<BR>좀더 효율적인 비스 추출 방법을 발견했고, 이 방법으로 일반적인 속도보다 두 배 빠르게 비스를 추출할 수 있습니다.
+tc.research_page.NODETAPPER1.1=보통 노드에서 비스를 추출하는 작업은 꽤 느립니다. 하지만 더이상은 아니죠.<BR>좀 더 효율적인 방법으로 일반적인 속도보다 두 배 빠르게 비스를 추출할 수 있습니다.
 #
 tc.research_name.NODETAPPER2=노드 추출 마스터
 tc.research_text.NODETAPPER2=너의 비스는 곧 나의 것
-tc.research_page.NODETAPPER2.1=좀 더 다듬어진 비스 추출 방법을 찾아냈습니다.<BR>이제 평소의 세 배의 속도로 비스를 추출할 수 있습니다.
+tc.research_page.NODETAPPER2.1=비스 추출 기술이 거의 최고수준에 도달했습니다.<BR>이제 평소의 세 배의 속도로 비스를 추출할 수 있습니다.
 #
 tc.research_name.NODEPRESERVE=노드 수호자
 tc.research_text.NODEPRESERVE=나중을 위해
@@ -567,324 +578,324 @@ tc.research_page.NODEPRESERVE=노드에서 추출해내는 비스의 양을 좀 
 #
 tc.research_name.THAUMOMETER=사우모미터
 tc.research_text.THAUMOMETER=마법의 수치화
-tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to hold the right mouse button and wait.<BR>Secondly it makes discovering nodes easier, as they become clearly visible if viewed through the Thaumometer's lens - even through solid objects! 
+tc.research_page.THAUMOMETER.1=사우모미터는 마도학자에게 있어서 완드만큼이나 중요한 존재입니다.<BR>이 장치는 마도학자가 온갖 물체들을 분석하거나 신비로운 현상들을 발견해내는 것을 가능케 해줍니다. 마우스 오른쪽 버튼을 잠시 누르고 있는 것으로 물체를 분석할 수 있습니다.<BR>또한 사우모미터의 렌즈를 통해서라면 심지어 다른 물체에 가려져있는 노드까지도 선명하게 볼 수 있습니다. 
 #
 tc.research_name.GOGGLES=발견의 고글
 tc.research_text.GOGGLES=볼 수 없는것을 보자
-tc.research_page.GOGGLES.1=Building on the basic principles of the Thaumometer, you have begun refining its ability to detect magic into something more... revealing.<BR>This set of mystical lenses will make aura nodes much easier to find along with revealing all manner of hidden things.<BR>They form an important tool in any Thaumaturgist's arsenal.
+tc.research_page.GOGGLES.1=이 특수한 고글은 사우모미터의 원리를 응용해서 만들어진 것으로, 좀 더 고차원적인 마법 현상들을 발견할 수 있게 해 줍니다.<BR>오라 노드를 선명하게 보여주는 기능은 물론이거니와, 사우모미터를 통해서도 볼 수 없었던 정보들을 볼 수 있게 됩니다.<BR>이 또한 마도학자에게 있어선 빼먹을 수 없는 도구입니다. 이 고글은 사우모미터에 있는 물체의 위상을 분석하는 기능은 없으니 주의합시다.
 #
 tc.research_name.THAUMIUM=사우뮴
 tc.research_text.THAUMIUM=마법의 금속
-tc.research_page.THAUMIUM.1=Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armour in a crafting table using the normal recipes.
+tc.research_page.THAUMIUM.1=사우뮴은 평범한 금속에 순수한 마법 에너지를 불어넣어 만들어진 신비한 금속입니다. 이 새로운 금속은 철보다 강도가 높고 일반적인 금속은 받아들이지 못하는 인챈트까지 받아들일 수 있습니다.<BR>사우뮴은 강력한 마법 도구들의 재료로 쓰입니다.<BR>또한 이 금속으로 검이나 도끼같은 다른 금속으로 만들 수 있는 평범한 도구들도 제작할 수 있습니다.
 #
 tc.research_name.NITOR=나이터
 tc.research_text.NITOR=신비한 불꽃
-tc.research_page.NITOR.1=This flame seems to be fuelled by magic itself. The number of uses for an everburning flame seems endless, but unfortunately it doesn't seem to produce much more light than heat, though it could prove to be a steady source of light and energy.<BR>Nitor can also be placed in the world to act as a magical light source.
+tc.research_page.NITOR.1=이 불꽃은 마법 그 자체로부터 에너지를 받아 타오릅니다. 영원히 타오르는 불꽃은 그 쓰임새가 무궁무진할 것 같지만, 이 불꽃은 그다지 강력하지 않아 꾸준한 빛과 에너지가 필요한 곳 외에는 별로 적합해 보이지 않습니다.<BR>나이터는 마치 횃불처럼 월드에 설치할 수 있습니다.
 #
 tc.research_name.ALUMENTUM=알루멘텀
 tc.research_text.ALUMENTUM=신비한 에너지원
-tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is more than eager to release that energy at the slightest bump. It may be unstable, but it would probably make a good source of fuel.<BR>It is probably not a good idea to throw it against a solid surface unless you enjoy explosions.
+tc.research_page.ALUMENTUM.1=화염 에너지로 가득차 불안정하게 달아오른 이 물질은 아주 작은 충격에도 터져버립니다. 아주 위험한 물질이지만 연료로 사용될 경우 엄청난 효율을 보여줍니다.<BR>폭파광이 아니라면 이걸 벽이나 바닥에 던지진 맙시다.
 #
 tc.research_name.HUNGRYCHEST=배고픈 상자
 tc.research_text.HUNGRYCHEST=냠냠냠냠
 tc.research_page.HUNGRYCHEST.1=이 상자는 주변에 떨어진 아이템을 스스로 주워 담습니다.
 #
-tc.research_name.CAP_gold=금 완드 덮개
-tc.research_text.CAP_gold=Capping things off with style
-tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
+tc.research_name.CAP_gold=금 완드캡
+tc.research_text.CAP_gold=스타일리쉬한 마무리
+tc.research_page.CAP_gold.1=금은 철보다 마법에너지를 집중시키는 능력이 훨씬 뛰어나기 때문에 금이 씌워진 완드는 저장된 비스를 100% 효율로 방출할 수 있습니다.
 #
-tc.research_name.CAP_thaumium=사우뮴 완드 덮개
-tc.research_text.CAP_thaumium=Magical wand caps
-tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.
+tc.research_name.CAP_thaumium=사우뮴 완드캡
+tc.research_text.CAP_thaumium=신비한 완드캡
+tc.research_page.CAP_thaumium.1=사우뮴은 마력을 흡수하고 저장하는 능력이 뛰어난 물질로 완드캡의 재료로는 최상입니다. 모든 종류의 비스에서 최고의 효율을 보여줍니다.
 #
-tc.research_name.CAP_silver=은 완드 덮개
-tc.research_text.CAP_silver=Capping things off with a little less style
-tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, earth, air and water).
+tc.research_name.CAP_silver=은 완드캡
+tc.research_text.CAP_silver=악간 덜 스타일리쉬한 마무리
+tc.research_page.CAP_silver.1=은은 완드캡의 재료로 사용됐을 때 금과 그 특성이 매우 비슷하지만 자연 원소(Aqua, Ignis, Aer, Terra)를 방출할 때 금보다 약간 더 우월한 성능을 보여줍니다.
 #
-tc.research_name.CAP_copper=구리 완드 덮개
-tc.research_text.CAP_copper=When iron caps just won't cut it
-tc.research_page.CAP_copper.1=Copper has similar properties to iron when used as a wand cap, but is as efficient as gold when used to channel Ordo or Perditio vis.
+tc.research_name.CAP_copper=구리 완드캡
+tc.research_text.CAP_copper=철 완드 덮개로는 부족할 때
+tc.research_page.CAP_copper.1=구리는 완드캡의 재료로 사용됐을 때 철과 그 특성이 매우 비슷하지만 Ordo와 Perditio 비스를 방출할 때 금과 동일한 성능을 보여줍니다.
 #
 tc.research_name.ROD_greatwood=그레이트우드 완드 몸통
 tc.research_text.ROD_greatwood=마법에너지 저장소
-tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double the vis storage potential of mundane wood, being able to store up to 50 vis of each type.
+tc.research_page.ROD_greatwood.1=그레이트우드 원목을 깎아 만든 이 막대는 평범한 나무로 만든 막대보다 2배 더 많은 비스를 저장할 수 있습니다. 각각의 비스마다 최대 50을 저장할 수 있습니다.
 #
 tc.research_name.ROD_silverwood=실버우드 완드 몸통
 tc.research_text.ROD_silverwood=Magical to the core
-tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 100 vis of each type.
+tc.research_page.ROD_silverwood.1=실버우드는 마법에너지 저장소로는 최고의 선택입니다. 실버우드로 만들어진 막대는 각각의 비스를 최대 100씩 저장할 수 있습니다.
 #
 tc.research_name.ROD_obsidian=흑요석 완드 몸통
 tc.research_text.ROD_obsidian=단단한 비스 저장소
-tc.research_page.ROD_obsidian.1=A wand core chiselled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of terra stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.ROD_obsidian.1=옵시디언으로 이루어진 이 완드 몸통은 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 몸통이 그레이트우드 몸통보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 Terra 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 Terra 비스를 회복합니다.
 #
 tc.research_name.ROD_bone=뼈다귀 완드 몸통
 tc.research_text.ROD_bone=혼돈의 비스 저장소
-tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of perditio stored inside it drops below 10%, its will slowly replenish without the use of a node.<BR>There is no recipe for this rod, just use a normal bone.
+tc.research_page.ROD_bone.1=뼈를 깎아 만든 이 완드 몸통은 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 몸통이 그레이트우드 몸통보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 Perditio 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 Perditio 비스를 회복합니다.
 #
 tc.research_name.ROD_blaze=블레이즈 막대 완드 몸통
 tc.research_text.ROD_blaze=타오르는 비스 저장소
-tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ignis stored inside it drops below 10%, its fiery nature will slowly replenish it.<BR>There is no recipe for this rod, just use a normal blaze rod.
+tc.research_page.ROD_blaze.1=블레이즈 막대로 만든 이 완드 몸통은 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 몸통이 그레이트우드 몸통보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 Ignis 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 Ignis 비스를 회복합니다.
 #
 tc.research_name.ROD_ice=얼어붙은 완드 몸통
 tc.research_text.ROD_ice=얼어붙은 비스 저장소
-tc.research_page.ROD_ice.1=Wand cores crafted from ice can store slightly more vis than greatwood cores. What makes it superior to greatwood cores however is that if the level of aqua stored inside it drops below 10%, its icy nature will slowly replenish it.
+tc.research_page.ROD_ice.1=얼음을 깎아 만든 이 완드 몸통은 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 몸통이 그레이트우드 몸통보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 Aqua 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 Aqua 비스를 회복합니다.
 #
 tc.research_name.ROD_quartz=네더석영 완드 몸통
 tc.research_text.ROD_quartz=안정된 비스 저장소
-tc.research_page.ROD_quartz.1=A wand core chiselled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of ordo stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.ROD_quartz.1=네더석영으로 이루어진 이 완드 몸통은 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 몸통이 그레이트우드 몸통보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 Ordo 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 Ordo 비스를 회복합니다.
 #
 tc.research_name.ROD_reed=사탕수수 완드 몸통
-tc.research_text.ROD_reed=경쾌한 비스 저장소
-tc.research_page.ROD_reed.1=A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of aer stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_text.ROD_reed=가볍고 경쾌한 비스 저장소
+tc.research_page.ROD_reed.1=사탕수수로 만든 이 완드 몸통은 그레이트우드로 만든 것보다 약간 더 큰 비스 저장용량을 지니고 있습니다. 하지만 이 완드 몸통이 그레이트우드 몸통보다 더 우월한 진짜 이유는 다른 데 있습니다. 이 완드는 저장된 Aer 비스가 10% 미만으로 떨어졌을 때 노드 없이도 자동으로 약간의 Aer 비스를 회복합니다.
 #
 tc.research_name.FOCUSFIRE=완드 포커스
 tc.research_text.FOCUSFIRE=형태에 기능이 더해질 때
-tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
-tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will be screwed into place. Keep pressing F to cycle through the foci you are carrying.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
+tc.research_page.FOCUSFIRE.1=몇몇 주의 깊은 실험의 결과 완드의 기능을 확장시킬 수 있는 방법이 개발되었습니다.<BR>결정화된 비스 샤드와 석영을 합쳐서 마법 에너지를 주입함으로써 수정의 결정을 신비한 형태로 재배열할 수 있습니다.<BR>이 새로운 결정체에 알맞은 종류의 비스가 어느정도 집중되면, 이 결정체는 순수한 마법 에너지를 좀 더 유용하고 다루기 쉬운 형태로 변형시켜서 방출합니다. 
+tc.research_page.FOCUSFIRE.2=완드를 든 채로 F키를 눌러서 인벤토리에 있는 포커스를 완드에 장착시킬 수 있습니다. F키를 다시 눌러서 인벤토리에 있는 다른 포커스로 갈아 끼울 수 있습니다.<LINE>완드 포커스를 연구하는 과정에서 불을 이용하는 포커스에 대한 지식을 얻었습니다.<BR>이 포커스는 순수한 불의 원소를 이용해 반경 내의 모든 것들을 태워버립니다.
 #
-tc.research_name.FOCUSFROST=완드 포커스:프로스트
-tc.research_text.FOCUSFROST=Revenge is a dish best served cold
-tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks is capable of destroying fragile objects. 
+tc.research_name.FOCUSFROST=완드 포커스: 프로스트
+tc.research_text.FOCUSFROST=차가운 복수
+tc.research_page.FOCUSFROST.1=이 포커스는 얼음 파편을 강하게 발사합니다.<BR>유리같은 물체는 깨버릴 수 있기 때문에 사용할 때 주의가 필요합니다. 
 #
-tc.research_name.FOCUSSHOCK=완드 포커스:쇼크
+tc.research_name.FOCUSSHOCK=완드 포커스: 쇼크
 tc.research_text.FOCUSSHOCK=천둥번개
-tc.research_page.FOCUSSHOCK.1=This focus is capable of focusing elemental energy into bolts of lightning that you can hurl at your enemies.
+tc.research_page.FOCUSSHOCK.1=이 포커스는 순수한 마법 에너지를 전기로 변환해 적에게 발사합니다.
 #
-tc.research_name.FOCUSEXCAVATION=완드 포커스:채굴
+tc.research_name.FOCUSEXCAVATION=완드 포커스: 채굴
 tc.research_text.FOCUSEXCAVATION=지형 파괴
-tc.research_page.FOCUSEXCAVATION.1=This focus turns your wand into a tool capable of moving vast amounts of earth and stone with little effort.<BR>Simply point it at what you want to excavate and the magic does the rest. Tougher materials take longer to mine, and anything other than earth, stone or similar materials will take much longer to mine.
+tc.research_page.FOCUSEXCAVATION.1=이 포커스는 완드를 곡괭이처럼 쓸 수 있게 만들어줍니다.<BR>포커스를 장착한 채 마우스 오른쪽 버튼을 누르면 나가는 초록색 광선은 채굴하는 데 이용할 수 있습니다. 물체가 단단할 수록 채굴 시간이 길어지며, 흙이나 돌이 아닌 다른 종류, 이를테면 나무 등의 물체를 채굴할 때 역시 채굴 시간이 길어집니다.
 #
-tc.research_name.FOCUSTRADE=완드 포커스:등가교환
+tc.research_name.FOCUSTRADE=완드 포커스: 등가교환
 tc.research_text.FOCUSTRADE=이것은 곧 저것
-tc.research_page.FOCUSTRADE.1=You can use this focus to trade dozens of blocks in the world with some you are carrying.<BR>You must first choose the block you wish to change other blocks into by sneaking and right clicking on the desired block. When you then left-click on another block it will turn into the target block. Right clicking will transform a whole swathe of blocks.<BR>You must be carrying enough target blocks, and the transformed blocks will replace them in your inventory. Only blocks with at least one face adjacent to open air or non-solid blocks will be transformed.
+tc.research_page.FOCUSTRADE.1=이 포커스를 이용해서 월드에 놓여져 있는 블럭과 인벤토리 내의 블럭을 바꿔칠 수 있습니다.<BR>인벤토리에 있는 조약돌을 다른 블럭과 바꿔치기 하고 싶다면 우선 조약돌을 월드에 하나 설치한 뒤 포커스를 장착한 완드를 들고 Shift-우클릭을 합니다. 그다음 조약돌과 바꾸고 싶은 블럭을 좌클릭하면 블럭이 서로 교환됩니다. 우클릭을 할 경우 넓은 면적을 동시에 바꿔치기할 수 있습니다.<BR>인벤토리에 바꿔치기할 블록이 충분히 있어야 하며 교환한 블록은 자동으로 인벤토리의 빈칸으로 들어갑니다. 용암이나 물은 교환할 수 없습니다.
 #
-tc.research_name.FOCUSHELLBAT=완드 포커스:나인 헬
+tc.research_name.FOCUSHELLBAT=완드 포커스: 나인 헬
 tc.research_text.FOCUSHELLBAT=작은 악몽
-tc.research_page.FOCUSHELLBAT.1=Your trips onto the Nether have taught you to fear the tiny terrors known as Hellbats. Now you have discovered a way to summon the little terrors and send them after your enemies. Excellent.
+tc.research_page.FOCUSHELLBAT.1=지옥 탐험은 '작은 악몽'이라 불리는 불박쥐들이 얼마나 무서운가를 깨닫게 해 줍니다. 이 불박쥐들을 이용해 적들을 괴롭혀줄 수 있는 끝내주는 방법을 발견하였습니다.
 #
-tc.research_name.FOCUSPORTABLEHOLE=완드 포커스:포터블 홀
-tc.research_text.FOCUSPORTABLEHOLE=Never be without an exit again
-tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extradimensional spaces. Using this focus on a wall or other surface will create an extradimensional passage leading to the other side.<BR>This 'hole' only remains open for a few seconds and drains vis from the wand depending on its depth.<BR>Extradimensional holes cannot be created through certain kinds of matter or particularly complex objects.
+tc.research_name.FOCUSPORTABLEHOLE=완드 포커스: 포터블 홀
+tc.research_text.FOCUSPORTABLEHOLE=EXIT
+tc.research_page.FOCUSPORTABLEHOLE.1=비스를 사용해서 아공간을 여는데 성공했습니다. 이 포커스를 벽이나 바닥에 사용하면 반대편까지 이어지는 아공간이 열립니다.<BR>이 통로는 몇 초 동안만 유지되며 통로의 깊이가 깊을수록 소모하는 비스의 양이 늘어납니다.<BR>아공간 통로는 특정한 물체나 너무 복잡한 물체를 통해서는 열리지 않습니다.
 #
 tc.research_name.FOCUSPOUCH=포커스 주머니
 tc.research_text.FOCUSPOUCH=좀 더 편한 포커스 보관
-tc.research_page.FOCUSPOUCH.1=Once you have gathered a sizable collection of foci it is quite annoying to carry them all with you. This pouch solves that problem.<BR>Whenever you change the focus on your wand, it will check this pouch first and any foci that get removed will be placed inside it first. You can also right-click the pouch to place or remove foci by hand. 
+tc.research_page.FOCUSPOUCH.1=포커스가 많으면 그걸 전부 가지고 다니는것도 일입니다. 하지만 이 주머니가 있으면 인벤토리 공간을 한참 절약할 수 있습니다.<BR>F키를 이용해서 포커스를 교체할 때 주머니에서 포커스를 꺼내놓지 않아도 교체가 가능합니다. 또한 주머니를 우클릭해서 직접 포커스를 장착하거나 분리할 수 있습니다. 
 #
 tc.research_name.BOOTSTRAVELLER=여행자의 신발
 tc.research_text.BOOTSTRAVELLER=본격 워킹화
-tc.research_page.BOOTSTRAVELLER.1=This pair of enchanted boots have been stuffed full of magic to ease the journey of any traveller.<BR>They allow you to move faster than normal. They also allow you to jump higher and fall further.<BR>Lastly they allow you to cut through water like a fish. A slow and clumsy fish, but a fish nonetheless.
+tc.research_page.BOOTSTRAVELLER.1=이 한 켤레의 마법부츠는 여행을 좀 더 편안하게 해주는 마법으로 가득 차 있습니다.<BR>이걸 신으면 평소보다 더 빠르게 걸을 수 있으며 좀 더 높이 뛸 수 있습니다.<BR>한 칸 높이의 블럭은 뛰지 않고도 지나갈 수 있으며 물 속에서도 물고기처럼, 그래도 좀 느리지만, 어쨌든 물고기처럼 재빠르게 움직일 수 있게 해 줍니다.
 #
 tc.research_name.PHIAL=유리병
 tc.research_text.PHIAL=신비한 보관용기
-tc.research_page.PHIAL.1=Glass phials are capable of holding all manner of liquids and substances, but their most important use to a thaumaturge is their ability to hold Essentia.<BR>Essentia is not easy to gather however and it indelibly stains the phial, making it only usable once. 
+tc.research_page.PHIAL.1=유리병은 모든 종류의 액체나 물질을 보관하는 데 적합하며 에센시아 또한 보관할 수 있습니다. 
 #
 tc.research_name.TABLE=테이블
 tc.research_text.TABLE=조립이 필요합니다
-tc.research_page.TABLE.1=The table is more than a simple decorative block - it also serves as a base for other surfaces useful in the practice of magic, like the Arcane Worktable and the Research Table. 
+tc.research_page.TABLE.1=테이블은 그냥 단순한 장식블럭이 아닙니다. 테이블은 아케인 작업대나 연구 테이블 등을 구성하는 가장 기본적인 블럭입니다. 
 #
 tc.research_name.ARCTABLE=아케인 작업대
 tc.research_text.ARCTABLE=마법과 함께 제작을
-tc.research_page.ARCTABLE.1=To create an Arcane Worktable simply right-click with a wand on a table you have placed in the world. The Arcane Worktable serves the same purpose as a normal crafting table, with a few key exceptions.<BR>Apart from normal crafting recipes, it can also craft some of the items unique to Thaumaturgy. To do that you need to place a wand in the top-right slot. This will allow you to craft items that require vis by drawing the energy directly from the wand.<BR>The vis required to craft an item will be shown in the six circular symbols surrounding the crafting grid.
+tc.research_page.ARCTABLE.1=테이블을 설치한 후 완드로 우클릭해서 아케인 작업대를 만들 수 있습니다. 아케인 작업대는 가장 큰 특징을 빼놓는다면 일반 작업대와 동일하게 쓸 수 있습니다.<BR>이 가장 큰 특징은, 이 아케인 작업대에서는 완드를 이용해 여러 특수한 도구들을 만들 수 있다는 겁니다. 제작에 필요한 마법 에너지, 비스는 우측 상단에 놓인 완드에서 끌어다 쓰게 됩니다.<BR>필요한 비스의 종류와 양은 조합창 테두리의 여섯개의 심볼로 표시됩니다.
 #
 tc.research_name.RESTABLE=연구 테이블
 tc.research_text.RESTABLE=지식의 축적을 위해
-tc.research_page.RESTABLE.1=The Research table is created by placing two tables next to each other and then clicking on them with Scribing tools.<BR>The research table is the most important tool for any thaumaturge. It is used to unlock all the hidden secrets of the universe and discover new ways of harnessing magic. 
+tc.research_page.RESTABLE.1=연구 테이블은 테이블 두개를 양쪽으로 서로 붙여놓고 필기도구로 우클릭해 만들 수 있습니다.<BR>이 테이블은 모든 마도학자들에게 없어서는 안될 존재로 마도학자들은 이 테이블에서 마법의 비밀과 그 이용방법을 파헤칩니다. 
 #
 tc.research_name.THAUMONOMICON=사우모노미콘
 tc.research_text.THAUMONOMICON=지식의 보고
-tc.research_page.THAUMONOMICON.1=To craft the Thaumonomicon, you must simply use your wand on a bookshelf placed in the world.<BR>The Thaumonomicon is a reference book of all things thaumaturgical. It lists all the discoveries you have made so far and gives you a general impression of how many there are still to be made.<BR>Whenever you successfully research something and use the scroll, it will automatically be added to this book. You can then browse through the discoveries and click on them to be shown more detailed information regarding them as well as any crafting recipes associated with those discoveries. 
+tc.research_page.THAUMONOMICON.1=사우모노미콘은 책장을 완드로 우클릭해 만들 수 있습니다.<BR>사우모노미콘은 모든 마법의 기본이 되는 책입니다. 이 책에는 지금까지 발견한 모든 것이 표시되며 앞으로 진행할 수 있는 연구에 대한 대략적인 정보를 보여줍니다.<BR>무언가 새로운 연구를 완료했다면 그 발견에 대한 정보가 즉시 사우모노미콘에 등록됩니다. 책을 펼쳐서 지금까지의 발견 목록을 열람할 수 있으며 좀 더 자세한 정보가 보고 싶은 발견이 있다면 그 발견을 선택해서 그것에 대한 자세한 내용과 관련된 조합법들을 볼 수 있습니다. 
 #
-tc.research_name.CRUCIBLE=가마솥
+tc.research_name.CRUCIBLE=도가니
 tc.research_text.CRUCIBLE=보글보글...
-tc.research_page.CRUCIBLE.1=To craft the Crucible, you must simply use your wand on a cauldron placed in the world.<BR>The crucible is an important tool for any thaumaturge. It allows him to render physical objects into their component Essentia and recombine it again as he wishes.<BR>The crucible needs to be placed over a source of constant heat and filled with water. Once the water starts boiling you simply throw any items you wish into the crucible and they will be broken down into their component Essentia.<BR>If you know the proper formula and the mix of essentia within the    
-tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.<BR>Essentia within the crucible is constantly degrading. Compound essentia degrades into one of its component aspects, and Primal essentia simply evaporates.  
-tc.research_page.CRUCIBLE.3=Beyond the waste of resources, evaporating and degrading essentia can cause many strange side-effects.<BR>You can empty a crucible by right-clicking on it with a wand. All the essentia is dumped into the atmosphere... not something you would want to do too often.
+tc.research_page.CRUCIBLE.1=도가니는 가마솥을 완드로 우클릭해 만들 수 있습니다.<BR>도가니는 모든 연금술사들에게 중요한 도구입니다. 도가니를 통해 아이템이나 블럭들을 에센시아로 녹여낼 수 있습니다.<BR>도가니가 작동하기 위해선 지속적인 열을 아래쪽에서 공급해주어야 하며 물이 채워져 있어야 합니다. 물이 끓기 시작했다면 아이템을 던져넣어서 그 아이템의 구성 위상들을 에센시아로 녹여낼 수 있습니다.<BR>알맞는 조합 공식을 알고 있고 도가니 안의 에센시아가
+tc.research_page.CRUCIBLE.2=알맞게 섞여있다면 카탈리스트라 부르는 특별한 아이템을 던져넣을 수 있습니다. 카탈리스트로써 도가니에 던져진 아이템은 에센시아를 흡수해서 새로운 아이템으로 변형됩니다.<BR>조합에 사용되고 남은 에센시아는 도가니에 그대로 남아있지만 이 남은 에센시아를 도가니에 오랫동안 방치하는 것은 그다지 바람직하지 않습니다.<BR>또한 조합에는 약간의 물이 사용되므로 도가니에 물을 주기적으로 채워주어야 합니다. 도가니 안의 에센시아는 천천히 분해됩니다. 복합위상의 에센시아는 그 구성위상의 에센시아로 분해되며 태초의 위상 형태까지 분해된 에센시아는 결국 증발해 버립니다.  
+tc.research_page.CRUCIBLE.3=자원을 낭비한다는 것은 둘째 치고, 에센시아의 분해와 증발은 이상한 부작용들을 일으킵니다.<BR>도가니는 완드로 우클릭을 해서 비울 수 있습니다. 모든 에센시아들을 자주 공기중으로 증발시키면 무언가 좋지 않은 일이 생길 수 있습니다.
 #
 tc.research_name.ENCHFABRIC=마법이 깃든 천
 tc.research_text.ENCHFABRIC=실키 & 스타일리쉬
-tc.research_page.ENCHFABRIC.1=By combining spider silk and wool and infusing it with primal vis, you have created a silky length of magical cloth that would have numerous uses.<BR>You have also discovered patterns to create cloth robes from the magical fabric. These robes have similar protective properties to leather armor, but they are much more durable than mundane materials could ever be.<BR>They also hold mystical enchantments very well and can hold powerful magic much better than even expensive armor.  
-tc.research_page.ENCHFABRIC.2=The various pieces of this outfit grant a small discount to the amount of vis drained from casting wands when you use them.<BR>You can dye the armor like you would leather armor.
+tc.research_page.ENCHFABRIC.1=양털과 거미줄에 비스를 주입해서 다양한 용도를 가진 매우 부드러운 마법 천을 만들 수 있습니다.<BR>이 천으로 옷을 만들 수 있습니다. 이 천으로 만들어진 로브는 방어력이 가죽 방어구와 비슷한 수준이지만, 평범한 물질로 만들어진 방어구에 비해 엄청난 내구도를 지니고 있습니다.<BR>또한 이 로브는 인챈트가 훨씬 수월하며 더 비싼 갑옷들보다도 강력한 마법을 더 오랫동안 머금을 수 있습니다.  
+tc.research_page.ENCHFABRIC.2=이 로브에는 완드의 비스 소모량을 절약해 주는 기능이 있습니다.<BR>가죽 방어구처럼 염색하는 것 또한 가능합니다.
 #
 tc.research_name.ENCHANT=인챈트
 tc.research_text.ENCHANT=새로운 인챈트들
-tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nPotency (foci only)§r<BR>This enchantment increases the damage, range or area of the focus it is applied to.<BR>§nFrugal (foci only)§r<BR>Foci with this enchantment use less vis when activated.<BR>§nTreasure (foci only)§r<BR>This enchantment functions like the Fortune enchantment, increasing the amount of items gained when harvesting.
-tc.research_page.ENCHANT.2=§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearers landspeed. The higher the level of the enchant, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from the aura. The higher the level of the enchantment, the quicker this takes place. This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.
+tc.research_page.ENCHANT.1=사움크래프트는 몇가지 새로운 인챈트들을 추가합니다.<BR>§n파워 (포커스 전용)§r<BR>이 인챈트가 붙은 포커스는 데미지가 더 강력해지거나 사거리 혹은 범위가 증가합니다.<BR>§n효율 (포커스 전용)§r<BR>이 인챈트가 붙은 포커스는 사용시 비스를 더 적게 소비합니다.
+tc.research_page.ENCHANT.2=§n신속§r<BR>이 인챈트는 모든 신발류 방어구에 붙일 수 있으며 이 인챈트가 붙은 신발은 이동속도를 증가시켜줍니다. 인챈트 레벨이 높을수록 이동속도 증가폭이 커집니다.<BR>§n수리§r<BR>이 인챈트는 오라의 힘을 이용하여 도구의 내구도를 조금씩 회복시킵니다. 인챈트 레벨이 높을수록 내구도 회복속도가 빨라집니다. 이 인챈트는 사움크래프트의 장비들 중에도 일부에만 적용할 수 있습니다.
 #
 tc.research_name.ELEMENTALAXE=흐름의 도끼
 tc.research_text.ELEMENTALAXE=나무의 강
-tc.research_page.ELEMENTALAXE.1=By combining water shards and a thaumium axe, you have created a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block. 
-tc.research_page.ELEMENTALAXE.2=In addition all blocks harvested in this manner will automatically flow towards you to be collected.<BR>If you press and hold right click the axe will harvest at a much faster speed, but at a greater cost to its durability.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.#
+tc.research_page.ELEMENTALAXE.1=사우뮴 도끼에 워터 샤드의 마력을 더해 흐르는 물의 특성이 담겨있는 도끼를 만들 수 있습니다..<BR>이 도끼는 다른 도끼와 그 능력이 동일하지만, 원목과 나무를 자를 때만은 다릅니다. 원목에 이 도끼를 사용하게 되면, 이 도끼를 직접 사용한 원목 대신 그 원목에 연결된 가장 멀리 있는 같은 종류의 원목을 캐게 됩니다.<BR>이 효과로 인해 나무의 가장 밑동만 잘라내도 전체 나무를 벌목할 수 있습니다. 
+tc.research_page.ELEMENTALAXE.2=또한 이렇게 잘라낸 나무는 자른 사람에게 흘러와 자동으로 인벤토리에 모입니다.<BR>우클릭으로 도끼를 사용할 경우 매우 빠른 속도로 나무를 캐지만 그만큼 내구도 소모가 커지게 됩니다.<BR>Shift키를 누른 채 이 도끼를 사용하면 모든 특수한 기능들이 작동하지 않고 일반 도끼처럼 쓸 수 있습니다.#
 #
 tc.research_name.ELEMENTALPICK=중심의 곡괭이
 tc.research_text.ELEMENTALPICK=정화의 불꽃
-tc.research_page.ELEMENTALPICK.1=By infusing a thaumium pickaxe with fire shards, you have created a pickaxe that glows with the heat of a forge.<BR>When you mine ore blocks there is a chance that you will mine a cluster instead. Native clusters are much easier to process and produces double the normal amount of metal when smelted.<BR>It can also be use to sound out any surface you right click against to find out what valuable materials can be found nearby.
-tc.research_page.ELEMENTALPICK.2=If shift is held while using this tool all its special properties are suspended and it functions like a normal pickaxe.
+tc.research_page.ELEMENTALPICK.1=사우뮴 곡괭이에 파이어 샤드의 마력을 더해 대장간의 열기로 달아오른 곡괭이를 만들 수 있습니다.<BR>이 곡괭이로 광석을 캘 경우 가끔씩 광물 덩어리를 드롭하는 경우가 있습니다. 이 순수한 광물 덩어리는 가공하기가 좀 더 수월하며 화로에서 구우면 두 배의 광물을 생산해냅니다.<BR>또한 이 곡괭이는 음파를 이용해서 주변에 어떠한 광물이 있는지 알아내는 기능이 있어서 주변의 벽을 우클릭할 경우 근처에 묻혀있는 광물들의 위치를 알려줍니다.
+tc.research_page.ELEMENTALPICK.2=Shift키를 누른 채 이 곡괭이를 사용하면 모든 특수한 기능들이 작동하지 않고 일반 곡괭이처럼 쓸 수 있습니다.
 #
 tc.research_name.ELEMENTALSWORD=미풍의 검
 tc.research_text.ELEMENTALSWORD=바람의 분노
-tc.research_page.ELEMENTALSWORD.1=You have merged the elemental fury of air shards with a thaumium sword.<BR>When used to strike a foe, the blade will sweep in a wide arc, hitting additional foes near you main target.<BR>While blocking the sword will conjure a sphere of whirling winds around you, pushing enemies and loose objects away and deflecting incoming projectiles.<BR>While blocking it will also slowly lift you into the air.
+tc.research_page.ELEMENTALSWORD.1=사우뮴 검에 에어 샤드의 마력을 더해 바람의 힘이 깃들어있는 검을 만들 수 있습니다.<BR>이 검으로 적을 공격하면 부채꼴 모양으로 주변의 적을 추가적으로 공격합니다.<BR>이 검을 들고 방어자세를 취하게 되면 사용자의 주위에 소용돌이치는 바람의 방어막을 소환해서 근처의 적이나 날아오는 물체들을 모두 튕겨냅니다.<BR>바람 방어막이 소환된 동안 사용자는 천천히 하늘로 떠오릅니다.
 #
 tc.research_name.ELEMENTALSHOVEL=땅을 움직이는 자의 삽
 tc.research_text.ELEMENTALSHOVEL=대지의 움직임
-tc.research_page.ELEMENTALSHOVEL.1=Combining earth shards with a thaumium shovel you have created a peerless digging implement.<BR>When used to dig earth, sand and similar materials it will dig a 3x3 area.<BR>If you right click on the side of a block, it will attempt to place a 3x3 section of the same material in the world as long as you have sufficient blocks in your inventory.<BR>The orientation of both the digging and construction depends on the face you dug or clicked.
-tc.research_page.ELEMENTALSHOVEL.2=If shift is held while using this tool all its special properties are suspended and it functions like a normal shovel.
+tc.research_page.ELEMENTALSHOVEL.1=사우뮴 삽에 테라 샤드의 마력을 더해 멈출 수 없는 성능을 보여주는 삽을 만들 수 있습니다.<BR>이 삽은 한번에 3x3공간을 파냅니다.<BR>블록의 한 면을 이 삽으로 우클릭하면 인벤토리에 충분한 양의 블럭이 있을 경우 같은 종류의 블럭을 3x3크기로 놓습니다.<BR>파는 방향이나 블럭을 설치하는 방향은 캐거나 설치할 때 누르는 방향으로 결정됩니다.
+tc.research_page.ELEMENTALSHOVEL.2=Shift키를 누른 채 이 삽을 사용하면 모든 특수한 기능들이 작동하지 않고 일반 삽처럼 쓸 수 있습니다.
 #
 tc.research_name.ELEMENTALHOE=성장의 괭이
 tc.research_text.ELEMENTALHOE=자연의 균형
-tc.research_page.ELEMENTALHOE.1=By merging the magical energy from order and entropy shards with a thaumium hoe, you have created a farming implement with few equals.<BR>When used to till fields, it will till a 3x3 area instead of just a single block.<BR>When used to crops or other plants it will act as bonemeal to promote its growth, though at a higher cost to its durability. It might even be able to grow plants that normal bonemeal can't.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal hoe.
+tc.research_page.ELEMENTALHOE.1=사우뮴 괭이에 오더와 엔트로피 샤드의 마력을 더해 자연의 균형을 이루는 힘이 담긴 괭이를 만들 수 있습니다.<BR>이 괭이는 한번에 3x3공간을 경작합니다.<BR>작물이나 다른 식물에 사용하면 뼛가루와 같은 효과를 볼 수 있지만 내구도가 경작할 때보다 크게 소모됩니다. 또한 뼛가루로 성장시킬 수 없는 종류의 식물도 성장시킬 수 있습니다.<BR>Shift키를 누른 채 이 괭이를 사용하면 모든 특수한 기능들이 작동하지 않고 일반 괭이처럼 쓸 수 있습니다.
 #
 tc.research_name.GUNPOWDER=화약
 tc.research_text.GUNPOWDER=아직도 크리퍼가 필요하다고?
-tc.research_page.GUNPOWDER.1=화약의 제조 방법을 터득했습니다. 더이상 화약때문에 크리퍼를 잡을 필요는 없을 것 같군요.
+tc.research_page.GUNPOWDER.1=화약의 제조 방법을 터득했습니다. 이제 화약때문에 크리퍼를 잡다 집이 날아가는 일은 없겠군요.
 #
 tc.research_name.TRANSIRON=철 연성
 tc.research_text.TRANSIRON=금속으로부터 철 연성하기
-tc.research_page.TRANSIRON.1=You have discovered a way to multiply iron by steeping iron nuggets in §5metallum§0 harvested from other metals.
+tc.research_page.TRANSIRON.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 철조각을 복제하는 방법을 알아냈습니다.
 #
 tc.research_name.TRANSGOLD=금 연성
-tc.research_text.TRANSGOLD=Transformation of metals into gold
-tc.research_page.TRANSGOLD.1=You have discovered a way to multiply gold by steeping gold nuggets in §5metallum§0 harvested from other metals.
+tc.research_text.TRANSGOLD=금속으로부터 금 연성하기
+tc.research_page.TRANSGOLD.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 금조각을 복제하는 방법을 알아냈습니다.
 #
 tc.research_name.TRANSCOPPER=구리 연성
-tc.research_text.TRANSCOPPER=Transformation of metals into copper
-tc.research_page.TRANSCOPPER.1=You have discovered a way to multiply copper by steeping copper nuggets in §5metallum§0 harvested from other metals.
+tc.research_text.TRANSCOPPER=금속으로부터 구리 연성하기
+tc.research_page.TRANSCOPPER.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 구리조각을 복제하는 방법을 알아냈습니다.
 #
 tc.research_name.TRANSTIN=주석 연성
-tc.research_text.TRANSTIN=Transformation of metals into tin
-tc.research_page.TRANSTIN.1=You have discovered a way to multiply tin by steeping tin nuggets in §5metallum§0 harvested from other metals.
+tc.research_text.TRANSTIN=금속으로부터 주석 연성하기
+tc.research_page.TRANSTIN.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 주석조각을 복제하는 방법을 알아냈습니다.
 #
 tc.research_name.TRANSSILVER=은 연성
-tc.research_text.TRANSSILVER=Transformation of metals into silver
-tc.research_page.TRANSSILVER.1=You have discovered a way to multiply silver by steeping silver nuggets in §5metallum§0 harvested from other metals.
+tc.research_text.TRANSSILVER=금속으로부터 은 연성하기
+tc.research_page.TRANSSILVER.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 은조각을 복제하는 방법을 알아냈습니다.
 #
 tc.research_name.TRANSLEAD=납 연성
-tc.research_text.TRANSLEAD=Transformation of metals into lead
-tc.research_page.TRANSLEAD.1=You have discovered a way to multiply lead by steeping lead nuggets in §5metallum§0 harvested from other metals.
+tc.research_text.TRANSLEAD=금속으로부터 납 연성하기
+tc.research_page.TRANSLEAD.1=다른 금속으로부터 추출된 §5Metallum§0위상을 통해 납조각을 복제하는 방법을 알아냈습니다.
 #
 tc.research_name.TALLOW=마법 수지
 tc.research_text.TALLOW=마법으로 가공된 수지
-tc.research_page.TALLOW.1=By processing and heating flesh in a crucible, you can create a mystical tallow suited for many arcane uses.<BR>This tallow can be used to craft candles. It is also possible to craft different coloured candles by combining a candle with a dye in an arcane workbench.
+tc.research_page.TALLOW.1=마법적인 용도로 많이 사용되는 이 특수한 수지는 도가니에서 살점을 열처리해서 만들 수 있습니다.<BR>이 수지로는 양초를 만들 수 있으며 아케인 작업대에서 염료를 이용해 여러 색의 양초를 만들 수도 있습니다.
 #
 tc.research_name.GOLEMSTRAW=밀짚 골렘
 tc.research_text.GOLEMSTRAW=가장 단순한 마법 하인
-tc.research_page.GOLEMSTRAW.1=You have discovered the secret of creating golem workers. While the Iron Golem is impressive in its own way, it is very limited and uncontrollable. You have managed to solve both those problems.<BR>Your golem workers have just enough will and self-awareness to make them useful tools, but not enough to render them uncontrollable.<LINE>You have also discovered how to make the §5Golemancer's Bell§0 and §5Golem Animation Cores§0 (see their respective research entries for more detail).
-tc.research_page.GOLEMSTRAW.2=The golem you craft can be placed in the world, but will remain inactive until given an animation core.<BR>The placement of the golem needs to be considered carefully - if you wish it to interact with inventories, you will need to place it by clicking (or shift-clicking) on the inventory on the side you wish it to interact with.<BR>Most golems can operate in a range of 16 blocks around their home location.
-tc.research_page.GOLEMSTRAW.3=The first golem you can create is made from bundles of hay and straw. It is physically weak and easy to destroy, but very light and nimble.<BR>§l§nStraw Golem Attributes§r<BR>§lDurability:§r Very Low<BR>§lStrength:§r Very Low<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 1<BR>§lSpeed:§r Fast<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMSTRAW.1=골렘 일꾼 제작의 비밀을 알아내었습니다. 마을에서 종종 보이는 철 골렘은 그 자체로도 쓸만하지만 내 마음대로 제어하는데는 한계가 있었습니다. 이제 이러한 문제점들을 해결할 수 있습니다.<BR>이 새로운 골렘 일꾼은 약간의 지능을 가지고 있어서 원하는 일들을 시킬 수 있습니다.<LINE>또한 §5골레멘서의 종§0과 §5골렘 코어§0 제작이 가능합니다. 이들에 대한 더 자세한 정보는 사우모노미콘 골렘학 다른 파트에 나와있습니다.
+tc.research_page.GOLEMSTRAW.2=막 만들어진 골렘도 소환 할 수는 있지만 코어가 장착되기 전까진 아무 일도 할 수 없습니다.<BR>골렘을 놓을 자리는 신중하게 결정해야 합니다 - 골렘을 특정 인벤토리와 연결시키고 싶다면 골렘과 연결시킬 방향에서 우클릭(또는 쉬프트 우클릭)으로 소환하면 됩니다.<BR>대부분의 골렘들은 소환된 장소에서 최대 16블럭 내의 다른 블럭들과 교류가 가능합니다.
+tc.research_page.GOLEMSTRAW.3=처음으로 제작해 볼 수 있는 골렘은 밀짚으로 만들어진 골렘입니다. 이 골렘은 매우 연약하지만 무게가 굉장히 가벼워 빠른 속도를 가지고 있습니다.<BR>§l§n밀짚 골렘 성능§r<BR>§l내구성:§r 매우 낮음<BR>§l힘:§r 매우 약함<BR>§l자가회복:§r 평균<BR>§l운반 한계:§r 1<BR>§l속도:§r 빠름<BR>§l가능한 업그레이드 갯수:§r 1
 #
 tc.research_name.GOLEMWOOD=나무 골렘
 tc.research_text.GOLEMWOOD=이 나무꾼 나무골렘이 나무를 얼마나 많이 벌목해야 좋은 나무꾼 나무골렘입니까?
-tc.research_page.GOLEMWOOD.1=This golem is carved from a greatwood log. It is a moderate improvement over the straw golem.<BR>§l§nWood Golem Attributes§r<BR>§lDurability:§r Below Average<BR>§lStrength:§r Low<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 4<BR>§lSpeed:§r Above Average<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMWOOD.1=그레이트우드 나무를 깎아서 만든 이 골렘은 밀짚 골렘보다 좀 더 나은 성능을 보여줍니다.<BR>§l§n나무 골렘 성능§r<BR>§l내구성:§r 평균 이하<BR>§l힘:§r 약함<BR>§l자가회복:§r 평균<BR>§l운반 한계:§r 4<BR>§l속도:§r 평균 이상<BR>§l가능한 업그레이드 갯수:§r 1
 #
 tc.research_name.GOLEMTALLOW=수지 골렘
 tc.research_text.GOLEMTALLOW=불에서 멀리하세요
-tc.research_page.GOLEMTALLOW.1=This advanced golem is only marginally better than the wood golem, but is capable of holding two upgrades.<BR>§l§nTallow Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength:§r Average<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMTALLOW.1=이 상급 골렘은 기본적인 능력은 점토 골렘과 비슷하지만 2개의 업그레이드를 장착할 수 있다는 장점이 있습니다.<BR>§l§n수지 골렘 성능§r<BR>§l내구성:§r 평균<BR>§l힘:§r 평균<BR>§l자가회복:§r 평균<BR>§l운반 한계:§r 8<BR>§l속도:§r 평균<BR>§l가능한 업그레이드 갯수:§r 2
 #
 tc.research_name.GOLEMCLAY=점토 골렘
-tc.research_text.GOLEMCLAY=힘쎄고 오래가는
-tc.research_page.GOLEMCLAY.1=Fired clay is proven to be a superior crafting material for golems. It is fireproof and has more than adequate mobility.<BR>§l§nClay Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength:§r Average<BR>§lSelf-repair:§r Slow<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 1
+tc.research_text.GOLEMCLAY=힘쎄고 오래가는 -
+tc.research_page.GOLEMCLAY.1=구운 점토는 골렘 제작에 아주 적합합니다. 이 골렘은 높은 화염 저항력과 적당한 속도를 보여줍니다.<BR>§l§n점토 골렘 성능§r<BR>§l내구성:§r 평균<BR>§l힘:§r 평균<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 8<BR>§l속도:§r 평균<BR>§l가능한 업그레이드 갯수:§r 1
 #
 tc.research_name.GOLEMFLESH=살점 골렘
 tc.research_text.GOLEMFLESH=살아 움직인다!
-tc.research_page.GOLEMFLESH.1=While macabre, golems made from zombie flesh has several features to reccomend them. Not only does it repair itself very quickly, it is able to hold 2 upgrades.<BR>§l§nFlesh Golem Attributes§r<BR>§lDurability:§r Low<BR>§lStrength:§r Low<BR>§lSelf-repair:§r Very Fast<BR>§lCarry Limit:§r 4<BR>§lSpeed:§r Above Average<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMFLESH.1=소름끼치는 좀비 살점으로 만들어진 이 골렘은 몇가지 장점이 있습니다. 좀비의 살로 만들어졌기 때문에 회복속도가 매우 빠르며 업그레이드를 2개까지 장착 가능합니다.<BR>§l§n살점 골렘 성능§r<BR>§l내구성:§r 낮음<BR>§l힘:§r 약함<BR>§l자가회복:§r 매우 빠름<BR>§l운반 한계:§r 4<BR>§l속도:§r 평균 이상<BR>§l가능한 업그레이드 갯수:§r 2
 #
 tc.research_name.GOLEMSTONE=스톤 골렘
-tc.research_text.GOLEMSTONE=강하지만 느린
-tc.research_page.GOLEMSTONE.1=Stone golems are very durable and able to carry heavy loads, but they are much slower than most other golems.<BR>§l§nStone Golem Attributes§r<BR>§lDurability:§r Above Average<BR>§lStrength:§r Above Average<BR>§lSelf-repair:§r Slow<BR>§lCarry Limit:§r 16<BR>§lSpeed:§r Slow<BR>§lUpgrades:§r 1
+tc.research_text.GOLEMSTONE=느리지만 강력한 - 
+tc.research_page.GOLEMSTONE.1=스톤 골렘은 꽤나 튼튼하고 힘 쓰는 일에도 적합하지만 속도가 대부분의 다른 골렘들에 비해 느립니다.<BR>§l§n스톤 골렘 성능§r<BR>§l내구성:§r 평균 이상<BR>§l힘:§r 평균 이상<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 16<BR>§l속도:§r 느림<BR>§l가능한 업그레이드 갯수:§r 1
 #
 tc.research_name.GOLEMIRON=아이언 골렘
 tc.research_text.GOLEMIRON=작은 마을 골렘
-tc.research_page.GOLEMIRON.1=Iron golems are extremely tough and strong, able to carry huge loads. Their weight however causes them to move quite slowly.<BR>§l§nIron Golem Attributes§r<BR>§lDurability:§r High<BR>§lStrength:§r High<BR>§lSelf-repair:§r Very Slow<BR>§lCarry Limit:§r 32<BR>§lSpeed:§r Very Slow<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMIRON.1=아이언 골렘은 굉장히 튼튼하며 아주 힘든 일 또한 척척 해냅니다. 하지만 무게가 무겁기 때문에 속도는 꽤나 느린 편입니다.<BR>§l§n아이언 골렘 성능§r<BR>§l내구성:§r 높음<BR>§l힘:§r 강력함<BR>§l자가회복:§r 매우 느림<BR>§l운반 한계:§r 32<BR>§l속도:§r 매우 느림<BR>§l가능한 업그레이드 갯수:§r 1
 #
 tc.research_name.GOLEMTHAUMIUM=사우뮴 골렘
 tc.research_text.GOLEMTHAUMIUM=신비한 하인
-tc.research_page.GOLEMTHAUMIUM.1=Thaumium golems have slightly better attributes than iron golems and are able to have 2 upgrades. They are also highly resistant to magical damage.<BR>§l§nThaumium Golem Attributes§r<BR>§lDurability:§r Very High<BR>§lStrength:§r High<BR>§lSelf-repair:§r Slow<BR>§lCarry Limit:§r 32<BR>§lSpeed:§r Slow<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMTHAUMIUM.1=사우뮴 골렘은 아이언 골렘보다 약간 더 나은 성능을 보여주며 2개의 업그레이드를 장착 가능합니다. 또한 마법 데미지에 약간의 저항력이 있습니다.<BR>§l§n사우뮴 골렘 성능§r<BR>§l내구성:§r 매우 높음<BR>§l힘:§r 강력함<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 32<BR>§l속도:§r 느림<BR>§l가능한 업그레이드 갯수:§r 2
 #
 tc.research_name.GOLEMBELL=골레맨서의 종
 tc.research_text.GOLEMBELL=집중!
-tc.research_page.GOLEMBELL.1=Golems are notoriously bad at following verbal commands, but this bell allows you to avoid all that.<BR>Simply right click on a golem to select it. Once that is done a glowing, gearlike circle will appear indicating the golems 'home' location and the side it is attached to.<BR> You are now able to right click anywhere in the world to link the golem to blocks, locations or inventories it may interact with. Clicking on the same location will either unmark it, or cycle through different colors if the golem is able to interact with different colored markers.
-tc.research_page.GOLEMBELL.2=<BR>Shift + right-clicking on a marked location will always clear it and pressing F will clear all marked locations.<LINE>Left-clicking on a golem picks it up with all its current upgrades and settings intact. Shift + left-clicking picks up the golem, but removes its core and any attached upgrades which drops separately. There is a good chance that upgrades will be lost if you do this however. 
+tc.research_page.GOLEMBELL.1=골렘은 말로 된 명령을 잘 알아듣지 못하기로 악명 높기 때문에 대신 이 종을 사용해서 명령을 내릴 수 있습니다.<BR>명령을 내릴 골렘을 이 종으로 우클릭하면 골렘이 처음 소환되어 연결된 장소에 빛나는 원형 표식이 나타납니다.<BR> 그 다음 어떤 블록이던 그 골렘이 교류하기를 원한다면 해당 블록의 원하는 방향을 우클릭해 지정할 수 있습니다. 이미 지정된 곳을 다시 우클릭하면 지정이 해제되거나, 여러 색의 표식과 교류가 가능한 골렘이라면 표식의 색이 바뀝니다.
+tc.research_page.GOLEMBELL.2=<BR>표식을 Shift 우클릭하면 해당 표식을 제거하며 F키를 누를 경우 모든 표식을 제거합니다.<LINE>이 종으로 골렘을 좌클릭 할 경우 코어와 업그레이드가 장착된 채로 아이템화 됩니다. Shift 좌클릭의 경우에는 장착된 업그레이드와 코어가 모두 분리되어 따로 아이템화됩니다. 하지만 이 과정에서 골렘 업그레이드는 소실될 수도 있습니다. 
 #
-tc.research_name.COREGATHER=골렘 코어 : 줍기
-tc.research_text.COREGATHER=Picking up what you are putting down
-tc.research_page.COREGATHER.1=Golem Animations cores are used to give your golems purpose - without a core they remain inanimate.<BR>The first such core you are able to create is the §5Gather§0 core.<BR>Golems fitted with this core will seek dropped items within 16 blocks, pick them up and then place them inside an attached inventory. If they are not attached to an inventory they will simply hold on to them.<BR>If you right click on the golem you will be able to set specific items they should pick up - all others will be ignored.
-tc.research_page.COREGATHER.2=Simply right-click on a freshly placed golem with a core to attach it to the golem. 
+tc.research_name.COREGATHER=골렘 코어: 줍기
+tc.research_text.COREGATHER=떨어진 것을 줍습니다
+tc.research_page.COREGATHER.1=골렘 코어는 장착된 골렘에게 할 일을 부여합니다 - 코어가 없이는 골렘은 작동하지 않습니다.<BR>가장 첫번째로 제작할 수 있는 코어는 §5줍기§0 코어 입니다.<BR>이 코어가 장착된 골렘은 16블록 이내의 떨어져있는 아이템을 주워서 연결된 인벤토리에 집어넣습니다. 만약 인벤토리와 연결되어있지 않다면 주운 아이템을 들고 있게 됩니다.<BR>골렘을 우클릭해서 특정 아이템만 줍도록 설정할 수 있습니다.
+tc.research_page.COREGATHER.2=골렘 코어로 설치된 골렘을 우클릭해서 코어를 장착시킬 수 있습니다. 
 #
-tc.research_name.COREEMPTY=골렘 코어 : 비우기
-tc.research_text.COREEMPTY=Moving things somewhere else
-tc.research_page.COREEMPTY.1=Golems fitted with this core will remove items from an attached inventory and take them to the marked location. If the marked location is a container, they will place it inside.<BR>If you wish, you can specify what items should be removed from the inventory by accessing the golems interface. All other items will be ignored.
+tc.research_name.COREEMPTY=골렘 코어: 비우기
+tc.research_text.COREEMPTY=물건들을 다른곳으로 옮깁니다
+tc.research_page.COREEMPTY.1=이 코어가 장착된 골렘은 연결된 인벤토리의 아이템을 꺼내서 지정된 장소로 가져갑니다. 만약 인벤토리가 있는 블럭을 지정해 주었다면 아이템을 그 인벤토리에 옮겨넣습니다.<BR>골렘을 우클릭해 특정 아이템만 꺼내가도록 설정할 수 있습니다.
 #
-tc.research_name.COREUSE=골렘 코어 : 사용하기
-tc.research_text.COREUSE=Clickety click
-tc.research_page.COREUSE.1=Like the Empty core, golems fitted with this core will remove items from an attached inventory, but instead of placing it in an inventory or dropping it in world, they will attempt to use it on a target block or location.<BR>They will attempt to use the item as if they are a player right-clicking on the target block or location with the item.<BR>If you wish, you can specify what items should be removed from the inventory by accessing the golems interface. All other items will be ignored.
+tc.research_name.COREUSE=골렘 코어: 사용하기
+tc.research_text.COREUSE=클릭 클릭
+tc.research_page.COREUSE.1=마치 비우기 코어처럼 이 코어가 장착된 골렘은 연결된 인벤토리에서 아이템을 꺼냅니다. 하지만 이 코어가 장착된 골렘은 그 아이템을 지정된 인벤토리에 넣거나 땅바닥에 버리는 대신 지정된 장소나 블럭 위에 사용합니다.<BR>골렘이 아이템을 사용하면 플레이어가 마치 우클릭을 한 것과 같은 효과가 발생합니다.<BR>골렘을 우클릭해서 특정 아이템만 꺼내 사용하도록 설정할 수 있습니다.
 #
-tc.research_name.COREFILL=골렘 코어 : 채우기
-tc.research_text.COREFILL=Keeping an inventory supplied
-tc.research_page.COREFILL.1=Golems fitted with this core will examine inventories you have marked for certain items, and place them in their home inventory.<BR>There are two modes of operation:<BR>In §5Precise Amount§0 mode the golem will fill its home inventory with the specified items until it contains an amount equal to the amount you specified in its interface.<BR>In §5Any Amount§0 mode the golem will keep filling the current inventory with the specified items as long as there is room and available items.
+tc.research_name.COREFILL=골렘 코어: 채우기
+tc.research_text.COREFILL=인벤토리를 항상 채워둡니다
+tc.research_page.COREFILL.1=이 코어가 장착된 골렘은 지정된 인벤토리에서 특정 아이템을 찾아서 해당 골렘이 연결된 인벤토리에 채워넣습니다.<BR>두가지 옵션중 하나를 선택할 수 있습니다:<BR>§5Precise Amount§0는 채워둘 아이템의 수량이 플레이어가 설정해둔 양과 같아질 때까지 아이템을 채워넣습니다.<BR>§5Any Amount§0모드에서는 연결된 인벤토리에 빈 공간이 있을 경우 지정한 아이템을 계속해서 채워넣습니다.
 #
-tc.research_name.COREHARVEST=골렘 코어 : 수확하기
-tc.research_text.COREHARVEST=Animated Farmer
-tc.research_page.COREHARVEST.1=Golems fitted with this core need not be attached to an inventory. They seek out fully grown crops, reeds and other commonly farmed plants within a small radius and harvests them. The harvested material simply drops to the ground and must be gathered by some other means.<BR>Unfortunately they are not smart enough to replant the crops they have harvested, but you are sure with a bit of work you might be able to eventually fix that bug.
-tc.research_page.COREHARVEST.2=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Harvest golems fitted with this upgrade will now attempt to replant the crop they just harvested. This could fail if the plant failed to drop the proper seed or seedling.
+tc.research_name.COREHARVEST=골렘 코어: 수확하기
+tc.research_text.COREHARVEST=골렘 농부
+tc.research_page.COREHARVEST.1=이 코어가 장착된 골렘은 인벤토리에 연결시켜서 소환할 필요가 없습니다. 수확 코어 골렘은 좁은 반경 내의 다 자란 작물을 수확합니다. 수확 코어 골렘은 수확된 작물을 모아오지는 않기 때문에 직접 줍거나 다른 방법을 이용해야 합니다.<BR>골렘은 수확 후 씨앗을 다시 심을 정도로 똑똑하진 않습니다. 하지만 후에 약간의 노력으로 이러한 문제점을 보완 할 수 있습니다.
+tc.research_page.COREHARVEST.2=         §n오더 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>이 업그레이드가 장착된 수확 코어 골렘은 수확한 작물의 씨앗을 다시 심습니다. 수확된 작물이 적당한 씨앗을 떨어뜨리지 않는다면 씨앗을 다시 심을 수 없습니다.
 #
-tc.research_name.CORELUMBER=골렘 코어 : 벌목하기
-tc.research_text.CORELUMBER=Animated lumberjack
-tc.research_page.CORELUMBER.1=Like Harvester golems, Lumberjack golems can be placed anywhere. They will seek out nearby trees and chop them down. Stronger golems will chop them down faster.<BR>Lumberjack golems do not replant the trees they have chopped down.
+tc.research_name.CORELUMBER=골렘 코어: 벌목하기
+tc.research_text.CORELUMBER=골렘 벌목꾼
+tc.research_page.CORELUMBER.1=수확 코어 골렘처럼 벌목 코어 골렘은 아무데나 소환이 가능합니다. 이 코어가 장착된 골렘은 주변의 나무를 벌목하며, 힘이 쎈 골렘일수록 벌목 속도가 빠릅니다.<BR>벌목 코어 골렘은 벌목한 나무 묘목을 다시 심지 않습니다.
 #
-tc.research_name.COREGUARD=골렘 코어 : 보호하기
-tc.research_text.COREGUARD=Guarding your valuables
-tc.research_page.COREGUARD.1=Golems fitted with this core act as guards, attacking any hostile creatures within range.<BR>You are sure with a little bit of tinkering you could make the golem a bit more selective with the targets it attacks, but for now it only seeks out aggressive mobs other than creepers.
-tc.research_page.COREGUARD.2=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>If you fit this upgrade you can specify the types of creatures the golem will attack. The golem will also be able to attack more than just hostile entities.
+tc.research_name.COREGUARD=골렘 코어: 보호하기
+tc.research_text.COREGUARD=소중한 것들을 보호합니다
+tc.research_page.COREGUARD.1=이 코어가 장착된 골렘은 마치 경호원처럼 주변의 적대적인 몬스터를 공격합니다.<BR>약간의 조작을 통해 공격 대상을 지정해 줄 수도 있지만 지금 당장은 크리퍼를 제외한 다른 적대적인 몬스터만을 공격합니다.
+tc.research_page.COREGUARD.2=         §n오더 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>이 업그레이드가 장착된 보호 코어 골렘은 공격 대상을 지정할 수 있습니다. 또한 적대적인 몬스터 뿐만 아니라 다른 대상도 공격대상으로 지정할 수 있습니다.
 #
-tc.research_name.CORELIQUID=골렘 코어 : 액체 붓기
-tc.research_text.CORELIQUID=Keeping a tank filled with liquid
-tc.research_page.CORELIQUID.1=Golems fitted with this core will attempt to keep the liquid inventory they are attached to filled with an appropriate liquid.<BR>If you wish, you can specify what liquid should placed in the tank by accessing the golems interface and placing a liquid container (like a filled bucket) in a slot. All other liquids will be ignored.<BR>A decanting golem can only carry 100mb of liquid per item its material type is normally allowed to carry, though they will always carry a full buckets worth if instructed to pick up liquids blocks in the world.
+tc.research_name.CORELIQUID=골렘 코어: 액체 채우기
+tc.research_text.CORELIQUID=탱크에 항상 액체를 채워둡니다
+tc.research_page.CORELIQUID.1=이 코어가 장착된 골렘은 연결된 블럭의 액체 탱크에 적절한 액체를 항상 채워둡니다.<BR>골렘을 우클릭해 원하는 액체가 담긴 용기(물 양동이 등)를 지정해 줘서 특정 액체만 채우도록 할 수 도 있습니다.<BR>골렘은 한번에 100mb의 액체밖에 옮길 수 없지만 액체 블럭을 직접 퍼서 옮기도록 지정할 경우 한번에 한 블럭(1000mb) 전체를 옮깁니다.
 #
-tc.research_name.COREALCHEMY=골렘 코어 : 연금술
-tc.research_text.COREALCHEMY=Moving essentia around
-tc.research_page.COREALCHEMY.1=This core is a specialized version of a decanting core, specifically designed to transport essentia.<BR>Alchemy golems assigned to an alchemy furnace or alembic it will draw essentia from the entire stack of alembics and transport it to marked warded jars. It is not required to mark every single jar - the golem will automatically fill all jars adjacent to the marked jar and all other similarly connected jars.<BR>Alchemy golems prioritize nearby jars first and will try to fill an entire jar before starting on a new one.
+tc.research_name.COREALCHEMY=골렘 코어: 연금술
+tc.research_text.COREALCHEMY=에센시아를 옮깁니다
+tc.research_page.COREALCHEMY.1=이 코어는 액체 채우기 코어를 좀 더 특별한 쪽으로 최적화 시킨 코어로, 에센시아를 옮기기 위해 특별히 만들어졌습니다.<BR>연성 화로나 증류기에 연결된 연금술 코어 골렘은 증류기에 담긴 에센시아 전부를 지정된 단지로 옮깁니다. 모든 단지에 표식을 지정해 줄 필요는 없습니다. 이 골렘은 지정된 단지 주변에 붙어있는 모든 단지에 차례대로 에센시아를 채워넣습니다.<BR>연금술 코어 골렘은 지정된 단지가 다 찼을 경우 그 단지와 가장 가까운 단지부터 가득 채워 나갑니다.
 #
-tc.research_name.UPGRADEAIR=골렘 업그레이드 : 에어
+tc.research_name.UPGRADEAIR=골렘 업그레이드: 에어
 tc.research_text.UPGRADEAIR=더 빠른 골렘
-tc.research_page.UPGRADEAIR.1=When this upgrade is attached to a golem it will increase its movement and ranged attack speed.<BR>Specific golem cores might benefit from this upgrade in other ways, so you might wish to check if additional pages were added to their Thaumonomicon entry.
+tc.research_page.UPGRADEAIR.1=이 업그레이드가 장착된 골렘은 이동속도가 빨라지며 범위공격 속도가 증가합니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
 #
-tc.research_name.UPGRADEEARTH=골렘 업그레이드 : 어스
+tc.research_name.UPGRADEEARTH=골렘 업그레이드: 어스
 tc.research_text.UPGRADEEARTH=더 강한 골렘
-tc.research_page.UPGRADEEARTH.1=This upgrade will increase the amount of items your golem can carry at a time. Each upgrade increases the limit by between 4 and 16 (dependant on the golems base carry limit).<BR>It also increase its physical damage and how quickly it harvests materials or performs tasks dependant on brute strength.<BR>Specific golem cores might benefit from this upgrade in other ways, so you might wish to check if additional pages were added to their Thaumonomicon entry.
+tc.research_page.UPGRADEEARTH.1=이 업그레이드는 골렘이 한 번에 옮길 수 있는 아이템의 수량을 늘려줍니다. 각각의 업그레이드는 운반 한계를 4에서 최대 16까지(골렘의 기본 운반 능력에 따라 달라짐) 늘려줍니다.<BR>또한 물리 공격력을 증가시켜주고 작물 수확이나 벌목 등 일 처리 속도를 빠르게 해 줍니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
 #
-tc.research_name.UPGRADEFIRE=골렘 업그레이드 : 파이어
+tc.research_name.UPGRADEFIRE=골렘 업그레이드: 파이어
 tc.research_text.UPGRADEFIRE=더 뜨거운 골렘
-tc.research_page.UPGRADEFIRE.1=This upgrade increases the interface inventory of a golem by 2 slots, allowing more items to be filtered or sorted.<BR>The golem's melee attacks also sets its target on fire.<BR>Specific golem cores might benefit from this upgrade in other ways, so you might wish to check if additional pages were added to their Thaumonomicon entry.
+tc.research_page.UPGRADEFIRE.1=이 업그레이드는 골렘의 아이템 지정 슬롯을 2개로 늘려주어 더 다양한 종류의 아이템을 분류/필터링 할 수 있게 해 줍니다.<BR>또한 골렘의 타격공격에 맞은 대상에 불이 붙습니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
 #
-tc.research_name.UPGRADEWATER=골렘 업그레이드 : 워터
+tc.research_name.UPGRADEWATER=골렘 업그레이드: 워터
 tc.research_text.UPGRADEWATER=더 예민한 골렘
-tc.research_page.UPGRADEWATER.1=This upgrade increases the visual range of most golems allowing them to travel further afield to perform their tasks.<BR>It also increases the range and accuracy of ranged attacks.<BR>Specific golem cores might benefit from this upgrade in other ways, so you might wish to check if additional pages were added to their Thaumonomicon entry.
+tc.research_page.UPGRADEWATER.1=이 업그레이드는 골렘의 작업 반경을 늘려줍니다.<BR>또한 골렘의 범위공격의 정확도를 향상시켜 줍니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
 #
-tc.research_name.UPGRADEORDER=골렘 업그레이드 : 오더
+tc.research_name.UPGRADEORDER=골렘 업그레이드: 오더
 tc.research_text.UPGRADEORDER=더 논리적인 골렘
-tc.research_page.UPGRADEORDER.1=This upgrade allows golems to specify different colors for blocks marked with the Golemancer's Bell. This allows for greater control over what they do and where they do it.<BR>This upgrade also unlocks certain features of some golem cores giving them a greater scope of operation.<BR>Specific golem cores might benefit from this upgrade in other ways, so you might wish to check if additional pages were added to their Thaumonomicon entry.
+tc.research_page.UPGRADEORDER.1=이 업그레이드는 골렘이 여러 색 표식을 사용할 수 있도록 해줍니다. 이것은 골렘이 어디서 무엇을 할지 설정하는것을 매우 쉽게 해줍니다.<BR>또한 이 업그레이드는 특정 골렘 코어들의 능률을 올려주는 추가 기능들을 사용할 수 있도록 해 줍니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
 #
-tc.research_name.UPGRADEENTROPY=골렘 업그레이드 : 엔트로피
+tc.research_name.UPGRADEENTROPY=골렘 업그레이드: 엔트로피
 tc.research_text.UPGRADEENTROPY=더 성급한 골렘
-tc.research_page.UPGRADEENTROPY.1=Golems fitted with this upgrade automatically inflicts damage on anything damaging them.<BR>Golems with this upgrade also become slightly less discerning. In general this means that when tasked to filter a certain type of item (a copper ingot for instance) they will check for all items that count as copper ingots - not just the specific ingot you specified.<BR>Specific golem cores might benefit from this upgrade in other ways, so you might wish to check if additional pages were added to their Thaumonomicon entry.
+tc.research_page.UPGRADEENTROPY.1=이 업그레이드가 장착된 골렘은 데미지를 입었을 경우 바로 그 데미지를 되돌려줍니다.<BR>이 업그레이드는 골렘의 식별력을 약간 떨어뜨리는데, 이는 특정 아이템을 걸러낼 때(예를 들어 구리 주괴) 지정된 구리 주괴 뿐만 아니라 다른 '구리 주괴'로 취급되는 모든 아이템을 걸러내게 됩니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
 #
 tc.research_name.TINYHAT=작은 모자
-tc.research_text.TINYHAT=Keeping the sun at bay
+tc.research_text.TINYHAT=자외선 가리개
 tc.research_page.TINYHAT.1=This tiny hat is the perfect accessory for any golem. Not only is it stylish and dashing, but any golem wearing it will have increased health and vitality.
 #
 tc.research_name.TINYFEZ=작은 터키모자
-tc.research_text.TINYFEZ=...are cool too
+tc.research_text.TINYFEZ=...역시 멋져
 tc.research_page.TINYFEZ.1=This strange headgear seems to fill any golem wearing it with unusual vitality, allowing it to repair damage at a much faster pace.
 #
 tc.research_name.TINYBOWTIE=작은 나비넥타이
-tc.research_text.TINYBOWTIE=...are cool
+tc.research_text.TINYBOWTIE=...멋지군
 tc.research_page.TINYBOWTIE.1=A must for any golem on the go, this bowtie will fill it with additional energy, increasing its pace.
 #
 tc.research_name.TINYGLASSES=작은 안경
-tc.research_text.TINYGLASSES=The better to see you with
+tc.research_text.TINYGLASSES=주인을 더 잘 알아보기 위해서
 tc.research_page.TINYGLASSES.1=Golems are notoriously short sighted, and these glasses alleviate that weakness to some degree.
 #
 tc.research_name.TINYDART=골렘 다트 발사기
-tc.research_text.TINYDART=Small but pointy
+tc.research_text.TINYDART=작은 고추가 매운법
 tc.research_page.TINYDART.1=This dart launcher can only be attached to combat golems. It is not quite as powerful as the golems primary attack, but gives golems limited to melee combat a means of attacking foes at range.
 #
 tc.research_name.TINYVISOR=골렘 바이저
@@ -892,7 +903,7 @@ tc.research_text.TINYVISOR=협조해 주셔서 감사합니다
 tc.research_page.TINYVISOR.1=This metal visor will grant a combat golem a small amount of additional armor protection. It will also insure that any foes attacked by the golem will drop experience orbs when they die.
 #
 tc.research_name.TINYARMOR=골렘 철 갑옷
-tc.research_text.TINYARMOR=A tough nut to crack
+tc.research_text.TINYARMOR=깨뜨리기엔 너무 단단한 호두
 tc.research_page.TINYARMOR.1=The armored plating grants the golem wearing it increased resistance to physical harm. Unfortunately the additional protection comes at a cost, as all the heavy ironmongery will slow it down.
 #
 tc.research_name.TINYHAMMER=골렘 메이스
@@ -901,142 +912,148 @@ tc.research_page.TINYHAMMER.1=This weapon increases the damage a golem will do w
 #
 tc.research_name.DISTILESSENTIA=에센시아 증류
 tc.research_text.DISTILESSENTIA=에센시아 추출하기
-tc.research_page.DISTILESSENTIA.1=You see a future need where you will need ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have divised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lAlchemical Furnace§r. The alchemical furnace works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia.
-tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of an alchemy furnace. The essentia slurry will slowly be drawn into the alembic and the indivual aspected essentia separated out.<BR>If the alchemical furnace is being powered by alumentum, this distillation process is much faster.<BR>You can stack up to 5 different alembics on top if a single furnace.<BR>The essentia can then be extracted out of an alembic using phials.
-tc.research_page.DISTILESSENTIA.3=As an alternative essentia can also be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams en preserves.<BR>Shift clicking on jars and alembics with an empty hand will empty them.
+tc.research_page.DISTILESSENTIA.1=종종 여러 종류의 위상들(완드에 담겨진 태초의 위상 뿐만 아니라 복합위상 또한)이 많이 필요한 경우가 있습니다.<BR>그렇기 때문에 기본적인 연금술 지식을 이용해 물체를 분해해서 에센시아의 형태로 변환시키는 방법이 발명되었습니다.<BR>물체를 에센시아로 변환하기 위해서는 우선 §l연성 화로§r가 필요합니다. 연성 화로는 석탄을 태워서 열을 발생시킨다는 점에서는 일반 화로와 같지만 이 특수한 화로는 금속을 제련하는 대신에 물체를 분해해서 가공되지 않은 에센시아 현탁액으로 만듭니다.
+tc.research_page.DISTILESSENTIA.2=이 에센시아 현탁액은 §l아케인 증류기§r를 통해 증류시켜야 합니다.<BR>증류기는 연금 화로 위에 설치해야만 작동합니다. 연금 화로에서 만들어진 에센시아 현탁액은 증류기로 조금씩 흘러들어가 각각의 위상 에센시아로 분리됩니다.<BR>연금 화로가 알루멘텀을 연료로 쓰고 있다면 증류를 매우 빠르게 할 수 있습니다.<BR>한 대의 연금 화로 위로 증류기를 최대 5개까지 달 수 있습니다.<BR>증류된 에센시아는 유리병으로 증류기를 우클릭해 추출할 수 있습니다.
+#
+tc.research_name.JARLABEL=단지와 단지 라벨
+tc.research_text.JARLABEL=에센시아의 저장과 분류
+tc.research_page.JARLABEL.1=에센시아는 §l단지§r 안에 저장됩니다.<BR>단지는 땅에 놓을 수 있고 에센시아를 아주 오랫동안 보관할 수 있습니다. 또한 단지의 뚜껑에 부여된 마법은 단지에 에센시아를 넣거나 추출하는 작업을 아주 쉽게 만들어줍니다.<BR>증류기의 주둥이 아래에 단지를 놓으면 자동으로 증류기의 에센시아가 단지로 옮겨갑니다. 유리병으로 단지를 채우거나 비울수도 있습니다.
+tc.research_page.JARLABEL.2=빈 손으로 증류기나 단지를 Shift-클릭해서 내용물을 비울 수 있습니다.<BR>단지에 에센시아가 들어있다면 단지에 §l단지 라벨§r을 붙일 수 있습니다.<BR>이 라벨은 단지를 '잠그기' 때문에 라벨과 같은 종류의 에센시아가 아닌 다른 모든 에센시아는 받아들이지 않습니다.<BR>빈 손으로 라벨이 붙은 면을 Shift 클릭해 라벨을 떼어낼 수 있습니다. 다른 면을 Shift 클릭 할 경우 단지의 내용물이 비워져버리니 주의하세요.
+tc.research_page.JARLABEL.3=라벨을 에센시아가 담긴 유리병과 조합해서 원하는 라벨을 미리 만들어 두었다가 빈 단지에 붙일 수도 있습니다. 조합에 사용되는 에센시아 유리병은 되돌려받습니다.<BR>이렇게 만들어진 라벨을 이미 다른 에센시아가 들어있는 단지에 붙이면 라벨이 해당 단지에 담겨있는 에센시아 라벨로 바뀝니다.<LINE>조합대에서 라벨만 조합해 다시 빈 라벨로 만들 수 있습니다.
 #
 tc.research_name.INFERNALFURNACE=지옥불 화로
-tc.research_text.INFERNALFURNACE=Hot enough?
-tc.research_page.INFERNALFURNACE.1=By harnessing raw §cIgnis§0 within a furnace crafted from obsidian and netherbrick you have created a highly efficient and fuel free furnace. So efficient in fact, that occasionally it will produce bonus materials in the form of nuggets or other items.<BR>While this is essentially free, it is also very slow unless the furnace gets a new supply of §cIgnis§0 essentia every now and again. This can be done by placing a jar of §cIgnis§0 essentia within line of sight of the front of the furnace, somewhere within 10 blocks. Luckily a little essentia goes a long way.
-tc.research_page.INFERNALFURNACE.2=It should also be noted that the occasional bit of Flux escapes into the environment.<BR>Items you wish to smelt needs to be dropped into the top of the furnace and will be spit out the front.
+tc.research_text.INFERNALFURNACE=이 정도면 충분히 뜨거운가요?
+tc.research_page.INFERNALFURNACE.1=순수한 §cIgnis§0 에센시아를 이용하여 흑요석과 지옥벽돌로 이루어진 효율 좋고 연료가 필요없는 화로를 만들었습니다. 효율이 너무나도 뛰어나서 때때로 부산물을 생성해냅니다.<BR>기본적으로는 연료가 필요 없지만 §cIgnis§0 에센시아를 지속적으로 공급해주지 않으면 굉장히 느린 속도로 굽습니다. §cIgnis§0 에센시아가 담긴 단지를 화로 앞면에서 10블럭 이내에 놓아두어서 공급해 줄 수 있습니다. 속도를 굉장히 올려주지만 에센시아는 매우 소량만 소모됩니다.
+tc.research_page.INFERNALFURNACE.2=때때로 플럭스가 방출되는 경우가 있습니다.<BR>구울 아이템은 화로 위의 구멍으로 던져 넣어야 하며 구워진 아이템은 화로 앞으로 튀어나옵니다.
 #
 tc.research_name.BELLOWS=아케인 풀무
-tc.research_text.BELLOWS=Stoking the flames
-tc.research_page.BELLOWS.1=The Arcane Bellows performs much the same function as its mundane counterpart, the only difference is that it happily pumps away by itself sending forth a stream of neverending air.<BR>Attaching it to an Infernal Furnace has shown some interesting results. The elemental infused air not only stokes the flames increasing its smelting speed, but causes them to burn much purer, resulting in a reduction of flux generated and increasing the chance of creating bonus nuggets and other materials when smelting.
-tc.research_page.BELLOWS.2=They can also be attached to normal or alchemical furnaces to increase their speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>You are confident more uses will reveal themselves eventually. 
+tc.research_text.BELLOWS=화염 축적하기
+tc.research_page.BELLOWS.1=아케인 풀무는 평범한 풀무와 그 용도가 똑같지만 이 특별한 풀무는 스스로 펌프질을 하여 공기를 내뿜습니다.<BR>지옥불 화로에 붙일 경우 쓸만한 결과를 보여줍니다. 이 풀무의 공기는 불꽃을 키워서 굽는 속도를 빠르게 해줄 뿐만 아니라 불꽃을 좀 더 순수하게 타오르도록 해주어 추가적인 부산물의 생성 확률을 높여줍니다.
+tc.research_page.BELLOWS.2=또한 이 풀무는 일반 화로나 연성 화로에 붙여서 속도를 높일수도 있습니다.<BR>도가니에 붙여서 물이 끓는 시간을 단축시키는 것도 가능합니다.<BR>다른 용도들도 많으니 직접 찾아보시기 바랍니다. 
 #
-tc.research_name.ARCANESTONE=아케인스톤
-tc.research_text.ARCANESTONE=Magically strenghtened building material
-tc.research_page.ARCANESTONE.1=Arcane stone is a basic building material for many complex mystical constructs. It is normal stone that has been seared by elemental fire and strengthened by elemental earth.
+tc.research_name.ARCANESTONE=아케인 스톤
+tc.research_text.ARCANESTONE=마법으로 강화된 건축 재료
+tc.research_page.ARCANESTONE.1=아케인 스톤은 복잡한 마법건축물들의 기본 재료입니다. 이 돌은 평범한 돌을 불의 원소로 그을린 뒤 땅의 원소로 강화한 것입니다.
 #
 tc.research_name.INFUSION=인퓨전
-tc.research_text.INFUSION=Mystical fusion
-tc.research_page.INFUSION.1=Arcane crafting and alchemy can go only so far. Something better is needed to create truly powerful mystical objects.<BR>Infusion crafting is the process of infusing a single object with magical energy and the properties of other objects. You could, for example, infuse a stone with aer vis and a feather and it would result in a very light stone.<BR>As is usual with thaumaturgy, things are not quite that simple. To even get started with infusion crafting there are several things you need: A Runic Matrix, arcane pedestals and a ready supply of magic in the form of essentia. 
-tc.research_page.INFUSION.2=Once you have your Runic Matrix properly placed into a structure commonly known as an Infusion Altar, you can begin to craft.<BR>The central pedestal located under the matrix is where the item you wish to infuse will go. You will also need several more pedestals placed around the altar where you can place the blocks and items you wish to infuse into the target object. Lastly you will need warded jars or similar essentia containers holding the requisite amount of vis.<BR>Once all this is gathered you can click on the Runic Matrix with a wand to start the crafting process.<BR>During the first stage of crafting essentia will be drained
-tc.research_page.INFUSION.3=from nearby sources. Crafting will stall of there is insufficient essentia available - something that you do not want as will be explained on following pages.<BR>Once all the required essentia has been infused into the target object, the other objects will have their essential essence drained. Only when this is done will the crafting process complete.<LINE>Infusion crafting is not without risks. The entire process involves forcing vast energies into a single object. Unpredictable things tend to happen.<BR>Usually one of the fusion objects get
-tc.research_page.INFUSION.4=knocked off a pedestal, or flux gets generated, but more catastrophic events are not unheard of.<BR>The longer crafting continues due to unresolved problems like lack of vis or dropped items, the greater the chance of something bad happening.<BR>These effects can be reduced by various means. Firstly you wish to keep the entire fusion structure as symmetrical as possible - take careful note of where you place pedestals and make sure they are balanced with other pedestals on the opposite side of the altar. When placing fusion items into them you may wish to keep them balanced as well. Lastly you can place occult paraphernalia around the  
-tc.research_page.INFUSION.5=altar in symmetrical formations (things like candles, skulls, crystals, etc.). These will have the effect of reducing instability.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
+tc.research_text.INFUSION=마법 융합
+tc.research_page.INFUSION.1=아케인 제작과 연금술로는 부족합니다. 진정으로 강력한 마법을 행하기 위해서는 다른 방식의 제작이 필요합니다.<BR>인퓨전 제작은 하나의 물체에 다른 물체들의 특성과 마법 에너지를 주입하는 작업입니다. 예를 들어 평범한 돌에 Aer 비스와 깃털의 특성을 주입함으로써 매우 가벼운 돌을 만드는 것입니다.<BR>하지만 마공학은 그리 만만하지 않습니다. 인퓨전 제작에 필요한 장치만 해도 여러 가지가 필요한데, 바로 루닉 매트릭스, 아케인 주각, 그리고 필요한 충분한 에센시아가 충분히 들어있는 단지입니다.
+tc.research_page.INFUSION.2=인퓨전 제단이라 부르는 구조물에 마지막으로 루닉 매트릭스가 알맞게 자리잡으면, 이제 제작을 시작할 수 있습니다.<BR>루닉 매트릭스 바로 아래의 중심 주각은 인퓨전할 대상물을 놓는 자리입니다. 또한 제단 주변에 대상물에 주입시킬 아이템들을 놓을 주각이 몇 개 더 필요합니다. 마지막으로 제작에 필요한 에센시아를 담고 있는 단지나 비슷한 종류의 다른 용기들을 주변에 배치해야 합니다.<BR>필요한 모든 것이 갖춰지면 완드로 루닉 매트릭스를 우클릭해 인퓨전을 시작할 수 있습니다.<BR>인퓨전의 첫번째 단계에선 주변의 단지로부터 에센시아가 추출됩니다.
+tc.research_page.INFUSION.3=만약 제작에 필요한 에센시아가 부족하다면 제작은 그 단계에서 멈춰있게 되며, 뒤에서 설명하겠지만 이것은 전혀 바람직하지 않은 현상입니다.<BR>필요한 에센시아가 대상물에 전부 주입이 되면 그 다음으로 주변의 다른 주각에 놓여진 재료들이 분해되어 대상물에 주입됩니다. 이 모든 과정이 끝나야만 제작을 완료할 수 있습니다.<LINE>인퓨전 제작에는 위험성이 있습니다. 작업 전체가 하나의 물체에 엄청난 양의 마법 에너지를 주입하는 것이기 때문에 예측 할 수 없는 일이 종종 벌어집니다.
+tc.research_page.INFUSION.4=일반적으로 재료아이템중 하나가 주각에서 떨어지거나 플럭스가 생성되지만 아직 알려지지 않은 재앙과도 같은 일이 벌어질 수 도 있습니다.<BR>에센시아 부족이나 떨어진 아이템으로 인해 제작 시간이 길어질수록 무언가 안좋은 일이 벌어질 확률이 커집니다.<BR>이런 현상들은 다양한 방법으로 줄일 수 있습니다. 우선 인퓨전 제단을 최대한 대칭이 되도록 만들어야 합니다. 주각의 위치에 주의하세요. 또한 주각에 재료 아이템을 올려놓을 때도 최대한 대칭이 되도록 하는 것이 좋습니다. 마지막으로 초자연적인 물건들, 이를테면 양초나 해골, 크리스탈 등을 제단 주위에 대칭구조로  
+tc.research_page.INFUSION.5=놓아 둘 수도 있습니다. 이것들은 불안정성을 낮춰주는 효과가 있습니다.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
 #
 tc.research_name.JARBRAIN=단지 안의 뇌
-tc.research_text.JARBRAIN=Sealing in the foulness
-tc.research_page.JARBRAIN.1=- Throw one rotten zombie brain into a jar.<BR>- Add some spider eyes and water.<BR>- Stir gently with your wand while thinking dark thoughts.<BR>If you follow the recipe exactly you should now have a partially animated and fully malicious zombie brain.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving its jar a good shake will make it surrender some of its ill-gotten gains for your own use.
+tc.research_text.JARBRAIN=악의로 가득찬
+tc.research_page.JARBRAIN.1=- 썩은 좀비 뇌 하나를 단지 안에 던져넣으세요.<BR>- 물을 넣고 거미 눈을 약간 첨가합니다.<BR>- 사악한 생각을 하며 완드로 휘저어 주세요.<BR>레시피를 정확히 따랐다면 악의로 가득 찬, 부분적으로 살아있는 좀비 뇌를 얻을 수 있습니다.<BR>이 뇌는 좀비였을 적의 탐욕을 지니고 있습니다. 이제 다른 뇌는 먹을 수 없게 됐지만, 그 대신 주변에 떨어진 경험치를 흡수합니다. 뇌가 부당하게 가져간 경험치는 단지를 흔들어서 다시 뺏어 올 수 있습니다.
 #
 tc.research_name.HOVERHARNESS=사우모스태틱 하네스
-tc.research_text.HOVERHARNESS=Is it a bird...
-tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>Unusually the only vis required to power this harness is added during its creation process. Instead the fuel it requires for flight is raw Potentia. Simply right click while holding the harness to insert filled jars.<BR>Double-tapping space while wearing the harness activates it.
-tc.research_page.HOVERHARNESS.2=While active the harness will constantly use Potentia.<BR>It can be enchanted with the Haste enchant to increase the speed at which you move while flying.
+tc.research_text.HOVERHARNESS=마치 새와 같이
+tc.research_page.HOVERHARNESS.1=마침내 비행의 비밀을 알아냈습니다. 사우모스태틱 에너지를 사용해 마력장 안을 중력에 구애받지 않고 비행할 수 있는 이 장치에는 양자역학의 원리도 약간 적용되었습니다.<BR>하네스는 작동하는데 연료가 필요합니다. 이 장치는 연료로 순수한 Potentia 에센시아를 사용합니다. 하네스를 손에 든 채로 우클릭해 뜨는 창에 Potentia 단지를 넣어주면 됩니다.<BR>크리에이티브의 비행처럼 스페이스바를 두 번 누르는 것으로 하네스를 활성화/비활성화할 수 있습니다.
+tc.research_page.HOVERHARNESS.2=활성화 된 동안에는 지속적으로 Potentia를 소모합니다.<BR>신속 인챈트를 부여해서 비행 이동 속도를 빠르게 할 수 있습니다.
 #
 tc.research_name.ADVANCEDGOLEM=강화 골렘
-tc.research_text.ADVANCEDGOLEM=Maybe I should think this through...
-tc.research_page.ADVANCEDGOLEM.1=You have discovered a way of improving golems in several minor, but significant ways.<BR>Firstly, golems that go through this process are able to hold one additional upgrade, though they can never have more than two upgrades of a single type.<BR>Secondly, they move slightly faster.<BR>Thirdly, they have a slightly greater sight radius.<BR>You are sure the malevolant intent in their eyes is just your imagination.  
+tc.research_text.ADVANCEDGOLEM=이건 생각을 좀 해봐야 겠는데...
+tc.research_page.ADVANCEDGOLEM.1=골렘을 조금씩이지만 확실하게 개선하는 방법을 찾았습니다.<BR>우선, 장착 가능한 업그레이드의 갯수를 한 개 늘려줍니다. 하지만 같은 종류의 업그레이드는 최대 두 개 까지만 장착 가능합니다.<BR>둘째로, 움직이는 속도가 좀 더 빨라집니다.<BR>마지막으로 골렘의 시야가 좀 더 넓어집니다.<BR>골렘의 눈이 악의로 빛난 듯 한 느낌은 아마 착각...일 겁니다.  
 #
 tc.research_name.ARCANEBORE=아케인 채굴기
-tc.research_text.ARCANEBORE=Mining evolved
-tc.research_page.ARCANEBORE.1=You have discovered a device capable of extending the range and power of an Excavation focus. Of even greater use is the fact that the machine can do so without your constant supervision. You merely need to place it on a specially constructed base, point it in the right direction with a wand and apply a redstone signal.<BR>The arcane bore requires two things to function. The first is an excavation focus placed in its leftmost inventory slot. Any enchantments applied to the focus will also alter the functions of the bore. 
-tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>Placing a jar of perditio essentia somewhere behind the bore (within 5 blocks) will greatly speed up the rate at which it mines.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing. 
-tc.research_page.ARCANEBORE.3=It will eject into an inventory if possible. This direction can be changed with a wand.
+tc.research_text.ARCANEBORE=진화하는 채굴방법
+tc.research_page.ARCANEBORE.1=채굴 포커스의 범위와 파워를 확장시켜주는 장치를 제작할 수 있게 되었습니다. 무엇보다도, 이 장치는 사람의 관리 없이도 채굴을 합니다. 특수한 받침대 위에 올려놓고 완드로 채굴 방향을 설정한 뒤 레드스톤 신호를 주면 채굴을 시작합니다.<BR>아케인 채굴기는 작동에 두 가지를 필요로 합니다. 첫 번째는 왼쪽 슬롯에 장착될 채굴 포커스입니다. 포커스에 적용된 인챈트는 아케인 채굴기의 성능에도 영향을 줍니다. 
+tc.research_page.ARCANEBORE.2=두 번째로 오른쪽 칸에 장착할 곡괭이가 필요합니다. 곡괭이의 재질도 약간은 영향을 주지만, 채굴기를 오래 가동시키기 위해선 무엇보다도 곡괭이의 내구도가 중요합니다. 포커스와 마찬가지로 곡괭이에 적용된 인챈트는 채굴기의 성능에 영향을 줍니다.<BR>채굴기 뒤쪽 5칸 이내에 Perditio 에센시아 단지를 놓아두면 채굴 속도를 훨씬 빠르게 가속시킬 수 있습니다.<BR>아케인 채굴기는 채굴기 받침대 위쪽이나 아래쪽에만 설치가 가능합니다. 채굴된 모든 아이템들은 받침대에 나 있는 구멍 방향으로 배출됩니다. 
+tc.research_page.ARCANEBORE.3=만약 붙어있는 인벤토리가 있다면 그곳으로 아이템을 넣습니다. 아이템 배출 방향은 완드로 설정할 수 있습니다.
 #
-tc.research_name.LEVITATOR=Arcane Levitator
-tc.research_text.LEVITATOR=Next best thing to flying
-tc.research_page.LEVITATOR.1=While not true flight, the Arcane Levitator is the next best thing.<BR>When placed the levitator lifts any item or creature above it up to 10 blocks into the air. A sneaking creature or player will be slowly lowered.<BR>Each levitator placed upon another increases the range at which it can lift entities by 10 blocks, so a stack of 3 can lift entities up to 30 blocks.<BR>Levitators can be deactivated by applying a redstone signal to them.  
+tc.research_name.LEVITATOR=아케인 부양장치
+tc.research_text.LEVITATOR=비행을 위한 차선책
+tc.research_page.LEVITATOR.1=진짜 비행은 아니지만, 아케인 부양장치는 훌륭한 차선책입니다.<BR>부양장치 위에 놓여진 모든 아이템/생물체는 최대 10블럭 높이까지 들어올려집니다. Shift로 수그릴 경우 천천히 하강합니다.<BR>부양장치를 겹쳐놓으면 부양력이 중첩됩니다. 3개를 겹쳤을 경우 최대 30블럭 높이까지 들어올려집니다.<BR>레드스톤 신호를 주어서 부양장치를 끌 수 있습니다.  
 #
-tc.research_name.ARCANEEAR=Arcane Ear
-tc.research_text.ARCANEEAR=Shhh, do you hear something?
-tc.research_page.ARCANEEAR.1=The Arcane Ear is a device that is capable of detecting the sound emitted from nearby note blocks. If it hears a note it recognizes it will emit a short redstone pulse.<BR>The Arcane Ear needs to be tuned in a manner identical to note blocks, the tone and note it listens for depends on the material it is placed upon.
+tc.research_name.ARCANEEAR=아케인 귀
+tc.research_text.ARCANEEAR=쉿, 뭔가 들리니?
+tc.research_page.ARCANEEAR.1=아케인 귀는 주변의 노트블럭에서 나오는 소리를 감지할 수 있습니다. 만약 소리가 감지된다면 레드스톤 신호를 짧게 방출합니다.<BR>아케인 귀를 특정 블럭 위에 설치함으로써 특정 소리만 감지할 수 있도록 설정 할 수 있습니다.
 #
 tc.research_name.MIRROR=거울 마술
 tc.research_text.MIRROR=여기에 있는게, 저기에도 있고
-tc.research_page.MIRROR.1=You are now able to enchant a pair of magical mirrors that act as doorways to the void between the worlds. Anything shoved through the one mirror will pass through this realm and exit through the other mirror - even across dimensional bounderies.<BR>Unfortunately this realm is extremely hostile to mortal creatures like yourself so using these mirrors to transport living creatures is not yet possible.<BR>To link a pair of these magical mirrors you simply need to place one of them in a desired location. You then right-click with a second  
-tc.research_page.MIRROR.2=mirror on the one you placed, and the pair will become linked. You may then place the second wherever you wish and items thrown into one will be ejected out the other.<BR>Mirrors can only be linked in pairs, so while both are placed in the world and able to transmit items you cannot link them to another mirror. When you pick up a mirror it will remember the last partner it was linked with, allowing you to easily move it without having to relink it. However while one of the paired mirrors is picked up, you may easily relink either of them.
+tc.research_page.MIRROR.1=한 쌍의 거울에 마법을 부여해서 원거리 연결통로로 이용 할 수 있습니다. 이 거울로 들어간 모든 것은 거울 속 세계를 지나 반대편 거울로 나오게 되며, 심지어는 차원간 이동도 가능합니다.<BR>하지만 이 거울 속 세계의 환경은 살아있는 생명체는 견딜 수 없기에, 살아있는 생명체를 거울을 통해 이동시키기란 불가능합니다.<BR>두 개의 거울을 연결시키기 위해서는 일단 첫 번째 거울을 원하는 곳에 둔 뒤 두 번째 거울로 첫 번째 거울을 우클릭하면 됩니다.
+tc.research_page.MIRROR.2=그 다음 두 번째 거울을 역시 원하는 곳에 설치하면 이제 한쪽 거울에 던져진 아이템이 반대쪽 거울로 나오게 됩니다.<BR>거울은 서로 한 쌍의 거울끼리만 연결되며 다른 거울과 연결시킬 수 없습니다. 거울을 떼어내도 마지막으로 연결되었던 거울의 정보는 남아있기 때문에 다시 연결시킬 필요 없이 바로 다시 설치해 쓸 수 있습니다. 거울을 떼어내서 다른 거울과 짝을 이루게 할 수도 있습니다.<BR>아이템 1뭉치(64개)를 이동시킬 때마다 주변의 단지에서 Iter 에센시아를 1씩 소모합니다.
 #
 tc.research_name.MIRRORHAND=마법 손거울
 tc.research_text.MIRRORHAND=개인용 거울
-tc.research_page.MIRRORHAND.1=This magical hand mirror functions much the same way as other magical mirrors. You simply push items through the glass and they will pop out at the linked mirror.<BR>Simple right-click while holding the linked hand mirror and you will be able to place any items in your inventory into the looking glass to have them transported.<BR>The hand mirror can be linked to a mirror that is already paired with another.<BR>It should be noted that the hand mirror can only send items, not recieve them.
+tc.research_page.MIRRORHAND.1=이 마법 손거울은 일반적인 마법 거울과 똑같이 작동합니다. 여기로 집어넣어진 아이템은 반대쪽의 연결된 거울에서 튀어나오게 됩니다.<BR>손거울을 든 채 우클릭을 하면 나타나는 창에 아이템을 집어넣으면 반대쪽 거울로 이동합니다.<BR>손거울은 다른 거울과 이미 연결된 거울에 연결이 가능합니다.<BR>손거울은 아이템을 보낼 수는 있지만 받을 수는 없습니다.
 #
 tc.research_name.NODEJAR=단지 안의 노드
-tc.research_text.NODEJAR=For the Thaumaturgist on the go
-tc.research_page.NODEJAR.1=Warded jars have proven themselves capable of storing all manner of mundane and mystical things, and you believe you have discovered another use for them - trapping aura nodes.<BR>By constructing a large version of a jar around a node and enacting the proper mystical formula with your wand, the node will become trapped inside the construct which will quickly shrink to a more manageable size. The jar can then be safely picked up and moved around, but the initial trapping spell does have a very good chance of damageing the node.<BR>While trapped the node is kept suspended and will not regenerate vis, nor can vis be drawn from it.
-tc.research_page.NODEJAR.2=It is possible to free the node from the jar by placing it in the world and clicking on it with a wand. The jar will be destroyed in the process.
+tc.research_text.NODEJAR=부지런히 일하는 마도학자를 위하여
+tc.research_page.NODEJAR.1=단지가 평범하던 아니던 무언가를 저장하는데 매우 적합하다는 사실은 이미 증명되었습니다. 그리고 이제, 단지의 다른 용도, 바로 오라 노드를 담는 용도로도 사용 될 수 있다는 사실이 발견되었습니다.<BR>오라 노드를 둘러싼 커다란 단지를 만든 뒤 적절한 공식을 이용해 완드로 마법을 주입하면 단지가 노드를 안에 담은 채로 들고 다닐만한 크기로 줄어들게 됩니다. 이렇게 만들어진 단지는 편리하게 들고 다닐 수 있지만 단지 안에 노드를 가두는 과정에서 높은 확률로 노드에 손상이 가게 됩니다.
+tc.research_page.NODEJAR.2=노드가 단지 안에 갇혀 있는 동안에는 노드에 비스가 다시 충전되지도, 완드로 뽑아올수도 없습니다.<BR>원하는 곳에 놓은 뒤 완드로 우클릭함으로써 노드를 다시 풀어놓을 수 있습니다. 이 과정에서 단지는 파괴됩니다.
 #
 tc.research_name.PAVETRAVEL=여행자의 바닥재
 tc.research_text.PAVETRAVEL=보다 편한 여행
-tc.research_page.PAVETRAVEL.1=By altering the magical structure of arcane stone you are able to create a paving stone that adds new bounce to the step of anyone walking across it.<BR>Anything walking across it will have greater speed and agility for a couple of seconds.
+tc.research_page.PAVETRAVEL.1=아케인 스톤의 마법적인 구조를 개량해서 그 위를 걸어갈 경우 보폭을 크게 만들어주는 바닥재를 만들 수 있습니다.<BR>이 위를 지나가는 모든 것은 몇 초간 더 빠른 속도와 민첩성을 가지게 됩니다.
 #
 tc.research_name.PAVEWARD=경계의 바닥재
-tc.research_text.PAVEWARD=Keeping things out
-tc.research_page.PAVEWARD.1=You have discovered a way of turning arcane stone blocks into mystical wards that will prevent most creatures from crossing them.<BR>It should be noted that these wards aren't always 100% foolproof and they cannot prevent other players from entering an area, but they keep most of common threats at bay. They will also prevent golems from crossing them.<BR>For best results you need an unbroken line of them between the area you wish to protect and the outside world.<BR>An active redstone signal will disable this block.
+tc.research_text.PAVEWARD=외부로부터의 보호
+tc.research_page.PAVEWARD.1=아케인 스톤을 경계벽으로 개량해서 거의 대부분의 생물이 지나가지 못하도록 하는 바닥재를 만들 수 있습니다.<BR>이 바닥재가 100% 완벽한 것은 아니며 다른 플레이어가 지나가는 것은 막지 못하지만 거의 대부분의 위협은 막아낼 수 있습니다. 또한 골렘은 이 돌 위를 지나가지 못합니다.<BR>최상의 결과를 위해서는 보호하고 싶은 장소 주위를 이 돌로 끊어진 부분 없이 둘러치는 것이 좋습니다.<BR>활성화된 레드스톤 신호는 이 돌의 특성을 억제시킵니다.
 #
-tc.research_name.WANDPED=완드 충전 제단
-tc.research_text.WANDPED=완드 충전 자동화
-tc.research_page.WANDPED.1=교외를 여행하면 지팡이를 충전하지만 자동화하는것이 더 좋을 수 있습니다.<BR>특수하게 만들어진 받침대는 거기에 놓인 지팡이가 가까운 노드로부터 비즈를 자동으로 흡수하게합니다.<BR>철 또는 막대에서 만들어진 싸구려 품질의 지팡이가 아닌한 노드는 완전히 흡수되지 않습니다..
+tc.research_name.WANDPED=완드 충전 주각
+tc.research_text.WANDPED=자동 완드 충전기
+tc.research_page.WANDPED.1=완드를 충전하기 위해 여기저기 돌아다니는 것도 좋지만 역시 자동 충전이 좀 더 편리하겠죠.<BR>이 특별히 제작된 주각은 주각 안에 놓여진 완드에 자동으로 주변의 노드에서 비스를 끌어와 충전시켜줍니다.<BR>완드가 철이나 막대기로 만들어진 저급이 아닌 이상 노드가 완전히 소모되지는 않습니다.
 #
-tc.research_name.WANDPEDFOC=복합 충전 제단 포커스
-tc.research_text.WANDPEDFOC=모든것을 사용하기 위한
-tc.research_page.WANDPEDFOC.1=여행에서는 여러 속성을 포함하는 여러가지 노드를 발견했습니다, 하지만 지금까진 비즈가 풍부한 근원를 활용할 수있는 방법이 없었습니다.<BR>이 포커스는 지팡이 충전 받침대의 상단에 배치 하여 가까운 노드에서 비즈 화합물을 지팡이로 이동 충전 시킵니다. 불행히도 비즈 화합물의 각 포인트는 원시 비즈의 단일 포인트으로 분해되고 여분의 에너지가 모두 손실됩니다. 그러나 그것은 좋은 징조입니다  당신이이 더 나은 자원에 접근하는 방법을 발견할거라고 장담합니다. 
+tc.research_name.WANDPEDFOC=복합 충전 주각 포커스
+tc.research_text.WANDPEDFOC=모든것을 사용하기 위해
+tc.research_page.WANDPEDFOC.1=몇몇 노드들은 복합위상을 포함하고 있다는 사실은 알려졌지만 이 풍부한 비스의 원천을 이용하는 방법은 없었습니다. 아직까진 말이죠.<BR>이 포커스는 완드 충전 주각 위에 설치해서 주변 노드의 복합위상을 끌어다 쓸 수 있게 해 줍니다. 하지만 복합위상 하나는 하나의 태초의 위상으로만 분리되어지고 나머지 위상들은 사라져 버립니다. 그래도 이 자원에 접근할 수 있게 되었다는 것만으로도 좋은 출발이며, 나중에 좀 더 효율적인 방법이 나올 수도 있습니다. 
 #
 tc.research_name.ETHEREALBLOOM=천상의 꽃
 tc.research_text.ETHEREALBLOOM=정화의 꽃
-tc.research_page.ETHEREALBLOOM.1=반짝이는 잎은 보통 실버우드 나무 옆에 가려 있지만, 그것은 마법 속성을 가지고 있습니다.<BR>실버우드처럼 반짝이는잎 꽃은 잠제된 특징을 정화해야합니다. 이러한 특징을 활성화하고 천상의 꽃으로 바꿀 수있는 방법을 발견했다.<BR>천상의 꽃은 천천히 하지만 확실히 신비한 방법으로 오염된 땅을 복원 영광을 제현합니다.(병충해를 포함) 그것은 직접 오염을 방지 할 수는 없지만, 소수의 오염은 오랫동안 외부 자연 환경에서 생존하고 다시 죽는 경향이 있습니다.
-tc.research_page.ETHEREALBLOOM.2=꽃은 약 8 블록의 범위의 빛 밖으로 토지를 정화.<BR>천상의 꽃은 매우 연약하고 쉽게 변하여 반짝이는잎 꽃으로 다시 변합니다. 
+tc.research_page.ETHEREALBLOOM.1=Shimmerleaf는 종종 실버우드에 의해 그 가치가 가려지곤 하지만, Shimmerleaf에도 이 꽃만의 마법적 성질을 지니고 있습니다.<BR>실버우드처럼 이 꽃에는 정화능력이 잠재되어 있습니다. 그리고 이 능력을 이끌어내 천상의 꽃으로 변화시키는 방법이 발견되었습니다.<BR>천상의 꽃은, 느리지만 확실하게 사악한 마법으로 오염된 지역을 이전의 모습으로 정화시키며, 이 정화 대상에는 테인트 또한 포함됩니다. 테인트을 즉각 몰아내지는 않지만 테인트에서 자라는 생물들은 테인트 지형이 아닌 곳에서는 그리 오래 살지 못하고 점차 사라집니다.
+tc.research_page.ETHEREALBLOOM.2=이 꽃은 꽃에서 나오는 정화의 빛이 닿는 8블럭 내의 공간만 정화할 수 있습니다.<BR>천상의 꽃은 굉장히 연약하며, 부서질 경우 이전의 Shimmerleaf로 돌아가게 됩니다. 
 #
-tc.research_name.PECH=페치
+tc.research_name.PECH=펙
 tc.research_text.PECH=알 수 없는 생명체
-tc.research_page.PECH.1=These strange humanoids can be found wherever the veil between worlds are at its thinnest. They seem drawn to the magical energies that abound in such places.<BR>Don't let their small stature fool you. They have incredible strength and can carry many times their own bodyweight.<BR>Pech are normally not aggressive, but when riled up they will band together and hunt down their attacker. Under normal conditions they avoid people at all costs.<BR>Pechs are notoriously avaricious, and will loot anything not nailed
-tc.research_page.PECH.2=down, though they prefer precious things. It is said that if you feed this desire for material wealth it could be possible to befriend one. Once befriended they often carry wonderous objects that they might be willing to part with.<BR>It should be noted that such 'friendships' seldom last long.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
-tc.research_name.INFUSIONENCHANTMENT=Infusion Enchantment
-tc.research_text.INFUSIONENCHANTMENT=Enchanting with Essentia
-tc.research_page.INFUSIONENCHANTMENT.1=For ages now wizards and thaumaturges have been enchanting weapons, tools and armor by imbueing objects with their own life energy. While effective the process is tedious and the results are completely unpredictable. Your discovery of infusion crafting might have uncovered a solution to both those problems.<BR>You have discovered a way to enchant objects with an infusion altar. Simply place the item you wish to enchant on the central pedestal and supply the proper ingredients and essentia. 
-tc.research_page.INFUSIONENCHANTMENT.2=It also requires some life essence in the form of experience, but much less than would be normally required to enchant something. This experience is drawn from anyone near the infusion altar so care should be taken.<BR>The essentia and experience costs listed in following recipes are for the first level of enchantment. To enchant an item to higher levels, simply perform the infusion process again - it can be repeated till the required enchantment has reached its maximum possible level. Essentia and experience cost are multiplied by the level of enchantment you are performing, so a level II enchant costs twice as much as a level I.
-tc.research_page.INFUSIONENCHANTMENT.3=Additional costs might is also required if the item already contains enchants other than the one you are currently performing. This cost is usually around 10% per level of enchantment. So enchanting a sword with Fire Aspect I that alread contains Smite III will cost 30% more.<BR>Instability also increases as the total number of enchantments on the object increases.<BR>Enchanting items with an infusion altar follows the normal rules for enchantment as it applies to what enchants can combine with others.
+tc.research_page.PECH.1=이 인간을 닮은 이상한 생물은 세계간의 장벽이 얇아진 곳에서 자주 발견됩니다. 또한 이 생물은 마법 에너지가 충만한 지역으로 이끌려 오는듯 합니다.<BR>그 작은 키를 놀려주고 싶겠지만, 펙은 엄청난 힘으로 자기 몸무게의 몇배가 되는 짐들을 지고 다닙니다.<BR>펙은 보통 공격적이지 않지만 그 중 하나가 공격을 당하면 서로 연합해서 공격한 자를 무찌릅니다. 일반적으로 그들은 인간과의 접촉을 피합니다.<BR>펙은 매우 탐욕스럽기 때문에 주울 수 있는 모든 걸 주워담습니다.
+tc.research_page.PECH.2=가치있는 물건으로 이 탐욕을 채워주면 친해질 수도 있다고 알려져 있습니다. 친해진 펙은 종종 진귀한 물건을 갖고와 기꺼이 나눠주기도 합니다.<BR>하지만 이런 '우정'은 길게 유지되지는 않습니다.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
+
+tc.research_name.INFUSIONENCHANTMENT=인퓨전 인챈트
+tc.research_text.INFUSIONENCHANTMENT=에센시아로 인챈트를
+tc.research_page.INFUSIONENCHANTMENT.1=수년동안 마법사들과 마도학자들은 자신들의 무기, 도구, 방어구 등에 생명력을 이용해서 인챈트를 해 왔습니다. 이 방식은 효율적이지만, 지루하고 그 결과물을 예측할 수 없었습니다. 인퓨전 제작법에 대한 발견은 이 두 가지 문제를 모두 해결할 수 있을 듯 합니다.<BR>이제 인퓨전 제단에서 도구들을 인챈트 할 수 있습니다. 인챈트 하기를 원하는 아이템을 제단의 중심에 올려놓고 필요한 재료와 에센시아를 공급해주면 됩니다. 
+tc.research_page.INFUSIONENCHANTMENT.2=이 방식도 경험치 형태의 생명력을 요구하긴 하지만, 일반적인 인챈트 방식에 비해 현저히 적습니다. 이 경험치는 제단 주변의 아무에게서나 추출되기 때문에 주의하세요.<BR>뒤의 레시피에 나와있는 에센시아와 경험치 요구량은 모두 레벨 I 인챈트에 해당하는 수치입니다. 더 높은 단계의 인챈트 레벨을 원한다면 인챈트를 반복하면 되며, 인챈트 가능한 최대 레벨에 도달할 때까지 반복이 가능합니다. 에센시아와 경험치 요구량은 인챈트 레벨에 따라 배가 되기에, 레벨 II 인챈트의 요구량은 레벨 I 인챈트의 2배가 됩니다.
+tc.research_page.INFUSIONENCHANTMENT.3=또한 인챈트할 도구에 이미 다른 인챈트가 되어 있다면 요구량이 늘어날 수 있습니다. 인챈트 레벨당 대략 10%정도로 요구량이 늘어납니다. 따라서 강타 III 인챈트가 되어있는 검에 화염 I 인챈트를 할 경우 요구량은 30% 늘어나게 됩니다.<BR>불안정성 역시 인챈트 갯수에 비례해 커집니다.<BR>인퓨전 인챈트 역시 일반적인 인챈트 조합 규칙을 따릅니다.
 #
 tc.research_name.ARCANELAMP=아케인 램프
-tc.research_text.ARCANELAMP=커다란 빛의 근원
-tc.research_page.ARCANELAMP.1=This mystical lamp can be attached to walls, floors or ceilings and will provide strong and steady light.<BR>Additional sources of light may also appear up to 16 blocks away wherever light levels fall below accepted 'safe' levels. Remember: Only YOU can prevent zombie outbreaks.<BR>These secondary sources of light will dissapear soon after the lamp has been removed.<LINE>You are sure additional uses for this lamp will present itself, so remember to check here after making new discoveries.
-tc.research_page.ARCANELAMP.2=           §nArcane Bore§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will draw Lux essentia from a nearby source to light up the tunnel that the bore digs.<BR>A single point of lux creates a single point of light. These sources of light will not dissapear after the lamp has been removed.
+tc.research_text.ARCANELAMP=강력한 빛의 근원
+tc.research_page.ARCANELAMP.1=벽이나 바닥, 천장에 달아 둘 수 있는 이 신비한 램프는 강력하고 꾸준한 빛을 제공합니다.<BR>16블록 이내의 밝기가 '위험'수준 이하인 곳에는 추가적인 빛의 근원이 생성됩니다. 하지만 좀비 발생을 막는 가장 확실한 방법은 지속적으로 주의를 기울이는 거라는 걸 잊지 마세요.<BR>이렇게 생긴 빛은 램프가 제거되면 같이 사라집니다.<LINE>이 램프의 새로운 이용 방법이 발견 될 수도 있으므로 새로운 발견을 하고 난 뒤에는 항상 이 페이지를 확인하세요.
+tc.research_page.ARCANELAMP.2=          §n아케인 채굴기§r<BR>채굴기의 받침대에 부착될 경우, 아케인 램프는 추가적인 능력을 얻습니다: 주변의 단지에서 Lux 에센시아를 끌어와 채굴기가 판 구멍을 밝힙니다.<BR>하나의 Lux 에센시아는 하나의 빛의 근원을 생성합니다. 이 빛의 근원들은 램프가 철거된 뒤에도 남아있게 됩니다.
 #
-tc.research_name.SALT=마법소금
-tc.research_text.SALT=Just a pinch
-tc.research_page.SALT.1=Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by crushing vis crystals and mixing them with substances naturally rich in magic.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavour (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.<BR>There are several substances that can be mixed with the crushed crystals to create Salis Mundus.
+tc.research_name.SALT=정화된 소금
+tc.research_text.SALT=마공학자를 위한 향신료
+tc.research_page.SALT.1=정화된 소금(라틴어로 Salis Mundus), 혹은 마공학자의 소금으로 알려진 이 물질은, 잘게 부숴진 비스 수정과 마력이 충만한 다른 물질들을 섞어서 만듭니다.<BR>마치 일반 소금처럼, 정화된 소금은 거의 모든 마법적인 조합법이나 공식의 향미-비유적으로 말하자면-를 풍부하게 해줍니다. 이것은 강력한 접착제와 같은 역할을 하여 본질적으로 서로 다른 여러 마법 원소들을 한데 묶어줍니다.<BR>잘게 부숴진 수정과 섞어서 정화된 소금을 만들 수 있는 물질은 여러 종류가 있습니다.
 #
 tc.research_name.TUBES=에센시아 관
 tc.research_text.TUBES=에센시아 수송
-tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either disolves or simply passes right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and make it visually appealing.
-tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars. Labelled jars have a much greater drawing strength - so strong in fact that they will draw essentia from unlabeled jars.<LINE>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off. 
+tc.research_page.TUBES.1=이전에도 에센시아를 옮기는 몇가지 방법이 있었지만, 대규모 작업에 적합한 방법은 없었습니다 - 지금까진 말이죠.<BR>새지 않고 안정적인 액체 도관을 만드는 방법을 알게 되었습니다. 일반적인 화학 물질들은 유리병으로 옮길 수 있었지만 어떤 에센시아들은 용기를 녹여버리거나 그냥 통과해 버리기도 했습니다. 유리를 철로 감싸고 수은으로 화학처리를 해서 가장 증발하기 쉬운 에센시아조차도 새어 나가지 못하게 하는 데 성공했습니다. 금으로 장식을 새겨넣어 미관 또한 살렸습니다.
+tc.research_page.TUBES.2=이 관은 주로 단지와 증류기를 연결하는 데 사용되며 그 외에도 거의 대부분의 연금술 장치들에 연결시켜 사용할 수 있습니다.<BR>단지 같은 에센시아를 받아들일 수 있는 장치가 연결되면 즉각 관 안으로 에센시아가 흐르게 됩니다. 단지에 라벨을 붙이면 흡입력이 더 강해져서 라벨이 없는 단지의 내용물까지 끌어옵니다.<LINE>에센시아 밸브는 기본적으로 에센시아 관과 같은 기능을 하지만, 레드스톤 신호를 주거나 밸브를 손으로 돌려서 에센시아의 흐름을 차단할 수 있습니다.
 #
 tc.research_name.CENTRIFUGE=연금술 원심분리기
 tc.research_text.CENTRIFUGE=분리하기
-tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. 
+tc.research_page.CENTRIFUGE.1=연금술 원심분리기는 에센시아를 그 구성요소로 분해시켜주는 아주 놀라운 장치입니다.<BR>원심분리기 아래쪽으로 복합 에센시아를 주입하면 원심분리기는 그 에센시아를 구성하는 하위 에센시아로 천천히 분리시킵니다. 구성 에센시아 두 개가 모두 나오는 것은 아니고 하나의 에센시아만 추출됩니다.<BR>분리된 에센시아는 원심분리기의 윗부분으로 추출할 수 있습니다. 
 #
-tc.research_name.TRAVELTRUNK=여행용 트렁크
+tc.research_name.TRAVELTRUNK=여행 트렁크
 tc.research_text.TRAVELTRUNK=움직이는 짐짝
-tc.research_page.TRAVELTRUNK.1=An extension of your golemancy research has led to a useful companion for any thaumaturge on the go: The Traveling Trunk.<BR>This wooden chest will happilly hop after its master, always ready to provide a convenient storage space for anything you pick up.<BR>The traveling trunk is tough and can take a significant amount of beating. It is highly resistant to fire and cannot be harmed by falling.<BR>The trunk can follow its master everywhere - even distant dimensions. Should you wish it to stay put however, there is a convenient  button located in its gui
-tc.research_page.TRAVELTRUNK.2=which will make it remain in its current position.<BR>The traveling trunk slowly heals itself over time, but you can also feed it all manner of food to speed up this process.<BR>Like normal golems, the trunk can be picked up by left-clicking with a golemancer's bell. It will drop all items in its inventory of you do so. Shift-clicking will also cause it to drop any upgrades you have applied to it with the normal loss chance.<BR>It can accept a single upgrade like normal golems, but they grant unique abilities to the trunk. See the following pages for details as you discover the relevant upgrades.
-tc.research_page.TRAVELTRUNK.UAI=      §nGolem Upgrade: Air§r<BR>With this upgrade installed the traveling trunk will move faster.
-tc.research_page.TRAVELTRUNK.UEA=     §nGolem Upgrade: Earth§r<BR>With this upgrade installed the traveling trunk be able to carry more items and will gain an additional row in its inventory.
-tc.research_page.TRAVELTRUNK.UFI=     §nGolem Upgrade: Fire§r<BR>With this upgrade installed the traveling trunk will defend its master when he is attacked.
-tc.research_page.TRAVELTRUNK.UWA=     §nGolem Upgrade: Water§r<BR>With this upgrade installed the traveling trunk cannot be opened or picked up by anyone else but its master.<BR>It also become highly resistant to all but the most devastating amounts of damage.
-tc.research_page.TRAVELTRUNK.UOR=     §nGolem Upgrade: Order§r<BR>With this upgrade installed the traveling trunk will retain its items when it is picked up using a golemancer's bell. It will drop items as normal when shift-clicked is used.
-tc.research_page.TRAVELTRUNK.UEN=    §nGolem Upgrade: Entropy§r<BR>With this upgrade installed the traveling trunk will automatically suck in any nearby items it has room for.
+tc.research_page.TRAVELTRUNK.1=골렘학 연구를 좀 더 확장한 결과, 바쁜 마도학자들에게 아주 좋은 친구 하나를 알게 되었습니다. 바로 여행 트렁크입니다.<BR>이 나무 상자는 주인의 뒤를 기꺼이 따라다니며 아이템을 보관할 공간을 제공합니다.<BR>여행 트렁크는 매우 튼튼하여 웬만한 충격에도 끄떡하지 않습니다. 또한 이 트렁크는 불에 타지 않으며 아주 높은 곳에서 떨어져도 망가지지 않습니다.<BR>트렁크는 주인을 심지어는 다른 차원으로까지 따라옵니다. 트렁크가 한군데 가만히 있기를 바란다면 트렁크를 우클릭해 GUI를 열어보세요.
+tc.research_page.TRAVELTRUNK.2=트렁크가 한 자리에 가만히 있게 하는 명령 버튼이 있습니다.<BR>여행 트렁크는 받은 데미지를 서서히 회복하며, 음식을 줘서 빠르게 회복시킬 수도 있습니다.<BR>다른 골렘들처럼 골레맨서의 종으로 클릭해서 아이템화 시킬 수 있습니다. 아이템화 시킬 경우 안에 든 아이템은 전부 떨어뜨리게 됩니다. Shift 클릭으로 장착된 업그레이드를 제거하는 것도 가능하며, 업그레이드가 소실될 확률은 다른 골렘과 같습니다.<BR>트렁크는 1개의 업그레이드를 장착 할 수 있으며 골렘과는 좀 다른 효과를 부여받습니다. 다음 페이지에 업그레이드별 효과에 대해 자세하게 나와있습니다.
+tc.research_page.TRAVELTRUNK.UAI=     §n골렘 업그레이드: 에어§r<BR>이 업그레이드를 장착할 경우 트렁크가 더 빠르게 움직입니다.
+tc.research_page.TRAVELTRUNK.UEA=     §n골렘 업그레이드: 어스§r<BR>이 업그레이드를 장착할 경우 트렁크의 인벤토리가 한 줄 더 늘어납니다.
+tc.research_page.TRAVELTRUNK.UFI=    §n골렘 업그레이드: 파이어§r<BR>이 업그레이드를 장착할 경우 주인이 공격당하면 트렁크가 적을 공격합니다.
+tc.research_page.TRAVELTRUNK.UWA=     §n골렘 업그레이드: 워터§r<BR>이 업그레이드를 장착할 경우 오직 주인만이 이 트렁크를 열어보거나 아이템화시킬 수 있습니다.<BR>또한 매우 강력한 공격이 아닌 대부분의 공격에 큰 방어력을 가집니다.
+tc.research_page.TRAVELTRUNK.UOR=     §n골렘 업그레이드: 오더§r<BR>이 업그레이드를 장착할 경우 골레맨서의 종으로 아이템화 시키더라도 내부의 아이템을 그대로 가지고 있습니다. 골레맨서의 종으로 Shift 클릭할 경우엔 아이템을 모두 떨어뜨리게 됩니다.
+tc.research_page.TRAVELTRUNK.UEN=   §n골렘 업그레이드: 엔트로피§r<BR>이 업그레이드를 장착할 경우 트렁크 내부에 빈 공간이 있을 경우 주변에 떨어진 아이템을 자동으로 주워담습니다.
 #
 tc.research_name.LAMPGROWTH=성장의 램프
 tc.research_text.LAMPGROWTH=성장을 촉진시키는 램프
-tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system. The pipes are slightly more efficient and will make a single point of essentia last about 10% longer.
+tc.research_page.LAMPGROWTH.1=재료로 쓰인 아케인 램프와는 다르게, 성장의 램프는 Herba 에센시아를 공급해주기 전에는 그다지 많은 빛을 뿜어내지 않습니다. Herba 에센시아를 공급할 경우, 이 램프의 빛이 환하게 닿는 곳의 작물들은 매우 빠른 속도로 자라납니다.<BR>에센시아는 램프 주변의 단지에서 공급할 수도 있고, 에센시아 관으로 직접 주입할 수도 있습니다. 파이프로 공급해 줄 경우 에센시아를 10% 더 효율적으로 사용합니다.
 #
-tc.research_name.JARVOID=공허의 에센시아 단지
-tc.research_text.JARVOID=Too much essentia? Impossible!
-tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
+tc.research_name.JARVOID=공허의 단지
+tc.research_text.JARVOID=에센시아가 너무 많다고? 천만에!
+tc.research_page.JARVOID.1=공허의 단지는 기본적인 특성은 평범한 단지와 같지만 가장 큰 차이점이 있습니다. 이 단지는 가득 찬 경우에도 에센시아를 더 받아들일 수 있지만 넘친 에센시아는 사라져버리게 됩니다. 이러한 특성은 넘치는 에센시아를 제거하면서도 약간은 남겨두는 것을 보다 편리하게 해줍니다.<BR>공허의 단지에도 라벨을 붙일 수는 있지만 그 흡입력은 라벨을 붙인 일반 단지에 못 미칩니다(라벨이 붙어있는 일반 단지와 붙어있지 않은 일반 단지의 중간 정도 됩니다).
 #
-tc.research_name.TUBEFILTER=에센시아 필터 관
-tc.research_text.TUBEFILTER=What you want, where you want it
-tc.research_page.TUBEFILTER.1=Filtered essentia tubes work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
+tc.research_name.TUBEFILTER=에센시아 선별관
+tc.research_text.TUBEFILTER=원하는게 무엇이건 어디서든지 - 
+tc.research_page.TUBEFILTER.1=선별관은 일반 관과 같은 기능을 가졌으며 라벨을 붙일 수 있다는 특징이 있습니다. 라벨을 붙일 경우, 라벨에 표시된 에센시아만이 이 관 안을 흐를 수 있게 됩니다.<BR>빈 손으로 Shift 우클릭을 할 경우 라벨을 제거합니다.
 #
