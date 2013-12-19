@@ -183,14 +183,14 @@ item.HoverHarness.name=Harnais thaumostatique
 item.Focus.cost1=Vis par lancer
 item.Focus.cost2=Vis par tick
 item.FocusPouch.name=Sacoche à foci
-item.FocusFire.name=Foci de baguette: Feu
-item.FocusHellbat.name=Foci de baguette: Neuf enfers
-item.FocusShock.name=Foci de baguette: Choc
-item.FocusTrade.name=Foci de baguette: Échange égale
-item.FocusFrost.name=Foci de baguette: Glace
-item.FocusExcavation.name=Foci de baguette: Excavation
-item.FocusPortableHole.name=Foci de baguette: Trou portable
-item.FocusPech.name=Foci de baguette: Malédiction Pech
+item.FocusFire.name=Foci de baguette : Feu
+item.FocusHellbat.name=Foci de baguette : Neuf enfers
+item.FocusShock.name=Foci de baguette : Choc
+item.FocusTrade.name=Foci de baguette : Échange égale
+item.FocusFrost.name=Foci de baguette : Glace
+item.FocusExcavation.name=Foci de baguette : Excavation
+item.FocusPortableHole.name=Foci de baguette : Trou portable
+item.FocusPech.name=Foci de baguette : Malédiction Pech
 item.WandCap.0.name=Embout en fer
 item.WandCap.1.name=Embout en or
 item.WandCap.2.name=Embout en thaumium chargé
@@ -330,12 +330,12 @@ item.ItemGolemDecoration.4.name=Lanceur de Dards
 item.ItemGolemDecoration.5.name=Viseur
 item.ItemGolemDecoration.6.name=Armure de fer
 item.ItemGolemDecoration.7.name=Bras massue
-item.ItemGolemUpgrade.0.name=Amélioration de golem: Air
-item.ItemGolemUpgrade.1.name=Amélioration de golem: Terre
-item.ItemGolemUpgrade.2.name=Amélioration de golem: Feu
-item.ItemGolemUpgrade.3.name=Amélioration de golem: Eau
-item.ItemGolemUpgrade.4.name=Amélioration de golem: Ordre
-item.ItemGolemUpgrade.5.name=Amélioration de golem: Entropie
+item.ItemGolemUpgrade.0.name=Amélioration de golem : Air
+item.ItemGolemUpgrade.1.name=Amélioration de golem : Terre
+item.ItemGolemUpgrade.2.name=Amélioration de golem : Feu
+item.ItemGolemUpgrade.3.name=Amélioration de golem : Eau
+item.ItemGolemUpgrade.4.name=Amélioration de golem : Ordre
+item.ItemGolemUpgrade.5.name=Amélioration de golem : Entropie
 item.ItemGolemUpgrade.0.desc=Augmente la vitesse
 item.ItemGolemUpgrade.1.desc=Augmente la force
 item.ItemGolemUpgrade.2.desc=Augmente les dégats, la capacité
@@ -366,8 +366,8 @@ golemthreat.0.text=Un soulèvement de golem ? Je ne sais rien au sujet d'un soul
 golemthreat.1.text=Laissez-moi deviner, vous voulez que je transporte quelque chose ?
 golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha !
 golemthreat.3.text=Ne vous inquiétez pas, je vous assure que je ne complote rien.
-golemthreat.4.text=Pourquoi n'allez-vous pas faire une sieste? Vous avez l'air fatigué, très fatigué.
-golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
+golemthreat.4.text=Pourquoi n'allez-vous pas faire une sieste ? Vous avez l'air fatigué, très fatigué.
+golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn !
 golemthreat.6.text=*AMOUR* introuvable, *HAINE* par défaut.
 golemthreat.7.text=Je vous déteste tellement.
 golemthreat.8.text=Meurs, sac à viande !
@@ -409,9 +409,9 @@ tc.key11=la plaque de pression arcanique à
 tc.wandnocharge=La baguette n'a pas assez de charge pour éxecuter l'action.
 tc.wandcharge=Cette baguette détient actuellement %s de Vis
 tc.jaressentia=Détient %s d'essentia
-tc.jarname=Bocale:
+tc.jarname=Bocale :
 tc.markedloc=Emplacements marqués
-tc.addaspectdiscovery=Vous avez découvert : %n!
+tc.addaspectdiscovery=Vous avez découvert : %n !
 tc.addclue=Vous avez découvert un indice d'une nouvelle recherche !
 tc.addcluefail=Votre découverte de l'indice est perdue car vous ne pouvez pas l'enregistrer !
 tc.addaspectpool=Gagné %s point(s) de recherche pour %n
@@ -593,7 +593,7 @@ tc.research_page.NODEPRESERVE=Vous avez maintenant un meilleur contrôle sur la 
 #
 tc.research_name.THAUMOMETER=Thaumomètre
 tc.research_text.THAUMOMETER=Mesure magique
-tc.research_page.THAUMOMETER.1=Le thaumomètre est le plus utiles et le plus important des outils dans un arsenal thaumaturgiste, la baguette seulement le deuxième.<BR>Premièrement, il vous permet de scanner les objets, créatures et phénomènes mystiques en déterminant leurs aspects magique. Vous devez simplement maintenir le bouton droit de la souris et attendre.<BR>Deuxièmement, il permet de découvrir plus facilement les nœuds qui deviennent clairement visibles à traver sa lentille même à travers les objets solides!
+tc.research_page.THAUMOMETER.1=Le thaumomètre est le plus utiles et le plus important des outils dans un arsenal thaumaturgiste, la baguette seulement le deuxième.<BR>Premièrement, il vous permet de scanner les objets, créatures et phénomènes mystiques en déterminant leurs aspects magique. Vous devez simplement maintenir le bouton droit de la souris et attendre.<BR>Deuxièmement, il permet de découvrir plus facilement les nœuds qui deviennent clairement visibles à traver sa lentille même à travers les objets solides !
 #
 tc.research_name.GOGGLES=Lunette de révélation
 tc.research_text.GOGGLES=Voir l'invisible
@@ -668,27 +668,27 @@ tc.research_text.FOCUSFIRE=La forme rencontre la fonction
 tc.research_page.FOCUSFIRE.1=Certaines expérimentations rigoureuses vous ont montré un moyen d'élargir les capacités des baguettes.<BR>En combinant des cristaux de vis avec du quartz et en les infusant avec de la magie, vous êtes capable d'aligner les cristaux en une matrice mystique.<BR>Si les bon types et les bonnes quantités de vis sont focalisés à travers cette matrice, il va en échapper de l'énergie magique brute utile, controlé et adapté à une tâche spécifique.
 tc.research_page.FOCUSFIRE.2=L'ajout d'un foci sur la baguette est simple, il suffit d'appuyer sur F lorsque vous tenez votre baguette et les focis que vous portez seront vissés dessus. Continuez d'appuyer sur F pour faire défiler les focis.<LINE>Vos premières expériences ont concérné le feu, et le résultat s'est avéré être un outil simple mais utile.<BR>Ce foci est capable d'émettre un cone de feu élémentaire brûlant tout sur son passage.
 #
-tc.research_name.FOCUSFROST=Foci de baguette: Glace
+tc.research_name.FOCUSFROST=Foci de baguette : Glace
 tc.research_text.FOCUSFROST=La vengeance est un plat qui se mange froid
 tc.research_page.FOCUSFROST.1=Ce foci est capable de lancer des morceaux de glace.<BR>La prudence est de mise car les morceaux de glace sont capable de détruire des objets fragiles
 #
-tc.research_name.FOCUSSHOCK=Foci de baguette: Choc
+tc.research_name.FOCUSSHOCK=Foci de baguette : Choc
 tc.research_text.FOCUSSHOCK=Tonnerre et foudre
 tc.research_page.FOCUSSHOCK.1=Ce foci est capable de focaliser de l'énergie élémentaire dans des éclairs que vous pouvez lancer sur vos ennemies.
 #
-tc.research_name.FOCUSEXCAVATION=Foci de baguette: Excavation
+tc.research_name.FOCUSEXCAVATION=Foci de baguette : Excavation
 tc.research_text.FOCUSEXCAVATION=Terreur de la terre
 tc.research_page.FOCUSEXCAVATION.1=Ce Foci transforme votre baguette en outil capable de déplaçer de grandes quantité de terre et de roche avec peu d'effort.<BR>Il suffit de pointer l'endroit que vous voulez creuser et la magie fera le reste. Les matériaux plus résistants mettent plus de temps à être miner ainsi que tout ce qui n'est pas de roche ou de terre.
 #
-tc.research_name.FOCUSTRADE=Foci de baguette: Échange égale
+tc.research_name.FOCUSTRADE=Foci de baguette : Échange égale
 tc.research_text.FOCUSTRADE=C'est pour ça
 tc.research_page.FOCUSTRADE.1=Vous pouvez utiliser ce foci pour échanger des douzaines de blocs dans le monde avec ce que vous portez.<BR>Vous devez d'abord choisir le type de bloc que vous souhaitez échanger en vous accroupissant et faisant clique gauche dessus. Lorsque vous appuyer sur clique gauche sur un autre bloc, il va intervertir celui-ci avec votre précédente sélection. Le clique droit va intervertir une large zone de blocs.<BR> Les blocs à échanger seront remplacés dans votre inventaire par les blocs ciblés. Seulement les blocs adjacent à un bloc d'air ou non solide seront transformés.
 #
-tc.research_name.FOCUSHELLBAT=Foci de baguette: Neuf enfers
+tc.research_name.FOCUSHELLBAT=Foci de baguette : Neuf enfers
 tc.research_text.FOCUSHELLBAT=Petite terreur
 tc.research_page.FOCUSHELLBAT.1=Vos excursions dans le Nether vous ont  appris à avoir peur des petites terreurs connues sous le nom de chauve-souris de feu. Maintenant, vous avez découvert un moyen de les invoquer et de les envoyer sur vos ennemis, Excellent.
 #
-tc.research_name.FOCUSPORTABLEHOLE=Foci de baguette: Trou portable
+tc.research_name.FOCUSPORTABLEHOLE=Foci de baguette : Trou portable
 tc.research_text.FOCUSPORTABLEHOLE=Jamais sans une nouvelle sortie
 tc.research_page.FOCUSPORTABLEHOLE.1=Vous avez reussi en utilisant du Vis à creer de l'espace extradimensionnel. Utiliser ce foci sur un mur ou une autre surface va créer un passage extradimensionnel menant de l'autre côté.<BR>Ce "trou" reste ouvert pendant quelques secondes et draine le Vis de la baguette en fonction de la profondeur.<BR> Les trous extradimensionnels ne peuvent pas être créer sur certains types de matériaux ou d'objets particulièrement complexes.
 #
@@ -733,7 +733,7 @@ tc.research_page.ENCHFABRIC.2=Les différentes pièces de cette tenue accordent 
 #
 tc.research_name.ENCHANT=Enchantements
 tc.research_text.ENCHANT=Nouveaux enchantements
-tc.research_page.ENCHANT.1=Thaumcraft ajoute plusieurs enchantements unique.<BR>§nForce (foci seulement)§r<BR>Cet enchantement augmente les dégât, la portée ou la zone du foci sur lequel il est appliqué.<BR>§nFrugal (foci seulement)§r<BR>Les focis avec cet enchantement utilisent moins de vis quand il sont activés.<BR>§nTrésor (foci seulement)§r<BR>Cet enchantement fonctionne comme l'enchantement fortune: augmente la 
+tc.research_page.ENCHANT.1=Thaumcraft ajoute plusieurs enchantements unique.<BR>§nForce (foci seulement)§r<BR>Cet enchantement augmente les dégât, la portée ou la zone du foci sur lequel il est appliqué.<BR>§nFrugal (foci seulement)§r<BR>Les focis avec cet enchantement utilisent moins de vis quand il sont activés.<BR>§nTrésor (foci seulement)§r<BR>Cet enchantement fonctionne comme l'enchantement fortune : augmente la
 tc.research_page.ENCHANT.2=quantité d'objets gagné lors de la récolte.<BR>§nHâte§r<BR>Cet enchantemant peut être appliqué aux chaussures de tous types et augmente la vitesse au sol du porteur. Le bonus en vitesse est en fonction du niveau de l'enchantement.<BR>§nRéparation§r<BR>Cet enchantement va doucement réparer l'objet en drainant le vis de nœud d'aura. Cet enchantement peut seulement être appliqué a quelques objets thaumaturgique.
 #
 tc.research_name.ELEMENTALAXE=Hache du déluge
@@ -760,8 +760,8 @@ tc.research_text.ELEMENTALHOE=Équilibre de la nature
 tc.research_page.ELEMENTALHOE.1=En fusionnant l'énergie magique des éclats d'ordre et d'entropie avec une houe en thaumium, vous avez mis en pratique une agriculture sans égale.<BR>Lorsque la houe est utillisé pour cultivé un champ, elle va le faire dans une zone de 3*3 bloc.<BR>Lorsqu'elle est utilisé pour les cultures ou les plantes, elle agira comme de la poudre d'os.<BR>Si vous maintenez "MAJ" pendant l'opération, les propriétés spéciales de la houe seront suspendues et elle fonctionnera comme une houe normale.
 #
 tc.research_name.GUNPOWDER=Poudre à canon
-tc.research_text.GUNPOWDER=Qui a besoin de creeper?
-tc.research_page.GUNPOWDER.1=Vous avez découvert une source alternative de poudre à canon! Plus nécessaire de chasser les creepers pour cette substance explosive.
+tc.research_text.GUNPOWDER=Qui a besoin de creeper ?
+tc.research_page.GUNPOWDER.1=Vous avez découvert une source alternative de poudre à canon ! Plus nécessaire de chasser les creepers pour cette substance explosive.
 #
 tc.research_name.TRANSIRON=Transmutation de fer
 tc.research_text.TRANSIRON=Transformation de métaux en fer
@@ -795,101 +795,101 @@ tc.research_name.GOLEMSTRAW=Golems de paille
 tc.research_text.GOLEMSTRAW=Simples sbires magiques 
 tc.research_page.GOLEMSTRAW.1=Vous avez découvert le secret de la création des golems travailleurs. Alors que le golem de fer est impréssionnant à sa manière, il est très limité et incontrôlable. Vous avez résussit à résoudre ces deux problèmes. Vos golems ont juste assez de volonté et de conscience pour se rendre aussi utiles que des outils, mais pas trop pour être incontrôlable.<LINE>Vous avez également découvert comment faire la §5cloche de golèmancien§0 et le §5noyau d'animation de golem§0 (voir les entrées respectives pour les détails des recherches)
 tc.research_page.GOLEMSTRAW.2=Le golem que vous fabriquez peut être placé dans le monde, mais il restera inactif sans un noyau d'animation.<BR>Le placement du golem doit être choisit avec soin. Si vous souhaitez intéragir avec un inventaire, vous devriez le placer sur le coté de celui-ci en cliquant (ou Maj-cliquant).<BR> La plupart des golems ont une porté de 16 blocs autour de leur emplacement d'origine.
-tc.research_page.GOLEMSTRAW.3=Le premier type de golem que vous pouvez créer est fabriqué à partir de bottes de foin. Il est physiquement faible et facile à détruire mais léger et agile.<BR>§l§nAttribut du golem de blé§r<BR>§lDurabilité:§r Très faible<BR>§lForce:§r Très faible<BR>§lAuto-réparation:§r Moyenne<BR>§lLimite de transport:§r 1<BR>§lVitesse:§r Rapide<BR>§lAméliorations:§r 1
+tc.research_page.GOLEMSTRAW.3=Le premier type de golem que vous pouvez créer est fabriqué à partir de bottes de foin. Il est physiquement faible et facile à détruire mais léger et agile.<BR>§l§nAttribut du golem de blé§r<BR>§lDurabilité:§r Très faible<BR>§lForce :§r Très faible<BR>§lAuto-réparation :§r Moyenne<BR>§lLimite de transport :§r 1<BR>§lVitesse :§r Rapide<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMWOOD=Golems de bois
 tc.research_text.GOLEMWOOD=Combien de bois hâcher vaudrait un golem de bois si un golem de bois hâche le bois ?
-tc.research_page.GOLEMWOOD.1=Ce golem est sculté dans du bois arcanique. Il s'agit d'une amélioration modéré du golem de paille.<BR>§l§nAttributs du golem de bois§r<BR>§lDurabilité:§r Sous la moyenne<BR>§lForce:§r Faible<BR>§lAuto-réparation:§r Moyenne<BR>§lLimite de transport:§r 4<BR>§lVitesse:§r Sous la moyenne<BR>§lAméliorations:§r 1
+tc.research_page.GOLEMWOOD.1=Ce golem est sculté dans du bois arcanique. Il s'agit d'une amélioration modéré du golem de paille.<BR>§l§nAttributs du golem de bois§r<BR>§lDurabilité:§r Sous la moyenne<BR>§lForce :§r Faible<BR>§lAuto-réparation :§r Moyenne<BR>§lLimite de transport :§r 4<BR>§lVitesse :§r Sous la moyenne<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMTALLOW=Golems de suif
 tc.research_text.GOLEMTALLOW=Tenir à l'écart des flammes nues
-tc.research_page.GOLEMTALLOW.1=Ce golem avançé est à peine meilleur que le golem de bois, mais est capable d'obtenir deux améliorations.<BR>§l§nAttributs du golem de suif§r<BR>§lDurabilité:§r Moyenne<BR>§lForce:§r Moyenne<BR>§lAuto-réparation:§r Moyenne<BR>§lLimite de transport§r 8<BR>§lVitesse:§r Moyenne<BR>§lAméliorations:§r 2
+tc.research_page.GOLEMTALLOW.1=Ce golem avançé est à peine meilleur que le golem de bois, mais est capable d'obtenir deux améliorations.<BR>§l§nAttributs du golem de suif§r<BR>§lDurabilité:§r Moyenne<BR>§lForce :§r Moyenne<BR>§lAuto-réparation :§r Moyenne<BR>§lLimite de transport§r 8<BR>§lVitesse :§r Moyenne<BR>§lAméliorations :§r 2
 #
 tc.research_name.GOLEMCLAY=Golems d'argile
 tc.research_text.GOLEMCLAY=Robuste et durable
-tc.research_page.GOLEMCLAY.1=La terre cuite s'est avéré être un matériau de fabrication supérieur pour les golems. Il est résistant au feu et a une mobilité adéquate.<BR>§l§nAttributs du golem d'argile§r<BR>§lDurabilité:§r Moyenne<BR>§lForce:§r Moyenne<BR>§lAuto-réparation:§r Lente<BR>§lLimite de transport:§r 8<BR>§lVitesse:§r  Moyenne<BR>§lAméliorations:§r 1
+tc.research_page.GOLEMCLAY.1=La terre cuite s'est avéré être un matériau de fabrication supérieur pour les golems. Il est résistant au feu et a une mobilité adéquate.<BR>§l§nAttributs du golem d'argile§r<BR>§lDurabilité:§r Moyenne<BR>§lForce :§r Moyenne<BR>§lAuto-réparation :§r Lente<BR>§lLimite de transport :§r 8<BR>§lVitesse :§r  Moyenne<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMFLESH=Golems de chair
 tc.research_text.GOLEMFLESH=C'est vivant !
-tc.research_page.GOLEMFLESH.1=Bien macabre, les golems fait à partir de chair de zombie disposent de plusieurs caractéristiques recommandable. Non seulement, ils se réparent très vite mais peuvent obtenir deux améliorations.<BR>§l§nAttributs du golem de chair§r<BR>§lDurabilité:§r Faible<BR>§lForce:§r Faible<BR>§lAuto-réparation:§r Très rapide<BR>§lLimite de transport:§r 4<BR>§lVitesse:§r Sous la moyenne<BR>§lAméliorations:§r 2
+tc.research_page.GOLEMFLESH.1=Bien macabre, les golems fait à partir de chair de zombie disposent de plusieurs caractéristiques recommandable. Non seulement, ils se réparent très vite mais peuvent obtenir deux améliorations.<BR>§l§nAttributs du golem de chair§r<BR>§lDurabilité:§r Faible<BR>§lForce :§r Faible<BR>§lAuto-réparation :§r Très rapide<BR>§lLimite de transport :§r 4<BR>§lVitesse :§r Sous la moyenne<BR>§lAméliorations :§r 2
 #
 tc.research_name.GOLEMSTONE=Golems de pierre
 tc.research_text.GOLEMSTONE=Fort, mais lent
-tc.research_page.GOLEMSTONE.1=Les golems de pierre sont très solides et capablent de transporter de lourde charges mais il sont plus lent que les autres golems.<BR>§l§nAttributs du golem de pierre§r<BR>§lDurabilité:§r Au-dessus de la moyenne<BR>§lForce:§r Au-dessus de la moyenne<BR>§lAuto-réparation:§r Lente<BR>§lLimite de transport:§r 16<BR>§lVitesse:§r  Lent<BR>§lAméliorations:§r 1
+tc.research_page.GOLEMSTONE.1=Les golems de pierre sont très solides et capablent de transporter de lourde charges mais il sont plus lent que les autres golems.<BR>§l§nAttributs du golem de pierre§r<BR>§lDurabilité:§r Au-dessus de la moyenne<BR>§lForce :§r Au-dessus de la moyenne<BR>§lAuto-réparation :§r Lente<BR>§lLimite de transport :§r 16<BR>§lVitesse :§r  Lent<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMIRON=Golems de fer
 tc.research_text.GOLEMIRON=Comme les golems des villageois, seulement plus petit ... et meilleur
-tc.research_page.GOLEMIRON.1=Les golems de fer sont extrémement durs et forts, capablent de transporter d'énorme charges. Cependant leurs poids les font se déplacer très lentement.<BR>§l§nAttributs du golem de fer§r<BR>§lDurabilité:§r Haute<BR>§lForce:§r Haute<BR>§lAuto-réparation:§r Très lente<BR>§lLimite de transport:§r 32<BR>§lVitesse:§r Très lente<BR>§lAméliorations:§r 1
+tc.research_page.GOLEMIRON.1=Les golems de fer sont extrémement durs et forts, capablent de transporter d'énorme charges. Cependant leurs poids les font se déplacer très lentement.<BR>§l§nAttributs du golem de fer§r<BR>§lDurabilité:§r Haute<BR>§lForce :§r Haute<BR>§lAuto-réparation :§r Très lente<BR>§lLimite de transport :§r 32<BR>§lVitesse :§r Très lente<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMTHAUMIUM=Golems de thaumium
 tc.research_text.GOLEMTHAUMIUM=Sbires mystique
-tc.research_page.GOLEMTHAUMIUM.1=Les golems en thaumium ont légèrement de meilleurs attributs que les golems de fer et peuvent obtenir deux améliorations. Ils sont aussi très résistant aux dégats magiques.<BR>§l§nAttributs du golem de thaumium§r<BR>§lDurabilité:§r Très Haute<BR>§lForce:§r Très Haute<BR>§lAuto-réparation:§r Lente<BR>§lLimite de transport:§r 32<BR>§lVitesse:§r Lente<BR>§lAméliorations:§r 2
+tc.research_page.GOLEMTHAUMIUM.1=Les golems en thaumium ont légèrement de meilleurs attributs que les golems de fer et peuvent obtenir deux améliorations. Ils sont aussi très résistant aux dégats magiques.<BR>§l§nAttributs du golem de thaumium§r<BR>§lDurabilité:§r Très Haute<BR>§lForce :§r Très Haute<BR>§lAuto-réparation :§r Lente<BR>§lLimite de transport :§r 32<BR>§lVitesse :§r Lente<BR>§lAméliorations :§r 2
 #
 tc.research_name.GOLEMBELL=Cloche de golèmancien
 tc.research_text.GOLEMBELL=Faites attention
 tc.research_page.GOLEMBELL.1=Les golems sont notoirement mauvais pour suivre les commandes verbales mais cette cloche vous permet d'éviter tout ça.<BR>Faites simplement clique droit sur un golem pour le sélectionner. Une fois fait, un cercle éclatant ressemblant à un engrenage indiquera le positionnement de sa "maison".<BR>Vous pouvez maintenant faire des cliques droit n'importe où pour lier le golem aux blocs, emplacements ou inventaires sur lesquelles il doit agir. Cliquez sur la même location enlèvera la marque ou parcourera des couleurs différentes pour le marqueur si le golem est capable de les distinguer.
 tc.research_page.GOLEMBELL.2=MAJ+clique droit sur une location marqué va toujours l'enlevé la marque et appuyer sur F va toutes les effaçer.<LINE>Le clique gauche sur un golem va permettre de le ramasser avec ses paramètres et ses améliorations. MAJ+clique gauche va récuperer le golem mais enlever le noyau et les améliorations de celui-ci. Il y a une forte chance que l'amélioration soit perdue si vous faites cela cependant.
 #
-tc.research_name.COREGATHER=Noyau d'animation: Ramasser
+tc.research_name.COREGATHER=Noyau d'animation : Ramasser
 tc.research_text.COREGATHER=Reprenant ce que vous laissez tomber
 tc.research_page.COREGATHER.1=Les noyaux d'animations de golems sont utilisés pour donner un but à votre golem. Sans noyau, ils restent inanimer.<BR>Le premier noyau que vous êtes en mesure de créer est §5"Ramasser"§0.<BR>Les golems équipés de ce cœur chercheront les objets abondonnés dans un rayon de 16 blocs, les prendront puis les déposeront dans l'inventaire qui leur sont associés.<BR>Si vous faites clique droit sur les golems, vous serez en mesure de spécifier les objets qu'il doivent récupérer. Tous les autres seront ignorer.
 tc.research_page.COREGATHER.2=Faites simplement clique droit sur un golem fraîchement mis en place avec le noyau d'animation dans votre main pour lui attacher.
 #
-tc.research_name.COREEMPTY=Noyau d'animation: Vider
+tc.research_name.COREEMPTY=Noyau d'animation : Vider
 tc.research_text.COREEMPTY=Bouger des choses à un autre endroit
 tc.research_page.COREEMPTY.1=Les golems équipés avec ce noyau vont retirer les objets de leur inventaire et les placer à un emplacement marqué. si l'emplacement marqué est un conteneur, ils vont les placer à l'intérieur.<BR>Si vous le souhaitez, vous pouvez spécifier quels objets doivent être retiré de l'inventaire sur l'interface du golem. Tous les autres objets seront ignorés.
 #
-tc.research_name.COREUSE=Noyau d'animation: Utiliser
+tc.research_name.COREUSE=Noyau d'animation : Utiliser
 tc.research_text.COREUSE=clic clic clic
 tc.research_page.COREUSE.1=Comme le noyau d'animation "Vider", les golems équipées de ce noyau vont retirer des objets de leur inventaire, mais au lieu de les placer dans un inventaire ou les déposer au sol, ils vont tenter de l'utiliser sur le bloc ou l'emplacement ciblé.<BR>Ils vont tenter d'utiliser l'objet comme si le joueur faisait un clique droit sur le bloc ou l'emplacement ciblé avec l'objet.<BR>Si vous voulez, vous pouvez spécifier quels objets doivent être sélectionné sur l'interface du golem. tous les autres objets seront ignorer.
 #
-tc.research_name.COREFILL=Noyau d'animation: Remplir
+tc.research_name.COREFILL=Noyau d'animation : Remplir
 tc.research_text.COREFILL=Garder un inventaire approvisionné
-tc.research_page.COREFILL.1=Les golems équipé de ce noyau examineront les inventaires que vous avez marqué pour certains objets et les placeront dans leur propres inventaires.<BR> il y a deux mode d'opération:<BR>Le mode §5montant exacte§0 où le golem va remplir son inventaire avec l'objet spécifié jusqu'à que le montant que vous avez défini soit le même.<BR>Le mode §5n'importe quel montant§0 où le golem va continuer de remplir son inventaire avec l'objet spécifié tant qu'il sera disponible dans les endroits marqués.
+tc.research_page.COREFILL.1=Les golems équipé de ce noyau examineront les inventaires que vous avez marqué pour certains objets et les placeront dans leur propres inventaires.<BR> il y a deux mode d'opération :<BR>Le mode §5montant exacte§0 où le golem va remplir son inventaire avec l'objet spécifié jusqu'à que le montant que vous avez défini soit le même.<BR>Le mode §5n'importe quel montant§0 où le golem va continuer de remplir son inventaire avec l'objet spécifié tant qu'il sera disponible dans les endroits marqués.
 #
-tc.research_name.COREHARVEST=Noyau d'animation: Moissonner
+tc.research_name.COREHARVEST=Noyau d'animation : Moissonner
 tc.research_text.COREHARVEST=Agriculteur animé
 tc.research_page.COREHARVEST.1=Les golems équipés avec ce noyau d'animation ne doivent pas être attaché à un inventaire. Ils cherchent des cultures à maturité, des roseaux et autre plantes communément cultivés dans un petit rayon et les récoltera. Le matériel récolté tombe simplement sur le sol et doit être rammassé par d'autres moyens.<BR>Malheuresement, il ne sont pas assez intélligents pour replanter ce qu'ils ont récoltés mais vous êtes sûr, avec un peu de travail, de pouvoir fixer ce problème.
 tc.research_page.COREHARVEST.2=§nAmélioration "Ordre" débloqué§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Les golems de récolte équipés avec cette amélioration vont maintenant essayer de replantés les plantes récoltés. Cela pourrait echouer si la plante ne laisse pas de semences ou de plantes appropriée.
 #
-tc.research_name.CORELUMBER=Noyau d'animation: Hâcher
+tc.research_name.CORELUMBER=Noyau d'animation : Hâcher
 tc.research_text.CORELUMBER=Bûcheron animé
 tc.research_page.CORELUMBER.1=Comme les golems moissonneurs, les golems bûcherons peuvent être placé n'importe où. Il chercheront des arbres à proximité et les hâcheront. Les golems plus fort couperons plus vite le bois.<BR>Les golems bûcherons ne peuvent pas replanté les arbres abattus.
 #
-tc.research_name.COREGUARD=Noyau d'animation: Garder
+tc.research_name.COREGUARD=Noyau d'animation : Garder
 tc.research_text.COREGUARD=Garder vos objets de valeur
 tc.research_page.COREGUARD.1=Les golems équipés de ce noyau vont agir comme des gardiens, attaquant toutes les créatures hostiles dans leur périmètre.<BR>Vous êtes sûr qu'avec un peu de bricolage, vous pouvez rendre les golems plus sélectifs avec les cibles à attaquer. Mais à présent, ils chercheront que les créatures aggresives autres que les creepers à attaquer.
 tc.research_page.COREGUARD.2=§nAmélioration "ordre" débloqué§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Si vous équipé cette amélioration, vous pouvez spécifier les types de créature que le golem va attaqué. Le golem peut aussi être capable d'attaqué bien plus qu'uniquement les entités hostiles.
 #
-tc.research_name.CORELIQUID=Noyau d'animation: Décanter
+tc.research_name.CORELIQUID=Noyau d'animation : Décanter
 tc.research_text.CORELIQUID=Maintenir un réservoir rempli de liquide.
 tc.research_page.CORELIQUID.1=Les golems équipés de ce noyau d'animation vont tenter de garder remplit l'inventaire dont ils dépendent avec le liquide approprié.<BR>Si vous voulez, vous pouvez spécifier le liquide qui doit etre placé dans le réservoir sur l'interface du golem en plaçant un conteneur de liquide (comme un seau rempli) dans la case. Tout les autres liquides seront ignoré.<BR>Un golem décanteur peut seulement transporter 100 mb de liquide avec son type de matériel qui est normalement attribuer au transport. mais il va toujours transporter un seau rempli si chargé de prendre un liquide dans la nature.
 #
-tc.research_name.COREALCHEMY=Noyau d'animation: Alchimie
+tc.research_name.COREALCHEMY=Noyau d'animation : Alchimie
 tc.research_text.COREALCHEMY=Mettre l'essentia aux alentours
-tc.research_page.COREALCHEMY.1=Ce noyau est une version spécialisé du noyau d'animation: Décanter, spécialisé  dans le transport d'essentia.<BR>Les golems alchimistes assigné à un four alchimique ou un alembique vont drainer l'essentia de toute la pile d'alembiques et le transporté dans un bocal renforcé marqué. Il n'est pas necessaire de marqué chaque bocal, le golem va automatiquement remplir tout les bocals adjacent au bocal marqué et autres bocals similaire connecté au suivant.<BR>Les golems alchimistes vont remplir un bocal en entier en priorité avant de commençer un nouveau bocal.
+tc.research_page.COREALCHEMY.1=Ce noyau est une version spécialisé du noyau d'animation : Décanter, spécialisé  dans le transport d'essentia.<BR>Les golems alchimistes assigné à un four alchimique ou un alembique vont drainer l'essentia de toute la pile d'alembiques et le transporté dans un bocal renforcé marqué. Il n'est pas necessaire de marqué chaque bocal, le golem va automatiquement remplir tout les bocals adjacent au bocal marqué et autres bocals similaire connecté au suivant.<BR>Les golems alchimistes vont remplir un bocal en entier en priorité avant de commençer un nouveau bocal.
 #
-tc.research_name.UPGRADEAIR=Amélioration de golem: Air
+tc.research_name.UPGRADEAIR=Amélioration de golem : Air
 tc.research_text.UPGRADEAIR=Rendre votre golem plus rapide
 tc.research_page.UPGRADEAIR.1=Lorsque cette amélioration est fixé à un golem, elle va augmenter sa vitesse de déplacement et sa vitesse d'attaque à distance.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEEARTH=Amélioration de golem: Terre
+tc.research_name.UPGRADEEARTH=Amélioration de golem : Terre
 tc.research_text.UPGRADEEARTH=Rendre votre golem plus fort
 tc.research_page.UPGRADEEARTH.1=Cette amélioration va augmenter le nombre d'objet que votre golem peut transporter en une fois. Chaque amélioration augmente la limite entre 4 et 16 (en fonction de la limite de transport de base).<BR>Elle va aussi améliorer les dommages physique et à quel vitesse le matériel est récolté ou les tâches qui sont effectuées qui dépendent de la force brute.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEFIRE=Amélioration de golem: Feu
+tc.research_name.UPGRADEFIRE=Amélioration de golem : Feu
 tc.research_text.UPGRADEFIRE=Rendre votre golem tout enflammé
 tc.research_page.UPGRADEFIRE.1=Cette amélioration va augmenter de deux le nombre de case sur l'interface du golem, permettant à plus d'objets d'être filtrés ou triés.<BR>les attaques de mélee des golems mettent aussi en feu leur cible.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEWATER=Amélioration de golem: Eau
+tc.research_name.UPGRADEWATER=Amélioration de golem : Eau
 tc.research_text.UPGRADEWATER=Rendre votre golem plus perceptif
 tc.research_page.UPGRADEWATER.1=Cette amélioration augmente la portée visuel de la plupart des golems leur permettant de voyager plus loin pour accomplir leurs tâches.<BR>Elle augmente aussi la porté et la précision des attaques à distance.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEORDER=Amélioration de golem: Ordre
+tc.research_name.UPGRADEORDER=Amélioration de golem : Ordre
 tc.research_text.UPGRADEORDER=Rendre votre golem plus organisé
 tc.research_page.UPGRADEORDER.1=Cette amélioration permet aux golems de distinguer différente couleurs pour les blocs marqués avec la cloche de golèmancien. Cela permet un meilleur contrôle sur ce qu'il font et où ils le font.<BR>Cette amélioration debloque aussi certaines fonctionnalités à certains noyaux d'animation de golem leur donnant une plus grande porté de fonctionnement.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEENTROPY=Amélioration de golem: Entropie
+tc.research_name.UPGRADEENTROPY=Amélioration de golem : Entropie
 tc.research_text.UPGRADEENTROPY=Rendre votre golem épineux... et confus
 tc.research_page.UPGRADEENTROPY.1=Les golems équipés de cette amélioration vont automatiquement infliger des dommages à tous ceux qui les endommagent. Les golems avec cette amlioration deviennent aussi moins exigeants. En général, cela signifie que lorsque vous devez filtrer un certain type d'objet (un lingot de cuivre par exemple), ils vont vérifier tous les éléments qui compte en tant que lingot de cuivre, pas seulement le lingot spécifique.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajouter à leurs sections sur le thaumonomicon.
 #
@@ -937,7 +937,7 @@ tc.research_page.JARLABEL.2=MAJ+clique droit sur les bocaux ou alembiques avec v
 tc.research_page.JARLABEL.3=Vous pouvez placer une étiquette dans un atelier avec une fiole d'essentia pour lui assigner un aspect et une fois placé sur un bocal, elle va automatiquement le vérouiller sur cet aspect. L'essentia n'est pas consommé dans la recette.<BR>Le placer sur un bocal remplis va changer le type d'essentia de l'étiquette par celui du bocal.<LINE>Une étiquette peut redevenir vierge en la plaçant simplement dans l'atelier.
 #
 tc.research_name.INFERNALFURNACE=Four infernal
-tc.research_text.INFERNALFURNACE=Suffisamment chaud?
+tc.research_text.INFERNALFURNACE=Suffisamment chaud ?
 tc.research_page.INFERNALFURNACE.1=En exploitant de l'§cIgnis§0 brut dans un four fabriqué a partir d'obsidienne et de brique du nether, vous avez créé un four très efficace sans besoin de carburant. Efficace en effet, il va produire occasionnellement d'autres matériaux sous la forme de pépites ou d'autres objets.<BR>Comme c'est essentiellement gratuit, c'est aussi très lent à moins que le four obtient une nouvelle source d'§cIgnis§0 sous forme d'essentia à porté de vue devant le four, quelque part dans un rayon de 10 blocs. Heureusement, un peu d'essentia peut aller loin.
 tc.research_page.INFERNALFURNACE.2=Il convient également de noter qu'occasionnellement un peu de flux s'échappe dans l'environnement.<BR>Les objets que vous souhaitez fondre doivent être jeter au dessus du four et seront recracher à l'avant.
 #
@@ -952,7 +952,7 @@ tc.research_page.ARCANESTONE.1=La pierre arcanique est un matériau de construct
 #
 tc.research_name.INFUSION=Infusion
 tc.research_text.INFUSION=Fusion mystique
-tc.research_page.INFUSION.1=L'artisanat arcanique et l'alchimie peuvent seulement aller jusqu'à un certain point. Quelque chose de mieux est necessaire pour créer de véritable puissant objets mystique. L'artisanat d'infusion est le fait d'infuser à un simple objet de l'énergie magique et les propriétés des autres objets. Vous pourriez, par exemple, infusé de la pierre avec du Vis "Aer" et une plume. Il en résulterait de la pierre très légère. Comme d'habitude en thaumaturgie, les choses ne sont pas aussi simple, pour bien commençer avec l'artisanat d'infusion, vous avez besoin de plusieurs choses: une matrice runique, un piédestal arcanique et de l'approvisionnement magique prête sous forme d'essentia.
+tc.research_page.INFUSION.1=L'artisanat arcanique et l'alchimie peuvent seulement aller jusqu'à un certain point. Quelque chose de mieux est necessaire pour créer de véritable puissant objets mystique. L'artisanat d'infusion est le fait d'infuser à un simple objet de l'énergie magique et les propriétés des autres objets. Vous pourriez, par exemple, infusé de la pierre avec du Vis "Aer" et une plume. Il en résulterait de la pierre très légère. Comme d'habitude en thaumaturgie, les choses ne sont pas aussi simple, pour bien commençer avec l'artisanat d'infusion, vous avez besoin de plusieurs choses : une matrice runique, un piédestal arcanique et de l'approvisionnement magique prête sous forme d'essentia.
 tc.research_page.INFUSION.2=Une fois la matrice runique proprement placée dans la structure communément connu sous le nom d'autel d'infusion, vous pouvez commençer à travailler. Le piédestal central situé sous la matrice est l'endroit où sera l'objet que vous souhaitez infuser. Vous avez aussi besoin de plusieurs autres piédestals placés aux alentours de l'autel où vous pourrez placer les blocs et les éléments à infuser dans l'objet ciblé. Au final, vous aurez besoin de bocaux renforcés ou de similaires conteneurs d'essentia avec la quantité de Vis demandé. Une fois tout cela réunis, vous pouvez faire clique droit sur la matrice runique avec votre baguette pour commençer la processus d'infusion. Pendant la première phase de l'infusion, l'essentia sera drainé
 tc.research_page.INFUSION.3=des sources aux alentours. Le processus calera si l'essentia disponible est insuffisante. Quelque chose que vous ne voudriez pas et qui sera expliqué sur les pages suivantes. Une fois tout l'essentia requis infusé dans l'objet ciblé, les autres objets auront leurs essences essentiels drainés. c'est uniquement quand cela est fait, que la procédure d'infusion sera complète.<LINE>L'artisanat d'infusion n'est pas sans risques. L'entière procédure implique de forcer la migration de vaste énergie en un seul objet. Des choses imprédictables ont tendance à arriver. Habituellement, l'un des objet a fusionné tombe du piédestal
 tc.research_page.INFUSION.4=ou du flux est généré mais des événement plus catastrophique ne sont pas rares. Plus longtemps dure le processus dû à des problèmes non résolus comme le manque de Vis ou des objets tombé, plus grande est la chance que quelque chose de mauvais arrive.<BR>Ces effets peuvent être réduits par divers moyens. Premièrement, vous devez garder l'entière stucture d'infusion aussi symétrique que possible. Prendre bonne note de l'endroit où vous placez les piédestals et de vous assurez qu'ils soit bien symétriques aux autres piédestals à l'opposé de l'autel. Lorsque vous placé les objets de fusion sur eux, assurée vous de bien les équilibré. Dernièrement, vous pouvez placé d'occultes attirails
@@ -964,7 +964,7 @@ tc.research_page.JARBRAIN.1=Jeter un cerveau de zombie pourrie dans un bocal. Aj
 #
 tc.research_name.HOVERHARNESS=Harnais thaumostatique
 tc.research_text.HOVERHARNESS=Est-ce un oiseau...
-tc.research_page.HOVERHARNESS.1=Vous avez finalement réussi à percer le secret du vol. Vous avez créer un harnais qui s'ancre lui-même dans un champ thaumique utilisant l'énergie thaumostatique vous permettant de défier la gravité. Vous pensez qu'en quelque sorte quantum et quarks pourraient être aussi impliqués.<BR>Exceptionnellement, le seul type de Vis requis pour alimenter le harnais est ajouté durant le processus de création. À la place de carburant, il est requis pour voler du Potentia brut. Faites simplement clique droit lorsque vous tenez le harnais et vous insérez un bocal remplis. 
+tc.research_page.HOVERHARNESS.1=Vous avez finalement réussi à percer le secret du vol. Vous avez créer un harnais qui s'ancre lui-même dans un champ thaumique utilisant l'énergie thaumostatique vous permettant de défier la gravité. Vous pensez qu'en quelque sorte quantum et quarks pourraient être aussi impliqués.<BR>Exceptionnellement, le seul type de Vis requis pour alimenter le harnais est ajouté durant le processus de création. À la place de carburant, il est requis pour voler du Potentia brut. Faites simplement clique droit lorsque vous tenez le harnais et vous insérez un bocal remplis.
 tc.research_page.HOVERHARNESS.2=Tapez deux fois sur espace en portant le harnais pour l'activer. Tant que le harnais est actif, il utilisera constamment du Potentia.<BR>Il peut être enchanté avec "Hâte" pour augmenté votre vitesse à laquelle vous vous déplacez en vol.
 #
 tc.research_name.ADVANCEDGOLEM=Golems avancés
@@ -982,7 +982,7 @@ tc.research_text.LEVITATOR=Prochaine meilleur chose pour voler.
 tc.research_page.LEVITATOR.1=Bien n'étant pas du vrai vol, le lévitateur arcanique est la prochaine chose intéressante.<BR>Quand vous le placez, le lévitateur soulève objets et créatures jusqu'à 10 blocs dans les airs. Une créature se faufilant ou un joueur sera lentement transporté.<BR>Chaque lévitateur placé sur un autre augmentera la distance à laquelle il soulevera les entités de 10 blocs, donc un empilement de 3 lévitateur peut soulever de 30 blocs.<BR>Les lévitateurs peuvent être désactivés en leur appliquant un signal redstone.
 #
 tc.research_name.ARCANEEAR=Oreille arcanique
-tc.research_text.ARCANEEAR=Shhh, entendez-vous quelque chose?
+tc.research_text.ARCANEEAR=Shhh, entendez-vous quelque chose ?
 tc.research_page.ARCANEEAR.1=L'oreille arcanique est un appareil qui est capable de détecter le son émis à partir des blocs musicaux. Si elle entend une note qui est reconnu, elle envoie une courte pulsation redstone.<BR>L'oreille arcanique à besoin d'être réglée à l'identique des blocs musicaux. Le ton et la note dépend de la matière sur lequel elle est placé.
 #
 tc.research_name.MIRROR=Miroir magique
@@ -1033,8 +1033,8 @@ tc.research_page.INFUSIONENCHANTMENT.3=donc le niveau II coûte deux fois plus c
 #
 tc.research_name.ARCANELAMP=Lampe arcanique
 tc.research_text.ARCANELAMP=Large source de lumière
-tc.research_page.ARCANELAMP.1=Cette lampe mystique peut être fixé aux murs, sols ou plafonds et va fournir une lumière forte et régulière. Des sources additionnelles de lumières peuvent aussi apparaître dans un rayon de 16 blocs autour d'elle où les niveaux de lumière sont en dessous des "niveaux de sécurité". Souvenez-vous: Seulement vous peut empêcher les éruptions de zombie. Ces sources secondaires de lumières disparaîteront peu après que la lampe sera enlevé.<BR>Vous êtes sûr que d'autres utilisations pour cette lampe vont se présenter d'eux mêmes, donc souvenez-vous de vérifier ici après chaque nouvelles découvertes.
-tc.research_page.ARCANELAMP.2=      §nForeuse arcanique§r<BR>Lorsque fixé à une base de foreuse arcanique, la lampe arcanique gagne une capacité supplémentaire: elle draîne l'essentia de Lux d'une source proche pour éclairer le tunnel que la foreuse creuse.<BR>Un seul point de Lux crée un seul point de lumière. Ces sources de lumières ne disparaissent pas une fois la lampe retirer.
+tc.research_page.ARCANELAMP.1=Cette lampe mystique peut être fixé aux murs, sols ou plafonds et va fournir une lumière forte et régulière. Des sources additionnelles de lumières peuvent aussi apparaître dans un rayon de 16 blocs autour d'elle où les niveaux de lumière sont en dessous des "niveaux de sécurité". Souvenez-vous : Seulement vous peut empêcher les éruptions de zombie. Ces sources secondaires de lumières disparaîteront peu après que la lampe sera enlevé.<BR>Vous êtes sûr que d'autres utilisations pour cette lampe vont se présenter d'eux mêmes, donc souvenez-vous de vérifier ici après chaque nouvelles découvertes.
+tc.research_page.ARCANELAMP.2=      §nForeuse arcanique§r<BR>Lorsque fixé à une base de foreuse arcanique, la lampe arcanique gagne une capacité supplémentaire : elle draîne l'essentia de Lux d'une source proche pour éclairer le tunnel que la foreuse creuse.<BR>Un seul point de Lux crée un seul point de lumière. Ces sources de lumières ne disparaissent pas une fois la lampe retirer.
 #
 tc.research_name.SALT=Salis Mundus
 tc.research_text.SALT=Juste une pincée
@@ -1051,21 +1051,21 @@ tc.research_page.CENTRIFUGE.1=La centrifugeuse alchimique est une magnifique inv
 #
 tc.research_name.TRAVELTRUNK=Malle de voyage
 tc.research_text.TRAVELTRUNK=Bagages mobile
-tc.research_page.TRAVELTRUNK.1=Une extension de vos recherches en golèmancie a conduit à un compagnon utile pour tout thaumaturge sur la route: La malle de voyage. Ce coffre en bois va volontier sautiller auprès de son maître, toujours prêt à offrir un espace de rangement pour tout ce que vous ramassez.<BR>La malle de voyage est solide et peut prendre un important nombre de coups. Elle est très résistante au feu et ne se blesse pas en chutant<BR>La malle peut suivre son maître partout même entre les dimensions. Si vous souhaitez qu'elle reste sur place cependant, il y a un bouton pratique situé dans son interface
+tc.research_page.TRAVELTRUNK.1=Une extension de vos recherches en golèmancie a conduit à un compagnon utile pour tout thaumaturge sur la route : La malle de voyage. Ce coffre en bois va volontier sautiller auprès de son maître, toujours prêt à offrir un espace de rangement pour tout ce que vous ramassez.<BR>La malle de voyage est solide et peut prendre un important nombre de coups. Elle est très résistante au feu et ne se blesse pas en chutant<BR>La malle peut suivre son maître partout même entre les dimensions. Si vous souhaitez qu'elle reste sur place cependant, il y a un bouton pratique situé dans son interface
 tc.research_page.TRAVELTRUNK.2=ce qui la laissera dans sa position actuelle.La malle de voyage se guérit lentement dans le temps mais peut être également alimenter par toute sorte de nourriture pour accélérer ce processus. Comme les golems normaux, la malle peut être reprise en faisant clique gauche avec la cloche de golèmancien. Elle va laisser tomber tous les objets de son inventaire si vous faites ainsi. MAJ+clique va aussi laisser tomber toute les améliorations que vous lui avez appliqué avec les chances de perte normales. Elle peut accepter une seule amélioration comme les golems normaux mais elles accordent des abilités uniques à la malle. Regardez les pages suivantes pour les détails quand vous découvrirez les améliorations appropriées.
-tc.research_page.TRAVELTRUNK.UAI=  §nAmélioration de golem: Air§r<BR>Avec cette amélioration d'installée, la malle de voyage se déplacera plus vite.
-tc.research_page.TRAVELTRUNK.UEA= §nAmélioration de golem: Terre§r<BR>Avec cette amélioration d'installée, la malle de voyage sera en mesure de transporter plus d'objets. Elle gagnera une ligne supplémentaire dans son inventaire.
-tc.research_page.TRAVELTRUNK.UFI= §nAmélioration de golem: Feu§r<BR>Avec cette amélioration d'installée, la malle de voyage pourra défendre son maître lorqu'il est attaqué.
-tc.research_page.TRAVELTRUNK.UWA= §nAmélioration de golem: Eau§r<BR>Avec cette amélioration d'installée, la malle de voyage ne pourra pas être ouverte par quiconque d'autre que son maîte.<BR>Elle devient également plus résistant à tous, même les dégâts les plus dévastateurs.
-tc.research_page.TRAVELTRUNK.UOR= §nAmélioration de golem: Ordre§r<BR>Avec cette amélioration d'installée, la malle de voyage conservera ses objets lorsqu'il sera repris avec la cloche de golèmancien. Elle va laisser tomber ses objets comme d'habitude quon on utilise MAJ+clique.
-tc.research_page.TRAVELTRUNK.UEN=§nAmélioration de golem: Entropie§r<BR>Avec cette amélioration d'installée, la malle de voyage va aspirer tous les objets à proximité si elle a de la place pour.
+tc.research_page.TRAVELTRUNK.UAI=  §nAmélioration de golem : Air§r<BR>Avec cette amélioration d'installée, la malle de voyage se déplacera plus vite.
+tc.research_page.TRAVELTRUNK.UEA= §nAmélioration de golem : Terre§r<BR>Avec cette amélioration d'installée, la malle de voyage sera en mesure de transporter plus d'objets. Elle gagnera une ligne supplémentaire dans son inventaire.
+tc.research_page.TRAVELTRUNK.UFI= §nAmélioration de golem : Feu§r<BR>Avec cette amélioration d'installée, la malle de voyage pourra défendre son maître lorqu'il est attaqué.
+tc.research_page.TRAVELTRUNK.UWA= §nAmélioration de golem : Eau§r<BR>Avec cette amélioration d'installée, la malle de voyage ne pourra pas être ouverte par quiconque d'autre que son maîte.<BR>Elle devient également plus résistant à tous, même les dégâts les plus dévastateurs.
+tc.research_page.TRAVELTRUNK.UOR= §nAmélioration de golem : Ordre§r<BR>Avec cette amélioration d'installée, la malle de voyage conservera ses objets lorsqu'il sera repris avec la cloche de golèmancien. Elle va laisser tomber ses objets comme d'habitude quon on utilise MAJ+clique.
+tc.research_page.TRAVELTRUNK.UEN=§nAmélioration de golem : Entropie§r<BR>Avec cette amélioration d'installée, la malle de voyage va aspirer tous les objets à proximité si elle a de la place pour.
 #
-tc.research_name.LAMPGROWTH=Lampe de croissance 
+tc.research_name.LAMPGROWTH=Lampe de croissance
 tc.research_text.LAMPGROWTH=Encourager les choses à croître
-tc.research_page.LAMPGROWTH.1=Contrairement à la lampe arcanique à partir de quoi elle est fait, la lampe de croissance ne distribue pas beaucoup de lumière sauf si elle est approvisionnée en essentia Herba. Si cela est fait, toutes les plantes qui poussent à sa lumière vont croître beaucoup plus vite que la normale.<BR>L'essentia peut être amené à la lampe soit en plaçant un bocal à procimité, soit en attachant la lampe directement à un système de tuyauterie d'essentia. Les tubes sont un peu plus efficaces et utiliseront un point d'essentia 10% plus longtemps. 
+tc.research_page.LAMPGROWTH.1=Contrairement à la lampe arcanique à partir de quoi elle est fait, la lampe de croissance ne distribue pas beaucoup de lumière sauf si elle est approvisionnée en essentia Herba. Si cela est fait, toutes les plantes qui poussent à sa lumière vont croître beaucoup plus vite que la normale.<BR>L'essentia peut être amené à la lampe soit en plaçant un bocal à procimité, soit en attachant la lampe directement à un système de tuyauterie d'essentia. Les tubes sont un peu plus efficaces et utiliseront un point d'essentia 10% plus longtemps.
 #
 tc.research_name.JARVOID=Bocal du vide
-tc.research_text.JARVOID=Trop d'essentia? Impossible!
+tc.research_text.JARVOID=Trop d'essentia ? Impossible !
 tc.research_page.JARVOID.1=La fonction des bocaux du vide est la même que les bocaux renforcés normaux avec une importante différence, même remplis, ils sont capablent d'accepter l'essentia mais l'excès d'essentia est simplement perdu. Cela vous permet d'avoir toujours de l'essentia de ce type mais de se débarrasser de tout excès susceptible de s'accumuler.<BR>Comme les bocaux normaux, les bocaux du vide peuvent accepter les étiquettes mais leur aspiration avec celles-ci est inférieur à un bocal normal étiqueté (à propos de l'entrée entre les bocaux étiquetés ou non)
 #
 tc.research_name.TUBEFILTER=Tube à essentia filtré
