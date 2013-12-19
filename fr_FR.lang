@@ -44,9 +44,9 @@ entity.trunk.move=La malle va maintenant vous suivre
 entity.trunk.stay=La malle va rester où elle est
 #
 # Blocks
-tile.blockAiry.0.name=Noeud d'aura
+tile.blockAiry.0.name=Nœud d'aura
 tile.blockAiry.1.name=Nitor
-tile.blockAiry.5.name=Noeud d'aura
+tile.blockAiry.5.name=Nœud d'aura
 tile.blockHole.name=Espace vide
 tile.blockSecure.name=Roche renforcée
 tile.blockCustomOre.0.name=Minerai de cinabre
@@ -131,7 +131,7 @@ tile.blockMarker.14.name=Marqueur rouge
 tile.blockMarker.15.name=Marqueur noir
 tile.blockJar.0.name=Bocal renforcé
 tile.blockJar.1.name=Cerveau en bocal
-tile.blockJar.2.name=Noeud en bocal
+tile.blockJar.2.name=Nœud en bocal
 tile.blockJar.3.name=Bocal du vide
 tile.blockTable.0.name=Table
 tile.blockTable.1.name=Table
@@ -259,11 +259,11 @@ item.ItemNugget.21.name=Amas de cinabre brut
 item.ItemNugget.31.name=Amas d'or brut
 item.BootsTraveller.name=Bottes du voyageur
 item.ItemNuggetChicken.name=Morceau de poulet
-item.ItemNuggetBeef.name=Morceau de boeuf
+item.ItemNuggetBeef.name=Morceau de bœuf
 item.ItemNuggetPork.name=Morceau de porc
 item.ItemNuggetFish.name=Morceau de poisson
 item.BlockJarFilledItem.name=Bocal d'essentia
-item.BlockJarNodeItem.name=Noeud dans un bocal
+item.BlockJarNodeItem.name=Nœud dans un bocal
 item.TripleMeatTreat.name=Surprise aux trois viandes
 item.ItemShovelElemental.name=Pelle du terraformeur
 item.ItemPickaxeElemental.name=Pioche du noyau
@@ -324,7 +324,7 @@ item.ItemGolemPlacer.7.name=Golem de thaumium
 item.ItemGolemDecoration.name=Accessoire
 item.ItemGolemDecoration.0.name=Chapeau haut de forme
 item.ItemGolemDecoration.1.name=Lunettes
-item.ItemGolemDecoration.2.name=Noeud papillon
+item.ItemGolemDecoration.2.name=Nœud papillon
 item.ItemGolemDecoration.3.name=Fez
 item.ItemGolemDecoration.4.name=Lanceur de Dards
 item.ItemGolemDecoration.5.name=Viseur
@@ -517,11 +517,11 @@ tc.research_page.RESEARCH.5=§l §n(2) Combinaison d'aspects§r<BR><BR>Une fois 
 tc.research_page.RESEARCH.6=§l2§r, le papier n'est pas utile pour cette phase de recherche.<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Vous devriez voir tous les aspects primaires (et peut-être quelques aspects composés) listés dans la case §l3§r avec des quantités variables. Quand vous entrez dans un monde pour la première fois, vous obtenez une petite quantité d'aspect primaire pour vous aidez à démarrer. Si vous aviez fait de l'exploration avec
 tc.research_page.RESEARCH.7=le §5thaumomètre§0 alors vous pourriez avoir un nombre plus important d'aspects primaires et composés.<LINE>Vous pouvez maintenant commencer à combiner des aspects en aspect plus complexes simplement en cliquant sur celles que vous souhaitez combiner. Les aspects sélectionnés doivent apparaître dans la case §l4§r et dès que deux aspects sont selectionnés, appuyez sur le bouton violet §l5§r pour essayer de les combiner. En cas de succès, vous devriez voir ce que vous avez gagné en bas à droite et il doit apparaître dans la case §l3§r.<BR>Les aspects sont consommés même si la combinaison n'as pas donné de résultat.
 tc.research_page.RESEARCH.8=§l §n(3) Recherche sur les aspects§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Si vous avez du papier dans la case §l2§r, alors vous avez remarqué que lorsqu'un seul aspect est sélectionné, le bouton vert en §l6§r s'allume. Lorsque vous l'appuyez, vous tentez de faire une recherche avec cet aspect. En cas de succès, vous découvrirez quelque chose d'intéressant et un document apparaîtra dans la case §l7§r.
-tc.research_page.RESEARCH.9=La case §l8§r révèle une page de recherche couverte d'un nombre ahurissant de symboles qui ressemble à l'image en haut de la page précédente.<BR>Ne vous inquiétez pas, ce n'est pas aussi difficile qu'il n'y paraît.<LINE>Pour compléter une recherche, vous devez simplement connecter et activer tous les §5noeuds de connaissance§0 (dessin dessous).<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>Le noeud à gauche est désactivé, celui de droite est activé. Une fois que
-tc.research_page.RESEARCH.10=tous les noeuds inactifs ont été activés, la recherche est complète et les notes de recherche se transforment en découverte que vous pourrez utiliser pour l'acquérir (clic droit en le tenant).<LINE>Vous devez connecter les noeuds de connaissance en activant les runes.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>Chaque rune est liée à un aspect, mais au début, vous ne savez pas à quelles runes appartiennent les aspects. Le lien rune/aspect est unique pour chaque recherche, donc une rune qui pourrait représenteé "Aer" cette fois, pourrait être "Terra" la prochaine fois.
+tc.research_page.RESEARCH.9=La case §l8§r révèle une page de recherche couverte d'un nombre ahurissant de symboles qui ressemble à l'image en haut de la page précédente.<BR>Ne vous inquiétez pas, ce n'est pas aussi difficile qu'il n'y paraît.<LINE>Pour compléter une recherche, vous devez simplement connecter et activer tous les §5nœuds de connaissance§0 (dessin dessous).<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>Le nœud à gauche est désactivé, celui de droite est activé. Une fois que
+tc.research_page.RESEARCH.10=tous les nœuds inactifs ont été activés, la recherche est complète et les notes de recherche se transforment en découverte que vous pourrez utiliser pour l'acquérir (clic droit en le tenant).<LINE>Vous devez connecter les nœuds de connaissance en activant les runes.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>Chaque rune est liée à un aspect, mais au début, vous ne savez pas à quelles runes appartiennent les aspects. Le lien rune/aspect est unique pour chaque recherche, donc une rune qui pourrait représenteé "Aer" cette fois, pourrait être "Terra" la prochaine fois.
 tc.research_page.RESEARCH.11=Toutes les runes ne sont pas bonnes pour la recherche que vous effectuez.<BR>Par exemple, s'il y avait les runes Aer, Terra, Ignis and Aqua sur la feuille de recherche, seulement Ignis et Terra auraient pu être valides. Les mauvaises runes sont appelées des runes "red herring" (fausse piste).<BR> Vous découvrirez quelles runes sont valides en sélectionnant un aspect à gauche, et en appuyant sur le bouton de recherche vert §l6§r. Si l'aspect sélectionné est valide, alors toutes les runes liées à cet aspect seront activées.<BR>Si l'aspect sélectionné est une fausse piste alors jusqu'à deux runes seront retirés de la feuille.
-tc.research_page.RESEARCH.12=Si l'aspect sélectionné n'est pas présent, rien ne se passe.<LINE>Les runes actives agissent comme des ponts pour connecter les noeuds. Une ligne éclatante d'énergie apparaîtera du noeud actif vers 'importe quelle rune active à proximité. Vous devez créer une chaine de noeuds et de runes actifs pour compléter la recherche.<IMG>thaumcraft:textures/misc/research3.png:0:0:120:95:.75</IMG>
-tc.research_page.RESEARCH.13=Une chaine ne peut pas prendre forme s'il n'y a pas plus d'un espace libre entre la rune et le noeud.<BR>Pour former une chaine, vous devez déplacer les runes aux alentours en cliquant sur une rune puis en selectionnant une destination.<IMG>thaumcraft:textures/misc/research2.png:136:0:102:74:1</IMG>Seules les runes inactives peuvent être déplacées (2 position max à chaque fois). Cela signifie que vous pourriez avoir à activer et 
+tc.research_page.RESEARCH.12=Si l'aspect sélectionné n'est pas présent, rien ne se passe.<LINE>Les runes actives agissent comme des ponts pour connecter les nœuds. Une ligne éclatante d'énergie apparaîtera du nœud actif vers 'importe quelle rune active à proximité. Vous devez créer une chaine de nœuds et de runes actifs pour compléter la recherche.<IMG>thaumcraft:textures/misc/research3.png:0:0:120:95:.75</IMG>
+tc.research_page.RESEARCH.13=Une chaine ne peut pas prendre forme s'il n'y a pas plus d'un espace libre entre la rune et le nœud.<BR>Pour former une chaine, vous devez déplacer les runes aux alentours en cliquant sur une rune puis en selectionnant une destination.<IMG>thaumcraft:textures/misc/research2.png:136:0:102:74:1</IMG>Seules les runes inactives peuvent être déplacées (2 position max à chaque fois). Cela signifie que vous pourriez avoir à activer et 
 tc.research_page.RESEARCH.14=désactiver vos runes valides pour les déplacer à votre guise. Les runes inactives empêchent une liaison de se faire si elles se trouvent sur le chemin, donc vous aurez besoin de les extraire de la voie.<IMG>thaumcraft:textures/misc/research3.png:128:0:105:111:.75</IMG>Bouger des runes utilise une petite quantité d'encre à chaque déplacement.
 #
 tc.research_name.KNOWFRAG=Fragments de connaissances
@@ -534,11 +534,11 @@ tc.research_page.ASPECTS.1=Chaque bloc, objet et créature est lié à des élé
 tc.research_page.ASPECTS.2=Les §lAspects Primaires§r sont les plus basiques et il en existe six : §6Aer§0 (L'Air), §2Terra§0 (La Terre), §cIgnis§0 (Le Feu), §3Aqua§0 (L'Eau), §fOrdo§0 (L'Ordre), §8Perditio§0 (L'Entropie).<BR>Ces formes basiques sont la base de tous les autres aspects. Les aspects composés les plus simples sont fait à partir de deux aspects primaires, mais il est possible d'obtenir un aspect composé extrèmement complexe à partir d'une succession de couche d'aspects plus simples.<BR>Le plus simple exemple d'un aspect composé est celui de "Victus" (La Vie) qui est le résultat de la combinaison de "Terra" et de "Aqua".
 tc.research_page.ASPECTS.3=Pour voir les différents aspects qu'un objet possède, il suffit simplement de passer votre curseur sur l'objet et d'appuyer sur accroupir ("MAJ"), et vous verrez quels aspects l'objet possède et leurs quantités. Vous avez besoin de l'étudier d'abord sinon les aspects vous seront inconnus.<LINE>Les aspects qui ont été en quelque sorte séparés de leur objet et purifiés sont connu en tant que "§5Vis§0" et sont très précieux : tant pour un ingrédient d'artisanat que pour une recherche magique. Le §5Vis§0 est le plus souvent stocké dans une baguette mais il est possible de le stocker en tant que liquide magique. Le §5Vis§0 stocké de cette manière s'appelle de l'§5Essentia§0.
 #
-tc.research_name.NODES=L'aura et les noeuds
+tc.research_name.NODES=L'aura et les nœuds
 tc.research_text.NODES=La magie est partout
-tc.research_page.NODES.1=L'aura est un champ d'énergie magique répandu à travers le monde. Son origine est incertaine. Certains croient que c'est l'accumulation de la force de vie des êtres vivants tandis que d'autres croient que c'est simplement un autre type d'énergie s'infiltrant de plusieurs autres endroits. La dernière théorie semble être la plus probable puisque l'aura est souvent trouvé autour d'un noeud d'énergie mystique concentré connu sous la forme d'un §5noeud d'aura§0.<BR>Chaque noeud d'aura contient un quantité de base d'énergie magique et cette énergie est alignée sur un ou plusieurs aspects. Elles sont principalement alignés sur des
-tc.research_page.NODES.2=§5aspects primaire§0, et rarement sur des §5aspects composés§0. Les aspects d'un noeud d'aura peuvent être prélevés par un thaumaturge pour ses propres besoins. La façon la plus simple de le faire est par l'utilisation d'une baguette.<BR> L'énergie qui a été récoltée de cette manière est du §5Vis§0.<LINE>Les noeuds d'aura sont durs à voir à l'oeil nue mais une faible lueur de lumière trahissent leur présence. Le §5thaumomètre§0 rend les noeuds légèrement plus faciles à trouver en regardant à travers sa lentille.<BR>§4Important:§0 Des précautions doivent être prises lors du drain des noeuds.
-tc.research_page.NODES.3=Il y'a une petite chance lorsqu'un type d'aspect spécifique dans le noeud est complétement déchargé qu'il peut disparaitre ou nuire à l'intégrité du noeud.<BR>Il est possible que le noeud disparait complétement si tout les aspects disparaissent.<LINE>Heuresement, la plupart des noeuds reconstitue leurs aspects au fil du temps et s'ils sont correctement entretenus peuvent fournir à un thaumaturge intélligent tout le Vis qu'il veut.
+tc.research_page.NODES.1=L'aura est un champ d'énergie magique répandu à travers le monde. Son origine est incertaine. Certains croient que c'est l'accumulation de la force de vie des êtres vivants tandis que d'autres croient que c'est simplement un autre type d'énergie s'infiltrant de plusieurs autres endroits. La dernière théorie semble être la plus probable puisque l'aura est souvent trouvé autour d'un nœud d'énergie mystique concentré connu sous la forme d'un §5nœud d'aura§0.<BR>Chaque nœud d'aura contient un quantité de base d'énergie magique et cette énergie est alignée sur un ou plusieurs aspects. Elles sont principalement alignés sur des
+tc.research_page.NODES.2=§5aspects primaire§0, et rarement sur des §5aspects composés§0. Les aspects d'un nœud d'aura peuvent être prélevés par un thaumaturge pour ses propres besoins. La façon la plus simple de le faire est par l'utilisation d'une baguette.<BR> L'énergie qui a été récoltée de cette manière est du §5Vis§0.<LINE>Les nœuds d'aura sont durs à voir à l'oeil nue mais une faible lueur de lumière trahissent leur présence. Le §5thaumomètre§0 rend les nœuds légèrement plus faciles à trouver en regardant à travers sa lentille.<BR>§4Important:§0 Des précautions doivent être prises lors du drain des nœuds.
+tc.research_page.NODES.3=Il y'a une petite chance lorsqu'un type d'aspect spécifique dans le nœud est complétement déchargé qu'il peut disparaitre ou nuire à l'intégrité du nœud.<BR>Il est possible que le nœud disparait complétement si tout les aspects disparaissent.<LINE>Heuresement, la plupart des nœuds reconstitue leurs aspects au fil du temps et s'ils sont correctement entretenus peuvent fournir à un thaumaturge intélligent tout le Vis qu'il veut.
 #
 tc.research_name.ORE=Minerais
 tc.research_text.ORE=Creusez profondément
@@ -550,7 +550,7 @@ tc.research_page.ORE.4=       §l §nAmbre§r<BR><IMG>thaumcraft:textures/misc/r
 tc.research_name.PLANTS=Plantes et arbres
 tc.research_text.PLANTS=Végétation magique
 tc.research_page.PLANTS.1=§l §nArbres en bois arcanique§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>Ces grands et majestueux arbres se trouvent disséminés dans tout le paysage.<BR>Leur bois est capable d'absorber des quantités impréssionnantes de magie, ce qui en fait un élement populaire dans l'élaboration des dispositifs magique.
-tc.research_page.PLANTS.2=§l §nArbres en bois d'argent§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Ces arbres rares et magiques sont merveilleux à obsever. Leurs feuilles miroite d'énergie magique et leur bois pâle et doux sont apprécié pour leur propriétés purifiantes.<BR>Les arbres de nature magique forment souvent des noeuds d'aura dans leur coeur, cette caractèristique seule fait de la pousse de bois d'argent un bien inéstimable.
+tc.research_page.PLANTS.2=§l §nArbres en bois d'argent§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Ces arbres rares et magiques sont merveilleux à obsever. Leurs feuilles miroite d'énergie magique et leur bois pâle et doux sont apprécié pour leur propriétés purifiantes.<BR>Les arbres de nature magique forment souvent des nœuds d'aura dans leur cœur, cette caractèristique seule fait de la pousse de bois d'argent un bien inéstimable.
 tc.research_page.PLANTS.3=§l §nBrillefeuille§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Ce qui est étrange, c'est que ces fleurs éclatantes poussent seulement à l'ombre de l'arbre en bois d'argent. Au lieu de nectar, ces fleurs produisent du vif-argent.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l §nPerlecendre§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Touvée seulement dans les climats chauds, cette plante brûle avec du feu élémentaire. Elles peuvent êtres récoltées et broyées pour produire une poudre fine semblable à la poudre de blaze.
 tc.research_page.PLANTS.5=§l §nGousses de mana§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Ce qui est étrange, c'est que cette plante en forme de gousse se trouve seulement sur les arbres dans les forêts magique. La croissance est très lente et donne un ou deux grains lorsqu'on le récolte.
@@ -571,7 +571,7 @@ tc.research_page.DECONSTRUCTOR.2="Perditio") sera simplifiée en 2 "Terra" et 1 
 #
 tc.research_name.BASICTHAUMATURGY=Baguette basique artisanale
 tc.research_text.BASICTHAUMATURGY=Votre premier outil
-tc.research_page.BASICTHAUMATURGY.1=La baguette est votre plus basique mais aussi votre plus important outil. C'est ce que vous utilisez pour fabriquer des objets, activer des blocs comme le creuset et faire d'innombrables autres tâches. La baguette la plus élémentaire stock une très petite quantité d'énergie (appelé "Vis") qui est utilisé pour accomplir des tâches. La reconstitution de l'énergie de la baguette se fait en maintenant le clique droit de la souris sur le noeud d'aura pour en drainer le Vis.<BR> Tout en tenant la baguette, vous verrez un indicateur en haut à gauche de l'écran qui montre la quantité de Vis stocké dans la baguette.
+tc.research_page.BASICTHAUMATURGY.1=La baguette est votre plus basique mais aussi votre plus important outil. C'est ce que vous utilisez pour fabriquer des objets, activer des blocs comme le creuset et faire d'innombrables autres tâches. La baguette la plus élémentaire stock une très petite quantité d'énergie (appelé "Vis") qui est utilisé pour accomplir des tâches. La reconstitution de l'énergie de la baguette se fait en maintenant le clique droit de la souris sur le nœud d'aura pour en drainer le Vis.<BR> Tout en tenant la baguette, vous verrez un indicateur en haut à gauche de l'écran qui montre la quantité de Vis stocké dans la baguette.
 tc.research_page.BASICTHAUMATURGY.2=Maintenir "MAJ" permettra d'afficher les nombres exactes et les  réductions d'énergie possible pour les tâches magique.<BR>Les baguettes sont toujours construits avec la combinaison d'un bâton et de deux embouts. Dans votre progression, vous découvrirez sûrement de nouveaux matériaux que vous pourrez utiliser pour fabriquer des baguettes et des embouts et faire de puissantes baguettes. Seul la baguette de base peut-être fabriquer dans l'atelier classique. Toutes les autres baguettes exigent l'§5atelier arcanique§0 et coûtent du Vis pour être construites. La baguette basique est construite à partir de bois banale et de fer. Ce sont deux pauvres matériaux pour le travail magique.
 
 #
@@ -579,25 +579,25 @@ tc.research_name.GRATE=La Grille à objets
 tc.research_text.GRATE=Laissons tomber les bonnes choses
 tc.research_page.GRATE.1=La grille à objets peut être ouverte et fermé avec votre main, ou avec un signal redstone. Dans la position ouverte, tous les objets déposés sur le dessus vont passer à travers.
 #
-tc.research_name.NODETAPPER1=Exploitation avançé des noeuds
+tc.research_name.NODETAPPER1=Exploitation avançé des nœuds
 tc.research_text.NODETAPPER1=Prenons tout
-tc.research_page.NODETAPPER1.1=Habituellement le processus pour drainer le vis d'un noeud avec une baguette est assez lent mais plus maintenant.<BR>Vous avez découvert un moyen plus efficace pour exploiter les noeuds d'aura, résultant un drainage doublé de Vis.
+tc.research_page.NODETAPPER1.1=Habituellement le processus pour drainer le vis d'un nœud avec une baguette est assez lent mais plus maintenant.<BR>Vous avez découvert un moyen plus efficace pour exploiter les nœuds d'aura, résultant un drainage doublé de Vis.
 #
-tc.research_name.NODETAPPER2=Maître en exploitation des noeuds
+tc.research_name.NODETAPPER2=Maître en exploitation des nœuds
 tc.research_text.NODETAPPER2=Tout le vis nous appartient
-tc.research_page.NODETAPPER2.1=Vous avez ajouté des améliorations plus avançées à la méthode que vous utilisez pour exploiter un noeud d'aura.<BR>Vous êtes maintenant capable de drainer le vis trois fois plus vite que la normale.
+tc.research_page.NODETAPPER2.1=Vous avez ajouté des améliorations plus avançées à la méthode que vous utilisez pour exploiter un nœud d'aura.<BR>Vous êtes maintenant capable de drainer le vis trois fois plus vite que la normale.
 #
-tc.research_name.NODEPRESERVE=Conservateur de noeud
+tc.research_name.NODEPRESERVE=Conservateur de nœud
 tc.research_text.NODEPRESERVE=En sauver pour plus tard
-tc.research_page.NODEPRESERVE=Vous avez maintenant un meilleur contrôle sur la quantité de vis que vous drainer des noeuds. Vous allez toujours laisser au moins un point de vis de chaque aspect dans le noeud à moins que vous partiez furtivement.<BR>Soyez averti, ce niveau de control n'est pas possible venant de baguette fabriqué à partir de bois normal et de fer.
+tc.research_page.NODEPRESERVE=Vous avez maintenant un meilleur contrôle sur la quantité de vis que vous drainer des nœuds. Vous allez toujours laisser au moins un point de vis de chaque aspect dans le nœud à moins que vous partiez furtivement.<BR>Soyez averti, ce niveau de control n'est pas possible venant de baguette fabriqué à partir de bois normal et de fer.
 #
 tc.research_name.THAUMOMETER=Thaumomètre
 tc.research_text.THAUMOMETER=Mesure magique
-tc.research_page.THAUMOMETER.1=Le thaumomètre est le plus utiles et le plus important des outils dans un arsenal thaumaturgiste, la baguette seulement le deuxième.<BR>Premièrement, il vous permet de scanner les objets, créatures et phénomènes mystiques en déterminant leurs aspects magique. Vous devez simplement maintenir le bouton droit de la souris et attendre.<BR>Deuxièmement, il permet de découvrir plus facilement les noeuds qui deviennent clairement visibles à traver sa lentille même à travers les objets solides!
+tc.research_page.THAUMOMETER.1=Le thaumomètre est le plus utiles et le plus important des outils dans un arsenal thaumaturgiste, la baguette seulement le deuxième.<BR>Premièrement, il vous permet de scanner les objets, créatures et phénomènes mystiques en déterminant leurs aspects magique. Vous devez simplement maintenir le bouton droit de la souris et attendre.<BR>Deuxièmement, il permet de découvrir plus facilement les nœuds qui deviennent clairement visibles à traver sa lentille même à travers les objets solides!
 #
 tc.research_name.GOGGLES=Lunette de révélation
 tc.research_text.GOGGLES=Voir l'invisible
-tc.research_page.GOGGLES.1=En s'appuyant sur les principes de base du thaumomètre, vous avez commençé à affiner sa capacité à detécter la magie en quelque chose de plus révélateur.<BR>Cet ensemble de lentilles mystiques rendera les noeuds d'aura plus facile à trouver en révélant toutes sortes de choses cachées.<BR>Il constitue un outil important dans un arsenal thaumaturgiste.
+tc.research_page.GOGGLES.1=En s'appuyant sur les principes de base du thaumomètre, vous avez commençé à affiner sa capacité à detécter la magie en quelque chose de plus révélateur.<BR>Cet ensemble de lentilles mystiques rendera les nœuds d'aura plus facile à trouver en révélant toutes sortes de choses cachées.<BR>Il constitue un outil important dans un arsenal thaumaturgiste.
 #
 tc.research_name.THAUMIUM=Thaumium
 tc.research_text.THAUMIUM=Un metal magique
@@ -636,16 +636,16 @@ tc.research_text.ROD_greatwood=Dépôt d'énergie magique
 tc.research_page.ROD_greatwood.1=Sculté dans du bois arcanique, ce bâton double le stockage potentiels de vis par rapport au bois ordinaire. Il est capable de stocker jusqu'à 50 Vis de chaque type.
 #
 tc.research_name.ROD_silverwood=Manche en bois d'argent pour baguette
-tc.research_text.ROD_silverwood=Magie dans son coeur
+tc.research_text.ROD_silverwood=Magie dans son cœur
 tc.research_page.ROD_silverwood.1=Le bois d'argent s'est avéré un excellent dépôt d'énergie magique et les manches de baguette fabriqués à partir de ce bois peuvent stocké jusqu'à 100 Vis de chaque type.
 #
 tc.research_name.ROD_obsidian=Manche en obsidienne pour baguette
 tc.research_text.ROD_obsidian=Vis stocké dans la terre
-tc.research_page.ROD_obsidian.1=Un manche de baguette ciselée à partir d'obsidienne a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Terra stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un noeud d'aura.
+tc.research_page.ROD_obsidian.1=Un manche de baguette ciselée à partir d'obsidienne a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Terra stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un nœud d'aura.
 #
 tc.research_name.ROD_bone=Manche en os pour baguette
 tc.research_text.ROD_bone=Stockage de vis entropique
-tc.research_page.ROD_bone.1=Un manche de baguette façonné à partir d'os a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Perditio stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un noeud d'aura.
+tc.research_page.ROD_bone.1=Un manche de baguette façonné à partir d'os a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Perditio stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un nœud d'aura.
 #
 tc.research_name.ROD_blaze=Manche en blaze pour baguette
 tc.research_text.ROD_blaze=Stockage de vis enflammé
@@ -657,11 +657,11 @@ tc.research_page.ROD_ice.1=Un manche de baguette fait à partir de glace a lég�
 #
 tc.research_name.ROD_quartz=Manche en quartz pour baguette
 tc.research_text.ROD_quartz=Stockage de vis ordonné
-tc.research_page.ROD_quartz.1=Un manche de baguette ciselée à partir de quartz a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Ordo stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un noeud d'aura.
+tc.research_page.ROD_quartz.1=Un manche de baguette ciselée à partir de quartz a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Ordo stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un nœud d'aura.
 #
 tc.research_name.ROD_reed=Manche en roseau pour baguette
 tc.research_text.ROD_reed=Stockage de vis dans l'air
-tc.research_page.ROD_reed.1=Un manche de baguette fait à partir de roseaux a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Aer stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un noeud d'aura.
+tc.research_page.ROD_reed.1=Un manche de baguette fait à partir de roseaux a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Aer stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un nœud d'aura.
 #
 tc.research_name.FOCUSFIRE=Les Focis
 tc.research_text.FOCUSFIRE=La forme rencontre la fonction
@@ -734,7 +734,7 @@ tc.research_page.ENCHFABRIC.2=Les différentes pièces de cette tenue accordent 
 tc.research_name.ENCHANT=Enchantements
 tc.research_text.ENCHANT=Nouveaux enchantements
 tc.research_page.ENCHANT.1=Thaumcraft ajoute plusieurs enchantements unique.<BR>§nForce (foci seulement)§r<BR>Cet enchantement augmente les dégât, la portée ou la zone du foci sur lequel il est appliqué.<BR>§nFrugal (foci seulement)§r<BR>Les focis avec cet enchantement utilisent moins de vis quand il sont activés.<BR>§nTrésor (foci seulement)§r<BR>Cet enchantement fonctionne comme l'enchantement fortune: augmente la 
-tc.research_page.ENCHANT.2=quantité d'objets gagné lors de la récolte.<BR>§nHâte§r<BR>Cet enchantemant peut être appliqué aux chaussures de tous types et augmente la vitesse au sol du porteur. Le bonus en vitesse est en fonction du niveau de l'enchantement.<BR>§nRéparation§r<BR>Cet enchantement va doucement réparer l'objet en drainant le vis de noeud d'aura. Cet enchantement peut seulement être appliqué a quelques objets thaumaturgique.
+tc.research_page.ENCHANT.2=quantité d'objets gagné lors de la récolte.<BR>§nHâte§r<BR>Cet enchantemant peut être appliqué aux chaussures de tous types et augmente la vitesse au sol du porteur. Le bonus en vitesse est en fonction du niveau de l'enchantement.<BR>§nRéparation§r<BR>Cet enchantement va doucement réparer l'objet en drainant le vis de nœud d'aura. Cet enchantement peut seulement être appliqué a quelques objets thaumaturgique.
 #
 tc.research_name.ELEMENTALAXE=Hache du déluge
 tc.research_text.ELEMENTALAXE=Rivières de bois
@@ -832,7 +832,7 @@ tc.research_page.GOLEMBELL.2=MAJ+clique droit sur une location marqué va toujou
 #
 tc.research_name.COREGATHER=Noyau d'animation: Ramasser
 tc.research_text.COREGATHER=Reprenant ce que vous laissez tomber
-tc.research_page.COREGATHER.1=Les noyaux d'animations de golems sont utilisés pour donner un but à votre golem. Sans noyau, ils restent inanimer.<BR>Le premier noyau que vous êtes en mesure de créer est §5"Ramasser"§0.<BR>Les golems équipés de ce coeur chercheront les objets abondonnés dans un rayon de 16 blocs, les prendront puis les déposeront dans l'inventaire qui leur sont associés.<BR>Si vous faites clique droit sur les golems, vous serez en mesure de spécifier les objets qu'il doivent récupérer. Tous les autres seront ignorer.
+tc.research_page.COREGATHER.1=Les noyaux d'animations de golems sont utilisés pour donner un but à votre golem. Sans noyau, ils restent inanimer.<BR>Le premier noyau que vous êtes en mesure de créer est §5"Ramasser"§0.<BR>Les golems équipés de ce cœur chercheront les objets abondonnés dans un rayon de 16 blocs, les prendront puis les déposeront dans l'inventaire qui leur sont associés.<BR>Si vous faites clique droit sur les golems, vous serez en mesure de spécifier les objets qu'il doivent récupérer. Tous les autres seront ignorer.
 tc.research_page.COREGATHER.2=Faites simplement clique droit sur un golem fraîchement mis en place avec le noyau d'animation dans votre main pour lui attacher.
 #
 tc.research_name.COREEMPTY=Noyau d'animation: Vider
@@ -903,7 +903,7 @@ tc.research_page.TINYFEZ.1=Cette étrange couvre-chef semble rassasié n'importe
 #
 tc.research_name.TINYBOWTIE=Minuscules nœuds papillons
 tc.research_text.TINYBOWTIE=...sont cool
-tc.research_page.TINYBOWTIE.1=Un plus pour tout golem sur la route, ce noeud papillon remplira d'énergie supplémentaire le golem, augmentant sa vitesse.
+tc.research_page.TINYBOWTIE.1=Un plus pour tout golem sur la route, ce nœud papillon remplira d'énergie supplémentaire le golem, augmentant sa vitesse.
 #
 tc.research_name.TINYGLASSES=Minuscules lunettes
 tc.research_text.TINYGLASSES=C'est pour mieux te voir avec
@@ -994,10 +994,10 @@ tc.research_name.MIRRORHAND=Miroir à main magique
 tc.research_text.MIRRORHAND=Réflexion personnelle
 tc.research_page.MIRRORHAND.1=Ce miroir à main magique fonctionne de la même manière que les autres miroirs. Il vous suffit de pousser les objets à travers le verre et ils sorteront du miroir lié.<BR>Faites simplement clique droit tout en tenant votre miroir à main pour le lier et vous serez capable de placer n'importe quels objets de votre inventaire dans le miroir pour les transporter.<BR>Les miroirs à main peuvent être liés à des miroirs qui sont déjà jumélés.<BR>Il convient de noter que le miroir à main peut seulement envoyer les objets, pas les recevoirs.
 #
-tc.research_name.NODEJAR=Noeud dans un bocal
+tc.research_name.NODEJAR=Nœud dans un bocal
 tc.research_text.NODEJAR=Pour le thaumaturgiste sur la voie
-tc.research_page.NODEJAR.1=Les bocaux renforcés ont fait leur preuves dans leurs capacités à stocké toutes sortes de choses banales et mystique, et maintenant vous croyez avoir découvert une autre utilité. Piéger les noeuds d'aura.<BR>En construisant une grande version du bocal autour du noeud et promulgant la bonne formule mystique avec votre baguette, le noeud sera emprisonné à l'intérieur de la construction qui va rapidement se réduire à une taille plus agréable. Le bocal peut ensuite être repris en toute sécurité et déplacé mais le sort d'emprisonnement a une très grande chance d'endommagé le noeud.
-tc.research_page.NODEJAR.2=Lorsque le noeud est emprisonné, le vis est maintenu et ne peut pas se regénérer, le vis ne peut pas non plus être drainer de celle-ci.<BR>Il est possible de libérer un noeud du bocal en le plaçan directement quelque part et de cliquer dessus avec une baguette. Le bocal sera détruit lors du procédé.
+tc.research_page.NODEJAR.1=Les bocaux renforcés ont fait leur preuves dans leurs capacités à stocké toutes sortes de choses banales et mystique, et maintenant vous croyez avoir découvert une autre utilité. Piéger les nœuds d'aura.<BR>En construisant une grande version du bocal autour du nœud et promulgant la bonne formule mystique avec votre baguette, le nœud sera emprisonné à l'intérieur de la construction qui va rapidement se réduire à une taille plus agréable. Le bocal peut ensuite être repris en toute sécurité et déplacé mais le sort d'emprisonnement a une très grande chance d'endommagé le nœud.
+tc.research_page.NODEJAR.2=Lorsque le nœud est emprisonné, le vis est maintenu et ne peut pas se regénérer, le vis ne peut pas non plus être drainer de celle-ci.<BR>Il est possible de libérer un nœud du bocal en le plaçan directement quelque part et de cliquer dessus avec une baguette. Le bocal sera détruit lors du procédé.
 #
 tc.research_name.PAVETRAVEL=Dalle de voyage
 tc.research_text.PAVETRAVEL=Alléger votre voyage
@@ -1009,11 +1009,11 @@ tc.research_page.PAVEWARD.1=Vous avez découvert une façon de transformer la pi
 #
 tc.research_name.WANDPED=Piédestal de recharge pour baguette
 tc.research_text.WANDPED=Recharge de baguette automatique
-tc.research_page.WANDPED.1=Traversé la campagne pour rechargé votre baguette est très bien, mais une manière automatique de le faire serait beaucoup mieux.<BR> Ce piédestal spécialement crafter fait uniquement ça. Toute baguette placé dessus va automatiquement drainer le vis des noeuds proches.<BR>Les noeuds ne seront pas totalement vidés sauf s'il s'agit d'une baguette de mauvaise qualité fabriqué a partir de fer et de bâton de bois.
+tc.research_page.WANDPED.1=Traversé la campagne pour rechargé votre baguette est très bien, mais une manière automatique de le faire serait beaucoup mieux.<BR> Ce piédestal spécialement crafter fait uniquement ça. Toute baguette placé dessus va automatiquement drainer le vis des nœuds proches.<BR>Les nœuds ne seront pas totalement vidés sauf s'il s'agit d'une baguette de mauvaise qualité fabriqué a partir de fer et de bâton de bois.
 #
 tc.research_name.WANDPEDFOC=Focalisateur d'aspects composés
 tc.research_text.WANDPEDFOC=Pour tout un usage
-tc.research_page.WANDPEDFOC.1=Dans vos voyages vous avez découvert plusieurs noeuds qui contient des aspects composés mais jusqu'à présent, il n'y avait pas de moyens d'exploiter cette riche source de vis. Jusqu'à maintenant.<BR>Ce focalisateur peut être placé au dessus d'un piédestal de recharge pour baguette ce qui permettra a toute baguette qu'il contient de siphonner le vis composé des noeuds proches. Malheuresement chaque point de ce vis composé est brisé en un seul point de vis primaire et l'excès de cette énergie est perdue. Cependant, c'est un bon début et vous êtes sûr de découvrir de meilleurs moyens pour accèder à ces ressources.
+tc.research_page.WANDPEDFOC.1=Dans vos voyages vous avez découvert plusieurs nœuds qui contient des aspects composés mais jusqu'à présent, il n'y avait pas de moyens d'exploiter cette riche source de vis. Jusqu'à maintenant.<BR>Ce focalisateur peut être placé au dessus d'un piédestal de recharge pour baguette ce qui permettra a toute baguette qu'il contient de siphonner le vis composé des nœuds proches. Malheuresement chaque point de ce vis composé est brisé en un seul point de vis primaire et l'excès de cette énergie est perdue. Cependant, c'est un bon début et vous êtes sûr de découvrir de meilleurs moyens pour accèder à ces ressources.
 #
 tc.research_name.ETHEREALBLOOM=Bourgeon éthérée
 tc.research_text.ETHEREALBLOOM=Fleur purificatrice
