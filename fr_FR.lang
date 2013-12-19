@@ -1049,7 +1049,6 @@ tc.research_name.CENTRIFUGE=Centrifugeuse alchimique
 tc.research_text.CENTRIFUGE=Prendre les choses différement
 tc.research_page.CENTRIFUGE.1=La centrifugeuse alchimique est une magnifique invention qui vous permet de briser l'essentia en partie qui les compose.<BR>Lorsque L'essentia composé va dans la centrifuge par dessous, cela va le décomposer en essentia primaire ou parent à partir duquel il est fait. Seul un des composants est créé pour chaque point d'essentia brisé.<BR>L'essentia résultant a besoin d'être drainé par le dessus de la centrifugeuse.
 #
-<<<<<<< HEAD
 tc.research_name.TRAVELTRUNK=Malle de voyage
 tc.research_text.TRAVELTRUNK=Bagages mobile
 tc.research_page.TRAVELTRUNK.1=Une extension de vos recherches en golèmancie a conduit à un compagnon utile pour tout thaumaturge sur la route: La malle de voyage. Ce coffre en bois va volontier sautiller auprès de son maître, toujours prêt à offrir un espace de rangement pour tout ce que vous ramassez.<BR>La malle de voyage est solide et peut prendre un important nombre de coups. Elle est très résistante au feu et ne se blesse pas en chutant<BR>La malle peut suivre son maître partout même entre les dimensions. Si vous souhaitez qu'elle reste sur place cependant, il y'a un bouton pratique situé dans son interface
@@ -1073,5 +1072,3 @@ tc.research_name.TUBEFILTER=Tube à essentia filtré
 tc.research_text.TUBEFILTER=Ce que vous voulez, où vous le souhaitez
 tc.research_page.TUBEFILTER.1=Les tubes à essentia filtrés fonctionnent comme les tubes normaux, sauf qu'il est possible de les marquer avec des étiquettes. Lorsqu'ils sont marqués, ils vont restreindre l'écoulement d'essentia qui les traversent au type qui a été marqué.<BR>MAJ+clique sur eux avec une main vide va retirer l'étiquette.
 #
-=======
->>>>>>> 3a0ee4da610d327feef26f792b9bcf80a3a0703c
