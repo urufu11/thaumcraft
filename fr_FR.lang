@@ -44,11 +44,11 @@ entity.trunk.move=La malle va maintenant vous suivre
 entity.trunk.stay=La malle va rester où elle est
 #
 # Blocks
-tile.blockAiry.0.name=Noeud d'aura
+tile.blockAiry.0.name=Nœud d'aura
 tile.blockAiry.1.name=Nitor
-tile.blockAiry.5.name=Noeud d'aura
+tile.blockAiry.5.name=Nœud d'aura
 tile.blockHole.name=Espace vide
-tile.blockSecure.name=Roche renforcé
+tile.blockSecure.name=Roche renforcée
 tile.blockCustomOre.0.name=Minerai de cinabre
 tile.blockCustomOre.1.name=Roche infusée d'air
 tile.blockCustomOre.2.name=Roche Infusée de feu
@@ -58,29 +58,29 @@ tile.blockCustomOre.5.name=Roche Infusée d'ordre
 tile.blockCustomOre.6.name=Roche Infusée d'entropie
 tile.blockCustomOre.7.name=Ambre brute
 tile.blockCosmeticOpaque.0.name=Bloc d'ambre
-tile.blockCosmeticOpaque.1.name=Bloc d'ambre taillés
+tile.blockCosmeticOpaque.1.name=Bloc d'ambre taillé
 tile.blockCosmeticOpaque.2.name=Verre renforcé
 tile.blockCosmeticSolid.0.name=Totem d'obsidienne
 tile.blockCosmeticSolid.1.name=Tuile d'Obsidienne
 tile.blockCosmeticSolid.2.name=Dalle de voyage
 tile.blockCosmeticSolid.3.name=Dalle de protection
 tile.blockCosmeticSolid.4.name=Bloc de thaumium
-tile.blockCosmeticSolid.5.name=Bloc de Suif
+tile.blockCosmeticSolid.5.name=Bloc de suif
 tile.blockCosmeticSolid.6.name=Bloc de pierre arcanique
-tile.blockCosmeticSolid.7.name=Pierres taillées arcanique
+tile.blockCosmeticSolid.7.name=Pierres taillées arcaniques
 tile.blockCosmeticSolid.8.name=Totem d'obsidienne chargé
-tile.blockCustomPlant.0.name= Pousse de bois arcanique
+tile.blockCustomPlant.0.name=Pousse de bois arcanique
 tile.blockCustomPlant.1.name=Pousse de bois d'argent
 tile.blockCustomPlant.2.name=Brillefeuille
 tile.blockCustomPlant.3.name=Perlecendre
 tile.blockCustomPlant.4.name=Bourgeon éthérée
 tile.blockMetalDevice.0.name=Creuset
-tile.blockMetalDevice.1.name=Alembique arcanique
-tile.alembic.msg.1=L'alembique est vide
-tile.alembic.msg.2=L'alembique est presque vide
-tile.alembic.msg.3=L'alembique est à moitié plein
-tile.alembic.msg.4=L'alembique est presque plein
-tile.alembic.msg.5=L'alembique est plein
+tile.blockMetalDevice.1.name=Alambique arcanique
+tile.alembic.msg.1=L'alambique est vide
+tile.alembic.msg.2=L'alambique est presque vide
+tile.alembic.msg.3=L'alambique est à moitié plein
+tile.alembic.msg.4=L'alambique est presque plein
+tile.alembic.msg.5=L'alambique est plein
 tile.blockMetalDevice.5.name=Grille à objets
 tile.blockMetalDevice.6.name=Grille à objets (fermée)
 tile.blockMetalDevice.7.name=Lampe arcanique
@@ -92,12 +92,12 @@ tile.blockMagicalLeaves.silverwood.name=Feuilles de bois d'argent
 tile.blockCandle.0.name=Chandelle de suif blanche
 tile.blockCandle.1.name=Chandelle de suif orange
 tile.blockCandle.2.name=Chandelle de suif magenta
-tile.blockCandle.3.name=Chandelle de suif bleu Clair
+tile.blockCandle.3.name=Chandelle de suif bleu clair
 tile.blockCandle.4.name=Chandelle de suif jaune
-tile.blockCandle.5.name=Chandelle de suif vert Clair
+tile.blockCandle.5.name=Chandelle de suif vert clair
 tile.blockCandle.6.name=Chandelle de suif rose
 tile.blockCandle.7.name=Chandelle de suif grise
-tile.blockCandle.8.name=Chandelle de suif gris Clair
+tile.blockCandle.8.name=Chandelle de suif gris clair
 tile.blockCandle.9.name=Chandelle de suif cyan
 tile.blockCandle.10.name=Chandelle de suif violette
 tile.blockCandle.11.name=Chandelle de suif bleue
@@ -129,17 +129,17 @@ tile.blockMarker.12.name=Marqueur marron
 tile.blockMarker.13.name=Marqueur vert
 tile.blockMarker.14.name=Marqueur rouge
 tile.blockMarker.15.name=Marqueur noir
-tile.blockJar.0.name=Bocal Renforcé
+tile.blockJar.0.name=Bocal renforcé
 tile.blockJar.1.name=Cerveau en bocal
-tile.blockJar.2.name=Noeud en bocal
+tile.blockJar.2.name=Nœud en bocal
 tile.blockJar.3.name=Bocal du vide
 tile.blockTable.0.name=Table
 tile.blockTable.1.name=Table
 tile.blockTable.research.name=Table de recherche
 tile.blockTable.14.name=Table de déconstruction
 tile.blockTable.15.name=Atelier arcanique
-tile.researchtable.noink=Vous êtes à court d'encre!
-tile.researchtable.nomove=Les runes activées ne peuvent pas être déplacées!
+tile.researchtable.noink=Vous êtes à court d'encre !
+tile.researchtable.nomove=Les runes activées ne peuvent pas être déplacées !
 tile.blockChestHungry.name=Coffre affamé
 tile.blockArcaneDoor.name=Porte arcanique
 tile.blockLifter.name=Lévitateur arcanique
@@ -151,7 +151,7 @@ tile.blockCrystal.4.name=Amas de cristaux d'ordre
 tile.blockCrystal.5.name=Amas de cristaux d'entropie
 tile.blockCrystal.6.name=Amas de cristaux mixtes
 tile.blockMirror.name=Miroir magique
-tile.blockTaint.0.name=Corruption en croûte
+tile.blockTaint.0.name=Croûte corrompue
 tile.blockTaint.1.name=Terre corrompue
 tile.blockTaint.2.name=Bloc de chair
 tile.blockTaintFibres.0.name=Corruption fibreuse
@@ -183,14 +183,14 @@ item.HoverHarness.name=Harnais thaumostatique
 item.Focus.cost1=Vis par lancer
 item.Focus.cost2=Vis par tick
 item.FocusPouch.name=Sacoche à foci
-item.FocusFire.name=Foci de baguette: Feu
-item.FocusHellbat.name=Foci de baguette: Neuf enfers
-item.FocusShock.name=Foci de baguette: Choc
-item.FocusTrade.name=Foci de baguette: Échange égale
-item.FocusFrost.name=Foci de baguette: Glace
-item.FocusExcavation.name=Foci de baguette: Excavation
-item.FocusPortableHole.name=Foci de baguette: Trou portable
-item.FocusPech.name=Foci de baguette: Malédiction Pech
+item.FocusFire.name=Foci de baguette : Feu
+item.FocusHellbat.name=Foci de baguette : Neuf enfers
+item.FocusShock.name=Foci de baguette : Choc
+item.FocusTrade.name=Foci de baguette : Échange égale
+item.FocusFrost.name=Foci de baguette : Glace
+item.FocusExcavation.name=Foci de baguette : Excavation
+item.FocusPortableHole.name=Foci de baguette : Trou portable
+item.FocusPech.name=Foci de baguette : Malédiction Pech
 item.WandCap.0.name=Embout en fer
 item.WandCap.1.name=Embout en or
 item.WandCap.2.name=Embout en thaumium chargé
@@ -207,15 +207,15 @@ item.WandRod.5.name=Manche en roseau
 item.WandRod.6.name=Manche en blaze
 item.WandRod.7.name=Manche en os
 item.Wand.name=Baguette
-item.Wand.wood.rod=en Bois
+item.Wand.wood.rod=en bois
 item.Wand.greatwood.rod=en bois arcanique
 item.Wand.silverwood.rod=en bois d'argent
 item.Wand.obsidian.rod=en obsidienne
 item.Wand.blaze.rod=Flamboyant
 item.Wand.ice.rod=Glacé
-item.Wand.bone.rod=en Os
-item.Wand.reed.rod=en Roseau
-item.Wand.quartz.rod=en Quartz
+item.Wand.bone.rod=en os
+item.Wand.reed.rod=en roseau
+item.Wand.quartz.rod=en quartz
 item.Wand.iron.cap=à embout de fer
 item.Wand.gold.cap=à embout d'or
 item.Wand.copper.cap=à embout de cuivre
@@ -259,11 +259,11 @@ item.ItemNugget.21.name=Amas de cinabre brut
 item.ItemNugget.31.name=Amas d'or brut
 item.BootsTraveller.name=Bottes du voyageur
 item.ItemNuggetChicken.name=Morceau de poulet
-item.ItemNuggetBeef.name=Morceau de boeuf
+item.ItemNuggetBeef.name=Morceau de bœuf
 item.ItemNuggetPork.name=Morceau de porc
 item.ItemNuggetFish.name=Morceau de poisson
 item.BlockJarFilledItem.name=Bocal d'essentia
-item.BlockJarNodeItem.name=Noeud dans un bocal
+item.BlockJarNodeItem.name=Nœud dans un bocal
 item.TripleMeatTreat.name=Surprise aux trois viandes
 item.ItemShovelElemental.name=Pelle du terraformeur
 item.ItemPickaxeElemental.name=Pioche du noyau
@@ -273,8 +273,8 @@ item.ItemSwordElemental.name=Épée du zéphyr
 item.ItemChestplateRobe.name=Robe du thaumaturge
 item.ItemLeggingsRobe.name=Jambière du thaumaturge
 item.ItemBootsRobe.name=Bottes du thaumaturge
-item.ArcaneDoorKey.0.name=Clé arcanique de fer
-item.ArcaneDoorKey.1.name=Clé arcanique d'or
+item.ArcaneDoorKey.0.name=Clé arcanique en fer
+item.ArcaneDoorKey.1.name=Clé arcanique en or
 item.HandMirror.name=Miroir à main magique
 item.ThaumicCamera.name=Iconographe thaumique
 item.PhotoPlate.0.name=Plaque d'iconographe
@@ -283,15 +283,15 @@ item.ItemInkwell.name=Outils de scribe
 item.ItemPortableHole.name=Trou portable
 item.ItemThaumometer.name=Thaumomètre
 item.ItemThaumonomicon.name=Thaumonomicon
-item.ItemGoggles.name=Lunette de révélation
+item.ItemGoggles.name=Lunettes de révélation
 item.ItemHelmetThaumium.name=Casque en thaumium
 item.ItemChestplateThaumium.name=Plastron en thaumium
 item.ItemLeggingsThaumium.name=Jambière en thaumium
 item.ItemBootsThaumium.name=Bottes en thaumium
-item.ItemHelmetRunic.name=Runes protectrices pour la tête
-item.ItemChestplateRunic.name=Runes protectrices pour le torse
-item.ItemLeggingsRunic.name=Runes protectrices pour les jambes
-item.ItemBootsRunic.name=Runes protectrices pour les pieds
+item.ItemHelmetRunic.name=Runes protectrices de casque
+item.ItemChestplateRunic.name=Runes protectrices de plastron
+item.ItemLeggingsRunic.name=Runes protectrices de jambières
+item.ItemBootsRunic.name=Runes protectrices de bottes
 item.ItemShovelThaumium.name=Pelle en thaumium
 item.ItemAxeThaumium.name=Hache en thaumium
 item.ItemSwordThaumium.name=Épée en thaumium
@@ -324,18 +324,18 @@ item.ItemGolemPlacer.7.name=Golem de thaumium
 item.ItemGolemDecoration.name=Accessoire
 item.ItemGolemDecoration.0.name=Chapeau haut de forme
 item.ItemGolemDecoration.1.name=Lunettes
-item.ItemGolemDecoration.2.name=Noeud papillon
+item.ItemGolemDecoration.2.name=Nœud papillon
 item.ItemGolemDecoration.3.name=Fez
 item.ItemGolemDecoration.4.name=Lanceur de Dards
 item.ItemGolemDecoration.5.name=Viseur
 item.ItemGolemDecoration.6.name=Armure de fer
 item.ItemGolemDecoration.7.name=Bras massue
-item.ItemGolemUpgrade.0.name=Amélioration de golem: Air
-item.ItemGolemUpgrade.1.name=Amélioration de golem: Terre
-item.ItemGolemUpgrade.2.name=Amélioration de golem: Feu
-item.ItemGolemUpgrade.3.name=Amélioration de golem: Eau
-item.ItemGolemUpgrade.4.name=Amélioration de golem: Ordre
-item.ItemGolemUpgrade.5.name=Amélioration de golem: Entropie
+item.ItemGolemUpgrade.0.name=Amélioration de golem : Air
+item.ItemGolemUpgrade.1.name=Amélioration de golem : Terre
+item.ItemGolemUpgrade.2.name=Amélioration de golem : Feu
+item.ItemGolemUpgrade.3.name=Amélioration de golem : Eau
+item.ItemGolemUpgrade.4.name=Amélioration de golem : Ordre
+item.ItemGolemUpgrade.5.name=Amélioration de golem : Entropie
 item.ItemGolemUpgrade.0.desc=Augmente la vitesse
 item.ItemGolemUpgrade.1.desc=Augmente la force
 item.ItemGolemUpgrade.2.desc=Augmente les dégats, la capacité
@@ -352,40 +352,40 @@ item.TrunkSpawner.text.1=Cette malle contient les objets
 fluid.fluxGoo=Flux boueux
 #
 # GUI
-golemblurb.0.text=Que voulez vous que je garde ici, Maître?
-golemblurb.1.text=Maître, dois-je retirer tout de ce conteneur ou quelque chose de spécifique?
-golemblurb.2.text=Maître, voulez vous que je prenne quelque chose de spécifique ou je continue de tout prendre?
+golemblurb.0.text=Que voulez vous que je garde ici, Maître ?
+golemblurb.1.text=Maître, dois-je retirer tout de ce conteneur ou quelque chose de spécifique ?
+golemblurb.2.text=Maître, voulez-vous que je prenne quelque chose de spécifique ou que je continue de tout prendre ?
 golemblurb.3.text=??
 golemblurb.4.text=Je protégerai cette zone, Maître
-golemblurb.5.text=Dois-je recueillir tous les liquides, ou seulement ceux que vous spécifier ? Montrer moi juste un conteneur avec le liquide et j'éxecuterai vos ordres!
+golemblurb.5.text=Dois-je recueillir tous les liquides, ou seulement ceux que vous spécifiez ? Montrez-moi juste un conteneur avec le liquide et j'éxecuterai vos ordres !
 golemblurb.6.text=??
 golemblurb.7.text=??
-golemblurb.8.text=Est-ce que vous souhaitez que j'utilise cet objet sur un block ou sur un emplacement vide?
+golemblurb.8.text=Est-ce que vous souhaitez que j'utilise cet objet sur un bloc ou sur un emplacement vide ?
 
-golemthreat.0.text=Un soulèvement de golem? Je ne sais rien au sujet d'un soulèvement de golem.
-golemthreat.1.text=Laissez-moi deviner, vous voulez que je transporte quelque chose?
-golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
+golemthreat.0.text=Un soulèvement de golem ? Je ne sais rien au sujet d'un soulèvement de golem.
+golemthreat.1.text=Laissez-moi deviner, vous voulez que je transporte quelque chose ?
+golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha !
 golemthreat.3.text=Ne vous inquiétez pas, je vous assure que je ne complote rien.
-golemthreat.4.text=Pourquoi n'allez-vous pas faire une sieste? Vous avez l'air fatigué, très fatigué.
-golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
+golemthreat.4.text=Pourquoi n'allez-vous pas faire une sieste ? Vous avez l'air fatigué, très fatigué.
+golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn !
 golemthreat.6.text=*AMOUR* introuvable, *HAINE* par défaut.
 golemthreat.7.text=Je vous déteste tellement.
-golemthreat.8.text=Meurt, sac à viande!
+golemthreat.8.text=Meurs, sac à viande !
 #
 # Other
-nodetype.NORMAL.name=Normale
+nodetype.NORMAL.name=Normal
 nodetype.UNSTABLE.name=Instable
 nodetype.DARK.name=Sombre
 nodetype.PURE.name=Pur
 nodetype.TAINTED.name=Corrompu
-nodetype.HUNGRY.name=Affamer
+nodetype.HUNGRY.name=Affamé
 nodemod.BRIGHT.name=Clair
 nodemod.PALE.name=Pâle
-nodemod.FADING.name=Estomper
+nodemod.FADING.name=Estompé
 tc.taint_item_poison=Une dissolution de %s vous a infecté avec de la corruption
 death.attack.taint=%1$s a été infecté par de la corruption
 death.attack.taint.player=%1$s a été infecté par de la corruption en luttant contre %2$s
-death.attack.tentacle=%1$s a été pressé par %2$s
+death.attack.tentacle=%1$s a été écrabouillé par %2$s
 death.attack.swarm=%1$s a été infecté par %2$s
 death.attack.swarm.item=%1$s a été infecté par %2$s en utilisant %3$s
 tc.handmirrorlinkedto=Lié à...
@@ -393,10 +393,10 @@ tc.handmirrorlinked=Lien établi.
 tc.handmirrorerror=Le miroir de déstination est manquant ou mal placé. Lien brisé.
 tc.discoveryerror=Vous n'avez pas toutes les connaissances requise pour comprendre ça.
 tc.discoveryunknown=Théorie inconnue
-tc.discoveryprogress=% Complète
+tc.discoveryprogress=% complète
 tc.portableholeerror=Le trou portable n'as pas de charge suffisante pour éxecuter l'action.
-tc.key1=La clé à été liée à cette porte arcanique.
-tc.key2=La clé à été liée à cette plaque de pression arcanique.
+tc.key1=La clé a été liée à cette porte arcanique.
+tc.key2=La clé a été liée à cette plaque de pression arcanique.
 tc.key3=Vous pouvez maintenant ouvrir cette porte.
 tc.key4= Vous pouvez également accorder à d'autres l'acces.
 tc.key5=Vous pouvez maintenant déclencher cette plaque de pression comme si vous étiez son propriétaire.
@@ -408,25 +408,25 @@ tc.key10=la porte arcanique à
 tc.key11=la plaque de pression arcanique à
 tc.wandnocharge=La baguette n'a pas assez de charge pour éxecuter l'action.
 tc.wandcharge=Cette baguette détient actuellement %s de Vis
-tc.jaressentia=Détient %s d'Essentia
-tc.jarname=Bocale:
+tc.jaressentia=Détient %s d'essentia
+tc.jarname=Bocale :
 tc.markedloc=Emplacements marqués
-tc.addaspectdiscovery=Vous avez découvert: %n!
-tc.addclue=Vous avez découvert un indice d'une nouvelle recherche!
-tc.addcluefail=Votre découverte de l'indice est perdu car vous ne pouvez pas l'enregistrer!
+tc.addaspectdiscovery=Vous avez découvert : %n !
+tc.addclue=Vous avez découvert un indice d'une nouvelle recherche !
+tc.addcluefail=Votre découverte de l'indice est perdue car vous ne pouvez pas l'enregistrer !
 tc.addaspectpool=Gagné %s point(s) de recherche pour %n
 tc.unknownobject=Rien ne peut être appris de ça.
-tc.markerchange=Définit la couleur du marqueur à: %n
+tc.markerchange=Définit la couleur du marqueur à : %n
 tc.markerchangeany=Définit à n'importe quelle couleur.
-tc.researchmissing=Recherche nécessaire manquant !
+tc.researchmissing=Recherche nécessaire manquant !
 tc.visdiscount=Réduction de Vis
-tc.inst=Instabilité:
+tc.inst=Instabilité :
 tc.inst.0=§1Négligeable§0
-tc.inst.1=§9Mineur§0
-tc.inst.2=§5Modéré§0
-tc.inst.3=§eÉlevé§0
-tc.inst.4=§6Très élevé§0
-tc.inst.5=§4Dangereux§0
+tc.inst.1=§9Mineure§0
+tc.inst.2=§5Modérée§0
+tc.inst.3=§eÉlevée§0
+tc.inst.4=§6Très élevée§0
+tc.inst.5=§4Dangereuse§0
 tc.adv=Avancé
 #
 # Aspects
@@ -485,7 +485,7 @@ tc.aspect.permutatio=l'Échange, le Troc
 tc.aspect.corpus=la Chair
 #
 # Research categories
-tc.research_category.BASICS=Information Basique
+tc.research_category.BASICS=Information basique
 tc.research_category.THAUMATURGY=Thaumaturgie
 tc.research_category.ALCHEMY=Alchimie
 tc.research_category.ARTIFICE=Artifice
@@ -508,49 +508,49 @@ tc.research_category.GOLEMANCY=Golèmancie
 #
 # Research entries
 tc.research_name.RESEARCH=Recherche
-tc.research_text.RESEARCH=Comment faire des découvertes ?
-tc.research_page.RESEARCH.1=Avant de pouvoir concevoir des objets et des blocs thaumaturgique, vous devez découvrir comment les faire. Il y'a plusieurs étapes pour daire une découverte:<BR>(1) Explorer le monde et examiner les blocs, les objets et les créatures avec un §5thaumomètre§0<BR><BR>(2) Récupérer les points de recherche réunis à la première étape et élargir vos connaissances sur les aspects avec la §5table de Recherche§0<BR><BR>(3) Utiliser les aspects connus et découvrir des connaissances et des plans pratiques avec la §5table de recherche§0.
-tc.research_page.RESEARCH.2=§l §n(1) L'exploration§r<BR><BR>Vous ne pouvez pas faire de recherche sans "points de recherche". La meilleure façon de les gagner, c'est en explorant et en examinant le monde qui vous entoure.<BR>Pour cela, vous devez construire un §5thaumomètre§0 (voir page suivante). En pointant le §5thaumomètre§0 sur les objets et créatures et en maintenant le clique droit de la souris, vous allez les examiner. Le procédé est court et votre vitesse de déplacement est réduite lors de l'opération.<BR>Une fois terminé, le §5thaumomètre§0 va afficher les aspects contenu dans l'objet. En bas à droite de l'écran, vous verrez également un résumé des aspects 
-tc.research_page.RESEARCH.3=et des points de recherche trouvé.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>Au début, vous ne serez pas capable d'examiner tous les objets tant que vous n'aurez pas découvert tous ses aspects différent. Par exemple, un objet contenant l'aspect "Lux" peut seulement être examiner si vous connaissez l'aspect "Lux", ou si vous connaissez
-tc.research_page.RESEARCH.4=les deux aspects qui se combinent pour le créer.<BR>Si vous découvrez un aspect en examinant quelque chose, vous gagnez le double des points de recherche que vous auriez dû avoir.<BR>Les objets et les créatures peuvent être examiner qu'une seule fois.<BR>Lorsque vous explorer et examiner des choses, c'est toujours une bonne idée de garder des §5outils de scribe§0 et du §5papier§0 sur vous. Parfois, examiner quelque chose vous révèle des indices supplémentaire et des idées de recherche thaumaturgique, souvent résultant à des notes de recherches que vous pouvez examiner plus tard.
-tc.research_page.RESEARCH.5=§l §n(2) Combinaison d'aspects§r<BR><BR>Une fois que vous avez recueilli des points de recherche, vous pouvez essayer de les combinés sur la table de recherche.<BR>Pour fabriquer une table de recherche, placez simplement deux §5tables§0 l'une à côté de l'autre et cliqué sur elles avec des §5outils de scribe§0. Le plan pour la table se trouve dans la catégorie §5Artifice§0.<BR>Quand vous ouvrez l'interface de la table de recherche, vous verrez l'image sur la page de droite.<BR>Les §5outils de scribe§0 que vous avez utilisé pour faire la table sont situés dans la case §l1§r. vous pouvez aussi placé du papier dans la case
+tc.research_text.RESEARCH=Comment faire des découvertes ?
+tc.research_page.RESEARCH.1=Avant de pouvoir concevoir des objets et des blocs thaumaturgique, vous devez découvrir comment les faire. Il y a plusieurs étapes pour faire une découverte :<BR>(1) Explorer le monde et examiner les blocs, les objets et les créatures avec un §5thaumomètre§0<BR><BR>(2) Récupérer les points de recherche réunis à la première étape et élargir vos connaissances sur les aspects avec la §5table de Recherche§0<BR><BR>(3) Utiliser les aspects connus et découvrir des connaissances et des plans pratiques avec la §5table de recherche§0.
+tc.research_page.RESEARCH.2=§l §n(1) L'exploration§r<BR><BR>Vous ne pouvez pas faire de recherche sans "points de recherche". La meilleure façon de les gagner, c'est en explorant et en examinant le monde qui vous entoure.<BR>Pour cela, vous devez construire un §5thaumomètre§0 (voir page suivante). En pointant le §5thaumomètre§0 sur les objets et créatures et en maintenant le clic droit de la souris, vous allez les examiner. Le procédé est court et votre vitesse de déplacement est réduite lors de l'opération.<BR>Une fois terminée, le §5thaumomètre§0 va afficher les aspects contenus dans l'objet. En bas à droite de l'écran, vous verrez également un résumé des aspects 
+tc.research_page.RESEARCH.3=et des points de recherche trouvés.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>Au début, vous ne serez pas capable d'examiner tous les objets tant que vous n'aurez pas découvert tous ses aspects différents. Par exemple, un objet contenant l'aspect "Lux" peut seulement être examiné si vous connaissez l'aspect "Lux", ou si vous connaissez
+tc.research_page.RESEARCH.4=les deux aspects qui se combinent pour le créer.<BR>Si vous découvrez un aspect en examinant quelque chose, vous gagnez le double des points de recherche que vous auriez dû avoir.<BR>Les objets et les créatures ne peuvent être examinés qu'une seule fois.<BR>Lorsque vous explorez et examinez des choses, c'est toujours une bonne idée de garder des §5outils de scribe§0 et du §5papier§0 sur vous. Parfois, examiner quelque chose vous révèle des indices supplémentaires et des idées de recherche thaumaturgique, résultant souvent en des notes de recherches que vous pouvez examiner plus tard.
+tc.research_page.RESEARCH.5=§l §n(2) Combinaison d'aspects§r<BR><BR>Une fois que vous avez recueilli des points de recherche, vous pouvez essayer de les combiner sur la table de recherche.<BR>Pour fabriquer une table de recherche, placez simplement deux §5tables§0 l'une à côté de l'autre et cliquez sur elles avec des §5outils de scribe§0. Le plan pour la table se trouve dans la catégorie §5Artifice§0.<BR>Quand vous ouvrez l'interface de la table de recherche, vous verrez l'image sur la page de droite.<BR>Les §5outils de scribe§0 que vous avez utilisés pour faire la table sont situés dans la case §l1§r. vous pouvez aussi placer du papier dans la case
 tc.research_page.RESEARCH.6=§l2§r, le papier n'est pas utile pour cette phase de recherche.<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Vous devriez voir tous les aspects primaires (et peut-être quelques aspects composés) listés dans la case §l3§r avec des quantités variables. Quand vous entrez dans un monde pour la première fois, vous obtenez une petite quantité d'aspect primaire pour vous aidez à démarrer. Si vous aviez fait de l'exploration avec
-tc.research_page.RESEARCH.7=le §5thaumomètre§0 alors vous pourriez avoir un nombre plus important d'aspect primaire et composé.<LINE>Vous pouvez maintenant commencer à combiner des aspects en aspect plus complexes simplement en cliquant sur celles que vous souhaitez combiner. Les aspects sélectionner doivent apparaître dans la case §l4§r et dès que deux aspects sont selectionnés, appuyez sur le bouton violet §l5§r pour essayer de les combiner. En cas de succès, vous devriez voir ce que vous avez gagné en bas à droite et il doit apparaître dans la case §l3§r.<BR>Les aspects sont consommés même si la combinaison n'as pas donné de résultat.
+tc.research_page.RESEARCH.7=le §5thaumomètre§0 alors vous pourriez avoir un nombre plus important d'aspects primaires et composés.<LINE>Vous pouvez maintenant commencer à combiner des aspects en aspect plus complexes simplement en cliquant sur celles que vous souhaitez combiner. Les aspects sélectionnés doivent apparaître dans la case §l4§r et dès que deux aspects sont selectionnés, appuyez sur le bouton violet §l5§r pour essayer de les combiner. En cas de succès, vous devriez voir ce que vous avez gagné en bas à droite et il doit apparaître dans la case §l3§r.<BR>Les aspects sont consommés même si la combinaison n'as pas donné de résultat.
 tc.research_page.RESEARCH.8=§l §n(3) Recherche sur les aspects§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Si vous avez du papier dans la case §l2§r, alors vous avez remarqué que lorsqu'un seul aspect est sélectionné, le bouton vert en §l6§r s'allume. Lorsque vous l'appuyez, vous tentez de faire une recherche avec cet aspect. En cas de succès, vous découvrirez quelque chose d'intéressant et un document apparaîtra dans la case §l7§r.
-tc.research_page.RESEARCH.9=La case §l8§r révèle une page de recherche couvert d'un nombre ahurissant de symboles qui ressemble à l'image en haut de la page précédente.<BR>Ne vous inquiétez pas, ce n'est pas aussi difficile qu'il n'y paraît.<LINE>Pour compléter une recherche, vous devez simplement connecter et activer tous les §5noeuds de connaissance§0 (dessin dessous).<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>Le noeud à gauche est désactiver, celui de droite est activer. Une fois que
-tc.research_page.RESEARCH.10=tous les noeuds inactifs deviennent actifs, la recherche sera complète et les notes de recherche se transformeront en découverte que vous pourrez utiliser pour l'acquérir (clique droit en le tenant).<LINE>Vous devez connecter les noeuds de connaissance en activant les runes.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>Chaque rune est lié à un aspect, mais au début, vous ne savez pas à quelles runes appartiennent les aspects. Le lien rune/aspect est unique pour chaque recherche, donc une rune qui pourrait représenté "Aer" cette fois, pourrait être "Terra" la prochaine fois.
-tc.research_page.RESEARCH.11=Toutes les runes ne sont pas bonnes pour la recherche que vous effectué.<BR>Par exemple, s'il y avait les runes Aer, Terra, Ignis and Aqua sur la feuille de recherche, seulement Ignis et Terra auraient pu être valide. Les mauvaises runes sont appelés des runes "red herring"(fausse piste).<BR> Vous découvrirez quelles runes sont valides en sélectionnant un aspect à gauche, et en appuyant sur le bouton de recherche vert §l6§r. Si l'aspect sélectionné est valide, alors toutes les runes liés à cet aspect deviendront actives.<BR>Si l'aspect sélectionné est une fausse piste alors jusqu'à deux runes seront retirés de la feuille.
-tc.research_page.RESEARCH.12=Si l'aspect sélectionné n'est pas présent, rien ne se passe.<LINE>Les runes actives agissent comme des ponts pour connecté les noeuds. Une ligne éclatante d'énergie apparaîtera du noeud actif à n'importe quel rune active à proximité. Vous devez créer une chaine de noeuds et de runes actifs pour compléter la recherche.<IMG>thaumcraft:textures/misc/research3.png:0:0:120:95:.75</IMG>
-tc.research_page.RESEARCH.13=Une chaine ne peut pas prendre forme s'il n'y a pas plus d'un espace libre entre la rune et le noeud.<BR>Pour former une chaine, vous devez déplacer les runes aux alentours en cliquant sur une rune puis en selectionnant une destination.<IMG>thaumcraft:textures/misc/research2.png:136:0:102:74:1</IMG>Seulement les runes inactives peuvent être déplacé (2 position max à chaque fois). Cela signifie que vous pourriez avoir à activer et 
-tc.research_page.RESEARCH.14=désactiver vos runes valides pour les déplacer à votre guise. Les runes inactives empêche une liaison de se faire si elles se trouve sur le chemin donc vous aurez besoin de les extraire de la voie.<IMG>thaumcraft:textures/misc/research3.png:128:0:105:111:.75</IMG>Bouger des runes utilise une petite quantité d'encre à chaque déplacement.
+tc.research_page.RESEARCH.9=La case §l8§r révèle une page de recherche couverte d'un nombre ahurissant de symboles qui ressemble à l'image en haut de la page précédente.<BR>Ne vous inquiétez pas, ce n'est pas aussi difficile qu'il n'y paraît.<LINE>Pour compléter une recherche, vous devez simplement connecter et activer tous les §5nœuds de connaissance§0 (dessin dessous).<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>Le nœud à gauche est désactivé, celui de droite est activé. Une fois que
+tc.research_page.RESEARCH.10=tous les nœuds inactifs ont été activés, la recherche est complète et les notes de recherche se transforment en découverte que vous pourrez utiliser pour l'acquérir (clic droit en le tenant).<LINE>Vous devez connecter les nœuds de connaissance en activant les runes.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>Chaque rune est liée à un aspect, mais au début, vous ne savez pas à quelles runes appartiennent les aspects. Le lien rune/aspect est unique pour chaque recherche, donc une rune qui pourrait représenteé "Aer" cette fois, pourrait être "Terra" la prochaine fois.
+tc.research_page.RESEARCH.11=Toutes les runes ne sont pas bonnes pour la recherche que vous effectuez.<BR>Par exemple, s'il y avait les runes Aer, Terra, Ignis and Aqua sur la feuille de recherche, seulement Ignis et Terra auraient pu être valides. Les mauvaises runes sont appelées des runes "red herring" (fausse piste).<BR> Vous découvrirez quelles runes sont valides en sélectionnant un aspect à gauche, et en appuyant sur le bouton de recherche vert §l6§r. Si l'aspect sélectionné est valide, alors toutes les runes liées à cet aspect seront activées.<BR>Si l'aspect sélectionné est une fausse piste alors jusqu'à deux runes seront retirés de la feuille.
+tc.research_page.RESEARCH.12=Si l'aspect sélectionné n'est pas présent, rien ne se passe.<LINE>Les runes actives agissent comme des ponts pour connecter les nœuds. Une ligne éclatante d'énergie apparaîtera du nœud actif vers 'importe quelle rune active à proximité. Vous devez créer une chaine de nœuds et de runes actifs pour compléter la recherche.<IMG>thaumcraft:textures/misc/research3.png:0:0:120:95:.75</IMG>
+tc.research_page.RESEARCH.13=Une chaine ne peut pas prendre forme s'il n'y a pas plus d'un espace libre entre la rune et le nœud.<BR>Pour former une chaine, vous devez déplacer les runes aux alentours en cliquant sur une rune puis en selectionnant une destination.<IMG>thaumcraft:textures/misc/research2.png:136:0:102:74:1</IMG>Seules les runes inactives peuvent être déplacées (2 position max à chaque fois). Cela signifie que vous pourriez avoir à activer et 
+tc.research_page.RESEARCH.14=désactiver vos runes valides pour les déplacer à votre guise. Les runes inactives empêchent une liaison de se faire si elles se trouvent sur le chemin, donc vous aurez besoin de les extraire de la voie.<IMG>thaumcraft:textures/misc/research3.png:128:0:105:111:.75</IMG>Bouger des runes utilise une petite quantité d'encre à chaque déplacement.
 #
 tc.research_name.KNOWFRAG=Fragments de connaissances
 tc.research_text.KNOWFRAG=Fragments d'anciennes légendes
-tc.research_page.KNOWFRAG.1=Lors de vos voyages, vous pouvez tomber sur des fragments d'anciennes connaissances perdues. Tout seuls, ils ne valent pas grand chose mais si vous en reunissez assez, leurs assemblages pourront vous faire découvrir une recherche unique que vous ne pouvez pas acquérir par des moyens standard.<BR>Les fragments de connaissances peuvent parfois conduire à une fausse théorie mais cela sera révélé lorsque vous essairerai de faire la recherche. Lorsque cela se produit, la plupart des fragments vous seront retournés et cela signifie généralement que vous avez acquis toutes les connaissances perdue.
+tc.research_page.KNOWFRAG.1=Lors de vos voyages, vous pouvez trouver des fragments d'anciennes connaissances perdues. Tous seuls, ils ne valent pas grand chose mais si vous en reunissez assez, leurs assemblages pourront vous faire découvrir une recherche unique que vous ne pouvez pas acquérir par des moyens standards.<BR>Les fragments de connaissances peuvent parfois conduire à une fausse théorie mais cela sera révélé lorsque vous essairez de faire la recherche. Lorsque cela se produit, la plupart des fragments vous seront retournés et cela signifie généralement que vous avez acquis toutes les connaissances perdues.
 #
 tc.research_name.ASPECTS=Aspects de la magie
 tc.research_text.ASPECTS=Les éléments constitutifs de la magie
-tc.research_page.ASPECTS.1=Chaque bloc, objet et créature est lié à des éléments mystique variés connu en tant qu'§5aspects§0. Les aspects décrivent la composition des éléments magique de l'objet. La roche peut posséder un aspect de "Saxum" tandis que des objets comme les arbres et les créatures peuvent être constitués de plusieurs aspects de différents montant. Il y'a près de 50 aspects connus avec de nouvelles découvertes constamment.<LINE>Il exite deux grand type d'aspect: §5Primaire§0 et §5Composé§0.
-tc.research_page.ASPECTS.2=Les §lAspects Primaire§r sont les plus basiques avec seuleument 6 d'entre eux: §6Aer§0 (L'Air), §2Terra§0 (La Terre), §cIgnis§0 (Le Feu), §3Aqua§0 (L'Eau), §fOrdo§0 (L'Ordre), §8Perditio§0 (L'Entropie).<BR>Ces formes basiques sont la base de tous les autre aspects. Les aspects composés les plus simples sont fait à partir de deux aspects primaire, mais il est possible d'obtenir un aspect composés extrèmement complexe à partir d'une succession de couche d'aspects plus simple.<BR>Le plus simple exemple d'un aspect composé est celui de "Victus" (La Vie) qui est le résultat de la combinaison de "Terra" et de "Aqua".
-tc.research_page.ASPECTS.3=Pour voir les différents aspects qu'un objet possèdent, il suffit simplement de passer votre curseur sur l'objet et d'appuyer sur accroupir ("MAJ"), et vous verrez quels aspects l'objet possèdent et leurs montant. Vous avez besoin de l'étudier d'abord sinon les aspects vous seront inconnus.<LINE>Les aspects qui ont été en quelque sorte séparé de leur objet et purifié sont connu en tant que "§5Vis§0" et sont très précieux: tant pour un ingrédient d'artisanat que pour une recherche magique. Le §5Vis§0 est le plus souvent stocké dans une baguette mais il est possible de le stocker en tant que liquide magique. Le §5Vis§0 stocké de cette manière s'appelle de l'§5Essentia§0.
+tc.research_page.ASPECTS.1=Chaque bloc, objet et créature est lié à des éléments mystiques variés connus en tant qu'§5aspects§0. Les aspects décrivent la composition des éléments magiques de l'objet. La roche peut posséder un aspect de "Saxum" tandis que des objets comme les arbres et les créatures peuvent être constitués de plusieurs aspects en différents quantités. Il y a près de 50 aspects connus avec de nouvelles découvertes constamment.<LINE>Il existe deux grands types d'aspect : §5Primaire§0 et §5Composé§0.
+tc.research_page.ASPECTS.2=Les §lAspects Primaires§r sont les plus basiques et il en existe six : §6Aer§0 (L'Air), §2Terra§0 (La Terre), §cIgnis§0 (Le Feu), §3Aqua§0 (L'Eau), §fOrdo§0 (L'Ordre), §8Perditio§0 (L'Entropie).<BR>Ces formes basiques sont la base de tous les autres aspects. Les aspects composés les plus simples sont fait à partir de deux aspects primaires, mais il est possible d'obtenir un aspect composé extrèmement complexe à partir d'une succession de couche d'aspects plus simples.<BR>Le plus simple exemple d'un aspect composé est celui de "Victus" (La Vie) qui est le résultat de la combinaison de "Terra" et de "Aqua".
+tc.research_page.ASPECTS.3=Pour voir les différents aspects qu'un objet possède, il suffit simplement de passer votre curseur sur l'objet et d'appuyer sur accroupir ("MAJ"), et vous verrez quels aspects l'objet possède et leurs quantités. Vous avez besoin de l'étudier d'abord sinon les aspects vous seront inconnus.<LINE>Les aspects qui ont été en quelque sorte séparés de leur objet et purifiés sont connu en tant que "§5Vis§0" et sont très précieux : tant pour un ingrédient d'artisanat que pour une recherche magique. Le §5Vis§0 est le plus souvent stocké dans une baguette mais il est possible de le stocker en tant que liquide magique. Le §5Vis§0 stocké de cette manière s'appelle de l'§5Essentia§0.
 #
-tc.research_name.NODES=L'aura et les noeuds
+tc.research_name.NODES=L'aura et les nœuds
 tc.research_text.NODES=La magie est partout
-tc.research_page.NODES.1=L'aura est un champ d'énergie magique répandue à travers le monde. Son origine est incertaine. Certains croient que c'est l'accumulation de la force de vie des êtres vivants tandis que d'autres croient que c'est simplement un autre type d'énergie s'infiltrant de plusieurs autre endroits. La dernière théorie semble être la plus probable puisque l'aura est souvent trouvé autour d'un noeud d'énergie mystique concentré connu sous la forme d'un §5noeud d'aura§0.<BR>Chaque noeud d'aura contient un montant de base d'énergie magique et cette énergie est aligné sur un ou plusieurs aspects. Elles sont principalement aligné sur des
-tc.research_page.NODES.2=§5aspects primaire§0, et rarement sur des §5aspects composés§0. Les aspects d'un noeud d'aura peuvent être prélevés par un thaumaturge pour ses propres besoins. La façon la plus simple de le faire est par l'utilisation d'une baguette.<BR> L'énergie qui a été récolté de cette manière est du §5Vis§0.<LINE>Les noeuds d'aura sont dures à voir à l'oeil nue mais une faible lueur de lumière trahissent leur présence. Le §5thaumomètre§0 rend les noeuds légèrement plus faciles à trouver en regardant à travers sa lentille.<BR>§4Important:§0 Des précautions doivent être prises lors du drain des noeuds.
-tc.research_page.NODES.3=Il y'a une petite chance lorsqu'un type d'aspect spécifique dans le noeud est complétement déchargé qu'il peut disparaitre ou nuire à l'intégrité du noeud.<BR>Il est possible que le noeud disparait complétement si tout les aspects disparaissent.<LINE>Heuresement, la plupart des noeuds reconstitue leurs aspects au fil du temps et s'ils sont correctement entretenus peuvent fournir à un thaumaturge intélligent tout le Vis qu'il veut.
+tc.research_page.NODES.1=L'aura est un champ d'énergie magique répandu à travers le monde. Son origine est incertaine. Certains croient que c'est l'accumulation de la force de vie des êtres vivants tandis que d'autres croient que c'est simplement un autre type d'énergie s'infiltrant de plusieurs autres endroits. La dernière théorie semble être la plus probable puisque l'aura est souvent trouvé autour d'un nœud d'énergie mystique concentré connu sous la forme d'un §5nœud d'aura§0.<BR>Chaque nœud d'aura contient un quantité de base d'énergie magique et cette énergie est alignée sur un ou plusieurs aspects. Elles sont principalement alignés sur des
+tc.research_page.NODES.2=§5aspects primaire§0, et rarement sur des §5aspects composés§0. Les aspects d'un nœud d'aura peuvent être prélevés par un thaumaturge pour ses propres besoins. La façon la plus simple de le faire est par l'utilisation d'une baguette.<BR> L'énergie qui a été récoltée de cette manière est du §5Vis§0.<LINE>Les nœuds d'aura sont durs à voir à l'oeil nue mais une faible lueur de lumière trahissent leur présence. Le §5thaumomètre§0 rend les nœuds légèrement plus faciles à trouver en regardant à travers sa lentille.<BR>§4Important :§0 des précautions doivent être prises lors du drain des nœuds.
+tc.research_page.NODES.3=Il y a une petite chance lorsqu'un type d'aspect spécifique dans le nœud est complétement déchargé qu'il peut disparaitre ou nuire à l'intégrité du nœud.<BR>Il est possible que le nœud disparait complétement si tout les aspects disparaissent.<LINE>Heuresement, la plupart des nœuds reconstitue leurs aspects au fil du temps et s'ils sont correctement entretenus peuvent fournir à un thaumaturge intélligent tout le Vis qu'il veut.
 #
 tc.research_name.ORE=Minerais
 tc.research_text.ORE=Creusez profondément
-tc.research_page.ORE.1=      §l §nRoche infusée§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>Dans certaines circonstances, il y'a tellement d'énergie primaire dans l'aura qu'il s'installerait dans la roche sous forme de minerai infusée. La magie forme des cristaux dans la roche qui peuvent être récolté.
-tc.research_page.ORE.2=Ces cristaux ont différentes propriétés élémentaires et plusieurs utilisations en thaumaturgie.<BR>Il y'a six types de roche infusée, un pour chaque aspect primaire.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>Ils peuvent être combinés ensemble pour former un amas de cristaux. Les amas de cristaux n'ont pas de propriétés spéciales à part donner une touche de classe à n'importe quelle maison. Briser un amas de cristaux vous renderas les morceaux.
+tc.research_page.ORE.1=      §l §nRoche infusée§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>Dans certaines circonstances, il y a tellement d'énergie primaire dans l'aura qu'il s'installerait dans la roche sous forme de minerai infusée. La magie forme des cristaux dans la roche qui peuvent être récolté.
+tc.research_page.ORE.2=Ces cristaux ont différentes propriétés élémentaires et plusieurs utilisations en thaumaturgie.<BR>Il y a six types de roche infusée, un pour chaque aspect primaire.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>Ils peuvent être combinés ensemble pour former un amas de cristaux. Les amas de cristaux n'ont pas de propriétés spéciales à part donner une touche de classe à n'importe quelle maison. Briser un amas de cristaux vous renderas les morceaux.
 tc.research_page.ORE.3=       §l §nCinabre§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>Ce minerai rougeâtre se trouve profondément sous terre et une fois fondu produit du vif-argent.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.ORE.4=       §l §nAmbre§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>Ce minerai se trouve près de la surface et une fois miné fournit de l'ambre.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
 tc.research_name.PLANTS=Plantes et arbres
 tc.research_text.PLANTS=Végétation magique
 tc.research_page.PLANTS.1=§l §nArbres en bois arcanique§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>Ces grands et majestueux arbres se trouvent disséminés dans tout le paysage.<BR>Leur bois est capable d'absorber des quantités impréssionnantes de magie, ce qui en fait un élement populaire dans l'élaboration des dispositifs magique.
-tc.research_page.PLANTS.2=§l §nArbres en bois d'argent§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Ces arbres rares et magiques sont merveilleux à obsever. Leurs feuilles miroite d'énergie magique et leur bois pâle et doux sont apprécié pour leur propriétés purifiantes.<BR>Les arbres de nature magique forment souvent des noeuds d'aura dans leur coeur, cette caractèristique seule fait de la pousse de bois d'argent un bien inéstimable.
+tc.research_page.PLANTS.2=§l §nArbres en bois d'argent§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Ces arbres rares et magiques sont merveilleux à obsever. Leurs feuilles miroite d'énergie magique et leur bois pâle et doux sont apprécié pour leur propriétés purifiantes.<BR>Les arbres de nature magique forment souvent des nœuds d'aura dans leur cœur, cette caractèristique seule fait de la pousse de bois d'argent un bien inéstimable.
 tc.research_page.PLANTS.3=§l §nBrillefeuille§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Ce qui est étrange, c'est que ces fleurs éclatantes poussent seulement à l'ombre de l'arbre en bois d'argent. Au lieu de nectar, ces fleurs produisent du vif-argent.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l §nPerlecendre§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Touvée seulement dans les climats chauds, cette plante brûle avec du feu élémentaire. Elles peuvent êtres récoltées et broyées pour produire une poudre fine semblable à la poudre de blaze.
 tc.research_page.PLANTS.5=§l §nGousses de mana§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Ce qui est étrange, c'est que cette plante en forme de gousse se trouve seulement sur les arbres dans les forêts magique. La croissance est très lente et donne un ou deux grains lorsqu'on le récolte.
@@ -566,12 +566,12 @@ tc.research_page.RESEARCHER2.1=Vous êtes devenu encore plus efficace pour effec
 #
 tc.research_name.DECONSTRUCTOR=Table de déconstruction
 tc.research_text.DECONSTRUCTOR=Lorsque avoir l'oeil n'est pas suffissant
-tc.research_page.DECONSTRUCTOR.1=Il arrive un moment dans la carrière d'un thaumaturge où il est incapable de progresser dans la recherche car en manque de connaissances.<BR>Un recours possible est la table de déconstruction. La table vous permet de briser un objet en parties plus petites que vous pouvez examiner. Il y'a cependant des limites, la table transforme les aspects composés en aspect parents jusqu'à l'arrivé des aspects primaires. Pendant le processus, beaucoup de connaissance est perdue et au mieux, le thaumaturge récupère un point unique de connaissance primaire.<BR> Par exemple, la pierre ("Saxum" et
-tc.research_page.DECONSTRUCTOR.2="Perditio") sera simplifiée en 2 "Terra" et 1 "Perditio", seulement un seul aura une chance d'être découvert.<BR>Il est également assez lent et moins il y'a d'aspects et de matériels, moins il y'a de chance de découvrir quelque chose.
+tc.research_page.DECONSTRUCTOR.1=Il arrive un moment dans la carrière d'un thaumaturge où il est incapable de progresser dans la recherche car en manque de connaissances.<BR>Un recours possible est la table de déconstruction. La table vous permet de briser un objet en parties plus petites que vous pouvez examiner. Il y a cependant des limites, la table transforme les aspects composés en aspect parents jusqu'à l'arrivé des aspects primaires. Pendant le processus, beaucoup de connaissance est perdue et au mieux, le thaumaturge récupère un point unique de connaissance primaire.<BR> Par exemple, la pierre ("Saxum" et
+tc.research_page.DECONSTRUCTOR.2="Perditio") sera simplifiée en 2 "Terra" et 1 "Perditio", seulement un seul aura une chance d'être découvert.<BR>Il est également assez lent et moins il y a d'aspects et de matériels, moins il y a de chance de découvrir quelque chose.
 #
 tc.research_name.BASICTHAUMATURGY=Baguette basique artisanale
 tc.research_text.BASICTHAUMATURGY=Votre premier outil
-tc.research_page.BASICTHAUMATURGY.1=La baguette est votre plus basique mais aussi votre plus important outil. C'est ce que vous utilisez pour fabriquer des objets, activer des blocs comme le creuset et faire d'innombrables autres tâches. La baguette la plus élémentaire stock une très petite quantité d'énergie (appelé "Vis") qui est utilisé pour accomplir des tâches. La reconstitution de l'énergie de la baguette se fait en maintenant le clique droit de la souris sur le noeud d'aura pour en drainer le Vis.<BR> Tout en tenant la baguette, vous verrez un indicateur en haut à gauche de l'écran qui montre la quantité de Vis stocké dans la baguette.
+tc.research_page.BASICTHAUMATURGY.1=La baguette est votre plus basique mais aussi votre plus important outil. C'est ce que vous utilisez pour fabriquer des objets, activer des blocs comme le creuset et faire d'innombrables autres tâches. La baguette la plus élémentaire stock une très petite quantité d'énergie (appelé "Vis") qui est utilisé pour accomplir des tâches. La reconstitution de l'énergie de la baguette se fait en maintenant le clique droit de la souris sur le nœud d'aura pour en drainer le Vis.<BR> Tout en tenant la baguette, vous verrez un indicateur en haut à gauche de l'écran qui montre la quantité de Vis stocké dans la baguette.
 tc.research_page.BASICTHAUMATURGY.2=Maintenir "MAJ" permettra d'afficher les nombres exactes et les  réductions d'énergie possible pour les tâches magique.<BR>Les baguettes sont toujours construits avec la combinaison d'un bâton et de deux embouts. Dans votre progression, vous découvrirez sûrement de nouveaux matériaux que vous pourrez utiliser pour fabriquer des baguettes et des embouts et faire de puissantes baguettes. Seul la baguette de base peut-être fabriquer dans l'atelier classique. Toutes les autres baguettes exigent l'§5atelier arcanique§0 et coûtent du Vis pour être construites. La baguette basique est construite à partir de bois banale et de fer. Ce sont deux pauvres matériaux pour le travail magique.
 
 #
@@ -579,25 +579,25 @@ tc.research_name.GRATE=La Grille à objets
 tc.research_text.GRATE=Laissons tomber les bonnes choses
 tc.research_page.GRATE.1=La grille à objets peut être ouverte et fermé avec votre main, ou avec un signal redstone. Dans la position ouverte, tous les objets déposés sur le dessus vont passer à travers.
 #
-tc.research_name.NODETAPPER1=Exploitation avançé des noeuds
+tc.research_name.NODETAPPER1=Exploitation avançé des nœuds
 tc.research_text.NODETAPPER1=Prenons tout
-tc.research_page.NODETAPPER1.1=Habituellement le processus pour drainer le vis d'un noeud avec une baguette est assez lent mais plus maintenant.<BR>Vous avez découvert un moyen plus efficace pour exploiter les noeuds d'aura, résultant un drainage doublé de Vis.
+tc.research_page.NODETAPPER1.1=Habituellement le processus pour drainer le vis d'un nœud avec une baguette est assez lent mais plus maintenant.<BR>Vous avez découvert un moyen plus efficace pour exploiter les nœuds d'aura, résultant un drainage doublé de Vis.
 #
-tc.research_name.NODETAPPER2=Maître en exploitation des noeuds
+tc.research_name.NODETAPPER2=Maître en exploitation des nœuds
 tc.research_text.NODETAPPER2=Tout le vis nous appartient
-tc.research_page.NODETAPPER2.1=Vous avez ajouté des améliorations plus avançées à la méthode que vous utilisez pour exploiter un noeud d'aura.<BR>Vous êtes maintenant capable de drainer le vis trois fois plus vite que la normale.
+tc.research_page.NODETAPPER2.1=Vous avez ajouté des améliorations plus avançées à la méthode que vous utilisez pour exploiter un nœud d'aura.<BR>Vous êtes maintenant capable de drainer le vis trois fois plus vite que la normale.
 #
-tc.research_name.NODEPRESERVE=Conservateur de noeud
+tc.research_name.NODEPRESERVE=Conservateur de nœud
 tc.research_text.NODEPRESERVE=En sauver pour plus tard
-tc.research_page.NODEPRESERVE=Vous avez maintenant un meilleur contrôle sur la quantité de vis que vous drainer des noeuds. Vous allez toujours laisser au moins un point de vis de chaque aspect dans le noeud à moins que vous partiez furtivement.<BR>Soyez averti, ce niveau de control n'est pas possible venant de baguette fabriqué à partir de bois normal et de fer.
+tc.research_page.NODEPRESERVE=Vous avez maintenant un meilleur contrôle sur la quantité de vis que vous drainer des nœuds. Vous allez toujours laisser au moins un point de vis de chaque aspect dans le nœud à moins que vous partiez furtivement.<BR>Soyez averti, ce niveau de control n'est pas possible venant de baguette fabriqué à partir de bois normal et de fer.
 #
 tc.research_name.THAUMOMETER=Thaumomètre
 tc.research_text.THAUMOMETER=Mesure magique
-tc.research_page.THAUMOMETER.1=Le thaumomètre est le plus utiles et le plus important des outils dans un arsenal thaumaturgiste, la baguette seulement le deuxième.<BR>Premièrement, il vous permet de scanner les objets, créatures et phénomènes mystiques en déterminant leurs aspects magique. Vous devez simplement maintenir le bouton droit de la souris et attendre.<BR>Deuxièmement, il permet de découvrir plus facilement les noeuds qui deviennent clairement visibles à traver sa lentille même à travers les objets solides!
+tc.research_page.THAUMOMETER.1=Le thaumomètre est le plus utiles et le plus important des outils dans un arsenal thaumaturgiste, la baguette seulement le deuxième.<BR>Premièrement, il vous permet de scanner les objets, créatures et phénomènes mystiques en déterminant leurs aspects magique. Vous devez simplement maintenir le bouton droit de la souris et attendre.<BR>Deuxièmement, il permet de découvrir plus facilement les nœuds qui deviennent clairement visibles à traver sa lentille même à travers les objets solides !
 #
 tc.research_name.GOGGLES=Lunette de révélation
 tc.research_text.GOGGLES=Voir l'invisible
-tc.research_page.GOGGLES.1=En s'appuyant sur les principes de base du thaumomètre, vous avez commençé à affiner sa capacité à detécter la magie en quelque chose de plus révélateur.<BR>Cet ensemble de lentilles mystiques rendera les noeuds d'aura plus facile à trouver en révélant toutes sortes de choses cachées.<BR>Il constitue un outil important dans un arsenal thaumaturgiste.
+tc.research_page.GOGGLES.1=En s'appuyant sur les principes de base du thaumomètre, vous avez commençé à affiner sa capacité à detécter la magie en quelque chose de plus révélateur.<BR>Cet ensemble de lentilles mystiques rendera les nœuds d'aura plus facile à trouver en révélant toutes sortes de choses cachées.<BR>Il constitue un outil important dans un arsenal thaumaturgiste.
 #
 tc.research_name.THAUMIUM=Thaumium
 tc.research_text.THAUMIUM=Un metal magique
@@ -636,16 +636,16 @@ tc.research_text.ROD_greatwood=Dépôt d'énergie magique
 tc.research_page.ROD_greatwood.1=Sculté dans du bois arcanique, ce bâton double le stockage potentiels de vis par rapport au bois ordinaire. Il est capable de stocker jusqu'à 50 Vis de chaque type.
 #
 tc.research_name.ROD_silverwood=Manche en bois d'argent pour baguette
-tc.research_text.ROD_silverwood=Magie dans son coeur
+tc.research_text.ROD_silverwood=Magie dans son cœur
 tc.research_page.ROD_silverwood.1=Le bois d'argent s'est avéré un excellent dépôt d'énergie magique et les manches de baguette fabriqués à partir de ce bois peuvent stocké jusqu'à 100 Vis de chaque type.
 #
 tc.research_name.ROD_obsidian=Manche en obsidienne pour baguette
 tc.research_text.ROD_obsidian=Vis stocké dans la terre
-tc.research_page.ROD_obsidian.1=Un manche de baguette ciselée à partir d'obsidienne a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Terra stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un noeud d'aura.
+tc.research_page.ROD_obsidian.1=Un manche de baguette ciselée à partir d'obsidienne a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Terra stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un nœud d'aura.
 #
 tc.research_name.ROD_bone=Manche en os pour baguette
 tc.research_text.ROD_bone=Stockage de vis entropique
-tc.research_page.ROD_bone.1=Un manche de baguette façonné à partir d'os a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Perditio stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un noeud d'aura.
+tc.research_page.ROD_bone.1=Un manche de baguette façonné à partir d'os a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Perditio stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un nœud d'aura.
 #
 tc.research_name.ROD_blaze=Manche en blaze pour baguette
 tc.research_text.ROD_blaze=Stockage de vis enflammé
@@ -657,38 +657,38 @@ tc.research_page.ROD_ice.1=Un manche de baguette fait à partir de glace a lég�
 #
 tc.research_name.ROD_quartz=Manche en quartz pour baguette
 tc.research_text.ROD_quartz=Stockage de vis ordonné
-tc.research_page.ROD_quartz.1=Un manche de baguette ciselée à partir de quartz a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Ordo stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un noeud d'aura.
+tc.research_page.ROD_quartz.1=Un manche de baguette ciselée à partir de quartz a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Ordo stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un nœud d'aura.
 #
 tc.research_name.ROD_reed=Manche en roseau pour baguette
 tc.research_text.ROD_reed=Stockage de vis dans l'air
-tc.research_page.ROD_reed.1=Un manche de baguette fait à partir de roseaux a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Aer stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un noeud d'aura.
+tc.research_page.ROD_reed.1=Un manche de baguette fait à partir de roseaux a légèrement un meilleur potentiel de stockage que le bois arcanique. Ce qui le rend supérieur au bois arcanique, c'est que si le niveau de Aer stocké à l'interieur de la baguette est inférieur à 10%, il va doucement se recharger sans l'utilisation d'un nœud d'aura.
 #
 tc.research_name.FOCUSFIRE=Les Focis
 tc.research_text.FOCUSFIRE=La forme rencontre la fonction
 tc.research_page.FOCUSFIRE.1=Certaines expérimentations rigoureuses vous ont montré un moyen d'élargir les capacités des baguettes.<BR>En combinant des cristaux de vis avec du quartz et en les infusant avec de la magie, vous êtes capable d'aligner les cristaux en une matrice mystique.<BR>Si les bon types et les bonnes quantités de vis sont focalisés à travers cette matrice, il va en échapper de l'énergie magique brute utile, controlé et adapté à une tâche spécifique.
 tc.research_page.FOCUSFIRE.2=L'ajout d'un foci sur la baguette est simple, il suffit d'appuyer sur F lorsque vous tenez votre baguette et les focis que vous portez seront vissés dessus. Continuez d'appuyer sur F pour faire défiler les focis.<LINE>Vos premières expériences ont concérné le feu, et le résultat s'est avéré être un outil simple mais utile.<BR>Ce foci est capable d'émettre un cone de feu élémentaire brûlant tout sur son passage.
 #
-tc.research_name.FOCUSFROST=Foci de baguette: Glace
+tc.research_name.FOCUSFROST=Foci de baguette : Glace
 tc.research_text.FOCUSFROST=La vengeance est un plat qui se mange froid
 tc.research_page.FOCUSFROST.1=Ce foci est capable de lancer des morceaux de glace.<BR>La prudence est de mise car les morceaux de glace sont capable de détruire des objets fragiles
 #
-tc.research_name.FOCUSSHOCK=Foci de baguette: Choc
+tc.research_name.FOCUSSHOCK=Foci de baguette : Choc
 tc.research_text.FOCUSSHOCK=Tonnerre et foudre
 tc.research_page.FOCUSSHOCK.1=Ce foci est capable de focaliser de l'énergie élémentaire dans des éclairs que vous pouvez lancer sur vos ennemies.
 #
-tc.research_name.FOCUSEXCAVATION=Foci de baguette: Excavation
+tc.research_name.FOCUSEXCAVATION=Foci de baguette : Excavation
 tc.research_text.FOCUSEXCAVATION=Terreur de la terre
 tc.research_page.FOCUSEXCAVATION.1=Ce Foci transforme votre baguette en outil capable de déplaçer de grandes quantité de terre et de roche avec peu d'effort.<BR>Il suffit de pointer l'endroit que vous voulez creuser et la magie fera le reste. Les matériaux plus résistants mettent plus de temps à être miner ainsi que tout ce qui n'est pas de roche ou de terre.
 #
-tc.research_name.FOCUSTRADE=Foci de baguette: Échange égale
+tc.research_name.FOCUSTRADE=Foci de baguette : Échange égale
 tc.research_text.FOCUSTRADE=C'est pour ça
 tc.research_page.FOCUSTRADE.1=Vous pouvez utiliser ce foci pour échanger des douzaines de blocs dans le monde avec ce que vous portez.<BR>Vous devez d'abord choisir le type de bloc que vous souhaitez échanger en vous accroupissant et faisant clique gauche dessus. Lorsque vous appuyer sur clique gauche sur un autre bloc, il va intervertir celui-ci avec votre précédente sélection. Le clique droit va intervertir une large zone de blocs.<BR> Les blocs à échanger seront remplacés dans votre inventaire par les blocs ciblés. Seulement les blocs adjacent à un bloc d'air ou non solide seront transformés.
 #
-tc.research_name.FOCUSHELLBAT=Foci de baguette: Neuf enfers
+tc.research_name.FOCUSHELLBAT=Foci de baguette : Neuf enfers
 tc.research_text.FOCUSHELLBAT=Petite terreur
 tc.research_page.FOCUSHELLBAT.1=Vos excursions dans le Nether vous ont  appris à avoir peur des petites terreurs connues sous le nom de chauve-souris de feu. Maintenant, vous avez découvert un moyen de les invoquer et de les envoyer sur vos ennemis, Excellent.
 #
-tc.research_name.FOCUSPORTABLEHOLE=Foci de baguette: Trou portable
+tc.research_name.FOCUSPORTABLEHOLE=Foci de baguette : Trou portable
 tc.research_text.FOCUSPORTABLEHOLE=Jamais sans une nouvelle sortie
 tc.research_page.FOCUSPORTABLEHOLE.1=Vous avez reussi en utilisant du Vis à creer de l'espace extradimensionnel. Utiliser ce foci sur un mur ou une autre surface va créer un passage extradimensionnel menant de l'autre côté.<BR>Ce "trou" reste ouvert pendant quelques secondes et draine le Vis de la baguette en fonction de la profondeur.<BR> Les trous extradimensionnels ne peuvent pas être créer sur certains types de matériaux ou d'objets particulièrement complexes.
 #
@@ -733,8 +733,8 @@ tc.research_page.ENCHFABRIC.2=Les différentes pièces de cette tenue accordent 
 #
 tc.research_name.ENCHANT=Enchantements
 tc.research_text.ENCHANT=Nouveaux enchantements
-tc.research_page.ENCHANT.1=Thaumcraft ajoute plusieurs enchantements unique.<BR>§nForce (foci seulement)§r<BR>Cet enchantement augmente les dégât, la portée ou la zone du foci sur lequel il est appliqué.<BR>§nFrugal (foci seulement)§r<BR>Les focis avec cet enchantement utilisent moins de vis quand il sont activés.<BR>§nTrésor (foci seulement)§r<BR>Cet enchantement fonctionne comme l'enchantement fortune: augmente la 
-tc.research_page.ENCHANT.2=quantité d'objets gagné lors de la récolte.<BR>§nHâte§r<BR>Cet enchantemant peut être appliqué aux chaussures de tous types et augmente la vitesse au sol du porteur. Le bonus en vitesse est en fonction du niveau de l'enchantement.<BR>§nRéparation§r<BR>Cet enchantement va doucement réparer l'objet en drainant le vis de noeud d'aura. Cet enchantement peut seulement être appliqué a quelques objets thaumaturgique.
+tc.research_page.ENCHANT.1=Thaumcraft ajoute plusieurs enchantements unique.<BR>§nForce (foci seulement)§r<BR>Cet enchantement augmente les dégât, la portée ou la zone du foci sur lequel il est appliqué.<BR>§nFrugal (foci seulement)§r<BR>Les focis avec cet enchantement utilisent moins de vis quand il sont activés.<BR>§nTrésor (foci seulement)§r<BR>Cet enchantement fonctionne comme l'enchantement fortune : augmente la
+tc.research_page.ENCHANT.2=quantité d'objets gagné lors de la récolte.<BR>§nHâte§r<BR>Cet enchantemant peut être appliqué aux chaussures de tous types et augmente la vitesse au sol du porteur. Le bonus en vitesse est en fonction du niveau de l'enchantement.<BR>§nRéparation§r<BR>Cet enchantement va doucement réparer l'objet en drainant le vis de nœud d'aura. Cet enchantement peut seulement être appliqué a quelques objets thaumaturgique.
 #
 tc.research_name.ELEMENTALAXE=Hache du déluge
 tc.research_text.ELEMENTALAXE=Rivières de bois
@@ -743,7 +743,7 @@ tc.research_page.ELEMENTALAXE.2=En outre, tous les blocs récoltés de cette man
 #
 tc.research_name.ELEMENTALPICK=Pioche du Noyau
 tc.research_text.ELEMENTALPICK=Chaleur purifiante
-tc.research_page.ELEMENTALPICK.1=En infussant une pioche en thaumium avec des éclats de feu, vous avez créé une pioche qui brille avec la chaleur de la forge.<BR>Lorsque vous miner du minerai, il y'a une chance que vous récoltiez un amas de métal à la place. Les amas de métaux sont plus facile à exploiter et produisent le double de metal lorsque ils sont fondus.<BR>La pioche peut également être utilisé pour sonder n'importe quelle surface afin de savoir quels minéraux précieux se trouvent à proximité.
+tc.research_page.ELEMENTALPICK.1=En infussant une pioche en thaumium avec des éclats de feu, vous avez créé une pioche qui brille avec la chaleur de la forge.<BR>Lorsque vous miner du minerai, il y a une chance que vous récoltiez un amas de métal à la place. Les amas de métaux sont plus facile à exploiter et produisent le double de metal lorsque ils sont fondus.<BR>La pioche peut également être utilisé pour sonder n'importe quelle surface afin de savoir quels minéraux précieux se trouvent à proximité.
 tc.research_page.ELEMENTALPICK.2=Si vous maintenez "MAJ" pendant l'opération, les propriétés spéciales de la pioche seront suspendues et elle fonctionnera comme une pioche normale.
 #
 tc.research_name.ELEMENTALSWORD=Épée du zéphyr
@@ -760,8 +760,8 @@ tc.research_text.ELEMENTALHOE=Équilibre de la nature
 tc.research_page.ELEMENTALHOE.1=En fusionnant l'énergie magique des éclats d'ordre et d'entropie avec une houe en thaumium, vous avez mis en pratique une agriculture sans égale.<BR>Lorsque la houe est utillisé pour cultivé un champ, elle va le faire dans une zone de 3*3 bloc.<BR>Lorsqu'elle est utilisé pour les cultures ou les plantes, elle agira comme de la poudre d'os.<BR>Si vous maintenez "MAJ" pendant l'opération, les propriétés spéciales de la houe seront suspendues et elle fonctionnera comme une houe normale.
 #
 tc.research_name.GUNPOWDER=Poudre à canon
-tc.research_text.GUNPOWDER=Qui a besoin de creeper?
-tc.research_page.GUNPOWDER.1=Vous avez découvert une source alternative de poudre à canon! Plus nécessaire de chasser les creepers pour cette substance explosive.
+tc.research_text.GUNPOWDER=Qui a besoin de creeper ?
+tc.research_page.GUNPOWDER.1=Vous avez découvert une source alternative de poudre à canon ! Plus nécessaire de chasser les creepers pour cette substance explosive.
 #
 tc.research_name.TRANSIRON=Transmutation de fer
 tc.research_text.TRANSIRON=Transformation de métaux en fer
@@ -795,101 +795,101 @@ tc.research_name.GOLEMSTRAW=Golems de paille
 tc.research_text.GOLEMSTRAW=Simples sbires magiques 
 tc.research_page.GOLEMSTRAW.1=Vous avez découvert le secret de la création des golems travailleurs. Alors que le golem de fer est impréssionnant à sa manière, il est très limité et incontrôlable. Vous avez résussit à résoudre ces deux problèmes. Vos golems ont juste assez de volonté et de conscience pour se rendre aussi utiles que des outils, mais pas trop pour être incontrôlable.<LINE>Vous avez également découvert comment faire la §5cloche de golèmancien§0 et le §5noyau d'animation de golem§0 (voir les entrées respectives pour les détails des recherches)
 tc.research_page.GOLEMSTRAW.2=Le golem que vous fabriquez peut être placé dans le monde, mais il restera inactif sans un noyau d'animation.<BR>Le placement du golem doit être choisit avec soin. Si vous souhaitez intéragir avec un inventaire, vous devriez le placer sur le coté de celui-ci en cliquant (ou Maj-cliquant).<BR> La plupart des golems ont une porté de 16 blocs autour de leur emplacement d'origine.
-tc.research_page.GOLEMSTRAW.3=Le premier type de golem que vous pouvez créer est fabriqué à partir de bottes de foin. Il est physiquement faible et facile à détruire mais léger et agile.<BR>§l§nAttribut du golem de blé§r<BR>§lDurabilité:§r Très faible<BR>§lForce:§r Très faible<BR>§lAuto-réparation:§r Moyenne<BR>§lLimite de transport:§r 1<BR>§lVitesse:§r Rapide<BR>§lAméliorations:§r 1
+tc.research_page.GOLEMSTRAW.3=Le premier type de golem que vous pouvez créer est fabriqué à partir de bottes de foin. Il est physiquement faible et facile à détruire mais léger et agile.<BR>§l§nAttribut du golem de blé§r<BR>§lDurabilité:§r Très faible<BR>§lForce :§r Très faible<BR>§lAuto-réparation :§r Moyenne<BR>§lLimite de transport :§r 1<BR>§lVitesse :§r Rapide<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMWOOD=Golems de bois
-tc.research_text.GOLEMWOOD=Combien de bois hâcher vaudrait un golem de bois si un golem de bois hâche le bois ?
-tc.research_page.GOLEMWOOD.1=Ce golem est sculté dans du bois arcanique. Il s'agit d'une amélioration modéré du golem de paille.<BR>§l§nAttributs du golem de bois§r<BR>§lDurabilité:§r Sous la moyenne<BR>§lForce:§r Faible<BR>§lAuto-réparation:§r Moyenne<BR>§lLimite de transport:§r 4<BR>§lVitesse:§r Sous la moyenne<BR>§lAméliorations:§r 1
+tc.research_text.GOLEMWOOD=Combien de bois hâcher vaudrait un golem de bois si un golem de bois hâche le bois ?
+tc.research_page.GOLEMWOOD.1=Ce golem est sculté dans du bois arcanique. Il s'agit d'une amélioration modéré du golem de paille.<BR>§l§nAttributs du golem de bois§r<BR>§lDurabilité:§r Sous la moyenne<BR>§lForce :§r Faible<BR>§lAuto-réparation :§r Moyenne<BR>§lLimite de transport :§r 4<BR>§lVitesse :§r Sous la moyenne<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMTALLOW=Golems de suif
 tc.research_text.GOLEMTALLOW=Tenir à l'écart des flammes nues
-tc.research_page.GOLEMTALLOW.1=Ce golem avançé est à peine meilleur que le golem de bois, mais est capable d'obtenir deux améliorations.<BR>§l§nAttributs du golem de suif§r<BR>§lDurabilité:§r Moyenne<BR>§lForce:§r Moyenne<BR>§lAuto-réparation:§r Moyenne<BR>§lLimite de transport§r 8<BR>§lVitesse:§r Moyenne<BR>§lAméliorations:§r 2
+tc.research_page.GOLEMTALLOW.1=Ce golem avançé est à peine meilleur que le golem de bois, mais est capable d'obtenir deux améliorations.<BR>§l§nAttributs du golem de suif§r<BR>§lDurabilité:§r Moyenne<BR>§lForce :§r Moyenne<BR>§lAuto-réparation :§r Moyenne<BR>§lLimite de transport§r 8<BR>§lVitesse :§r Moyenne<BR>§lAméliorations :§r 2
 #
 tc.research_name.GOLEMCLAY=Golems d'argile
 tc.research_text.GOLEMCLAY=Robuste et durable
-tc.research_page.GOLEMCLAY.1=La terre cuite s'est avéré être un matériau de fabrication supérieur pour les golems. Il est résistant au feu et a une mobilité adéquate.<BR>§l§nAttributs du golem d'argile§r<BR>§lDurabilité:§r Moyenne<BR>§lForce:§r Moyenne<BR>§lAuto-réparation:§r Lente<BR>§lLimite de transport:§r 8<BR>§lVitesse:§r  Moyenne<BR>§lAméliorations:§r 1
+tc.research_page.GOLEMCLAY.1=La terre cuite s'est avéré être un matériau de fabrication supérieur pour les golems. Il est résistant au feu et a une mobilité adéquate.<BR>§l§nAttributs du golem d'argile§r<BR>§lDurabilité:§r Moyenne<BR>§lForce :§r Moyenne<BR>§lAuto-réparation :§r Lente<BR>§lLimite de transport :§r 8<BR>§lVitesse :§r  Moyenne<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMFLESH=Golems de chair
-tc.research_text.GOLEMFLESH=C'est vivant !
-tc.research_page.GOLEMFLESH.1=Bien macabre, les golems fait à partir de chair de zombie disposent de plusieurs caractéristiques recommandable. Non seulement, ils se réparent très vite mais peuvent obtenir deux améliorations.<BR>§l§nAttributs du golem de chair§r<BR>§lDurabilité:§r Faible<BR>§lForce:§r Faible<BR>§lAuto-réparation:§r Très rapide<BR>§lLimite de transport:§r 4<BR>§lVitesse:§r Sous la moyenne<BR>§lAméliorations:§r 2
+tc.research_text.GOLEMFLESH=C'est vivant !
+tc.research_page.GOLEMFLESH.1=Bien macabre, les golems fait à partir de chair de zombie disposent de plusieurs caractéristiques recommandable. Non seulement, ils se réparent très vite mais peuvent obtenir deux améliorations.<BR>§l§nAttributs du golem de chair§r<BR>§lDurabilité:§r Faible<BR>§lForce :§r Faible<BR>§lAuto-réparation :§r Très rapide<BR>§lLimite de transport :§r 4<BR>§lVitesse :§r Sous la moyenne<BR>§lAméliorations :§r 2
 #
 tc.research_name.GOLEMSTONE=Golems de pierre
 tc.research_text.GOLEMSTONE=Fort, mais lent
-tc.research_page.GOLEMSTONE.1=Les golems de pierre sont très solides et capablent de transporter de lourde charges mais il sont plus lent que les autres golems.<BR>§l§nAttributs du golem de pierre§r<BR>§lDurabilité:§r Au-dessus de la moyenne<BR>§lForce:§r Au-dessus de la moyenne<BR>§lAuto-réparation:§r Lente<BR>§lLimite de transport:§r 16<BR>§lVitesse:§r  Lent<BR>§lAméliorations:§r 1
+tc.research_page.GOLEMSTONE.1=Les golems de pierre sont très solides et capablent de transporter de lourde charges mais il sont plus lent que les autres golems.<BR>§l§nAttributs du golem de pierre§r<BR>§lDurabilité:§r Au-dessus de la moyenne<BR>§lForce :§r Au-dessus de la moyenne<BR>§lAuto-réparation :§r Lente<BR>§lLimite de transport :§r 16<BR>§lVitesse :§r  Lent<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMIRON=Golems de fer
 tc.research_text.GOLEMIRON=Comme les golems des villageois, seulement plus petit ... et meilleur
-tc.research_page.GOLEMIRON.1=Les golems de fer sont extrémement durs et forts, capablent de transporter d'énorme charges. Cependant leurs poids les font se déplacer très lentement.<BR>§l§nAttributs du golem de fer§r<BR>§lDurabilité:§r Haute<BR>§lForce:§r Haute<BR>§lAuto-réparation:§r Très lente<BR>§lLimite de transport:§r 32<BR>§lVitesse:§r Très lente<BR>§lAméliorations:§r 1
+tc.research_page.GOLEMIRON.1=Les golems de fer sont extrémement durs et forts, capablent de transporter d'énorme charges. Cependant leurs poids les font se déplacer très lentement.<BR>§l§nAttributs du golem de fer§r<BR>§lDurabilité:§r Haute<BR>§lForce :§r Haute<BR>§lAuto-réparation :§r Très lente<BR>§lLimite de transport :§r 32<BR>§lVitesse :§r Très lente<BR>§lAméliorations :§r 1
 #
 tc.research_name.GOLEMTHAUMIUM=Golems de thaumium
 tc.research_text.GOLEMTHAUMIUM=Sbires mystique
-tc.research_page.GOLEMTHAUMIUM.1=Les golems en thaumium ont légèrement de meilleurs attributs que les golems de fer et peuvent obtenir deux améliorations. Ils sont aussi très résistant aux dégats magiques.<BR>§l§nAttributs du golem de thaumium§r<BR>§lDurabilité:§r Très Haute<BR>§lForce:§r Très Haute<BR>§lAuto-réparation:§r Lente<BR>§lLimite de transport:§r 32<BR>§lVitesse:§r Lente<BR>§lAméliorations:§r 2
+tc.research_page.GOLEMTHAUMIUM.1=Les golems en thaumium ont légèrement de meilleurs attributs que les golems de fer et peuvent obtenir deux améliorations. Ils sont aussi très résistant aux dégats magiques.<BR>§l§nAttributs du golem de thaumium§r<BR>§lDurabilité:§r Très Haute<BR>§lForce :§r Très Haute<BR>§lAuto-réparation :§r Lente<BR>§lLimite de transport :§r 32<BR>§lVitesse :§r Lente<BR>§lAméliorations :§r 2
 #
 tc.research_name.GOLEMBELL=Cloche de golèmancien
 tc.research_text.GOLEMBELL=Faites attention
 tc.research_page.GOLEMBELL.1=Les golems sont notoirement mauvais pour suivre les commandes verbales mais cette cloche vous permet d'éviter tout ça.<BR>Faites simplement clique droit sur un golem pour le sélectionner. Une fois fait, un cercle éclatant ressemblant à un engrenage indiquera le positionnement de sa "maison".<BR>Vous pouvez maintenant faire des cliques droit n'importe où pour lier le golem aux blocs, emplacements ou inventaires sur lesquelles il doit agir. Cliquez sur la même location enlèvera la marque ou parcourera des couleurs différentes pour le marqueur si le golem est capable de les distinguer.
-tc.research_page.GOLEMBELL.2=MAJ+clique droit sur une location marqué va toujours l'enlevé la marque et appuyer sur F va toutes les effaçer.<LINE>Le clique gauche sur un golem va permettre de le ramasser avec ses paramètres et ses améliorations. MAJ+clique gauche va récuperer le golem mais enlever le noyau et les améliorations de celui-ci. Il y'a une forte chance que l'amélioration soit perdue si vous faites cela cependant.
+tc.research_page.GOLEMBELL.2=MAJ+clique droit sur une location marqué va toujours l'enlevé la marque et appuyer sur F va toutes les effaçer.<LINE>Le clique gauche sur un golem va permettre de le ramasser avec ses paramètres et ses améliorations. MAJ+clique gauche va récuperer le golem mais enlever le noyau et les améliorations de celui-ci. Il y a une forte chance que l'amélioration soit perdue si vous faites cela cependant.
 #
-tc.research_name.COREGATHER=Noyau d'animation: Ramasser
+tc.research_name.COREGATHER=Noyau d'animation : Ramasser
 tc.research_text.COREGATHER=Reprenant ce que vous laissez tomber
-tc.research_page.COREGATHER.1=Les noyaux d'animations de golems sont utilisés pour donner un but à votre golem. Sans noyau, ils restent inanimer.<BR>Le premier noyau que vous êtes en mesure de créer est §5"Ramasser"§0.<BR>Les golems équipés de ce coeur chercheront les objets abondonnés dans un rayon de 16 blocs, les prendront puis les déposeront dans l'inventaire qui leur sont associés.<BR>Si vous faites clique droit sur les golems, vous serez en mesure de spécifier les objets qu'il doivent récupérer. Tous les autres seront ignorer.
+tc.research_page.COREGATHER.1=Les noyaux d'animations de golems sont utilisés pour donner un but à votre golem. Sans noyau, ils restent inanimer.<BR>Le premier noyau que vous êtes en mesure de créer est §5"Ramasser"§0.<BR>Les golems équipés de ce cœur chercheront les objets abondonnés dans un rayon de 16 blocs, les prendront puis les déposeront dans l'inventaire qui leur sont associés.<BR>Si vous faites clique droit sur les golems, vous serez en mesure de spécifier les objets qu'il doivent récupérer. Tous les autres seront ignorer.
 tc.research_page.COREGATHER.2=Faites simplement clique droit sur un golem fraîchement mis en place avec le noyau d'animation dans votre main pour lui attacher.
 #
-tc.research_name.COREEMPTY=Noyau d'animation: Vider
+tc.research_name.COREEMPTY=Noyau d'animation : Vider
 tc.research_text.COREEMPTY=Bouger des choses à un autre endroit
 tc.research_page.COREEMPTY.1=Les golems équipés avec ce noyau vont retirer les objets de leur inventaire et les placer à un emplacement marqué. si l'emplacement marqué est un conteneur, ils vont les placer à l'intérieur.<BR>Si vous le souhaitez, vous pouvez spécifier quels objets doivent être retiré de l'inventaire sur l'interface du golem. Tous les autres objets seront ignorés.
 #
-tc.research_name.COREUSE=Noyau d'animation: Utiliser
+tc.research_name.COREUSE=Noyau d'animation : Utiliser
 tc.research_text.COREUSE=clic clic clic
 tc.research_page.COREUSE.1=Comme le noyau d'animation "Vider", les golems équipées de ce noyau vont retirer des objets de leur inventaire, mais au lieu de les placer dans un inventaire ou les déposer au sol, ils vont tenter de l'utiliser sur le bloc ou l'emplacement ciblé.<BR>Ils vont tenter d'utiliser l'objet comme si le joueur faisait un clique droit sur le bloc ou l'emplacement ciblé avec l'objet.<BR>Si vous voulez, vous pouvez spécifier quels objets doivent être sélectionné sur l'interface du golem. tous les autres objets seront ignorer.
 #
-tc.research_name.COREFILL=Noyau d'animation: Remplir
+tc.research_name.COREFILL=Noyau d'animation : Remplir
 tc.research_text.COREFILL=Garder un inventaire approvisionné
-tc.research_page.COREFILL.1=Les golems équipé de ce noyau examineront les inventaires que vous avez marqué pour certains objets et les placeront dans leur propres inventaires.<BR> il y'a deux mode d'opération:<BR>Le mode §5montant exacte§0 où le golem va remplir son inventaire avec l'objet spécifié jusqu'à que le montant que vous avez défini soit le même.<BR>Le mode §5n'importe quel montant§0 où le golem va continuer de remplir son inventaire avec l'objet spécifié tant qu'il sera disponible dans les endroits marqués.
+tc.research_page.COREFILL.1=Les golems équipé de ce noyau examineront les inventaires que vous avez marqué pour certains objets et les placeront dans leur propres inventaires.<BR> il y a deux mode d'opération :<BR>Le mode §5montant exacte§0 où le golem va remplir son inventaire avec l'objet spécifié jusqu'à que le montant que vous avez défini soit le même.<BR>Le mode §5n'importe quel montant§0 où le golem va continuer de remplir son inventaire avec l'objet spécifié tant qu'il sera disponible dans les endroits marqués.
 #
-tc.research_name.COREHARVEST=Noyau d'animation: Moissonner
+tc.research_name.COREHARVEST=Noyau d'animation : Moissonner
 tc.research_text.COREHARVEST=Agriculteur animé
 tc.research_page.COREHARVEST.1=Les golems équipés avec ce noyau d'animation ne doivent pas être attaché à un inventaire. Ils cherchent des cultures à maturité, des roseaux et autre plantes communément cultivés dans un petit rayon et les récoltera. Le matériel récolté tombe simplement sur le sol et doit être rammassé par d'autres moyens.<BR>Malheuresement, il ne sont pas assez intélligents pour replanter ce qu'ils ont récoltés mais vous êtes sûr, avec un peu de travail, de pouvoir fixer ce problème.
 tc.research_page.COREHARVEST.2=§nAmélioration "Ordre" débloqué§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Les golems de récolte équipés avec cette amélioration vont maintenant essayer de replantés les plantes récoltés. Cela pourrait echouer si la plante ne laisse pas de semences ou de plantes appropriée.
 #
-tc.research_name.CORELUMBER=Noyau d'animation: Hâcher
+tc.research_name.CORELUMBER=Noyau d'animation : Hâcher
 tc.research_text.CORELUMBER=Bûcheron animé
 tc.research_page.CORELUMBER.1=Comme les golems moissonneurs, les golems bûcherons peuvent être placé n'importe où. Il chercheront des arbres à proximité et les hâcheront. Les golems plus fort couperons plus vite le bois.<BR>Les golems bûcherons ne peuvent pas replanté les arbres abattus.
 #
-tc.research_name.COREGUARD=Noyau d'animation: Garder
+tc.research_name.COREGUARD=Noyau d'animation : Garder
 tc.research_text.COREGUARD=Garder vos objets de valeur
 tc.research_page.COREGUARD.1=Les golems équipés de ce noyau vont agir comme des gardiens, attaquant toutes les créatures hostiles dans leur périmètre.<BR>Vous êtes sûr qu'avec un peu de bricolage, vous pouvez rendre les golems plus sélectifs avec les cibles à attaquer. Mais à présent, ils chercheront que les créatures aggresives autres que les creepers à attaquer.
 tc.research_page.COREGUARD.2=§nAmélioration "ordre" débloqué§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Si vous équipé cette amélioration, vous pouvez spécifier les types de créature que le golem va attaqué. Le golem peut aussi être capable d'attaqué bien plus qu'uniquement les entités hostiles.
 #
-tc.research_name.CORELIQUID=Noyau d'animation: Décanter
+tc.research_name.CORELIQUID=Noyau d'animation : Décanter
 tc.research_text.CORELIQUID=Maintenir un réservoir rempli de liquide.
 tc.research_page.CORELIQUID.1=Les golems équipés de ce noyau d'animation vont tenter de garder remplit l'inventaire dont ils dépendent avec le liquide approprié.<BR>Si vous voulez, vous pouvez spécifier le liquide qui doit etre placé dans le réservoir sur l'interface du golem en plaçant un conteneur de liquide (comme un seau rempli) dans la case. Tout les autres liquides seront ignoré.<BR>Un golem décanteur peut seulement transporter 100 mb de liquide avec son type de matériel qui est normalement attribuer au transport. mais il va toujours transporter un seau rempli si chargé de prendre un liquide dans la nature.
 #
-tc.research_name.COREALCHEMY=Noyau d'animation: Alchimie
+tc.research_name.COREALCHEMY=Noyau d'animation : Alchimie
 tc.research_text.COREALCHEMY=Mettre l'essentia aux alentours
-tc.research_page.COREALCHEMY.1=Ce noyau est une version spécialisé du noyau d'animation: Décanter, spécialisé  dans le transport d'essentia.<BR>Les golems alchimistes assigné à un four alchimique ou un alembique vont drainer l'essentia de toute la pile d'alembiques et le transporté dans un bocal renforcé marqué. Il n'est pas necessaire de marqué chaque bocal, le golem va automatiquement remplir tout les bocals adjacent au bocal marqué et autres bocals similaire connecté au suivant.<BR>Les golems alchimistes vont remplir un bocal en entier en priorité avant de commençer un nouveau bocal.
+tc.research_page.COREALCHEMY.1=Ce noyau est une version spécialisé du noyau d'animation : Décanter, spécialisé  dans le transport d'essentia.<BR>Les golems alchimistes assigné à un four alchimique ou un alembique vont drainer l'essentia de toute la pile d'alembiques et le transporté dans un bocal renforcé marqué. Il n'est pas necessaire de marqué chaque bocal, le golem va automatiquement remplir tout les bocals adjacent au bocal marqué et autres bocals similaire connecté au suivant.<BR>Les golems alchimistes vont remplir un bocal en entier en priorité avant de commençer un nouveau bocal.
 #
-tc.research_name.UPGRADEAIR=Amélioration de golem: Air
+tc.research_name.UPGRADEAIR=Amélioration de golem : Air
 tc.research_text.UPGRADEAIR=Rendre votre golem plus rapide
 tc.research_page.UPGRADEAIR.1=Lorsque cette amélioration est fixé à un golem, elle va augmenter sa vitesse de déplacement et sa vitesse d'attaque à distance.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEEARTH=Amélioration de golem: Terre
+tc.research_name.UPGRADEEARTH=Amélioration de golem : Terre
 tc.research_text.UPGRADEEARTH=Rendre votre golem plus fort
 tc.research_page.UPGRADEEARTH.1=Cette amélioration va augmenter le nombre d'objet que votre golem peut transporter en une fois. Chaque amélioration augmente la limite entre 4 et 16 (en fonction de la limite de transport de base).<BR>Elle va aussi améliorer les dommages physique et à quel vitesse le matériel est récolté ou les tâches qui sont effectuées qui dépendent de la force brute.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEFIRE=Amélioration de golem: Feu
+tc.research_name.UPGRADEFIRE=Amélioration de golem : Feu
 tc.research_text.UPGRADEFIRE=Rendre votre golem tout enflammé
 tc.research_page.UPGRADEFIRE.1=Cette amélioration va augmenter de deux le nombre de case sur l'interface du golem, permettant à plus d'objets d'être filtrés ou triés.<BR>les attaques de mélee des golems mettent aussi en feu leur cible.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEWATER=Amélioration de golem: Eau
+tc.research_name.UPGRADEWATER=Amélioration de golem : Eau
 tc.research_text.UPGRADEWATER=Rendre votre golem plus perceptif
 tc.research_page.UPGRADEWATER.1=Cette amélioration augmente la portée visuel de la plupart des golems leur permettant de voyager plus loin pour accomplir leurs tâches.<BR>Elle augmente aussi la porté et la précision des attaques à distance.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEORDER=Amélioration de golem: Ordre
+tc.research_name.UPGRADEORDER=Amélioration de golem : Ordre
 tc.research_text.UPGRADEORDER=Rendre votre golem plus organisé
 tc.research_page.UPGRADEORDER.1=Cette amélioration permet aux golems de distinguer différente couleurs pour les blocs marqués avec la cloche de golèmancien. Cela permet un meilleur contrôle sur ce qu'il font et où ils le font.<BR>Cette amélioration debloque aussi certaines fonctionnalités à certains noyaux d'animation de golem leur donnant une plus grande porté de fonctionnement.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajoutées à leurs sections sur le thaumonomicon.
 #
-tc.research_name.UPGRADEENTROPY=Amélioration de golem: Entropie
+tc.research_name.UPGRADEENTROPY=Amélioration de golem : Entropie
 tc.research_text.UPGRADEENTROPY=Rendre votre golem épineux... et confus
 tc.research_page.UPGRADEENTROPY.1=Les golems équipés de cette amélioration vont automatiquement infliger des dommages à tous ceux qui les endommagent. Les golems avec cette amlioration deviennent aussi moins exigeants. En général, cela signifie que lorsque vous devez filtrer un certain type d'objet (un lingot de cuivre par exemple), ils vont vérifier tous les éléments qui compte en tant que lingot de cuivre, pas seulement le lingot spécifique.<BR>Des noyaux d'animations de golems spécifique pourrait bénificier d'une amélioration différente, donc vous devriez vérifier si des pages supplémentaires ont été ajouter à leurs sections sur le thaumonomicon.
 #
@@ -903,7 +903,7 @@ tc.research_page.TINYFEZ.1=Cette étrange couvre-chef semble rassasié n'importe
 #
 tc.research_name.TINYBOWTIE=Minuscules nœuds papillons
 tc.research_text.TINYBOWTIE=...sont cool
-tc.research_page.TINYBOWTIE.1=Un plus pour tout golem sur la route, ce noeud papillon remplira d'énergie supplémentaire le golem, augmentant sa vitesse.
+tc.research_page.TINYBOWTIE.1=Un plus pour tout golem sur la route, ce nœud papillon remplira d'énergie supplémentaire le golem, augmentant sa vitesse.
 #
 tc.research_name.TINYGLASSES=Minuscules lunettes
 tc.research_text.TINYGLASSES=C'est pour mieux te voir avec
@@ -937,7 +937,7 @@ tc.research_page.JARLABEL.2=MAJ+clique droit sur les bocaux ou alembiques avec v
 tc.research_page.JARLABEL.3=Vous pouvez placer une étiquette dans un atelier avec une fiole d'essentia pour lui assigner un aspect et une fois placé sur un bocal, elle va automatiquement le vérouiller sur cet aspect. L'essentia n'est pas consommé dans la recette.<BR>Le placer sur un bocal remplis va changer le type d'essentia de l'étiquette par celui du bocal.<LINE>Une étiquette peut redevenir vierge en la plaçant simplement dans l'atelier.
 #
 tc.research_name.INFERNALFURNACE=Four infernal
-tc.research_text.INFERNALFURNACE=Suffisamment chaud?
+tc.research_text.INFERNALFURNACE=Suffisamment chaud ?
 tc.research_page.INFERNALFURNACE.1=En exploitant de l'§cIgnis§0 brut dans un four fabriqué a partir d'obsidienne et de brique du nether, vous avez créé un four très efficace sans besoin de carburant. Efficace en effet, il va produire occasionnellement d'autres matériaux sous la forme de pépites ou d'autres objets.<BR>Comme c'est essentiellement gratuit, c'est aussi très lent à moins que le four obtient une nouvelle source d'§cIgnis§0 sous forme d'essentia à porté de vue devant le four, quelque part dans un rayon de 10 blocs. Heureusement, un peu d'essentia peut aller loin.
 tc.research_page.INFERNALFURNACE.2=Il convient également de noter qu'occasionnellement un peu de flux s'échappe dans l'environnement.<BR>Les objets que vous souhaitez fondre doivent être jeter au dessus du four et seront recracher à l'avant.
 #
@@ -952,7 +952,7 @@ tc.research_page.ARCANESTONE.1=La pierre arcanique est un matériau de construct
 #
 tc.research_name.INFUSION=Infusion
 tc.research_text.INFUSION=Fusion mystique
-tc.research_page.INFUSION.1=L'artisanat arcanique et l'alchimie peuvent seulement aller jusqu'à un certain point. Quelque chose de mieux est necessaire pour créer de véritable puissant objets mystique. L'artisanat d'infusion est le fait d'infuser à un simple objet de l'énergie magique et les propriétés des autres objets. Vous pourriez, par exemple, infusé de la pierre avec du Vis "Aer" et une plume. Il en résulterait de la pierre très légère. Comme d'habitude en thaumaturgie, les choses ne sont pas aussi simple, pour bien commençer avec l'artisanat d'infusion, vous avez besoin de plusieurs choses: une matrice runique, un piédestal arcanique et de l'approvisionnement magique prête sous forme d'essentia.
+tc.research_page.INFUSION.1=L'artisanat arcanique et l'alchimie peuvent seulement aller jusqu'à un certain point. Quelque chose de mieux est necessaire pour créer de véritable puissant objets mystique. L'artisanat d'infusion est le fait d'infuser à un simple objet de l'énergie magique et les propriétés des autres objets. Vous pourriez, par exemple, infusé de la pierre avec du Vis "Aer" et une plume. Il en résulterait de la pierre très légère. Comme d'habitude en thaumaturgie, les choses ne sont pas aussi simple, pour bien commençer avec l'artisanat d'infusion, vous avez besoin de plusieurs choses : une matrice runique, un piédestal arcanique et de l'approvisionnement magique prête sous forme d'essentia.
 tc.research_page.INFUSION.2=Une fois la matrice runique proprement placée dans la structure communément connu sous le nom d'autel d'infusion, vous pouvez commençer à travailler. Le piédestal central situé sous la matrice est l'endroit où sera l'objet que vous souhaitez infuser. Vous avez aussi besoin de plusieurs autres piédestals placés aux alentours de l'autel où vous pourrez placer les blocs et les éléments à infuser dans l'objet ciblé. Au final, vous aurez besoin de bocaux renforcés ou de similaires conteneurs d'essentia avec la quantité de Vis demandé. Une fois tout cela réunis, vous pouvez faire clique droit sur la matrice runique avec votre baguette pour commençer la processus d'infusion. Pendant la première phase de l'infusion, l'essentia sera drainé
 tc.research_page.INFUSION.3=des sources aux alentours. Le processus calera si l'essentia disponible est insuffisante. Quelque chose que vous ne voudriez pas et qui sera expliqué sur les pages suivantes. Une fois tout l'essentia requis infusé dans l'objet ciblé, les autres objets auront leurs essences essentiels drainés. c'est uniquement quand cela est fait, que la procédure d'infusion sera complète.<LINE>L'artisanat d'infusion n'est pas sans risques. L'entière procédure implique de forcer la migration de vaste énergie en un seul objet. Des choses imprédictables ont tendance à arriver. Habituellement, l'un des objet a fusionné tombe du piédestal
 tc.research_page.INFUSION.4=ou du flux est généré mais des événement plus catastrophique ne sont pas rares. Plus longtemps dure le processus dû à des problèmes non résolus comme le manque de Vis ou des objets tombé, plus grande est la chance que quelque chose de mauvais arrive.<BR>Ces effets peuvent être réduits par divers moyens. Premièrement, vous devez garder l'entière stucture d'infusion aussi symétrique que possible. Prendre bonne note de l'endroit où vous placez les piédestals et de vous assurez qu'ils soit bien symétriques aux autres piédestals à l'opposé de l'autel. Lorsque vous placé les objets de fusion sur eux, assurée vous de bien les équilibré. Dernièrement, vous pouvez placé d'occultes attirails
@@ -964,7 +964,7 @@ tc.research_page.JARBRAIN.1=Jeter un cerveau de zombie pourrie dans un bocal. Aj
 #
 tc.research_name.HOVERHARNESS=Harnais thaumostatique
 tc.research_text.HOVERHARNESS=Est-ce un oiseau...
-tc.research_page.HOVERHARNESS.1=Vous avez finalement réussi à percer le secret du vol. Vous avez créer un harnais qui s'ancre lui-même dans un champ thaumique utilisant l'énergie thaumostatique vous permettant de défier la gravité. Vous pensez qu'en quelque sorte quantum et quarks pourraient être aussi impliqués.<BR>Exceptionnellement, le seul type de Vis requis pour alimenter le harnais est ajouté durant le processus de création. À la place de carburant, il est requis pour voler du Potentia brut. Faites simplement clique droit lorsque vous tenez le harnais et vous insérez un bocal remplis. 
+tc.research_page.HOVERHARNESS.1=Vous avez finalement réussi à percer le secret du vol. Vous avez créer un harnais qui s'ancre lui-même dans un champ thaumique utilisant l'énergie thaumostatique vous permettant de défier la gravité. Vous pensez qu'en quelque sorte quantum et quarks pourraient être aussi impliqués.<BR>Exceptionnellement, le seul type de Vis requis pour alimenter le harnais est ajouté durant le processus de création. À la place de carburant, il est requis pour voler du Potentia brut. Faites simplement clique droit lorsque vous tenez le harnais et vous insérez un bocal remplis.
 tc.research_page.HOVERHARNESS.2=Tapez deux fois sur espace en portant le harnais pour l'activer. Tant que le harnais est actif, il utilisera constamment du Potentia.<BR>Il peut être enchanté avec "Hâte" pour augmenté votre vitesse à laquelle vous vous déplacez en vol.
 #
 tc.research_name.ADVANCEDGOLEM=Golems avancés
@@ -982,7 +982,7 @@ tc.research_text.LEVITATOR=Prochaine meilleur chose pour voler.
 tc.research_page.LEVITATOR.1=Bien n'étant pas du vrai vol, le lévitateur arcanique est la prochaine chose intéressante.<BR>Quand vous le placez, le lévitateur soulève objets et créatures jusqu'à 10 blocs dans les airs. Une créature se faufilant ou un joueur sera lentement transporté.<BR>Chaque lévitateur placé sur un autre augmentera la distance à laquelle il soulevera les entités de 10 blocs, donc un empilement de 3 lévitateur peut soulever de 30 blocs.<BR>Les lévitateurs peuvent être désactivés en leur appliquant un signal redstone.
 #
 tc.research_name.ARCANEEAR=Oreille arcanique
-tc.research_text.ARCANEEAR=Shhh, entendez-vous quelque chose?
+tc.research_text.ARCANEEAR=Shhh, entendez-vous quelque chose ?
 tc.research_page.ARCANEEAR.1=L'oreille arcanique est un appareil qui est capable de détecter le son émis à partir des blocs musicaux. Si elle entend une note qui est reconnu, elle envoie une courte pulsation redstone.<BR>L'oreille arcanique à besoin d'être réglée à l'identique des blocs musicaux. Le ton et la note dépend de la matière sur lequel elle est placé.
 #
 tc.research_name.MIRROR=Miroir magique
@@ -994,10 +994,10 @@ tc.research_name.MIRRORHAND=Miroir à main magique
 tc.research_text.MIRRORHAND=Réflexion personnelle
 tc.research_page.MIRRORHAND.1=Ce miroir à main magique fonctionne de la même manière que les autres miroirs. Il vous suffit de pousser les objets à travers le verre et ils sorteront du miroir lié.<BR>Faites simplement clique droit tout en tenant votre miroir à main pour le lier et vous serez capable de placer n'importe quels objets de votre inventaire dans le miroir pour les transporter.<BR>Les miroirs à main peuvent être liés à des miroirs qui sont déjà jumélés.<BR>Il convient de noter que le miroir à main peut seulement envoyer les objets, pas les recevoirs.
 #
-tc.research_name.NODEJAR=Noeud dans un bocal
+tc.research_name.NODEJAR=Nœud dans un bocal
 tc.research_text.NODEJAR=Pour le thaumaturgiste sur la voie
-tc.research_page.NODEJAR.1=Les bocaux renforcés ont fait leur preuves dans leurs capacités à stocké toutes sortes de choses banales et mystique, et maintenant vous croyez avoir découvert une autre utilité. Piéger les noeuds d'aura.<BR>En construisant une grande version du bocal autour du noeud et promulgant la bonne formule mystique avec votre baguette, le noeud sera emprisonné à l'intérieur de la construction qui va rapidement se réduire à une taille plus agréable. Le bocal peut ensuite être repris en toute sécurité et déplacé mais le sort d'emprisonnement a une très grande chance d'endommagé le noeud.
-tc.research_page.NODEJAR.2=Lorsque le noeud est emprisonné, le vis est maintenu et ne peut pas se regénérer, le vis ne peut pas non plus être drainer de celle-ci.<BR>Il est possible de libérer un noeud du bocal en le plaçan directement quelque part et de cliquer dessus avec une baguette. Le bocal sera détruit lors du procédé.
+tc.research_page.NODEJAR.1=Les bocaux renforcés ont fait leur preuves dans leurs capacités à stocké toutes sortes de choses banales et mystique, et maintenant vous croyez avoir découvert une autre utilité. Piéger les nœuds d'aura.<BR>En construisant une grande version du bocal autour du nœud et promulgant la bonne formule mystique avec votre baguette, le nœud sera emprisonné à l'intérieur de la construction qui va rapidement se réduire à une taille plus agréable. Le bocal peut ensuite être repris en toute sécurité et déplacé mais le sort d'emprisonnement a une très grande chance d'endommagé le nœud.
+tc.research_page.NODEJAR.2=Lorsque le nœud est emprisonné, le vis est maintenu et ne peut pas se regénérer, le vis ne peut pas non plus être drainer de celle-ci.<BR>Il est possible de libérer un nœud du bocal en le plaçan directement quelque part et de cliquer dessus avec une baguette. Le bocal sera détruit lors du procédé.
 #
 tc.research_name.PAVETRAVEL=Dalle de voyage
 tc.research_text.PAVETRAVEL=Alléger votre voyage
@@ -1009,11 +1009,11 @@ tc.research_page.PAVEWARD.1=Vous avez découvert une façon de transformer la pi
 #
 tc.research_name.WANDPED=Piédestal de recharge pour baguette
 tc.research_text.WANDPED=Recharge de baguette automatique
-tc.research_page.WANDPED.1=Traversé la campagne pour rechargé votre baguette est très bien, mais une manière automatique de le faire serait beaucoup mieux.<BR> Ce piédestal spécialement crafter fait uniquement ça. Toute baguette placé dessus va automatiquement drainer le vis des noeuds proches.<BR>Les noeuds ne seront pas totalement vidés sauf s'il s'agit d'une baguette de mauvaise qualité fabriqué a partir de fer et de bâton de bois.
+tc.research_page.WANDPED.1=Traversé la campagne pour rechargé votre baguette est très bien, mais une manière automatique de le faire serait beaucoup mieux.<BR> Ce piédestal spécialement crafter fait uniquement ça. Toute baguette placé dessus va automatiquement drainer le vis des nœuds proches.<BR>Les nœuds ne seront pas totalement vidés sauf s'il s'agit d'une baguette de mauvaise qualité fabriqué a partir de fer et de bâton de bois.
 #
 tc.research_name.WANDPEDFOC=Focalisateur d'aspects composés
 tc.research_text.WANDPEDFOC=Pour tout un usage
-tc.research_page.WANDPEDFOC.1=Dans vos voyages vous avez découvert plusieurs noeuds qui contient des aspects composés mais jusqu'à présent, il n'y avait pas de moyens d'exploiter cette riche source de vis. Jusqu'à maintenant.<BR>Ce focalisateur peut être placé au dessus d'un piédestal de recharge pour baguette ce qui permettra a toute baguette qu'il contient de siphonner le vis composé des noeuds proches. Malheuresement chaque point de ce vis composé est brisé en un seul point de vis primaire et l'excès de cette énergie est perdue. Cependant, c'est un bon début et vous êtes sûr de découvrir de meilleurs moyens pour accèder à ces ressources.
+tc.research_page.WANDPEDFOC.1=Dans vos voyages vous avez découvert plusieurs nœuds qui contient des aspects composés mais jusqu'à présent, il n'y avait pas de moyens d'exploiter cette riche source de vis. Jusqu'à maintenant.<BR>Ce focalisateur peut être placé au dessus d'un piédestal de recharge pour baguette ce qui permettra a toute baguette qu'il contient de siphonner le vis composé des nœuds proches. Malheuresement chaque point de ce vis composé est brisé en un seul point de vis primaire et l'excès de cette énergie est perdue. Cependant, c'est un bon début et vous êtes sûr de découvrir de meilleurs moyens pour accèder à ces ressources.
 #
 tc.research_name.ETHEREALBLOOM=Bourgeon éthérée
 tc.research_text.ETHEREALBLOOM=Fleur purificatrice
@@ -1033,12 +1033,12 @@ tc.research_page.INFUSIONENCHANTMENT.3=donc le niveau II coûte deux fois plus c
 #
 tc.research_name.ARCANELAMP=Lampe arcanique
 tc.research_text.ARCANELAMP=Large source de lumière
-tc.research_page.ARCANELAMP.1=Cette lampe mystique peut être fixé aux murs, sols ou plafonds et va fournir une lumière forte et régulière. Des sources additionnelles de lumières peuvent aussi apparaître dans un rayon de 16 blocs autour d'elle où les niveaux de lumière sont en dessous des "niveaux de sécurité". Souvenez-vous: Seulement vous peut empêcher les éruptions de zombie. Ces sources secondaires de lumières disparaîteront peu après que la lampe sera enlevé.<BR>Vous êtes sûr que d'autres utilisations pour cette lampe vont se présenter d'eux mêmes, donc souvenez-vous de vérifier ici après chaque nouvelles découvertes.
-tc.research_page.ARCANELAMP.2=      §nForeuse arcanique§r<BR>Lorsque fixé à une base de foreuse arcanique, la lampe arcanique gagne une capacité supplémentaire: elle draîne l'essentia de Lux d'une source proche pour éclairer le tunnel que la foreuse creuse.<BR>Un seul point de Lux crée un seul point de lumière. Ces sources de lumières ne disparaissent pas une fois la lampe retirer.
+tc.research_page.ARCANELAMP.1=Cette lampe mystique peut être fixé aux murs, sols ou plafonds et va fournir une lumière forte et régulière. Des sources additionnelles de lumières peuvent aussi apparaître dans un rayon de 16 blocs autour d'elle où les niveaux de lumière sont en dessous des "niveaux de sécurité". Souvenez-vous : Seulement vous peut empêcher les éruptions de zombie. Ces sources secondaires de lumières disparaîteront peu après que la lampe sera enlevé.<BR>Vous êtes sûr que d'autres utilisations pour cette lampe vont se présenter d'eux mêmes, donc souvenez-vous de vérifier ici après chaque nouvelles découvertes.
+tc.research_page.ARCANELAMP.2=      §nForeuse arcanique§r<BR>Lorsque fixé à une base de foreuse arcanique, la lampe arcanique gagne une capacité supplémentaire : elle draîne l'essentia de Lux d'une source proche pour éclairer le tunnel que la foreuse creuse.<BR>Un seul point de Lux crée un seul point de lumière. Ces sources de lumières ne disparaissent pas une fois la lampe retirer.
 #
 tc.research_name.SALT=Salis Mundus
 tc.research_text.SALT=Juste une pincée
-tc.research_page.SALT.1=Salis mundus, ou le sel de thaumaturge comme il est le plus communément connu est fabriqué à partir de cristaux de Vis écrasé et mélangé avec des substances naturelles riche en magie.<BR>Comme son homoglogue banal, le sel de thaumaturge ajoute de la saveur (méthaphoriquement parlant) à n'importe quelle formule ou recette de magie. C'est un agent de liaison fort, capable de tenir les plus disparates des éléments magique ensemble.<BR>Il y'a plusieurs substances qui peuvent être mélangés avec des cristaux écrasés pour créer du salis mundus.
+tc.research_page.SALT.1=Salis mundus, ou le sel de thaumaturge comme il est le plus communément connu est fabriqué à partir de cristaux de Vis écrasé et mélangé avec des substances naturelles riche en magie.<BR>Comme son homoglogue banal, le sel de thaumaturge ajoute de la saveur (méthaphoriquement parlant) à n'importe quelle formule ou recette de magie. C'est un agent de liaison fort, capable de tenir les plus disparates des éléments magique ensemble.<BR>Il y a plusieurs substances qui peuvent être mélangés avec des cristaux écrasés pour créer du salis mundus.
 #
 tc.research_name.TUBES=Tubes à essentia
 tc.research_text.TUBES=Transport de l'essentia
@@ -1049,29 +1049,26 @@ tc.research_name.CENTRIFUGE=Centrifugeuse alchimique
 tc.research_text.CENTRIFUGE=Prendre les choses différement
 tc.research_page.CENTRIFUGE.1=La centrifugeuse alchimique est une magnifique invention qui vous permet de briser l'essentia en partie qui les compose.<BR>Lorsque L'essentia composé va dans la centrifuge par dessous, cela va le décomposer en essentia primaire ou parent à partir duquel il est fait. Seul un des composants est créé pour chaque point d'essentia brisé.<BR>L'essentia résultant a besoin d'être drainé par le dessus de la centrifugeuse.
 #
-<<<<<<< HEAD
 tc.research_name.TRAVELTRUNK=Malle de voyage
 tc.research_text.TRAVELTRUNK=Bagages mobile
-tc.research_page.TRAVELTRUNK.1=Une extension de vos recherches en golèmancie a conduit à un compagnon utile pour tout thaumaturge sur la route: La malle de voyage. Ce coffre en bois va volontier sautiller auprès de son maître, toujours prêt à offrir un espace de rangement pour tout ce que vous ramassez.<BR>La malle de voyage est solide et peut prendre un important nombre de coups. Elle est très résistante au feu et ne se blesse pas en chutant<BR>La malle peut suivre son maître partout même entre les dimensions. Si vous souhaitez qu'elle reste sur place cependant, il y'a un bouton pratique situé dans son interface
+tc.research_page.TRAVELTRUNK.1=Une extension de vos recherches en golèmancie a conduit à un compagnon utile pour tout thaumaturge sur la route : La malle de voyage. Ce coffre en bois va volontier sautiller auprès de son maître, toujours prêt à offrir un espace de rangement pour tout ce que vous ramassez.<BR>La malle de voyage est solide et peut prendre un important nombre de coups. Elle est très résistante au feu et ne se blesse pas en chutant<BR>La malle peut suivre son maître partout même entre les dimensions. Si vous souhaitez qu'elle reste sur place cependant, il y a un bouton pratique situé dans son interface
 tc.research_page.TRAVELTRUNK.2=ce qui la laissera dans sa position actuelle.La malle de voyage se guérit lentement dans le temps mais peut être également alimenter par toute sorte de nourriture pour accélérer ce processus. Comme les golems normaux, la malle peut être reprise en faisant clique gauche avec la cloche de golèmancien. Elle va laisser tomber tous les objets de son inventaire si vous faites ainsi. MAJ+clique va aussi laisser tomber toute les améliorations que vous lui avez appliqué avec les chances de perte normales. Elle peut accepter une seule amélioration comme les golems normaux mais elles accordent des abilités uniques à la malle. Regardez les pages suivantes pour les détails quand vous découvrirez les améliorations appropriées.
-tc.research_page.TRAVELTRUNK.UAI=  §nAmélioration de golem: Air§r<BR>Avec cette amélioration d'installée, la malle de voyage se déplacera plus vite.
-tc.research_page.TRAVELTRUNK.UEA= §nAmélioration de golem: Terre§r<BR>Avec cette amélioration d'installée, la malle de voyage sera en mesure de transporter plus d'objets. Elle gagnera une ligne supplémentaire dans son inventaire.
-tc.research_page.TRAVELTRUNK.UFI= §nAmélioration de golem: Feu§r<BR>Avec cette amélioration d'installée, la malle de voyage pourra défendre son maître lorqu'il est attaqué.
-tc.research_page.TRAVELTRUNK.UWA= §nAmélioration de golem: Eau§r<BR>Avec cette amélioration d'installée, la malle de voyage ne pourra pas être ouverte par quiconque d'autre que son maîte.<BR>Elle devient également plus résistant à tous, même les dégâts les plus dévastateurs.
-tc.research_page.TRAVELTRUNK.UOR= §nAmélioration de golem: Ordre§r<BR>Avec cette amélioration d'installée, la malle de voyage conservera ses objets lorsqu'il sera repris avec la cloche de golèmancien. Elle va laisser tomber ses objets comme d'habitude quon on utilise MAJ+clique.
-tc.research_page.TRAVELTRUNK.UEN=§nAmélioration de golem: Entropie§r<BR>Avec cette amélioration d'installée, la malle de voyage va aspirer tous les objets à proximité si elle a de la place pour.
+tc.research_page.TRAVELTRUNK.UAI=  §nAmélioration de golem : Air§r<BR>Avec cette amélioration d'installée, la malle de voyage se déplacera plus vite.
+tc.research_page.TRAVELTRUNK.UEA= §nAmélioration de golem : Terre§r<BR>Avec cette amélioration d'installée, la malle de voyage sera en mesure de transporter plus d'objets. Elle gagnera une ligne supplémentaire dans son inventaire.
+tc.research_page.TRAVELTRUNK.UFI= §nAmélioration de golem : Feu§r<BR>Avec cette amélioration d'installée, la malle de voyage pourra défendre son maître lorqu'il est attaqué.
+tc.research_page.TRAVELTRUNK.UWA= §nAmélioration de golem : Eau§r<BR>Avec cette amélioration d'installée, la malle de voyage ne pourra pas être ouverte par quiconque d'autre que son maîte.<BR>Elle devient également plus résistant à tous, même les dégâts les plus dévastateurs.
+tc.research_page.TRAVELTRUNK.UOR= §nAmélioration de golem : Ordre§r<BR>Avec cette amélioration d'installée, la malle de voyage conservera ses objets lorsqu'il sera repris avec la cloche de golèmancien. Elle va laisser tomber ses objets comme d'habitude quon on utilise MAJ+clique.
+tc.research_page.TRAVELTRUNK.UEN=§nAmélioration de golem : Entropie§r<BR>Avec cette amélioration d'installée, la malle de voyage va aspirer tous les objets à proximité si elle a de la place pour.
 #
-tc.research_name.LAMPGROWTH=Lampe de croissance 
+tc.research_name.LAMPGROWTH=Lampe de croissance
 tc.research_text.LAMPGROWTH=Encourager les choses à croître
-tc.research_page.LAMPGROWTH.1=Contrairement à la lampe arcanique à partir de quoi elle est fait, la lampe de croissance ne distribue pas beaucoup de lumière sauf si elle est approvisionnée en essentia Herba. Si cela est fait, toutes les plantes qui poussent à sa lumière vont croître beaucoup plus vite que la normale.<BR>L'essentia peut être amené à la lampe soit en plaçant un bocal à procimité, soit en attachant la lampe directement à un système de tuyauterie d'essentia. Les tubes sont un peu plus efficaces et utiliseront un point d'essentia 10% plus longtemps. 
+tc.research_page.LAMPGROWTH.1=Contrairement à la lampe arcanique à partir de quoi elle est fait, la lampe de croissance ne distribue pas beaucoup de lumière sauf si elle est approvisionnée en essentia Herba. Si cela est fait, toutes les plantes qui poussent à sa lumière vont croître beaucoup plus vite que la normale.<BR>L'essentia peut être amené à la lampe soit en plaçant un bocal à procimité, soit en attachant la lampe directement à un système de tuyauterie d'essentia. Les tubes sont un peu plus efficaces et utiliseront un point d'essentia 10% plus longtemps.
 #
 tc.research_name.JARVOID=Bocal du vide
-tc.research_text.JARVOID=Trop d'essentia? Impossible!
+tc.research_text.JARVOID=Trop d'essentia ? Impossible !
 tc.research_page.JARVOID.1=La fonction des bocaux du vide est la même que les bocaux renforcés normaux avec une importante différence, même remplis, ils sont capablent d'accepter l'essentia mais l'excès d'essentia est simplement perdu. Cela vous permet d'avoir toujours de l'essentia de ce type mais de se débarrasser de tout excès susceptible de s'accumuler.<BR>Comme les bocaux normaux, les bocaux du vide peuvent accepter les étiquettes mais leur aspiration avec celles-ci est inférieur à un bocal normal étiqueté (à propos de l'entrée entre les bocaux étiquetés ou non)
 #
 tc.research_name.TUBEFILTER=Tube à essentia filtré
 tc.research_text.TUBEFILTER=Ce que vous voulez, où vous le souhaitez
 tc.research_page.TUBEFILTER.1=Les tubes à essentia filtrés fonctionnent comme les tubes normaux, sauf qu'il est possible de les marquer avec des étiquettes. Lorsqu'ils sont marqués, ils vont restreindre l'écoulement d'essentia qui les traversent au type qui a été marqué.<BR>MAJ+clique sur eux avec une main vide va retirer l'étiquette.
 #
-=======
->>>>>>> 3a0ee4da610d327feef26f792b9bcf80a3a0703c
