@@ -1055,5 +1055,5 @@ tc.research_page.JARVOID.1=Void jars function much the same as normal warded jar
 #
 tc.research_name.TUBEFILTER=Tubo de Essência Filtrada
 tc.research_text.TUBEFILTER=O que você quer, onde você quiser
-tc.research_page.TUBEFILTER.1=Tubos de essência filtrada funcionam como tubos normais, exceto que é possível marcá-los com rótulos Quando marcados eles vão restringir o fluxo de essência através deles para o que eles foram marcados com.<BR>Shift-clicando sobre eles com uma mão vazia irá remover o rótulo.
+tc.research_page.TUBEFILTER.1=Tubos de essência filtrada funcionam como tubos normais, exceto que é possível marcá-los com rótulos. Quando marcados eles vão restringir o fluxo de essência através deles para o que eles foram marcados com.<BR>Shift-clicando sobre eles com uma mão vazia irá remover o rótulo.
 #
