@@ -7,7 +7,7 @@ enchantment.haste=Hast
 enchantment.repair=Reparieren
 #
 #Potions
-potion.fluxtaint=Fluxbeschmutzung
+potion.fluxtaint=Fluxverseuchung
 potion.soulshatter=Seelensplittern
 #
 # Entities
@@ -40,7 +40,7 @@ entity.Pech.1.name=Pechmagier
 entity.Pech.2.name=Pechjäger
 entity.TravelingTrunk.name=Reisekoffer
 entity.trunk.guiname='s Koffer
-entity.trunk.move=Der Koffer wird die nun folgen
+entity.trunk.move=Der Koffer wird dir nun folgen
 entity.trunk.stay=Der Koffer wird bleiben, wo er ist
 #
 # Blocks
