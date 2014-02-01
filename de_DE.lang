@@ -512,7 +512,7 @@ tc.research_page.RESEARCH.14=times to get them into position.<BR>Inactive runes 
 #
 tc.research_name.KNOWFRAG=Wissensfragmente
 tc.research_text.KNOWFRAG=Fragmente verlorenen Wissens
-tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken und verlorenen Wissens treffen. Einzeln bringen sie lediglich ein paar Forschungspunkte, wenn benutzt, aber wenn du genug von ihnen bekommst, könntest du an einzigartige Forschungen kommen, die du fortführen könntest. Für gewöhnlich kann die Forschung, die sie enthüllen, nicht auf normale Weise erhalten werden.<BR>Diese Fragmente des Wissens können manchmal zu falschen Theorien führen, aber dies wird enthüllt, wenn du versucht, weiter nachzuforschen. Wenn das passiert, wirst du die meisten deiner Wissensfragmente zurückbekommen. Es bedeuted für gewöhnlich, dass du all deine Forschungsanstrengungen in verlorenes Wissen verschwendet hast.
+tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken und verlorenen Wissens treffen. Einzeln bringen sie lediglich ein paar Forschungspunkte, wenn benutzt, aber wenn du genug von ihnen bekommst, könntest du an einzigartige Forschungen kommen, die du fortführen könntest. Für gewöhnlich kann die Forschung, die sie enthüllen, nicht auf normale Weise erhalten werden.<BR>Diese Fragmente des Wissens können manchmal zu falschen Theorien führen, aber dies wird enthüllt, wenn du versucht, weiter nachzuforschen. Wenn das passiert, wirst du die meisten deiner Wissensfragmente zurückbekommen. Es bedeutet für gewöhnlich, dass du all deine Forschungsanstrengungen in verlorenes Wissen verschwendet hast.
 #
 tc.research_name.ASPECTS=Aspekte der Magie
 tc.research_text.ASPECTS=Die Grundsteine der Magie
@@ -562,7 +562,7 @@ tc.research_page.BASICTHAUMATURGY.2=Um die exakte Menge an Vis und eventuelle Ve
 #
 tc.research_name.GRATE=Itemgitter
 tc.research_text.GRATE=Alles Gute kommt von oben
-tc.research_page.GRATE.1=Das Itemgitter kann mit der Hand oder einem Redstonesignal geöffnet und geschlossen werden. Wenn es geöffnet ist, fallen alle Items einfach hindurch. 
+tc.research_page.GRATE.1=Das Itemgitter kann mit der Hand oder einem Redstone-Signal geöffnet und geschlossen werden. Wenn es geöffnet ist, fallen alle Items einfach hindurch. 
 #
 tc.research_name.NODETAPPER1=Fortgeschrittenes Nodienzapfen
 tc.research_text.NODETAPPER1=Nimm alles
@@ -737,7 +737,7 @@ tc.research_page.ELEMENTALSWORD.1=Du hast die elementaren Kräfte aus Luft-Scher
 #
 tc.research_name.ELEMENTALSHOVEL=Schaufel des Erdschürfers
 tc.research_text.ELEMENTALSHOVEL=Die Erde bewegen
-tc.research_page.ELEMENTALSHOVEL.1=Die Kombination von Erd-Scherben mit einer Thaumiumschaufel hat ein großartiges Grabewerkzeug erbracht.<BR>Wenn du damit Erde, Sand oder ähnliche Materialien abbaust, gräbst du in einem 3x3 Blöcke großen Gebiet.<BR>Wenn du auf einen Block rechtsklickst, versucht die Schaufel einen 3x3 Blöcke großen Bereich mit dem gleichen Material aufzufüllen, vorrausgesetzt, du hast ausreichend Blöcke im Inventar.<BR>Die Richtung beim Graben oder Errichten ist von der Seite abhängig, die du angeklickt hast.
+tc.research_page.ELEMENTALSHOVEL.1=Die Kombination von Erd-Scherben mit einer Thaumiumschaufel hat ein großartiges Grabewerkzeug erbracht.<BR>Wenn du damit Erde, Sand oder ähnliche Materialien abbaust, gräbst du in einem 3x3 Blöcke großen Gebiet.<BR>Wenn du auf einen Block rechtsklickst, versucht die Schaufel einen 3x3 Blöcke großen Bereich mit dem gleichen Material aufzufüllen, vorausgesetzt, du hast ausreichend Blöcke im Inventar.<BR>Die Richtung beim Graben oder Errichten ist von der Seite abhängig, die du angeklickt hast.
 tc.research_page.ELEMENTALSHOVEL.2=Solange du Shift drückst, verliert dieses Werkzeug seine besonderen Fähigkeiten und verhält sich wie eine normale Schaufel.
 #
 tc.research_name.ELEMENTALHOE=Hacke des Wachstums
@@ -780,7 +780,7 @@ tc.research_name.GOLEMSTRAW=Strohgolems
 tc.research_text.GOLEMSTRAW=Einfache Magische Helfer
 tc.research_page.GOLEMSTRAW.1=Du hast das Geheimnis entdeckt, Golem-Arbeiter zu kreieren. Obwohl die Eisengolems aus Dörfern beeindruckend sind, sind sie beschränkt und unkontrollierbar. Du konntest beide Probleme lösen.<BR>Deine Golem-Arbeiter haben nur so viel freien Willen und Selbstbewusstsein, dass sie nützliche Werkzeuge sind, aber nicht genug um außer Kontrolle zu geraten.<LINE>Außerdem hast du entdeckt, wie du die §5Glocke des Golemanten§0 und §5Golemanimationkerne§0 herstellen kannst (mehr Details in deren jeweiligen Einträgen).
 tc.research_page.GOLEMSTRAW.2=Ein in der Welt platzierter Golem ist so lange nutzlos, bis er einen Animationskern erhält.<BR>Denke sorgfältig darüber nach, wohin du einen Golem stellst - wenn er mit Inventaren interagieren soll, musst du ihn mit einem Klick (oder Shift-Klick) auf die Seite des Inventars, mit dem er interagieren soll, platzieren.<BR>Die meisten Golems können in einem Radius von 16 Blöcken um ihren Startpunkt agieren.
-tc.research_page.GOLEMSTRAW.3=Der erste Golem, den du herstellen kannst, besteht aus Strohbündeln. Er ist recht schwach und einfach zu zerstören, aber dafür ist er sehr leicht und flink.<BR>§l§nSrohgolem-Attribute§r<BR>§lHaltbarkeit:§r Sehr gering<BR>§lStärke:§r Sehr gering<BR>§lSelfreparatur:§r Durchschnittlich<BR>§lTragelimit:§r 1<BR>§lGeschwindigkeit:§r Schnell<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMSTRAW.3=Der erste Golem, den du herstellen kannst, besteht aus Strohbündeln. Er ist recht schwach und einfach zu zerstören, aber dafür ist er sehr leicht und flink.<BR>§l§nSrohgolem-Attribute§r<BR>§lHaltbarkeit:§r Sehr gering<BR>§lStärke:§r Sehr gering<BR>§lSelbstreparatur:§r Durchschnittlich<BR>§lTragelimit:§r 1<BR>§lGeschwindigkeit:§r Schnell<BR>§lUpgrades:§r 1
 #
 tc.research_name.GOLEMWOOD=Hölzerne Golems
 tc.research_text.GOLEMWOOD=Wie viel Holz würd' ein Holzgolem fällen, würd' ein Holzgolem Holz fällen können?
@@ -817,7 +817,7 @@ tc.research_page.GOLEMBELL.2=<BR>Das Shift-rechtsklicken einer markierten Positi
 #
 tc.research_name.COREGATHER=Golemkern: Sammeln
 tc.research_text.COREGATHER=Er sammelt auf, was du wegwirfst
-tc.research_page.COREGATHER.1=Golemanimationskerne werden genutzt, um deinen Golems einen Zweck zu geben - ohne Kern bleiben sie unbelebt.<BR>Der erste dieser Kerne, den du fähig bist zu kreieren, ist der §5Sammel§0kern.<BR>Golems, die diesen Kern tragen, werden fallengelassene Items in einem Radius von 16 Blöcken suchen, sie aufsammeln und dann in dem Inventar platzieren, an das sie gebunden sind. Wenn sie an kein Inventar gebunden sind, werden sie die Items einfach weiter festhalten.<BR>Wenn du den Golem rechtsklickst, wirst du fähig sein, spezifische Arten von Items einzustellen, die er aufsammeln soll - alle anderen werden ignoriert.
+tc.research_page.COREGATHER.1=Golem-Animationskerne werden genutzt, um deinen Golems einen Zweck zu geben - ohne Kern bleiben sie unbelebt.<BR>Der erste dieser Kerne, den du fähig bist zu kreieren, ist der §5Sammel§0kern.<BR>Golems, die diesen Kern tragen, werden fallengelassene Items in einem Radius von 16 Blöcken suchen, sie aufsammeln und dann in dem Inventar platzieren, an das sie gebunden sind. Wenn sie an kein Inventar gebunden sind, werden sie die Items einfach weiter festhalten.<BR>Wenn du den Golem rechtsklickst, wirst du fähig sein, spezifische Arten von Items einzustellen, die er aufsammeln soll - alle anderen werden ignoriert.
 tc.research_page.COREGATHER.2=Du musst den frisch platzierten Golem nur mit einem Kern rechtsklicken, um ihn an den Golem anzubringen.
 #
 tc.research_name.COREEMPTY=Golemkern: Leeren
@@ -834,7 +834,7 @@ tc.research_page.COREFILL.1=Mit diesem Kern ausgestattete Golems durchsuchen von
 #
 tc.research_name.COREHARVEST=Golemkern: Ernten
 tc.research_text.COREHARVEST=Animierter Farmer
-tc.research_page.COREHARVEST.1=Golems mit diesem Kern muss kein Inventar zugewiesen werden. Sie suchen reifes Getreibe, Zuckerrohr und andere angebaute Pflanzen in einem kleinen Umkreis und ernten sie. Die Ernte wird auf den Boden fallen gelassen und muss irgendwie gesammelt werden.<BR>Leider sind sie nicht intelligent genug, geerntetes Getreide nachzupflanzen, aber du bist dir sicher, dass du diesen Makel mit etwas Aufwand beheben könntest.
+tc.research_page.COREHARVEST.1=Golems mit diesem Kern muss kein Inventar zugewiesen werden. Sie suchen reifes Getreide, Zuckerrohr und andere angebaute Pflanzen in einem kleinen Umkreis und ernten sie. Die Ernte wird auf den Boden fallen gelassen und muss irgendwie gesammelt werden.<BR>Leider sind sie nicht intelligent genug, um geerntetes Getreide nachzupflanzen, aber du bist dir sicher, dass du diesen Makel mit etwas Aufwand beheben könntest.
 tc.research_page.COREHARVEST.2=     §nOrdnungs-Upgrade freigeschaltet§r <IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Ernte-Golems mit diesem Upgrade versuchen nun, geerntetes Getreide neu zu pflanzen. Dies kann fehlschlagen, wenn die Pflanze keinen brauchbaren Samen hat fallen lassen.
 #
 tc.research_name.CORELUMBER=Golemkern: Fällen
@@ -848,7 +848,7 @@ tc.research_page.COREGUARD.2=     §nOrdnungs-Upgrade freigeschaltet§r <IMG>tha
 #
 tc.research_name.CORELIQUID=Golemkern: Umfüllen
 tc.research_text.CORELIQUID=Halte einen Tank gefüllt mit Flüssigkeit
-tc.research_page.CORELIQUID.1=Golems mit diesem Kern bemühen sich, den ihnen zugewiesenen Tank mit der richtigen Flüssigkeit gefüllt zu halten.<BR>Wenn du willst, kannst du festlegen, welche Flüssigkeit in den Tank gebracht werden soll, indem du das Interface des Golems öffnest und einen Behälter mit der Flüssigkeit (etwa einen Eimer) in ein Feld legst. Alle anderen Flüssigkeiten werden ignoriert.<BR>Ein Umfüllen-Golem kann nur 100mB an Flüssgkeit pro Item, dass ein Sammel-Golem aus dem selben Material tragen dürfte, transportieren. Dennoch sieht immer so aus, als würden sie einen ganzen Eimer voll Flüssigkeit tragen, wenn sie angewiesen wurden, Quellblöcke aufzunehmen.
+tc.research_page.CORELIQUID.1=Golems mit diesem Kern bemühen sich, den ihnen zugewiesenen Tank mit der richtigen Flüssigkeit gefüllt zu halten.<BR>Wenn du willst, kannst du festlegen, welche Flüssigkeit in den Tank gebracht werden soll, indem du das Interface des Golems öffnest und einen Behälter mit der Flüssigkeit (etwa einen Eimer) in ein Feld legst. Alle anderen Flüssigkeiten werden ignoriert.<BR>Ein Umfüllen-Golem kann nur 100mB an Flüssigkeit pro Item, dass ein Sammel-Golem aus dem selben Material tragen dürfte, transportieren. Dennoch sieht immer so aus, als würden sie einen ganzen Eimer voll Flüssigkeit tragen, wenn sie angewiesen wurden, Quellblöcke aufzunehmen.
 #
 tc.research_name.COREALCHEMY=Golemkern: Alchemie
 tc.research_text.COREALCHEMY=Essentia herumbewegen
@@ -937,10 +937,10 @@ tc.research_page.ARCANESTONE.1=Arkaner Stein ist ein grundlegendes Baumaterial f
 #
 tc.research_name.INFUSION=Infusion
 tc.research_text.INFUSION=Mystische Fusion
-tc.research_page.INFUSION.1=Arkanes Handwerk und Alchemie haben eine Grenze. Um wirklich mächtige mystische Objekte zu kreieren, wird etwas besseres benötigt.<BR>Eine Infusion ist der Prozess, bei dem ein Objekt mit magischer Energie und den Eigenschaften anderer Objekte versezt wird. Ein Stein beispielsweise, der mit Aer-Vis und einer Feder infundiert wird, würde sehr leicht werden.<BR>Aber wie überall in der Thaumaturgie ist es auch hier nicht so einfach. Um mit der Infusion beginnen zu können, brauchst du einige Dinge: Eine Runenmatrix, Arkane Sockel und eine stabile Essentia-Versorgung.
+tc.research_page.INFUSION.1=Arkanes Handwerk und Alchemie haben eine Grenze. Um wirklich mächtige mystische Objekte zu kreieren, wird etwas Besseres benötigt.<BR>Eine Infusion ist der Prozess, bei dem ein Objekt mit magischer Energie und den Eigenschaften anderer Objekte versetzt wird. Ein Stein beispielsweise, der mit Aer-Vis und einer Feder infundiert wird, würde sehr leicht werden.<BR>Aber wie überall in der Thaumaturgie ist es auch hier nicht so einfach. Um mit der Infusion beginnen zu können, brauchst du einige Dinge: Eine Runenmatrix, Arkane Sockel und eine stabile Essentia-Versorgung.
 tc.research_page.INFUSION.2=Nachdem du die Runenmatrix richtig in dem als Infusionsaltar bezeichneten Konstrukt angebracht hast, kannst du mit der Infusion beginnen.<BR>Auf den mittleren Sockel unterhalb der Matrix legst du das zu infundierende Item. Auf weitere Sockel, die um den Altar herum angeordnet sind, legst du Blöcke und Items, deren Eigenschaften du in das Zielobjekt infundieren willst. Abschließend benötigst du Bannende Gläser oder andere Essentia-Behälter, die das benötigte Vis liefern.<BR>Wenn du das alles hast, kannst du mit deinem Stab die Runenmatrix anklicken, um zu beginnen.<BR>In der ersten Phase werden die Essentia aus benachbarten Quellen
 tc.research_page.INFUSION.3=entnommen. Die Infusion kommt zum Erliegen, wenn nicht genug Essentia verfügbar ist - etwas, was du vermeiden solltest, wie weiter hinten erklärt.<BR>Nachdem alle benötigten Essentia infundiert wurden, werden die Essenzen der übrigen Objekte in den Altar hineingesogen. Erst jetzt ist die Infusion abgeschlossen.<LINE>Eine Infusion ist nicht ohne Risiken. Sie zwingt eine Menge Energie in ein einzelnes Objekt. Unvorhersehbare Dinge können geschehen.<BR>Normalerweise wird ein Objekt
-tc.research_page.INFUSION.4=von einem Sockel geworfen oder Flux entsteht, aber man hat auch schon von richtigen Katastrophen gehört.<BR>Je länger der Prozess durch Probleme wie zu wenig Essentia oder herabgefallene Items dauert, desto größer ist die Chance, dass etwas Schlimmes passiert.<BR>Das kann auf verschiedene Arten vermieden werden: Erstens solltest du die gesamte Infusion so symmetisch wie möglich durchführen - achte gut darauf, wo du die Sockel aufstellst und sorge dafür, dass sie mit Sockeln auf der anderen Seite des Altars ausbalanciert sind. Zweitens solltest du die Items auf den Sockeln ebenfalls ausbalancieren. Abschließend kannst du okkulte Requisiten
+tc.research_page.INFUSION.4=von einem Sockel geworfen oder Flux entsteht, aber man hat auch schon von richtigen Katastrophen gehört.<BR>Je länger der Prozess durch Probleme wie zu wenig Essentia oder herabgefallene Items dauert, desto größer ist die Chance, dass etwas Schlimmes passiert.<BR>Das kann auf verschiedene Arten vermieden werden: Erstens solltest du die gesamte Infusion so symmetrisch wie möglich durchführen - achte gut darauf, wo du die Sockel aufstellst und sorge dafür, dass sie mit Sockeln auf der anderen Seite des Altars ausbalanciert sind. Zweitens solltest du die Items auf den Sockeln ebenfalls ausbalancieren. Abschließend kannst du okkulte Requisiten
 tc.research_page.INFUSION.5=symmetrisch um den Altar anordnen (etwa Kerzen, Schädel, Kristalle, etc.). Diese verringern die Instabilität.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
 #
 tc.research_name.JARBRAIN=Gehirn im Glas
@@ -950,7 +950,7 @@ tc.research_page.JARBRAIN.1=- Man gebe ein faules Zombiehirn in ein Glas.<BR>- D
 tc.research_name.HOVERHARNESS=Thaumostatisches Geschirr
 tc.research_text.HOVERHARNESS=Ist es ein Vogel...
 tc.research_page.HOVERHARNESS.1=Endlich hast du das Geheimnis des Fliegens entdeckt. Du hast ein Geschirr kreiert, dass sich mit thaumostatischer Energie am thaumischen Feld abstößt und so die Gravitation besiegt. Vielleicht spielen auch Quanten und Quarks eine Rolle.<BR>Ungewöhnlicherweise wird das einzige Vis, dass für den Betrieb benötigt wird, während der Herstellung hinzugefügt. Stattdessen ist der benötigte Treibstoff rohes Potentia. Rechtsklicke einfach mit dem Geschirr, um gefüllte Gläser einzufüllen.<BR>Drücke zweimal die Leertaste, um das Geschirr zu aktivieren, während du es trägst.
-tc.research_page.HOVERHARNESS.2=Solange es ativ ist, verbraucht es ständig Potentia.<BR>Es kann mit "Hast" verzaubert werden, um die Fluggeschwindigkeit zu erhöhen.
+tc.research_page.HOVERHARNESS.2=Solange es aktiv ist, verbraucht es ständig Potentia.<BR>Es kann mit "Hast" verzaubert werden, um die Fluggeschwindigkeit zu erhöhen.
 #
 tc.research_name.ADVANCEDGOLEM=Fortgeschrittene Golems
 tc.research_text.ADVANCEDGOLEM=Vielleicht sollte ich das noch einmal durchdenken...
@@ -973,7 +973,7 @@ tc.research_page.ARCANEEAR.1=Das Arkane Ohr ist ein Gerät, das Geräusche von i
 tc.research_name.MIRROR=Spiegelmagie
 tc.research_text.MIRROR=Hinter den Spiegeln
 tc.research_page.MIRROR.1=Du kannst jetzt zwei Spiegel verzaubern, sodass sie als Verbindung zwischen den Welten wirken. Alles, was durch einen Spiegel geschickt wird, kommt durch die Zwischenwelt aus dem anderen Spiegel heraus - sogar in anderen Dimensionen.<BR>Leider ist die Zwischenwelt extrem tödlich für sterbliche Kreaturen wir dich, daher kann man bis jetzt nur Gegenstände transportieren.<BR>Um ein Paar dieser Spiegel zu verbinden, musst du nur einen von ihnen am gewünschten Ort platzieren. Dann rechtsklickst du mit dem zweiten  
-tc.research_page.MIRROR.2=Spiegel auf den eben platzierten, sie werden verbunden. Jetzt platzierst du den Spiegel, wo immer du willst. Items, die in einen geworfen werden, kommen aus dem anderen heraus.<BR>Spiegel können nur paarweise verbunden werden, daher kannst du zu zwei platzierten und funktionierenden Spiegeln keinen dritten hinzufügen. Wenn du einen Spiegel aufnimmst, behält er den letzten Partner, mit dem er verbunden war, du kannst sie also leicht umstellen, ohne sie neu verbinden zu müssen. Wenn jedoch ein gepaarter Spiegel aufgenommen wird, kannst du sie mit jeweils anderen Spiegeln verbinden.<BR>Der Tranport von Items ist nicht umsonst. Du benötigst eine Iter-Quelle in der Nähe. Jeder volle Stack Items benötigt 1 Essentia.
+tc.research_page.MIRROR.2=Spiegel auf den eben platzierten, sie werden verbunden. Jetzt platzierst du den Spiegel, wo immer du willst. Items, die in einen geworfen werden, kommen aus dem anderen heraus.<BR>Spiegel können nur paarweise verbunden werden, daher kannst du zu zwei platzierten und funktionierenden Spiegeln keinen dritten hinzufügen. Wenn du einen Spiegel aufnimmst, behält er den letzten Partner, mit dem er verbunden war, du kannst sie also leicht umstellen, ohne sie neu verbinden zu müssen. Wenn jedoch ein gepaarter Spiegel aufgenommen wird, kannst du sie mit jeweils anderen Spiegeln verbinden.<BR>Der Transport von Items ist nicht umsonst. Du benötigst eine Iter-Quelle in der Nähe. Jeder volle Stack Items benötigt 1 Essentia.
 #
 tc.research_name.MIRRORHAND=Magischer Handspiegel
 tc.research_text.MIRRORHAND=Persönliche Reflektion
@@ -1019,7 +1019,7 @@ tc.research_page.INFUSIONENCHANTMENT.3=Zusätzliche Kosten entstehen, wenn das I
 tc.research_name.ARCANELAMP=Arkane Lampe
 tc.research_text.ARCANELAMP=Große Erleuchtung
 tc.research_page.ARCANELAMP.1=Diese mystische Lampe kann an Wänden, Böden oder Decken angebracht werden und spendet helles und gleichmäßiges Licht.<BR>Zusätzliche Lichtquellen können bis zu 16 Blöcke entfernt entstehen, wenn der Lichtlevel dort unterhalb von es "sicheren" Levels liegt. Vergiss niemals: Nur DU kannst die Zombie-Apokalypse verhindern.<BR>Diese sekundären Lichtquellen verschwinden, kurz nachdem die Lampe entfernt wurde.<LINE>Du bist sicher, dass du noch weitere Verwendung für diese Lampe finden wirst, also schlage nochmal nach, wenn du weitere Entdeckungen gemacht hast.
-tc.research_page.ARCANELAMP.2=           §nArkaner Bohrer§r<BR>In Verbindung mit dem Gestell des arkanen Bohrers erhält die arkane Lampe eine weitere Fähigkeit: Sie zapft Lux-Essentia aus einer Quelle in der Nähe und beleuchtet damit den Tunnel, den der Bohrer gräbt.<BR>Ein Punkt Lux erzeugt eine einzelne Lichtquelle. Diese Lichtquellen verschwinden nicht, nachdem die Lampe entfernt wurde.
+tc.research_page.ARCANELAMP.2=           §nArkaner Bohrer§r<BR>In Verbindung mit dem Gestell des Arkanen Bohrers erhält die Arkane Lampe eine weitere Fähigkeit: Sie zapft Lux-Essentia aus einer Quelle in der Nähe und beleuchtet damit den Tunnel, den der Bohrer gräbt.<BR>Ein Punkt Lux erzeugt eine einzelne Lichtquelle. Diese Lichtquellen verschwinden nicht, nachdem die Lampe entfernt wurde.
 #
 tc.research_name.SALT=Salis Mundus
 tc.research_text.SALT=Nur eine Prise
@@ -1028,11 +1028,11 @@ tc.research_page.SALT.1=Salis Mundus, oder Thaumaturgensalz, wie es für gewöhn
 tc.research_name.TUBES=Essentiaröhren
 tc.research_text.TUBES=Transport von Essentia
 tc.research_page.TUBES.1=Du hast verschiedene Wege entdeckt, um Essentia zu transportieren, aber keiner von ihnen hat sich für Alchemie in großem Stil als brauchbar erwiesen - bis jetzt.<BR>Du weißt jetzt, wie man stabile und relativ dichte Röhren herstellt. Während man normale Chemikalien in Glas transportieren kann, können bestimme Arten von Essentia sich entweder auflösen oder aber hindurch diffundieren. Indem du das Glas in Eisen einfasst und es mit Quecksilber behandelst, kannst du selbst die flüchtigsten Arten von Essentia beschützen. Goldene Anschlüsse geben dem Röhrensystem den letzten Schliff und machen es optisch ansprechend.
-tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließen immer dann durch die Röhren, wenn sie mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser. Beschilderte Gläser haben eine wesentlich größere Saugkraft - so starkt, dass sie Essentia aus unbeschilderten Gläsern saugen.<LINE>Das Essentia-Ventil verhält sich wie eine normale Röhre, außer dass es manuell oder mit einem Redstone-Signal geschlossen werden kann. In diesem Fall wird der Essentiafluss unterbrochen. 
+tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließen immer dann durch die Röhren, wenn sie mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser. Beschilderte Gläser haben eine wesentlich größere Saugkraft - so stark, dass sie Essentia aus unbeschilderten Gläsern saugen.<LINE>Das Essentia-Ventil verhält sich wie eine normale Röhre, außer dass es manuell oder mit einem Redstone-Signal geschlossen werden kann. In diesem Fall wird der Essentiafluss unterbrochen. 
 #
 tc.research_name.CENTRIFUGE=Alchemische Zentrifuge
 tc.research_text.CENTRIFUGE=Nimmt Dinge auseinander
-tc.research_page.CENTRIFUGE.1=Die alchemische Zentrifuge ist eine wundervolle Erfindung, die es dir erlaubt, Essentia in ihre Bestandteile zu zerlegen.<BR>Wenn eine Verbund-Essentia von der Unterseite in die Zentrifuge fließt, wird sie langsam in ihre Basis- oder Verbund-Essentia zerlegt. Nur eine der Komponenten wird für jeden Punkt der zerlegten Essentia erzeugt.<BR>Die resultierende Essentia muss von der Oberseite der Zentrifuge entnommen werden.
+tc.research_page.CENTRIFUGE.1=Die Alchemische Zentrifuge ist eine wundervolle Erfindung, die es dir erlaubt, Essentia in ihre Bestandteile zu zerlegen.<BR>Wenn eine Verbund-Essentia von der Unterseite in die Zentrifuge fließt, wird sie langsam in ihre Basis- oder Verbund-Essentia zerlegt. Nur eine der Komponenten wird für jeden Punkt der zerlegten Essentia erzeugt.<BR>Die resultierende Essentia muss von der Oberseite der Zentrifuge entnommen werden.
 #
 tc.research_name.TRAVELTRUNK=Reisekoffer
 tc.research_text.TRAVELTRUNK=Mobiles Gepäck
