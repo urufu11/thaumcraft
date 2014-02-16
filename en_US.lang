@@ -11,34 +11,35 @@ potion.fluxtaint=Flux Taint
 potion.soulshatter=Soul Shatter
 #
 # Entities
-entity.ThaumSlime.name=Thaumic Slime
-entity.Dart.name=Golem Dart
-entity.FrostShard.name=Frost Shard
-entity.Firebat.name=Firebat
-entity.Wisp.name=Wisp
-entity.Alumentum.name=Alumentum
-entity.GiantBrainyZombie.name=Furious Zombie
-entity.BrainyZombie.name=Angry Zombie
-entity.FollowItem.name=Following Item
-entity.SpecialItem.name=Magic Item
-entity.FallingTaint.name=Tainted Crust
+entity.Thaumcraft.ThaumSlime.name=Thaumic Slime
+entity.Thaumcraft.Dart.name=Golem Dart
+entity.Thaumcraft.FrostShard.name=Frost Shard
+entity.Thaumcraft.Firebat.name=Firebat
+entity.Thaumcraft.Wisp.name=Wisp
+entity.Thaumcraft.Alumentum.name=Alumentum
+entity.Thaumcraft.GiantBrainyZombie.name=Furious Zombie
+entity.Thaumcraft.BrainyZombie.name=Angry Zombie
+entity.Thaumcraft.FollowItem.name=Following Item
+entity.Thaumcraft.SpecialItem.name=Magic Item
+entity.Thaumcraft.FallingTaint.name=Tainted Crust
 entity.Thaumcraft.AspectOrb.name=Aspect Orb
-entity.TaintSpider.name=Tainted Crawler
-entity.Taintacle.name=Taintacle
-entity.TaintacleTiny.name=Taint Tendril
-entity.TaintSpore.name=Taint Spore
-entity.TaintSwarmer.name=Taint Spore Swarmer
-entity.TaintSwarm.name=Taint Swarm
-entity.TaintedVillager.name=Tainted Villager
-entity.TaintedChicken.name=Tainted Chicken
-entity.TaintedPig.name=Tainted Pig
-entity.TaintedSheep.name=Tainted Sheep
-entity.TaintedCow.name=Tainted Cow
-entity.TaintedCreeper.name=Tainted Creeper
-entity.Pech.name=Pech Forager
-entity.Pech.1.name=Pech Mage
-entity.Pech.2.name=Pech Stalker
-entity.TravelingTrunk.name=Traveling Trunk
+entity.Thaumcraft.TaintSpider.name=Tainted Crawler
+entity.Thaumcraft.Taintacle.name=Taintacle
+entity.Thaumcraft.TaintacleTiny.name=Taint Tendril
+entity.Thaumcraft.TaintSpore.name=Taint Spore
+entity.Thaumcraft.TaintSwarmer.name=Taint Spore Swarmer
+entity.Thaumcraft.TaintSwarm.name=Taint Swarm
+entity.Thaumcraft.TaintedVillager.name=Tainted Villager
+entity.Thaumcraft.TaintedChicken.name=Tainted Chicken
+entity.Thaumcraft.TaintedPig.name=Tainted Pig
+entity.Thaumcraft.TaintedSheep.name=Tainted Sheep
+entity.Thaumcraft.TaintedCow.name=Tainted Cow
+entity.Thaumcraft.TaintedCreeper.name=Tainted Creeper
+entity.Thaumcraft.Pech.name=Pech Forager
+entity.Thaumcraft.Pech.1.name=Pech Mage
+entity.Thaumcraft.Pech.2.name=Pech Stalker
+entity.Thaumcraft.PrimalOrb.name=Orb of Primal Energy
+entity.Thaumcraft.TravelingTrunk.name=Traveling Trunk
 entity.trunk.guiname='s trunk
 entity.trunk.move=The trunk will now follow you
 entity.trunk.stay=The trunk will stay where it is
@@ -87,6 +88,11 @@ tile.blockMetalDevice.5.name=Item Grate
 tile.blockMetalDevice.6.name=Item Grate (Closed)
 tile.blockMetalDevice.7.name=Arcane Lamp
 tile.blockMetalDevice.8.name=Lamp of Growth  
+tile.blockMetalDevice.9.name=Alchemical Construct
+tile.blockMetalDevice.10.name=Thaumatorium
+tile.blockMetalDevice.11.name=Thaumatorium
+tile.blockMetalDevice.12.name=Mnemonic Matrix
+tile.blockMetalDevice.13.name=Lamp of Fertility 
 tile.blockMagicalLog.greatwood.name=Greatwood Log
 tile.blockMagicalLog.silverwood.name=Silverwood Log
 tile.blockMagicalLeaves.greatwood.name=Greatwood Leaves
@@ -137,6 +143,8 @@ tile.blockCrystal.4.name=Order Crystal Cluster
 tile.blockCrystal.5.name=Entropy Crystal Cluster
 tile.blockCrystal.6.name=Mixed Crystal Cluster
 tile.blockMirror.name=Magic Mirror
+tile.blockMirror.0.name=Magic Mirror
+tile.blockMirror.6.name=Essentia Mirror
 tile.blockTaint.0.name=Crusted Taint
 tile.blockTaint.1.name=Tainted Soil
 tile.blockTaint.2.name=Block of Flesh
@@ -160,6 +168,7 @@ tile.blockTube.0.name=Essentia Tube
 tile.blockTube.1.name=Essentia Valve
 tile.blockTube.2.name=Alchemical Centrifuge
 tile.blockTube.3.name=Filtered Essentia Tube
+tile.blockTube.4.name=Essentia Buffer
 container.alchemyfurnace=Alchemical Furnace
 tile.blockArcaneFurnace.name=Infernal Furnace
 #
@@ -177,6 +186,8 @@ item.FocusFrost.name=Wand Focus: Frost
 item.FocusExcavation.name=Wand Focus: Excavation
 item.FocusPortableHole.name=Wand Focus: Portable Hole
 item.FocusPech.name=Wand Focus: Pech's Curse
+item.FocusWarding.name=Wand Focus: Warding
+item.FocusPrimal.name=Wand Focus: Primal
 item.WandCap.0.name=Iron Cap
 item.WandCap.1.name=Gold Cap
 item.WandCap.2.name=Charged Thaumium Cap
@@ -192,7 +203,21 @@ item.WandRod.4.name=Quartz Rod
 item.WandRod.5.name=Reed Rod
 item.WandRod.6.name=Blazing Rod
 item.WandRod.7.name=Bone Rod
-item.Wand.name=Wand
+item.WandRod.50.name=Greatwood Staff Core
+item.WandRod.51.name=Obsidian Staff Core
+item.WandRod.52.name=Silverwood Staff Core
+item.WandRod.53.name=Icy Staff Core
+item.WandRod.54.name=Quartz Staff Core
+item.WandRod.55.name=Reed Staff Core
+item.WandRod.56.name=Blazing Staff Core
+item.WandRod.57.name=Bone Staff Core
+item.WandRod.100.name=Staff Core of the Primal
+#
+# this is what is used to name the wand - the position of the variables can be altered so it makes more sense in other languages
+item.Wand.name=%CAP %ROD %OBJ
+#
+item.Wand.wand.obj=Wand
+item.Wand.staff.obj=Staff
 item.Wand.wood.rod=Wooden
 item.Wand.greatwood.rod=Greatwood
 item.Wand.silverwood.rod=Silverwood
@@ -202,11 +227,13 @@ item.Wand.ice.rod=Icy
 item.Wand.bone.rod=Bone
 item.Wand.reed.rod=Reed
 item.Wand.quartz.rod=Quartz
+item.Wand.primal.rod=Primal
 item.Wand.iron.cap=Iron Capped
 item.Wand.gold.cap=Gold Banded
 item.Wand.copper.cap=Copper Capped
 item.Wand.silver.cap=Silver Bossed
 item.Wand.thaumium.cap=Thaumium Bossed
+#
 item.ItemResource.0.name=Alumentum
 item.ItemResource.1.name=Nitor
 item.ItemResource.2.name=Thaumium Ingot
@@ -222,6 +249,7 @@ item.ItemResource.11.name=Tainted Goo
 item.ItemResource.12.name=Taint Tendril
 item.ItemResource.13.name=Jar Label
 item.ItemResource.14.name=Salis Mundus
+item.ItemResource.15.name=Primal Charm
 item.ItemShard.0.name=Air Shard
 item.ItemShard.1.name=Fire Shard
 item.ItemShard.2.name=Water Shard
@@ -277,6 +305,9 @@ item.ItemSwordThaumium.name=Thaumium Sword
 item.ItemPickThaumium.name=Thaumium Pickaxe
 item.ItemHoeThaumium.name=Thaumium Hoe
 item.researchnotes.name=Research Notes
+item.researchnotes.unknown=Unknown Knowledge
+item.researchnotes.failed.1=Failed, place in crafting grid
+item.researchnotes.failed.2=to regain knowledge fragments
 item.discovery.name=Discovery
 item.ItemWispEssence.name=Ethereal Essence
 item.ItemEssence.0.name=Glass Phial
@@ -291,6 +322,7 @@ item.ItemGolemCore.5.name=Decanting
 item.ItemGolemCore.6.name=Alchemy
 item.ItemGolemCore.7.name=Chop
 item.ItemGolemCore.8.name=Use
+item.ItemGolemCore.9.name=Butcher
 item.ItemGolemCore.100.name=Blank
 item.ItemGolemPlacer.0.name=Straw Golem
 item.ItemGolemPlacer.1.name=Wood Golem
@@ -321,11 +353,23 @@ item.ItemGolemUpgrade.2.desc=Improves Damage, Capacity
 item.ItemGolemUpgrade.3.desc=Improves Senses, Range
 item.ItemGolemUpgrade.4.desc=Improves Organisation, Intellect
 item.ItemGolemUpgrade.5.desc=Improves Defenses, Reasoning
+item.ItemBowBone.name=Bow of Bone
 item.ItemManaBean.name=Mana Bean
 item.TrunkSpawner.name=Traveling Trunk
 item.TrunkSpawner.text.1=This trunk holds items
-
-
+item.ItemResonator.name=Essentia Resonator
+item.ItemHelmetRunic.name=Runic Headpiece
+item.ItemChestplateRunic.name=Runic Chestpiece
+item.ItemLeggingsRunic.name=Runic Legpiece
+item.ItemBootsRunic.name=Runic Footpiece
+item.ItemGogglesRunic.name=Runic Goggles of Revealing
+item.runic.charge=Charge
+item.runic.upgrade.1=Energized
+item.runic.upgrade.2=Augmented
+item.runic.upgrade.3=Kinetic Feedback
+item.runic.upgrade.4=Revitalizing Feedback
+item.runic.upgrade.5=Hardened
+item.runic.upgrade.6=Emergency Shielding
 #
 # Fluids
 fluid.fluxGoo=Flux Goo
@@ -415,6 +459,22 @@ tc.inst.3=§eHigh§0
 tc.inst.4=§6Very High§0
 tc.inst.5=§4Dangerous§0
 tc.adv=Advanced
+tc.resonator1=§9Contains %1$s %2$s essentia§0
+tc.resonator2=§5Suction %1$s %2$s §0 
+tc.resonator3=Untyped
+tc.research.purchase=Click to purchase this research
+tc.research.short=You do not have the required aspects to purchase this
+tc.research.getprim=Click to get a research note for this research
+tc.research.shortprim=You need scribing tools and paper to get this research note
+tc.research.hasnote=You already have this research note in your inventory
+tc.research.popup=Research note added to your inventory for %1$s
+tc.research.copy=Cost to copy this research:
+tc.primalcharm.0=It seems to be leaking
+tc.primalcharm.1=You think you hear whispering
+tc.primalcharm.2=It is vibrating violently
+tc.primalcharm.3=It's humming is quite soothing
+tc.primalcharm.4=Wait, did it just flash a seventh color?
+tc.primalcharm.trigger=For a moment strange energies surround the primal charm. They dissipate quickly, but you are left strangely inspired...
 #
 # Aspects
 tc.aspect.primal=Primal Aspect
@@ -498,17 +558,15 @@ tc.research_text.RESEARCH=How you discover things
 tc.research_page.RESEARCH.1=Before you can build most thaumaturgical items and blocks, you first need to discover how to do so. There are several steps in this process:<BR>(1) Exploring the world and examining blocks, items and creatures with a §5Thaumometer§0<BR><BR>(2) Taking the research points you gathered from the first step and expanding your aspect knowledge with the §5Research Table§0<BR><BR>(3) Using the aspects you know and discovering practical knowledge and recipes with the §5Research Table§0.<LINE>
 tc.research_page.RESEARCH.2=§l      §n(1) Exploration§r<BR><BR>You cannot perform research without research points, and the best way to gain research points is by exploration and examining objects in the world.<BR>The first thing you will need to do is construct a §5Thaumometer§0 (see next page). By pointing the §5Thaumometer§0 at objects or creatures and holding the right mouse button you will start examining them. The process does not take long, but your movement speed is reduced while it is occurring.<BR>Once complete the §5Thaumometer§0 will display what aspects the object contains. In the bottom right of the screen you will also see a summary of the aspects and research points 
 tc.research_page.RESEARCH.3=you discovered.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>You will initially not be able to examine all objects since you have not discovered their component aspects. For example, a object containing the Lux aspect can only be examined if you have previously discovered the Lux aspect, or know
-tc.research_page.RESEARCH.4=the two aspects that combine to create it.<BR>The very first time you discover an aspect by examining something you gain double the number of research points you would have normally.<BR>Objects and creatures can usually only ever be examined once.<BR>While exploring the world and examining things it is always a good idea to keep a filled set of §5scribing tools§0 and some §5paper§0 on you. Occasionally examining something will reveal additional clues and insights into thaumoturgical research, often resulting in a set of research notes that you can research further.
-tc.research_page.RESEARCH.5=§l   §n(2) Combining Aspects§r<BR><BR>Once you have gathered some research points you can attempt to combine them into compound aspects within a research table.<BR>To craft a research table simply place two §5tables§0 next to each other and click on them with a set of Scribing Tools. The recipe for tables is listed under the §5Artiface§0 research category.<BR>If you open the research tables inventory, you will see an interface as pictured on the right.<BR>The scribing tools you used to craft the table will be located in slot §l1§r. You might also wish to place paper into slot §l2§r, though paper is not
-tc.research_page.RESEARCH.6=needed for this phase of research.<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>You should see all the primal aspects (and possibly some compound aspects) listed in the area marked §l3§r with varying amounts attached to them. When you enter a world for the first time, every player is assigned a small pool of primal aspects to get them started.<BR>If you had done some exploring with
-tc.research_page.RESEARCH.7=the thaumometer beforehand then you might have a significant number of primal and compound aspects listed here.<LINE>You can now start combining aspects into more complex compound aspects but simply clicking on those you wish to combine. The selected aspects will appear in slot §l4§r and when you have two selected pressing the purple button marked §l5§r will attempt to combine them. If successful you should see what was gained in the bottom right and it should appear in slot §l3§r.<BR>The component aspects are consumed even if the combination did not result in valid compound aspect.
-tc.research_page.RESEARCH.8=§l  §n(3) Researching Aspects§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>If you have paper is slot §l2§r, then you may have noticed that when only a single aspect is selected that the green button (marked §l6§r) lights up.<BR>If you press it then you will attempt to research the selected aspect. If successful you discover something of interest about that aspect and a set of research notes will appear in 
-tc.research_page.RESEARCH.9=slot §l7§r. Section §l8§r will also display the research sheet covered in a bewildering array of runes and symbols that looks something like the image at the top of the previous page.<BR>Don't worry, it is not as hard as it looks.<LINE>To complete your research you simply need to connect and activate all the §5knowledge nodes§0 (pictured below).<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>The node on the left is an inactive node, while the node on the right has been activated. Once all the
-tc.research_page.RESEARCH.10=inactive nodes have become active, the research will be complete and the research note will change into a discovery that you can use to gain the completed research (just right-click while holding it).<LINE>You connect knowledge nodes by activating the runes.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>Each rune is linked to a aspect, but at first it us unknown which rune represents which aspect. The rune/aspect link is unique to each research subject, so a rune that might represent Aer this time, might represent Terra next time.
-tc.research_page.RESEARCH.11=Not all the runes are valid for the current subject you are researching.<BR>For example though there might be runes for Aer, Terra, Ignes and Aqua on the research sheet, only Ignes and Terra might actually be valid. Invalid runes are often called 'red herring' runes.<BR> You discover which runes are valid by selecting an aspect on the left, and pressing the 'Research' button (§l6§r). If the aspect you selected is valid, then all runes linked to that aspect will become active.<BR>If the aspect you select is a 'red herring' then the runes linked to it will not activate, but up to two of them will be removed from the sheet entirely.
-tc.research_page.RESEARCH.12=If the aspect you select is not present on the research table then nothing happens.<LINE>Active runes act as possible bridges to connect knowledge nodes. A glowing line of energy will flow from an active knowledge node to any active rune nearby. You need to create a chain of active runes and nodes to complete the research.<IMG>thaumcraft:textures/misc/research3.png:0:0:120:95:.75</IMG>
-tc.research_page.RESEARCH.13=A chain cannot form if there is more than one open space between a active runes or nodes.<BR>To form a chain you must move the runes around by clicking on a rune and selecting a valid destination.<IMG>thaumcraft:textures/misc/research2.png:136:0:102:74:1</IMG>Each rune can be moved up to 2 positions in a straight line, but only inactive runes can be moved - this means you might have to activate and deactivate your valid runes several
-tc.research_page.RESEARCH.14=times to get them into position.<BR>Inactive runes prevent the forming of a connection if they lie in its path, so you need to move them out of the way.<IMG>thaumcraft:textures/misc/research3.png:128:0:105:111:.75</IMG>Moving runes uses a small amount of ink each time you do it.<LINE>
+tc.research_page.RESEARCH.4=the two aspects that combine to create it.<BR>The very first time you discover an aspect by examining something you gain two more research points than you would have normally.<BR>Objects and creatures can usually only ever be examined once.<BR>Occasionally examining something will reveal additional clues and insights into thaumoturgical research, unlocking subjects that you can research further.
+tc.research_page.RESEARCH.5=§l   §n(2) Combining Aspects§r<BR><BR>Once you have gathered some research points you can attempt to combine them into compound aspects within a research table.<BR>To craft a research table simply place two §5tables§0 next to each other and click on them with a set of Scribing Tools. The recipe for tables is listed under the §5Artiface§0 research category.<BR>If you open the research tables inventory, you will see an interface as pictured on the right.<BR>The scribing tools you used to craft the table will be located in slot §l1§r. 
+tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>You should see all the primal aspects (and possibly some compound aspects) listed in the area marked §l3§r with varying amounts attached to them. When you enter a world for the first time, every player is assigned a small pool of primal aspects to get them started.<BR>If you had done some exploring with
+tc.research_page.RESEARCH.7=the thaumometer beforehand then you might have a significant number of primal and compound aspects listed here.<BR>You can now start combining aspects into more complex compound aspects but simply clicking on those you wish to combine or dragging it to the runed circles in area §l4§r. The selected aspects will appear in area §l4§r and when you have two selected pressing the purple button will attempt to combine them. If successful you should see what was gained in the bottom right and it should appear in area §l3§r.<BR>The component aspects are consumed even if the combination did not result in valid compound aspect.
+tc.research_page.RESEARCH.8=§l   §n(3) Primary Research§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>You need to be carrying a set of scribing tools and paper for this step.<BR>If you open your Thaumonomicon you will see all the knowledge have and also all the knowledge that you are now able to persue.<BR>Flashing square or round icons represent primary researches.
+tc.research_page.RESEARCH.9=If you can read their title (instead of seeing strange runes) you are simply able to click on them. Paper and ink will be consumed from your inventory and you will gain a research note. You can now take this research note to the table to start researching it by placing it in slot §l2§r.<BR>Section §l5§r will now display a sheet of paper covered in hexagonal tiles with aspect icons around the outer edge. If you see question mark icons it means you do not know that aspect yet and you will need to learn it first.<LINE> 
+tc.research_page.RESEARCH.10=To complete your research you simply need to connect and activate all the aspects. You do this by dragging an aspect to a hex adjacent to it that is either composed of the target aspect, or can be combined with another aspect to form the target aspect.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>Placing an aspect consumes one research point. If you make a mistake you can click on the aspect to remove it, but you will not regain the research point. 
+tc.research_page.RESEARCH.11=You continue doing the until you have formed a pattern connecting all the starting aspects. The outer aspects need not be connected to all the others, they simply need to form a connected whole.<BR>Once this is done the research will complete and the research note will turn into a discovery.<LINE>NOTE: Placing and removing aspects from the hex grid consumes ink from your scribing tools. If it runs out you will not be able to proceed until you refill it.
+tc.research_page.RESEARCH.12=§l    §nSecondary Research§r<BR>Hexagonal icons indicate Secondary research. Much like primary research you just need to click on them. However instead of gaining a research note, you will simply learn the research directly. Secondary research does have an aspect cost you need to pay, but they do not require you to be carrying scribing tools or paper.
 #
 tc.research_name.KNOWFRAG=Knowledge Fragments
 tc.research_text.KNOWFRAG=Fragments of lost lore
@@ -544,11 +602,15 @@ tc.research_page.PLANTS.6=These beans, known as Mana Beans, contain concentrated
 #
 tc.research_name.RESEARCHER1=Research Expertise
 tc.research_text.RESEARCHER1=Knowledge is Power
-tc.research_page.RESEARCHER1.1=You are have become more efficient at performing research.<BR>Whenever you attempt to research a 'red herring' aspect, up to three of its runes will be removed instead of two.<BR>You are also able to move runes up to three positions at a time, instead of two.
+tc.research_page.RESEARCHER1.1=You are have become more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.
 #
 tc.research_name.RESEARCHER2=Research Mastery
 tc.research_text.RESEARCHER2=Power is Knowledge
-tc.research_page.RESEARCHER2.1=You are have become even more efficient at performing research.<BR>Whenever you attempt to research a 'red herring' aspect, up to four of its runes will be removed instead of three.<BR>You are also able to move runes up to four positions at a time, instead of three.<BR>Lastly, you are able to move active runes, though only a single position. Be warned however that doing this runs the risk of deactivating all runes linked to that aspect.
+tc.research_page.RESEARCHER2.1=You are have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.
+#
+tc.research_name.RESEARCHDUPE=Research Duplication
+tc.research_text.RESEARCHDUPE=Sharing is Caring
+tc.research_page.RESEARCHDUPE.1=You have discovered a way to copy completed research note.<BR>When you complete research or place a completed research note in the research table you will see a star icon. Clicking this will create a copy of this research as long as you are carrying paper and ink and have enough aspects available.<BR>The more copies are created of that research, the more expensive copying it will become.
 #
 tc.research_name.DECONSTRUCTOR=Deconstruction table
 tc.research_text.DECONSTRUCTOR=When taking a good look just isn't enough
@@ -562,7 +624,7 @@ tc.research_page.BASICTHAUMATURGY.2=Holding shift will display exact numbers hel
 #
 tc.research_name.GRATE=Item Grate
 tc.research_text.GRATE=Let the good things in
-tc.research_page.GRATE.1=The item grate allows you to toggle it open or closes with your hand, or with a redstone signal. If in the open position, any dropped items will simply fall right through it. 
+tc.research_page.GRATE.1=The item grate allows you to toggle it open or closes with your hand, or with a redstone signal. If in the open position, any dropped items will simply fall right through it.<BR>Items can also be piped into the top of an item grate using a hopper or other means and if open it will be ejected out the bottom.
 #
 tc.research_name.NODETAPPER1=Advanced Node Tapping
 tc.research_text.NODETAPPER1=Taking it all
@@ -584,9 +646,9 @@ tc.research_name.GOGGLES=Goggles of Revealing
 tc.research_text.GOGGLES=Seeing the Unseen
 tc.research_page.GOGGLES.1=Building on the basic principles of the Thaumometer, you have begun refining its ability to detect magic into something more... revealing.<BR>This set of mystical lenses will make aura nodes much easier to find along with revealing all manner of hidden things.<BR>They form an important tool in any Thaumaturgist's arsenal.
 #
-tc.research_name.THAUMIUM=Thaumium
-tc.research_text.THAUMIUM=A Magical Metal
-tc.research_page.THAUMIUM.1=Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armour in a crafting table using the normal recipes.
+tc.research_name.THAUMIUM=Magical Metallurgy
+tc.research_text.THAUMIUM=Where metals meet magic
+tc.research_page.THAUMIUM.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armour in a crafting table using the normal recipes.
 #
 tc.research_name.NITOR=Nitor
 tc.research_text.NITOR=Mystical Flame
@@ -648,6 +710,43 @@ tc.research_name.ROD_reed=Reed Wand Core
 tc.research_text.ROD_reed=Airy vis storage
 tc.research_page.ROD_reed.1=A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of aer stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #
+tc.research_name.ROD_greatwood_staff=Magic Staves
+tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
+tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for you buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
+tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has more than double the vis storage potential of a greatwood wand, being able to store up to 125 vis of each type.
+#
+tc.research_name.ROD_silverwood_staff=Silverwood Staff Core
+tc.research_text.ROD_silverwood_staff=Magical to the core
+tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 250 vis of each type.
+#
+tc.research_name.ROD_obsidian_staff=Obsidian Staff Core
+tc.research_text.ROD_obsidian_staff=Earthen vis storage
+tc.research_page.ROD_obsidian_staff.1=A staff core chiselled from obsidian can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_bone_staff=Bone Staff Core
+tc.research_text.ROD_bone_staff=Entropic vis storage
+tc.research_page.ROD_bone_staff.1=A staff core carved from bone can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_blaze_staff=Blaze Rod Staff Core
+tc.research_text.ROD_blaze_staff=Fiery vis storage
+tc.research_page.ROD_blaze_staff.1=A staff core crafted from blaze rods can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_ice_staff=Icy Staff Core
+tc.research_text.ROD_ice_staff=Icy vis storage
+tc.research_page.ROD_ice_staff.1=A staff core crafted from ice can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_quartz_staff=Quartz Staff Core
+tc.research_text.ROD_quartz_staff=Ordered vis storage
+tc.research_page.ROD_quartz_staff.1=A staff core chiseled from quartz can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_reed_staff=Reed Staff Core
+tc.research_text.ROD_reed_staff=Airy vis storage
+tc.research_page.ROD_reed_staff.1=A staff core crafted from reeds can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_primal_staff=Staff Core of the Primal
+tc.research_text.ROD_primal_staff=Elemental power combined
+tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish it's vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturges arsenal.
+#
 tc.research_name.FOCUSFIRE=Wand Foci
 tc.research_text.FOCUSFIRE=Form meets Function
 tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
@@ -676,6 +775,14 @@ tc.research_page.FOCUSHELLBAT.1=Your trips onto the Nether have taught you to fe
 tc.research_name.FOCUSPORTABLEHOLE=Wand Focus: Portable Hole
 tc.research_text.FOCUSPORTABLEHOLE=Never be without an exit again
 tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extradimensional spaces. Using this focus on a wall or other surface will create an extradimensional passage leading to the other side.<BR>This 'hole' only remains open for a few seconds and drains vis from the wand depending on its depth.<BR>Extradimensional holes cannot be created through certain kinds of matter or particularly complex objects.
+#
+tc.research_name.FOCUSWARDING=Wand Focus: Warding
+tc.research_text.FOCUSWARDING=Protecting what is yours
+tc.research_page.FOCUSWARDING.1=This powerful focus has a very interesting ability. When used on a block it will create an invisible, protective barrier around that block. From that point on the block will not be able to be removed or destroyed until you once again use the wand on it.<BR>The focus can be used on most simple blocks and they will retain many of their normal properties, though while warded those blocks will effectively become frozen in time.<BR>While holding a wand with this focus you will be able to see all blocks that you (and only you) have warded.
+#
+tc.research_name.FOCUSPRIMAL=Wand Focus: Primal
+tc.research_text.FOCUSPRIMAL=Raw Magic
+tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
 #
 tc.research_name.FOCUSPOUCH=Focus Pouch
 tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
@@ -748,7 +855,7 @@ tc.research_name.GUNPOWDER=Gunpowder
 tc.research_text.GUNPOWDER=Who needs creepers?
 tc.research_page.GUNPOWDER.1=You have discovered an alternate source of gunpowder! No more hunting creepers for this explosive substance.
 #
-tc.research_name.TRANSIRON=Iron Transmutation
+tc.research_name.TRANSIRON=Metal Transmutation
 tc.research_text.TRANSIRON=Transformation of metals into iron
 tc.research_page.TRANSIRON.1=You have discovered a way to multiply iron by steeping iron nuggets in §5metallum§0 harvested from other metals.
 #
@@ -772,6 +879,30 @@ tc.research_name.TRANSLEAD=Lead Transmutation
 tc.research_text.TRANSLEAD=Transformation of metals into lead
 tc.research_page.TRANSLEAD.1=You have discovered a way to multiply lead by steeping lead nuggets in §5metallum§0 harvested from other metals.
 #
+tc.research_name.PUREIRON=Metal Purification
+tc.research_text.PUREIRON=Purification of metals into native clusters
+tc.research_page.PUREIRON.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal iron ore into a native iron cluster.<BR>When smelted these clusters produces twice the normal amount of iron ingots.
+#
+tc.research_name.PUREGOLD=Gold Purification
+tc.research_text.PUREGOLD=Purification of gold into native clusters
+tc.research_page.PUREGOLD.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal gold ore into a native gold cluster.<BR>When smelted these clusters produces twice the normal amount of gold ingots.
+#
+tc.research_name.PURECOPPER=Copper Purification
+tc.research_text.PURECOPPER=Purification of copper into native clusters
+tc.research_page.PURECOPPER.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal copper ore into a native copper cluster.<BR>When smelted these clusters produces twice the normal amount of copper ingots.
+#
+tc.research_name.PURETIN=Tin Purification
+tc.research_text.PURETIN=Purification of tin into native clusters
+tc.research_page.PURETIN.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal tin ore into a native tin cluster.<BR>When smelted these clusters produces twice the normal amount of tin ingots.
+#
+tc.research_name.PURESILVER=Silver Purification
+tc.research_text.PURESILVER=Purification of silver into native clusters
+tc.research_page.PURESILVER.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal silver ore into a native silver cluster.<BR>When smelted these clusters produces twice the normal amount of silver ingots.
+#
+tc.research_name.PURELEAD=Lead Purification
+tc.research_text.PURELEAD=Purification of lead into native clusters
+tc.research_page.PURELEAD.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal lead ore into a native lead cluster.<BR>When smelted these clusters produces twice the normal amount of lead ingots.
+#
 tc.research_name.TALLOW=Magic Tallow
 tc.research_text.TALLOW=Rendered fat with a touch of magic
 tc.research_page.TALLOW.1=By processing and heating flesh in a crucible, you can create a mystical tallow suited for many arcane uses.<BR>This tallow can be used to craft candles. It is also possible to craft different coloured candles by combining a candle with a dye in an arcane workbench.
@@ -788,7 +919,7 @@ tc.research_page.GOLEMWOOD.1=This golem is carved from a greatwood log. It is a 
 #
 tc.research_name.GOLEMTALLOW=Tallow Golems
 tc.research_text.GOLEMTALLOW=Keep away from open flames
-tc.research_page.GOLEMTALLOW.1=This advanced golem is only marginally better than the wood golem, but is capable of holding two upgrades.<BR>§l§nTallow Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength:§r Average<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMTALLOW.1=This advanced golem is only marginally better than the clay golem, but is capable of holding two upgrades.<BR>§l§nTallow Golem Attributes§r<BR>§lDurability:§r Average<BR>§lStrength:§r Average<BR>§lSelf-repair:§r Average<BR>§lCarry Limit:§r 8<BR>§lSpeed:§r Average<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMCLAY=Clay Golems
 tc.research_text.GOLEMCLAY=Tough and durable
@@ -845,6 +976,10 @@ tc.research_name.COREGUARD=Golem Core: Guard
 tc.research_text.COREGUARD=Guarding your valuables
 tc.research_page.COREGUARD.1=Golems fitted with this core act as guards, attacking any hostile creatures within range.<BR>You are sure with a little bit of tinkering you could make the golem a bit more selective with the targets it attacks, but for now it only seeks out aggressive mobs other than creepers.
 tc.research_page.COREGUARD.2=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>If you fit this upgrade you can specify the types of creatures the golem will attack. The golem will also be able to attack more than just hostile entities.
+#
+tc.research_name.COREBUTCHER=Golem Core: Butcher
+tc.research_text.COREBUTCHER=Bloody to the armpits
+tc.research_page.COREBUTCHER.1=This core is a refinement of the standard Guard core.<BR>A golem fitted with this core will only attack animals, but it is intelligent enough to only attack the oldest, fully grown adults and always make sure that a breeding pair remains.
 #
 tc.research_name.CORELIQUID=Golem Core: Decanting
 tc.research_text.CORELIQUID=Keeping a tank filled with liquid
@@ -949,7 +1084,7 @@ tc.research_page.JARBRAIN.1=- Throw one rotten zombie brain into a jar.<BR>- Add
 #
 tc.research_name.HOVERHARNESS=Thaumostatic Harness
 tc.research_text.HOVERHARNESS=Is it a bird...
-tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>Unusually the only vis required to power this harness is added during its creation process. Instead the fuel it requires for flight is raw Potentia. Simply right click while holding the harness to insert filled jars.<BR>Double-tapping space while wearing the harness activates it.
+tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>Unusually the only vis required to power this harness is added during its creation process. Instead the fuel it requires for flight is raw Potentia. Simply right click while holding the harness to insert filled jars.<BR>Pressing 'F' while wearing the harness activates or deactivates it.
 tc.research_page.HOVERHARNESS.2=While active the harness will constantly use Potentia.<BR>It can be enchanted with the Haste enchant to increase the speed at which you move while flying.
 #
 tc.research_name.ADVANCEDGOLEM=Advanced Golems
@@ -959,7 +1094,7 @@ tc.research_page.ADVANCEDGOLEM.1=You have discovered a way of improving golems i
 tc.research_name.ARCANEBORE=Arcane Bore
 tc.research_text.ARCANEBORE=Mining evolved
 tc.research_page.ARCANEBORE.1=You have discovered a device capable of extending the range and power of an Excavation focus. Of even greater use is the fact that the machine can do so without your constant supervision. You merely need to place it on a specially constructed base, point it in the right direction with a wand and apply a redstone signal.<BR>The arcane bore requires two things to function. The first is an excavation focus placed in its leftmost inventory slot. Any enchantments applied to the focus will also alter the functions of the bore. 
-tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>Placing a jar of perditio essentia somewhere behind the bore (within 5 blocks) will greatly speed up the rate at which it mines.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing. 
+tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>Placing a jar of perditio essentia near the bore (within 8 blocks) will greatly speed up the rate at which it mines, but will consume 1 point of perditio for every 16 blocks mined.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing. 
 tc.research_page.ARCANEBORE.3=It will eject into an inventory if possible. This direction can be changed with a wand.
 #
 tc.research_name.LEVITATOR=Arcane Levitator
@@ -1003,7 +1138,7 @@ tc.research_page.WANDPEDFOC.1=In your travels you have discovered several nodes 
 tc.research_name.ETHEREALBLOOM=Ethereal Bloom
 tc.research_text.ETHEREALBLOOM=Purifying Flower
 tc.research_page.ETHEREALBLOOM.1=Shimmerleaf is often overshadowed by its mystical neighbour the Silverwood tree, but it has magical properties of it's own.<BR>Like the Silverwood, Shimmerleaf flowers have purifying properties that lie dorment. You have found a way to awaken these properties and turn it into an Ethereal Bloom.<BR>Ethereal blooms slowly, but surely, restores land corrupted by mystical means to its former glory - this includes the blight known as Taint. While it cannot combat Taint directly, few tainted growths can survive outside their native environment for long and tend to die back.
-tc.research_page.ETHEREALBLOOM.2=The flower only purifies the land bathed in its light out to a range of about 8 blocks.<BR>Ethereal Blooms are quite fragile and breaking them will turn them back into a Shimmerleaf flower. 
+tc.research_page.ETHEREALBLOOM.2=The flower only purifies the land bathed in its light out to a range of about 8 blocks. 
 #
 tc.research_name.PECH=The Pech
 tc.research_text.PECH=Strange Creatures
@@ -1021,18 +1156,21 @@ tc.research_text.ARCANELAMP=Large Source of Light
 tc.research_page.ARCANELAMP.1=This mystical lamp can be attached to walls, floors or ceilings and will provide strong and steady light.<BR>Additional sources of light may also appear up to 16 blocks away wherever light levels fall below accepted 'safe' levels. Remember: Only YOU can prevent zombie outbreaks.<BR>These secondary sources of light will dissapear soon after the lamp has been removed.<LINE>You are sure additional uses for this lamp will present itself, so remember to check here after making new discoveries.
 tc.research_page.ARCANELAMP.2=           §nArcane Bore§r<BR>When attached to the base of an arcane bore, the arcane lamp gains an additional ability: It will draw Lux essentia from a nearby source to light up the tunnel that the bore digs.<BR>A single point of lux creates a single point of light. These sources of light will not dissapear after the lamp has been removed.
 #
-tc.research_name.SALT=Salis Mundus
-tc.research_text.SALT=Just a pinch
-tc.research_page.SALT.1=Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by crushing vis crystals and mixing them with substances naturally rich in magic.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavour (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.<BR>There are several substances that can be mixed with the crushed crystals to create Salis Mundus.
+tc.research_name.BASICARTIFACE=Basic Artifacing
+tc.research_text.BASICARTIFACE=Needful things
+tc.research_page.BASICARTIFACE.1=§nSalis Mundus§r<BR><BR>Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by crushing vis crystals and mixing them with substances naturally rich in magic.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavour (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.<BR>There are several substances that can be mixed with the crushed crystals to create Salis Mundus.
+tc.research_page.BASICARTIFACE.2=§nPrimal Charm§r<BR><BR>Primal Charms form an important basis for many thaumaturgical constructs. They have no inherent power of their own beyond being able to focus and channel primal energy and essentia.<BR>Rumors persist that these charms have additional powers, but that is little more than hearsay.
 #
 tc.research_name.TUBES=Essentia Tubes
 tc.research_text.TUBES=Transportation of essentia
-tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either disolves or simply passes right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and make it visually appealing.
-tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars. Labelled jars have a much greater drawing strength - so strong in fact that they will draw essentia from unlabeled jars.<LINE>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off. 
+tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either disolves or simply passes right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and makes it visually appealing.
+tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars.<BR>Jars containing different kinds of essentia will only draw their kind of essentia towards them. Tubes however can only draw and transport one kind of essentia at a time - the highest drawing strength will take priority. Without the proper use of valves it is quite easy for a network of tubes to get gummed up. The use of valves is essential.<LINE>  
+tc.research_page.TUBES.3=The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off.<LINE>The Essentia Resonator is handy for troubleshooting your tube network. You can use it on a tube or other essentia using device to see what essentia it currently contains and the suction it is applying. 
 #
 tc.research_name.CENTRIFUGE=Alchemical Centrifuge
 tc.research_text.CENTRIFUGE=Taking things apart
-tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. 
+tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge (see next page).
+tc.research_page.CENTRIFUGE.2=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 64.
 #
 tc.research_name.TRAVELTRUNK=Traveling Trunk
 tc.research_text.TRAVELTRUNK=Mobile Luggage
@@ -1047,7 +1185,11 @@ tc.research_page.TRAVELTRUNK.UEN=    §nGolem Upgrade: Entropy§r<BR>With this u
 #
 tc.research_name.LAMPGROWTH=Lamp of Growth
 tc.research_text.LAMPGROWTH=Encouraging things to grow
-tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system. The pipes are slightly more efficient and will make a single point of essentia last about 10% longer.
+tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system. 
+#
+tc.research_name.LAMPFERTILITY=Lamp of Fertility
+tc.research_text.LAMPFERTILITY=Casting a romantic light on things
+tc.research_page.LAMPFERTILITY.1=Any living creatures bathed in the gentle pink glow of this lamp is immediately placed in a much more romantic mood. If they are able they will seek others of their kind to mate.<BR>This lamp will have not effect if there is 8 or more of a particular species already present.<BR>It requires victus essentia to function which can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system.
 #
 tc.research_name.JARVOID=Void Jar
 tc.research_text.JARVOID=Too much essentia? Impossible!
@@ -1056,4 +1198,44 @@ tc.research_page.JARVOID.1=Void jars function much the same as normal warded jar
 tc.research_name.TUBEFILTER=Filtered Essentia Tube
 tc.research_text.TUBEFILTER=What you want, where you want it
 tc.research_page.TUBEFILTER.1=Filtered essentia tubes work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
+#
+tc.research_name.MIRRORESSENTIA=Essentia Mirrors
+tc.research_text.MIRRORESSENTIA=Essentia where you need it
+tc.research_page.MIRRORESSENTIA.1=Magical mirrors are very useful for transporting items over long distances, but what if that same principle can be applied to essentia? You think you have discovered a way to do just that.<BR>Essentia mirrors, like their name implies, can transport essentia in the same way that magic mirrors transport items. There are a few important limitations however.<BR>You cannot pipe essentia directly into the mirrors - they are only able to transport essentia that has been drawn from a source towards something like an Infusion Matrix or Arcane Furnace.    
+tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to draw essentia from sources via the mirror.<BR>Drawing something as unstable as essentia over such long distances has some risks and occasionaly a small amount of essentia will get lost. 
+#
+tc.research_name.BONEBOW=Bone Bow
+tc.research_text.BONEBOW=Sticks and stones...
+tc.research_page.BONEBOW.1=You have discovered a way of crafting a bow from bone and infusing it with entropic energy.<BR>The resulting weapon is capable of firing much faster than a normal bow and arrows launched from it travels faster and hit harder.
+#
+tc.research_name.THAUMATORIUM=Automated Alchemy
+tc.research_text.THAUMATORIUM=Alchemy for the masses
+tc.research_page.THAUMATORIUM.1=Up to now alchemy has been somewhat of a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. This is finally a thing of the past.<BR>The Thaumatorium is a marvellous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, everytime.<BR>The crucible that forms its base does not require water, but a heat source is still needed.
+tc.research_page.THAUMATORIUM.2=When you access this device you will see several slots. The top-left slot is where you place the cataylyst. Once you have done this you will be able to choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.
+tc.research_page.THAUMATORIUM.3=Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side you can increase the number of formulas it can keep track.<BR>Each matrix increases the number of formulas by 2. 
+#
+tc.research_name.RUNICARMOR=Runic Armor
+tc.research_text.RUNICARMOR=Shields up!
+tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Armor. The name is misleading though since it is not armor in the traditional sense, but a collection of charms, seals and similar protective devices worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The armor has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.<BR>The pool replenishes over time, but even when depleted
+tc.research_page.RUNICARMOR.2=the armor offers protection roughly equivalent to that of leather armor.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
+#
+tc.research_name.RUNICARMORUPGRADES=Runic Armor Upgrades
+tc.research_text.RUNICARMORUPGRADES=Shields to maximum!
+tc.research_page.RUNICARMORUPGRADES.1=Improving Runic Armor has turned out to be easier than expected. You have discovered several augmentation that can be applied to it, though only a single augmentation can be applied at a time.<LINE>§nEnergetic§r<BR>Runic armor with this upgrade will replensish its charge much quicker than normal.<BR>§nAugmented§r<BR>This upgrade increases the amount of charge a piece of runic armor has.
+tc.research_page.RUNICARMORUPGRADES.2=§nKinetic Feedback§r<BR>When your shielding is breached this upgrade will release a detonation of kinetic energy. The damage and force of the detonation increases depending on how many pieces of armor has this upgrade. This ability has a 30 second cooldown.<BR>§nRevitalizing Feedback§r<BR>When your runic shielding is breached it will release a pulse of regenerative energy into its wearer that will last for a few seconds. The strength of this effect increases for each piece of armor with this upgrade. This effect has a 30 second cooldown.
+tc.research_page.RUNICARMORUPGRADES.3=§nHardened§r<BR>This upgrade doubles the amount of mundane armor protection a piece of runic armor provides once it's shielding has been breached.<BR>§nEmergency Shielding§r<BR>When the runic shield is breached this upgrade will instantly add 8 (or more) charge spread amongst the armor pieces you are wearing. Each runic armor piece with this upgrade adds 8 charge. This ability has a two minute cooldown.
+#
+tc.research_name.RUNICGOGGLES=Runic Goggles of Revealing
+tc.research_text.RUNICGOGGLES=The best of both worlds
+tc.research_page.RUNICGOGGLES.1=While being protected by Runic Armor is vital, you also need the utility of Goggles of Revealing to perform your thaumaturgical tasks. Why not have both?<BR>By affixing the charms of the runic headgear to a pair of goggles, you can enjoy the benefits of both.
+#
+tc.research_name.RUNICBOOTSTRAVELLER=Runic Boots of the Traveller
+tc.research_text.RUNICBOOTSTRAVELLER=The best of both worlds
+tc.research_page.RUNICBOOTSTRAVELLER.1=While being protected by Runic Armor is vital, you have begun to miss the speed granted by your Boots of Travelling. Why not have both?<BR>By affixing the charms of the runic footgear to a pair of boots of travelling, you can enjoy the benefits of both.
+#
+tc.research_name.WARDEDARCANA=Arcane doors and Pressure plates
+tc.research_text.WARDEDARCANA=Controlling access
+tc.research_page.WARDEDARCANA.1=Some experimentation has led to an interesting discovery - the ability to imprint memories in inanimate objects. Your first attempt at using the discovery is doors and pressure plates that remember who placed them.<BR>The door is unbreakable to anyone except the person who placed it. Additionally the door will refuse to open for anyone but its owner. The owner can also craft iron or gold keys that will grant others access to this door.<BR>By crafting an iron key and clicking on the door, you will link the key to that door. 
+tc.research_page.WARDEDARCANA.2=You can then give the key to another person and they will be able to use it on the door to gain permanent permission to open it. They will still not be able to break the door, or grant anyone else access. For that you need the gold key.<BR>The gold key serves much the same function as the iron key, except they can also grant other people iron key access to that door. Only the original owner of the door can hand out gold key access. They are also not able to remove the door with a wand. Only the original owner will be able to do that.
+tc.research_page.WARDEDARCANA.3=This pressure plate has a few novel features.<BR>Firstly it has 3 settings that can be toggled by right-clicking on it: It can trigger on everything (like a wooden pressure plate), just you, or everything except you.<BR>Secondly, like all other warded items only you can remove it.<BR>Lastly it can be linked to other players with the use of keys. These pressure plates can be used to open arcane doors as long as someone with access to the plate has access to the door as well.
 #
