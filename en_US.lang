@@ -606,7 +606,7 @@ tc.research_page.RESEARCHER1.1=You are have become more efficient at performing 
 #
 tc.research_name.RESEARCHER2=Research Mastery
 tc.research_text.RESEARCHER2=Power is Knowledge
-tc.research_page.RESEARCHER2.1=You are have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.
+tc.research_page.RESEARCHER2.1=You are have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by CTRL-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
 #
 tc.research_name.RESEARCHDUPE=Research Duplication
 tc.research_text.RESEARCHDUPE=Sharing is Caring
