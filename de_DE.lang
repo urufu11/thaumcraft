@@ -619,7 +619,7 @@ tc.research_page.RESEARCHER1.1=You are have become more efficient at performing 
 #
 tc.research_name.RESEARCHER2=Forschungsmeisterschaft
 tc.research_text.RESEARCHER2=Macht ist Wissen
-tc.research_page.RESEARCHER2.1=You are have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.
+tc.research_page.RESEARCHER2.1=You are have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by CTRL-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
 #tc.research_page.RESEARCHER2.1=Du kannst nun noch effizienter forschen.<BR>Jedes Mal, wenn du von einem Aspekt in die Irre geführt wirst, verschwinden vier Runen, anstatt nur drei.<BR>Ebenso kannst du nun Runen um bis zu vier Positionen verschieben, anstatt nur drei.<BR>Zuletzt bist du in der Lage, aktive Runen zu bewegen, wenn auch nur um eine Position. Beachte jedoch, dass dieses das Risiko beinhaltet, alle mit dem Aspekt verbundenen Runen zu deaktivieren.
 #
 tc.research_name.RESEARCHDUPE=Forschungsduplizierung
@@ -1218,42 +1218,42 @@ tc.research_name.TUBEFILTER=Gefilterte Essentiaröhre
 tc.research_text.TUBEFILTER=Was du willst, wo du es willst
 tc.research_page.TUBEFILTER.1=Gefilterte Essentiaröhren funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Glasschildern zu markieren. Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Glasschild entfernen.
 #
-tc.research_name.MIRRORESSENTIA=Essentia Mirrors
-tc.research_text.MIRRORESSENTIA=Essentia where you need it
+tc.research_name.MIRRORESSENTIA=Essentiaspiegel
+tc.research_text.MIRRORESSENTIA=Essentia, wo du sie brauchst
 tc.research_page.MIRRORESSENTIA.1=Magical mirrors are very useful for transporting items over long distances, but what if that same principle can be applied to essentia? You think you have discovered a way to do just that.<BR>Essentia mirrors, like their name implies, can transport essentia in the same way that magic mirrors transport items. There are a few important limitations however.<BR>You cannot pipe essentia directly into the mirrors - they are only able to transport essentia that has been drawn from a source towards something like an Infusion Matrix or Arcane Furnace.    
 tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to draw essentia from sources via the mirror.<BR>Drawing something as unstable as essentia over such long distances has some risks and occasionaly a small amount of essentia will get lost. 
 #
-tc.research_name.BONEBOW=Bone Bow
-tc.research_text.BONEBOW=Sticks and stones...
+tc.research_name.BONEBOW=Knochenbogen
+tc.research_text.BONEBOW=Stock und Stein...
 tc.research_page.BONEBOW.1=You have discovered a way of crafting a bow from bone and infusing it with entropic energy.<BR>The resulting weapon is capable of firing much faster than a normal bow and arrows launched from it travels faster and hit harder.
 #
-tc.research_name.THAUMATORIUM=Automated Alchemy
-tc.research_text.THAUMATORIUM=Alchemy for the masses
+tc.research_name.THAUMATORIUM=Automatische Alchemie
+tc.research_text.THAUMATORIUM=Alchemy für die Massen
 tc.research_page.THAUMATORIUM.1=Up to now alchemy has been somewhat of a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. This is finally a thing of the past.<BR>The Thaumatorium is a marvellous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, everytime.<BR>The crucible that forms its base does not require water, but a heat source is still needed.
 tc.research_page.THAUMATORIUM.2=When you access this device you will see several slots. The top-left slot is where you place the cataylyst. Once you have done this you will be able to choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.
 tc.research_page.THAUMATORIUM.3=Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side you can increase the number of formulas it can keep track.<BR>Each matrix increases the number of formulas by 2. 
 #
-tc.research_name.RUNICARMOR=Runic Armor
-tc.research_text.RUNICARMOR=Shields up!
+tc.research_name.RUNICARMOR=Runenrüstung
+tc.research_text.RUNICARMOR=Schilde hoch!
 tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Armor. The name is misleading though since it is not armor in the traditional sense, but a collection of charms, seals and similar protective devices worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The armor has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.<BR>The pool replenishes over time, but even when depleted
 tc.research_page.RUNICARMOR.2=the armor offers protection roughly equivalent to that of leather armor.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
 #
-tc.research_name.RUNICARMORUPGRADES=Runic Armor Upgrades
-tc.research_text.RUNICARMORUPGRADES=Shields to maximum!
+tc.research_name.RUNICARMORUPGRADES=Runenrüstungs-Upgrades
+tc.research_text.RUNICARMORUPGRADES=Schilde auf Maximum!
 tc.research_page.RUNICARMORUPGRADES.1=Improving Runic Armor has turned out to be easier than expected. You have discovered several augmentation that can be applied to it, though only a single augmentation can be applied at a time.<LINE>§nEnergetic§r<BR>Runic armor with this upgrade will replensish its charge much quicker than normal.<BR>§nAugmented§r<BR>This upgrade increases the amount of charge a piece of runic armor has.
 tc.research_page.RUNICARMORUPGRADES.2=§nKinetic Feedback§r<BR>When your shielding is breached this upgrade will release a detonation of kinetic energy. The damage and force of the detonation increases depending on how many pieces of armor has this upgrade. This ability has a 30 second cooldown.<BR>§nRevitalizing Feedback§r<BR>When your runic shielding is breached it will release a pulse of regenerative energy into its wearer that will last for a few seconds. The strength of this effect increases for each piece of armor with this upgrade. This effect has a 30 second cooldown.
 tc.research_page.RUNICARMORUPGRADES.3=§nHardened§r<BR>This upgrade doubles the amount of mundane armor protection a piece of runic armor provides once it's shielding has been breached.<BR>§nEmergency Shielding§r<BR>When the runic shield is breached this upgrade will instantly add 8 (or more) charge spread amongst the armor pieces you are wearing. Each runic armor piece with this upgrade adds 8 charge. This ability has a two minute cooldown.
 #
-tc.research_name.RUNICGOGGLES=Runic Goggles of Revealing
+tc.research_name.RUNICGOGGLES=Runenbrille der Enthüllung
 tc.research_text.RUNICGOGGLES=The best of both worlds
 tc.research_page.RUNICGOGGLES.1=While being protected by Runic Armor is vital, you also need the utility of Goggles of Revealing to perform your thaumaturgical tasks. Why not have both?<BR>By affixing the charms of the runic headgear to a pair of goggles, you can enjoy the benefits of both.
 #
-tc.research_name.RUNICBOOTSTRAVELLER=Runic Boots of the Traveller
+tc.research_name.RUNICBOOTSTRAVELLER=Runenstiefel des Reisenden
 tc.research_text.RUNICBOOTSTRAVELLER=The best of both worlds
 tc.research_page.RUNICBOOTSTRAVELLER.1=While being protected by Runic Armor is vital, you have begun to miss the speed granted by your Boots of Travelling. Why not have both?<BR>By affixing the charms of the runic footgear to a pair of boots of travelling, you can enjoy the benefits of both.
 #
-tc.research_name.WARDEDARCANA=Arcane doors and Pressure plates
-tc.research_text.WARDEDARCANA=Controlling access
+tc.research_name.WARDEDARCANA=Arkane Türen und Druckplatten
+tc.research_text.WARDEDARCANA=Zugangskontrolle
 tc.research_page.WARDEDARCANA.1=Some experimentation has led to an interesting discovery - the ability to imprint memories in inanimate objects. Your first attempt at using the discovery is doors and pressure plates that remember who placed them.<BR>The door is unbreakable to anyone except the person who placed it. Additionally the door will refuse to open for anyone but its owner. The owner can also craft iron or gold keys that will grant others access to this door.<BR>By crafting an iron key and clicking on the door, you will link the key to that door. 
 tc.research_page.WARDEDARCANA.2=You can then give the key to another person and they will be able to use it on the door to gain permanent permission to open it. They will still not be able to break the door, or grant anyone else access. For that you need the gold key.<BR>The gold key serves much the same function as the iron key, except they can also grant other people iron key access to that door. Only the original owner of the door can hand out gold key access. They are also not able to remove the door with a wand. Only the original owner will be able to do that.
 tc.research_page.WARDEDARCANA.3=This pressure plate has a few novel features.<BR>Firstly it has 3 settings that can be toggled by right-clicking on it: It can trigger on everything (like a wooden pressure plate), just you, or everything except you.<BR>Secondly, like all other warded items only you can remove it.<BR>Lastly it can be linked to other players with the use of keys. These pressure plates can be used to open arcane doors as long as someone with access to the plate has access to the door as well.
