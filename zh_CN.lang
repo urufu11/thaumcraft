@@ -11,34 +11,34 @@ potion.fluxtaint=咒波污染
 potion.soulshatter=灵魂裂片
 #
 # Entities
-entity.ThaumSlime.name=神秘史莱姆
-entity.Dart.name=傀儡飞镖
-entity.FrostShard.name=霜星
-entity.Firebat.name=九狱焱蝠
-entity.Wisp.name=精灵
-entity.Alumentum.name=源动之焰
-entity.GiantBrainyZombie.name=红眼僵尸巨人
-entity.BrainyZombie.name=红眼僵尸
-entity.FollowItem.name=跟随物品
-entity.SpecialItem.name=魔力物品
-entity.FallingTaint.name=腐化泥土
+entity.Thaumcraft.ThaumSlime.name=神秘史莱姆
+entity.Thaumcraft.Dart.name=傀儡飞镖
+entity.Thaumcraft.FrostShard.name=霜星
+entity.Thaumcraft.Firebat.name=九狱焱蝠
+entity.Thaumcraft.Wisp.name=精灵
+entity.Thaumcraft.Alumentum.name=源动之焰
+entity.Thaumcraft.GiantBrainyZombie.name=红眼僵尸巨人
+entity.Thaumcraft.BrainyZombie.name=红眼僵尸
+entity.Thaumcraft.FollowItem.name=跟随物品
+entity.Thaumcraft.SpecialItem.name=魔力物品
+entity.Thaumcraft.FallingTaint.name=腐化泥土
 entity.Thaumcraft.AspectOrb.name=要素球
-entity.TaintSpider.name=腐化魔蛛
-entity.Taintacle.name=腐化触手怪
-entity.TaintacleTiny.name=腐化触手
-entity.TaintSpore.name=腐化孢子
-entity.TaintSwarmer.name=腐化孢子巢穴
-entity.TaintSwarm.name=腐化孢子群
-entity.TaintedVillager.name=腐化村民
-entity.TaintedChicken.name=腐化鸡
-entity.TaintedPig.name=腐化猪
-entity.TaintedSheep.name=腐化羊
-entity.TaintedCow.name=腐化牛
-entity.TaintedCreeper.name=腐化爬行者
-entity.Pech.name=岩精强盗
-entity.Pech.1.name=岩精法师
-entity.Pech.2.name=岩精猎手
-entity.TravelingTrunk.name=箱子宝宝
+entity.Thaumcraft.TaintSpider.name=腐化魔蛛
+entity.Thaumcraft.Taintacle.name=腐化触手怪
+entity.Thaumcraft.TaintacleTiny.name=腐化触手
+entity.Thaumcraft.TaintSpore.name=腐化孢子
+entity.Thaumcraft.TaintSwarmer.name=腐化孢子巢穴
+entity.Thaumcraft.TaintSwarm.name=腐化孢子群
+entity.Thaumcraft.TaintedVillager.name=腐化村民
+entity.Thaumcraft.TaintedChicken.name=腐化鸡
+entity.Thaumcraft.TaintedPig.name=腐化猪
+entity.Thaumcraft.TaintedSheep.name=腐化羊
+entity.Thaumcraft.TaintedCow.name=腐化牛
+entity.Thaumcraft.TaintedCreeper.name=腐化爬行者
+entity.Thaumcraft.Pech.name=岩精强盗
+entity.Thaumcraft.Pech.1.name=岩精法师
+entity.Thaumcraft.Pech.2.name=岩精猎手
+entity.Thaumcraft.TravelingTrunk.name=箱子宝宝
 entity.trunk.guiname=的箱子宝宝
 entity.trunk.move=箱子宝宝将跟随你行动
 entity.trunk.stay=箱子宝宝将留在原地
@@ -87,6 +87,11 @@ tile.blockMetalDevice.5.name=物品格栅
 tile.blockMetalDevice.6.name=物品格栅(关闭)
 tile.blockMetalDevice.7.name=奥术灯
 tile.blockMetalDevice.8.name=催生灯
+tile.blockMetalDevice.9.name=Alchemical Construct
+tile.blockMetalDevice.10.name=Thaumatorium
+tile.blockMetalDevice.11.name=Thaumatorium
+tile.blockMetalDevice.12.name=Mnemonic Matrix
+tile.blockMetalDevice.13.name=Lamp of Fertility 
 tile.blockMagicalLog.greatwood.name=宏伟之木原木
 tile.blockMagicalLog.silverwood.name=银树原木
 tile.blockMagicalLeaves.greatwood.name=宏伟之木树叶
@@ -137,6 +142,8 @@ tile.blockCrystal.4.name=秩序魔晶
 tile.blockCrystal.5.name=混沌魔晶
 tile.blockCrystal.6.name=复相魔晶
 tile.blockMirror.name=魔镜
+tile.blockMirror.0.name=魔镜
+tile.blockMirror.6.name=源质之镜
 tile.blockTaint.0.name=陈年污点
 tile.blockTaint.1.name=腐化泥土
 tile.blockTaint.2.name=血肉方块
@@ -160,6 +167,7 @@ tile.blockTube.0.name=要素源质管道
 tile.blockTube.1.name=要素源质阀门
 tile.blockTube.2.name=奥法离心机
 tile.blockTube.3.name=源质过滤管道
+tile.blockTube.4.name=源质缓存器
 container.alchemyfurnace=炼金炉
 tile.blockArcaneFurnace.name=炼狱熔炉
 #
@@ -177,6 +185,8 @@ item.FocusFrost.name=法杖核心: 寒霜
 item.FocusExcavation.name=法杖核心: 采掘
 item.FocusPortableHole.name=法杖核心: 便携式洞穴
 item.FocusPech.name=法杖核心:岩精之诅咒
+item.FocusWarding.name=法杖核心: 守护
+item.FocusPrimal.name=法杖核心: 元始
 item.WandCap.0.name=铁杖端
 item.WandCap.1.name=金杖端
 item.WandCap.2.name=充能神秘杖端
@@ -192,7 +202,21 @@ item.WandRod.4.name=石英杖柄
 item.WandRod.5.name=甘蔗杖柄
 item.WandRod.6.name=烈焰杖柄
 item.WandRod.7.name=白骨杖柄
-item.Wand.name=法杖
+item.WandRod.50.name=宏伟之木杖芯
+item.WandRod.51.name=黑曜石杖芯
+item.WandRod.52.name=银树杖芯
+item.WandRod.53.name=寒霜杖芯
+item.WandRod.54.name=石英杖芯
+item.WandRod.55.name=甘蔗杖芯
+item.WandRod.56.name=烈焰杖芯
+item.WandRod.57.name=白骨杖芯
+item.WandRod.100.name=元始杖芯
+#
+# this is what is used to name the wand - the position of the variables can be altered so it makes more sense in other languages
+item.Wand.name=%CAP%ROD%OBJ
+#
+item.Wand.wand.obj=法杖
+item.Wand.staff.obj=手杖
 item.Wand.wood.rod=木质
 item.Wand.greatwood.rod=宏伟之木
 item.Wand.silverwood.rod=银树
@@ -202,11 +226,13 @@ item.Wand.ice.rod=寒霜
 item.Wand.ice.rod=白骨
 item.Wand.reed.rod=甘蔗
 item.Wand.quartz.rod=石英
+item.Wand.primal.rod=元始
 item.Wand.iron.cap=铁杖端
 item.Wand.gold.cap=金杖端
 item.Wand.copper.cap=铜杖端
 item.Wand.silver.cap=银杖端
 item.Wand.thaumium.cap=神秘杖端
+#
 item.ItemResource.0.name=源动之焰
 item.ItemResource.1.name=闪耀之光
 item.ItemResource.2.name=神秘锭
@@ -222,6 +248,7 @@ item.ItemResource.11.name=腐化粘浆
 item.ItemResource.12.name=腐化触手
 item.ItemResource.13.name=罐子标签
 item.ItemResource.14.name=世界盐
+item.ItemResource.15.name=元始魔力
 item.ItemShard.0.name=风之碎片
 item.ItemShard.1.name=火之碎片
 item.ItemShard.2.name=水之碎片
@@ -277,6 +304,9 @@ item.ItemSwordThaumium.name=神秘剑
 item.ItemPickThaumium.name=神秘镐
 item.ItemHoeThaumium.name=神秘锄
 item.researchnotes.name=研究笔记
+item.researchnotes.unknown=未知知识
+item.researchnotes.failed.1=研究已失败,放入合成台
+item.researchnotes.failed.2=可以回收成知识碎片
 item.discovery.name=发现
 item.ItemWispEssence.name=天域之华
 item.ItemEssence.0.name=玻璃安瓿
@@ -291,6 +321,7 @@ item.ItemGolemCore.5.name=移液
 item.ItemGolemCore.6.name=炼金
 item.ItemGolemCore.7.name=砍伐
 item.ItemGolemCore.8.name=使用
+item.ItemGolemCore.9.name=屠夫
 item.ItemGolemCore.100.name=空白
 item.ItemGolemPlacer.0.name=稻草傀儡
 item.ItemGolemPlacer.1.name=木头傀儡
@@ -321,10 +352,23 @@ item.ItemGolemUpgrade.2.desc=威猛似火:伤害,容量提升
 item.ItemGolemUpgrade.3.desc=灵动若水:感知,范围提升
 item.ItemGolemUpgrade.4.desc=威严井然之秩序：智力,组织力提升
 item.ItemGolemUpgrade.5.desc=理辩守卫之混沌：防御,推理力提升
+item.ItemBowBone.name=骨碗
 item.ItemManaBean.name=魔豆
 item.TrunkSpawner.name=箱子宝宝
 item.TrunkSpawner.text.1=箱子宝宝可以携运物品
-
+item.ItemResonator.name=要素谐振器
+item.ItemHelmetRunic.name=符文头巾
+item.ItemChestplateRunic.name=符文胸甲
+item.ItemLeggingsRunic.name=符文护腿
+item.ItemBootsRunic.name=符文靴子
+item.ItemGogglesRunic.name=符文揭示之护目镜
+item.runic.charge=充能
+item.runic.upgrade.1=激发
+item.runic.upgrade.2=增幅
+item.runic.upgrade.3=动态反馈
+item.runic.upgrade.4=活性反馈
+item.runic.upgrade.5=强化
+item.runic.upgrade.6=应急防护
 #
 # Fluids
 fluid.fluxGoo=咒波粘浆
@@ -416,6 +460,22 @@ tc.inst.3=§e高§0
 tc.inst.4=§6极高§0
 tc.inst.5=§4危险§0
 tc.adv=高级
+tc.resonator1=§9Contains %1$s %2$s essentia§0
+tc.resonator2=§5Suction %1$s %2$s §0 
+tc.resonator3=Untyped
+tc.research.purchase=Click to purchase this research
+tc.research.short=You do not have the required aspects to purchase this
+tc.research.getprim=Click to get a research note for this research
+tc.research.shortprim=You need scribing tools and paper to get this research note
+tc.research.hasnote=You already have this research note in your inventory
+tc.research.popup=Research note added to your inventory for %1$s
+tc.research.copy=Cost to copy this research:
+tc.primalcharm.0=It seems to be leaking
+tc.primalcharm.1=You think you hear whispering
+tc.primalcharm.2=It is vibrating violently
+tc.primalcharm.3=It's humming is quite soothing
+tc.primalcharm.4=Wait, did it just flash a seventh color?
+tc.primalcharm.trigger=For a moment strange energies surround the primal charm. They dissipate quickly, but you are left strangely inspired...
 #
 # Aspects
 tc.aspect.primal=元始要素
@@ -499,17 +559,15 @@ tc.research_text.RESEARCH=如何发现物品
 tc.research_page.RESEARCH.1=在开始创建神秘学的物品以及方块前,你需要先学会如何进行研究.请遵循以下步骤:<BR>(1) 探索世界,使用 §5魔导透镜§0查探方块,物品以及生物.<BR><BR>(2)在§5研究台§0中使用之前步骤中积累到的研究点来扩展你的要素知识.<BR><BR>(3)在§5研究台§0中使用你研究出的要素来发现实际知识以及物品的合成配方.<LINE>
 tc.research_page.RESEARCH.2=§l      §n(1) 探索§r<BR><BR>没有研究点你便无法进行研究,而获得研究点的最佳途径便是探索世界并研究旅途中遇见的一切事物.<BR>首先你需要先制作§5魔导透镜§0(见下页). 将§5魔导透镜§0对准物品或者生物,并按住右键,你便能开始探查它们.这个过程持续时间并不会很长,但探查时会让持有透镜者减速.<BR>当探查结束后§5魔导透镜§0会显示出研究对象蕴含的要素.在屏幕右下角你还能看到所含要素的统计以及研究过程中你获得的研究点.
 tc.research_page.RESEARCH.3=<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>一开始,由于你并未研究出复合要素,因此并不能探查出物品蕴含的所有要素.例如,研究对象蕴含Lux要素.此时仅当你已经研究出了该复合要素才能通过探查物品获得Lux要素,否则你只能通过复合其他两种要素来得到它.
-tc.research_page.RESEARCH.4=<BR>首次通过探查发现要素时,你能获得双倍于正常量的研究点.<BR>同一物品和生物通常只能探查一次.<BR>在探索世界以格物致知时,随身带上足够的§5笔与墨§以及一些§5纸张§0是个很不错的主意.这样当你研究事物时就能够记录下来那些灵光一现的想法,整理成研究笔记,最终帮助你发现新的知识.
-tc.research_page.RESEARCH.5=§l   §n(2) 复合要素§r<BR><BR>当收集到一些研究点后,你可以尝试在研究台内将其融合成复合要素.<BR>将两个§5台桌§0比邻而放,然后将笔与墨搁在桌面上便可以创建研究台.台桌的合成配方可以在魔导手册的§5炼化术§0分类下查看.<BR>右击研究台你能看到如右图所示界面.<BR>创建研究台时使用的笔与墨会出现在格子§l1§r中.你也可以在格子§l2§r中放置一些纸张, 尽管这个阶段的研究并不消耗纸张.
-tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>§l3§r号区域会列出全部元始要素以及可能出现的一些复合要素,且下标会注明数量.当你首次进入世界时,会获得少量元始要素作为初始奖励.
-tc.research_page.RESEARCH.7=<BR>若你之前通过魔导透镜做过一些探索研究,则会列出相关的元始要素以及复合要素.<LINE>你可以通过点击希望组合的要素来尝试将其融合成复合要素.选定的要素将会出现在§l4§r号格子中,当你已经选定2种要素后按下标记§l5§r所在的紫色按钮来尝试融合它们.如若融合成功,在屏幕右下角会提示信息且复合要素会出现在§l3§r号格子中.<BR>即使没有实际得到复合要素参与融合的要素也会被消耗掉.
-tc.research_page.RESEARCH.8=§l  §n(3) 研究要素§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>如果在§l2§r号格子中放置了纸张, 那么你应当已经注意到当仅仅选定单一要素时绿色按钮(标记为§l6§r)会被激活发亮.<BR>如果你按下该按钮即视为你尝试研究选中的要素.如若成功你会发现一些和这种要素相关的有趣信息,且在§l7§r号格子中会出现研究笔记.
-tc.research_page.RESEARCH.9=§l8§r所标注的区域会如前页上端的图片那些显示一系列令人眼花缭乱的符文和徽记.<BR>无须担心,其实并没有看起来那么复杂困难.<LINE>为完成研究你只需要连接和激活所有的§5知识节点§0(图片下方)即可.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:224:16:8:1.5</IMG>左端的节点为未激活的节点,而右边的节点为已激活状态.
-tc.research_page.RESEARCH.10=当所有节点被激活后就能完成研究,此时研究笔记会变成你可以学习的发现卷轴 (持有卷轴右击即可学会).<LINE>你可以通过激活符文来连接知识节点.<IMG>thaumcraft:textures/gui/guiresearchtable.png:184:240:64:16:.75</IMG>每个符文都与一种要素相对应,但是一开始我们并不知道符文具体呈现为哪种要素.符文与要素的对应关系在具体的某一次研究中是唯一的,因此在不同的研究项目中,同样位置的符文此时表现为Aer要素,而下次可能表现为Terra要素.
-tc.research_page.RESEARCH.11=在某一次研究中并非所有符文都会激活.<BR>比如尽管在研究面板中同时出现了Aer,Terra,Ignes以及Aqua要素,但实际可能只有Ignes和Terra在研究中用到.无效的符文通常被称之为“红鲱鱼”符文(意即干扰项).<BR>你可以通过选定左侧的要素并按下研究按钮(§l6§r)来研究那些符文有效.<BR>如果你选定的要素对应的是“红鲱鱼”符文,那么相应符文并不会激活,且这两者会从研究面板上被完全移除.
-tc.research_page.RESEARCH.12=如果你选中的要素在右侧的研究面板中并未出现,那什么都不会发生.<LINE>激活的符文会尽可能地桥接知识节点.激活的知识节点与相邻的激活符文之间会荡漾起流光溢彩的能量束.你需要连接所有的符文和节点来完成研究.<IMG>thaumcraft:textures/misc/research3.png:0:0:120:95:.75</IMG>
-tc.research_page.RESEARCH.13=若节点或者符文之间存在不止一个开放的空间,那么链接不能形成.<BR>因此为想成链接你需要通过先点击符文再点击有效目的地的方式来挪动符文到合适位置.<IMG>thaumcraft:textures/misc/research2.png:136:0:102:74:1</IMG>任意符文都能沿直线移动两个位置,但注意只有在其未激活时才能移动 - 
-tc.research_page.RESEARCH.14=这意味着你有时候必须激活以及注销数次符文以让它们均达到合适位置.<BR>未激活的符文会阻挡其同一条路径上可能建立的链接,这种情况下你也需要考虑挪开它们.<IMG>thaumcraft:textures/misc/research3.png:128:0:105:111:.75</IMG>每次挪动符文都会消耗少量的墨水.<LINE>
+tc.research_page.RESEARCH.4=the two aspects that combine to create it.<BR>The very first time you discover an aspect by examining something you gain two more research points than you would have normally.<BR>Objects and creatures can usually only ever be examined once.<BR>Occasionally examining something will reveal additional clues and insights into thaumoturgical research, unlocking subjects that you can research further.
++tc.research_page.RESEARCH.5=§l   §n(2) Combining Aspects§r<BR><BR>Once you have gathered some research points you can attempt to combine them into compound aspects within a research table.<BR>To craft a research table simply place two §5tables§0 next to each other and click on them with a set of Scribing Tools. The recipe for tables is listed under the §5Artiface§0 research category.<BR>If you open the research tables inventory, you will see an interface as pictured on the right.<BR>The scribing tools you used to craft the table will be located in slot §l1§r. 
++tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>You should see all the primal aspects (and possibly some compound aspects) listed in the area marked §l3§r with varying amounts attached to them. When you enter a world for the first time, every player is assigned a small pool of primal aspects to get them started.<BR>If you had done some exploring with
++tc.research_page.RESEARCH.7=the thaumometer beforehand then you might have a significant number of primal and compound aspects listed here.<BR>You can now start combining aspects into more complex compound aspects but simply clicking on those you wish to combine or dragging it to the runed circles in area §l4§r. The selected aspects will appear in area §l4§r and when you have two selected pressing the purple button will attempt to combine them. If successful you should see what was gained in the bottom right and it should appear in area §l3§r.<BR>The component aspects are consumed even if the combination did not result in valid compound aspect.
++tc.research_page.RESEARCH.8=§l   §n(3) Primary Research§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>You need to be carrying a set of scribing tools and paper for this step.<BR>If you open your Thaumonomicon you will see all the knowledge have and also all the knowledge that you are now able to persue.<BR>Flashing square or round icons represent primary researches.
++tc.research_page.RESEARCH.9=If you can read their title (instead of seeing strange runes) you are simply able to click on them. Paper and ink will be consumed from your inventory and you will gain a research note. You can now take this research note to the table to start researching it by placing it in slot §l2§r.<BR>Section §l5§r will now display a sheet of paper covered in hexagonal tiles with aspect icons around the outer edge. If you see question mark icons it means you do not know that aspect yet and you will need to learn it first.<LINE> 
++tc.research_page.RESEARCH.10=To complete your research you simply need to connect and activate all the aspects. You do this by dragging an aspect to a hex adjacent to it that is either composed of the target aspect, or can be combined with another aspect to form the target aspect.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>Placing an aspect consumes one research point. If you make a mistake you can click on the aspect to remove it, but you will not regain the research point. 
++tc.research_page.RESEARCH.11=You continue doing the until you have formed a pattern connecting all the starting aspects. The outer aspects need not be connected to all the others, they simply need to form a connected whole.<BR>Once this is done the research will complete and the research note will turn into a discovery.<LINE>NOTE: Placing and removing aspects from the hex grid consumes ink from your scribing tools. If it runs out you will not be able to proceed until you refill it.
++tc.research_page.RESEARCH.12=§l    §nSecondary Research§r<BR>Hexagonal icons indicate Secondary research. Much like primary research you just need to click on them. However instead of gaining a research note, you will simply learn the research directly. Secondary research does have an aspect cost you need to pay, but they do not require you to be carrying scribing tools or paper.
 #
 tc.research_name.KNOWFRAG=知识碎片
 tc.research_text.KNOWFRAG=遗落的卷章碎片
@@ -545,12 +603,15 @@ tc.research_page.PLANTS.6=这种被名为魔豆的豆子内含丰富的要素.�
 #
 tc.research_name.RESEARCHER1=研究专长
 tc.research_text.RESEARCHER1=知识就是力量
-tc.research_page.RESEARCHER1.1=你越发擅长于研究.<BR>无论何时,当你试图研究"红鲱鱼"符文时,研究面板上会在移除两种多余符文的基础上再额外移除一个多余符文.<BR>并且你可以将符文一次挪动三格而非两格.
+tc.research_page.RESEARCHER1.1=你越发擅长于研究.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.
 #
 tc.research_name.RESEARCHER2=研究精通
 tc.research_text.RESEARCHER2=力量就是知识
-tc.research_page.RESEARCHER2.1=你越发精通于研究.<BR>无论何时,当你试图研究"红鲱鱼"符文时,研究面板上会在移除两种多余符文的基础上再额外移除两个多余符文.<BR>并且你可以将符文一次挪动四格而非三格.<BR>最值得一提的是,你将能够移动已经激活的符文,虽然移动这种符文一次只能移动一格.需要小心的是,进行这种操作时会有注销已经激活的全部符文的风险.
+tc.research_page.RESEARCHER2.1=你越发精通于研究.<BR>无论何时,当你试图研究"红鲱鱼"符文时,研究面板上会在移除两种多余符文的基础上再额外移除两个多余符文.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.
 #
+tc.research_name.RESEARCHDUPE=Research Duplication
+tc.research_text.RESEARCHDUPE=Sharing is Caring
+tc.research_page.RESEARCHDUPE.1=You have discovered a way to copy completed research note.<BR>When you complete research or place a completed research note in the research table you will see a star icon. Clicking this will create a copy of this research as long as you are carrying paper and ink and have enough aspects available.<BR>The more copies are created of that research, the more expensive copying it will become.
 tc.research_name.DECONSTRUCTOR=解构工作台
 tc.research_text.DECONSTRUCTOR=当仅仅看一眼并不足够时
 tc.research_page.DECONSTRUCTOR.1=在神秘使的研究生涯中,难免因某些方面知识的缺漏导致研究过程受到阻碍. <BR>此时可以借助结构工作台进行辅助.这个工作台能够将物品分解成最基础的六种元始要素,从而为你提供研究的突破口.然而这种设备的限制显而易见 - 被分解的复合要素并非直接变成组合成它们的要素,而是变成了组成它们的最基础的元始要素之一,而元始要素如何组合搭配仍然不得而知.<BR>例如分解圆石(蕴含saxum以及 
@@ -563,7 +624,7 @@ tc.research_page.BASICTHAUMATURGY.2=按住shift时会显示标注魔力数量的
 #
 tc.research_name.GRATE=物品格栅
 tc.research_text.GRATE=好的都进来
-tc.research_page.GRATE.1=物品格栅可以通过手动或者红石信号来控制开闭状态,当其打开时,掉落在其上的物品会穿过它,关闭时则会挡住物品. 
+tc.research_page.GRATE.1=物品格栅可以通过手动或者红石信号来控制开闭状态,当其打开时,掉落在其上的物品会穿过它,关闭时则会挡住物品.<BR>Items can also be piped into the top of an item grate using a hopper or other means and if open it will be ejected out the bottom.
 #
 tc.research_name.NODETAPPER1=进阶节点引流术
 tc.research_text.NODETAPPER1=取走全部
@@ -587,7 +648,7 @@ tc.research_page.GOGGLES.1=基于魔导透镜的原理,你优化其功能制作�
 #
 tc.research_name.THAUMIUM=神秘锭
 tc.research_text.THAUMIUM=魔导金属
-tc.research_page.THAUMIUM.1=神秘锭,是基本的金属要素糅合基本的魔导力得到的产物.这样的组合使得这种金属相比铁具备更高的强度.且这种金属并对魔力亲和性很高,能够比铁制品更好地被附魔. <BR>这种材料还广泛应用于诸多高阶魔法设备中.<BR>它也可以用来制作工具,武器,装备等.合成方式与其他普通金属材料相同.
+tc.research_page.THAUMIUM.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armour in a crafting table using the normal recipes.
 #
 tc.research_name.NITOR=闪耀之光
 tc.research_text.NITOR=永恒的花火
@@ -649,6 +710,43 @@ tc.research_name.ROD_reed=甘蔗杖柄
 tc.research_text.ROD_reed=风之魔力容器
 tc.research_page.ROD_reed.1=甘蔗制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于,当风之魔力低于10%时无需节点也能缓慢恢复魔力.
 #
+tc.research_name.ROD_greatwood_staff=Magic Staves
+tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
+tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for you buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
+tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has more than double the vis storage potential of a greatwood wand, being able to store up to 125 vis of each type.
+#
+tc.research_name.ROD_silverwood_staff=Silverwood Staff Core
+tc.research_text.ROD_silverwood_staff=Magical to the core
+tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 250 vis of each type.
+#
+tc.research_name.ROD_obsidian_staff=Obsidian Staff Core
+tc.research_text.ROD_obsidian_staff=Earthen vis storage
+tc.research_page.ROD_obsidian_staff.1=A staff core chiselled from obsidian can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_bone_staff=Bone Staff Core
+tc.research_text.ROD_bone_staff=Entropic vis storage
+tc.research_page.ROD_bone_staff.1=A staff core carved from bone can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_blaze_staff=Blaze Rod Staff Core
+tc.research_text.ROD_blaze_staff=Fiery vis storage
+tc.research_page.ROD_blaze_staff.1=A staff core crafted from blaze rods can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_ice_staff=Icy Staff Core
+tc.research_text.ROD_ice_staff=Icy vis storage
+tc.research_page.ROD_ice_staff.1=A staff core crafted from ice can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_quartz_staff=Quartz Staff Core
+tc.research_text.ROD_quartz_staff=Ordered vis storage
+tc.research_page.ROD_quartz_staff.1=A staff core chiseled from quartz can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_reed_staff=Reed Staff Core
+tc.research_text.ROD_reed_staff=Airy vis storage
+tc.research_page.ROD_reed_staff.1=A staff core crafted from reeds can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+#
+tc.research_name.ROD_primal_staff=Staff Core of the Primal
+tc.research_text.ROD_primal_staff=Elemental power combined
+tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish it's vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturges arsenal.
+#
 tc.research_name.FOCUSFIRE=法杖核心
 tc.research_text.FOCUSFIRE=形式遇上功能
 tc.research_page.FOCUSFIRE.1=得益于一些细致的实验,即使是最基础的法杖,你也找到了为其扩展功能的方法.<BR>通过融合魔力水晶晶簇和石英水晶,并灌注以魔力,你将能够将水晶排布成神秘的阵列.<BR>若通过该阵列汇聚特定类型和数量的魔力,那么它将重塑天然魔力,使其实用,可控,且面向特定的任务.
@@ -677,6 +775,14 @@ tc.research_page.FOCUSHELLBAT.1=你的下界之旅让你充分领略到了九狱
 tc.research_name.FOCUSPORTABLEHOLE=法杖核心:便携式洞穴
 tc.research_text.FOCUSPORTABLEHOLE=妈妈再也不担心你回不了家
 tc.research_page.FOCUSPORTABLEHOLE.1=你已经能够成功地使用魔力创造异次元空间.使用该核心的法杖能够在墙壁或者其他表面打通异次元通道通往彼端.<BR>通道只能维持数秒,且根据通道深度会从法杖中抽取不等数量的魔力以完成施法.<BR>异次元通道在一些特定方块或者比较复杂的物体表面都不能创建.
+#
+tc.research_name.FOCUSWARDING=Wand Focus: Warding
+tc.research_text.FOCUSWARDING=Protecting what is yours
+tc.research_page.FOCUSWARDING.1=This powerful focus has a very interesting ability. When used on a block it will create an invisible, protective barrier around that block. From that point on the block will not be able to be removed or destroyed until you once again use the wand on it.<BR>The focus can be used on most simple blocks and they will retain many of their normal properties, though while warded those blocks will effectively become frozen in time.<BR>While holding a wand with this focus you will be able to see all blocks that you (and only you) have warded.
+#
+tc.research_name.FOCUSPRIMAL=Wand Focus: Primal
+tc.research_text.FOCUSPRIMAL=Raw Magic
+tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
 #
 tc.research_name.FOCUSPOUCH=法杖核心手袋
 tc.research_text.FOCUSPOUCH=法杖核心的便携口袋
@@ -773,6 +879,30 @@ tc.research_name.TRANSLEAD=嬗变术:炼铅术
 tc.research_text.TRANSLEAD=将金属炼化为铅
 tc.research_page.TRANSLEAD.1=你发现了如何从金属提取§5metallum§0要素并将其转换为铅粒的方法.
 #
+tc.research_name.PUREIRON=Metal Purification
+tc.research_text.PUREIRON=Purification of metals into native clusters
+tc.research_page.PUREIRON.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal iron ore into a native iron cluster.<BR>When smelted these clusters produces twice the normal amount of iron ingots.
+#
+tc.research_name.PUREGOLD=Gold Purification
+tc.research_text.PUREGOLD=Purification of gold into native clusters
+tc.research_page.PUREGOLD.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal gold ore into a native gold cluster.<BR>When smelted these clusters produces twice the normal amount of gold ingots.
+#
+tc.research_name.PURECOPPER=Copper Purification
+tc.research_text.PURECOPPER=Purification of copper into native clusters
+tc.research_page.PURECOPPER.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal copper ore into a native copper cluster.<BR>When smelted these clusters produces twice the normal amount of copper ingots.
+#
+tc.research_name.PURETIN=Tin Purification
+tc.research_text.PURETIN=Purification of tin into native clusters
+tc.research_page.PURETIN.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal tin ore into a native tin cluster.<BR>When smelted these clusters produces twice the normal amount of tin ingots.
+#
+tc.research_name.PURESILVER=Silver Purification
+tc.research_text.PURESILVER=Purification of silver into native clusters
+tc.research_page.PURESILVER.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal silver ore into a native silver cluster.<BR>When smelted these clusters produces twice the normal amount of silver ingots.
+#
+tc.research_name.PURELEAD=Lead Purification
+tc.research_text.PURELEAD=Purification of lead into native clusters
+tc.research_page.PURELEAD.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal lead ore into a native lead cluster.<BR>When smelted these clusters produces twice the normal amount of lead ingots.
+#
 tc.research_name.TALLOW=魔力油脂
 tc.research_text.TALLOW=魔力熬制的油脂
 tc.research_page.TALLOW.1=在坩埚中熬炼肉块,你制作出一种具有多种奥术用途的魔力油脂.<BR>这种油脂可以用作制作蜡烛.在奥术工作台中可以使用颜料为蜡烛染色.
@@ -789,7 +919,7 @@ tc.research_page.GOLEMWOOD.1=这种傀儡由宏伟之木的原木雕刻而成.�
 #
 tc.research_name.GOLEMTALLOW=油脂傀儡
 tc.research_text.GOLEMTALLOW=远离明火
-tc.research_page.GOLEMTALLOW.1=这种更高级的傀儡略胜过木头傀儡,能够进行两次升级.<BR>§l§n油脂傀儡属性§r<BR>§l耐久:§r 一般<BR>§l强度:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 2
+tc.research_page.GOLEMTALLOW.1=这种更高级的傀儡略胜过粘土傀儡,能够进行两次升级.<BR>§l§n油脂傀儡属性§r<BR>§l耐久:§r 一般<BR>§l强度:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 2
 #
 tc.research_name.GOLEMCLAY=粘土傀儡
 tc.research_text.GOLEMCLAY=坚韧耐用
@@ -846,6 +976,10 @@ tc.research_name.COREGUARD=傀儡核心:守卫
 tc.research_text.COREGUARD=守卫主人的财富
 tc.research_page.COREGUARD.1=安装这种核心的傀儡就像守卫一样会攻击范围内的任何敌对生物.<BR>你认为再经过一些小的调修你就能够让这种傀儡能够对攻击目标更具选择性,但现在它会攻击除了爬行者外的一切敌对生物.
 tc.research_page.COREGUARD.2=     §n秩序升级解锁特性§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>安装这种升级的守卫傀儡能够设定特定的攻击目标.这种傀儡不仅仅只能攻击敌对生物,还能在更大类型范围的生物里更灵活地设定目标.
+#
+tc.research_name.COREBUTCHER=Golem Core: Butcher
+tc.research_text.COREBUTCHER=Bloody to the armpits
+tc.research_page.COREBUTCHER.1=This core is a refinement of the standard Guard core.<BR>A golem fitted with this core will only attack animals, but it is intelligent enough to only attack the oldest, fully grown adults and always make sure that a breeding pair remains.
 #
 tc.research_name.CORELIQUID=傀儡核心:移液
 tc.research_text.CORELIQUID=向蓄水槽里填充液体
@@ -950,7 +1084,7 @@ tc.research_page.JARBRAIN.1=- 向罐子丢一个僵尸之脑.<BR>- 添加蜘蛛�
 #
 tc.research_name.HOVERHARNESS=奥法缰绳
 tc.research_text.HOVERHARNESS=...它是一只鸟?
-tc.research_page.HOVERHARNESS.1=最终你解开了飞行的秘密. 你创造出一种通过使用奥法能量将自身锚定在神秘力场中,因此帮助你摆脱重力的缰绳.你认为量子和夸克在某种程度上也参与了这个过程.<BR>缰绳需要的魔力在创造的时候就已经全部加入进去,它消耗的燃料是原生的要素：Potentia(潜能).当穿戴着缰绳的时候右击盛满的罐子来灌注要素.<BR>穿戴奥法缰绳时双击空格可以激活飞行功能.
+tc.research_page.HOVERHARNESS.1=最终你解开了飞行的秘密. 你创造出一种通过使用奥法能量将自身锚定在神秘力场中,因此帮助你摆脱重力的缰绳.你认为量子和夸克在某种程度上也参与了这个过程.<BR>缰绳需要的魔力在创造的时候就已经全部加入进去,它消耗的燃料是原生的要素：Potentia(潜能).当穿戴着缰绳的时候右击盛满的罐子来灌注要素.<BR>Pressing 'F' while wearing the harness activates or deactivates it.
 tc.research_page.HOVERHARNESS.2=激活后奥法缰绳会持续消耗Potentia要素.<BR>急迫附魔能够加快奥法缰绳的飞行速度.
 #
 tc.research_name.ADVANCEDGOLEM=高级傀儡
@@ -960,7 +1094,7 @@ tc.research_page.ADVANCEDGOLEM.1=你已经发现了一些在微小而重要的�
 tc.research_name.ARCANEBORE=奥术钻探机
 tc.research_text.ARCANEBORE=采矿业的进化
 tc.research_page.ARCANEBORE.1=你已经发现一种拥有采掘核心能力,且具有更大的工作范围的奥术设备,不仅如此,这台机器还可以无人监控地自动运行.只需要将它安装在特别的基座上,将其方向调校正确后,再提供一个法杖供能,并用红石信号激活即可.<BR>奥术钻探机需要两件东西才能正常工作.首先你需要将采掘核心放在物品栏左侧格子中,法杖核心的附魔效果也会被加成到钻探机上.
-tc.research_page.ARCANEBORE.2=其次,你需要在右边格子里放置一个任意类型的镐子.镐的材料对钻探机运行效果影响很小,但其耐久直接决定钻探机的运行时间.此外,类似核心,镐子上的附魔效果也能够被加成到钻探机上.<BR>在钻探机五格内放置装有perditio要素源质的罐子能够显著提升其挖掘效率和速度.<BR>奥术钻探机只能被放置在奥术钻探机基座的顶部或者底部.其采掘到的物品将会从基座的喷嘴喷吐出来.
+tc.research_page.ARCANEBORE.2=其次,你需要在右边格子里放置一个任意类型的镐子.镐的材料对钻探机运行效果影响很小,但其耐久直接决定钻探机的运行时间.此外,类似核心,镐子上的附魔效果也能够被加成到钻探机上.<BR>Placing a jar of perditio essentia near the bore (within 8 blocks) will greatly speed up the rate at which it mines, but will consume 1 point of perditio for every 16 blocks mined.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing.
 tc.research_page.ARCANEBORE.3=如果有箱子则会自动进入其物品栏.你可以用法杖改变奥术钻探机的朝向. 
 #
 tc.research_name.LEVITATOR=奥术悬浮台
@@ -1004,7 +1138,7 @@ tc.research_page.WANDPEDFOC.1=在旅途中你已经发现了许多蕴含复合�
 tc.research_name.ETHEREALBLOOM=天域花
 tc.research_text.ETHEREALBLOOM=纯洁的花朵
 tc.research_page.ETHEREALBLOOM.1=水银花常常生长在银树附近的阴影之中,但是它亦有自己独特的魔法属性.<BR>类似银树,水银花也潜藏着休眠中的净化魔力.你已经找到一种方法唤醒这种魔力,并将其转化为天域花.<BR>天域花,能够十分缓慢但确定无疑地恢复这片被神秘力量(包括我们通常称之为腐化的咒波污染)所污染和破坏的大地，使其重回昔日的荣光之下.虽然它并不能够直接对抗腐化,但腐化的植物会很难蔓延到天域花所处的环境中,并会渐渐趋向于枯萎死亡.
-tc.research_page.ETHEREALBLOOM.2=这种花只能净化沐浴在它荣光之下的8格范围内的土地.<BR>天域花十分脆弱,如果试图采摘,会使它们的魔力失活变回水银花. 
+tc.research_page.ETHEREALBLOOM.2=这种花只能净化沐浴在它荣光之下的8格范围内的土地.
 #
 tc.research_name.PECH=岩精
 tc.research_text.PECH=奇怪的生物
@@ -1022,18 +1156,21 @@ tc.research_text.ARCANELAMP=大型光源
 tc.research_page.ARCANELAMP.1=这种神秘的灯具可以被安附在墙壁,地板以及天花板上用作强烈而稳定的光源.<BR>这种灯具会在16格范围内制造出额外的光源,保证亮度等级不低于可接受的安全亮度以下.记住,只有你才能阻止僵尸狂潮.<BR>这些伴生光源在拆卸掉神秘灯具后很快就会消失掉.<LINE>你确定这种灯具的应用将陆续呈现,因此拥有新的发现后请记得回来再查阅一遍这里.
 tc.research_page.ARCANELAMP.2=           §n奥术钻探机§r<BR>依附在奥术钻探机上时, 奥术灯将额外具有以下功能: 它将从附近吸取Lux要素来照亮钻探机挖通的隧道.<BR>每一点Lux要素能够产生一点光源,这种光源即使在灯具被拆卸后也不会消失.
 #
-tc.research_name.SALT=世界盐
-tc.research_text.SALT=仅仅一小撮
-tc.research_page.SALT.1=世界盐，也就是人们称为神秘使之盐的东西是一种魔力水晶磨制的粉末,富含魔力. <BR>就像类似其他奥术材料,它能够对奥术-比方说奥术合成或奥术附魔-产生增益.它是一种强大的中和药剂,能够让最不尽相同的魔力元素聚合在一起. <BR>有数种物质在磨碎后能够与磨粉后的魔力水晶混合制成世界盐.
+tc.research_name.BASICARTIFACE=Basic Artifacing
++tc.research_text.BASICARTIFACE=Needful things
++tc.research_page.BASICARTIFACE.1=§nSalis Mundus§r<BR><BR>Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by crushing vis crystals and mixing them with substances naturally rich in magic.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavour (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.<BR>There are several substances that can be mixed with the crushed crystals to create Salis Mundus.
++tc.research_page.BASICARTIFACE.2=§nPrimal Charm§r<BR><BR>Primal Charms form an important basis for many thaumaturgical constructs. They have no inherent power of their own beyond being able to focus and channel primal energy and essentia.<BR>Rumors persist that these charms have additional powers, but that is little more than hearsay.
 #
 tc.research_name.TUBES=要素源质管道
 tc.research_text.TUBES=运输要素源质
 tc.research_page.TUBES.1=你已发现了好些运输要素源质的方法,但都被证明难以与大规模的炼金操作相适应-现在这问题解决了.<BR>你已破解了制作稳定以及相对密封的管道的关键所在.尽管普通的化学物质可以用玻璃管道运输,但某些类型的要素源质却可能溶解掉或者直接穿透玻璃.在玻璃管道上裹上铁皮并用水银处理,让即使最不稳定的源质也能安全通过.黄金的管道配件装饰得管道系统极其美观.
-tc.research_page.TUBES.2=管道可以与各种类型的奥法设备相连,尽管一般你主要用它连接要素罐子和蒸馏器.<BR>要素源质会主动流向任意可以容纳它的容器-比方说要素罐子.贴上标签的罐子拥有更大的吸引力,以至于它们会从未标记过的罐子中吸取源质..<LINE>要素源质阀门类似一截正常的管道,但可以手动或者用红石信号控制它是否堵塞或导通.
+tc.research_page.TUBES.2=管道可以与各种类型的奥法设备相连,尽管一般你主要用它连接要素罐子和蒸馏器.<BR>要素源质会主动流向任意可以容纳它的容器-比方说要素罐子.<BR>Jars containing different kinds of essentia will only draw their kind of essentia towards them. Tubes however can only draw and transport one kind of essentia at a time - the highest drawing strength will take priority. Without the proper use of valves it is quite easy for a network of tubes to get gummed up. The use of valves is essential.<LINE>
+tc.research_page.TUBES.3=The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off.<LINE>The Essentia Resonator is handy for troubleshooting your tube network. You can use it on a tube or other essentia using device to see what essentia it currently contains and the suction it is applying.
 #
 tc.research_name.CENTRIFUGE=奥法离心机
 tc.research_text.CENTRIFUGE=分离物品
-tc.research_page.CENTRIFUGE.1=奥法离心机是一种惊艳的能够将符合要素分解为更基本的前置要素的炼金设备<BR>当复合要素的源质从下方流入离心机,就会被慢慢分解成组成它们的前置的复合要素或元始要素.但每消耗一点源质只能得到一点前置要素.<BR>分离得到的要素源质需要从离心机顶部抽走.
+tc.research_page.CENTRIFUGE.1=奥法离心机是一种惊艳的能够将符合要素分解为更基本的前置要素的炼金设备<BR>当复合要素的源质从下方流入离心机,就会被慢慢分解成组成它们的前置的复合要素或元始要素.但每消耗一点源质只能得到一点前置要素.<BR>分离得到的要素源质需要从离心机顶部抽走.Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge (see next page).
++tc.research_page.CENTRIFUGE.2=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 64.
 #
 tc.research_name.TRAVELTRUNK=箱子宝宝
 tc.research_text.TRAVELTRUNK=会走路的行李
@@ -1048,7 +1185,11 @@ tc.research_page.TRAVELTRUNK.UEN=    §n傀儡升级:混沌§r<BR>安装该升�
 #
 tc.research_name.LAMPGROWTH=催生灯
 tc.research_text.LAMPGROWTH=催熟作物
-tc.research_page.LAMPGROWTH.1=不像奥术灯具就是用来照明的,除非提供Herba要素催生灯不会发出丝毫光芒.而沐浴在其光芒之下的作物会生长得比平时更为快速.<BR>要素既可以通过在附近放置要素罐子来提供,也可以直接将灯具安装在源质管道上.后者稍微高效一点,每一点源质能够多持续10%的工作时间.
+tc.research_page.LAMPGROWTH.1=不像奥术灯具就是用来照明的,除非提供Herba要素催生灯不会发出丝毫光芒.而沐浴在其光芒之下的作物会生长得比平时更为快速.<BR>要素既可以通过在附近放置要素罐子来提供,也可以直接将灯具安装在源质管道上.
+#
+tc.research_name.LAMPFERTILITY=Lamp of Fertility
+tc.research_text.LAMPFERTILITY=Casting a romantic light on things
+tc.research_page.LAMPFERTILITY.1=Any living creatures bathed in the gentle pink glow of this lamp is immediately placed in a much more romantic mood. If they are able they will seek others of their kind to mate.<BR>This lamp will have not effect if there is 8 or more of a particular species already present.<BR>It requires victus essentia to function which can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system.
 #
 tc.research_name.JARVOID=虚空罐子
 tc.research_text.JARVOID=源质太多?这不可能!
@@ -1057,4 +1198,44 @@ tc.research_page.JARVOID.1=虚空罐子用起来类似普通的要素罐子,但�
 tc.research_name.TUBEFILTER=源质过滤管道
 tc.research_text.TUBEFILTER=你需要什么,需要用它干什么
 tc.research_page.TUBEFILTER.1=源质过滤管道类似普通管道,但可以贴标签.当使用标签标记后它将只限定于运输指定类型的要素源质.<BR>空手时按住shift点击将取下标签.
+#
+tc.research_name.MIRRORESSENTIA=Essentia Mirrors
+tc.research_text.MIRRORESSENTIA=Essentia where you need it
+tc.research_page.MIRRORESSENTIA.1=Magical mirrors are very useful for transporting items over long distances, but what if that same principle can be applied to essentia? You think you have discovered a way to do just that.<BR>Essentia mirrors, like their name implies, can transport essentia in the same way that magic mirrors transport items. There are a few important limitations however.<BR>You cannot pipe essentia directly into the mirrors - they are only able to transport essentia that has been drawn from a source towards something like an Infusion Matrix or Arcane Furnace.    
+tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to draw essentia from sources via the mirror.<BR>Drawing something as unstable as essentia over such long distances has some risks and occasionaly a small amount of essentia will get lost. 
+#
+tc.research_name.BONEBOW=Bone Bow
+tc.research_text.BONEBOW=Sticks and stones...
+tc.research_page.BONEBOW.1=You have discovered a way of crafting a bow from bone and infusing it with entropic energy.<BR>The resulting weapon is capable of firing much faster than a normal bow and arrows launched from it travels faster and hit harder.
+#
+tc.research_name.THAUMATORIUM=Automated Alchemy
+tc.research_text.THAUMATORIUM=Alchemy for the masses
+tc.research_page.THAUMATORIUM.1=Up to now alchemy has been somewhat of a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. This is finally a thing of the past.<BR>The Thaumatorium is a marvellous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, everytime.<BR>The crucible that forms its base does not require water, but a heat source is still needed.
+tc.research_page.THAUMATORIUM.2=When you access this device you will see several slots. The top-left slot is where you place the cataylyst. Once you have done this you will be able to choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.
+tc.research_page.THAUMATORIUM.3=Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side you can increase the number of formulas it can keep track.<BR>Each matrix increases the number of formulas by 2. 
+#
+tc.research_name.RUNICARMOR=Runic Armor
+tc.research_text.RUNICARMOR=Shields up!
+tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Armor. The name is misleading though since it is not armor in the traditional sense, but a collection of charms, seals and similar protective devices worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The armor has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.<BR>The pool replenishes over time, but even when depleted
+tc.research_page.RUNICARMOR.2=the armor offers protection roughly equivalent to that of leather armor.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
+#
+tc.research_name.RUNICARMORUPGRADES=Runic Armor Upgrades
+tc.research_text.RUNICARMORUPGRADES=Shields to maximum!
+tc.research_page.RUNICARMORUPGRADES.1=Improving Runic Armor has turned out to be easier than expected. You have discovered several augmentation that can be applied to it, though only a single augmentation can be applied at a time.<LINE>§nEnergetic§r<BR>Runic armor with this upgrade will replensish its charge much quicker than normal.<BR>§nAugmented§r<BR>This upgrade increases the amount of charge a piece of runic armor has.
+tc.research_page.RUNICARMORUPGRADES.2=§nKinetic Feedback§r<BR>When your shielding is breached this upgrade will release a detonation of kinetic energy. The damage and force of the detonation increases depending on how many pieces of armor has this upgrade. This ability has a 30 second cooldown.<BR>§nRevitalizing Feedback§r<BR>When your runic shielding is breached it will release a pulse of regenerative energy into its wearer that will last for a few seconds. The strength of this effect increases for each piece of armor with this upgrade. This effect has a 30 second cooldown.
+tc.research_page.RUNICARMORUPGRADES.3=§nHardened§r<BR>This upgrade doubles the amount of mundane armor protection a piece of runic armor provides once it's shielding has been breached.<BR>§nEmergency Shielding§r<BR>When the runic shield is breached this upgrade will instantly add 8 (or more) charge spread amongst the armor pieces you are wearing. Each runic armor piece with this upgrade adds 8 charge. This ability has a two minute cooldown.
+#
+tc.research_name.RUNICGOGGLES=Runic Goggles of Revealing
+tc.research_text.RUNICGOGGLES=The best of both worlds
+tc.research_page.RUNICGOGGLES.1=While being protected by Runic Armor is vital, you also need the utility of Goggles of Revealing to perform your thaumaturgical tasks. Why not have both?<BR>By affixing the charms of the runic headgear to a pair of goggles, you can enjoy the benefits of both.
+#
+tc.research_name.RUNICBOOTSTRAVELLER=Runic Boots of the Traveller
+tc.research_text.RUNICBOOTSTRAVELLER=The best of both worlds
+tc.research_page.RUNICBOOTSTRAVELLER.1=While being protected by Runic Armor is vital, you have begun to miss the speed granted by your Boots of Travelling. Why not have both?<BR>By affixing the charms of the runic footgear to a pair of boots of travelling, you can enjoy the benefits of both.
+#
+tc.research_name.WARDEDARCANA=Arcane doors and Pressure plates
+tc.research_text.WARDEDARCANA=Controlling access
+tc.research_page.WARDEDARCANA.1=Some experimentation has led to an interesting discovery - the ability to imprint memories in inanimate objects. Your first attempt at using the discovery is doors and pressure plates that remember who placed them.<BR>The door is unbreakable to anyone except the person who placed it. Additionally the door will refuse to open for anyone but its owner. The owner can also craft iron or gold keys that will grant others access to this door.<BR>By crafting an iron key and clicking on the door, you will link the key to that door. 
+tc.research_page.WARDEDARCANA.2=You can then give the key to another person and they will be able to use it on the door to gain permanent permission to open it. They will still not be able to break the door, or grant anyone else access. For that you need the gold key.<BR>The gold key serves much the same function as the iron key, except they can also grant other people iron key access to that door. Only the original owner of the door can hand out gold key access. They are also not able to remove the door with a wand. Only the original owner will be able to do that.
+tc.research_page.WARDEDARCANA.3=This pressure plate has a few novel features.<BR>Firstly it has 3 settings that can be toggled by right-clicking on it: It can trigger on everything (like a wooden pressure plate), just you, or everything except you.<BR>Secondly, like all other warded items only you can remove it.<BR>Lastly it can be linked to other players with the use of keys. These pressure plates can be used to open arcane doors as long as someone with access to the plate has access to the door as well.
 #
