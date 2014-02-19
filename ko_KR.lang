@@ -91,7 +91,7 @@ tile.blockMetalDevice.8.name=성장의 램프
 tile.blockMetalDevice.9.name=연금 구성체
 tile.blockMetalDevice.10.name=사우머토리엄
 tile.blockMetalDevice.11.name=사우머토리엄
-tile.blockMetalDevice.12.name=므네모닉 매트릭스
+tile.blockMetalDevice.12.name=느모닉 매트릭스
 tile.blockMetalDevice.13.name=번영의 램프 
 tile.blockMagicalLog.greatwood.name=그레이트우드 원목
 tile.blockMagicalLog.silverwood.name=실버우드 원목
@@ -1213,7 +1213,7 @@ tc.research_name.THAUMATORIUM=연금술 자동화
 tc.research_text.THAUMATORIUM=대규모 연금술
 tc.research_page.THAUMATORIUM.1=지금까지 연금술은 잘못 계산된 위상들, 점점 사라지는 에센시아와 재료 등 일일이 수동 작업을 요하는 다소 산만한 작업이었습니다. 드디어 이런 것들을 과거의 유물로 만들어버릴 만한 방법이 탄생했습니다.<BR>사우마토리엄은 마법사가 어떤 공식을 통해서, 어떤 촉매를 사용할지 직접 선택할 수 있게 해 주는 놀라운 발명품입니다. 이 장치는 그 다음 관을 통해서 자동으로 필요한 에센시아를 끌어옵니다. 지속적인 촉매의 공급만 있다면 이 장치는 계속해서 완벽하게 완성품을 만들어냅니다.
 tc.research_page.THAUMATORIUM.2=이 장치를 구성하는 데 필요한 도가니에는 물은 필요가 없지만, 용암이나 나이터 같은 열원은 여전히 필요합니다. 이 장치를 열어보면 여러 칸이 존재하는 것을 볼 수 있습니다. 좌측 상단의 칸은 촉매가 들어가는 곳입니다. 촉매를 넣어주면, 해당 촉매를 이용할 수 있는 공식들이 우측 상단에 표시됩니다.<BR>하단의 게이지는 순서대로 그 공식들이 필요로 하는 에센시아의 수량을 보여줍니다. 여기에는 기계의 진행률 또한 표시됩니다.<BR>완성품은 기계 앞으로 배출되거나 반출구 앞의 인벤토리로 들어가게 됩니다.
-tc.research_page.THAUMATORIUM.3=사우마토리엄은 기본적으로는 한번에 하나의 공식만을 실행할 수 있지만, 옆면에 므네모닉 매트릭스를 장착시킬 경우 동시에 여러가지 공식을 실행할 수 있습니다.<BR>각각의 매트릭스는 동시에 실행할 수 있는 공식을 2개씩 늘려줍니다. 
+tc.research_page.THAUMATORIUM.3=사우마토리엄은 기본적으로는 한번에 하나의 공식만을 실행할 수 있지만, 옆면에 느모닉 매트릭스를 장착시킬 경우 동시에 여러가지 공식을 실행할 수 있습니다.<BR>각각의 매트릭스는 동시에 실행할 수 있는 공식을 2개씩 늘려줍니다. 
 #
 tc.research_name.RUNICARMOR=루닉 아머
 tc.research_text.RUNICARMOR=가드를 올려라!
