@@ -169,6 +169,8 @@ tile.blockTube.1.name=Essentia Valve
 tile.blockTube.2.name=Alchemical Centrifuge
 tile.blockTube.3.name=Filtered Essentia Tube
 tile.blockTube.4.name=Essentia Buffer
+tile.blockTube.5.name=Restricted Essentia Tube
+tile.blockTube.6.name=Directional Essentia Tube
 container.alchemyfurnace=Alchemical Furnace
 tile.blockArcaneFurnace.name=Infernal Furnace
 #
@@ -1065,7 +1067,7 @@ tc.research_page.INFERNALFURNACE.2=It should also be noted that the occasional b
 tc.research_name.BELLOWS=Arcane Bellows
 tc.research_text.BELLOWS=Stoking the flames
 tc.research_page.BELLOWS.1=The Arcane Bellows performs much the same function as its mundane counterpart, the only difference is that it happily pumps away by itself sending forth a stream of neverending air.<BR>Attaching it to an Infernal Furnace has shown some interesting results. The elemental infused air not only stokes the flames increasing its smelting speed, but causes them to burn much purer, resulting in a reduction of flux generated and increasing the chance of creating bonus nuggets and other materials when smelting.
-tc.research_page.BELLOWS.2=They can also be attached to normal or alchemical furnaces to increase their speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>You are confident more uses will reveal themselves eventually. 
+tc.research_page.BELLOWS.2=They can also be attached to normal or alchemical furnaces to increase their speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>Bellows can be deactivated by applying a redstone signal.<BR>You are confident more uses will reveal themselves eventually. 
 #
 tc.research_name.ARCANESTONE=Arcane Stone
 tc.research_text.ARCANESTONE=Magically strenghtened building material
@@ -1171,7 +1173,7 @@ tc.research_page.TUBES.3=from a tube, it means different kinds of suction are in
 tc.research_name.CENTRIFUGE=Alchemical Centrifuge
 tc.research_text.CENTRIFUGE=Taking things apart
 tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge (see next page).
-tc.research_page.CENTRIFUGE.2=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 64.
+tc.research_page.CENTRIFUGE.2=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 32.
 #
 tc.research_name.TRAVELTRUNK=Traveling Trunk
 tc.research_text.TRAVELTRUNK=Mobile Luggage
@@ -1196,9 +1198,10 @@ tc.research_name.JARVOID=Void Jar
 tc.research_text.JARVOID=Too much essentia? Impossible!
 tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
 #
-tc.research_name.TUBEFILTER=Filtered Essentia Tube
+tc.research_name.TUBEFILTER=Advanced Essentia Tubes
 tc.research_text.TUBEFILTER=What you want, where you want it
-tc.research_page.TUBEFILTER.1=Filtered essentia tubes work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
+tc.research_page.TUBEFILTER.1=§nFiltered essentia tubes§r work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
+tc.research_page.TUBEFILTER.2=§nRestricted essentia tubes§r work like normal tubes, except they halve the any suction passing through them.<LINE>§nDirectional essentia tubes§r only accept suction from one direction. The blue markings indicate the direction from which suction will be accepted.
 #
 tc.research_name.MIRRORESSENTIA=Essentia Mirrors
 tc.research_text.MIRRORESSENTIA=Essentia where you need it
