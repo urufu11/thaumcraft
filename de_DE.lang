@@ -169,6 +169,8 @@ tile.blockTube.1.name=Essentiaventil
 tile.blockTube.2.name=Alchemische Zentrifuge
 tile.blockTube.3.name=Gefilterte Essentiaröhre
 tile.blockTube.4.name=Essentia-Puffer
+tile.blockTube.5.name=Restriktive Essentiaröhre
+tile.blockTube.6.name=Essentia-Richtungsröhre
 container.alchemyfurnace=Alchemischer Ofen
 tile.blockArcaneFurnace.name=Höllenofen
 #
@@ -625,7 +627,7 @@ tc.research_page.RESEARCHER2.1=You have become even more efficient at performing
 #
 tc.research_name.RESEARCHDUPE=Forschungsduplizierung
 tc.research_text.RESEARCHDUPE=Geteilte Freude ist doppelte Freude
-tc.research_page.RESEARCHDUPE.1=Du weißt jetzt, wie du Forschungsergebnisse kopieren kannst.<BR>Wenn du eine Forschung beendet hast oder Ergebnisse in den Forschungstisch legst, siehst du ein Stern-Symbol. Durch einen Klick darauf erzeugst du eine Kopie dieser Forschung, solange du Papier und Tinte dabei hast und über genug Aspekte vorhanden sind.<BR>Je mehr Kopien von einer Forschung angefertigt wurden, umso teurer werden weitere.
+tc.research_page.RESEARCHDUPE.1=Du weißt jetzt, wie du Forschungsergebnisse kopieren kannst.<BR>Wenn du eine Forschung beendet hast oder Ergebnisse in den Forschungstisch legst, siehst du ein Stern-Symbol. Durch einen Klick darauf erzeugst du eine Kopie dieser Forschung, solange du Papier und Tinte dabei hast und genug Aspekte verfügbar hast.<BR>Je mehr Kopien von einer Forschung angefertigt wurden, umso teurer werden weitere.
 #
 tc.research_name.DECONSTRUCTOR=Dekonstruktionstisch
 tc.research_text.DECONSTRUCTOR=Wenn genau hinsehen einfach nicht genug ist
@@ -896,27 +898,27 @@ tc.research_page.TRANSLEAD.1=Du hast einen Weg gefunden, Blei zu vervielfachen, 
 #
 tc.research_name.PUREIRON=Metallpurifizierung
 tc.research_text.PUREIRON=Purifizierung von Metallen in Native Klumpen
-tc.research_page.PUREIRON.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Eisenerz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Eisenbarren.
+tc.research_page.PUREIRON.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Eisenerz in native Klumpen zu purifizieren und zu konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Eisenbarren.
 #
 tc.research_name.PUREGOLD=Goldpurifizierung
 tc.research_text.PUREGOLD=Purifizierung von Gold in Native Klumpen
-tc.research_page.PUREGOLD.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Golderz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Goldbarren.
+tc.research_page.PUREGOLD.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Golderz in native Klumpen zu purifizieren und zu konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Goldbarren.
 #
 tc.research_name.PURECOPPER=Kupferpurifizierung
 tc.research_text.PURECOPPER=Purifizierung von Kupfer in Native Klumpen
-tc.research_page.PURECOPPER.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Kupfererz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Kupferbarren.
+tc.research_page.PURECOPPER.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Kupfererz in native Klumpen zu purifizieren und zu konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Kupferbarren.
 #
 tc.research_name.PURETIN=Zinnpurifizierung
 tc.research_text.PURETIN=Purifizierung von Zinn in Native Klumpen
-tc.research_page.PURETIN.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Zinnerz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Zinnbarren.
+tc.research_page.PURETIN.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Zinnerz in native Klumpen zu purifizieren und zu konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Zinnbarren.
 #
 tc.research_name.PURESILVER=Silberpurifizierung
 tc.research_text.PURESILVER=Purifizierung von Silber in Native Klumpen
-tc.research_page.PURESILVER.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Silbererz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Silberbarren.
+tc.research_page.PURESILVER.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Silbererz in native Klumpen zu purifizieren und zu konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Silberbarren.
 #
 tc.research_name.PURELEAD=Bleipurifizierung
 tc.research_text.PURELEAD=Purifizierung von Blei in Native Klumpen
-tc.research_page.PURELEAD.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Bleierz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Bleibarren.
+tc.research_page.PURELEAD.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Bleierz in native Klumpen zu purifizieren und zu konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Bleibarren.
 #
 tc.research_name.TALLOW=Magischer Talg
 tc.research_text.TALLOW=Bares Fett mit einem Hauch Magie
@@ -1079,7 +1081,7 @@ tc.research_page.INFERNALFURNACE.2=Es sollte nicht vergessen werden, dass ab und
 tc.research_name.BELLOWS=Arkaner Blasebalg
 tc.research_text.BELLOWS=Schüre das Feuer
 tc.research_page.BELLOWS.1=Der Arkane Blasebalg funktioniert genau wie sein normales Gegenstück, mit dem Unterschied, dass er von selbst einen nicht enden wollenden Luftstrom abgibt.<BR>Das Anbringen an einem Höllischen Ofen hat interessante Ergebnisse gezeigt. Die elementare Luft schürt nicht nur die Flammen für eine höhere Einschmelzgeschwindigkeit, sie lässt sie auch wesentlich reiner brennen. Dadurch entsteht weniger Flux und die Chance auf zusätzliche Nuggets oder andere Materialen erhöht sich.
-tc.research_page.BELLOWS.2=Ebenso kann der Blasebalg an einen Alchemischen Ofen montiert werden, um dessen Geschwindigkeit zu erhöhen.<BR>An einem Tiegel angebracht, verringert sich die Zeit, bis das Wasser kocht.<BR>Du bist sicher, dass du im Laufe der Zeit noch mehr Verwendungsmöglichkeiten finden wirst. 
+tc.research_page.BELLOWS.2=Ebenso kann der Blasebalg an einen Alchemischen Ofen montiert werden, um dessen Geschwindigkeit zu erhöhen.<BR>An einem Tiegel angebracht, verringert sich die Zeit, bis das Wasser kocht.<BR>Blasebälge können mit einem Redstone-Signal deaktiviert werden.<BR>Du bist sicher, dass du im Laufe der Zeit noch mehr Verwendungsmöglichkeiten finden wirst. 
 #
 tc.research_name.ARCANESTONE=Arkaner Stein
 tc.research_text.ARCANESTONE=Magisch verstärktes Baumaterial
@@ -1109,7 +1111,7 @@ tc.research_page.ADVANCEDGOLEM.1=Du hast einen Weg gefunden, Golems auf viele kl
 tc.research_name.ARCANEBORE=Arkaner Bohrer
 tc.research_text.ARCANEBORE=Bergbau entwickelt sich
 tc.research_page.ARCANEBORE.1=Du hast ein Gerät entdeckt, dass die Kraft und Reichweite des Grabe-Fokus erweitern kann. Noch besser, diese Maschine kann das sogar ohne deine ständige Aufsicht! Du musst sie nur auf einem besonderen Gestell platzieren, sie mit dem Zauberstab in die richtige Richtung zeigen lassen und ein Redstone-Signal anlegen.<BR>Der Arkane Bohrer benötigt zwei Dinge, um zu funktionieren: Erstens braucht er einen Grabe-Fokus im linken Inventarplatz. Besitzt der Fokus Verzauberungen, wirken sich diese auf den Bohrer aus.
-tc.research_page.ARCANEBORE.2=Zweitens benötigt der Bohrer eine beliebige Spitzhacke im rechten Inventarplatz. Das Material der Spitzhacke hat nur wenig Einfluss auf den Bohrer, aber je haltbarer sie ist, desto länger ist sie benutzbar. Wie mit dem Stab wirken sich alle Verzauberungen und Spezialfähigkeiten der Spitzhacke auf alles aus, was der Bohrer abbaut.<BR>Ein Glas mit Perditio-Essentia in einem 8-Blöcke-Radius um den Bohrer erhöht die Abbaugeschwindigkeit drastisch, aber für alle 16 Blöcke wird ein Punkt Perditio verbraucht.<BR>Der Arkane Bohrer kann nur über oder unter einem Arkanen Bohrergestell angebracht werden. Alles abgebauten Items werden von dem Gestell zu der Seite ausgeworfen, zu der die Öffnung zeigt.
+tc.research_page.ARCANEBORE.2=Zweitens benötigt der Bohrer eine beliebige Spitzhacke im rechten Inventarplatz. Das Material der Spitzhacke hat nur wenig Einfluss auf den Bohrer, aber je haltbarer sie ist, desto länger ist sie benutzbar. Wie mit dem Stab wirken sich alle Verzauberungen und Spezialfähigkeiten der Spitzhacke auf alles aus, was der Bohrer abbaut.<BR>Ein Glas mit Perditio-Essentia in einem 8-Block-Radius um den Bohrer erhöht die Abbaugeschwindigkeit drastisch, aber für alle 16 Blöcke wird ein Punkt Perditio verbraucht.<BR>Der Arkane Bohrer kann nur über oder unter einem Arkanen Bohrergestell angebracht werden. Alles abgebauten Items werden von dem Gestell zu der Seite ausgeworfen, zu der die Öffnung zeigt.
 tc.research_page.ARCANEBORE.3=Wenn möglich, wird ein angrenzendes Inventar verwendet. Die Richtung kann mit dem Stab geändert werden.
 #
 tc.research_name.LEVITATOR=Arkaner Levitator
@@ -1179,12 +1181,12 @@ tc.research_page.BASICARTIFACE.2=§nUrsprungstalisman§r<BR><BR>Primal Charms fo
 tc.research_name.TUBES=Essentiaröhren
 tc.research_text.TUBES=Transport von Essentia
 tc.research_page.TUBES.1=Du hast verschiedene Wege entdeckt, um Essentia zu transportieren, aber keiner von ihnen hat sich für Alchemie in großem Stil als brauchbar erwiesen - bis jetzt.<BR>Du weißt jetzt, wie man stabile und relativ dichte Röhren herstellt. Während man normale Chemikalien in Glas transportieren kann, können bestimme Arten von Essentia sich entweder auflösen oder aber hindurch diffundieren. Indem du das Glas in Eisen einfasst und es mit Quecksilber behandelst, kannst du selbst die flüchtigsten Arten von Essentia beschützen. Goldene Anschlüsse geben dem Röhrensystem den letzten Schliff und machen es optisch ansprechend.
-tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließen immer dann durch die Röhren, wenn sie mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser.<BR>Gläser mit verschiedenen Essentia werden nur den in ihnen enthaltenen Essentia-Typ zu sich saugen. Die Röhren können jedoch nut eine Art Essentia gleichzeitig saugen und transportieren - die höchste Saugkraft hat Priorität. Ohne die richtige Verwendung von Ventilen ist es sehr leicht, ein Röhrennetz zu verstopfen. Der Gebrauch von Ventilen ist unerlässlich.<BR>Wenn du Röhren siehst,
-tc.research_page.TUBES.3=an denen Essentia austritt, bedeutet das, dass verschiedene Saugkräfte interferieren. Die Farbe gibt dir einen Hinweis auf die Art der Absaugung.<LINE>Das Essentia-Ventil verhält sich wie eine normale Röhre, außer dass es manuell oder mit einem Redstone-Signal geschlossen werden kann. In diesem Fall wird der Essentiafluss unterbrochen.<LINE>Der Essentia-Resonator ist nützlich um Fehler in deinem Netzwerk zu finden. Du kannst ihn an einer Röhre oder einem verbundenen Gerät verwenden um zu sehen, welche Essentia es momentan enthält und wie groß die Saugkraft ist.
+tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließt immer dann durch die Röhren, wenn diese mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser.<BR>Gläser mit verschiedenen Sorten Essentia werden nur den in ihnen enthaltenen Essentia-Typ zu sich saugen. Die Röhren können jedoch nut eine Art Essentia gleichzeitig saugen und transportieren - die höchste Saugkraft hat Priorität. Ohne die richtige Verwendung von Ventilen ist es sehr leicht, ein Röhrennetz zu verstopfen. Der Gebrauch von Ventilen ist unerlässlich.<BR>Wenn du Röhren siehst,
+tc.research_page.TUBES.3=an denen Essentia austritt, bedeutet das, dass verschiedene Saugkräfte interferieren. Die Farbe gibt dir einen Hinweis auf die Art der Absaugung.<LINE>Das Essentia-Ventil verhält sich wie eine normale Röhre, außer dass es manuell oder mit einem Redstone-Signal geschlossen werden kann. In diesem Fall wird der Essentiafluss unterbrochen.<LINE>Der Essentia-Resonator ist nützlich, um Fehler in deinem Netzwerk zu finden. Du kannst ihn an einer Röhre oder einem verbundenen Gerät verwenden, um zu sehen, welche Essentia es momentan enthält und wie groß die Saugkraft ist.
 #
 tc.research_name.CENTRIFUGE=Alchemische Zentrifuge
 tc.research_text.CENTRIFUGE=Nimmt Dinge auseinander
-tc.research_page.CENTRIFUGE.1=Die Alchemische Zentrifuge ist eine wundervolle Erfindung, die es dir erlaubt, Essentia in ihre Bestandteile zu zerlegen.<BR>Wenn eine Verbund-Essentia von der Unterseite in die Zentrifuge fließt, wird sie langsam in ihre Basis- oder Verbund-Essentia zerlegt. Nur eine der Komponenten wird für jeden Punkt der zerlegten Essentia erzeugt.<BR>Die resultierende Essentia muss von der Oberseite der Zentrifuge entnommen werden. Aufgrund der Eigenheiten des Röhrendrucksystems ist es ratsam, einen §5Essentia-Puffer§0 über der Zentrifuge anzubringen (siehe nächste Seite).
+tc.research_page.CENTRIFUGE.1=Die Alchemische Zentrifuge ist eine wundervolle Erfindung, die es dir erlaubt, Essentia in ihre Bestandteile zu zerlegen.<BR>Wenn Verbund-Essentia von der Unterseite in die Zentrifuge fließt, wird sie langsam in ihre Basis- oder Verbund-Essentia zerlegt. Nur eine der Komponenten wird für jeden Punkt der zerlegten Essentia erzeugt.<BR>Die resultierende Essentia muss von der Oberseite der Zentrifuge entnommen werden. Aufgrund der Eigenheiten des Röhrendrucksystems ist es ratsam, einen §5Essentia-Puffer§0 über der Zentrifuge anzubringen (siehe nächste Seite).
 tc.research_page.CENTRIFUGE.2=Der Essentia-Puffer ermöglicht es, eine kleine Menge Essentia - insgesamt 8 Punkte - zu speichern, und das in einer beliebigen Zusammensetzung. Wie ein Glas hat er eine Saugkraft, auch wenn diese auf einem minimalen Wert (1) ist.<BR>Das bedeutet, dass nur Essentia aus einer direkt verbundenen Quelle angesaugt werden. Dennoch können an jede Seite Röhren angebracht werden, wodurch der Puffer geeignet ist, Essentia aus Geräten wie der Zentrifuge zu entnehmen, deren Inhalt wechselnde Typen ausmachen.<BR>Du kannst Blasebälge an einem Puffer anbringen - jeder Blasebalg erhöht die Saugkraft um 32.
 #
 tc.research_name.TRAVELTRUNK=Reisekoffer
@@ -1200,19 +1202,21 @@ tc.research_page.TRAVELTRUNK.UEN=     §nGolemupgrade: Entropie§r<BR>Mit diesem
 #
 tc.research_name.LAMPGROWTH=Lampe des Wachstums
 tc.research_text.LAMPGROWTH=Dinge zum Wachsen motivieren
-tc.research_page.LAMPGROWTH.1=Anders als die Arkane Lampe, aus der sie gemacht wird, strahlt die Lampe des Wachstums kaum Licht aus, solange sie nicht mit Herba-Essentia versorgt wird. Wenn dies gemacht wird, wachsen alle Pflanzen auf die das Licht am hellsten scheint wesentlich schneller als normal.<BR>Essentia kann der Lampe entweder über eine in der Nähe abgestelltes Glas oder über ein Essentia-Röhrensystem zugeführt werden.
+tc.research_page.LAMPGROWTH.1=Anders als die Arkane Lampe, aus der sie gemacht wird, strahlt die Lampe des Wachstums kaum Licht aus, solange sie nicht mit Herba-Essentia versorgt wird. Wenn dies gemacht wird, wachsen alle Pflanzen, auf die das Licht am hellsten scheint, wesentlich schneller als normal.<BR>Essentia kann der Lampe entweder über eine in der Nähe abgestelltes Glas oder über ein Essentia-Röhrensystem zugeführt werden.
 #
 tc.research_name.LAMPFERTILITY=Lampe der Fruchtbarkeit
 tc.research_text.LAMPFERTILITY=Wirft auf alles ein romantisches Licht
-tc.research_page.LAMPFERTILITY.1=Jedes Lebewesen, das in das sanfte pinke Licht dieser Lampe getaucht ist, wird in eine romantische Stimmung versetzt. Wenn sie können, suchen sie sich andere ihrer Art um sich zu paaren.<BR>Die Lampe hat keinen Effekt, wenn es bereits 8 oder mehr einer Spezies gibt.<BR>Sie benötigt Victus-Essentia zur Funktion. Diese kann der Lampe entweder über eine in der Nähe abgestelltes Glas oder über ein Essentia-Röhrensystem zugeführt werden.
+tc.research_page.LAMPFERTILITY.1=Jedes Lebewesen, das in das sanfte pinke Licht dieser Lampe getaucht ist, wird in eine romantische Stimmung versetzt. Wenn sie können, suchen sie sich andere ihrer Art, um sich zu paaren.<BR>Die Lampe hat keinen Effekt, wenn es bereits 8 oder mehr einer Spezies gibt.<BR>Sie benötigt Victus-Essentia, um zu funktionieren. Diese kann der Lampe entweder über eine in der Nähe abgestelltes Glas oder über ein Essentia-Röhrensystem zugeführt werden.
 #
 tc.research_name.JARVOID=Glas der Leere
 tc.research_text.JARVOID=Zu viel Essentia? Unmöglich!
 tc.research_page.JARVOID.1=Gläser der Leere funktionieren größtenteils wie normale Bannende Gläser, mit einem wichtigen Unterschied - Auch, wenn voll, sind sie noch immer fähig, Essentia anzunehmen, aber die überschüssige Essentia geht einfach verloren. Das erlaubt es dir, immer etwas Essentia dieses Typs vorrätig zu haben, aber all den Überschuss, der sich aufbauen könnte, loszuwerden.<BR>Wie normale Gläser können Gläser der Leere Glasschilder annehmen, aber ihre Saugkraft mit einem Glasschild ist geringer als die eines normalen beschilderten Glases (ungefähr mittig zwischen beschilderten und unbeschilderten Gläsern).
 #
-tc.research_name.TUBEFILTER=Gefilterte Essentiaröhre
+tc.research_name.TUBEFILTER=Fortgeschrittene Essentiaröhren
 tc.research_text.TUBEFILTER=Was du willst, wo du es willst
-tc.research_page.TUBEFILTER.1=Gefilterte Essentiaröhren funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Glasschildern zu markieren. Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Glasschild entfernen.
+tc.research_page.TUBEFILTER.1=§nGefilterte Essentiaröhren§r funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Glasschildern zu markieren.  Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Glasschild entfernen.
+tc.research_page.TUBEFILTER.2=§nRestriktive Essentiaröhren§r funktionieren wie normale Röhren, nur, dass durch sie alle Saugkraft, die durch sie führt, halbiert.<LINE>§nEssentia-Richtungsröhren§r akzeptieren nur das Saugen aus einer Richtung. Die blauen Markierungen zeigen die Richtung an, von der das Saugen akzeptiert wird.
+
 #
 tc.research_name.MIRRORESSENTIA=Essentiaspiegel
 tc.research_text.MIRRORESSENTIA=Essentia, wo du sie brauchst
@@ -1231,26 +1235,26 @@ tc.research_page.THAUMATORIUM.3=Normally a Thaumatorium can only have one active
 #
 tc.research_name.RUNICARMOR=Runenrüstung
 tc.research_text.RUNICARMOR=Schilde hoch!
-tc.research_page.RUNICARMOR.1=Deine Forschung über magischen Schutz hat dich die Runenrüstung entdecken lassen. Der Name ist irreführend, denn es handelt sich nicht um eine klassische Rüstung, sondern um eine Sammlung aus Amuletten, Siegeln und anderen Schutzzaubern, die mit normaler Kleidung getragen werden.<BR>Diese formen eine magische Barriere, die dich vor den meisten Schadensarten beschützt. Die Rüstung besitzt eine Anzahl an Trefferpunkten von denen der Schaden abgezogen wird, der dich sonst träfe. Wenn die Trefferpunkte nicht mehr vorhanden sind, bekommst du normal Schaden.<BR>Sie laden sich mit der Zeit wieder auf, aber
+tc.research_page.RUNICARMOR.1=Deine Forschung über magischen Schutz hat dich die Runenrüstung entdecken lassen. Der Name ist irreführend, denn es handelt sich nicht um eine klassische Rüstung, sondern um eine Sammlung aus Amuletten, Siegeln und anderen Schutzzaubern, die mit normaler Kleidung getragen werden.<BR>Diese formen eine magische Barriere, die dich vor den meisten Schadensarten beschützt. Die Rüstung besitzt eine Anzahl an Trefferpunkten, von denen der Schaden abgezogen wird, der dich sonst träfe. Wenn die Trefferpunkte nicht mehr vorhanden sind, bekommst du normal Schaden.<BR>Sie laden sich mit der Zeit wieder auf, aber
 tc.research_page.RUNICARMOR.2=selbst, wenn keine Trefferpunkte mehr da sind, bietet die Rüstung etwa einen Schutz wie eine Lederrüstung.<BR>Die Rüstung bietet keinen Schutz gegen Schaden durch Ertrinken, Verhungern oder andere Umweltgefahren.<BR>Durch ihre Natur kann diese Rüstung nicht normal verzaubert werden, aber du bist sicher, dass es Möglichkeiten gibt, sie zu verbessern - du musst sie nur finden.
 #
 tc.research_name.RUNICARMORUPGRADES=Runenrüstungs-Upgrades
 tc.research_text.RUNICARMORUPGRADES=Schilde auf Maximum!
-tc.research_page.RUNICARMORUPGRADES.1=Die Runenrüstung zu verbessern ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisch§r<BR>Runenrüstung mit diesem Upgrade lädt sich viel schneller wieder auf.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
-tc.research_page.RUNICARMORUPGRADES.2=§nKinetisches Feedback§r<BR>Wenn dein Schild durchbrochen wurde, setzt dieses Upgrade eine Detonation aus kinetischer Energie frei. Der Schaden und die Kraft dieser Detonation erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.<BR>§nRevitalisierendes Feedback§r<BR>enn dein Schild durchbrochen wurde, wird ein mehrere Sekunden dauernder Impuls aus regenerierender Energie in den Träger abgegeben. Die Stärke dieses Impulses erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.
+tc.research_page.RUNICARMORUPGRADES.1=Die Runenrüstung zu verbessern, ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisch§r<BR>Runenrüstung mit diesem Upgrade lädt sich viel schneller wieder auf.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
+tc.research_page.RUNICARMORUPGRADES.2=§nKinetisches Feedback§r<BR>Wenn dein Schild durchbrochen wurde, setzt dieses Upgrade eine Detonation aus kinetischer Energie frei. Der Schaden und die Kraft dieser Detonation erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.<BR>§nRevitalisierendes Feedback§r<BR>enn dein Schild durchbrochen wurde, wird ein mehrere Sekunden dauernder Impuls aus regenerierender Energie an den Träger abgegeben. Die Stärke dieses Impulses erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.
 tc.research_page.RUNICARMORUPGRADES.3=§nVerstärkt§r<BR>Dieses Upgrade verdoppelt den Schutz, den die Runenrüstung bietet, wenn der Schild durchbrochen wurde.<BR>§nNotfallschild§r<BR>Wenn der Runenschild durchbrochen wurde, verteilt dieses Upgrade 8 Ladungen auf deine getragenen Runenrüstungsteile. Jedes Teil mit diesem Upgrade fügt 8 Ladungen hinzu. Dieser Effekt braucht zwei Minuten zur Regeneration.
 #
 tc.research_name.RUNICGOGGLES=Runenbrille der Enthüllung
-tc.research_text.RUNICGOGGLES=Das beste aus beiden Welten
+tc.research_text.RUNICGOGGLES=Das beste beider Welten
 tc.research_page.RUNICGOGGLES.1=Während der Schutz der Runenrüstung überlebenswichtig ist, benötigst du auch die Vielseitigkeit der Brille der Enthüllung für deine thaumaturgischen Aufgaben. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einer Brille kannst du die Vorzüge von Beidem genießen.
 #
 tc.research_name.RUNICBOOTSTRAVELLER=Runenstiefel des Reisenden
-tc.research_text.RUNICBOOTSTRAVELLER=Das beste aus beiden Welten
-tc.research_page.RUNICBOOTSTRAVELLER.1=Während der Schutz der Runenrüstung überlebenswichtig ist, vermisst du die Geschwindigkeit der die Geschwindigkeit der Stiefel des Reisenden. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einem Paar der Stiefel kannst du die Vorzüge von Beidem genießen.
+tc.research_text.RUNICBOOTSTRAVELLER=Das beste beider Welten
+tc.research_page.RUNICBOOTSTRAVELLER.1=Während der Schutz der Runenrüstung überlebenswichtig ist, vermisst du die Geschwindigkeit der Stiefel des Reisenden. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einem Paar der Stiefel kannst du die Vorzüge von Beidem genießen.
 #
 tc.research_name.WARDEDARCANA=Arkane Türen und Druckplatten
 tc.research_text.WARDEDARCANA=Zugangskontrolle
-tc.research_page.WARDEDARCANA.1=Deine Experimente haben dich etwas Interessantes entdecken lassen - die Fähigkeit, Erinnerungen in leblose Objekte zu bringen. Der erste Versuch diese Entdeckung anzuwenden führte zu Türen und Druckplatten, die wissen, wer sie platziert hat.<BR>Die Tür kann nur von demjenigen abgebaut werden, der sie errichtet hat. Zudem kann sie nur von ihrem Besitzer geöffnet werden. Der Besitzer kann eiserne oder goldene Schlüssel machen, die anderen Zugang zu der Tür ermöglichen.<BR>Wenn du einen Eisenschlüssel machst und mit ihm auf die Tür klickst, verbindest du den Schlüssel mit der Tür. 
+tc.research_page.WARDEDARCANA.1=Deine Experimente haben dich etwas Interessantes entdecken lassen - die Fähigkeit, Erinnerungen in leblose Objekte zu bringen. Der erste Versuch, diese Entdeckung anzuwenden, führte zu Türen und Druckplatten, die wissen, wer sie platziert hat.<BR>Die Tür kann nur von demjenigen abgebaut werden, der sie errichtet hat. Zudem kann sie nur von ihrem Besitzer geöffnet werden. Der Besitzer kann eiserne oder goldene Schlüssel machen, die anderen Zugang zu der Tür ermöglichen.<BR>Wenn du einen Eisenschlüssel machst und mit ihm auf die Tür klickst, verbindest du den Schlüssel mit der Tür. 
 tc.research_page.WARDEDARCANA.2=Jetzt kannst du den Schlüssel einer anderen Person geben, die dadurch das dauerhafte Recht erhält, die Tür zu öffnen. Sie kann jedoch weder die Tür abbauen, noch jemand anderem Zugang gewähren. Dafür benötigst du einen Goldschlüssel.<BR>Der Goldschlüssel funktioniert wie der Eisenschlüssel, aber zusätzlich kann man damit anderen Personen mit Eisenschlüsseln Zugang zu der Tür gewähren. Nur der Besitzer der Tür kann den Zugang mit Goldschlüsseln gewähren, und nur dieser kann Türen mit seinem Stab abbauen.
 tc.research_page.WARDEDARCANA.3=Diese Druckplatte besitzt einige neue Funktionen.<BR>Erstens hat sie 3 Einstellungen, die durch einen Rechtsklick geändert werden können: Immer auslösen (wie eine Holz-Druckplatte), nur du oder jeder außer dir.<BR>Zweitens, wie bei allen bannenden Items, kannst nur du sie entfernen.<BR>Drittens kann sie durch Schlüssel mit anderen Spielern verbunden werden. Mit diesen Druckplatten können Arkane Türen geöffnet werden, wenn jemand mit Zugang zur Druckplatte auch Zugang zur Tür hat.
 #
