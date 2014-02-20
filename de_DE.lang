@@ -1216,7 +1216,6 @@ tc.research_name.TUBEFILTER=Fortgeschrittene Essentiaröhren
 tc.research_text.TUBEFILTER=Was du willst, wo du es willst
 tc.research_page.TUBEFILTER.1=§nGefilterte Essentiaröhren§r funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Glasschildern zu markieren.  Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Glasschild entfernen.
 tc.research_page.TUBEFILTER.2=§nRestriktive Essentiaröhren§r funktionieren wie normale Röhren, nur, dass durch sie alle Saugkraft, die durch sie führt, halbiert.<LINE>§nEssentia-Richtungsröhren§r akzeptieren nur das Saugen aus einer Richtung. Die blauen Markierungen zeigen die Richtung an, von der das Saugen akzeptiert wird.
-
 #
 tc.research_name.MIRRORESSENTIA=Essentiaspiegel
 tc.research_text.MIRRORESSENTIA=Essentia, wo du sie brauchst
