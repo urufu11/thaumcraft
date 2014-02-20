@@ -625,7 +625,7 @@ tc.research_page.RESEARCHER2.1=You have become even more efficient at performing
 #
 tc.research_name.RESEARCHDUPE=Forschungsduplizierung
 tc.research_text.RESEARCHDUPE=Geteilte Freude ist doppelte Freude
-tc.research_page.RESEARCHDUPE.1=You have discovered a way to copy completed research note.<BR>When you complete research or place a completed research note in the research table you will see a star icon. Clicking this will create a copy of this research as long as you are carrying paper and ink and have enough aspects available.<BR>The more copies are created of that research, the more expensive copying it will become.
+tc.research_page.RESEARCHDUPE.1=Du weißt jetzt, wie du Forschungsergebnisse kopieren kannst.<BR>Wenn du eine Forschung beendet hast oder Ergebnisse in den Forschungstisch legst, siehst du ein Stern-Symbol. Durch einen Klick darauf erzeugst du eine Kopie dieser Forschung, solange du Papier und Tinte dabei hast und über genug Aspekte vorhanden sind.<BR>Je mehr Kopien von einer Forschung angefertigt wurden, umso teurer werden weitere.
 #
 tc.research_name.DECONSTRUCTOR=Dekonstruktionstisch
 tc.research_text.DECONSTRUCTOR=Wenn genau hinsehen einfach nicht genug ist
@@ -639,8 +639,7 @@ tc.research_page.BASICTHAUMATURGY.2=Um die exakte Menge an Vis und eventuelle Ve
 #
 tc.research_name.GRATE=Itemgitter
 tc.research_text.GRATE=Alles Gute kommt von oben
-tc.research_page.GRATE.1=The item grate allows you to toggle it open or close it with your hand, or with a redstone signal. If in the open position, any dropped items will simply fall right through it.<BR>Items can also be piped into the top of an item grate using a hopper or other means and if open, it will be ejected out the bottom.
-#tc.research_page.GRATE.1=Das Itemgitter kann mit der Hand oder einem Redstone-Signal geöffnet und geschlossen werden. Wenn es geöffnet ist, fallen alle Items einfach hindurch. 
+tc.research_page.GRATE.1=Das Itemgitter kann mit der Hand oder einem Redstone-Signal geöffnet und geschlossen werden. Wenn es geöffnet ist, fallen alle Items einfach hindurch.<BR>Items können auch über einen Trichter oder Ähnliches in das Gitter geleitet werden. Wenn es offen ist, werden sie nach unten ausgeworfen.
 #
 tc.research_name.NODETAPPER1=Fortgeschrittenes Nodienzapfen
 tc.research_text.NODETAPPER1=Nimm alles
@@ -731,7 +730,7 @@ tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
 tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for you buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
 tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has more than double the vis storage potential of a greatwood wand, being able to store up to 125 vis of each type.
 #
-tc.research_name.ROD_silverwood_staff=Silverholzlangstabkerne
+tc.research_name.ROD_silverwood_staff=Silberholzlangstabkerne
 tc.research_text.ROD_silverwood_staff=Magisch bis ins Mark
 tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 250 vis of each type.
 #
@@ -897,27 +896,27 @@ tc.research_page.TRANSLEAD.1=Du hast einen Weg gefunden, Blei zu vervielfachen, 
 #
 tc.research_name.PUREIRON=Metallpurifizierung
 tc.research_text.PUREIRON=Purifizierung von Metallen in Native Klumpen
-tc.research_page.PUREIRON.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal iron ore into a native iron cluster.<BR>When smelted these clusters produces twice the normal amount of iron ingots.
+tc.research_page.PUREIRON.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Eisenerz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Eisenbarren.
 #
 tc.research_name.PUREGOLD=Goldpurifizierung
 tc.research_text.PUREGOLD=Purifizierung von Gold in Native Klumpen
-tc.research_page.PUREGOLD.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal gold ore into a native gold cluster.<BR>When smelted these clusters produces twice the normal amount of gold ingots.
+tc.research_page.PUREGOLD.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Golderz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Goldbarren.
 #
 tc.research_name.PURECOPPER=Kupferpurifizierung
 tc.research_text.PURECOPPER=Purifizierung von Kupfer in Native Klumpen
-tc.research_page.PURECOPPER.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal copper ore into a native copper cluster.<BR>When smelted these clusters produces twice the normal amount of copper ingots.
-#
+tc.research_page.PURECOPPER.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Kupfererz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Kupferbarren.
+
 tc.research_name.PURETIN=Zinnpurifizierung
 tc.research_text.PURETIN=Purifizierung von Zinn in Native Klumpen
-tc.research_page.PURETIN.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal tin ore into a native tin cluster.<BR>When smelted these clusters produces twice the normal amount of tin ingots.
-#
+tc.research_page.PURETIN.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Zinnerz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Zinnbarren.
+
 tc.research_name.PURESILVER=Silberpurifizierung
 tc.research_text.PURESILVER=Purifizierung von Silber in Native Klumpen
-tc.research_page.PURESILVER.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal silver ore into a native silver cluster.<BR>When smelted these clusters produces twice the normal amount of silver ingots.
-#
+tc.research_page.PURESILVER.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Silbererz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Silberbarren.
+
 tc.research_name.PURELEAD=Bleipurifizierung
 tc.research_text.PURELEAD=Purifizierung von Blei in Native Klumpen
-tc.research_page.PURELEAD.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal lead ore into a native lead cluster.<BR>When smelted these clusters produces twice the normal amount of lead ingots.
+tc.research_page.PURELEAD.1=Native Klumpen sind seltene Konzentrationen von Metallen in ihrer reinsten Form. Du hast einen Weg entdeckt, normales Bleierz in native Klumpen zu purifizieren und konzentrieren.<BR>Beim Schmelzen ergeben diese Klumpen die doppelte Menge an Bleibarren.
 #
 tc.research_name.TALLOW=Magischer Talg
 tc.research_text.TALLOW=Bares Fett mit einem Hauch Magie
@@ -995,7 +994,7 @@ tc.research_page.COREGUARD.2=     §nOrdnungs-Upgrade freigeschaltet§r <IMG>tha
 #
 tc.research_name.COREBUTCHER=Golemkern: Schlachten
 tc.research_text.COREBUTCHER=Blutige Angelegenheit
-tc.research_page.COREBUTCHER.1=This core is a refinement of the standard Guard core.<BR>A golem fitted with this core will only attack animals, but it is intelligent enough to only attack the oldest, fully grown adults and always make sure that a breeding pair remains.
+tc.research_page.COREBUTCHER.1=Dieser Kern ist eine Verbesserung des normalen Schützen-Kerns.<BR>Ein Golem mit diesem Kern attackiert nur Tiere, aber er ist intelligent genug, nur die ältesten und erwachsenen Tiere zu töten. Er sorgt stets dafür, dass zwei Zuchttiere übrig bleiben.
 #
 tc.research_name.CORELIQUID=Golemkern: Umfüllen
 tc.research_text.CORELIQUID=Halte einen Tank gefüllt mit Flüssigkeit
@@ -1110,8 +1109,7 @@ tc.research_page.ADVANCEDGOLEM.1=Du hast einen Weg gefunden, Golems auf viele kl
 tc.research_name.ARCANEBORE=Arkaner Bohrer
 tc.research_text.ARCANEBORE=Bergbau entwickelt sich
 tc.research_page.ARCANEBORE.1=Du hast ein Gerät entdeckt, dass die Kraft und Reichweite des Grabe-Fokus erweitern kann. Noch besser, diese Maschine kann das sogar ohne deine ständige Aufsicht! Du musst sie nur auf einem besonderen Gestell platzieren, sie mit dem Zauberstab in die richtige Richtung zeigen lassen und ein Redstone-Signal anlegen.<BR>Der Arkane Bohrer benötigt zwei Dinge, um zu funktionieren: Erstens braucht er einen Grabe-Fokus im linken Inventarplatz. Besitzt der Fokus Verzauberungen, wirken sich diese auf den Bohrer aus.
-tc.research_page.ARCANEBORE.2=Secondly you need to place any kind of pickaxe into the rightmost slot. The material of the pickaxe will have little effect on the operation of the bore, but the greater its durability, the longer it will last. Like the wand, any enchantments or special abilities of the pickaxe will also be applied to whatever the bore mines.<BR>Placing a jar of perditio essentia near the bore (within 8 blocks) will greatly speed up the rate at which it mines, but will consume 1 point of perditio for every 16 blocks mined.<BR>An arcane bore can only be placed above or below an arcane bore base. Any items mined will be ejected from the base in the direction its nozzle is pointing.
-#tc.research_page.ARCANEBORE.2=Zweitens benötigt der Bohrer eine beliebige Spitzhacke im rechten Inventarplatz. Das Material der Spitzhacke hat nur wenig Einfluss auf den Bohrer, aber je haltbarer sie ist, desto länger ist sie benutzbar. Wie bei dem Fokus wirken sich alle Verzauberungen und Spezialfähigkeiten der Spitzhacke auf alles aus, was der Bohrer abbaut.<BR>Ein Glas mit Perditio-Essentia in einem 5-Blöcke-Radius um den Bohrer erhöht die Abbaugeschwindigkeit drastisch.<BR>Der Arkane Bohrer kann nur über oder unter einem Arkanen Bohrergestell angebracht werden. Alles abgebauten Items werden von dem Gestell zu der Seite ausgeworfen, zu der die Öffnung zeigt.
+tc.research_page.ARCANEBORE.2=Zweitens benötigt der Bohrer eine beliebige Spitzhacke im rechten Inventarplatz. Das Material der Spitzhacke hat nur wenig Einfluss auf den Bohrer, aber je haltbarer sie ist, desto länger ist sie benutzbar. Wie mit dem Stab wirken sich alle Verzauberungen und Spezialfähigkeiten der Spitzhacke auf alles aus, was der Bohrer abbaut.<BR>Ein Glas mit Perditio-Essentia in einem 8-Blöcke-Radius um den Bohrer erhöht die Abbaugeschwindigkeit drastisch, aber für alle 16 Blöcke wird ein Punkt Perditio verbraucht.<BR>Der Arkane Bohrer kann nur über oder unter einem Arkanen Bohrergestell angebracht werden. Alles abgebauten Items werden von dem Gestell zu der Seite ausgeworfen, zu der die Öffnung zeigt.
 tc.research_page.ARCANEBORE.3=Wenn möglich, wird ein angrenzendes Inventar verwendet. Die Richtung kann mit dem Stab geändert werden.
 #
 tc.research_name.LEVITATOR=Arkaner Levitator
@@ -1180,17 +1178,14 @@ tc.research_page.BASICARTIFACE.2=§nUrsprungstalisman§r<BR><BR>Primal Charms fo
 #
 tc.research_name.TUBES=Essentiaröhren
 tc.research_text.TUBES=Transport von Essentia
-tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either disolves or simply passes right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and makes it visually appealing.
-tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars.<BR>Jars containing different kinds of essentia will only draw their kind of essentia towards them. Tubes however can only draw and transport one kind of essentia at a time - the highest drawing strength will take priority. Without the proper use of valves it is quite easy for a network of tubes to get gummed up. The use of valves is essential.<BR>When you see gasses being vented
-tc.research_page.TUBES.3=from a tube, it means different kinds of suction are interfering with each other. The color gives a clue as to the types of suction.<LINE>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off.<LINE>The Essentia Resonator is handy for troubleshooting your tube network. You can use it on a tube or other essentia using device to see what essentia it currently contains and the suction it is applying. 
-#tc.research_page.TUBES.1=Du hast verschiedene Wege entdeckt, um Essentia zu transportieren, aber keiner von ihnen hat sich für Alchemie in großem Stil als brauchbar erwiesen - bis jetzt.<BR>Du weißt jetzt, wie man stabile und relativ dichte Röhren herstellt. Während man normale Chemikalien in Glas transportieren kann, können bestimme Arten von Essentia sich entweder auflösen oder aber hindurch diffundieren. Indem du das Glas in Eisen einfasst und es mit Quecksilber behandelst, kannst du selbst die flüchtigsten Arten von Essentia beschützen. Goldene Anschlüsse geben dem Röhrensystem den letzten Schliff und machen es optisch ansprechend.
-#tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließen immer dann durch die Röhren, wenn sie mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser. Beschilderte Gläser haben eine wesentlich größere Saugkraft - so stark, dass sie Essentia aus unbeschilderten Gläsern saugen.<LINE>Das Essentia-Ventil verhält sich wie eine normale Röhre, außer dass es manuell oder mit einem Redstone-Signal geschlossen werden kann. In diesem Fall wird der Essentiafluss unterbrochen. 
+tc.research_page.TUBES.1=Du hast verschiedene Wege entdeckt, um Essentia zu transportieren, aber keiner von ihnen hat sich für Alchemie in großem Stil als brauchbar erwiesen - bis jetzt.<BR>Du weißt jetzt, wie man stabile und relativ dichte Röhren herstellt. Während man normale Chemikalien in Glas transportieren kann, können bestimme Arten von Essentia sich entweder auflösen oder aber hindurch diffundieren. Indem du das Glas in Eisen einfasst und es mit Quecksilber behandelst, kannst du selbst die flüchtigsten Arten von Essentia beschützen. Goldene Anschlüsse geben dem Röhrensystem den letzten Schliff und machen es optisch ansprechend.
+tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließen immer dann durch die Röhren, wenn sie mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser.<BR>Gläser mit verschiedenen Essentia werden nur den in ihnen enthaltenen Essentia-Typ zu sich saugen. Die Röhren können jedoch nut eine Art Essentia gleichzeitig saugen und transportieren - die höchste Saugkraft hat Priorität. Ohne die richtige Verwendung von Ventilen ist es sehr leicht, ein Röhrennetz zu verstopfen. Der Gebrauch von Ventilen ist unerlässlich.<BR>Wenn du Gläser siehst,
+tc.research_page.TUBES.3=die von einer Röhre geleert werden, bedeutet das, dass verschiedene Saugkräfte interferieren. Die Farbe gibt dir einen Hinweis auf die Art der Absaugung.<LINE>Das Essentia-Ventil verhält sich wie eine normale Röhre, außer dass es manuell oder mit einem Redstone-Signal geschlossen werden kann. In diesem Fall wird der Essentiafluss unterbrochen.<LINE>Der Essentia-Resonator ist nützlich um Fehler in deinem Netzwerk zu finden. Du kannst ihn an einer Röhre oder einem verbundenen Gerät verwenden um zu sehen, welche Essentia es momentan enthält und wie groß die Saugkraft ist.
 #
 tc.research_name.CENTRIFUGE=Alchemische Zentrifuge
 tc.research_text.CENTRIFUGE=Nimmt Dinge auseinander
-tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge (see next page).
-tc.research_page.CENTRIFUGE.2=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 64.
-#tc.research_page.CENTRIFUGE.1=Die Alchemische Zentrifuge ist eine wundervolle Erfindung, die es dir erlaubt, Essentia in ihre Bestandteile zu zerlegen.<BR>Wenn eine Verbund-Essentia von der Unterseite in die Zentrifuge fließt, wird sie langsam in ihre Basis- oder Verbund-Essentia zerlegt. Nur eine der Komponenten wird für jeden Punkt der zerlegten Essentia erzeugt.<BR>Die resultierende Essentia muss von der Oberseite der Zentrifuge entnommen werden.
+tc.research_page.CENTRIFUGE.1=Die Alchemische Zentrifuge ist eine wundervolle Erfindung, die es dir erlaubt, Essentia in ihre Bestandteile zu zerlegen.<BR>Wenn eine Verbund-Essentia von der Unterseite in die Zentrifuge fließt, wird sie langsam in ihre Basis- oder Verbund-Essentia zerlegt. Nur eine der Komponenten wird für jeden Punkt der zerlegten Essentia erzeugt.<BR>Die resultierende Essentia muss von der Oberseite der Zentrifuge entnommen werden. Aufgrund der Eigenheiten des Röhrendrucksystems ist es ratsam, einen §5Essentia-Puffer§0 über der Zentrifuge anzubringen (siehe nächste Seite).
+tc.research_page.CENTRIFUGE.2=Der Essentia-Puffer ermöglicht es, eine kleine Menge Essentia - insgesamt 8 Punkte - zu speichern, und das in einer beliebigen Zusammensetzung. Wie ein Glas hat er eine Saugkraft, auch wenn diese auf einem minimalen Wert (1) ist.<BR>Das bedeutet, dass nur Essentia aus einer direkt verbundenen Quelle angesaugt werden. Dennoch können an jede Seite Röhren angebracht werden, wodurch der Puffer geeignet ist, Essentia aus Geräten wie der Zentrifuge zu entnehmen, deren Inhalt wechselnde Typen ausmachen.<BR>Du kannst Blasebälge an einem Puffer anbringen - jeder Blasebalg erhöht die Saugkraft um 64.
 #
 tc.research_name.TRAVELTRUNK=Reisekoffer
 tc.research_text.TRAVELTRUNK=Mobiles Gepäck
@@ -1205,12 +1200,11 @@ tc.research_page.TRAVELTRUNK.UEN=     §nGolemupgrade: Entropie§r<BR>Mit diesem
 #
 tc.research_name.LAMPGROWTH=Lampe des Wachstums
 tc.research_text.LAMPGROWTH=Dinge zum Wachsen motivieren
-tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system.
-#tc.research_page.LAMPGROWTH.1=Anders als die Arkane Lampe, aus der sie gemacht wird, strahlt die Lampe des Wachstums kaum Licht aus, solange sie nicht mit Herba-Essentia versorgt wird. Wenn dies gemacht wird, wachsen alle Pflanzen auf die das Licht scheint wesentlich schneller als normal.<BR>Essentia kann der Lampe entweder über eine in der Nähe abgestelltes Glas oder über ein Essentia-Röhrensystem zugeführt werden. Dabei sind Röhren ein wenig effizienter, ein Punkt an Essentia hält etwa 10% länger.
+tc.research_page.LAMPGROWTH.1=Anders als die Arkane Lampe, aus der sie gemacht wird, strahlt die Lampe des Wachstums kaum Licht aus, solange sie nicht mit Herba-Essentia versorgt wird. Wenn dies gemacht wird, wachsen alle Pflanzen auf die das Licht am hellsten scheint wesentlich schneller als normal.<BR>Essentia kann der Lampe entweder über eine in der Nähe abgestelltes Glas oder über ein Essentia-Röhrensystem zugeführt werden.
 #
 tc.research_name.LAMPFERTILITY=Lampe der Fruchtbarkeit
 tc.research_text.LAMPFERTILITY=Wirft auf alles ein romantisches Licht
-tc.research_page.LAMPFERTILITY.1=Any living creatures bathed in the gentle pink glow of this lamp is immediately placed in a much more romantic mood. If they are able they will seek others of their kind to mate.<BR>This lamp will have not effect if there is 8 or more of a particular species already present.<BR>It requires victus essentia to function which can be fed to the lamp either by placing a jar nearby, or attaching the lamp directly to an essentia piping system.
+tc.research_page.LAMPFERTILITY.1=Jedes Lebewesen, das in das sanfte pinke Licht dieser Lampe getaucht ist, wird in eine romantische Stimmung versetzt. Wenn sie können, suchen sie sich andere ihrer Art um sich zu paaren.<BR>Die Lampe hat keinen Effekt, wenn es bereits 8 oder mehr einer Spezies gibt.<BR>Sie benötigt Victus-Essentia zur Funktion. Diese kann der Lampe entweder über eine in der Nähe abgestelltes Glas oder über ein Essentia-Röhrensystem zugeführt werden.
 #
 tc.research_name.JARVOID=Glas der Leere
 tc.research_text.JARVOID=Zu viel Essentia? Unmöglich!
@@ -1227,7 +1221,7 @@ tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to dr
 #
 tc.research_name.BONEBOW=Knochenbogen
 tc.research_text.BONEBOW=Stock und Stein...
-tc.research_page.BONEBOW.1=You have discovered a way of crafting a bow from bone and infusing it with entropic energy.<BR>The resulting weapon is capable of firing much faster than a normal bow and arrows launched from it travels faster and hit harder.
+tc.research_page.BONEBOW.1=Du hast einen Weg gefunden, einen Bogen aus Knochen herzustellen und mit Entropie zu infundieren.<BR>Die daraus resultierende Waffe ist wesentlich schneller als ein normaler Bogen, mit ihm verschossene Pfeile sind schneller und treffen ihr Ziel heftiger.
 #
 tc.research_name.THAUMATORIUM=Automatische Alchemie
 tc.research_text.THAUMATORIUM=Alchemie für die Massen
@@ -1247,16 +1241,16 @@ tc.research_page.RUNICARMORUPGRADES.2=§nKinetic Feedback§r<BR>When your shield
 tc.research_page.RUNICARMORUPGRADES.3=§nHardened§r<BR>This upgrade doubles the amount of mundane armor protection a piece of runic armor provides once it's shielding has been breached.<BR>§nEmergency Shielding§r<BR>When the runic shield is breached this upgrade will instantly add 8 (or more) charge spread amongst the armor pieces you are wearing. Each runic armor piece with this upgrade adds 8 charge. This ability has a two minute cooldown.
 #
 tc.research_name.RUNICGOGGLES=Runenbrille der Enthüllung
-tc.research_text.RUNICGOGGLES=The best of both worlds
-tc.research_page.RUNICGOGGLES.1=While being protected by Runic Armor is vital, you also need the utility of Goggles of Revealing to perform your thaumaturgical tasks. Why not have both?<BR>By affixing the charms of the runic headgear to a pair of goggles, you can enjoy the benefits of both.
+tc.research_text.RUNICGOGGLES=Das beste aus beiden Welten
+tc.research_page.RUNICGOGGLES.1=Während der Schutz der Runenrüstung überlebenswichtig ist, benötigst du auch die Vielseitigkeit der Brille der Enthüllung für deine thaumaturgischen Aufgaben. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einer Brille kannst du die Vorzüge von Beidem genießen.
 #
 tc.research_name.RUNICBOOTSTRAVELLER=Runenstiefel des Reisenden
-tc.research_text.RUNICBOOTSTRAVELLER=The best of both worlds
-tc.research_page.RUNICBOOTSTRAVELLER.1=While being protected by Runic Armor is vital, you have begun to miss the speed granted by your Boots of Travelling. Why not have both?<BR>By affixing the charms of the runic footgear to a pair of boots of travelling, you can enjoy the benefits of both.
+tc.research_text.RUNICBOOTSTRAVELLER=Das beste aus beiden Welten
+tc.research_page.RUNICBOOTSTRAVELLER.1=Während der Schutz der Runenrüstung überlebenswichtig ist, vermisst du die Geschwindigkeit der die Geschwindigkeit der Stiefel des Reisenden. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einem Paar der Stiefel kannst du die Vorzüge von Beidem genießen.
 #
 tc.research_name.WARDEDARCANA=Arkane Türen und Druckplatten
 tc.research_text.WARDEDARCANA=Zugangskontrolle
-tc.research_page.WARDEDARCANA.1=Some experimentation has led to an interesting discovery - the ability to imprint memories in inanimate objects. Your first attempt at using the discovery is doors and pressure plates that remember who placed them.<BR>The door is unbreakable to anyone except the person who placed it. Additionally the door will refuse to open for anyone but its owner. The owner can also craft iron or gold keys that will grant others access to this door.<BR>By crafting an iron key and clicking on the door, you will link the key to that door. 
-tc.research_page.WARDEDARCANA.2=You can then give the key to another person and they will be able to use it on the door to gain permanent permission to open it. They will still not be able to break the door, or grant anyone else access. For that you need the gold key.<BR>The gold key serves much the same function as the iron key, except they can also grant other people iron key access to that door. Only the original owner of the door can hand out gold key access. They are also not able to remove the door with a wand. Only the original owner will be able to do that.
-tc.research_page.WARDEDARCANA.3=This pressure plate has a few novel features.<BR>Firstly it has 3 settings that can be toggled by right-clicking on it: It can trigger on everything (like a wooden pressure plate), just you, or everything except you.<BR>Secondly, like all other warded items only you can remove it.<BR>Lastly it can be linked to other players with the use of keys. These pressure plates can be used to open arcane doors as long as someone with access to the plate has access to the door as well.
+tc.research_page.WARDEDARCANA.1=Deine Experimente haben dich etwas Interessantes entdecken lassen - die Fähigkeit, Erinnerungen in leblose Objekte zu bringen. Der erste Versuch diese Entdeckung anzuwenden führte zu Türen und Druckplatten, die wissen, wer sie platziert hat.<BR>Die Tür kann nur von demjenigen abgebaut werden, der sie errichtet hat. Zudem kann sie nur von ihrem Besitzer geöffnet werden. Der Besitzer kann eiserne oder goldene Schlüssel machen, die anderen Zugang zu der Tür ermöglichen.<BR>Wenn du einen Eisenschlüssel machst und mit ihm auf die Tür klickst, verbindest du den Schlüssel mit der Tür. 
+tc.research_page.WARDEDARCANA.2=Jetzt kannst du den Schlüssel einer anderen Person geben, die dadurch das dauerhafte Recht erhält, die Tür zu öffnen. Sie kann jedoch weder die Tür abbauen, noch jemand anderem Zugang gewähren. Dafür benötigst du einen Goldschlüssel.<BR>Der Goldschlüssel funktioniert wie der Eisenschlüssel, aber zusätzlich kann man damit anderen Personen mit Eisenschlüsseln Zugang zu der Tür gewähren. Nur der Besitzer der Tür kann den Zugang mit Goldschlüsseln gewähren, und nur dieser kann Türen mit seinem Stab abbauen.
+tc.research_page.WARDEDARCANA.3=Diese Druckplatte besitzt einige neue Funktionen.<BR>Erstens hat sie 3 Einstellungen, die durch einen Rechtsklick geändert werden können: Immer auslösen (wie eine Holz-Druckplatte), nur du oder jeder außer dir.<BR>Zweitens, wie bei allen bannenden Items, kannst nur du sie entfernen.<BR>Drittens kann sie durch Schlüssel mit anderen Spielern verbunden werden. Mit diesen Druckplatten können Arkane Türen geöffnet werden, wenn jemand mit Zugang zur Druckplatte auch Zugang zur Tür hat.
 #
