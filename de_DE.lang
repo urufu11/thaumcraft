@@ -729,40 +729,40 @@ tc.research_page.ROD_reed.1=Ein Stabkern aus Zuckerrohr besitzt eine etwas grö�
 #
 tc.research_name.ROD_greatwood_staff=Magische Langstäbe
 tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
-tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for you buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
-tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has more than double the vis storage potential of a greatwood wand, being able to store up to 125 vis of each type.
+tc.research_page.ROD_greatwood_staff.1=Stäbe sind das Handwerkszeug von jedem Thaumaturgen, aber manchmal sind die einfach nicht befriedigend. Magische Langstäbe sind an sich nur größere Stäbe, die mehr Vis speichern können.<BR>Weil sie größer und auch stabiler als normale Stäbe sind, können sie im Notfall sogar als Waffe eingesetzt werden.<BR>Leider macht sie das unbrauchbar für die komplizierten Vorgänge und die gute Kontrolle, die Arkane Werkbänke oder ähnliche Geräte erfordern.
+tc.research_page.ROD_greatwood_staff.2=Ein Langstab aus Großholz hat mehr als das doppelte Lagerpotential eines normalen Großholzstabes, er kann bis zu 125 Vis jedes Types speichern.
 #
 tc.research_name.ROD_silverwood_staff=Silberholzlangstabkerne
 tc.research_text.ROD_silverwood_staff=Magisch bis ins Mark
-tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 250 vis of each type.
+tc.research_page.ROD_silverwood_staff.1=Langstabkerne aus Silberholz können bis zu 250 Vis jedes Types speichern.
 #
 tc.research_name.ROD_obsidian_staff=Obsidianlangstabkerne
 tc.research_text.ROD_obsidian_staff=Irdener Visspeicher
-tc.research_page.ROD_obsidian_staff.1=A staff core chiselled from obsidian can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_page.ROD_obsidian_staff.1=Ein aus Obsidian gemeißelter Langstabkern kann bis zu 175 Vis jedes Types speichern.<BR>Wie der normale Stabkern, lädt sich auch dieser Kern wieder auf.
 #
 tc.research_name.ROD_bone_staff=Knochenlangstabkerne
 tc.research_text.ROD_bone_staff=Entropischer Visspeicher
-tc.research_page.ROD_bone_staff.1=A staff core carved from bone can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_page.ROD_bone_staff.1=Ein aus Knochen geschnitzter Langstabkern kann bis zu 175 Vis jedes Types speichern.<BR>Wie der normale Stabkern, lädt sich auch dieser Kern wieder auf.
 #
 tc.research_name.ROD_blaze_staff=Lohenrutenlangstabkerne
 tc.research_text.ROD_blaze_staff=Feuriger Visspeicher
-tc.research_page.ROD_blaze_staff.1=A staff core crafted from blaze rods can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_page.ROD_blaze_staff.1=Ein aus Lohenruten gefertigter Langstabkern kann bis zu 175 Vis jedes Types speichern.<BR>Wie der normale Stabkern, lädt sich auch dieser Kern wieder auf.
 #
 tc.research_name.ROD_ice_staff=Eisige Langstabkerne
 tc.research_text.ROD_ice_staff=Eisiger Visspeicher
-tc.research_page.ROD_ice_staff.1=A staff core crafted from ice can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_page.ROD_ice_staff.1=Ein aus Eis geschnitzter Langstabkern kann bis zu 175 Vis jedes Types speichern.<BR>Wie der normale Stabkern, lädt sich auch dieser Kern wieder auf.
 #
-tc.research_name.ROD_quartz_staff=Quarzlangstabkerne
+tc.research_name.ROD_quartz_staff=Quartzlangstabkerne
 tc.research_text.ROD_quartz_staff=Ordnung-Visspeicher
-tc.research_page.ROD_quartz_staff.1=A staff core chiseled from quartz can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_page.ROD_quartz_staff.1=Ein aus Quartz gemeißelter Langstabkern kann bis zu 175 Vis jedes Types speichern.<BR>Wie der normale Stabkern, lädt sich auch dieser Kern wieder auf.
 #
 tc.research_name.ROD_reed_staff=Zuckerrohrlangstabkerne
 tc.research_text.ROD_reed_staff=Luftiger Visspeicher
-tc.research_page.ROD_reed_staff.1=A staff core crafted from reeds can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_page.ROD_reed_staff.1=Ein aus Zuckerrohr gefertigter Langstabkern kann bis zu 175 Vis jedes Types speichern.<BR>Wie der normale Stabkern, lädt sich auch dieser Kern wieder auf.
 #
 tc.research_name.ROD_primal_staff=Ursprungslangstabkern
 tc.research_text.ROD_primal_staff=Elementarmacht vereint
-tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish it's vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturges arsenal.
+tc.research_page.ROD_primal_staff.1=Dieser Kern pulsiert vor gebundener Energie.<BR>Er vereint die Eigenschaften der einfacheren Langstabkerne - er hat die Kapazität eines Silberholz-Kerns und kann sein Vis wieder auffüllen wie die anderen Stabkerne.<BR>Zusätzlich erhöht sich die Macht eines jeden mit ihm benutzten Fokus um eine Stufe. Das macht ihn zu einem wahrhaft mächtigen Werkzeug im Arsenal jedes Thaumaturgen.
 #
 tc.research_name.FOCUSFIRE=Stabfoki
 tc.research_text.FOCUSFIRE=Form trifft auf Funktion
@@ -795,11 +795,11 @@ tc.research_page.FOCUSPORTABLEHOLE.1=Endlich kannst du mit Vis extradimensionale
 #
 tc.research_name.FOCUSWARDING=Stabfokus: Bannen
 tc.research_text.FOCUSWARDING=Beschütze, was dein ist
-tc.research_page.FOCUSWARDING.1=This powerful focus has a very interesting ability. When used on a block it will create an invisible, protective barrier around that block. From that point on the block will not be able to be removed or destroyed until you once again use the wand on it.<BR>The focus can be used on most simple blocks and they will retain many of their normal properties, though while warded those blocks will effectively become frozen in time.<BR>While holding a wand with this focus you will be able to see all blocks that you (and only you) have warded.
+tc.research_page.FOCUSWARDING.1=Dieser mächtige Fokus hat eine interessante Fähigkeit. Wenn er auf einen Block angewendet wird, erzeugt er eine unsichtbare Schutzbarriere um diesen Block. Von diesem Punkt aus kann dieser Block nicht zerstört werden, bis du deinen Stab erneut benutzt.<BR>Der Fokus kann auf die meisten primitiven Blöcke angewendet werden und erhält die meisten ihrer normalen Eigenschaften, obwohl der damit gebannte Block effektiv in der Zeit eingefroren wird.<BR>Wenn du einen Stab mit diesem Fokus in der Hand hältst, kannst du sehen, welche Blöcke du (und zwar nur du) gebannt hast.
 #
 tc.research_name.FOCUSPRIMAL=Stabfokus: Ursprung
 tc.research_text.FOCUSPRIMAL=Rohe Magie
-tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
+tc.research_page.FOCUSPRIMAL.1=Welcher Teufel hat dich geritten, als du dieses Ding kreiert hast? Dieser Fokus scheint äußerst gefährlich und nur ein Irrer würde versuchen, ihn außerhalb einer sicheren Umgebung zu verwenden.<BR>Zugegeben, der Ball aus ursprünglicher Energie ist im wahrsten Sinne des Wortes umwerfend, doch seine Flugbahn ist im besten Fall unvorhersehbar und im schlimmsten Fall geradezu heimtückisch.<BR>Dennoch verlangt er nach weiteren Studien: Der Energieball zeigt einige interessante, andersdimensionale Eigenschaften und besitzt Energiemuster, die du zuvor nur in Wisps und Auranodien gesehen hast.
 #
 tc.research_name.FOCUSPOUCH=Fokustasche
 tc.research_text.FOCUSPOUCH=Angenehmer Behälter für deine Foki
@@ -1176,7 +1176,7 @@ tc.research_page.ARCANELAMP.2=           §nArkaner Bohrer§r<BR>In Verbindung m
 tc.research_name.BASICARTIFACE=Basis-Artefaktkreierung
 tc.research_text.BASICARTIFACE=Notwendige Dinge
 tc.research_page.BASICARTIFACE.1=§nSalis Mundus§r<BR><BR>Salis Mundus, oder Thaumaturgensalz, wie es für gewöhnlich genannt wird, wird hergestellt, indem Viskristalle zerstoßen und mit Substanzen, die natürlich reich an Magie sind, gemischt werden.<BR>Wie sein gewöhnliches Gegenstück fügt Thaumaturgensalz jedem magischen Rezept und jeder Formel Geschmack (metaphorisch gesehen) hinzu. Es ist ein starkes Bindemittel, fähig, selbst die grundverschiedensten magischen Elemente zusammenzuhalten.<BR>Es gibt einige Substanzen, die mit den zerstoßenen Kristallen gemischt werden können, um Salis Mundus zu kreieren.
-tc.research_page.BASICARTIFACE.2=§nUrsprungstalisman§r<BR><BR>Primal Charms form an important basis for many thaumaturgical constructs. They have no inherent power of their own beyond being able to focus and channel primal energy and essentia.<BR>Rumors persist that these charms have additional powers, but that is little more than hearsay.
+tc.research_page.BASICARTIFACE.2=§nUrsprungstalisman§r<BR><BR>Ursprungstalismane bilden eine wichtige Grundlage für viele thaumaturgische Konstrukte. Sie besitzen keine eigenen Kräfte außer der Fähigkeit ursprüngliche Energie und Essentia zu fokussieren und zu leiten.<BR>Gerüchtehalber besitzen diese Talismane noch weitere Kräfte, aber das ist Hörensagen...
 #
 tc.research_name.TUBES=Essentiaröhren
 tc.research_text.TUBES=Transport von Essentia
@@ -1215,12 +1215,12 @@ tc.research_page.JARVOID.1=Gläser der Leere funktionieren größtenteils wie no
 tc.research_name.TUBEFILTER=Fortgeschrittene Essentiaröhren
 tc.research_text.TUBEFILTER=Was du willst, wo du es willst
 tc.research_page.TUBEFILTER.1=§nGefilterte Essentiaröhren§r funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Glasschildern zu markieren.  Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Glasschild entfernen.
-tc.research_page.TUBEFILTER.2=§nRestriktive Essentiaröhren§r funktionieren wie normale Röhren, nur, dass durch sie alle Saugkraft, die durch sie führt, halbiert.<LINE>§nEssentia-Richtungsröhren§r akzeptieren nur das Saugen aus einer Richtung. Die blauen Markierungen zeigen die Richtung an, von der das Saugen akzeptiert wird.
+tc.research_page.TUBEFILTER.2=§nRestriktive Essentiaröhren§r funktionieren wie normale Röhren, nur, dass durch sie alle Saugkraft, die durch sie führt, halbiert wird.<LINE>§nEssentia-Richtungsröhren§r akzeptieren nur das Saugen aus einer Richtung. Die blauen Markierungen zeigen die Richtung an, von der das Saugen akzeptiert wird.
 #
 tc.research_name.MIRRORESSENTIA=Essentiaspiegel
 tc.research_text.MIRRORESSENTIA=Essentia, wo du sie brauchst
-tc.research_page.MIRRORESSENTIA.1=Magical mirrors are very useful for transporting items over long distances, but what if that same principle can be applied to essentia? You think you have discovered a way to do just that.<BR>Essentia mirrors, like their name implies, can transport essentia in the same way that magic mirrors transport items. There are a few important limitations however.<BR>You cannot pipe essentia directly into the mirrors - they are only able to transport essentia that has been drawn from a source towards something like an Infusion Matrix or Arcane Furnace.    
-tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to draw essentia from sources via the mirror.<BR>Drawing something as unstable as essentia over such long distances has some risks and occasionaly a small amount of essentia will get lost. 
+tc.research_page.MIRRORESSENTIA.1=Magische Spiegel sind sehr nützlich um Items über weite Strecken zu transportieren. Was, wenn das auch mit Essentia funktioniert? Du glaubst, genau das jetzt tun zu können.<BR>Essentiaspiegel können, wie ihr Name bereits sagt, Essentia transportieren, wie normale Spiegel es mit Items tun. Es gibt jedoch ein paar Einschränkungen.<BR>Du kannst Essentia nicht mit Röhren in einen Spiegel leiten - es können nur Essentia transportiert werden, die von etwas wie einer Infusionsmatrix oder einem Arkanen Ofen angezogen werden.    
+tc.research_page.MIRRORESSENTIA.2=Die Spiegel erlauben es diesen Dingen also, Essentia von entfernten Quellen durch die Spiegel anzuziehen.<BR>Der Transport von etwas so instabilem, wie Essentia, über so große Entfernungen ist risikobehaftet und ab und an geht ein wenig Essentia verloren. 
 #
 tc.research_name.BONEBOW=Knochenbogen
 tc.research_text.BONEBOW=Stock und Stein...
@@ -1240,7 +1240,7 @@ tc.research_page.RUNICARMOR.2=selbst, wenn keine Trefferpunkte mehr da sind, bie
 tc.research_name.RUNICARMORUPGRADES=Runenrüstungs-Upgrades
 tc.research_text.RUNICARMORUPGRADES=Schilde auf Maximum!
 tc.research_page.RUNICARMORUPGRADES.1=Die Runenrüstung zu verbessern, ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisch§r<BR>Runenrüstung mit diesem Upgrade lädt sich viel schneller wieder auf.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
-tc.research_page.RUNICARMORUPGRADES.2=§nKinetisches Feedback§r<BR>Wenn dein Schild durchbrochen wurde, setzt dieses Upgrade eine Detonation aus kinetischer Energie frei. Der Schaden und die Kraft dieser Detonation erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.<BR>§nRevitalisierendes Feedback§r<BR>enn dein Schild durchbrochen wurde, wird ein mehrere Sekunden dauernder Impuls aus regenerierender Energie an den Träger abgegeben. Die Stärke dieses Impulses erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.
+tc.research_page.RUNICARMORUPGRADES.2=§nKinetisches Feedback§r<BR>Wenn dein Schild durchbrochen wurde, setzt dieses Upgrade eine Detonation aus kinetischer Energie frei. Der Schaden und die Kraft dieser Detonation erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.<BR>§nRevitalisierendes Feedback§r<BR>Wenn dein Schild durchbrochen wurde, wird ein mehrere Sekunden dauernder Impuls aus regenerierender Energie an den Träger abgegeben. Die Stärke dieses Impulses erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.
 tc.research_page.RUNICARMORUPGRADES.3=§nVerstärkt§r<BR>Dieses Upgrade verdoppelt den Schutz, den die Runenrüstung bietet, wenn der Schild durchbrochen wurde.<BR>§nNotfallschild§r<BR>Wenn der Runenschild durchbrochen wurde, verteilt dieses Upgrade 8 Ladungen auf deine getragenen Runenrüstungsteile. Jedes Teil mit diesem Upgrade fügt 8 Ladungen hinzu. Dieser Effekt braucht zwei Minuten zur Regeneration.
 #
 tc.research_name.RUNICGOGGLES=Runenbrille der Enthüllung
