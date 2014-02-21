@@ -11,9 +11,9 @@ potion.fluxtaint=Fluxverseuchung
 potion.soulshatter=Seelensplittern
 #
 # Entities
-entity.ThaumSlime.name=Thaumischer Schleim
-entity.Dart.name=Golemdart
-entity.FrostShard.name=Frostscherbe
+entity.Thaumcraft.ThaumSlime.name=Thaumischer Schleim
+entity.Thaumcraft.Dart.name=Golemdart
+entity.Thaumcraft.FrostShard.name=Frostscherbe
 entity.Thaumcraft.Firebat.name=Flammfledermaus
 entity.Thaumcraft.Wisp.name=Wisp
 entity.Thaumcraft.Alumentum.name=Alumentum
