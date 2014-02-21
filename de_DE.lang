@@ -441,7 +441,7 @@ tc.key9=Dieser Schlüssel gewährt Zugriff auf eine
 tc.key10=Arkane Tür bei
 tc.key11=Arkane Druckplatte bei
 tc.wandnocharge=Der Zauberstab ist nicht ausreichend geladen um das zu tun.
-tc.wandcharge=Dieser Stab hält momentan %s vis
+tc.wandcharge=Dieser Stab hält momentan %s Vis
 tc.jaressentia=Hält %s Essentia
 tc.jarname=Glas mit
 tc.markedloc=markierte Orte
@@ -477,7 +477,7 @@ tc.primalcharm.1=Du glaubst, ein Flüstern zu hören
 tc.primalcharm.2=Er vibriert heftig
 tc.primalcharm.3=Sein Summen ist ziemlich beruhigend
 tc.primalcharm.4=Warte, zeigte er gerade eine siebte Farbe?
-tc.primalcharm.trigger=Für einen Moment umrahmen seltsame Energien den Ursprungstalisman. Die verschinden schnell wieder, aber du fühlst dich nun seltsam inspiriert...
+tc.primalcharm.trigger=Für einen Moment umrahmen seltsame Energien den Ursprungstalisman. Die verschwinden schnell wieder, aber du fühlst dich nun seltsam inspiriert...
 #
 # Aspects
 tc.aspect.primal=Primärer Aspekt
@@ -565,11 +565,11 @@ tc.research_page.RESEARCH.4=kennst, aus denen es kombiniert wird.<BR>Wenn du ein
 tc.research_page.RESEARCH.5=§l   §n(2) Aspekte verbinden§r<BR><BR>Nachdem du Forschungspunkte gesammelt hast, kannst du versuchen, sie am Forschungstisch zu Verbundaspekten zu kombinieren.<BR>Um einen Forschungstisch zu bauen, musst du lediglich zwei §5Tische§0 nebeneinander stellen und sie mit einem Schreibset anklicken. Das Rezept für Tische befindet sich in der Kategorie §5Artefakte§0.<BR>Wenn du das Inventar des Forschungstisches öffnest, siehst du das rechts gezeigte Interface.<BR>Das Schreibset, dass du zur Herstellung benutzt hast, befindet sich bei §l1§r.
 tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Du solltest alle primären (und vielleicht einige verbundene) Aspekte im Bereich §l3§r mit unterschiedlichen Anzahlen aufgelistet sehen können. Wenn du eine Welt zum ersten Mal betrittst, erhältst du eine kleine Anzahl an primären Aspekten, um anfangen zu können.<BR>Wenn du mit dem Thaumometer
 tc.research_page.RESEARCH.7=bereits unterwegs warst, könnte hier bereits eine große Anzahl an primären und Verbundaspekten zu finden sein.<BR>Jetzt kannst du beginnen, Aspekte zu komplexeren verbundenen zu kombinieren, indem du die gewünschten Aspekte anklickst oder sie in die Runenkreise in §l4§r ziehst. Die gewählten Aspekte erscheinen bei §l4§r und sobald du zwei gewählt hast, kannst du mit dem violetten Button versuchen, sie zu kombinieren. War das erfolgreich, dann siehst du unten rechts deinen Ertrag, er sollte ebenso bei §l3§r erscheinen.<BR>Die Komponenten werden auch dann verbraucht, wenn die Kombination nicht zu einem gültigen Aspekt führte.
-tc.research_page.RESEARCH.8=§l   §n(3) Grundlagenforschung§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Für diesen Schritt musst du Schreibzeug und Papier dabei haben.<BR>Wenn du dein Thaumonomicon öffnest, kannst du dein bereits erreichtes Wissen und Forschungen, die du jetzt betreiben kannst, sehen.<BR>Blinkende quadratische oder runde Symbole stehen für Grundlagenforschungen.
+tc.research_page.RESEARCH.8=§l   §n(3) Grundlagenforschung§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Für diesen Schritt musst du Schreibzeug und Papier dabei haben.<BR>Wenn du dein Thaumonomikon öffnest, kannst du dein bereits erreichtes Wissen und Forschungen, die du jetzt betreiben kannst, sehen.<BR>Blinkende quadratische oder runde Symbole stehen für Grundlagenforschungen.
 tc.research_page.RESEARCH.9=Wenn du ihren Titel lesen kannst (anstelle von merkwürdigen Runen), kannst du sie anklicken. Papier und Tinte aus deinem Inventar werden verbraucht und du erhältst eine Forschungsnotiz. Diese Notiz kannst du nun am Tisch erforschen, indem du sie in §l2§r legst.<BR>Bereich §l5§r zeigt nun ein Blatt Papier mit Sechsecken und Aspekt-Symbolen am Rand. Wenn du ein Fragezeichen siehst, bedeutet es, dass du diesen Aspekt noch nicht kennst und ihn erst lernen musst.<LINE> 
 tc.research_page.RESEARCH.10=Um eine Forschung abzuschließen, musst du alle Aspekte verbinden und aktivieren. Dafür ziehst du einen Aspekt zu einem benachbarten Sechseck, das entweder einen der Aspekte enthält, aus denen sich der bewegte Aspekt zusammensetzt, oder in welchem der bewegte Aspekt ein Bestandteil ist.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>Das Setzen eines Aspekts verbraucht einen Forschungspunkt. Wenn du einen Fehler machst, kannst du den Aspekt mit einem Klick entfernen, aber du erhältst den Forschungspunkt nicht zurück.
 tc.research_page.RESEARCH.11=Das machst du so lange, bis du ein Muster erzeugt hast, das alle Rand-Aspekte verbindet. Diese müssen nicht mit jedem anderen verbunden sein, es reicht, wenn es eine zusammenhängende Fläche gibt.<BR>Jetzt verwandeln sich die Forschungsnotizen in eine Entdeckung.<LINE>Anmerkung: Das Setzen und Entfernen von Aspekten aus den Sechsecken verbraucht Tinte aus deinem Schreibset. Wenn es leer ist, musst du es erst wieder füllen, bevor du fortfahren kannst.
-tc.research_page.RESEARCH.12=§l    §nSekundärforschung§r<BR>Sechseckige Symbole im Thaumonomicon zeigen Sekundärforschungen an. Wie bei Grundlagenforschungen musst du darauf klicken, doch anstelle von Forschungsnotizen erhälst du die Forschung direkt. Sekundärforschungen haben einen Preis an Aspekten, den du bezahlen musst, aber sie kosten keine Tinte und kein Papier.
+tc.research_page.RESEARCH.12=§l    §nSekundärforschung§r<BR>Sechseckige Symbole im Thaumonomikon zeigen Sekundärforschungen an. Wie bei Grundlagenforschungen musst du darauf klicken, doch anstelle von Forschungsnotizen erhältst du die Forschung direkt. Sekundärforschungen haben einen Preis an Aspekten, den du bezahlen musst, aber sie kosten keine Tinte und kein Papier.
 #
 tc.research_name.KNOWFRAG=Wissensfragmente
 tc.research_text.KNOWFRAG=Fragmente verlorenen Wissens
@@ -609,7 +609,7 @@ tc.research_page.RESEARCHER1.1=Deine Art zu forschen ist effektiver geworden.<BR
 #
 tc.research_name.RESEARCHER2=Forschungsmeisterschaft
 tc.research_text.RESEARCHER2=Macht ist Wissen
-tc.research_page.RESEARCHER2.1=Du kannst nun noch effizienter forschen.<BR>Immer, wenn du einen Aspekt aus einem Sechseck entfernst, gibt es eine 50% Chance, dass du den Forschungspunkt zurückerhältst.<BR>Zudem gibt es eine 10% Chance, dass es nichts kostet, einen Aspekt zu setzen.<BR>Zuletzt kannst du Aspekte kombinieren, in dem du auf den gewünschen Aspekt STRG-klickst. Wenn du die benötigten Komponenten hast, verbinden sich diese automatisch zu dem angeklickten Aspekt.
+tc.research_page.RESEARCHER2.1=Du kannst nun noch effizienter forschen.<BR>Immer, wenn du einen Aspekt aus einem Sechseck entfernst, gibt es eine 50% Chance, dass du den Forschungspunkt zurückerhältst.<BR>Zudem gibt es eine 10% Chance, dass es nichts kostet, einen Aspekt zu setzen.<BR>Zuletzt kannst du Aspekte kombinieren, in dem du auf den gewünschten Aspekt STRG-klickst. Wenn du die benötigten Komponenten hast, verbinden sich diese automatisch zu dem angeklickten Aspekt.
 #
 tc.research_name.RESEARCHDUPE=Forschungsduplizierung
 tc.research_text.RESEARCHDUPE=Geteilte Freude ist doppelte Freude
@@ -823,7 +823,7 @@ tc.research_page.CRUCIBLE.3=Außer der Ressourcenverschwendung kann das verdampf
 #
 tc.research_name.ENCHFABRIC=Verzauberter Stoff
 tc.research_text.ENCHFABRIC=Samtig und stylisch
-tc.research_page.ENCHFABRIC.1=Durch die Kombination von Spinnenseide und Wolle und das infundieren mit Vis hast du einen seidigen, verzauberten Stoff kreiert, für den du viele Verwendungen siehst.<BR>Ebenso hast du entdeckt, wie du aus dem verzauberten Stoff Gewänder herstellen kannst. Die Teile schützen etwa so gut, wie eine Lederrüstung, aber sie sind viel haltbarer als normale Materialien es jemals sein könnten.<BR>Zusätzlich sind sie viel besser und stärker verzauberbar als selbst die teuerste Rüstung.  
+tc.research_page.ENCHFABRIC.1=Durch die Kombination von Spinnenseide und Wolle und das infundieren mit Vis hast du einen seidenen, verzauberten Stoff kreiert, für den du viele Verwendungen siehst.<BR>Ebenso hast du entdeckt, wie du aus dem verzauberten Stoff Gewänder herstellen kannst. Die Teile schützen etwa so gut, wie eine Lederrüstung, aber sie sind viel haltbarer als normale Materialien es jemals sein könnten.<BR>Zusätzlich sind sie viel besser und stärker verzauberbar als selbst die teuerste Rüstung.  
 tc.research_page.ENCHFABRIC.2=Die einzelnen Teile dieses Outfits geben dir einen kleinen Rabatt auf das Vis, das deinem Zauberstab entnommen wird, wenn du sie trägst.<BR>Du kannst die Gewänder genau so färben, wie du es mit einer Lederrüstung tun würdest.
 #
 tc.research_name.ENCHANT=Verzauberungen
@@ -1167,7 +1167,7 @@ tc.research_page.BASICARTIFACE.2=§nUrsprungstalisman§r<BR><BR>Ursprungstalisma
 tc.research_name.TUBES=Essentiaröhren
 tc.research_text.TUBES=Transport von Essentia
 tc.research_page.TUBES.1=Du hast verschiedene Wege entdeckt, um Essentia zu transportieren, aber keiner von ihnen hat sich für Alchemie in großem Stil als brauchbar erwiesen - bis jetzt.<BR>Du weißt jetzt, wie man stabile und relativ dichte Röhren herstellt. Während man normale Chemikalien in Glas transportieren kann, können bestimme Arten von Essentia sich entweder auflösen oder aber hindurch diffundieren. Indem du das Glas in Eisen einfasst und es mit Quecksilber behandelst, kannst du selbst die flüchtigsten Arten von Essentia beschützen. Goldene Anschlüsse geben dem Röhrensystem den letzten Schliff und machen es optisch ansprechend.
-tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließt immer dann durch die Röhren, wenn diese mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser.<BR>Gläser mit verschiedenen Sorten Essentia werden nur den in ihnen enthaltenen Essentia-Typ zu sich saugen. Die Röhren können jedoch nut eine Art Essentia gleichzeitig saugen und transportieren - die höchste Saugkraft hat Priorität. Ohne die richtige Verwendung von Ventilen ist es sehr leicht, ein Röhrennetz zu verstopfen. Der Gebrauch von Ventilen ist unerlässlich.<BR>Wenn du Röhren siehst,
+tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließt immer dann durch die Röhren, wenn diese mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser.<BR>Gläser mit verschiedenen Sorten Essentia werden nur den in ihnen enthaltenen Essentia-Typ zu sich saugen. Die Röhren können jedoch nur eine Art Essentia gleichzeitig saugen und transportieren - die höchste Saugkraft hat Priorität. Ohne die richtige Verwendung von Ventilen ist es sehr leicht, ein Röhrennetz zu verstopfen. Der Gebrauch von Ventilen ist unerlässlich.<BR>Wenn du Röhren siehst,
 tc.research_page.TUBES.3=an denen Essentia austritt, bedeutet das, dass verschiedene Saugkräfte interferieren. Die Farbe gibt dir einen Hinweis auf die Art der Absaugung.<LINE>Das Essentia-Ventil verhält sich wie eine normale Röhre, außer dass es manuell oder mit einem Redstone-Signal geschlossen werden kann. In diesem Fall wird der Essentiafluss unterbrochen.<LINE>Der Essentia-Resonator ist nützlich, um Fehler in deinem Netzwerk zu finden. Du kannst ihn an einer Röhre oder einem verbundenen Gerät verwenden, um zu sehen, welche Essentia es momentan enthält und wie groß die Saugkraft ist.
 #
 tc.research_name.CENTRIFUGE=Alchemische Zentrifuge
@@ -1216,7 +1216,7 @@ tc.research_name.THAUMATORIUM=Automatische Alchemie
 tc.research_text.THAUMATORIUM=Alchemie für die Massen
 tc.research_page.THAUMATORIUM.1=Bis jetzt war die Alchemie irgendwie eine unsichere Angelegenheit - falsch abgezählte Aspekte, sich zersetzende Essentia und Zutaten, die Aufwand in der Herstellung bedeuteten. Das ist endlich Vergangenheit.<BR>Das Thaumatorium ist eine großartige Erfindung, die es einem Thaumaturgen erlaubt, zu wählen welche Formel und welcher Katalysator verwendet werden. Es saugt die nötige Essentia über Röhren aus verfügbaren Quellen. Solange es eine ausreichende Versorgung mit dem Katalysator gibt, produziert es das gewünschte Produkt perfekt. Immer.<BR>Der Kessel, der die Grundlage bildet, benötigt kein Wasser, aber eine Wärmequelle.
 tc.research_page.THAUMATORIUM.2=Wenn du das Gerät benutzt, siehst du mehrere Felder. Das obere linke Feld ist der Platz für den Katalysator. Nachdem du ihn dort abgelegt hast, kannst du im oberen rechten Feld das gewünschte Rezept auswählen.<BR>Das untere Feld zeigt die benötigten Essentia in der richtigen Reihenfolge an. Wenn die Maschine in Betrieb ist, siehst du dort Fortschrittsbalken.<BR>Das Produkt wird nach vorne ausgeworfen oder in ein vor dem Auswurf platziertes Inventar gelegt.
-tc.research_page.THAUMATORIUM.3=Normalerweile kann ein Thaumatorium nur ein aktives Rezept bearbeiten, aber mit einer Mnemomatrix an einer Seite kann die Anzahl der Rezepte erhöht werden.<BR>Jede Matrix erhöht diese Anzahl um 2. 
+tc.research_page.THAUMATORIUM.3=Normalerweise kann ein Thaumatorium nur ein aktives Rezept bearbeiten, aber mit einer Mnemomatrix an einer Seite kann die Anzahl der Rezepte erhöht werden.<BR>Jede Matrix erhöht diese Anzahl um 2. 
 #
 tc.research_name.RUNICARMOR=Runenrüstung
 tc.research_text.RUNICARMOR=Schilde hoch!
@@ -1225,16 +1225,16 @@ tc.research_page.RUNICARMOR.2=selbst, wenn keine Trefferpunkte mehr da sind, bie
 #
 tc.research_name.RUNICARMORUPGRADES=Runenrüstungs-Upgrades
 tc.research_text.RUNICARMORUPGRADES=Schilde auf Maximum!
-tc.research_page.RUNICARMORUPGRADES.1=Die Runenrüstung zu verbessern, ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisch§r<BR>Runenrüstung mit diesem Upgrade lädt sich viel schneller wieder auf.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
+tc.research_page.RUNICARMORUPGRADES.1=Die Runenrüstung zu verbessern, ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisiert§r<BR>Runenrüstung mit diesem Upgrade lädt sich viel schneller wieder auf.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
 tc.research_page.RUNICARMORUPGRADES.2=§nKinetisches Feedback§r<BR>Wenn dein Schild durchbrochen wurde, setzt dieses Upgrade eine Detonation aus kinetischer Energie frei. Der Schaden und die Kraft dieser Detonation erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.<BR>§nRevitalisierendes Feedback§r<BR>Wenn dein Schild durchbrochen wurde, wird ein mehrere Sekunden dauernder Impuls aus regenerierender Energie an den Träger abgegeben. Die Stärke dieses Impulses erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.
 tc.research_page.RUNICARMORUPGRADES.3=§nVerstärkt§r<BR>Dieses Upgrade verdoppelt den Schutz, den die Runenrüstung bietet, wenn der Schild durchbrochen wurde.<BR>§nNotfallschild§r<BR>Wenn der Runenschild durchbrochen wurde, verteilt dieses Upgrade 8 Ladungen auf deine getragenen Runenrüstungsteile. Jedes Teil mit diesem Upgrade fügt 8 Ladungen hinzu. Dieser Effekt braucht zwei Minuten zur Regeneration.
 #
 tc.research_name.RUNICGOGGLES=Runenbrille der Enthüllung
-tc.research_text.RUNICGOGGLES=Das beste beider Welten
+tc.research_text.RUNICGOGGLES=Das Beste beider Welten
 tc.research_page.RUNICGOGGLES.1=Während der Schutz der Runenrüstung überlebenswichtig ist, benötigst du auch die Vielseitigkeit der Brille der Enthüllung für deine thaumaturgischen Aufgaben. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einer Brille kannst du die Vorzüge von Beidem genießen.
 #
 tc.research_name.RUNICBOOTSTRAVELLER=Runenstiefel des Reisenden
-tc.research_text.RUNICBOOTSTRAVELLER=Das beste beider Welten
+tc.research_text.RUNICBOOTSTRAVELLER=Das Beste beider Welten
 tc.research_page.RUNICBOOTSTRAVELLER.1=Während der Schutz der Runenrüstung überlebenswichtig ist, vermisst du die Geschwindigkeit der Stiefel des Reisenden. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einem Paar der Stiefel kannst du die Vorzüge von Beidem genießen.
 #
 tc.research_name.WARDEDARCANA=Arkane Türen und Druckplatten
