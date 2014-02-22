@@ -168,6 +168,8 @@ tile.blockTube.1.name=Essentia Venttiili
 tile.blockTube.2.name=Alkeeminen Linko
 tile.blockTube.3.name=Suodatettu Essentia Putki
 tile.blockTube.4.name=Essentia Puskuri
+tile.blockTube.5.name=Rajoitettu Essentia Putki
+tile.blockTube.6.name=Suunnattu Essentia Putki
 container.alchemyfurnace=Alkeeminen Uuni
 tile.blockArcaneFurnace.name=Paholaisen Uuni
 #
@@ -362,6 +364,7 @@ item.ItemChestplateRunic.name=Riimu-rintapanssari
 item.ItemLeggingsRunic.name=Riimuhousut
 item.ItemBootsRunic.name=Riimukengät
 item.ItemGogglesRunic.name=Riimu-Paljastavat Lasit
+item.ItemBootsTravellerRunic.name=Riimu-Matkustajan Kengät
 item.runic.charge=Lataus
 item.runic.upgrade.1=Jännite
 item.runic.upgrade.2=Täydennetty
@@ -557,7 +560,7 @@ tc.research_text.RESEARCH=Miten tutkit juttuja
 tc.research_page.RESEARCH.1=Ennen kun voit tehdä suurimman osan thaumaturgimaisista tavaroista ja palikoista, sinun täytyy ensin tietää miten ne tehdään. Tässä prosessissa on useita askelia:<BR>(1) Seikkailemalla maailmassa ja tutkimalla palikoita, tavaroita ja olentoja §5Thaumomittarilla§0<BR><BR>(2) Ottamalla tutkimuspisteet mitkä sait ensimmäisessä vaiheessa ja suurentamalla sinun aspektitietoa §5Tutkimuspöydällä§0<BR><BR>(3) Käyttämällä aspekteja jotka jo tiedät ja tutkimalla osatietoa ja reseptejä §5Tutkimuspöydällä§0.<LINE>
 tc.research_page.RESEARCH.2=§l      §n(1) Seikkaileminen§r<BR><BR>Et voi suorittaa tutkimusta ilman tutkimuspisteitä, ja paras tapa saada pisteitä, on seikkailu ja asioiden tutkiminen maailmassa.<BR>Ensimmäinen asia mikä sinun pitää tehdä on §5Thaumomittari§0 (Katso seuraava sivu). Osoittamalla §5Thaumomittarilla§0 esineisiin tai olentoihin ja pitämällä oikeaa hiiren nappia sinä aloitat tutkimaan niitä. Prosessi ei kestä kauaa, mutta liikut hitaammin sen aikana.<BR>Kun olet valmis, §5Thaumomittari§0 näyttää mitä aspekteja esine sisältää. Ruudun alakulmassa näet yhteenvedon aspekteista ja tutkimuspisteistä jotka löysit.
 tc.research_page.RESEARCH.3=<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>Alussa et voi tutkia kaikkia tavaroita koska et ole löytänyt vielä niiden osia aspekteista. Esimerkiksi, tavara joka sisältää Lux- aspektia voi tutkia vain jos sinä olet aiemmin tutkinut Lux- aspektin, tai tiedät
-tc.research_page.RESEARCH.4=kaksi aspektia jotka luo sen.<BR>Ensimmäisen kerran kun löydät aspektin jotain tutkimalla, saat tuplasti enemmän tutkimuspisteitä kuin yleensä.<BR>Esineet ja oliot voi yleensä tutkia vain kerran.<BR>Joskus jonkin tutkiminen paljastaa lisävihjeitä ja näkemyksiä thaumoturgiseen tutkimukseen, avaten aiheita joita voit tutkia pidemmälle.
+tc.research_page.RESEARCH.4=kaksi aspektia jotka luo sen.<BR>Ensimmäisen kerran kun löydät aspektin jotain tutkimalla, saat tuplasti enemmän tutkimuspisteitä kuin yleensä.<BR>Esineet ja oliot voi yleensä tutkia vain kerran.<BR>Joskus jonkin tutkiminen paljastaa lisävihjeitä ja näkemyksiä thaumoturgiseen tutkimukseen, avaten aiheita joita voit tutkia pidemmälle.<BR>Näin löydetyillä tutkimuksilla on meripihkan värinen ikoni.
 tc.research_page.RESEARCH.5=§l §n(2) Aspektien Yhdistäminen§r<BR><BR>Kun olet hankkinut tutkimuspisteitä, voit yrittää yhdistää niistä yhdistettyjä aspekteja tutkimuspöydässä.<BR>Tehdäksesi tutkimuspöydän laita kaksi §5pöytää§0 vierekkäin ja klikkaa niitä Piirrustustyökaluilla. Resepti pöydille on listattu §5Nokkeluudet§0 kategoriassa.<BR>Jos avaat pöydän ikkunan, näet liitännän joka näkyy kuvassa oikealla.<BR>Piirrustustyökalut, mitä käytit pöydän tekemiseen löytyy aukosta §l1§r. 
 tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Sinun pitäisi nähdä kaikki alkukantaiset aspektit (ja mahdollisesti yhdistettyjä aspekteja) listattuna alueella §l3§r vaihtelivilla määrillä niihin liitettynä. Kun tulet maailmaan ensimmäistä kertaa, jokaisella pelaajalla on pieni määrä alkukantaisia aspekteja aloittaakseen.<BR>
 tc.research_page.RESEARCH.7=Jos olet tehnyt tutkimusta thaumomittarilla etukäteen, sinulla saattaa olla merkittävästi alkukantaista ja yhdistettyä aspektia listattuna.<BR>Voit nyt alkaa yhdistelemään aspekteja yhdistettyihin aspekteihin klikkaamalla niitä jotka haluat yhdistää tai vetämällä sen riimuiselle ympyrälle alueella §l4§r. Valitut aspektit ilmestyvät alueelle §l4§r ja kun sinulla on kaksi valittuna, lilaa nappia painamalla yrität yhdistää ne. Jos onnistuit sinun pitäisi nähdä mitä sait oikeassa alakulmassa ja alueella §l3§r.<BR>Aspektit joita käytit kuluu silti vaikka yhdistäminen ei onnistunut.
@@ -601,11 +604,11 @@ tc.research_page.PLANTS.6=Nämä pavut, tunnettuna nimellä Mana Papu, sisältä
 #
 tc.research_name.RESEARCHER1=Research Expertise
 tc.research_text.RESEARCHER1=Knowledge is Power
-tc.research_page.RESEARCHER1.1=You are have become more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.
+tc.research_page.RESEARCHER1.1=You have become more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.
 #
 tc.research_name.RESEARCHER2=Research Mastery
 tc.research_text.RESEARCHER2=Power is Knowledge
-tc.research_page.RESEARCHER2.1=You are have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.
+tc.research_page.RESEARCHER2.1=You have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by CTRL-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
 #
 tc.research_name.RESEARCHDUPE=Research Duplication
 tc.research_text.RESEARCHDUPE=Sharing is Caring
@@ -623,7 +626,7 @@ tc.research_page.BASICTHAUMATURGY.2=Holding shift will display exact numbers hel
 #
 tc.research_name.GRATE=Item Grate
 tc.research_text.GRATE=Let the good things in
-tc.research_page.GRATE.1=The item grate allows you to toggle it open or closes with your hand, or with a redstone signal. If in the open position, any dropped items will simply fall right through it.<BR>Items can also be piped into the top of an item grate using a hopper or other means and if open it will be ejected out the bottom. 
+tc.research_page.GRATE.1=The item grate allows you to toggle it open or close it with your hand, or with a redstone signal. If in the open position, any dropped items will simply fall right through it.<BR>Items can also be piped into the top of an item grate using a hopper or other means and if open, it will be ejected out the bottom.
 #
 tc.research_name.NODETAPPER1=Advanced Node Tapping
 tc.research_text.NODETAPPER1=Taking it all
@@ -749,7 +752,7 @@ tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It c
 tc.research_name.FOCUSFIRE=Wand Foci
 tc.research_text.FOCUSFIRE=Form meets Function
 tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
-tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will be screwed into place. Keep pressing F to cycle through the foci you are carrying.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
+tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will show up in a radial menu allowing you to chose from any of the ones you are carrying with a simple click.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
 #
 tc.research_name.FOCUSFROST=Wand Focus: Frost
 tc.research_text.FOCUSFROST=Revenge is a dish best served cold
@@ -1063,7 +1066,7 @@ tc.research_page.INFERNALFURNACE.2=It should also be noted that the occasional b
 tc.research_name.BELLOWS=Arcane Bellows
 tc.research_text.BELLOWS=Stoking the flames
 tc.research_page.BELLOWS.1=The Arcane Bellows performs much the same function as its mundane counterpart, the only difference is that it happily pumps away by itself sending forth a stream of neverending air.<BR>Attaching it to an Infernal Furnace has shown some interesting results. The elemental infused air not only stokes the flames increasing its smelting speed, but causes them to burn much purer, resulting in a reduction of flux generated and increasing the chance of creating bonus nuggets and other materials when smelting.
-tc.research_page.BELLOWS.2=They can also be attached to normal or alchemical furnaces to increase their speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>You are confident more uses will reveal themselves eventually. 
+tc.research_page.BELLOWS.2=They can also be attached to normal or alchemical furnaces to increase their speed.<BR>It is also possible to attach them to crucibles to reduce the time it takes for their water to boil.<BR>Bellows can be deactivated by applying a redstone signal.<BR>You are confident more uses will reveal themselves eventually. 
 #
 tc.research_name.ARCANESTONE=Arcane Stone
 tc.research_text.ARCANESTONE=Magically strenghtened building material
@@ -1163,13 +1166,13 @@ tc.research_page.BASICARTIFACE.2=§nPrimal Charm§r<BR><BR>Primal Charms form an
 tc.research_name.TUBES=Essentia Tubes
 tc.research_text.TUBES=Transportation of essentia
 tc.research_page.TUBES.1=You have discovered several ways to transport essentia, but none of them has proven useful for large scale alchemical operations - until now.<BR>You have unlocked the key to creating stable and relatively leak-free tubing. While mundane chemicals can be transported in glass, certain types of essentia either disolves or simply passes right through it. By wrapping the glass in iron and treating it with quicksilver you have managed to protect it from even the most volatile types of essentia. Gold fittings finish off the piping system and makes it visually appealing.
-tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars.<BR>Jars containing different kinds of essentia will only draw their kind of essentia towards them. Tubes however can only draw and transport one kind of essentia at a time - the highest drawing strength will take priority. Without the proper use of valves it is quite easy for a network of tubes to get gummed up. The use of valves is essential.<LINE>  
-tc.research_page.TUBES.3=The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off.<LINE>The Essentia Resonator is handy for troubleshooting your tube network. You can use it on a tube or other essentia using device to see what essentia it currently contains and the suction it is applying. 
+tc.research_page.TUBES.2=The tubes can be connected to all manner of alchemical devices, though warded jars and alembics are their primary targets.<BR>Essentia flows through the tubes whenever something is connected to them that can accept it, like warded jars.<BR>Jars containing different kinds of essentia will only draw their kind of essentia towards them. Tubes however can only draw and transport one kind of essentia at a time - the highest drawing strength will take priority. Without the proper use of valves it is quite easy for a network of tubes to get gummed up. The use of valves is essential.<BR>When you see gasses being vented
+tc.research_page.TUBES.3=from a tube, it means different kinds of suction are interfering with each other. The color gives a clue as to the types of suction.<LINE>The essentia valve acts much like a normal length of tubing, except it can be turned off by hand or a redstone signal. When this is done the flow off essentia through it will be cut off.<LINE>The Essentia Resonator is handy for troubleshooting your tube network. You can use it on a tube or other essentia using device to see what essentia it currently contains and the suction it is applying.
 #
 tc.research_name.CENTRIFUGE=Alchemical Centrifuge
 tc.research_text.CENTRIFUGE=Taking things apart
 tc.research_page.CENTRIFUGE.1=The alchemical centrifuge is a wonderous invention that allows you to break essentia into its component parts.<BR>When compound essentia flows into the centrifuge from below it will be slowly broken down into the primal or compound essentia that it is made from. Only one of the components is created for each point of essentia broken down.<BR>The resulting essentia needs to be drawn from the top of the centrifuge. Because of the idiosyncrasies of the tube pressure system, it would be best to connect a §5Essentia Buffer§0 to the top of the centrifuge (see next page).
-tc.research_page.CENTRIFUGE.2=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 64.
+tc.research_page.CENTRIFUGE.2=The essentia buffer allows you to store a limited amount of essentia - 8 points total, though it can be made up of any combination of essentia types. Like a jar it has suction, though it applies the minimum amount of suction possible (1).<BR>This means that is usually only able to draw essentia from an essentia source it is directly attached to. However tubes can be connect to all its sides, meaning that it is invaluable for getting essentia out of devices like the centrifuges that could contain variable types of essentia.<BR>You can attach bellows to the buffer - each attached bellows increases its suction by 32.
 #
 tc.research_name.TRAVELTRUNK=Traveling Trunk
 tc.research_text.TRAVELTRUNK=Mobile Luggage
@@ -1194,9 +1197,10 @@ tc.research_name.JARVOID=Void Jar
 tc.research_text.JARVOID=Too much essentia? Impossible!
 tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
 #
-tc.research_name.TUBEFILTER=Filtered Essentia Tube
+tc.research_name.TUBEFILTER=Advanced Essentia Tube
 tc.research_text.TUBEFILTER=What you want, where you want it
-tc.research_page.TUBEFILTER.1=Filtered essentia tubes work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
+tc.research_page.TUBEFILTER.1=§nFiltered essentia tubes§r work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
+tc.research_page.TUBEFILTER.2=§nRestricted essentia tubes§r work like normal tubes, except they halve the any suction passing through them.<LINE>§nDirectional essentia tubes§r only accept suction from one direction. The blue markings indicate the direction from which suction will be accepted.
 #
 tc.research_name.MIRRORESSENTIA=Essentia Mirrors
 tc.research_text.MIRRORESSENTIA=Essentia where you need it
