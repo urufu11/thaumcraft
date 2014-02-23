@@ -685,7 +685,7 @@ tc.research_page.CAP_copper.1=Le cuivre à des propriétes similaires au fer lor
 #
 tc.research_name.ROD_greatwood=Manche en bois arcanique pour baguette
 tc.research_text.ROD_greatwood=Dépôt d'énergie magique
-tc.research_page.ROD_greatwood.1=Sculté dans du bois arcanique, ce bâton double le stockage potentiel de Vis par rapport au bois ordinaire. Il stocke jusqu'à 50 Vis de chaque type.
+tc.research_page.ROD_greatwood.1=Sculpté dans du bois arcanique, ce bâton double le stockage potentiel de Vis par rapport au bois ordinaire. Il stocke jusqu'à 50 Vis de chaque type.
 #
 tc.research_name.ROD_silverwood=Manche en bois d'argent pour baguette
 tc.research_text.ROD_silverwood=Magie dans son cœur
@@ -726,11 +726,11 @@ tc.research_page.ROD_silverwood_staff.1=La Base du bâton fabriquée à partir d
 #
 tc.research_name.ROD_obsidian_staff=Base de bâton en obsidienne
 tc.research_text.ROD_obsidian_staff=Stockage de vis de la Terre
-tc.research_page.ROD_obsidian_staff.1=La Base du bâton est ciselé à partir d'obsidienne et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
+tc.research_page.ROD_obsidian_staff.1=La Base du bâton est ciselée à partir d'obsidienne et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
 #
 tc.research_name.ROD_bone_staff=Base de bâton en os
 tc.research_text.ROD_bone_staff=Stockage de vis de l'entropie
-tc.research_page.ROD_bone_staff.1=La Base du bâton est sculté à partir d'os et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
+tc.research_page.ROD_bone_staff.1=La Base du bâton est sculptée dans des os et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
 #
 tc.research_name.ROD_blaze_staff=Base de bâton embrasée
 tc.research_text.ROD_blaze_staff=Stockage de vis enflammé
@@ -742,7 +742,7 @@ tc.research_page.ROD_ice_staff.1=La Base du bâton est fabriquée à partir de g
 #
 tc.research_name.ROD_quartz_staff=Base de bâton en quartz
 tc.research_text.ROD_quartz_staff=Stockage de vis ordonné
-tc.research_page.ROD_quartz_staff.1=La Base du bâton est scultée à partir de quartz et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
+tc.research_page.ROD_quartz_staff.1=La Base du bâton est sculptée dans du quartz et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
 #
 tc.research_name.ROD_reed_staff=Base de bâton en roseau
 tc.research_text.ROD_reed_staff=Stockage de vis aéré
