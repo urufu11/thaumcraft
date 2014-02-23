@@ -615,7 +615,7 @@ tc.research_page.RESEARCHER2.1=Vous êtes devenu encore plus efficace pour effec
 #
 tc.research_name.RESEARCHDUPE=Duplication de recherche
 tc.research_text.RESEARCHDUPE=Le partage attentionné
-tc.research_page.RESEARCHDUPE.1=Vous avez découvert un moyen de copier une note de recherche complète.<BR> Lordque vous complétez la recherche ou placez une note de recheche complète sur la table de recherche, vous verrez une icône en étoile. Cliqué dessus va créer une copie de la recherche tant que vous portez  du papier, de l'encre et avez assez d'aspect disponible.<BR> Plus  de copies sont créées de la recherche, plus cher deviendra la copie.
+tc.research_page.RESEARCHDUPE.1=Vous avez découvert un moyen de copier une note de recherche complète.<BR> Lorsque vous complétez la recherche ou placez une note de recheche complète sur la table de recherche, vous verrez une icône en étoile. Cliqué dessus va créer une copie de la recherche tant que vous portez  du papier, de l'encre et avez assez d'aspect disponible.<BR> Plus  de copies sont créées de la recherche, plus cher deviendra la copie.
 #
 tc.research_name.DECONSTRUCTOR=Table de déconstruction
 tc.research_text.DECONSTRUCTOR=Lorsque avoir l'œil n'est pas suffissant
@@ -685,7 +685,7 @@ tc.research_page.CAP_copper.1=Le cuivre à des propriétes similaires au fer lor
 #
 tc.research_name.ROD_greatwood=Manche en bois arcanique pour baguette
 tc.research_text.ROD_greatwood=Dépôt d'énergie magique
-tc.research_page.ROD_greatwood.1=Sculté dans du bois arcanique, ce bâton double le stockage potentiel de Vis par rapport au bois ordinaire. Il stocke jusqu'à 50 Vis de chaque type.
+tc.research_page.ROD_greatwood.1=Sculpté dans du bois arcanique, ce bâton double le stockage potentiel de Vis par rapport au bois ordinaire. Il stocke jusqu'à 50 Vis de chaque type.
 #
 tc.research_name.ROD_silverwood=Manche en bois d'argent pour baguette
 tc.research_text.ROD_silverwood=Magie dans son cœur
@@ -722,35 +722,35 @@ tc.research_page.ROD_greatwood_staff.2=Un bâton fait à partir de bois arcaniqu
 #
 tc.research_name.ROD_silverwood_staff=Base de bâton en bois d'argent
 tc.research_text.ROD_silverwood_staff=Magique au centre
-tc.research_page.ROD_silverwood_staff.1=La Base de bâton est fabriqués à partir de bois d'argent peuvent stocker jusqu'à 250 vis de chaque type.
+tc.research_page.ROD_silverwood_staff.1=La Base du bâton fabriquée à partir de bois d'argent peut stocker jusqu'à 250 vis de chaque type.
 #
 tc.research_name.ROD_obsidian_staff=Base de bâton en obsidienne
 tc.research_text.ROD_obsidian_staff=Stockage de vis de la Terre
-tc.research_page.ROD_obsidian_staff.1=La Base de bâton est ciselé à partir d'obsidienne peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
+tc.research_page.ROD_obsidian_staff.1=La Base du bâton est ciselée à partir d'obsidienne et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
 #
 tc.research_name.ROD_bone_staff=Base de bâton en os
 tc.research_text.ROD_bone_staff=Stockage de vis de l'entropie
-tc.research_page.ROD_bone_staff.1=La Base de bâton est sculté à partir d'os peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
+tc.research_page.ROD_bone_staff.1=La Base du bâton est sculptée dans des os et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
 #
-tc.research_name.ROD_blaze_staff=Base de bâton embrasé
+tc.research_name.ROD_blaze_staff=Base de bâton embrasée
 tc.research_text.ROD_blaze_staff=Stockage de vis enflammé
-tc.research_page.ROD_blaze_staff.1=La Base de bâton est fabriqué à partir de bâton de Blaze peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
+tc.research_page.ROD_blaze_staff.1=La Base du bâton est fabriquée à partir de bâton de Blaze et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
 #
 tc.research_name.ROD_ice_staff=Base de bâton glacé
 tc.research_text.ROD_ice_staff=Stockage de vis glacé
-tc.research_page.ROD_ice_staff.1=La Base de bâton est fabriqué à partir de glace peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
+tc.research_page.ROD_ice_staff.1=La Base du bâton est fabriquée à partir de glace et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
 #
 tc.research_name.ROD_quartz_staff=Base de bâton en quartz
 tc.research_text.ROD_quartz_staff=Stockage de vis ordonné
-tc.research_page.ROD_quartz_staff.1=ULa Base de bâton est sculté à partir de quartz peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
+tc.research_page.ROD_quartz_staff.1=La Base du bâton est sculptée dans du quartz et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
 #
 tc.research_name.ROD_reed_staff=Base de bâton en roseau
 tc.research_text.ROD_reed_staff=Stockage de vis aéré
-tc.research_page.ROD_reed_staff.1=La Base de bâton est fabriqué à partir de roseau peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
+tc.research_page.ROD_reed_staff.1=La Base du bâton est fabriquée à partir de roseau et peut stocker 175 vis de chaque type.<BR>Comme le manche de baguette, il va doucement reconstituer son stock de vis.
 #
 tc.research_name.ROD_primal_staff=Base de bâton primaire
 tc.research_text.ROD_primal_staff=Pouvoir élémentaire combiné
-tc.research_page.ROD_primal_staff.1=Cette base bat avec de l'énergie latente.<BR>Elle combine toutes les fonctionnalité de la moindre base de bâton - Elle a la capacité de stockage de vis de la base de bois d'argent et est capable de reconstituer son vis stocké comme les différentes bases de bâton primaire.<BR>Dernièrement, elle ajoutent un niveau d'enchantement de force à chaque Foci utilisé avec elle.<BR> C'est vraiment un outil puissant dans n'importe quel arsenal de thaumaturges.
+tc.research_page.ROD_primal_staff.1=Cette base bat avec de l'énergie latente.<BR>Elle combine toutes les fonctionnalités de la moindre base de bâton - Elle a la capacité de stockage de vis de la base de bâton en bois d'argent et est capable de reconstituer son vis stocké comme les différentes bases de bâton primaire.<BR>Dernièrement, elle ajoute un niveau d'enchantement de force à chaque Foci utilisé avec elle.<BR> C'est vraiment un outil puissant dans n'importe quel arsenal de thaumaturge.
 #
 tc.research_name.FOCUSFIRE=Les Focis
 tc.research_text.FOCUSFIRE=La forme rencontre la fonction
@@ -815,7 +815,7 @@ tc.research_page.RESTABLE.1=La table de recherche est créée en plaçant deux t
 #
 tc.research_name.THAUMONOMICON=Thaumonomicon
 tc.research_text.THAUMONOMICON=Un référentiel de connaissances
-tc.research_page.THAUMONOMICON.1=Pour fabriquer un Thaumonomicon, vous devez simplement utiliser votre baguette sur une bibliothèque que vous avez placée.<BR>Le Thaumonomicon est l'ouvrage de référence pour toutes les choses thaumaturgiques. Il liste toutes les découvertes que vous avez faites et vous donne une vision générale de ce qu'il reste à faire. Chaque fois que vous découvrez quelque chose et utilisé un parchemin, la découverte sera automatiquement ajoutée au livre. Vous pouvez ensuite parcourir vos découvertes et cliquer dessus pour avoir de meilleurs précisions et voir les fabrications qui leur sont associées.
+tc.research_page.THAUMONOMICON.1=Pour fabriquer un Thaumonomicon, vous devez simplement utiliser votre baguette sur une bibliothèque que vous avez placée.<BR>Le Thaumonomicon est l'ouvrage de référence pour toutes les choses thaumaturgiques. Il liste toutes les découvertes que vous avez faites et vous donne une vision générale de ce qu'il reste à faire. Chaque fois que vous découvrez quelque chose et utilisez un parchemin, la découverte sera automatiquement ajoutée au livre. Vous pouvez ensuite parcourir vos découvertes et cliquer dessus pour avoir de meilleurs précisions et voir les fabrications qui leur sont associées.
 #
 tc.research_name.CRUCIBLE=Creuset
 tc.research_text.CRUCIBLE=Bulles et ébullition
@@ -1242,6 +1242,6 @@ tc.research_page.RUNICBOOTSTRAVELLER.1=Puisque être protégé par une armure ru
 tc.research_name.WARDEDARCANA=Portes et plaque à pression arcanique
 tc.research_text.WARDEDARCANA=Contrôle des accès
 tc.research_page.WARDEDARCANA.1=Certaines expérimentations ont conduit à une interessante découverte - l'abilité d'imprimer les souvenirs aux objets inanimés. Votre première essai utilisant cette découverte sont les portes et les plaques à pression que se souviennent de qui les a placés.<BR>La porte est incassable pour quiconque excepté la personne qui la placé. En plus, la porte va refuser de s'ouvrir pour quiconque excepté sont propriétaire. Le propriétaire peut aussi fabriquer des clés en fer ou en or qui permet aux autres d'accéder à la porte.<BR>En fabriquant une clé en fer et cliquant sur la porte, vous aurez
-tc.research_page.WARDEDARCANA.2=relié la clé à la porte. Vous pouvez ensuite donner la clé à d'autres personnes et ils seront en mesure de l'utiliser sur la porte pour gagner une permission permanente de l'ouvrir. Ils ne seront pas capablent de détruire la porte ou de donnez l'accès à quelqu'un d'autre. Pour ça, vous avez besoin d'une clé en or.<BR>La clé en or à la même fonction que la clé en fer, excepté qu'elles peuvent aussi accorder aux autres personnes de donner une clé en fer pour cette porte. Seulement le propriétaire original de la porte peut distribuer la clé d'accès en or. Ils sont aussi pas en mesure d'enlever la porte avec une baguette. Seulement le propriétaire original est capable de faire ça.
-tc.research_page.WARDEDARCANA.3=La plaque de pression a quelques nouvelles caractèristiques.<BR>Premièrement, elle dispose de 3 configuration qui peuvent être basculés par un clique droit sur elle : Elle peut se déclencher sur tout (comme une plaque de pression en bois), juste sur vous, ou sur tout excepté vous.<BR> Deuxièmement, comme tous les objets protégés, seulement vous pouvez l'enlever.<BR>Dernièrement, elle peut être lié aux autres joueurs avec l'utilisation de clés. Les plaques à pression peuvent être utilisé pour ouvrir les portes arcanique tant que la personne avec l'accès à la plaque a aussi accès à la porte.
+tc.research_page.WARDEDARCANA.2=relié la clé à la porte. Vous pouvez ensuite donner la clé à d'autres personnes et ils seront en mesure de l'utiliser sur la porte pour gagner une permission permanente de l'ouvrir. Ils ne seront pas capablent de détruire la porte ou de donnez l'accès à quelqu'un d'autre. Pour ça, vous avez besoin d'une clé en or.<BR>La clé en or à la même fonction que la clé en fer, excepté qu'elle peut aussi accorder aux autres personnes de donner une clé en fer pour cette porte. Seul le propriétaire original de la porte peut distribuer la clé d'accès en or. Ils ne seront aussi pas en mesure d'enlever la porte avec une baguette. Seul le propriétaire original est capable de faire ça.
+tc.research_page.WARDEDARCANA.3=La plaque de pression a quelques nouvelles caractèristiques.<BR>Premièrement, elle dispose de 3 configuration qui peuvent être basculés par un clique droit sur elle : Elle peut être déclenchée avec tout (comme une plaque de pression en bois), juste avec vous, ou avec tout excepté vous.<BR> Deuxièmement, comme tous les objets protégés, seul vous pouvez l'enlever.<BR>Dernièrement, elle peut être lié aux autres joueurs avec l'utilisation de clés. Les plaques de pression peuvent être utilisées pour ouvrir les portes arcanique seulement si la personne avec l'accès à la plaque possède aussi accès à la porte.
 #
