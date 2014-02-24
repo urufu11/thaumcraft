@@ -38,6 +38,7 @@ entity.Thaumcraft.TaintedCreeper.name=腐化爬行者
 entity.Thaumcraft.Pech.name=岩精强盗
 entity.Thaumcraft.Pech.1.name=岩精法师
 entity.Thaumcraft.Pech.2.name=岩精猎手
+entity.Thaumcraft.PrimalOrb.name=原始魔力球
 entity.Thaumcraft.TravelingTrunk.name=箱子宝宝
 entity.trunk.guiname=的箱子宝宝
 entity.trunk.move=箱子宝宝将跟随你行动
@@ -88,8 +89,8 @@ tile.blockMetalDevice.6.name=物品格栅(关闭)
 tile.blockMetalDevice.7.name=奥术灯
 tile.blockMetalDevice.8.name=催生灯
 tile.blockMetalDevice.9.name=自动精准坩埚
-tile.blockMetalDevice.10.name=111
-tile.blockMetalDevice.11.name=222
+tile.blockMetalDevice.10.name=神秘学
+tile.blockMetalDevice.11.name=神秘学
 tile.blockMetalDevice.12.name=记忆矩阵
 tile.blockMetalDevice.13.name=繁殖灯 
 tile.blockMagicalLog.greatwood.name=宏伟之木原木
@@ -168,6 +169,8 @@ tile.blockTube.1.name=要素源质阀门
 tile.blockTube.2.name=奥法离心机
 tile.blockTube.3.name=源质过滤管道
 tile.blockTube.4.name=源质缓存器
+tile.blockTube.5.name=源质限制管道
+tile.blockTube.6.name=源质定向管道
 container.alchemyfurnace=炼金炉
 tile.blockArcaneFurnace.name=炼狱熔炉
 #
@@ -213,7 +216,7 @@ item.WandRod.57.name=白骨杖芯
 item.WandRod.100.name=元始杖芯
 #
 # this is what is used to name the wand - the position of the variables can be altered so it makes more sense in other languages
-item.Wand.name=%CAP%ROD%OBJ
+item.Wand.name=%材质 %属性 %类型
 #
 item.Wand.wand.obj=法杖
 item.Wand.staff.obj=手杖
@@ -223,7 +226,7 @@ item.Wand.silverwood.rod=银树
 item.Wand.obsidian.rod=黑曜石
 item.Wand.blaze.rod=烈焰
 item.Wand.ice.rod=寒霜
-item.Wand.ice.rod=白骨
+item.Wand.bone.rod=白骨
 item.Wand.reed.rod=甘蔗
 item.Wand.quartz.rod=石英
 item.Wand.primal.rod=元始
@@ -362,6 +365,7 @@ item.ItemChestplateRunic.name=符文胸甲
 item.ItemLeggingsRunic.name=符文护腿
 item.ItemBootsRunic.name=符文靴子
 item.ItemGogglesRunic.name=符文揭示之护目镜
+item.ItemBootsTravellerRunic.name=符文旅行者之靴
 item.runic.charge=充能
 item.runic.upgrade.1=激发
 item.runic.upgrade.2=增幅
@@ -393,7 +397,6 @@ golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!(意:在�
 golemthreat.6.text=*爱*模式已遗失或者损坏,默认转为*恨*模式.
 golemthreat.7.text=我非常憎恨你.
 golemthreat.8.text=你这酒肉皮囊,去死吧!
-
 recipe.return=返回
 recipe.clickthrough=点击以研究
 recipe.type.workbench=工作台
@@ -461,7 +464,7 @@ tc.inst.4=§6极高§0
 tc.inst.5=§4危险§0
 tc.adv=高级
 tc.resonator1=§9包含 %1$s %2$s 要素§0
-tc.resonator2=§5方向 %1$s %2$s §0 
+tc.resonator2=§5包含 %1$s %2$s §0 
 tc.resonator3=Untyped
 tc.research.purchase=点击换得这项研究
 tc.research.short=你没有足够的元素来换得它
@@ -1197,12 +1200,12 @@ tc.research_page.JARVOID.1=虚空罐子用起来类似普通的要素罐子,但�
 #
 tc.research_name.TUBEFILTER=源质过滤管道
 tc.research_text.TUBEFILTER=你需要什么,需要用它干什么
-tc.research_page.TUBEFILTER.1=源质过滤管道类似普通管道,但可以贴标签.当使用标签标记后它将只限定于运输指定类型的要素源质.<BR>空手时按住shift点击将取下标签.
+tc.research_page.TUBEFILTER.1=§n源质过滤管道类似普通管道,但可以贴标签.当使用标签标记后它将只限定于运输指定类型的要素源质.<BR>空手时按住shift点击将取下标签.
+tc.research_page.TUBEFILTER.2=§n源质限制管道§r 与普通管道类似，他能阻止罐子经过它从罐子抽取要素。<LINE>§n源质定向管道§r 只能从一个方向流出要素，带有蓝色标记的那端是流出端。
 #
 tc.research_name.MIRRORESSENTIA=源质之镜
 tc.research_text.MIRRORESSENTIA=任何地方都有元素可用
-tc.research_page.MIRRORESSENTIA.1=魔镜对于远距离传输物品非常有用,但把相同的原理作用于元素呢?你想你已经发现了方法。<BR>源质之镜,就像他名字那样，能够像传输物品那样传输元素，但是还是有不小的局限性。<BR>你不能将元素用管道连接到魔镜上 - 他只能从源头传输元素到注魔矩阵或者炼金炉。
-  
+tc.research_page.MIRRORESSENTIA.1=魔镜对于远距离传输物品非常有用,但把相同的原理作用于元素呢?你想你已经发现了方法。<BR>源质之镜,就像他名字那样，能够像传输物品那样传输元素，但是还是有不小的局限性。<BR>你不能将元素用管道连接到魔镜上 - 他只能从源头传输元素到注魔矩阵或者炼金炉。 
 tc.research_page.MIRRORESSENTIA.2=实际上，源质之镜允许这些东西通过魔镜从源头抽取元素。<BR>抽取十分不稳定的元素经过长长的距离会有一些风险，并且一小部分元素会丢失。
 #
 tc.research_name.BONEBOW=骨弓
@@ -1219,7 +1222,6 @@ tc.research_name.RUNICARMOR=符文护甲
 tc.research_text.RUNICARMOR=魔力屏障，开!
 tc.research_page.RUNICARMOR.1=通过对保护魔法的探究，你发现了符文护甲。这个名字很具有欺骗性，它并不是传统上的护甲。他在你每天穿的衣服上聚集了护身符类似的保护装置。<BR>这个装备会创造出一道魔力屏障来抵抗大多数种类的伤害。这种护甲有一个能量储存池，当受到伤害时会先从储存池中扣除能量，为穿戴着抵消所有伤害。不过一旦能量耗尽，穿戴者就会像正常情况一样受到伤害。<BR>池子中的能量会实时恢复，
 tc.research_page.RUNICARMOR.2=但是当能量耗尽之后，它们的防御力仅仅约等于皮革护甲。<BR>该护甲不会对溺水、饥饿以及环境伤害相关所产生的伤害进行抵消。<BR>因为该护甲的特殊性，它们不能被正常方式所附魔。但是你相信是一定有办法来提升它们的性能的，你只需要继续探索它们。
-
 #
 tc.research_name.RUNICARMORUPGRADES=符文护甲升级
 tc.research_text.RUNICARMORUPGRADES=魔力屏障调至最大!
@@ -1234,7 +1236,6 @@ tc.research_page.RUNICGOGGLES.1=尽管符文护甲的保护能力是至关重要
 tc.research_name.RUNICBOOTSTRAVELLER=符文旅行者之靴
 tc.research_text.RUNICBOOTSTRAVELLER=两全其美
 tc.research_page.RUNICBOOTSTRAVELLER.1=尽管符文护甲的保护能力是至关重要的，但是你又很怀念旅行者之靴所带来的急速快感。为什么不把这两个一起使用呢？<BR>把符文之靴和旅行者之靴结合起来，你就可以同时从两者之中受益了。
-
 #
 tc.research_name.WARDEDARCANA=奥能之扉及奥术压力盘
 tc.research_text.WARDEDARCANA=控制进出
