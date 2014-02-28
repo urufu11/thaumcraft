@@ -205,18 +205,18 @@ item.WandRod.4.name=石英杖柄
 item.WandRod.5.name=甘蔗杖柄
 item.WandRod.6.name=烈焰杖柄
 item.WandRod.7.name=白骨杖柄
-item.WandRod.50.name=宏伟之木杖芯
-item.WandRod.51.name=黑曜石杖芯
-item.WandRod.52.name=银树杖芯
-item.WandRod.53.name=寒霜杖芯
-item.WandRod.54.name=石英杖芯
-item.WandRod.55.name=甘蔗杖芯
-item.WandRod.56.name=烈焰杖芯
-item.WandRod.57.name=白骨杖芯
-item.WandRod.100.name=元始杖芯
+item.WandRod.50.name=核心宏伟之木杖柄
+item.WandRod.51.name=核心黑曜石杖柄
+item.WandRod.52.name=核心银树杖柄
+item.WandRod.53.name=核心寒霜杖柄
+item.WandRod.54.name=核心石英杖柄
+item.WandRod.55.name=核心甘蔗杖柄
+item.WandRod.56.name=核心烈焰杖柄
+item.WandRod.57.name=核心白骨杖柄
+item.WandRod.100.name=核心元始杖柄
 #
 # this is what is used to name the wand - the position of the variables can be altered so it makes more sense in other languages
-item.Wand.name=%材质 %属性 %类型
+item.Wand.name=%CAP%ROD%OBJ
 #
 item.Wand.wand.obj=法杖
 item.Wand.staff.obj=手杖
@@ -355,7 +355,7 @@ item.ItemGolemUpgrade.2.desc=威猛似火:伤害,容量提升
 item.ItemGolemUpgrade.3.desc=灵动若水:感知,范围提升
 item.ItemGolemUpgrade.4.desc=威严井然之秩序：智力,组织力提升
 item.ItemGolemUpgrade.5.desc=理辩守卫之混沌：防御,推理力提升
-item.ItemBowBone.name=骨碗
+item.ItemBowBone.name=骨弓
 item.ItemManaBean.name=魔豆
 item.TrunkSpawner.name=箱子宝宝
 item.TrunkSpawner.text.1=箱子宝宝可以携运物品
@@ -713,42 +713,42 @@ tc.research_name.ROD_reed=甘蔗杖柄
 tc.research_text.ROD_reed=风之魔力容器
 tc.research_page.ROD_reed.1=甘蔗制做的稍好于宏伟之木杖柄的杖柄,相对于宏伟之木杖柄来说其优势在于,当风之魔力低于10%时无需节点也能缓慢恢复魔力.
 #
-tc.research_name.ROD_greatwood_staff=魔法杖芯
+tc.research_name.ROD_greatwood_staff=核心魔法杖柄
 tc.research_text.ROD_greatwood_staff=法杖的末端有球形把手
-tc.research_page.ROD_greatwood_staff.1=法杖就是用来存储魔力的，你也想花钱为了存的更多一些。魔法杖芯就是更大的基础法杖。他们能够存储更多的vis。<BR>因为它们比法杖更坚固更长，所以能够用来当作应急武器。<BR>很不幸，这也使得他们无法良好的控制，来进行合成物品这项复杂的工作。
-tc.research_page.ROD_greatwood_staff.2=宏伟之树制作的杖芯能够存储比法杖两倍多的vis，它能存储每项法力125vis。
+tc.research_page.ROD_greatwood_staff.1=法杖就是用来存储魔力的，你也想花钱为了存的更多一些。核心魔法杖柄就是更大的基础法杖。他们能够存储更多的vis。<BR>因为它们比法杖更坚固更长，所以能够用来当作应急武器。<BR>很不幸，这也使得他们无法良好的控制，来进行合成物品这项复杂的工作。
+tc.research_page.ROD_greatwood_staff.2=宏伟之树制作的核心魔法杖柄能够存储比法杖两倍多的vis，它能存储每项法力125vis。
 #
-tc.research_name.ROD_silverwood_staff=银树魔法杖芯
+tc.research_name.ROD_silverwood_staff=核心银树魔法杖柄
 tc.research_text.ROD_silverwood_staff=魔力强化
-tc.research_page.ROD_silverwood_staff.1=由银树制作而成的魔法杖芯能够存储各种魔力250 vis。
+tc.research_page.ROD_silverwood_staff.1=由银树制作而成的核心魔法杖柄能够存储各种魔力250 vis。
 #
-tc.research_name.ROD_obsidian_staff=黑曜石魔法杖芯
+tc.research_name.ROD_obsidian_staff=核心黑曜石魔法杖柄
 tc.research_text.ROD_obsidian_staff=土强化
-tc.research_page.ROD_obsidian_staff.1=由黑曜石制作而成的魔法杖芯能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
+tc.research_page.ROD_obsidian_staff.1=由黑曜石制作而成的核心魔法杖柄能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
 #
-tc.research_name.ROD_bone_staff=白骨魔法杖芯
+tc.research_name.ROD_bone_staff=核心白骨魔法杖柄
 tc.research_text.ROD_bone_staff=混沌加强
-tc.research_page.ROD_bone_staff.1=由白骨制作而成的魔法杖芯能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
+tc.research_page.ROD_bone_staff.1=由白骨制作而成的核心魔法杖柄能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
 #
-tc.research_name.ROD_blaze_staff=烈焰魔法杖芯
+tc.research_name.ROD_blaze_staff=核心烈焰魔法杖柄
 tc.research_text.ROD_blaze_staff=烈焰强化
-tc.research_page.ROD_blaze_staff.1=由烈焰棒制作而成的魔法杖芯能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
+tc.research_page.ROD_blaze_staff.1=由烈焰棒制作而成的核心魔法杖柄能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
 #
-tc.research_name.ROD_ice_staff=寒霜魔法杖芯
+tc.research_name.ROD_ice_staff=核心寒霜魔法杖柄
 tc.research_text.ROD_ice_staff=寒霜强化
-tc.research_page.ROD_ice_staff.1=由冰块制作而成的魔法杖芯能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
+tc.research_page.ROD_ice_staff.1=由冰块制作而成的核心魔法杖柄能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
 #
-tc.research_name.ROD_quartz_staff=石英魔法杖芯
+tc.research_name.ROD_quartz_staff=核心石英魔法杖柄
 tc.research_text.ROD_quartz_staff=秩序强化
-tc.research_page.ROD_quartz_staff.1=由石英制作而成的魔法杖芯能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
+tc.research_page.ROD_quartz_staff.1=由石英制作而成的核心魔法杖柄能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
 #
-tc.research_name.ROD_reed_staff=甘蔗魔法杖芯
+tc.research_name.ROD_reed_staff=核心甘蔗魔法杖柄
 tc.research_text.ROD_reed_staff=风强化
-tc.research_page.ROD_reed_staff.1=由甘蔗制作而成的魔法杖芯能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
+tc.research_page.ROD_reed_staff.1=由甘蔗制作而成的核心魔法杖柄能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
 #
-tc.research_name.ROD_primal_staff=元始魔法杖芯
+tc.research_name.ROD_primal_staff=核心元始魔法杖柄
 tc.research_text.ROD_primal_staff=元素力量的总和
-tc.research_page.ROD_primal_staff.1=这个魔法杖芯中有潜在的能量。<BR>他结合了所有魔法杖芯的力量 - 它与银树魔法杖芯的储量相同，而且有其他魔法杖芯恢复魔法的能力。<BR>在任何焦点场合使用它都会提高你的权势。<BR>这是一个对所有魔法师都强有力的物品。
+tc.research_page.ROD_primal_staff.1=这个核心魔法杖柄中有潜在的能量。<BR>他结合了所有核心魔法杖柄的力量 - 它与核心银树魔法杖柄的储量相同，而且有其他核心魔法杖柄恢复魔法的能力。<BR>在任何焦点场合使用它都会提高你的权势。<BR>这是一个对所有魔法师都强有力的物品。
 #
 tc.research_name.FOCUSFIRE=法杖核心
 tc.research_text.FOCUSFIRE=形式遇上功能
@@ -1173,7 +1173,7 @@ tc.research_page.TUBES.3=至关重要的阀门能够被手或者红石信号开�
 tc.research_name.CENTRIFUGE=奥法离心机
 tc.research_text.CENTRIFUGE=分离物品
 tc.research_page.CENTRIFUGE.1=奥法离心机是一种惊艳的能够将符合要素分解为更基本的前置要素的炼金设备<BR>当复合要素的源质从下方流入离心机,就会被慢慢分解成组成它们的前置的复合要素或元始要素.但每消耗一点源质只能得到一点前置要素.<BR>分离得到的要素源质需要从离心机顶部抽走.因为管道压力系统的特性，它连接上§5源质缓存器§0 会更好。（见下页）
-+tc.research_page.CENTRIFUGE.2=源质缓存器允许你存储更多的要素-总共8点， 他能存储任何组合的要素。像罐子一样，它能抽取要素，但是他只能存一点。 (1).<BR>这意味着它只能放在源头处抽取要素。但是管道可以通过各个方向连接它，使得他成了从奥法离心机这类产生多种要素的装置提取要素的最好物品。<BR>你可以与它连接风箱-每个风箱会使他增加64点存储上限。
+tc.research_page.CENTRIFUGE.2=源质缓存器允许你存储更多的要素-总共8点， 他能存储任何组合的要素。像罐子一样，它能抽取要素，但是他只能存一点。 (1).<BR>这意味着它只能放在源头处抽取要素。但是管道可以通过各个方向连接它，使得他成了从奥法离心机这类产生多种要素的装置提取要素的最好物品。<BR>你可以与它连接风箱-每个风箱会使他增加32点存储上限。
 #
 tc.research_name.TRAVELTRUNK=箱子宝宝
 tc.research_text.TRAVELTRUNK=会走路的行李
