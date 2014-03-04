@@ -130,8 +130,8 @@ tile.blockTable.1.name=Table
 tile.blockTable.research.name=Research Table
 tile.blockTable.14.name=Deconstruction Table
 tile.blockTable.15.name=Arcane Worktable
-tile.researchtable.noink=You have run out of ink!
-tile.researchtable.nomove=Active runes can't be moved!
+tile.researchtable.noink.0=You have run out of ink!
+tile.researchtable.noink.1=Refill your scribing tools.
 tile.blockChestHungry.name=Hungry Chest
 tile.blockArcaneDoor.name=Arcane Door
 tile.blockLifter.name=Arcane Levitator
@@ -258,6 +258,12 @@ item.ItemShard.2.name=Water Shard
 item.ItemShard.3.name=Earth Shard
 item.ItemShard.4.name=Order Shard
 item.ItemShard.5.name=Entropy Shard
+item.ItemPrimalArrow.0.name=Air Arrow
+item.ItemPrimalArrow.1.name=Fire Arrow
+item.ItemPrimalArrow.2.name=Water Arrow
+item.ItemPrimalArrow.3.name=Earth Arrow
+item.ItemPrimalArrow.4.name=Order Arrow
+item.ItemPrimalArrow.5.name=Entropy Arrow
 item.ItemArcaneDoor.name=Arcane Door
 item.ItemNugget.0.name=Iron Nugget
 item.ItemNugget.1.name=Copper Nugget
@@ -716,7 +722,7 @@ tc.research_page.ROD_reed.1=A wand core made from reeds has slightly greater sto
 tc.research_name.ROD_greatwood_staff=Magic Staves
 tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
 tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for you buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
-tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has more than double the vis storage potential of a greatwood wand, being able to store up to 125 vis of each type.
+tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has more than double the vis storage potential of a greatwood wand, being able to store up to 125 vis of each type.<BR>Note: You still need to add caps to a stave rod, just like you would for a wand.
 #
 tc.research_name.ROD_silverwood_staff=Silverwood Staff Core
 tc.research_text.ROD_silverwood_staff=Magical to the core
@@ -732,7 +738,7 @@ tc.research_page.ROD_bone_staff.1=A staff core carved from bone can store 175 vi
 #
 tc.research_name.ROD_blaze_staff=Blaze Rod Staff Core
 tc.research_text.ROD_blaze_staff=Fiery vis storage
-tc.research_page.ROD_blaze_staff.1=A staff core crafted from blaze rods can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_page.ROD_blaze_staff.1=A staff core crafted from blaze rods can store 175 vis of each type.
 #
 tc.research_name.ROD_ice_staff=Icy Staff Core
 tc.research_text.ROD_ice_staff=Icy vis storage
@@ -748,7 +754,7 @@ tc.research_page.ROD_reed_staff.1=A staff core crafted from reeds can store 175 
 #
 tc.research_name.ROD_primal_staff=Staff Core of the Primal
 tc.research_text.ROD_primal_staff=Elemental power combined
-tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish it's vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturges arsenal.
+tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish it's vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturges arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
 #
 tc.research_name.FOCUSFIRE=Wand Foci
 tc.research_text.FOCUSFIRE=Form meets Function
@@ -1212,6 +1218,12 @@ tc.research_name.BONEBOW=Bone Bow
 tc.research_text.BONEBOW=Sticks and stones...
 tc.research_page.BONEBOW.1=You have discovered a way of crafting a bow from bone and infusing it with entropic energy.<BR>The resulting weapon is capable of firing much faster than a normal bow and arrows launched from it travels faster and hit harder.
 #
+tc.research_name.PRIMALARROW=Primal Arrows
+tc.research_text.PRIMALARROW=Arrows with an elemental bite
+tc.research_page.PRIMALARROW.1=These arrows are each infused with a specific type of primal energy which gives them interesting and destructive properties<BR>§nAir Arrow§r<BR>These arrows crackle with energy. They inflict similar damage to normal arrows, but the magical energy bypasses any kind of armor protection.<BR>§nFire Arrow§r<BR>These arrows inflict pure fire damage and set their targets alight.
+tc.research_page.PRIMALARROW.2=§nWater Arrow§r<BR>These arrows inflict normal damage, but chills your target to the bone, reducing their movement speed.<BR>§nEarth Arrow§r<BR>These arrows have no special property beyond packing a lot more punch than normal arrows.<BR>§nOrder Arrow§r<BR>This arrow does a little less damage than normal, but it bypasses armor and leaves your enemy weakened.<BR>§nEntropy Arrow§r<BR>This arrow does slightly less damage than normal, 
+tc.research_page.PRIMALARROW.3=but inflicts a withering effect on whatever it hits.<LINE>Primal arrows cannot be picked up from the ground and the Infinity enchantment has only a 1 in 3 chance of preventing a primal arrow from being consumed.
+#
 tc.research_name.THAUMATORIUM=Automated Alchemy
 tc.research_text.THAUMATORIUM=Alchemy for the masses
 tc.research_page.THAUMATORIUM.1=Up to now alchemy has been somewhat of a hit and miss affair - miscounted aspects, degrading essentia and ingredients that require manual labor to mix. This is finally a thing of the past.<BR>The Thaumatorium is a marvellous invention that allows a thaumaturge to select which formula to use and what catalysts to add. It then automatically draws essentia from available sources using tubes. As long as there is a supply of catalyst it produces the required object perfectly, everytime.<BR>The crucible that forms its base does not require water, but a heat source is still needed.
@@ -1225,7 +1237,7 @@ tc.research_page.RUNICARMOR.2=the armor offers protection roughly equivalent to 
 #
 tc.research_name.RUNICARMORUPGRADES=Runic Armor Upgrades
 tc.research_text.RUNICARMORUPGRADES=Shields to maximum!
-tc.research_page.RUNICARMORUPGRADES.1=Improving Runic Armor has turned out to be easier than expected. You have discovered several augmentation that can be applied to it, though only a single augmentation can be applied at a time.<LINE>§nEnergetic§r<BR>Runic armor with this upgrade will replensish its charge much quicker than normal.<BR>§nAugmented§r<BR>This upgrade increases the amount of charge a piece of runic armor has.
+tc.research_page.RUNICARMORUPGRADES.1=Improving Runic Armor has turned out to be easier than expected. You have discovered several augmentations that can be applied to it, though only a single augmentation can be applied at a time.<LINE>§nEnergetic§r<BR>This augmentation will replenish the runic charge 20% quicker than normal.<BR>§nAugmented§r<BR>This upgrade increases the amount of charge a piece of runic armor has.
 tc.research_page.RUNICARMORUPGRADES.2=§nKinetic Feedback§r<BR>When your shielding is breached this upgrade will release a detonation of kinetic energy. The damage and force of the detonation increases depending on how many pieces of armor has this upgrade. This ability has a 30 second cooldown.<BR>§nRevitalizing Feedback§r<BR>When your runic shielding is breached it will release a pulse of regenerative energy into its wearer that will last for a few seconds. The strength of this effect increases for each piece of armor with this upgrade. This effect has a 30 second cooldown.
 tc.research_page.RUNICARMORUPGRADES.3=§nHardened§r<BR>This upgrade doubles the amount of mundane armor protection a piece of runic armor provides once it's shielding has been breached.<BR>§nEmergency Shielding§r<BR>When the runic shield is breached this upgrade will instantly add 8 (or more) charge spread amongst the armor pieces you are wearing. Each runic armor piece with this upgrade adds 8 charge. This ability has a two minute cooldown.
 #
