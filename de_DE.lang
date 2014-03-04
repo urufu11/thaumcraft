@@ -130,8 +130,8 @@ tile.blockTable.1.name=Tisch
 tile.blockTable.research.name=Forschungstisch
 tile.blockTable.14.name=Dekonstruktionstisch
 tile.blockTable.15.name=Arkane Werkbank
-tile.researchtable.noink=Du hast keine Tinte mehr!
-tile.researchtable.nomove=Aktive Runen können nicht bewegt werden!
+tile.researchtable.noink.0=Du hast keine Tinte mehr!
+tile.researchtable.noink.1=Fülle dein Schreibset auf.
 tile.blockChestHungry.name=Hungrige Truhe
 tile.blockArcaneDoor.name=Arkane Tür
 tile.blockLifter.name=Arkaner Levitator
@@ -258,6 +258,12 @@ item.ItemShard.2.name=Wasser-Scherbe
 item.ItemShard.3.name=Erd-Scherbe
 item.ItemShard.4.name=Ordnungs-Scherbe
 item.ItemShard.5.name=Entropie-Scherbe
+item.ItemPrimalArrow.0.name=Luft-Pfeil
+item.ItemPrimalArrow.1.name=Feuer-Pfeil
+item.ItemPrimalArrow.2.name=Wasser-Pfeil
+item.ItemPrimalArrow.3.name=Erde-Pfeil
+item.ItemPrimalArrow.4.name=Ordnung-Pfeil
+item.ItemPrimalArrow.5.name=Entropie-Pfeil
 item.ItemArcaneDoor.name=Arkane Tür
 item.ItemNugget.0.name=Eisennugget
 item.ItemNugget.1.name=Kupfernugget
@@ -716,7 +722,7 @@ tc.research_page.ROD_reed.1=Ein Stabkern aus Zuckerrohr besitzt eine etwas grö�
 tc.research_name.ROD_greatwood_staff=Magische Langstäbe
 tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
 tc.research_page.ROD_greatwood_staff.1=Stäbe sind das Handwerkszeug von jedem Thaumaturgen, aber manchmal sind die einfach nicht befriedigend. Magische Langstäbe sind an sich nur größere Stäbe, die mehr Vis speichern können.<BR>Weil sie größer und auch stabiler als normale Stäbe sind, können sie im Notfall sogar als Waffe eingesetzt werden.<BR>Leider macht sie das unbrauchbar für die komplizierten Vorgänge und die gute Kontrolle, die Arkane Werkbänke oder ähnliche Geräte erfordern.
-tc.research_page.ROD_greatwood_staff.2=Ein Langstab aus Großholz hat mehr als das doppelte Speicherpotential eines normalen Großholzstabes, er kann bis zu 125 Vis jedes Typs speichern.
+tc.research_page.ROD_greatwood_staff.2=Ein Langstab aus Großholz hat mehr als das doppelte Speicherpotential eines normalen Großholzstabes, er kann bis zu 125 Vis jedes Typs speichern.<BR>Achtung: Auch für einen Langstab benötigst du Stabkappen, genau wie für einen normalen Stab.
 #
 tc.research_name.ROD_silverwood_staff=Silberholzlangstabkerne
 tc.research_text.ROD_silverwood_staff=Magisch bis ins Mark
@@ -748,7 +754,7 @@ tc.research_page.ROD_reed_staff.1=Ein aus Zuckerrohr gefertigter Langstabkern ka
 #
 tc.research_name.ROD_primal_staff=Ursprungslangstabkern
 tc.research_text.ROD_primal_staff=Elementarmacht vereint
-tc.research_page.ROD_primal_staff.1=Dieser Kern pulsiert vor gebündelter Energie.<BR>Er vereint die Eigenschaften der einfacheren Langstabkerne - er hat die Kapazität eines Silberholz-Kerns und kann sein Vis wieder auffüllen wie die anderen Stabkerne.<BR>Zusätzlich erhöht sich die Macht eines jeden mit ihm benutzten Fokus um eine Stufe. Das macht ihn zu einem wahrhaft mächtigen Werkzeug im Arsenal eines jeden Thaumaturgen.
+tc.research_page.ROD_primal_staff.1=Dieser Kern pulsiert vor gebündelter Energie.<BR>Er vereint die Eigenschaften der einfacheren Langstabkerne - er hat die Kapazität eines Silberholz-Kerns und kann sein Vis wieder auffüllen wie die anderen Stabkerne.<BR>Zusätzlich erhöht sich die Macht eines jeden mit ihm benutzten Fokus um eine Stufe. Das macht ihn zu einem wahrhaft mächtigen Werkzeug im Arsenal eines jeden Thaumaturgen.<BR>Achtung: Auch für diesen Langstab benötigst du Stabkappen, genau wie für einen normalen Stab.
 #
 tc.research_name.FOCUSFIRE=Stabfoki
 tc.research_text.FOCUSFIRE=Form trifft auf Funktion
@@ -1212,6 +1218,12 @@ tc.research_name.BONEBOW=Knochenbogen
 tc.research_text.BONEBOW=Stock und Stein...
 tc.research_page.BONEBOW.1=Du hast einen Weg gefunden, einen Bogen aus Knochen herzustellen und mit Entropie zu infundieren.<BR>Die daraus resultierende Waffe ist wesentlich schneller als ein normaler Bogen, mit ihm verschossene Pfeile sind schneller und treffen ihr Ziel heftiger.
 #
+tc.research_name.PRIMALARROW=Ursprüngliche Pfeile
+tc.research_text.PRIMALARROW=Pfeile mit einem elementaren Touch
+tc.research_page.PRIMALARROW.1=Diese Pfeile sind jeweils mit einer bestimmten ursprünglichen Energie durchzogen, die ihnen interessante und zerstörerische Eigenschaften verleiht.<BR>§nLuft-Pfeil§r<BR>Diese Pfeile knistern vor Energie. Sie verursachen einen ähnlichen Schaden, wie normale Pfeile, doch ihre magische Energie umgeht jede Rüstung.<BR>§nFeuer-Pfeile§r<BR>Diese Pfeile verursachen reinen Feuer-Schaden und setzen ihr Ziel in Brand.
+tc.research_page.PRIMALARROW.2=§nWasser-Pfeile§r<BR>Diese Pfeile verursachen normalen Schaden, aber sie unterkühlen ihr Ziel, sodass es sich langsamer bewegt.<BR>§nErde-Pfeile§r<BR>Diese Pfeile haben keine besonderen Eigenschaften außer einer deutlich erhöhten Durchschlagskraft.<BR>§nOrdnung-Pfeile§r<BR>Diese Pfeile verursachen weniger Schaden als normale Pfeile, durchdringen aber Rüstungen.<BR>§nEntropie-Pfeile§r<BR>Diese Pfeile verursachen weniger Schaden als normal,
+tc.research_page.PRIMALARROW.3=aber sie verursachen bei allem, was sie treffen, den Wither-Effekt.<LINE>Ursprüngliche Pfeile können nicht vom Boden aufgesammelt werden und die Unendlichkeitsverzauberung kann nur bei einem Drittel der Pfeile verhindern, dass sie verbraucht werden.
+#
 tc.research_name.THAUMATORIUM=Automatische Alchemie
 tc.research_text.THAUMATORIUM=Alchemie für die Massen
 tc.research_page.THAUMATORIUM.1=Bis jetzt war die Alchemie irgendwie eine unsichere Angelegenheit - falsch abgezählte Aspekte, sich zersetzende Essentia und Zutaten, die Aufwand in der Herstellung bedeuteten. Das ist endlich Vergangenheit.<BR>Das Thaumatorium ist eine großartige Erfindung, die es einem Thaumaturgen erlaubt, zu wählen, welche Formel und welcher Katalysator verwendet werden. Es saugt die nötige Essentia über Röhren aus verfügbaren Quellen. Solange es eine ausreichende Versorgung mit dem Katalysator gibt, produziert es das gewünschte Produkt perfekt. Immer.<BR>Der Kessel, der die Grundlage bildet, benötigt kein Wasser, aber eine Wärmequelle.
@@ -1225,7 +1237,7 @@ tc.research_page.RUNICARMOR.2=selbst, wenn keine Trefferpunkte mehr da sind, bie
 #
 tc.research_name.RUNICARMORUPGRADES=Runenrüstungs-Upgrades
 tc.research_text.RUNICARMORUPGRADES=Schilde auf Maximum!
-tc.research_page.RUNICARMORUPGRADES.1=Die Runenrüstung zu verbessern, ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisiert§r<BR>Runenrüstung mit diesem Upgrade lädt sich viel schneller wieder auf.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
+tc.research_page.RUNICARMORUPGRADES.1=Die Runenrüstung zu verbessern, ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisiert§r<BR>Dieses Upgrade lädt die Runen 20% schneller wieder auf.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
 tc.research_page.RUNICARMORUPGRADES.2=§nKinetisches Feedback§r<BR>Wenn dein Schild durchbrochen wurde, setzt dieses Upgrade eine Detonation aus kinetischer Energie frei. Der Schaden und die Kraft dieser Detonation erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.<BR>§nRevitalisierendes Feedback§r<BR>Wenn dein Schild durchbrochen wurde, wird ein mehrere Sekunden dauernder Impuls aus regenerierender Energie an den Träger abgegeben. Die Stärke dieses Impulses erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.
 tc.research_page.RUNICARMORUPGRADES.3=§nVerstärkt§r<BR>Dieses Upgrade verdoppelt den Schutz, den die Runenrüstung bietet, wenn der Schild durchbrochen wurde.<BR>§nNotfallschild§r<BR>Wenn der Runenschild durchbrochen wurde, verteilt dieses Upgrade 8 Ladungen auf deine getragenen Runenrüstungsteile. Jedes Teil mit diesem Upgrade fügt 8 Ladungen hinzu. Dieser Effekt braucht zwei Minuten zur Regeneration.
 #
