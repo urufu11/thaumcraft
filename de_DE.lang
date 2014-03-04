@@ -752,7 +752,7 @@ tc.research_name.ROD_reed_staff=Zuckerrohrlangstabkerne
 tc.research_text.ROD_reed_staff=Luftiger Visspeicher
 tc.research_page.ROD_reed_staff.1=Ein aus Zuckerrohr gefertigter Langstabkern kann bis zu 175 Vis jedes Typs speichern.<BR>Wie der normale Stabkern lädt sich auch dieser Kern wieder auf.
 #
-tc.research_name.ROD_primal_staff=Ursprungslangstabkern
+tc.research_name.ROD_primal_staff=Langstabkern des Ursprungs
 tc.research_text.ROD_primal_staff=Elementarmacht vereint
 tc.research_page.ROD_primal_staff.1=Dieser Kern pulsiert vor gebündelter Energie.<BR>Er vereint die Eigenschaften der einfacheren Langstabkerne - er hat die Kapazität eines Silberholz-Kerns und kann sein Vis wieder auffüllen wie die anderen Stabkerne.<BR>Zusätzlich erhöht sich die Macht eines jeden mit ihm benutzten Fokus um eine Stufe. Das macht ihn zu einem wahrhaft mächtigen Werkzeug im Arsenal eines jeden Thaumaturgen.<BR>Anmerkung: Du musst trotz allem Kappen auf den Langstab setzen, damit er funktioniert, genau wie bei normalen Stäben.
 #
@@ -1218,9 +1218,9 @@ tc.research_name.BONEBOW=Knochenbogen
 tc.research_text.BONEBOW=Stock und Stein...
 tc.research_page.BONEBOW.1=Du hast einen Weg gefunden, einen Bogen aus Knochen herzustellen und mit Entropie zu infundieren.<BR>Die daraus resultierende Waffe ist wesentlich schneller als ein normaler Bogen, mit ihm verschossene Pfeile sind schneller und treffen ihr Ziel heftiger.
 #
-tc.research_name.PRIMALARROW=Ursprüngliche Pfeile
+tc.research_name.PRIMALARROW=Primärpfeile
 tc.research_text.PRIMALARROW=Pfeile mit dem gewissen Etwas
-tc.research_page.PRIMALARROW.1=Diese Pfeile sind mit einem bestimmten Typ ursprünglicher Energie infundiert, was ihnen interessante und zerstörerische Eigenschaften verleiht.<BR>§nLuftpfeil§r<BR>Diese Pfeile sprühen vor Energie. Sie verursachen den gleichen Schaden wie gewöhnliche Pfeile, aber die magische Energie ignoriert jegliche Rüstung.<BR>§nFeuerpfeil§r<BR>Diese Pfeile verursachen puren Feuerschaden und entzünden ihr Ziel.
+tc.research_page.PRIMALARROW.1=Diese Pfeile sind mit einem bestimmten Typ Primärenergie infundiert, was ihnen interessante und zerstörerische Eigenschaften verleiht.<BR>§nLuftpfeil§r<BR>Diese Pfeile sprühen vor Energie. Sie verursachen den gleichen Schaden wie gewöhnliche Pfeile, aber die magische Energie ignoriert jegliche Rüstung.<BR>§nFeuerpfeil§r<BR>Diese Pfeile verursachen puren Feuerschaden und entzünden ihr Ziel.
 tc.research_page.PRIMALARROW.2=§nWasserpfeil§r<BR>Diese Pfeile verursachen normalen Schaden, aber kühlen das Ziel so stark ab, dass seine Bewegungen verlangsamt werden.<BR>§nErdpfeil§r<BR>Diese Pfeile haben keine besonderen Eigenschaften, außer, deutlich mehr Schaden als gewöhnliche Pfeile zu verursachen.<BR>§nOrdnungspfeil§r<BR>Dieser Pfeil verursacht etwas weniger Schaden als als normal, aber er ignoriert Rüstung und lässt das Ziel geschwächt zurück.<BR>§nEntropiepfeil§r<BR>Dieser Pfeil verursacht etwas weniger Schaden als normal, 
 tc.research_page.PRIMALARROW.3=aber er verursacht den Wither-Effekt auf dem Ziel.<LINE>Primärpfeile können nicht vom Boden aufgehoben werden und die Unendlichkeit-Verzauberung hat lediglich eine Chance von einem Drittel, dass der Primärpfeil nicht verbraucht wird.
 #
