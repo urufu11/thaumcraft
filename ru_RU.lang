@@ -361,6 +361,7 @@ item.ItemGolemUpgrade.2.desc=Увеличение интеллекта
 item.ItemGolemUpgrade.3.desc=Увеличение восприимчивости
 item.ItemGolemUpgrade.4.desc=Увеличение организованности
 item.ItemGolemUpgrade.5.desc=Увеличение логики
+item.ItemBowBone.name=Костяной лук
 item.ItemManaBean.name=Магический боб
 item.TrunkSpawner.name=Ходячий сундук
 item.TrunkSpawner.text.1=Этот сундук содержит в себе вещи
