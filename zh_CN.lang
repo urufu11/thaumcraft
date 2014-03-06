@@ -130,8 +130,8 @@ tile.blockTable.1.name=台桌
 tile.blockTable.research.name=研究台
 tile.blockTable.14.name=解构工作台
 tile.blockTable.15.name=奥术工作台
-tile.researchtable.noink=墨水已耗尽!
-tile.researchtable.nomove=已激活的符文不能移动!
+tile.researchtable.noink.0=墨水已耗尽!
+tile.researchtable.noink.1=请重装墨水。
 tile.blockChestHungry.name=饕餮箱子
 tile.blockArcaneDoor.name=奥能之扉
 tile.blockLifter.name=奥术悬浮台
@@ -258,6 +258,12 @@ item.ItemShard.2.name=水之碎片
 item.ItemShard.3.name=地之碎片
 item.ItemShard.4.name=秩序碎片
 item.ItemShard.5.name=混沌碎片
+item.ItemPrimalArrow.0.name=风之魔箭
+item.ItemPrimalArrow.1.name=火之魔箭
+item.ItemPrimalArrow.2.name=水之魔箭
+item.ItemPrimalArrow.3.name=地之魔箭
+item.ItemPrimalArrow.4.name=秩序魔箭
+item.ItemPrimalArrow.5.name=混沌魔箭
 item.ItemArcaneDoor.name=奥能之扉
 item.ItemNugget.0.name=铁粒
 item.ItemNugget.1.name=铜粒
@@ -716,7 +722,7 @@ tc.research_page.ROD_reed.1=甘蔗制做的稍好于宏伟之木杖柄的杖柄,
 tc.research_name.ROD_greatwood_staff=核心魔法杖柄
 tc.research_text.ROD_greatwood_staff=法杖的末端有球形把手
 tc.research_page.ROD_greatwood_staff.1=法杖就是用来存储魔力的，你也想花钱为了存的更多一些。核心魔法杖柄就是更大的基础法杖。他们能够存储更多的vis。<BR>因为它们比法杖更坚固更长，所以能够用来当作应急武器。<BR>很不幸，这也使得他们无法良好的控制，来进行合成物品这项复杂的工作。
-tc.research_page.ROD_greatwood_staff.2=宏伟之树制作的核心魔法杖柄能够存储比法杖两倍多的vis，它能存储每项法力125vis。
+tc.research_page.ROD_greatwood_staff.2=宏伟之树制作的核心魔法杖柄能够存储比法杖两倍多的vis，它能存储每项法力125vis。<BR>提示：你仍需要为核心杖柄添加一个杖端，就像普通法杖那样。
 #
 tc.research_name.ROD_silverwood_staff=核心银树魔法杖柄
 tc.research_text.ROD_silverwood_staff=魔力强化
@@ -732,7 +738,7 @@ tc.research_page.ROD_bone_staff.1=由白骨制作而成的核心魔法杖柄能�
 #
 tc.research_name.ROD_blaze_staff=核心烈焰魔法杖柄
 tc.research_text.ROD_blaze_staff=烈焰强化
-tc.research_page.ROD_blaze_staff.1=由烈焰棒制作而成的核心魔法杖柄能够存储各种魔力175 vis。<BR>像法杖一样，他能缓慢恢复他存储的魔力。
+tc.research_page.ROD_blaze_staff.1=由烈焰棒制作而成的核心魔法杖柄能够存储各种魔力175 vis。
 #
 tc.research_name.ROD_ice_staff=核心寒霜魔法杖柄
 tc.research_text.ROD_ice_staff=寒霜强化
@@ -748,7 +754,7 @@ tc.research_page.ROD_reed_staff.1=由甘蔗制作而成的核心魔法杖柄能�
 #
 tc.research_name.ROD_primal_staff=核心元始魔法杖柄
 tc.research_text.ROD_primal_staff=元素力量的总和
-tc.research_page.ROD_primal_staff.1=这个核心魔法杖柄中有潜在的能量。<BR>他结合了所有核心魔法杖柄的力量 - 它与核心银树魔法杖柄的储量相同，而且有其他核心魔法杖柄恢复魔法的能力。<BR>在任何焦点场合使用它都会提高你的权势。<BR>这是一个对所有魔法师都强有力的物品。
+tc.research_page.ROD_primal_staff.1=这个核心魔法杖柄中有潜在的能量。<BR>他结合了所有核心魔法杖柄的力量 - 它与核心银树魔法杖柄的储量相同，而且有其他核心魔法杖柄恢复魔法的能力。<BR>在任何焦点场合使用它都会提高你的权势。<BR>这是一个对所有魔法师都强有力的物品。<BR>提示：你仍需要为核心杖柄添加一个杖端，就像普通法杖那样。
 #
 tc.research_name.FOCUSFIRE=法杖核心
 tc.research_text.FOCUSFIRE=形式遇上功能
@@ -1087,7 +1093,7 @@ tc.research_page.JARBRAIN.1=- 向罐子丢一个僵尸之脑.<BR>- 添加蜘蛛�
 #
 tc.research_name.HOVERHARNESS=奥法缰绳
 tc.research_text.HOVERHARNESS=...它是一只鸟?
-tc.research_page.HOVERHARNESS.1=最终你解开了飞行的秘密. 你创造出一种通过使用奥法能量将自身锚定在神秘力场中,因此帮助你摆脱重力的缰绳.你认为量子和夸克在某种程度上也参与了这个过程.<BR>缰绳需要的魔力在创造的时候就已经全部加入进去,它消耗的燃料是原生的要素：Potentia(潜能).当穿戴着缰绳的时候右击盛满的罐子来灌注要素.<BR>Pressing 'F' while wearing the harness activates or deactivates it.
+tc.research_page.HOVERHARNESS.1=最终你解开了飞行的秘密。你创造出一种通过使用奥法能量将自身锚定在神秘力场中，因此帮助你摆脱重力的缰绳。你认为量子和夸克在某种程度上也参与了这个过程。<BR>缰绳需要的魔力在创造的时候就已经全部加入进去，它消耗的燃料是原生的要素：Potentia(潜能).当穿戴着缰绳的时候右击盛满的罐子来灌注要素.<BR>使用“F”键来控制激活及关闭奥法缰绳。
 tc.research_page.HOVERHARNESS.2=激活后奥法缰绳会持续消耗Potentia要素.<BR>急迫附魔能够加快奥法缰绳的飞行速度.
 #
 tc.research_name.ADVANCEDGOLEM=高级傀儡
@@ -1212,6 +1218,12 @@ tc.research_name.BONEBOW=骨弓
 tc.research_text.BONEBOW=粘且坚...
 tc.research_page.BONEBOW.1=你已经发现一种方法来制作弓：给骨头注入能量。<BR>其结果是这弓的射术更快，发射的箭速度更快，力量更强。
 #
+tc.research_name.PRIMALARROW=源质魔箭
+tc.research_text.PRIMALARROW=带有一点要素的箭
+tc.research_page.PRIMALARROW.1=这类箭都注入了一种特定类型的原始能量使他们更有破坏性而且更有趣。<BR>§n风之魔箭§r<BR>这种箭充斥着能量。它能造成与普通的箭一样的伤害，但是其中的魔法能量会忽视所有类型护甲。<BR>§n火之魔箭§r<BR>这种箭造成纯净火焰伤害并且使他们被点燃。
+tc.research_page.PRIMALARROW.2=§n水之魔箭§r<BR>这种箭造成普通的伤害，但是它能冰冻你的目标并减缓他们的移动速度。<BR>§n地之魔箭§r<BR>这种箭能能造成更强的击退效果。<BR>§n秩序魔箭§r<BR>这种箭比普通的箭造成的伤害小，但是他们能绕开敌人的护甲并将它们虚弱。<BR>§n混沌魔箭§r<BR>这种箭比普通的箭造成的伤害略小， 
+tc.research_page.PRIMALARROW.3=无论击中什么都会使它枯萎。<LINE>源质魔箭不能从地上被捡起，无穷附魔有1/3的几率可以不消耗箭。
+#
 tc.research_name.THAUMATORIUM=自动精准炼金
 tc.research_text.THAUMATORIUM=大量物品的炼金
 tc.research_page.THAUMATORIUM.1=到现在炼金已经变成一件碰运气的事-错位的元素，分解要素和物品需要手动才能完成。这已经变成了过去的事。<BR>自动精准坩埚 是一个了不起的发明，它允许魔法师选择使用哪个公式和添加哪种催化剂。他能自动通过管道连接可用的源头把要素抽取过来。只要提供了一种催化剂，他每次都能完美生产所需物品。<BR>这种坩埚不需要水，但是还需要热量来源。
@@ -1225,7 +1237,7 @@ tc.research_page.RUNICARMOR.2=但是当能量耗尽之后，它们的防御力�
 #
 tc.research_name.RUNICARMORUPGRADES=符文护甲升级
 tc.research_text.RUNICARMORUPGRADES=魔力屏障调至最大!
-tc.research_page.RUNICARMORUPGRADES.1=改进符文护甲的方法比你想象中的更简单。你现在发现了数种可以应用于符文护甲的升级，不过同时只能应用一种升级。<LINE>§n激发§r<BR>拥有该升级的符文护甲的能量恢复速度会比正常更快<BR>§n增幅§r<BR>拥有该升级的符文护甲能量储存上限会比正常更高
+tc.research_page.RUNICARMORUPGRADES.1=改进符文护甲的方法比你想象中的更简单。你现在发现了数种可以应用于符文护甲的升级，不过同时只能应用一种升级。<<LINE>§n激发§r<BR>这种升级可以使能量恢复加快20%。<BR>§n增幅§r<BR>拥有该升级的符文护甲能量储存上限会比正常更高。
 tc.research_page.RUNICARMORUPGRADES.2=§n动态反馈§r<BR>当拥有该升级的护甲能量耗尽时，会释放出一次动能大爆炸。爆炸的伤害力和力道取决于穿戴着有多少护甲拥有这个升级能力。这个能力有30秒的冷却时间。<BR>§n活性反馈§r<BR>当拥有该升级的护甲能量耗尽时，会释放出拥有再生能量的脉冲，穿戴着会获得至少几秒的生命力恢复能力。脉冲的强度取决于穿戴着有多少护甲拥有这个升级能力 。这个能力有30秒的冷却时间。
 tc.research_page.RUNICARMORUPGRADES.3=§n强化§r<BR>拥有该强化的符文护甲在能量耗尽以后可以提供双倍于皮甲的防御力。<BR>§n应急防护§r<BR>当拥有该升级的护甲能量耗尽时，会瞬间恢复8点能量，每个拥有该升级的护甲增加8点能量。这个能力有2分钟的冷却时间。
 #
