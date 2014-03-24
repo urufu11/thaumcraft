@@ -1,8 +1,8 @@
 # Enchantments
-enchantment.potency=파워 (포커스)
-enchantment.frugal=절약 (포커스)
+enchantment.potency=파워
+enchantment.frugal=절약
 enchantment.charging=충전
-enchantment.wandfortune=행운 (포커스)
+enchantment.wandfortune=탐욕
 enchantment.haste=신속
 enchantment.repair=수리
 #
@@ -28,7 +28,7 @@ entity.Thaumcraft.Taintacle.name=테인타클
 entity.Thaumcraft.TaintacleTiny.name=테인트 덩굴
 entity.Thaumcraft.TaintSpore.name=테인트 거미
 entity.Thaumcraft.TaintSwarmer.name=테인트 거미 스워머
-entity.Thaumcraft.TaintSwarm.name=테인트 무리
+entity.Thaumcraft.TaintSwarm.name=테인트 스웜
 entity.Thaumcraft.TaintedVillager.name=테인트 주민
 entity.Thaumcraft.TaintedChicken.name=테인트 닭
 entity.Thaumcraft.TaintedPig.name=테인트 돼지
@@ -65,17 +65,17 @@ tile.blockCosmeticOpaque.1.name=호박 벽돌
 tile.blockCosmeticOpaque.2.name=마법 강화 유리
 tile.blockCosmeticSolid.0.name=흑요석 토템
 tile.blockCosmeticSolid.1.name=흑요석 타일
-tile.blockCosmeticSolid.2.name=이동용 돌 바닥재
-tile.blockCosmeticSolid.3.name=경계용 돌 바닥재
+tile.blockCosmeticSolid.2.name=여행석
+tile.blockCosmeticSolid.3.name=경계석
 tile.blockCosmeticSolid.4.name=사우뮴 블럭
 tile.blockCosmeticSolid.5.name=수지 블럭
-tile.blockCosmeticSolid.6.name=아케인 스톤 블럭
+tile.blockCosmeticSolid.6.name=아케인 스톤
 tile.blockCosmeticSolid.7.name=아케인 스톤 벽돌
 tile.blockCosmeticSolid.8.name=충전된 흑요석 토템
 tile.blockCustomPlant.0.name=그레이트우드 묘목
 tile.blockCustomPlant.1.name=실버우드 묘목
-tile.blockCustomPlant.2.name=Shimmerleaf
-tile.blockCustomPlant.3.name=Cinderpearl
+tile.blockCustomPlant.2.name=시머리프
+tile.blockCustomPlant.3.name=신더펄
 tile.blockCustomPlant.4.name=천상의 꽃
 tile.blockMetalDevice.0.name=도가니
 tile.blockMetalDevice.1.name=아케인 증류장치
@@ -147,7 +147,7 @@ tile.blockMirror.0.name=마법 거울
 tile.blockMirror.6.name=에센시아 거울
 tile.blockTaint.0.name=굳은 테인트
 tile.blockTaint.1.name=테인트 흙
-tile.blockTaint.2.name=고기 블럭
+tile.blockTaint.2.name=살점 블럭
 tile.blockTaintFibres.0.name=테인트 섬유
 tile.blockTaintFibres.1.name=테인트 풀
 tile.blockTaintFibres.2.name=테인트 식물
@@ -245,8 +245,8 @@ item.ItemResource.5.name=좀비 뇌
 item.ItemResource.6.name=호박
 item.ItemResource.7.name=마법이 깃든 천
 item.ItemResource.8.name=비스 필터
-item.ItemResource.9.name=지식의 파편
-item.ItemResource.10.name=거울 유리
+item.ItemResource.9.name=지식의 조각
+item.ItemResource.10.name=거울
 item.ItemResource.11.name=테인트 덩어리
 item.ItemResource.12.name=테인트 덩굴
 item.ItemResource.13.name=단지 라벨
@@ -313,7 +313,7 @@ item.ItemSwordThaumium.name=사우뮴 검
 item.ItemPickThaumium.name=사우뮴 곡괭이
 item.ItemHoeThaumium.name=사우뮴 괭이
 item.researchnotes.name=연구일지
-item.researchnotes.unknown=알려지지 않은 지식
+item.researchnotes.unknown=알 수 없는 지식
 item.researchnotes.failed.1=실패했습니다. 지식의 조각으로 다시
 item.researchnotes.failed.2=반환하려면 조합창에 올려놓으십시오
 item.discovery.name=발견
@@ -324,13 +324,13 @@ item.ItemGolemCore.name=골렘 코어
 item.ItemGolemCore.0.name=채우기
 item.ItemGolemCore.1.name=비우기
 item.ItemGolemCore.2.name=줍기
-item.ItemGolemCore.3.name=수확하기
-item.ItemGolemCore.4.name=보호하기
+item.ItemGolemCore.3.name=수확
+item.ItemGolemCore.4.name=보호
 item.ItemGolemCore.5.name=액체 채우기
 item.ItemGolemCore.6.name=연금술
-item.ItemGolemCore.7.name=벌목하기
-item.ItemGolemCore.8.name=사용하기
-item.ItemGolemCore.9.name=도살하기
+item.ItemGolemCore.7.name=벌목
+item.ItemGolemCore.8.name=사용
+item.ItemGolemCore.9.name=도살
 item.ItemGolemCore.100.name=비어있음
 item.ItemGolemPlacer.0.name=밀짚 골렘
 item.ItemGolemPlacer.1.name=나무 골렘
@@ -413,6 +413,7 @@ recipe.type.infusionenchantment=인퓨전 인챈트
 recipe.type.construct=마법 구조물
 #
 # Other
+itemGroup.thaumcraft=Thaumcraft
 nodetype.NORMAL.name=평범함
 nodetype.UNSTABLE.name=불안정함
 nodetype.DARK.name=사악함
@@ -454,9 +455,9 @@ tc.markedloc=표시된 위치
 tc.addaspectdiscovery=%n을(를) 발견했습니다!
 tc.addclue=새로운 연구에 대한 단서를 발견했습니다!
 tc.addcluefail=발견한 단서를 기록할 곳이 없습니다...
-tc.addaspectpool=%n에 대한 %s만큼의 연구 포인트 획득
+tc.addaspectpool=%n를 %s포인트 획득하였습니다.
 tc.unknownobject=이것엔 배울 만한 것이 없습니다.
-tc.markerchange=%n 으로 마커색을 설정
+tc.markerchange=%n으로 마커색을 설정
 tc.markerchangeany=다른 색으로 설정
 tc.researchmissing=필요한 연구 누락!
 tc.visdiscount=비스 절약
@@ -468,8 +469,8 @@ tc.inst.3=§e높음§0
 tc.inst.4=§6매우 높음§0
 tc.inst.5=§4!!위험!!§0
 tc.adv=강화됨
-tc.resonator1=§9%2$s 에센시아를 %1$s만큼 담고 있습니다.§0
-tc.resonator2=§5흡입 %1$s %2$s §0 
+tc.resonator1=§9%2$s를 %1$s 보유중§0
+tc.resonator2=§5흡입력: %1$s %2$s §0 
 tc.resonator3=지정되지 않음
 tc.research.purchase=눌러서 해당 연구 구입
 tc.research.short=구입에 필요한 위상이 부족합니다
@@ -604,8 +605,8 @@ tc.research_name.PLANTS=풀과 나무
 tc.research_text.PLANTS=마법 식물들
 tc.research_page.PLANTS.1=§l      §n그레이트우드 나무§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>이 크고 웅장한 나무는 세계 곳곳에서 발견됩니다.<BR>이 나무는 어마어마한 양의 마법에너지를 머금을 수 있기 때문에 마법 도구들을 만드는 데 자주 쓰입니다.
 tc.research_page.PLANTS.2=§l       §n실버우드 나무§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>이 신비로운 나무는 굉장히 희귀하며 매우 아름답게 생겼습니다. 마법에너지로 인해 잎사귀에서 빛이 나며 희고 부드러운 목재는 정화능력이 있어 가치가 매우 높습니다.<BR>이런 신비로운 특징들은 이 나무의 중심부에 오라 노드가 형성되기 때문인데 이때문에 실버우드 나무 묘목은 그 값을 매길 수 없을 정도로 귀합니다.
-tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>이 반짝이는 꽃은 실버우드의 그늘 아래서만 자랍니다. 이 꽃은 꿀 대신 수은을 만들어냅니다.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.PLANTS.4=§l        §nCinderpearl§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>매우 뜨거운 기후에서만 발견되는 이 꽃은 불의 원소로 충만해 타오릅니다. 채집한 뒤 빻으면 블레이즈 가루와 매우 유사한 가루를 만들 수 있습니다.
+tc.research_page.PLANTS.3=§l          §n시머리프§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>이 반짝이는 꽃은 실버우드의 그늘 아래서만 자랍니다. 이 꽃은 수은으로 가공할 수 있습니다.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l           §n신더펄§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>매우 뜨거운 기후에서만 발견되는 이 꽃은 불의 원소로 충만해 타오릅니다. 채집한 뒤 빻으면 블레이즈 가루와 매우 유사한 가루를 만들 수 있습니다.
 tc.research_page.PLANTS.5=§l          §n마나 콩§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>이 콩깍지처럼 생긴 이상한 식물은 마법의 숲 에 있는 나무에서만 자랍니다. 자라는 속도가 매우 느리며 수확되는 양 또한 그리 많지 않습니다. 
 tc.research_page.PLANTS.6=마나 콩으로 알려진 이 콩들에는 에센시아가 농축되어있습니다. 먹는 것 또한 가능은 하지만 무슨 일이 생길지는......<BR>이 콩은 다시 심을 수 있지만 재배하기 까다롭고 시간이 많이 소요됩니다.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
@@ -615,7 +616,7 @@ tc.research_page.RESEARCHER1.1=좀 더 효율적인 연구 진행이 가능합�
 #
 tc.research_name.RESEARCHER2=연구 마스터
 tc.research_text.RESEARCHER2=힘은 곧 지식
-tc.research_page.RESEARCHER2.1=더욱 더 효율적인 연구 진행이 가능합니다.<BR>육각형에 이미 올려놓은 위상을 제거할 때 50%의 확률로 연구 포인트를 돌려받을 수 있습니다.<BR>또한 육각형에 위상을 올려놓을 때 10%의 확률로 연구 포인트를 소모하지 않습니다.<BR>마지막으로, 위상을 합성할 때 만들어내고 싶은 위상을 CTRL-좌클릭 하는 것 만으로도 합성이 가능합니다. 재료 위상이 충분할 경우 선택한 위상을 자동적으로 생성합니다.
+tc.research_page.RESEARCHER2.1=더욱 더 효율적인 연구 진행이 가능합니다.<BR>육각형에 이미 올려놓은 위상을 제거할 때 50%의 확률로 연구 포인트를 돌려받을 수 있습니다.<BR>또한 육각형에 위상을 올려놓을 때 10%의 확률로 연구 포인트를 소모하지 않습니다.<BR>마지막으로, 위상을 합성할 때 만들어내고 싶은 위상을 Shift 클릭 하는 것 만으로도 합성이 가능합니다. 재료 위상이 충분할 경우 선택한 위상을 자동적으로 생성합니다.
 #
 tc.research_name.RESEARCHDUPE=연구 복사
 tc.research_text.RESEARCHDUPE=나눔의 미덕
@@ -834,7 +835,7 @@ tc.research_page.ENCHFABRIC.2=이 로브에는 완드의 비스 소모량을 절
 #
 tc.research_name.ENCHANT=인챈트
 tc.research_text.ENCHANT=새로운 인챈트들
-tc.research_page.ENCHANT.1=사움크래프트는 몇가지 새로운 인챈트들을 추가합니다.<BR>        §n파워 (포커스 전용)§r<BR>이 인챈트가 붙은 포커스는 데미지가 더 강력해지거나 사거리 혹은 범위가 증가합니다.<BR>        §n절약 (포커스 전용)§r<BR>이 인챈트가 붙은 포커스는 사용시 비스를 더 적게 소비합니다.<BR>        §n행운 (포커스 전용)§r<BR>일반적인 행운 인챈트처럼, 포커스를 사용해서 채굴한 아이템의 숫자를 늘려줍니다.
+tc.research_page.ENCHANT.1=사움크래프트는 몇가지 새로운 인챈트들을 추가합니다.<BR>        §n파워 (포커스 전용)§r<BR>이 인챈트가 붙은 포커스는 데미지가 더 강력해지거나 사거리 혹은 범위가 증가합니다.<BR>        §n절약 (포커스 전용)§r<BR>이 인챈트가 붙은 포커스는 사용시 비스를 더 적게 소비합니다.<BR>        §n탐욕 (포커스 전용)§r<BR>일반적인 행운 인챈트처럼, 포커스를 사용해서 채굴한 아이템의 숫자를 늘려줍니다.
 tc.research_page.ENCHANT.2=               §n신속§r<BR>이 인챈트는 모든 신발류 방어구에 붙일 수 있으며 이 인챈트가 붙은 신발은 이동속도를 증가시켜줍니다. 인챈트 레벨이 높을수록 이동속도 증가폭이 커집니다.<BR>                §n수리§r<BR>이 인챈트는 오라의 힘을 이용하여 도구의 내구도를 조금씩 회복시킵니다. 인챈트 레벨이 높을수록 내구도 회복속도가 빨라집니다. 이 인챈트는 사움크래프트의 장비들 중에도 일부에만 적용할 수 있습니다.
 #
 tc.research_name.ELEMENTALAXE=흐름의 도끼
@@ -964,7 +965,7 @@ tc.research_name.COREEMPTY=골렘 코어: 비우기
 tc.research_text.COREEMPTY=물건들을 다른곳으로 옮깁니다
 tc.research_page.COREEMPTY.1=이 코어가 장착된 골렘은 연결된 인벤토리의 아이템을 꺼내서 지정된 장소로 가져갑니다. 만약 인벤토리가 있는 블럭을 지정해 주었다면 아이템을 그 인벤토리에 옮겨넣습니다.<BR>골렘을 우클릭해 특정 아이템만 꺼내가도록 설정할 수 있습니다.
 #
-tc.research_name.COREUSE=골렘 코어: 사용하기
+tc.research_name.COREUSE=골렘 코어: 사용
 tc.research_text.COREUSE=클릭 클릭
 tc.research_page.COREUSE.1=마치 비우기 코어처럼 이 코어가 장착된 골렘은 연결된 인벤토리에서 아이템을 꺼냅니다. 하지만 이 코어가 장착된 골렘은 그 아이템을 지정된 인벤토리에 넣거나 땅바닥에 버리는 대신 지정된 장소나 블럭 위에 사용합니다.<BR>골렘이 아이템을 사용하면 플레이어가 마치 우클릭을 한 것과 같은 효과가 발생합니다.<BR>골렘을 우클릭해서 특정 아이템만 꺼내 사용하도록 설정할 수 있습니다.
 #
@@ -972,21 +973,21 @@ tc.research_name.COREFILL=골렘 코어: 채우기
 tc.research_text.COREFILL=인벤토리를 항상 채워둡니다
 tc.research_page.COREFILL.1=이 코어가 장착된 골렘은 지정된 인벤토리에서 특정 아이템을 찾아서 해당 골렘이 연결된 인벤토리에 채워넣습니다.<BR>두가지 옵션중 하나를 선택할 수 있습니다:<BR>§5Precise Amount§0는 채워둘 아이템의 수량이 플레이어가 설정해둔 양과 같아질 때까지 아이템을 채워넣습니다.<BR>§5Any Amount§0모드에서는 연결된 인벤토리에 빈 공간이 있을 경우 지정한 아이템을 계속해서 채워넣습니다.
 #
-tc.research_name.COREHARVEST=골렘 코어: 수확하기
+tc.research_name.COREHARVEST=골렘 코어: 수확
 tc.research_text.COREHARVEST=골렘 농부
 tc.research_page.COREHARVEST.1=이 코어가 장착된 골렘은 인벤토리에 연결시켜서 소환할 필요가 없습니다. 수확 코어 골렘은 좁은 반경 내의 다 자란 작물을 수확합니다. 수확 코어 골렘은 수확된 작물을 모아오지는 않기 때문에 직접 줍거나 다른 방법을 이용해야 합니다.<BR>골렘은 수확 후 씨앗을 다시 심을 정도로 똑똑하진 않습니다. 하지만 후에 약간의 노력으로 이러한 문제점을 보완 할 수 있습니다.
 tc.research_page.COREHARVEST.2=         §n오더 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>이 업그레이드가 장착된 수확 코어 골렘은 수확한 작물의 씨앗을 다시 심습니다. 수확된 작물이 적당한 씨앗을 떨어뜨리지 않는다면 씨앗을 다시 심을 수 없습니다.
 #
-tc.research_name.CORELUMBER=골렘 코어: 벌목하기
+tc.research_name.CORELUMBER=골렘 코어: 벌목
 tc.research_text.CORELUMBER=골렘 벌목꾼
 tc.research_page.CORELUMBER.1=수확 코어 골렘처럼 벌목 코어 골렘은 아무데나 소환이 가능합니다. 이 코어가 장착된 골렘은 주변의 나무를 벌목하며, 힘이 쎈 골렘일수록 벌목 속도가 빠릅니다.<BR>벌목 코어 골렘은 벌목한 나무 묘목을 다시 심지 않습니다.
 #
-tc.research_name.COREGUARD=골렘 코어: 보호하기
+tc.research_name.COREGUARD=골렘 코어: 보호
 tc.research_text.COREGUARD=소중한 것들을 보호합니다
 tc.research_page.COREGUARD.1=이 코어가 장착된 골렘은 마치 경호원처럼 주변의 적대적인 몬스터를 공격합니다.<BR>약간의 조작을 통해 공격 대상을 지정해 줄 수도 있지만 지금 당장은 크리퍼를 제외한 다른 적대적인 몬스터만을 공격합니다.
 tc.research_page.COREGUARD.2=         §n오더 업그레이드§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>이 업그레이드가 장착된 보호 코어 골렘은 공격 대상을 지정할 수 있습니다. 또한 적대적인 몬스터 뿐만 아니라 다른 대상도 공격대상으로 지정할 수 있습니다.
 #
-tc.research_name.COREBUTCHER=골렘 코어: 도살하기
+tc.research_name.COREBUTCHER=골렘 코어: 도살
 tc.research_text.COREBUTCHER=피투성이 팔뚝
 tc.research_page.COREBUTCHER.1=이 코어는 일반적인 보호 코어의 기능을 좀 다듬은 것입니다.<BR>이 코어가 장착된 골렘은 동물만을 공격하지만, 적당한 지능이 부여되어 있어 다 자란 동물만 잡으며 교배를 위해 항상 두 마리는 남겨놓습니다.
 #
@@ -1024,35 +1025,35 @@ tc.research_page.UPGRADEENTROPY.1=이 업그레이드가 장착된 골렘은 데
 #
 tc.research_name.TINYHAT=작은 모자
 tc.research_text.TINYHAT=자외선 가리개
-tc.research_page.TINYHAT.1=This tiny hat is the perfect accessory for any golem. Not only is it stylish and dashing, but any golem wearing it will have increased health and vitality.
+tc.research_page.TINYHAT.1=이 작은 모자는 어느 골렘에게나 잘 어울립니다. 이 모자는 세련될 뿐만 아니라 장착한 골렘의 체력과 회복력을 증진시켜줍니다.
 #
 tc.research_name.TINYFEZ=작은 터키모자
 tc.research_text.TINYFEZ=...역시 멋져
-tc.research_page.TINYFEZ.1=This strange headgear seems to fill any golem wearing it with unusual vitality, allowing it to repair damage at a much faster pace.
+tc.research_page.TINYFEZ.1=이 독특한 모자를 착용한 골렘을 활력으로 가득 차 좀 더 빠르게 자가회복을 할 수 있게 됩니다.
 #
 tc.research_name.TINYBOWTIE=작은 나비넥타이
 tc.research_text.TINYBOWTIE=...멋지군
-tc.research_page.TINYBOWTIE.1=A must for any golem on the go, this bowtie will fill it with additional energy, increasing its pace.
+tc.research_page.TINYBOWTIE.1=골렘이 추가적인 힘을 얻어 더 빠르게 돌아다닐 수 있게 해 주는 이 넥타이는 자주 움직어야 하는 골렘에겐 필수품입니다.
 #
 tc.research_name.TINYGLASSES=작은 안경
 tc.research_text.TINYGLASSES=주인을 더 잘 알아보기 위해서
-tc.research_page.TINYGLASSES.1=Golems are notoriously short sighted, and these glasses alleviate that weakness to some degree.
+tc.research_page.TINYGLASSES.1=골렘은 시력이 매우 안좋기 때문에 이 안경을 씌워서 약점을 보완해 줍시다.
 #
 tc.research_name.TINYDART=골렘 다트 발사기
 tc.research_text.TINYDART=작은 고추가 매운법
-tc.research_page.TINYDART.1=This dart launcher can only be attached to combat golems. It is not quite as powerful as the golems primary attack, but gives golems limited to melee combat a means of attacking foes at range.
+tc.research_page.TINYDART.1=이 다트 발사기는 전투용 골렘에만 장착할 수 있습니다. 골렘의 근접공격보다는 약하지만, 대신 골렘이 원거리 공격을 할 수 있도록 해 줍니다.
 #
 tc.research_name.TINYVISOR=골렘 바이저
 tc.research_text.TINYVISOR=협조해 주셔서 감사합니다
-tc.research_page.TINYVISOR.1=This metal visor will grant a combat golem a small amount of additional armor protection. It will also insure that any foes attacked by the golem will drop experience orbs when they die.
+tc.research_page.TINYVISOR.1=이 금속 바이저는 골렘의 방어력을 약간 상승시켜줍니다. 또한 바이저를 장착한 골렘이 죽인 대상은 경험치를 드롭합니다.
 #
 tc.research_name.TINYARMOR=골렘 철 갑옷
 tc.research_text.TINYARMOR=깨뜨리기엔 너무 단단한 호두
-tc.research_page.TINYARMOR.1=The armored plating grants the golem wearing it increased resistance to physical harm. Unfortunately the additional protection comes at a cost, as all the heavy ironmongery will slow it down.
+tc.research_page.TINYARMOR.1=이 갑옷은 골렘의 물리공격에 대한 방어력을 강화시켜줍니다. 하지만 보호기능이 강력한 대신 무게가 꽤 나가기 때문에 골렘의 이동속도가 눈에띄게 느려집니다.
 #
 tc.research_name.TINYHAMMER=골렘 메이스
 tc.research_text.TINYHAMMER=깽판 칠 시간이다!
-tc.research_page.TINYHAMMER.1=This weapon increases the damage a golem will do with melee attacks.
+tc.research_page.TINYHAMMER.1=이 무기는 골렘의 근접공격력을 강화시켜줍니다.
 #
 tc.research_name.DISTILESSENTIA=에센시아 증류
 tc.research_text.DISTILESSENTIA=에센시아 추출하기
@@ -1128,11 +1129,11 @@ tc.research_text.NODEJAR=부지런히 일하는 마도학자를 위하여
 tc.research_page.NODEJAR.1=단지가 평범하던 아니던 무언가를 저장하는데 매우 적합하다는 사실은 이미 증명되었습니다. 그리고 이제, 단지의 다른 용도, 바로 오라 노드를 담는 용도로도 사용 될 수 있다는 사실이 발견되었습니다.<BR>오라 노드를 둘러싼 커다란 단지를 만든 뒤 적절한 공식을 이용해 완드로 마법을 주입하면 단지가 노드를 안에 담은 채로 들고 다닐만한 크기로 줄어들게 됩니다. 이렇게 만들어진 단지는 편리하게 들고 다닐 수 있지만 단지 안에 노드를 가두는 과정에서 높은 확률로 노드에 손상이 가게 됩니다.
 tc.research_page.NODEJAR.2=노드가 단지 안에 갇혀 있는 동안에는 노드에 비스가 다시 충전되지도, 완드로 뽑아올수도 없습니다.<BR>원하는 곳에 놓은 뒤 완드로 우클릭함으로써 노드를 다시 풀어놓을 수 있습니다. 이 과정에서 단지는 파괴됩니다.
 #
-tc.research_name.PAVETRAVEL=여행자의 바닥재
+tc.research_name.PAVETRAVEL=여행석
 tc.research_text.PAVETRAVEL=보다 편한 여행
 tc.research_page.PAVETRAVEL.1=아케인 스톤의 마법적인 구조를 개량해서 그 위를 걸어갈 경우 보폭을 크게 만들어주는 바닥재를 만들 수 있습니다.<BR>이 위를 지나가는 모든 것은 몇 초간 더 빠른 속도와 민첩성을 가지게 됩니다.
 #
-tc.research_name.PAVEWARD=경계의 바닥재
+tc.research_name.PAVEWARD=경계석
 tc.research_text.PAVEWARD=외부로부터의 보호
 tc.research_page.PAVEWARD.1=아케인 스톤을 경계벽으로 개량해서 거의 대부분의 생물이 지나가지 못하도록 하는 바닥재를 만들 수 있습니다.<BR>이 바닥재가 100% 완벽한 것은 아니며 다른 플레이어가 지나가는 것은 막지 못하지만 거의 대부분의 위협은 막아낼 수 있습니다. 또한 골렘은 이 돌 위를 지나가지 못합니다.<BR>최상의 결과를 위해서는 보호하고 싶은 장소 주위를 이 돌로 끊어진 부분 없이 둘러치는 것이 좋습니다.<BR>활성화된 레드스톤 신호는 이 돌의 특성을 억제시킵니다.
 #
@@ -1146,7 +1147,7 @@ tc.research_page.WANDPEDFOC.1=몇몇 노드들은 복합위상을 포함하고 �
 #
 tc.research_name.ETHEREALBLOOM=천상의 꽃
 tc.research_text.ETHEREALBLOOM=정화의 꽃
-tc.research_page.ETHEREALBLOOM.1=Shimmerleaf는 종종 실버우드에 의해 그 가치가 가려지곤 하지만, Shimmerleaf에도 이 꽃만의 마법적 성질을 지니고 있습니다.<BR>실버우드처럼 이 꽃에는 정화능력이 잠재되어 있습니다. 그리고 이 능력을 이끌어내 천상의 꽃으로 변화시키는 방법이 발견되었습니다.<BR>천상의 꽃은, 느리지만 확실하게 사악한 마법으로 오염된 지역을 이전의 모습으로 정화시키며, 이 정화 대상에는 테인트 또한 포함됩니다. 테인트을 즉각 몰아내지는 않지만 테인트에서 자라는 생물들은 테인트 지형이 아닌 곳에서는 그리 오래 살지 못하고 점차 사라집니다.
+tc.research_page.ETHEREALBLOOM.1=시머리프는 종종 실버우드에 의해 그 가치가 가려지곤 하지만, 시머리프에도 이 꽃만의 마법적 성질을 지니고 있습니다.<BR>실버우드처럼 이 꽃에는 정화능력이 잠재되어 있습니다. 그리고 이 능력을 이끌어내 천상의 꽃으로 변화시키는 방법이 발견되었습니다.<BR>천상의 꽃은, 느리지만 확실하게 사악한 마법으로 오염된 지역을 이전의 모습으로 정화시키며, 이 정화 대상에는 테인트 또한 포함됩니다. 테인트을 즉각 몰아내지는 않지만 테인트에서 자라는 생물들은 테인트 지형이 아닌 곳에서는 그리 오래 살지 못하고 점차 사라집니다.
 tc.research_page.ETHEREALBLOOM.2=이 꽃은 꽃에서 나오는 정화의 빛이 닿는 8블럭 내의 공간만 정화할 수 있습니다.
 #
 tc.research_name.PECH=펙
