@@ -413,6 +413,7 @@ recipe.type.infusionenchantment=Infusion Enchantment
 recipe.type.construct=Mystical Construct
 #
 # Other
+itemGroup.thaumcraft=Thaumcraft
 nodetype.NORMAL.name=Normal
 nodetype.UNSTABLE.name=Unstable
 nodetype.DARK.name=Sinister
@@ -604,7 +605,7 @@ tc.research_name.PLANTS=Plants & Trees
 tc.research_text.PLANTS=Magical vegetation
 tc.research_page.PLANTS.1=§l      §nGreatwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
 tc.research_page.PLANTS.2=§l     §nSilverwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that aura nodes often form within their hearts - this feature alone makes a silverwood sapling a prize beyond measure.
-tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. Instead of nectar, these flowers produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pupled to produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l        §nCinderpearl§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
 tc.research_page.PLANTS.5=§l         §nMana Pod§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>This strange, podlike plant is only found growing on trees in magical forests. The grow very slowly and when harvested usually only yield one or two beans. 
 tc.research_page.PLANTS.6=These beans, known as Mana Beans, contain concentrated amounts of essentia. They can also be consumed, though the results are often a bit unpredictable.<BR>They can be replanted, but cultivation is difficult and time-consuming.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
@@ -615,7 +616,7 @@ tc.research_page.RESEARCHER1.1=You have become more efficient at performing rese
 #
 tc.research_name.RESEARCHER2=Research Mastery
 tc.research_text.RESEARCHER2=Power is Knowledge
-tc.research_page.RESEARCHER2.1=You have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by CTRL-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
+tc.research_page.RESEARCHER2.1=You have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by shift-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
 #
 tc.research_name.RESEARCHDUPE=Research Duplication
 tc.research_text.RESEARCHDUPE=Sharing is Caring
