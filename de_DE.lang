@@ -413,6 +413,7 @@ recipe.type.infusionenchantment=Infusionsverzauberung
 recipe.type.construct=Mystisches Konstrukt
 #
 # Other
+itemGroup.thaumcraft=Thaumcraft
 nodetype.NORMAL.name=Normal
 nodetype.UNSTABLE.name=Instabil
 nodetype.DARK.name=Dunkel
@@ -604,7 +605,7 @@ tc.research_name.PLANTS=Pflanzen & Bäume
 tc.research_text.PLANTS=Magische Vegetation
 tc.research_page.PLANTS.1=§l        §nGroßholzbäume§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>Die großen und majestätischen Bäume können überall vereinzelt gefunden werden.<BR>Ihr Holz ist in der Lage, eine beeindruckende Menge Magie aufzunehmen, was es zu einem beliebten Material für magische Geräte macht.
 tc.research_page.PLANTS.2=§l        §nSilberholzbäume§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Diese seltenen magischen Bäume sind eine Augenweide. Ihr Laub schimmert durch magische Energie und ihr blasses, weiches Holz ist bekannt für seine filternden Eigenschaften.<BR>Die magische Natur dieser Bäume ist so groß, dass sich manchmal Aura-Nodien in ihrem Innersten bilden - alleine das macht einen Silberholz-Setzling unbezahlbar.
-tc.research_page.PLANTS.3=§l        §nSchimmerblatt§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Nur im Schatten eines Silberholzbaumes sind diese seltsamen, glühenden Blumen zu finden. Anstelle von Nektar produzieren sie reinstes Quecksilber.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.3=§l        §nSchimmerblatt§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Nur im Schatten eines Silberholzbaumes sind diese seltsamen, glühenden Blumen zu finden. Sie können geerntet und zerstampft werden, um Quecksilber zu produzieren.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l        §nAschperle§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Lediglich in den heißesten Gegenden der Welt wächst diese Pflanze, genährt von elementarem Feuer. Wird sie geerntet und zermahlen, erhält man ein feines Pulver, das Lohenstaub ähnelt.
 tc.research_page.PLANTS.5=§l        §nManaschote§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Diese seltsame, schotenartige Pflanze kann nur an Bäumen in magischen Wäldern gefunden werden. Sie gedeihen nur sehr langsam und geben bei der Ernte selten mehr als eine oder zwei Bohnen. 
 tc.research_page.PLANTS.6=Jene Bohnen, Manabohnen genannt, enthalten konzentrierte Essentia. Sie können verspeist werden, doch die Nebenwirkungen sind unvorhersehbar.<BR>Es ist möglich, sie anzubauen, doch das Kultivieren ist schwierig und zeitaufwändig.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
@@ -615,7 +616,7 @@ tc.research_page.RESEARCHER1.1=Deine Art zu forschen ist effektiver geworden.<BR
 #
 tc.research_name.RESEARCHER2=Forschungsmeisterschaft
 tc.research_text.RESEARCHER2=Macht ist Wissen
-tc.research_page.RESEARCHER2.1=Du kannst nun noch effizienter forschen.<BR>Immer, wenn du einen Aspekt aus einem Sechseck entfernst, gibt es eine 50% Chance, dass du den Forschungspunkt zurückerhältst.<BR>Zudem gibt es eine 10% Chance, dass es nichts kostet, einen Aspekt zu setzen.<BR>Zuletzt kannst du Aspekte kombinieren, in dem du auf den gewünschten Aspekt STRG-klickst. Wenn du die benötigten Komponenten hast, verbinden sich diese automatisch zu dem angeklickten Aspekt.
+tc.research_page.RESEARCHER2.1=Du kannst nun noch effizienter forschen.<BR>Immer, wenn du einen Aspekt aus einem Sechseck entfernst, gibt es eine 50% Chance, dass du den Forschungspunkt zurückerhältst.<BR>Zudem gibt es eine 10% Chance, dass es nichts kostet, einen Aspekt zu setzen.<BR>Zu guter Letzt kannst du nun Aspekte kombinieren, in dem du auf den gewünschten Aspekt Shift-klickst. Wenn du die benötigten Komponenten hast, verbinden sich diese automatisch zu dem angeklickten Aspekt.
 #
 tc.research_name.RESEARCHDUPE=Forschungsduplizierung
 tc.research_text.RESEARCHDUPE=Geteilte Freude ist doppelte Freude
