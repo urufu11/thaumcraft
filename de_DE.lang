@@ -49,6 +49,7 @@ tile.blockAiry.0.name=Auranodie
 tile.blockAiry.1.name=Nitor
 tile.blockAiry.2.name=Lichtschimmer
 tile.blockAiry.3.name=Lichtschimmer
+tile.blockAiry.4.name=Bannende Aura
 tile.blockAiry.5.name=Auranodie
 tile.blockHole.name=Leerer Raum
 tile.blockSecure.name=Bannender Steinblock
@@ -585,7 +586,7 @@ tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken
 tc.research_name.ASPECTS=Aspekte der Magie
 tc.research_text.ASPECTS=Die Grundsteine der Magie
 tc.research_page.ASPECTS.1=Jede Art von Item, Blöcken oder Kreaturen ist abhängig von unterschiedlichen mystische Elementen, die §5Aspekte§0 benannt werden. Aspekte beschreiben die Zusammensetzung und Neigung der Objekte zu magischen Elementen. Ein einfacher Stein besitzt nur den Aspekt Saxum, andere komplexere Objekte wie Bäume oder sogar Kreaturen besitzen verschiedene Aspekte in unterschiedlichen Mengen. Es gibt fast 50 bekannte Aspekte, und es werden noch immer mehr entdeckt.<LINE>Es gibt zwei Hauptarten von Aspekten: §5Primäre§0 und §5Verbundene§0.
-tc.research_page.ASPECTS.2=§lPrimäre Aspekte§r sind die grundlegenden Arten von Aspekten, es gibt nur 6 von ihnen: §6Aer§0 (Luft), §2Terra§0 (Erde), §cIgnis§0 (Feuer), §3Aqua§0 (Wasser), §fOrdo§0 (Ordnung), §8Perditio§0 (Entropie).<BR>Diese bilden die Grundbausteine aller anderen Aspekte.<BR>§lVerbundaspekte§r sind aus zwei anderen Aspekten zusammengesetzt. Die einfachsten Verbundaspekte bestehen aus zwei primären Aspekten, es sind jedoch auch unglaublich komplexe Verbundaspekte aus mehreren aufeinander aufbauenden Aspekten möglich.<BR>Das einfachste Beispiel für einen Verbundaspekt ist Victus (Leben), eine Kombination aus Terra und Aqua. 
+tc.research_page.ASPECTS.2=§lPrimäre Aspekte§r sind die grundlegenden Arten von Aspekten, es gibt nur 6 von ihnen: §6Aer§0 (Luft), §2Terra§0 (Erde), §cIgnis§0 (Feuer), §3Aqua§0 (Wasser), §fOrdo§0 (Ordnung), §8Perditio§0 (Entropie).<BR>Diese bilden die Grundbausteine aller anderen Aspekte.<BR>§lVerbundaspekte§r sind aus zwei anderen Aspekten zusammengesetzt. Die einfachsten Verbundaspekte bestehen aus zwei primären Aspekten, es sind jedoch auch unglaublich komplexe Verbundaspekte aus mehreren aufeinander aufbauenden Aspekten möglich.<BR>Das einfachste Beispiel für einen Verbundaspekt ist Victus (Leben), eine Kombination aus §2Terra§0 und §3Aqua§0. 
 tc.research_page.ASPECTS.3=Um zu sehen, welche Aspekte ein Item besitzt, fahre einfach mit der Maus über das Item und drücke Schleichen (Shift), und du wirst erfahren, welche Aspekte das Item enthält sind und wie stark sie jeweils sind. Zuerst musst du jedoch das Item untersuchen, vorher bleiben die Aspekte verborgen.<LINE>Aspekte, die irgendwie von ihren Objekten abgetrennt und verfeinert wurden, werden §5Vis§0 genannt und sind sehr wertvoll: sowohl als Ziel magischer Forschung als auch zum Herstellen von Gegenständen.<BR>Vis ist meist in Zauberstäben gebunden, aber man kann es ebenso als eine magische Flüssigkeit lagern. Als Flüssigkeit gespeichertes Vis wird §5Essentia§0 genannt.
 #
 tc.research_name.NODES=Aura und Nodien
@@ -624,8 +625,8 @@ tc.research_page.RESEARCHDUPE.1=Du weißt jetzt, wie du Forschungsergebnisse kop
 #
 tc.research_name.DECONSTRUCTOR=Dekonstruktionstisch
 tc.research_text.DECONSTRUCTOR=Wenn genau hinsehen einfach nicht genug ist
-tc.research_page.DECONSTRUCTOR.1=Es kommt der Punkt in der Karriere eines jeden Thaumaturgen, an dem er nicht mehr weiterforschen kann, da es ihm an Aspekten mangelt.<BR>Eine mögliche Abhilfe ist der Dekonstruktionstisch. Dieser Tisch ermöglicht dir, Objekte in ihre Einzelteile zu zerlegen, die du dann untersuchen kannst. Dem sind jedoch Grenzen gesetzt - der Dekonstruktionstisch spaltet Verbundaspekte in ihre Bestandteile, bis nur noch primäre Aspekte vorhanden sind. Während dieses Prozesses geht viel verloren und das Beste, auf das der Thaumaturge hoffen kann ist ein einzelnes Stück eines primären Aspekts.<BR>Pflasterstein (Saxum und Perditio) beispielsweise
-tc.research_page.DECONSTRUCTOR.2=wird heruntergebrochen auf 2 Terra und 1 Perditio, von denen nur eines möglicherweise entdeckt werden kann.<BR>Zudem ist er relativ langsam und je weniger Aspekte ein Objekt besitzt, desto geringer ist die Chance etwas zu entdecken.
+tc.research_page.DECONSTRUCTOR.1=Es kommt der Punkt in der Karriere eines jeden Thaumaturgen, an dem er nicht mehr weiterforschen kann, da es ihm an Aspekten mangelt.<BR>Eine mögliche Abhilfe ist der Dekonstruktionstisch. Dieser Tisch ermöglicht dir, Objekte in ihre Einzelteile zu zerlegen, die du dann untersuchen kannst. Dem sind jedoch Grenzen gesetzt - der Dekonstruktionstisch spaltet Verbundaspekte in ihre Bestandteile, bis nur noch primäre Aspekte vorhanden sind. Während dieses Prozesses geht viel verloren und das Beste, auf das der Thaumaturge hoffen kann ist ein einzelnes Stück eines primären Aspekts.<BR>Pflasterstein (Saxum und §8Perditio§0) beispielsweise
+tc.research_page.DECONSTRUCTOR.2=wird heruntergebrochen auf 2 §2Terra§0 und 1 §8Terra§0, von denen nur eines möglicherweise entdeckt werden kann.<BR>Zudem ist er relativ langsam und je weniger Aspekte ein Objekt besitzt, desto geringer ist die Chance etwas zu entdecken.
 #
 tc.research_name.BASICTHAUMATURGY=Basis-Stabkunde
 tc.research_text.BASICTHAUMATURGY=Dein erstes Werkzeug
@@ -686,7 +687,7 @@ tc.research_page.CAP_silver.1=Silber besitzt ähnliche Eigenschaften wie Gold, w
 #
 tc.research_name.CAP_copper=Kupfer-Stabkappen
 tc.research_text.CAP_copper=Wenn Eisenkappen es einfach nicht packen
-tc.research_page.CAP_copper.1=Kupfer hat ähnliche Eigenschaften wie Eisen, wenn als Stabkappe genutzt, aber ist effizient wie Gold, wenn es darum geht, Ordo- oder Perditio-Vis zu leiten.
+tc.research_page.CAP_copper.1=Kupfer hat ähnliche Eigenschaften wie Eisen, wenn als Stabkappe genutzt, aber ist effizient wie Gold, wenn es darum geht, §7Ordo§0- oder §8Perditio§0-Vis zu leiten.
 #
 tc.research_name.ROD_greatwood=Großholz-Stabkern
 tc.research_text.ROD_greatwood=Behältnis für magische Energie
@@ -698,27 +699,27 @@ tc.research_page.ROD_silverwood.1=Silberholz hat sich als hervorragender Speiche
 #
 tc.research_name.ROD_obsidian=Obsidian-Stabkern
 tc.research_text.ROD_obsidian=Irdener Visspeicher
-tc.research_page.ROD_obsidian.1=Ein aus Obsidian gemeißelter Stabkern besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das Terra-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
+tc.research_page.ROD_obsidian.1=Ein aus Obsidian gemeißelter Stabkern besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das §2Terra§0-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
 #
 tc.research_name.ROD_bone=Knochen-Stabkern
 tc.research_text.ROD_bone=Entropischer Visspeicher
-tc.research_page.ROD_bone.1=Ein Knochen als Stabkern besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das Perditio-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
+tc.research_page.ROD_bone.1=Ein Knochen als Stabkern besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das §8Perditio§0-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
 #
 tc.research_name.ROD_blaze=Lohenruten-Stabkern
 tc.research_text.ROD_blaze=Feuriger Visspeicher
-tc.research_page.ROD_blaze.1=Als Stabkern benutze Lohenruten besitzen eine etwas größere Kapazität als Kerne aus Großholz. Was sie Großholzkernen überlegen macht, ist, dass sich das Ignis-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
+tc.research_page.ROD_blaze.1=Als Stabkern benutze Lohenruten besitzen eine etwas größere Kapazität als Kerne aus Großholz. Was sie Großholzkernen überlegen macht, ist, dass sich das §cIgnis§0-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
 #
 tc.research_name.ROD_ice=Eisiger Stabkern
 tc.research_text.ROD_ice=Eisiger Visspeicher
-tc.research_page.ROD_ice.1=Aus Eis hergestellte Stabkerne besitzen eine etwas größere Kapazität als Kerne aus Großholz. Was sie Großholzkernen überlegen macht, ist, dass sich das Aqua-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
+tc.research_page.ROD_ice.1=Aus Eis hergestellte Stabkerne besitzen eine etwas größere Kapazität als Kerne aus Großholz. Was sie Großholzkernen überlegen macht, ist, dass sich das §3Aqua§0-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
 #
 tc.research_name.ROD_quartz=Quarz-Stabkern
 tc.research_text.ROD_quartz=Ordnung-Visspeicher
-tc.research_page.ROD_quartz.1=Ein aus Quarz gemeißelter Stabkern besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das Ordo-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
+tc.research_page.ROD_quartz.1=Ein aus Quarz gemeißelter Stabkern besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das §7Ordo§0-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
 #
 tc.research_name.ROD_reed=Zuckerrohr-Stabkern
 tc.research_text.ROD_reed=Luftiger Visspeicher
-tc.research_page.ROD_reed.1=Ein Stabkern aus Zuckerrohr besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das Aer-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
+tc.research_page.ROD_reed.1=Ein Stabkern aus Zuckerrohr besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das §6Aer§0-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
 #
 tc.research_name.ROD_greatwood_staff=Magische Langstäbe
 tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
@@ -836,7 +837,7 @@ tc.research_page.ENCHFABRIC.2=Die einzelnen Teile dieses Outfits geben dir einen
 tc.research_name.ENCHANT=Verzauberungen
 tc.research_text.ENCHANT=Neue Verzauberungen
 tc.research_page.ENCHANT.1=Thaumcraft fügt einige einzigartige Verzauberungen hinzu.<BR>§nMacht (Nur Foki)§r<BR>Diese Verzauberung erhöht den Schaden, die Reichweite oder den Einflussbereich des Fokus.<BR>§nSparsamkeit (Nur Foki)§r<BR>Foki mit dieser Verzauberung benötigen weniger Vis, wenn sie benutzt werden.<BR>§nSchatz (Nur Foki)§r<BR>Diese Verzauberung ist wie die Glück-Verzauberung, sie erhöht die Anzahl an abgebauten Items.
-tc.research_page.ENCHANT.2=§nHast§r<BR>Mit Hast verzauberte Stiefel erhöhen die Land-Geschwindigkeit des Trägers. Je höher die Stufe der Verzauberung ist, desto größer ist dabei der Geschwindigkeitsbonus.<BR>§nReparieren§r<BR>Diese Verzauberung repariert Items, indem sie Vis aus der Aura zieht. Je höher die Stufe der Verzauberung ist, desto schneller ist dieser Prozess. Sie kann nur auf manche Thaumcraft-Items angewendet werden.
+tc.research_page.ENCHANT.2=§nHast§r<BR>Mit Hast verzauberte Stiefel erhöhen die Land-Geschwindigkeit des Trägers. Je höher die Stufe der Verzauberung ist, desto größer ist dabei der Geschwindigkeitsbonus.<BR>§nReparieren§r<BR>Diese Verzauberung repariert Items, indem sie Vis aus Stäben in deinem Inventar zieht. Die Viskosten werden durch den Wert des Items bestimmt. Je höher die Stufe der Verzauberung ist, desto schneller ist dieser Prozess. Sie kann nur auf manche Thaumcraft-Items angewendet werden.
 #
 tc.research_name.ELEMENTALAXE=Axt des Stroms
 tc.research_text.ELEMENTALAXE=Flüsse aus Holz
@@ -861,9 +862,17 @@ tc.research_name.ELEMENTALHOE=Hacke des Wachstums
 tc.research_text.ELEMENTALHOE=Balance der Natur
 tc.research_page.ELEMENTALHOE.1=Durch das Zusammenfügen von Ordnungs- und Entropie-Scherben sowie einer Thaumiumhacke hast du ein unvergleichliches Landwirtschaftsgerät geschaffen.<BR>Wenn du damit Felder umgräbst, bearbeitest du 3x3 Blöcke anstelle eines Einzelnen.<BR>Benutzt du sie mit Getreide oder anderen Pflanzen, verhält sie sich wie Knochenmehl, das das Wachstum beeinflusst, dies geht jedoch auf Kosten der Haltbarkeit. Eventuell kannst du damit sogar Pflanzen zum Wachsen bringen, auf die Knochenmehl keinen Einfluss hat.<BR>Solange du Shift drückst, verliert dieses Werkzeug seine besonderen Fähigkeiten und verhält sich wie eine normale Feldhacke.
 #
-tc.research_name.GUNPOWDER=Schwarzpulver
-tc.research_text.GUNPOWDER=Wer braucht schon Creeper?
-tc.research_page.GUNPOWDER.1=Du hast eine alternative Quelle für Schwarzpulver entdeckt! Nie wieder musst du nun für diese explosive Substanz Creeper jagen.
+tc.research_name.ALCHEMICALDUPLICATION=Alchemische Duplizierung
+tc.research_text.ALCHEMICALDUPLICATION=Je mehr, desto besser
+tc.research_page.ALCHEMICALDUPLICATION.1=Es gibt viele Substanzen alchemischer Natur in der Welt.<BR>Indem du vorsichting die richtigen Aspekte zu dieden Substanzen hinzufügst, solltest du fähig sein, mehr aus ihnen zu machen.
+#
+tc.research_name.ALCHEMICALMANUFACTURE=Alchemische Fertigung
+tc.research_text.ALCHEMICALMANUFACTURE=Viele Wege führen zum Ziel
+tc.research_page.ALCHEMICALMANUFACTURE.1=Du hast die Basis der Alchemie und die Alchemische Duplizierung gemeistert und bist nun bereit, komplexere Substanzen aus dem Nichts zu erschaffen.<BR>Du hast vielerlei Rezepte formuliert, die normalerweise schwierig zu bekommende Substanzen und Items durch Alchemie erschaffen lassen.
+#
+tc.research_name.ENTROPICPROCESSING=Entropiefertigung
+tc.research_text.ENTROPICPROCESSING=Dinge verschlimmern?
+tc.research_page.ENTROPICPROCESSING.1=Während das Kreieren magischer und gewöhnlicher Substanzen schon ziemlich zufriedenstellend ist, möchtest du manchmal nur Dinge in ihre Einzelbestandteile zerlegen. Und was wäre einfacher, als die Energie des Chaos dafür zu nutzen?<BR>Tatsächlich gibt es einige Gründe, warum das eine schlechte Idee sein könnte, aber was wäre Fortschritt ohne Risiken?
 #
 tc.research_name.TRANSIRON=Metalltransmutation
 tc.research_text.TRANSIRON=Transformation von Metallen zu Eisen
@@ -998,6 +1007,7 @@ tc.research_page.CORELIQUID.1=Golems mit diesem Kern bemühen sich, den ihnen zu
 tc.research_name.COREALCHEMY=Golemkern: Alchemie
 tc.research_text.COREALCHEMY=Essentia herumbewegen
 tc.research_page.COREALCHEMY.1=Dieser Kern ist eine spezialisierte Variante des Umfüll-Kerns, extra abgestimmt auf den Transport von Essentia.<BR>Alchemie-Golems, denen ein Alchemischer Ofen oder ein Alambik zugewiesen wurde, entnehmen Essentia aus dem ganzen Stapel der Alambiken und bringen sie zu markierten Gläsern. Es muss nicht jedes einzelne Glas markiert werden - die Golems sind intelligent genug, um auch benachbarte Gläser zu befüllen.<BR>Sie priorisieren Gläser in der Nähe und werden ein Glas erst komplett füllen, bevor sie ein Neues benutzen.
+tc.research_page.COREALCHEMY.2=Alchemiegolems können Essentia auch zwischen den meisten anderen Essentiaspeichern sowie Blöcken, die Essentia aufnehmen, transportieren.
 #
 tc.research_name.UPGRADEAIR=Golemupgrade: Luft
 tc.research_text.UPGRADEAIR=Macht deinen Golem schneller
@@ -1082,7 +1092,7 @@ tc.research_page.ARCANESTONE.1=Arkaner Stein ist ein grundlegendes Baumaterial f
 #
 tc.research_name.INFUSION=Infusion
 tc.research_text.INFUSION=Mystische Fusion
-tc.research_page.INFUSION.1=Arkanes Handwerk und Alchemie haben eine Grenze. Um wirklich mächtige mystische Objekte zu kreieren, wird etwas Besseres benötigt.<BR>Eine Infusion ist der Prozess, bei dem ein Objekt mit magischer Energie und den Eigenschaften anderer Objekte versetzt wird. Ein Stein beispielsweise, der mit Aer-Vis und einer Feder infundiert wird, würde sehr leicht werden.<BR>Aber wie überall in der Thaumaturgie ist es auch hier nicht so einfach. Um mit der Infusion beginnen zu können, brauchst du einige Dinge: Eine Runenmatrix, Arkane Sockel und eine stabile Essentia-Versorgung.
+tc.research_page.INFUSION.1=Arkanes Handwerk und Alchemie haben eine Grenze. Um wirklich mächtige mystische Objekte zu kreieren, wird etwas Besseres benötigt.<BR>Eine Infusion ist der Prozess, bei dem ein Objekt mit magischer Energie und den Eigenschaften anderer Objekte versetzt wird. Ein Stein beispielsweise, der mit §6Aer§0-Vis und einer Feder infundiert wird, würde sehr leicht werden.<BR>Aber wie überall in der Thaumaturgie ist es auch hier nicht so einfach. Um mit der Infusion beginnen zu können, brauchst du einige Dinge: Eine Runenmatrix, Arkane Sockel und eine stabile Essentia-Versorgung.
 tc.research_page.INFUSION.2=Nachdem du die Runenmatrix richtig in dem als Infusionsaltar bezeichneten Konstrukt angebracht hast, kannst du mit der Infusion beginnen.<BR>Auf den mittleren Sockel unterhalb der Matrix legst du das zu infundierende Item. Auf weitere Sockel, die um den Altar herum angeordnet sind, legst du Blöcke und Items, deren Eigenschaften du in das Zielobjekt infundieren willst. Abschließend benötigst du Bannende Gläser oder andere Essentia-Behälter, die das benötigte Vis liefern.<BR>Wenn du das alles hast, kannst du mit deinem Stab die Runenmatrix anklicken, um zu beginnen.<BR>In der ersten Phase werden die Essentia aus benachbarten Quellen
 tc.research_page.INFUSION.3=entnommen. Die Infusion kommt zum Erliegen, wenn nicht genug Essentia verfügbar ist - etwas, was du vermeiden solltest, wie weiter hinten erklärt.<BR>Nachdem alle benötigten Essentia infundiert wurden, werden die Essenzen der übrigen Objekte in den Altar hineingesogen. Erst jetzt ist die Infusion abgeschlossen.<LINE>Eine Infusion ist nicht ohne Risiken. Sie zwingt eine Menge Energie in ein einzelnes Objekt. Unvorhersehbare Dinge können geschehen.<BR>Normalerweise wird ein Objekt
 tc.research_page.INFUSION.4=von einem Sockel geworfen oder Flux entsteht, aber man hat auch schon von richtigen Katastrophen gehört.<BR>Je länger der Prozess durch Probleme wie zu wenig Essentia oder herabgefallene Items dauert, desto größer ist die Chance, dass etwas Schlimmes passiert.<BR>Das kann auf verschiedene Arten vermieden werden: Erstens solltest du die gesamte Infusion so symmetrisch wie möglich durchführen - achte gut darauf, wo du die Sockel aufstellst und sorge dafür, dass sie mit Sockeln auf der anderen Seite des Altars ausbalanciert sind. Zweitens solltest du die Items auf den Sockeln ebenfalls ausbalancieren. Abschließend kannst du okkulte Requisiten
@@ -1104,7 +1114,7 @@ tc.research_page.ADVANCEDGOLEM.1=Du hast einen Weg gefunden, Golems auf viele kl
 tc.research_name.ARCANEBORE=Arkaner Bohrer
 tc.research_text.ARCANEBORE=Bergbau entwickelt sich
 tc.research_page.ARCANEBORE.1=Du hast ein Gerät entdeckt, dass die Kraft und Reichweite des Grabe-Fokus erweitern kann. Noch besser, diese Maschine kann das sogar ohne deine ständige Aufsicht! Du musst sie nur auf einem besonderen Gestell platzieren, sie mit dem Zauberstab in die richtige Richtung zeigen lassen und ein Redstone-Signal anlegen.<BR>Der Arkane Bohrer benötigt zwei Dinge, um zu funktionieren: Erstens braucht er einen Grabe-Fokus im linken Inventarplatz. Besitzt der Fokus Verzauberungen, wirken sich diese auf den Bohrer aus.
-tc.research_page.ARCANEBORE.2=Zweitens benötigt der Bohrer eine beliebige Spitzhacke im rechten Inventarplatz. Das Material der Spitzhacke hat nur wenig Einfluss auf den Bohrer, aber je haltbarer sie ist, desto länger ist sie benutzbar. Wie mit dem Stab wirken sich alle Verzauberungen und Spezialfähigkeiten der Spitzhacke auf alles aus, was der Bohrer abbaut.<BR>Ein Glas mit Perditio-Essentia in einem 8-Block-Radius um den Bohrer erhöht die Abbaugeschwindigkeit drastisch, aber für alle 16 Blöcke wird ein Punkt Perditio verbraucht.<BR>Der Arkane Bohrer kann nur über oder unter einem Arkanen Bohrergestell angebracht werden. Alles abgebauten Items werden von dem Gestell zu der Seite ausgeworfen, zu der die Öffnung zeigt.
+tc.research_page.ARCANEBORE.2=Zweitens benötigt der Bohrer eine beliebige Spitzhacke im rechten Inventarplatz. Das Material der Spitzhacke hat nur wenig Einfluss auf den Bohrer, aber je haltbarer sie ist, desto länger ist sie benutzbar. Wie mit dem Stab wirken sich alle Verzauberungen und Spezialfähigkeiten der Spitzhacke auf alles aus, was der Bohrer abbaut.<BR>Ein Glas mit §8Perditio§0-Essentia in einem 8-Block-Radius um den Bohrer erhöht die Abbaugeschwindigkeit drastisch, aber für alle 16 Blöcke wird ein Punkt Perditio verbraucht.<BR>Der Arkane Bohrer kann nur über oder unter einem Arkanen Bohrergestell angebracht werden. Alles abgebauten Items werden von dem Gestell zu der Seite ausgeworfen, zu der die Öffnung zeigt.
 tc.research_page.ARCANEBORE.3=Wenn möglich, wird ein angrenzendes Inventar verwendet. Die Richtung kann mit dem Stab geändert werden.
 #
 tc.research_name.LEVITATOR=Arkaner Levitator
@@ -1233,8 +1243,8 @@ tc.research_page.THAUMATORIUM.3=Normalerweise kann ein Thaumatorium nur ein akti
 #
 tc.research_name.RUNICARMOR=Runenrüstung
 tc.research_text.RUNICARMOR=Schilde hoch!
-tc.research_page.RUNICARMOR.1=Deine Forschung über magischen Schutz hat dich die Runenrüstung entdecken lassen. Der Name ist irreführend, denn es handelt sich nicht um eine klassische Rüstung, sondern um eine Sammlung aus Amuletten, Siegeln und anderen Schutzzaubern, die mit normaler Kleidung getragen werden.<BR>Diese formen eine magische Barriere, die dich vor den meisten Schadensarten beschützt. Die Rüstung besitzt eine Anzahl an Trefferpunkten, von denen der Schaden abgezogen wird, der dich sonst träfe. Wenn die Trefferpunkte nicht mehr vorhanden sind, bekommst du normal Schaden.<BR>Sie laden sich mit der Zeit wieder auf, aber
-tc.research_page.RUNICARMOR.2=selbst, wenn keine Trefferpunkte mehr da sind, bietet die Rüstung etwa einen Schutz wie eine Lederrüstung.<BR>Die Rüstung bietet keinen Schutz gegen Schaden durch Ertrinken, Verhungern oder andere Umweltgefahren.<BR>Durch ihre Natur kann diese Rüstung nicht normal verzaubert werden, aber du bist sicher, dass es Möglichkeiten gibt, sie zu verbessern - du musst sie nur finden.
+tc.research_page.RUNICARMOR.1=Deine Forschung über magischen Schutz hat dich die Runenrüstung entdecken lassen. Der Name ist irreführend, denn es handelt sich nicht um eine klassische Rüstung, sondern um eine Sammlung aus Amuletten, Siegeln und anderen Schutzzaubern, die mit normaler Kleidung getragen werden.<BR>Diese formen eine magische Barriere, die dich vor den meisten Schadensarten beschützt. Die Rüstung besitzt eine Anzahl an Trefferpunkten, von denen der Schaden abgezogen wird, der dich sonst träfe. Wenn die Trefferpunkte nicht mehr vorhanden sind, bekommst du normal Schaden.
+tc.research_page.RUNICARMOR.2=Sie laden sich mit der Zeit wieder auf, aber selbst, wenn keine Trefferpunkte mehr da sind, bietet die Rüstung etwa den Schutz einer Lederrüstung.<BR>Die Rüstung benötigt §2Terra§0- und §eAer§0-Vis, um sich wiederaufzuladen, welches es aus deinen Stäben zieht.<BR>Die Rüstung bietet keinen Schutz gegen Schaden durch Ertrinken, Verhungern oder andere Umweltgefahren.<BR>Durch ihre Natur kann diese Rüstung nicht normal verzaubert werden, aber du bist sicher, dass es Möglichkeiten gibt, sie zu verbessern - du musst sie nur finden.
 #
 tc.research_name.RUNICARMORUPGRADES=Runenrüstungs-Upgrades
 tc.research_text.RUNICARMORUPGRADES=Schilde auf Maximum!
@@ -1250,9 +1260,10 @@ tc.research_name.RUNICBOOTSTRAVELLER=Runenstiefel des Reisenden
 tc.research_text.RUNICBOOTSTRAVELLER=Das Beste beider Welten
 tc.research_page.RUNICBOOTSTRAVELLER.1=Während der Schutz der Runenrüstung überlebenswichtig ist, vermisst du die Geschwindigkeit der Stiefel des Reisenden. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einem Paar der Stiefel kannst du die Vorzüge von Beidem genießen.
 #
-tc.research_name.WARDEDARCANA=Arkane Türen und Druckplatten
+tc.research_name.WARDEDARCANA=Bannmagie
 tc.research_text.WARDEDARCANA=Zugangskontrolle
-tc.research_page.WARDEDARCANA.1=Deine Experimente haben dich etwas Interessantes entdecken lassen - die Fähigkeit, Erinnerungen in leblose Objekte zu bringen. Der erste Versuch, diese Entdeckung anzuwenden, führte zu Türen und Druckplatten, die wissen, wer sie platziert hat.<BR>Die Tür kann nur von demjenigen abgebaut werden, der sie errichtet hat. Zudem kann sie nur von ihrem Besitzer geöffnet werden. Der Besitzer kann eiserne oder goldene Schlüssel machen, die anderen Zugang zu der Tür ermöglichen.<BR>Wenn du einen Eisenschlüssel machst und mit ihm auf die Tür klickst, verbindest du den Schlüssel mit der Tür. 
+tc.research_page.WARDEDARCANA.1=Deine Experimente haben dich etwas Interessantes entdecken lassen - die Fähigkeit, Erinnerungen in leblose Objekte zu bringen. Der erste Versuch, diese Entdeckung anzuwenden, führte zu Türen, Druckplatten und anderen Blöcken, die sich merken, wer sie platziert hat.<BR>Die Tür kann nur mit einem Stab von demjenigen abgebaut werden, der sie platziert hat. Zudem kann sie nur von ihrem Besitzer geöffnet werden. Der Besitzer kann eiserne oder goldene Schlüssel machen, die anderen Zugang zu der Tür ermöglichen.<BR>Wenn du einen Eisenschlüssel machst und mit ihm auf die Tür klickst, verbindest du den Schlüssel mit der Tür. 
 tc.research_page.WARDEDARCANA.2=Jetzt kannst du den Schlüssel einer anderen Person geben, die dadurch das dauerhafte Recht erhält, die Tür zu öffnen. Sie kann jedoch weder die Tür abbauen, noch jemand anderem Zugang gewähren. Dafür benötigst du einen Goldschlüssel.<BR>Der Goldschlüssel funktioniert wie der Eisenschlüssel, aber zusätzlich kann man damit anderen Personen mit Eisenschlüsseln Zugang zu der Tür gewähren. Nur der Besitzer der Tür kann den Zugang mit Goldschlüsseln gewähren, und nur dieser kann Türen mit seinem Stab abbauen.
 tc.research_page.WARDEDARCANA.3=Diese Druckplatte besitzt einige neue Funktionen.<BR>Erstens hat sie 3 Einstellungen, die durch einen Rechtsklick geändert werden können: Immer auslösen (wie eine Holz-Druckplatte), nur du oder jeder außer dir.<BR>Zweitens, wie bei allen bannenden Items, kannst nur du sie entfernen.<BR>Drittens kann sie durch Schlüssel mit anderen Spielern verbunden werden. Mit diesen Druckplatten können Arkane Türen geöffnet werden, wenn jemand mit Zugang zur Druckplatte auch Zugang zur Tür hat.
+tc.research_page.WARDEDARCANA.4=Bannendes Glas ist ein einfacher dekorativer Block, aber wie andere bannende Objekte kann es nur von dem zerstört werden, der es platziert hat.<BR>Schlüssel können auch hier verwendet werden, um anderen Spielern Zugriff zu gewähren.
 #
