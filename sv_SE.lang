@@ -7,11 +7,11 @@ enchantment.haste=Hast
 enchantment.repair=Reparera
 #
 #Potions
-potion.fluxtaint=Flux Förorening
+potion.fluxtaint=Flux besmittelse
 potion.soulshatter=Själ Splitrare
 #
 #Entities
-entity.Thaumcraft.ThaumSlime.name=Thaumisc Slime
+entity.Thaumcraft.ThaumSlime.name=Thaumisct Slime
 entity.Thaumcraft.Dart.name=Golem Pil
 entity.Thaumcraft.FrostShard.name=Frost Skärva
 entity.Thaumcraft.Firebat.name=Eld Fladdermus
@@ -21,13 +21,13 @@ entity.Thaumcraft.GiantBrainyZombie.name=Galen Zombie
 entity.Thaumcraft.BrainyZombie.name=Arg Zombie
 entity.Thaumcraft.FollowItem.name=Förförjande Föremål
 entity.Thaumcraft.SpecialItem.name=Magiskt Föremål
-entity.Thaumcraft.FallingTaint.name=Tainted Crust
-entity.Thaumcraft.AspectOrb.name=Aspect Orb
+entity.Thaumcraft.FallingTaint.name=Förorenad Skorpa
+entity.Thaumcraft.AspectOrb.name=Klot Av Aspekt
 entity.Thaumcraft.TaintSpider.name=Förorenad Spindel
 entity.Thaumcraft.Taintacle.name=Taintackel
-entity.Thaumcraft.TaintacleTiny.name=Förorenad Ranka
+entity.Thaumcraft.TaintacleTiny.name=Liten Taintackel
 entity.Thaumcraft.TaintSpore.name=Förorenad Spor
-entity.Thaumcraft.TaintSwarmer.name=Förorenad Spor Svärmare
+entity.Thaumcraft.TaintSwarmer.name=Förorenad Svärmare
 entity.Thaumcraft.TaintSwarm.name=Förorenad Svarm
 entity.Thaumcraft.TaintedVillager.name=Förorenad Bybo
 entity.Thaumcraft.TaintedChicken.name=Förorenad Kyckling
