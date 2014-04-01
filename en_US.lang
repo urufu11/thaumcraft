@@ -220,6 +220,7 @@ item.WandRod.100.name=Staff Core of the Primal
 item.Wand.name=%CAP %ROD %OBJ
 #
 item.Wand.wand.obj=Wand
+item.Wand.sceptre.obj=Sceptre
 item.Wand.staff.obj=Staff
 item.Wand.wood.rod=Wooden
 item.Wand.greatwood.rod=Greatwood
@@ -367,19 +368,23 @@ item.ItemManaBean.name=Mana Bean
 item.TrunkSpawner.name=Traveling Trunk
 item.TrunkSpawner.text.1=This trunk holds items
 item.ItemResonator.name=Essentia Resonator
-item.ItemHelmetRunic.name=Runic Headpiece
-item.ItemChestplateRunic.name=Runic Chestpiece
-item.ItemLeggingsRunic.name=Runic Legpiece
-item.ItemBootsRunic.name=Runic Footpiece
-item.ItemGogglesRunic.name=Runic Goggles of Revealing
-item.ItemBootsTravellerRunic.name=Runic Boots of the Traveller
-item.runic.charge=Charge
-item.runic.upgrade.1=Energized
-item.runic.upgrade.2=Augmented
-item.runic.upgrade.3=Kinetic Feedback
-item.runic.upgrade.4=Revitalizing Feedback
-item.runic.upgrade.5=Hardened
-item.runic.upgrade.6=Emergency Shielding
+item.ItemAmuletRunic.name=Amulet of Runic Shielding
+item.ItemRingRunic.0.name=Ring of Protection
+item.ItemRingRunic.1.name=Ring of Runic Shielding
+item.ItemGirdleRunic.name=Girdle of Runic Shielding
+item.runic.charge=Runic shield
+item.runic.ENERGIZED=Energized
+item.runic.AUGMENTED=Augmented
+item.runic.KINETIC=Kinetic Feedback
+item.runic.REVITALIZING=Revitalizing Feedback
+item.runic.EMERGENCY=Emergency Shielding
+item.ItemBaubleBlanks.0.name=Mundane Amulet
+item.ItemBaubleBlanks.1.name=Mundane Ring
+item.ItemBaubleBlanks.2.name=Mundane Belt
+item.capacity.text=Capacity
+item.ItemAmuletVis.text=Slowly recharges held wands
+item.ItemAmuletVis.0.name=Vis Stone
+item.ItemAmuletVis.1.name=Amulet of Vis Storage
 #
 # Fluids
 fluid.fluxGoo=Flux Goo
@@ -696,6 +701,10 @@ tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double
 tc.research_name.ROD_silverwood=Silverwood Wand Core
 tc.research_text.ROD_silverwood=Magical to the core
 tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 100 vis of each type.
+#
+tc.research_name.SCEPTRE=Crafting Sceptre
+tc.research_text.SCEPTRE=Made to task
+tc.research_page.SCEPTRE.1=Crafting sceptres are specialized wands made to be used to craft mystical objects and nothing else. Foci cannot be attached to them, but they have several features that still make them worthwile using.<BR>Firstly, they have an additional 5% vis discount above and beyond what their caps would normally grant.<BR>Secondly they are able to hold 50% more vis than their cores would normally allow.<BR>Like other wands they can be crafted using most combinations of rods and caps - just a few examples are given on the next page.
 #
 tc.research_name.ROD_obsidian=Obsidian Wand Core
 tc.research_text.ROD_obsidian=Earthen vis storage
@@ -1241,24 +1250,16 @@ tc.research_page.THAUMATORIUM.1=Up to now alchemy has been somewhat of a hit and
 tc.research_page.THAUMATORIUM.2=When you access this device you will see several slots. The top-left slot is where you place the cataylyst. Once you have done this you will be able to choose which recipe you wish to craft with that catalyst from a list of possibilities in the top right slot.<BR>The bottom bar shows the essentia required in the order they will be required. It will also display progress bars once the machine is in operation.<BR>The created object is ejected out the front of the device or into an inventory placed in front of the ejection port.
 tc.research_page.THAUMATORIUM.3=Normally a Thaumatorium can only have one active formula, but by attaching a Mnemonic Matrix to its side you can increase the number of formulas it can keep track.<BR>Each matrix increases the number of formulas by 2. 
 #
-tc.research_name.RUNICARMOR=Runic Armor
+tc.research_name.RUNICARMOR=Runic Shielding
 tc.research_text.RUNICARMOR=Shields up!
-tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Armor. The name is misleading though since it is not armor in the traditional sense, but a collection of charms, seals and similar protective devices worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The armor has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.
+tc.research_page.RUNICARMOR.1=Your research into protective magics have led you to discover Runic Shielding. This is not armor in the traditional sense, but a collection of charms, rings and similar protective baubles worn with your everyday clothes.<BR>These devices create a barrier of magical energy that wards out most types of damage. The shielding has a pool of hit points from which damage is subtracted first, protecting the wearer from all harm. Once this pool is depleted the wearer starts taking damage as normal.
 tc.research_page.RUNICARMOR.2=The pool replenishes over time, but even when depleted the armor offers protection roughly equivalent to that of leather armor.<BR>The armor requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from carried wands.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
 #
-tc.research_name.RUNICARMORUPGRADES=Runic Armor Upgrades
+tc.research_name.RUNICARMORUPGRADES=Runic Shielding Upgrades
 tc.research_text.RUNICARMORUPGRADES=Shields to maximum!
-tc.research_page.RUNICARMORUPGRADES.1=Improving Runic Armor has turned out to be easier than expected. You have discovered several augmentations that can be applied to it, though only a single augmentation can be applied at a time.<LINE>§nEnergetic§r<BR>This augmentation will replenish the runic charge 20% quicker than normal.<BR>§nAugmented§r<BR>This upgrade increases the amount of charge a piece of runic armor has.
+tc.research_page.RUNICARMORUPGRADES.1=Improving Runic Shielding has turned out to be easier than expected. You have discovered several augmentations that can be applied to it, though only a single augmentation can be applied at a time.<LINE>§nEnergetic§r<BR>This augmentation will replenish the runic charge 20% quicker than normal.<BR>§nAugmented§r<BR>This upgrade increases the amount of charge a piece of runic armor has.
 tc.research_page.RUNICARMORUPGRADES.2=§nKinetic Feedback§r<BR>When your shielding is breached this upgrade will release a detonation of kinetic energy. The damage and force of the detonation increases depending on how many pieces of armor has this upgrade. This ability has a 30 second cooldown.<BR>§nRevitalizing Feedback§r<BR>When your runic shielding is breached it will release a pulse of regenerative energy into its wearer that will last for a few seconds. The strength of this effect increases for each piece of armor with this upgrade. This effect has a 30 second cooldown.
-tc.research_page.RUNICARMORUPGRADES.3=§nHardened§r<BR>This upgrade doubles the amount of mundane armor protection a piece of runic armor provides once it's shielding has been breached.<BR>§nEmergency Shielding§r<BR>When the runic shield is breached this upgrade will instantly add 8 (or more) charge spread amongst the armor pieces you are wearing. Each runic armor piece with this upgrade adds 8 charge. This ability has a two minute cooldown.
-#
-tc.research_name.RUNICGOGGLES=Runic Goggles of Revealing
-tc.research_text.RUNICGOGGLES=The best of both worlds
-tc.research_page.RUNICGOGGLES.1=While being protected by Runic Armor is vital, you also need the utility of Goggles of Revealing to perform your thaumaturgical tasks. Why not have both?<BR>By affixing the charms of the runic headgear to a pair of goggles, you can enjoy the benefits of both.
-#
-tc.research_name.RUNICBOOTSTRAVELLER=Runic Boots of the Traveller
-tc.research_text.RUNICBOOTSTRAVELLER=The best of both worlds
-tc.research_page.RUNICBOOTSTRAVELLER.1=While being protected by Runic Armor is vital, you have begun to miss the speed granted by your Boots of Travelling. Why not have both?<BR>By affixing the charms of the runic footgear to a pair of boots of travelling, you can enjoy the benefits of both.
+tc.research_page.RUNICARMORUPGRADES.3=§nEmergency Shielding§r<BR>When the runic shield is breached this upgrade will instantly add 8 (or more) charge spread amongst the armor pieces you are wearing. Each runic armor piece with this upgrade adds 5 charge. This ability has a two minute cooldown.
 #
 tc.research_name.WARDEDARCANA=Warded Arcana
 tc.research_text.WARDEDARCANA=Controlling access
@@ -1266,4 +1267,9 @@ tc.research_page.WARDEDARCANA.1=Some experimentation has led to an interesting d
 tc.research_page.WARDEDARCANA.2=You can then give the key to another person and they will be able to use it on the door to gain permanent permission to open it. They will still not be able to break the door, or grant anyone else access. For that you need the gold key.<BR>The gold key serves much the same function as the iron key, except they can also grant other people iron key access to that door. Only the original owner of the door can hand out gold key access. They are also not able to remove the door with a wand. Only the original owner will be able to do that.
 tc.research_page.WARDEDARCANA.3=This pressure plate has a few novel features.<BR>Firstly it has 3 settings that can be toggled by right-clicking on it: It can trigger on everything (like a wooden pressure plate), just you, or everything except you.<BR>Secondly, like all other warded items only you can remove it.<BR>Lastly it can be linked to other players with the use of keys. These pressure plates can be used to open arcane doors as long as someone with access to the plate has access to the door as well.
 tc.research_page.WARDEDARCANA.4=Warded glass is a simple cosmetic block, but like other warded objects it cannot be broken except by the person who placed it.<BR>Keys cannot be used to give other users access.
+#
+tc.research_name.VISAMULET=Vis Storage
+tc.research_text.VISAMULET=Waste not, Want not
+tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there is occassions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>Your success has been mixed however. You can only recharge wands while holding them in your own hand and even then the recharge rate is slow. 
+tc.research_page.VISAMULET.2=However the amulet is able to act as a good power source for other things like the Repair enchant or runic shielding.<BR>The amulet can only be recharged in a wand pedestal.
 #
