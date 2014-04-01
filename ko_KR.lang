@@ -699,7 +699,7 @@ tc.research_text.ROD_greatwood=마법에너지 저장소
 tc.research_page.ROD_greatwood.1=그레이트우드 원목을 깎아 만든 이 완드 코어는 평범한 나무로 만든 완드 코어보다 2배 더 많은 비스를 저장할 수 있습니다. 각각의 비스마다 최대 50을 저장할 수 있습니다.
 #
 tc.research_name.ROD_silverwood=실버우드 완드 코어
-tc.research_text.ROD_silverwood=Magical to the core
+tc.research_text.ROD_silverwood=마법의 근원
 tc.research_page.ROD_silverwood.1=실버우드는 마법에너지 저장소로는 최고의 선택입니다. 실버우드로 만들어진 완드 코어는 각각의 비스를 최대 100씩 저장할 수 있습니다.
 #
 tc.research_name.SCEPTRE=제작용 홀
