@@ -21,13 +21,13 @@ entity.Thaumcraft.GiantBrainyZombie.name=사나운 좀비
 entity.Thaumcraft.BrainyZombie.name=화난 좀비
 entity.Thaumcraft.FollowItem.name=Following Item
 entity.Thaumcraft.SpecialItem.name=마법 아이템
-entity.Thaumcraft.FallingTaint.name=테인트 부스러기
+entity.Thaumcraft.FallingTaint.name=오염된 껍질
 entity.Thaumcraft.AspectOrb.name=위상 구체
-entity.Thaumcraft.TaintSpider.name=테인트 거미
+entity.Thaumcraft.TaintSpider.name=테인트 크롤러
 entity.Thaumcraft.Taintacle.name=테인타클
 entity.Thaumcraft.TaintacleTiny.name=테인트 덩굴
-entity.Thaumcraft.TaintSpore.name=테인트 스포어
-entity.Thaumcraft.TaintSwarmer.name=테인트 스워머
+entity.Thaumcraft.TaintSpore.name=테인트 거미
+entity.Thaumcraft.TaintSwarmer.name=테인트 거미 스워머
 entity.Thaumcraft.TaintSwarm.name=테인트 스웜
 entity.Thaumcraft.TaintedVillager.name=테인트 주민
 entity.Thaumcraft.TaintedChicken.name=테인트 닭
@@ -221,6 +221,7 @@ item.Wand.name=%ROD %CAP %OBJ
 #
 item.Wand.wand.obj=완드
 item.Wand.staff.obj=스태프
+item.Wand.sceptre.obj=홀
 item.Wand.wood.rod=목재
 item.Wand.greatwood.rod=그레이트우드
 item.Wand.silverwood.rod=실버우드
@@ -367,19 +368,23 @@ item.ItemManaBean.name=마나 콩
 item.TrunkSpawner.name=여행 트렁크
 item.TrunkSpawner.text.1=트렁크에 아이템이 있습니다.
 item.ItemResonator.name=에센시아 공진기
-item.ItemHelmetRunic.name=루닉 아머: 머리
-item.ItemChestplateRunic.name=루닉 아머: 가슴
-item.ItemLeggingsRunic.name=루닉 아머: 다리
-item.ItemBootsRunic.name=루닉 아머: 발
-item.ItemGogglesRunic.name=루닉 아머: 발견의 고글
-item.ItemBootsTravellerRunic.name=루닉 아머: 여행자의 신발
+item.ItemAmuletRunic.name=루닉 결계 아뮬렛
+item.ItemRingRunic.0.name=보호의 반지
+item.ItemRingRunic.1.name=루닉 결계 반지
+item.ItemGirdleRunic.name=루닉 결계 허리띠
 item.runic.charge=충전량
-item.runic.upgrade.1=가속
-item.runic.upgrade.2=확장
-item.runic.upgrade.3=충격파
-item.runic.upgrade.4=재활성화
-item.runic.upgrade.5=강화
-item.runic.upgrade.6=긴급 방호
+item.runic.ENERGIZED=가속
+item.runic.AUGMENTED=확장
+item.runic.KINETIC=충격파
+item.runic.REVITALIZING=재활성화
+item.runic.EMERGENCY=긴급 방호
+item.ItemBaubleBlanks.0.name=아뮬렛
+item.ItemBaubleBlanks.1.name=반지
+item.ItemBaubleBlanks.2.name=허리띠
+item.capacity.text=용량
+item.ItemAmuletVis.text=손에 쥔 완드를 천천히 충전시킵니다.
+item.ItemAmuletVis.0.name=비스 스톤
+item.ItemAmuletVis.1.name=비스 배터리
 #
 # Fluids
 fluid.fluxGoo=플럭스 점액
@@ -694,8 +699,12 @@ tc.research_text.ROD_greatwood=마법에너지 저장소
 tc.research_page.ROD_greatwood.1=그레이트우드 원목을 깎아 만든 이 완드 코어는 평범한 나무로 만든 완드 코어보다 2배 더 많은 비스를 저장할 수 있습니다. 각각의 비스마다 최대 50을 저장할 수 있습니다.
 #
 tc.research_name.ROD_silverwood=실버우드 완드 코어
-tc.research_text.ROD_silverwood=마법의 근원
+tc.research_text.ROD_silverwood=Magical to the core
 tc.research_page.ROD_silverwood.1=실버우드는 마법에너지 저장소로는 최고의 선택입니다. 실버우드로 만들어진 완드 코어는 각각의 비스를 최대 100씩 저장할 수 있습니다.
+#
+tc.research_name.SCEPTRE=제작용 홀
+tc.research_text.SCEPTRE=제작을 위해서
+tc.research_page.SCEPTRE.1=제작용 홀은 오직 마법 도구 제작을 위해 고안되었습니다. 포커스를 장착시킬 수 없는 대신 홀만의 특별한 기능들을 갖고 있습니다.<BR우선, 홀은 완드 캡의 비스 절약량에 추가로 5% 더 절약할 수 있도록 해 줍니다.<BR>또한 홀을 제작할 때 사용한 코어의 기본 저장량의 50%를 추가적으로 가집니다.<BR>완드와 마찬가지로 홀은 대부분의 코어와 완드 캡으로 만들 수 있습니다. 다음 페이지에는 몆가지 예시가 나와있습니다.
 #
 tc.research_name.ROD_obsidian=흑요석 완드 코어
 tc.research_text.ROD_obsidian=단단한 비스 저장소
@@ -1241,24 +1250,16 @@ tc.research_page.THAUMATORIUM.1=지금까지 연금술은 잘못 계산된 위�
 tc.research_page.THAUMATORIUM.2=이 장치를 구성하는 데 필요한 도가니에는 물은 필요가 없지만, 용암이나 나이터 같은 열원은 여전히 필요합니다. 이 장치를 열어보면 여러 칸이 존재하는 것을 볼 수 있습니다. 좌측 상단의 칸은 촉매가 들어가는 곳입니다. 촉매를 넣어주면, 해당 촉매를 이용할 수 있는 공식들이 우측 상단에 표시됩니다.<BR>하단의 게이지는 순서대로 그 공식들이 필요로 하는 에센시아의 수량을 보여줍니다. 여기에는 기계의 진행률 또한 표시됩니다.<BR>완성품은 기계 앞으로 배출되거나 반출구 앞의 인벤토리로 들어가게 됩니다.
 tc.research_page.THAUMATORIUM.3=사우마토리엄은 기본적으로는 한번에 하나의 공식만을 실행할 수 있지만, 옆면에 느모닉 매트릭스를 장착시킬 경우 동시에 여러가지 공식을 실행할 수 있습니다.<BR>각각의 매트릭스는 동시에 실행할 수 있는 공식을 2개씩 늘려줍니다. 
 #
-tc.research_name.RUNICARMOR=루닉 아머
+tc.research_name.RUNICARMOR=루닉 결계
 tc.research_text.RUNICARMOR=가드를 올려라!
-tc.research_page.RUNICARMOR.1=지속적인 보호마법의 연구 결과 루닉 아머의 존재를 알게 되었습니다. 이름 때문에 착각할 수 도 있지만, 이것은 일반적인 보호구가 아니라 평상복에 덧씌우는 보호 부적, 문양, 인장의 집합체입니다.<BR>이 장치는 대부분의 데미지를 막아내는 결계를 생성합니다. 결계는 체력바 위에 덧씌워져서 나타나며, 착용자에게 가해지는 모든 데미지를 우선해서 받아냅니다. 결계 수치가 바닥나면 평소처럼 착용자에게 데미지가 직접 들어오게 됩니다.
-tc.research_page.RUNICARMOR.2=결계는 천천히 복구되지만, 결계가 없더라도 가죽 방어구 수준의 보호력을 제공합니다.<BR>결계를 회복하는 데는 §2Terra§0와 §eAer§0비스를 필요로 하며, 이 비스는 가지고 있는 완드에서 소모됩니다.<BR>이 방어구는 굶주림, 익사 등의 환경적 요인에 의한 데미지는 막지 못합니다.<BR>이러한 특징 때문에 이 보호장비는 일반적인 방법으로는 인챈트할 수 없고, 특별한 방법을 통해서 효율성을 끌어올려야만 하며, 이 방법은 연구를 통한 발견이 필요합니다.
+tc.research_page.RUNICARMOR.1=지속적인 보호마법의 연구 결과 루닉 결계의 개념에 대해 알게 되었습니다. 이름 때문에 착각할 수 도 있지만, 이것은 일반적인 보호구가 아니라 평상복에 덧씌우는 아뮬렛, 반지 등의 집합체입니다.<BR>이 장치는 대부분의 데미지를 막아내는 결계를 생성합니다. 결계는 체력바 위에 덧씌워져서 나타나며, 착용자에게 가해지는 모든 데미지를 우선해서 받아냅니다. 결계 수치가 바닥나면 평소처럼 착용자에게 데미지가 직접 들어오게 됩니다.
+tc.research_page.RUNICARMOR.2=결계는 천천히 복구되지만, 결계가 없더라도 가죽 방어구 수준의 방어력을 제공합니다.<BR>결계를 회복하는 데는 §2Terra§0와 §eAer§0비스를 필요로 하며, 이 비스는 가지고 있는 완드에서 소모됩니다.<BR>이 방어구는 굶주림, 익사 등의 환경적 요인에 의한 데미지는 막지 못합니다.<BR>이러한 특징 때문에 이 보호장비는 일반적인 방법으로는 인챈트할 수 없고, 특별한 방법을 통해서 효율성을 끌어올려야만 하며, 이 방법은 연구를 통한 발견이 필요합니다.
 #
-tc.research_name.RUNICARMORUPGRADES=루닉 아머 업그레이드
+tc.research_name.RUNICARMORUPGRADES=루닉 결계 업그레이드
 tc.research_text.RUNICARMORUPGRADES=가드를 최대로!
-tc.research_page.RUNICARMORUPGRADES.1=루닉 아머를 개선하는 것은 생각보다 쉬운 듯 합니다. 아머에 적용할 수 있는 몇가지 업그레이드를 발견하였지만, 한번에 하나씩만 적용이 가능합니다.<LINE>                §n가속§r<BR>이 업그레이드가 적용된 아머는 결계의 복구 속도가 빨라집니다.<BR>                §n확장§r<BR>이 업그레이드는 아머의 결계량을 늘려줍니다.
-tc.research_page.RUNICARMORUPGRADES.2=             §n충격파§r<BR>결계가 완전히 파괴될 경우 주변으로 강력한 에너지파를 방출합니다. 폭발력은 이 업그레이드가 적용된 아머의 갯수가 많을 수록 커집니다. 이 능력은 30초의 재사용 대기시간을 가집니다.<BR>             §n재활성화§r<BR>결계가 파괴될 경우 착용자의 체내로 신체를 재생시켜주는 에너지를 몇십초간 주입합니다. 이 에너지는 이 업그레이드가 적용된 아머의 갯수가 많을수록 강력해집니다. 이 능력은 30초의 재사용 대기시간을 가집니다.
-tc.research_page.RUNICARMORUPGRADES.3=              §n강화§r<BR>이 업그레이드는 결계가 파괴되었을 경우 업그레이드가 적용된 아머의 기본 방어력을 두 배로 늘려줍니다.<BR>             §n긴급 방호§r<BR>결계가 파괴될 경우, 이 업그레이드는 8(혹은 그 이상)포인트의 결계를 입고 있는 루닉 아머에 분배합니다. 이 업그레이드가 적용된 아머 한 개당 8의 결계 포인트를 회복시킵니다. 이 능력은 2분의 재사용 대기시간을 가집니다.
-#
-tc.research_name.RUNICGOGGLES=루닉 아머: 발견의 고글
-tc.research_text.RUNICGOGGLES=두 마리 토끼
-tc.research_page.RUNICGOGGLES.1=루닉 아머에 의한 보호도 중요하지만, 발견의 고글의 기능 또한 필요한 것도 사실입니다. 두 가지 기능을 동시에 가질 수는 없는 걸까요?<BR>고글에 루닉 아머를 부착함으로써 두 가지 기능을 동시에 누릴 수 있습니다.
-#
-tc.research_name.RUNICBOOTSTRAVELLER=루닉 아머: 여행자의 신발
-tc.research_text.RUNICBOOTSTRAVELLER=두 마리 토끼
-tc.research_page.RUNICBOOTSTRAVELLER.1=루닉 아머에 의한 보호도 중요하지만, 여행자의 신발이 주는 빠른 이동속도 또한 매력적인건 사실입니다. 두 가지 기능을 동시에 가질 수는 없는 걸까요?<BR>부츠에 루닉 아머를 부착함으로써 두 가지 기능을 동시에 누릴 수 있습니다.
+tc.research_page.RUNICARMORUPGRADES.1=루닉 결계를 개선하는 것은 생각보다 쉬운 듯 합니다. 결계에 적용할 수 있는 몇가지 업그레이드를 발견하였지만, 한번에 하나씩만 적용이 가능합니다.<LINE>                §n가속§r<BR>이 업그레이드가 적용된 결계는 복원 속도가 빨라집니다.<BR>                §n확장§r<BR>이 업그레이드는 결계의 총량을 늘려줍니다.
+tc.research_page.RUNICARMORUPGRADES.2=             §n충격파§r<BR>결계가 완전히 파괴될 경우 주변으로 강력한 에너지파를 방출합니다. 폭발력은 이 업그레이드가 적용된 결계의 갯수가 많을 수록 커집니다. 이 능력은 30초의 재사용 대기시간을 가집니다.<BR>             §n재활성화§r<BR>결계가 파괴될 경우 착용자의 체내로 신체를 재생시켜주는 에너지를 몇십초간 주입합니다. 이 에너지는 이 업그레이드가 적용된 결계의 갯수가 많을수록 강력해집니다. 이 능력은 30초의 재사용 대기시간을 가집니다.
+tc.research_page.RUNICARMORUPGRADES.3=             §n긴급 방호§r<BR>결계가 파괴될 경우, 이 업그레이드는 8(혹은 그 이상)의 결계량을 입고 있는 루닉 결계에 분배합니다. 이 업그레이드가 적용된 결계 한 개당 8의 결계 포인트를 회복시킵니다. 이 능력은 2분의 재사용 대기시간을 가집니다.
 #
 tc.research_name.WARDEDARCANA=사생활 보호
 tc.research_text.WARDEDARCANA=접근 제한
@@ -1266,4 +1267,9 @@ tc.research_page.WARDEDARCANA.1=몇 가지 실험 결과, 살아있는 생물이
 tc.research_page.WARDEDARCANA.2=이 열쇠를 다른 사람에게 주어서 그 사람이 해당 문을 자유롭게 사용하도록 할 수 있습니다. 하지만 그 열쇠를 받은 사람일지라도 문을 부수거나 다른 사람이 통과하게 할 수는 없습니다. 이런 권한까지 주기 위해선 금 열쇠가 필요합니다.<BR>금 열쇠는 철제 열쇠의 기능을 포함하며, 다른 사람이 철제 열쇠를 만드는 것 또한 가능하게 합니다. 금 열쇠를 만들 수 있는 건 오직 최초 설치자 뿐입니다. 문은 완드를 통해서도 제거가 불가능하며, 최초 설치자만이 완드를 통한 제거를 할 수 있습니다.
 tc.research_page.WARDEDARCANA.3=새로운 감압판은 몇가지 특징적인 기능들을 갖고 있습니다.<BR>우선, 이 감압판은 우클릭으로 변경할 수 있는 세 가지 모드가 있습니다. 나무 감압판처럼 모든 것에 반응하거나, 주인에게만 반응하거나, 주인에게만 반응을 하지 않게 설정할 수 있습니다.<BR>또한 주인만이 이 감압판을 제거할 수 있습니다.<BR>마지막으로, 열쇠를 사용해서 다른 사람에게 권한을 부여할 수 있습니다. 또한 이 감압판은 아케인 문을 열 때도 사용이 가능하며, 이 경우 문과 감압판 모두에 사용 권한이 있어야 합니다.
 tc.research_page.WARDEDARCANA.4=결계 유리는 단순한 장식블럭으로 이 블럭 또한 마찬가지로 주인이 아닌 사람은 부술 수 없습니다.<BR>이 유리는 열쇠를 사용해도 다른 사람에게 권한을 주는 것이 불가능합니다.
+#
+tc.research_name.VISAMULET=비스 배터리
+tc.research_text.VISAMULET=어디서든 부족함 없이
+tc.research_page.VISAMULET.1=완드 하나로도 대부분의 상황에는 충분합니다. 하지만 가끔 완드 하나에 저장된 비스만으로는 부족한 경우가 있기 마련이죠. 두 개 이상의 완드를 들고 다니는 것만으로 이 문제를 해결할 수 있지만, 연구 결과 다른 방법 또한 존재함을 알 수 있었습니다.<BR>비스를 저장할 수 있는 이 아뮬렛은, 착용할 경우 인벤토리에 소지한 모든 비스를 소모하는 도구들을 자동으로 충전시킵니다.<BR>이 장치에도 한계는 있는데, 이 아뮬렛으로 완드를 충전하기 위해서는 충전하고자 하는 완드를 손에 들고 있어야 하며 충전 속도도 꽤 느린 편입니다. 
+tc.research_page.VISAMULET.2=그럼에도 루닉 결계나 수리 인챈트가 된 도구에 비스를 공급하기에는 최적의 장치라 할 수 있습니다.<BR>아뮬렛은 완드 충전 주각에서만 충전시킬 수 있습니다.
 #
