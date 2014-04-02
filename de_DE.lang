@@ -220,6 +220,7 @@ item.WandRod.100.name=Langstabkern des Ursprungs
 item.Wand.name=%CAP %ROD%OBJ
 #
 item.Wand.wand.obj=stab
+item.Wand.sceptre.obj=werkstab
 item.Wand.staff.obj=langstab
 item.Wand.wood.rod=Holz
 item.Wand.greatwood.rod=Großholz
@@ -367,19 +368,23 @@ item.ItemManaBean.name=Manabohne
 item.TrunkSpawner.name=Reisekoffer
 item.TrunkSpawner.text.1=Dieser Koffer hält Items
 item.ItemResonator.name=Essentia-Resonator
-item.ItemHelmetRunic.name=Runenkopfstück
-item.ItemChestplateRunic.name=Runenbrustplatte
-item.ItemLeggingsRunic.name=Runenbeinstück
-item.ItemBootsRunic.name=Runenfußstück
-item.ItemGogglesRunic.name=Runenbrille der Enthüllung
-item.ItemBootsTravellerRunic.name=Runenstiefel des Reisenden
-item.runic.charge=Ladung
-item.runic.upgrade.1=Energetisiert
-item.runic.upgrade.2=Erweitert
-item.runic.upgrade.3=Kinetisches Feedback
-item.runic.upgrade.4=Revitalisierendes Feedback
-item.runic.upgrade.5=Gehärtet
-item.runic.upgrade.6=Notfallschild
+item.ItemAmuletRunic.name=Amulett des Runenschildes
+item.ItemRingRunic.0.name=Ring des Schutzes
+item.ItemRingRunic.1.name=Ring des Runenschildes
+item.ItemGirdleRunic.name=Gürtel des Runenschildes
+item.runic.charge=Runenschutz
+item.runic.ENERGIZED=Energetisiert
+item.runic.AUGMENTED=Erweitert
+item.runic.KINETIC=Kinetisches Feedback
+item.runic.REVITALIZING=Revitalisierendes Feedback
+item.runic.EMERGENCY=Notfallschild
+item.ItemBaubleBlanks.0.name=Gewöhnliches Amulett
+item.ItemBaubleBlanks.1.name=Gewöhnlicher Ring
+item.ItemBaubleBlanks.2.name=Gewöhnlicher Gürtle
+item.capacity.text=Kapazität
+item.ItemAmuletVis.text=Lädt langsam gehaltene Stäbe auf
+item.ItemAmuletVis.0.name=Vis-Stein
+item.ItemAmuletVis.1.name=Amulett des Visspeichers
 #
 # Fluids
 fluid.fluxGoo=Fluxschleim
@@ -696,6 +701,10 @@ tc.research_page.ROD_greatwood.1=Geschnitzt aus Großholzstämmen hat dieser Sta
 tc.research_name.ROD_silverwood=Silberholz-Stabkern
 tc.research_text.ROD_silverwood=Magisch bis ins Mark
 tc.research_page.ROD_silverwood.1=Silberholz hat sich als hervorragender Speicher für magische Energie herausgestellt. Stabkerne aus diesem Material können daher mit bis zu 100 Vis von jeder Art geladen werden.
+#
+tc.research_name.SCEPTRE=Werkstäbe
+tc.research_text.SCEPTRE=An die Arbeit!
+tc.research_page.SCEPTRE.1=Werkstäbe sind spezialisierte Stäbe, verwendet, um mystische Objekte zu fertigen, sonst nichts. Foki können nicht auf sie gesetzt werden, aber sie haben verschiedene Eigenschaften, die sie lohnenswert machen.<BR>Erstens haben sie eine 5%-Vis-Reduktion zusätzlich zu dem, was die angebrachten Stabkappen bringen würden.<BR>Zweitens können sie 50% mehr Vis speichern, als ihre Kerne normalerweise ermöglichen würden.<BR>Wie andere Stäbe klnnen sie mit den meisten Kombinationen aus Stabkernen und -kappen gefertigt werden - ein paar Beispiele werden auf der nächsten Seite gezeigt.
 #
 tc.research_name.ROD_obsidian=Obsidian-Stabkern
 tc.research_text.ROD_obsidian=Irdener Visspeicher
@@ -1241,24 +1250,16 @@ tc.research_page.THAUMATORIUM.1=Bis jetzt war die Alchemie irgendwie eine unsich
 tc.research_page.THAUMATORIUM.2=Wenn du das Gerät benutzt, siehst du mehrere Felder. Das obere linke Feld ist der Platz für den Katalysator. Nachdem du ihn dort abgelegt hast, kannst du im oberen rechten Feld das gewünschte Rezept auswählen.<BR>Das untere Feld zeigt die benötigte Essentia in der richtigen Reihenfolge an. Wenn die Maschine in Betrieb ist, siehst du dort Fortschrittsbalken.<BR>Das Produkt wird nach vorne ausgeworfen oder in ein vor dem Auswurf platziertes Inventar gelegt.
 tc.research_page.THAUMATORIUM.3=Normalerweise kann ein Thaumatorium nur ein aktives Rezept bearbeiten, aber mit einer Mnemomatrix an einer Seite kann die Anzahl der Rezepte erhöht werden.<BR>Jede Matrix erhöht diese Anzahl um 2.
 #
-tc.research_name.RUNICARMOR=Runenrüstung
+tc.research_name.RUNICARMOR=Runenschilde
 tc.research_text.RUNICARMOR=Schilde hoch!
 tc.research_page.RUNICARMOR.1=Deine Forschung über magischen Schutz hat dich die Runenrüstung entdecken lassen. Der Name ist irreführend, denn es handelt sich nicht um eine klassische Rüstung, sondern um eine Sammlung aus Amuletten, Siegeln und anderen Schutzzaubern, die mit normaler Kleidung getragen werden.<BR>Diese formen eine magische Barriere, die dich vor den meisten Schadensarten beschützt. Die Rüstung besitzt eine Anzahl an Trefferpunkten, von denen der Schaden abgezogen wird, der dich sonst träfe. Wenn die Trefferpunkte nicht mehr vorhanden sind, bekommst du normal Schaden.
 tc.research_page.RUNICARMOR.2=Sie laden sich mit der Zeit wieder auf, aber selbst, wenn keine Trefferpunkte mehr da sind, bietet die Rüstung etwa den Schutz einer Lederrüstung.<BR>Die Rüstung benötigt §2Terra§0- und §eAer§0-Vis, um sich wiederaufzuladen, welches es aus deinen Stäben zieht.<BR>Die Rüstung bietet keinen Schutz gegen Schaden durch Ertrinken, Verhungern oder andere Umweltgefahren.<BR>Durch ihre Natur kann diese Rüstung nicht normal verzaubert werden, aber du bist sicher, dass es Möglichkeiten gibt, sie zu verbessern - du musst sie nur finden.
 #
-tc.research_name.RUNICARMORUPGRADES=Runenrüstungs-Upgrades
+tc.research_name.RUNICARMORUPGRADES=Runenschild-Upgrades
 tc.research_text.RUNICARMORUPGRADES=Schilde auf Maximum!
-tc.research_page.RUNICARMORUPGRADES.1=Die Runenrüstung zu verbessern, ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisiert§r<BR>Diese Verbesserung wird die Runenrüstung 20% schneller wiederaufladen.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
+tc.research_page.RUNICARMORUPGRADES.1=Die Runenschilde zu verbessern, ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisiert§r<BR>Diese Verbesserung wird die Runenrüstung 20% schneller wiederaufladen.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
 tc.research_page.RUNICARMORUPGRADES.2=§nKinetisches Feedback§r<BR>Wenn dein Schild durchbrochen wurde, setzt dieses Upgrade eine Detonation aus kinetischer Energie frei. Der Schaden und die Kraft dieser Detonation erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.<BR>§nRevitalisierendes Feedback§r<BR>Wenn dein Schild durchbrochen wurde, wird ein mehrere Sekunden dauernder Impuls aus regenerierender Energie an den Träger abgegeben. Die Stärke dieses Impulses erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.
-tc.research_page.RUNICARMORUPGRADES.3=§nVerstärkt§r<BR>Dieses Upgrade verdoppelt den Schutz, den die Runenrüstung bietet, wenn der Schild durchbrochen wurde.<BR>§nNotfallschild§r<BR>Wenn der Runenschild durchbrochen wurde, verteilt dieses Upgrade 8 Ladungen auf deine getragenen Runenrüstungsteile. Jedes Teil mit diesem Upgrade fügt 8 Ladungen hinzu. Dieser Effekt braucht zwei Minuten zur Regeneration.
-#
-tc.research_name.RUNICGOGGLES=Runenbrille der Enthüllung
-tc.research_text.RUNICGOGGLES=Das Beste beider Welten
-tc.research_page.RUNICGOGGLES.1=Während der Schutz der Runenrüstung überlebenswichtig ist, benötigst du auch die Vielseitigkeit der Brille der Enthüllung für deine thaumaturgischen Aufgaben. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einer Brille kannst du die Vorzüge von Beidem genießen.
-#
-tc.research_name.RUNICBOOTSTRAVELLER=Runenstiefel des Reisenden
-tc.research_text.RUNICBOOTSTRAVELLER=Das Beste beider Welten
-tc.research_page.RUNICBOOTSTRAVELLER.1=Während der Schutz der Runenrüstung überlebenswichtig ist, vermisst du die Geschwindigkeit der Stiefel des Reisenden. Warum nicht beides?<BR>Durch das Anbringen der Runenrüstung an einem Paar der Stiefel kannst du die Vorzüge von Beidem genießen.
+tc.research_page.RUNICARMORUPGRADES.3=§nNotfallschild§r<BR>Wenn der Runenschild durchbrochen wurde, verteilt dieses Upgrade 8 Ladungen (oder mehr) auf deine getragenen Runenrüstungsteile. Jedes Teil mit diesem Upgrade fügt 5 Ladungen hinzu. Dieser Effekt braucht zwei Minuten zur Regeneration.
 #
 tc.research_name.WARDEDARCANA=Bannmagie
 tc.research_text.WARDEDARCANA=Zugangskontrolle
@@ -1267,3 +1268,7 @@ tc.research_page.WARDEDARCANA.2=Jetzt kannst du den Schlüssel einer anderen Per
 tc.research_page.WARDEDARCANA.3=Diese Druckplatte besitzt einige neue Funktionen.<BR>Erstens hat sie 3 Einstellungen, die durch einen Rechtsklick geändert werden können: Immer auslösen (wie eine Holz-Druckplatte), nur du oder jeder außer dir.<BR>Zweitens, wie bei allen bannenden Items, kannst nur du sie entfernen.<BR>Drittens kann sie durch Schlüssel mit anderen Spielern verbunden werden. Mit diesen Druckplatten können Arkane Türen geöffnet werden, wenn jemand mit Zugang zur Druckplatte auch Zugang zur Tür hat.
 tc.research_page.WARDEDARCANA.4=Bannendes Glas ist ein einfacher dekorativer Block, aber wie andere bannende Objekte kann es nur von dem zerstört werden, der es platziert hat.<BR>Schlüssel können auch hier verwendet werden, um anderen Spielern Zugriff zu gewähren.
 #
+tc.research_name.VISAMULET=Vis-Speicher
+tc.research_text.VISAMULET=Komplett zinsfrei
+tc.research_page.VISAMULET.1=Meistens ist ein einzelner Stab mehr als genug für einen Thaumaturgen, jedoch kommt es vor, dass das Vis, das dieser Speichert, einfach nicht ausreicht. Mehr als einen Stab zu tragen, würde dieses Problem lösen, aber Experimente haben gezeigt, dass es noch einen weiteren Weg gibt.<BR>Durch die Fertigung eines Amulettes, das fähig ist, Vis zu speichern, ist es dir möglich, Stäbe und andere Items aufzuladen, während du es trägst, egal, wo du bist.<BR>Dein Erfolg hat jedoch auch seine Grenzen: Du kannst Stäbe nur wiederaufladen, währen du sie in deiner Hand hältst, und auch dann wird der Stab nur sehr langsam aufgeladen. 
+tc.research_page.VISAMULET.2=Jedoch ist das Amulett auch eine gute Energiequelle für Dinge wie die 'Reparieren'-Verzauberung oder Runenschilde.<BR>Das Amulett kann ausschließlich in einem Stabaufladungssockel aufgeladen werden.
