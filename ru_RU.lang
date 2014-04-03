@@ -385,7 +385,6 @@ item.capacity.text=Ёмкость
 item.ItemAmuletVis.text=Медленно заряжает находящиеся в руках жезлы
 item.ItemAmuletVis.0.name=Камень Вис
 item.ItemAmuletVis.1.name=Амулет-хранилище Вис
-
 #
 # Fluids
 fluid.fluxGoo=Заражённая жижа
