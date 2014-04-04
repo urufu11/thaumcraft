@@ -380,7 +380,8 @@ item.runic.REVITALIZING=Revitalisierendes Feedback
 item.runic.EMERGENCY=Notfallschild
 item.ItemBaubleBlanks.0.name=Gewöhnliches Amulett
 item.ItemBaubleBlanks.1.name=Gewöhnlicher Ring
-item.ItemBaubleBlanks.2.name=Gewöhnlicher Gürtle
+item.ItemBaubleBlanks.2.name=Gewöhnlicher Gürtel
+item.ItemBaubleBlanks.3.name=%TYPE-Ring des Lehrlings
 item.capacity.text=Kapazität
 item.ItemAmuletVis.text=Lädt langsam gehaltene Stäbe auf
 item.ItemAmuletVis.0.name=Vis-Stein
@@ -466,6 +467,7 @@ tc.unknownobject=Nichts kann hiervon gelernt werden.
 tc.markerchange=Setze Markerfarbe auf %n
 tc.markerchangeany=Setze auf beliebige Farbe
 tc.researchmissing=Fehlende erforderliche Forschung!
+tc.discount=Reduktion
 tc.visdiscount=Visreduktion
 tc.inst=Instabilität: 
 tc.inst.0=§1Unbedeutend§0
@@ -598,7 +600,7 @@ tc.research_name.NODES=Aura und Nodien
 tc.research_text.NODES=Magie ist überall
 tc.research_page.NODES.1=Die §5Aura§0 ist ein Feld von magischer Energie, das überall in der Welt vorkommt. Die Herkunft ist unklar. Einige glauben, dass sie die akkumulierte Lebenskraft der Lebewesen ist, während andere glauben, es sei lediglich eine andere Art von Energie, die aus irgendeinem anderen Ort sickert. Die letzte Theorie scheint wahrscheinlicher zu sein, so wie die Aura oft anzutreffen ist, als eine Nodie der konzentrierten mystischen Energie, bezeichnet als §5Auranodie§0.<BR>Jede Auranodie enthält eine gewisse Menge magischer Energie unterschiedlicher Aspekte. Meistens sind es §5Primär-Aspekte§0, selten kann eine Nodie §5Verbundaspekte§0 enthalten. 
 tc.research_page.NODES.2=Die Aspekte in einer Aura-Nodie können durch einen Thaumaturgen für eigene Zwecke genutzt werden, am einfachsten durch die Anwendung des Zauberstabes.<BR>Die Energie, die man bekommt, wird als Vis bezeichnet.<LINE>Auranodien sind schwer mit dem bloßen Auge zu erkennen, da nur ein schwacher Lichtschein ihre Anwesenheit verrät. Mit Hilfe des §5Thaumometers§0 sind Nodien leichter zu finden, der Blick durch die Linse macht sie deutlich sichtbar.<BR>§4Wichtig:§0 Vorsicht beim Leeren einer Nodie. Es besteht eine kleine Chance, dass eine bestimmte Art von Aspekt innerhalb einer Nodie vollständig entleert wird. 
-tc.research_page.NODES.3=Dadurch kann er verschwinden oder der Integrität der Nodie schaden.<BR>Es ist möglich, dass die Nodie vollständig mit allen Aspekten verschwindet.<LINE>Glücklicherweise erneuern die meisten Nodien ihre Aspekte im Laufe der Zeit so, dass, wenn korrekt geführt, eine cleverer Thaumaturge alles Vis bekommt, das er will. 
+tc.research_page.NODES.3=Dadurch kann er verschwinden oder der Integrität der Nodie schaden.<BR>Es ist möglich, dass die Nodie vollständig verschwindet, wenn alle Aspekte aufgebraucht sind.<LINE>Glücklicherweise erneuern die meisten Nodien ihre Aspekte im Laufe der Zeit, sodass, wenn korrekt geführt, ein cleverer Thaumaturge alles Vis bekommt, das er will.<BR>Nodien reagieren auf interessante Art und Weise mit anderen Nodien in der Nähe und größere Nodien scheinen Vis aus ihren kleineren Nachbarn zu ziehen, um ihren eigenen Umfang zu vergrößern.
 #
 tc.research_name.ORE=Erze
 tc.research_text.ORE=Grabe tief
@@ -806,7 +808,7 @@ tc.research_page.FOCUSPRIMAL.1=Welcher Teufel hat dich geritten, als du dieses D
 #
 tc.research_name.FOCUSPOUCH=Fokustasche
 tc.research_text.FOCUSPOUCH=Angenehmer Behälter für deine Foki
-tc.research_page.FOCUSPOUCH.1=Nachdem du eine ansehnliche Sammlung an Foki zusammengetragen hast, ist es recht lästig, sie alle immer mit dir zu tragen. Diese Tasche löst das Problem.<BR>Immer, wenn du den Fokus an deinem Zauberstab wechselst, versucht der Stab zunächst, den Fokus in der Tasche abzulegen. Ebenso kannst du mit der Tasche rechtsklicken, um Foki manuell abzulegen.
+tc.research_page.FOCUSPOUCH.1=Nachdem du eine ansehnliche Sammlung an Foki zusammengetragen hast, ist es recht lästig, sie alle immer mit dir zu tragen. Diese Tasche löst das Problem.<BR>Immer, wenn du den Fokus an deinem Zauberstab wechselst, versucht der Stab zunächst, den Fokus in der Tasche abzulegen. Ebenso kannst du mit der Tasche rechtsklicken, um Foki manuell abzulegen.<BR>Er kann ebenfalls in deinem Gürtel-Slot getragen werden.
 #
 tc.research_name.BOOTSTRAVELLER=Stiefel des Reisenden
 tc.research_text.BOOTSTRAVELLER=These boots were made for walking
@@ -1145,8 +1147,8 @@ tc.research_page.MIRRORHAND.1=Dieser magische Handspiegel funktioniert genau wie
 #
 tc.research_name.NODEJAR=Nodie im Glas
 tc.research_text.NODEJAR=Für den Thaumaturgen auf Trab
-tc.research_page.NODEJAR.1=Bannende Gläser haben sich nützlich erwiesen um alle möglichen normalen und mystischen Dinge zu lagern, und du glaubst, du hast eine weitere Verwendung entdeckt - Aura-Nodien einfangen.<BR>Indem du ein großes Glas um die Nodie baust und den richtigen Zauber mit deinem Stab anwendest, wird die Nodie in dem Konstrukt gefangen und es schrumpft auf eine wesentlich praktischere Größe. Das Glas kann dann sicher aufgesammelt und bewegt werden, aber der Umschließungsspruch hat eine hohe Chance, die Nodie zu beschädigen.<BR>Solange sich die Nodie im Glas befindet, kann man weder Vis von ihr zapfen, noch regeneriert sie sich.
-tc.research_page.NODEJAR.2=Um die Nodie aus dem Glas zu befreien, muss man es in der Welt platzieren und mit dem Stab anklicken. Das Glas wird dabei zerstört.
+tc.research_page.NODEJAR.1=Bannende Gläser haben sich nützlich erwiesen um alle möglichen normalen und mystischen Dinge zu lagern, und du glaubst, du hast eine weitere Verwendung entdeckt - Aura-Nodien einfangen.<BR>Indem du ein großes Glas um die Nodie baust und den richtigen Zauber mit deinem Stab anwendest, wird die Nodie in dem Konstrukt gefangen und es schrumpft auf eine wesentlich praktischere Größe. Das Glas kann dann sicher aufgesammelt und bewegt werden, aber der Umschließungsspruch hat eine hohe Chance, die Nodie zu beschädigen.<BR>Die Nodie bleibt in dem Zustand bestehen, in dem sie eingefangen wurde, und wird niemals fähig sein, Vis, dass ihr zu diesem Zeitpunkt fehlte, zu regenerieren.
+tc.research_page.NODEJAR.2=Solange sich die Nodie im Glas befindet, kann man weder Vis von ihr zapfen, noch regeneriert sie sich.<BR>Um die Nodie aus dem Glas zu befreien, muss man es in der Welt platzieren und mit dem Stab anklicken. Das Glas wird dabei zerstört.
 #
 tc.research_name.PAVETRAVEL=Pflasterstein des Reisens
 tc.research_text.PAVETRAVEL=Vereinfacht deine Reise
