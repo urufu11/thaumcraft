@@ -6,4 +6,5 @@
 * Post the FML log (if there's a crash) on [Gist](https://gist.github.com/) or any other pastebin;
 * Refer what mods you are running, if the game didn't crash;
 * Make sure NEI block highlights are off if thaumcraft things are disappearing/changing into something else while looking at them;
+* Don't edit en_US.lang
 * Read the FaQ in the [TC thread](http://www.minecraftforum.net/topic/2011841-).
