@@ -78,6 +78,7 @@ tile.blockCustomPlant.1.name=실버우드 묘목
 tile.blockCustomPlant.2.name=시머리프
 tile.blockCustomPlant.3.name=신더펄
 tile.blockCustomPlant.4.name=천상의 꽃
+tile.blockCustomPlant.5.name=비쉬룸
 tile.blockMetalDevice.0.name=도가니
 tile.blockMetalDevice.1.name=아케인 증류장치
 tile.alembic.msg.1=증류기가 완전히 비어있음
@@ -333,6 +334,7 @@ item.ItemGolemCore.6.name=연금술
 item.ItemGolemCore.7.name=벌목
 item.ItemGolemCore.8.name=사용
 item.ItemGolemCore.9.name=도살
+item.ItemGolemCore.10.name=분류
 item.ItemGolemCore.100.name=비어있음
 item.ItemGolemPlacer.0.name=밀짚 골렘
 item.ItemGolemPlacer.1.name=나무 골렘
@@ -368,23 +370,23 @@ item.ItemManaBean.name=마나 콩
 item.TrunkSpawner.name=여행 트렁크
 item.TrunkSpawner.text.1=트렁크에 아이템이 있습니다.
 item.ItemResonator.name=에센시아 공진기
-item.ItemAmuletRunic.name=루닉 결계 아뮬렛
+item.ItemAmuletRunic.0.name=결계 부적
+item.ItemAmuletRunic.1.name=결계 부적: 긴급 방호
 item.ItemRingRunic.0.name=보호의 반지
-item.ItemRingRunic.1.name=루닉 결계 반지
-item.ItemGirdleRunic.name=루닉 결계 허리띠
+item.ItemRingRunic.1.name=결계 반지
+item.ItemRingRunic.2.name=결계 반지: 가속
+item.ItemRingRunic.3.name=결계 반지: 재활성화
+item.ItemGirdleRunic.0.name=결계 허리띠
+item.ItemGirdleRunic.1.name=결계 허리띠: 충격파
 item.runic.charge=충전량
-item.runic.ENERGIZED=가속
-item.runic.AUGMENTED=확장
-item.runic.KINETIC=충격파
-item.runic.REVITALIZING=재활성화
-item.runic.EMERGENCY=긴급 방호
 item.ItemBaubleBlanks.0.name=아뮬렛
 item.ItemBaubleBlanks.1.name=반지
 item.ItemBaubleBlanks.2.name=허리띠
+item.ItemBaubleBlanks.3.name=견습생의 %TYPE 반지
 item.capacity.text=용량
 item.ItemAmuletVis.text=손에 쥔 완드를 천천히 충전시킵니다.
 item.ItemAmuletVis.0.name=비스 스톤
-item.ItemAmuletVis.1.name=비스 배터리
+item.ItemAmuletVis.1.name=비스 부적
 #
 # Fluids
 fluid.fluxGoo=플럭스 점액
@@ -466,6 +468,7 @@ tc.unknownobject=이것엔 배울 만한 것이 없습니다.
 tc.markerchange=%n으로 마커색을 설정
 tc.markerchangeany=다른 색으로 설정
 tc.researchmissing=필요한 연구 누락!
+tc.discount=절약
 tc.visdiscount=비스 절약
 tc.inst=불안정성: 
 tc.inst.0=§1미미함§0
@@ -571,7 +574,7 @@ tc.research_category.GOLEMANCY=골렘학
 # Research entries
 tc.research_name.RESEARCH=연구
 tc.research_text.RESEARCH=발견의 기본
-tc.research_page.RESEARCH.1=모든 눈부신 기적 뒤에는 수많은 연구와 노력이 있습니다. 여기선 기적을 행하기 위한 기초를 소개합니다.:<BR>(1) 우선 §5사우모미터§0를 통해 여러 아이템, 블럭들을 관찰한 뒤<BR><BR>(2) 관찰을 통해 얻은 연구포인트를 가지고 §5연구 테이블§0에서 지식을 확장합니다.<BR><BR>(3) §5연구 테이블§0은 알아낸 위상들을 이용해서 실질적인 지식을 이끌어낼 수 있도록 도와줍니다.<LINE>
+tc.research_page.RESEARCH.1=모든 눈부신 기적 뒤에는 수많은 연구와 노력이 있습니다. 여기선 기적을 행하기 위한 기초를 소개합니다.:<BR>(1) 기적을 행하기 위해선 우선 §5사우모미터§0를 통해 여러 아이템, 블럭들을 관찰한 뒤<BR><BR>(2) 관찰을 통해 얻은 연구포인트를 가지고 §5연구 테이블§0에서 지식을 확장할 필요가 있습니다.<BR><BR>(3) §5연구 테이블§0은 알아낸 위상들을 이용해서 실질적인 지식을 이끌어낼 수 있도록 도와줍니다.<LINE>
 tc.research_page.RESEARCH.2=§l         §n(1) 탐험§r<BR><BR>연구에 있어서 필수 불가결한 요소인 연구 포인트는 탐험을 하면서 곳곳의 물체들을 관찰함으로써 얻을 수 있습니다.<BR>관찰에는 §5사우모미터§0라는 도구가 필요합니다 (조합법은 다음페이지에). 관찰하고 싶은 대상에 §5사우모미터§0를 조준하고 우클릭을 해서 관찰을 시작할 수 있습니다. 관찰은 그리 오래 걸리지 않지만, 관찰중에는 이동속도가 느려집니다.<BR>관찰이 끝나면 §5사우모미터§0에 대상이 갖고 있는 위상 종류가 표시됩니다. 또한 화면 우측 하단에 위상에 대한 간략한 정보와 함께 획득한 연구 포인트 수량이 표시됩니다.
 tc.research_page.RESEARCH.3=<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>자신이 알지 못하는 위상을 포함한 물체는 관찰이 불가능 합니다. 예를 들어, Lux위상이 포함된 대상을 관찰하기 위해선 Lux 위상을 이미 발견한 적이 있거나, Lux 위상을 이루는 구성 위상을 알아야 합니다.
 tc.research_page.RESEARCH.4=관찰을 통해 새로운 위상을 발견하면 해당 위상의 연구포인트를 평소보다 2포인트 더 얻을 수 있습니다.<BR>하나의 대상은 오직 한 번만 관찰이 가능합니다.<BR>관찰을 하다보면 가끔 생각지도 못한, 후에 연구해 볼 만한 단서나 마법적 지식을 얻는 경우도 있습니다.<BR>이런 방법으로 발견한 연구과제에는 호박 아이콘이 표시됩니다.
@@ -879,8 +882,8 @@ tc.research_name.ALCHEMICALMANUFACTURE=연금 제작
 tc.research_text.ALCHEMICALMANUFACTURE=한 가지 방법에만 얽메이지 마세요
 tc.research_page.ALCHEMICALMANUFACTURE.1=연금술과 연금 복제 방법에 통달한 결과 무로부터 새로운 물질을 창조해낼 수 있게 되었습니다.<BR>이로써 연금술을 통해 굉장히 희귀한 물질이나 아이템을 만드는 것이 가능해질 것입니다.
 #
-tc.research_name.ENTROPICPROCESSING=노화 처리
-tc.research_text.ENTROPICPROCESSING=일부러 낡게 한다고?
+tc.research_name.ENTROPICPROCESSING=노화 가속
+tc.research_text.ENTROPICPROCESSING=때로는 골동품이 필요한 경우도 있는 법
 tc.research_page.ENTROPICPROCESSING.1=물질들을 조합해서 새로운 것을 만들어내는 것도 좋지만, 가끔은 이미 만들어진 것을 그 구성요소로 분해하고 싶을 때가 있습니다. 무엇인가를 분해하는 데는 혼돈의 에너지만한 것은 아마 없을것입니다.<BR>사실 이게 그다지 좋은 방법은 아니지만, 아무 위험도 없는 것도 너무 지루하지 않을까요?
 #
 tc.research_name.TRANSIRON=철 연성
@@ -959,15 +962,15 @@ tc.research_page.GOLEMFLESH.1=소름끼치는 좀비 살점으로 만들어진 �
 #
 tc.research_name.GOLEMSTONE=스톤 골렘
 tc.research_text.GOLEMSTONE=느리지만 강력한 - 
-tc.research_page.GOLEMSTONE.1=스톤 골렘은 꽤나 튼튼하고 힘 쓰는 일에도 적합하지만 속도가 대부분의 다른 골렘들에 비해 느립니다.<BR>§l§n스톤 골렘 성능§r<BR>§l내구성:§r 평균 이상<BR>§l힘:§r 평균 이상<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 16<BR>§l속도:§r 느림<BR>§l가능한 업그레이드 갯수:§r 1
+tc.research_page.GOLEMSTONE.1=스톤 골렘은 꽤나 튼튼하고 힘 쓰는 일에도 적합하지만 속도가 대부분의 다른 골렘들에 비해 느립니다. 또한 무게 때문에 물에 가라앉습니다.<BR>§l§n스톤 골렘 성능§r<BR>§l내구성:§r 평균 이상<BR>§l힘:§r 평균 이상<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 16<BR>§l속도:§r 느림<BR>§l가능한 업그레이드 갯수:§r 1
 #
 tc.research_name.GOLEMIRON=아이언 골렘
 tc.research_text.GOLEMIRON=작은 마을 골렘
-tc.research_page.GOLEMIRON.1=아이언 골렘은 굉장히 튼튼하며 아주 힘든 일 또한 척척 해냅니다. 하지만 무게가 무겁기 때문에 속도는 꽤나 느린 편입니다.<BR>§l§n아이언 골렘 성능§r<BR>§l내구성:§r 높음<BR>§l힘:§r 강력함<BR>§l자가회복:§r 매우 느림<BR>§l운반 한계:§r 32<BR>§l속도:§r 매우 느림<BR>§l가능한 업그레이드 갯수:§r 1
+tc.research_page.GOLEMIRON.1=아이언 골렘은 굉장히 튼튼하며 아주 힘든 일 또한 척척 해냅니다. 하지만 무게가 무겁기 때문에 속도가 느리며, 물에 가라앉습니다.<BR>§l§n아이언 골렘 성능§r<BR>§l내구성:§r 높음<BR>§l힘:§r 강력함<BR>§l자가회복:§r 매우 느림<BR>§l운반 한계:§r 32<BR>§l속도:§r 매우 느림<BR>§l가능한 업그레이드 갯수:§r 1
 #
 tc.research_name.GOLEMTHAUMIUM=사우뮴 골렘
 tc.research_text.GOLEMTHAUMIUM=신비한 하인
-tc.research_page.GOLEMTHAUMIUM.1=사우뮴 골렘은 아이언 골렘보다 약간 더 나은 성능을 보여주며 2개의 업그레이드를 장착 가능합니다. 또한 마법 데미지에 약간의 저항력이 있습니다.<BR>§l§n사우뮴 골렘 성능§r<BR>§l내구성:§r 매우 높음<BR>§l힘:§r 강력함<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 32<BR>§l속도:§r 느림<BR>§l가능한 업그레이드 갯수:§r 2
+tc.research_page.GOLEMTHAUMIUM.1=사우뮴 골렘은 아이언 골렘보다 약간 더 나은 성능을 보여주며 2개의 업그레이드를 장착 가능합니다. 또한 마법 데미지에 약간의 저항력이 있으며, 무게 때문에 물에 가라앉습니다.<BR>§l§n사우뮴 골렘 성능§r<BR>§l내구성:§r 매우 높음<BR>§l힘:§r 강력함<BR>§l자가회복:§r 느림<BR>§l운반 한계:§r 32<BR>§l속도:§r 느림<BR>§l가능한 업그레이드 갯수:§r 2
 #
 tc.research_name.GOLEMBELL=골레맨서의 종
 tc.research_text.GOLEMBELL=집중!
@@ -1013,6 +1016,10 @@ tc.research_name.CORELIQUID=골렘 코어: 액체 채우기
 tc.research_text.CORELIQUID=탱크에 항상 액체를 채워둡니다
 tc.research_page.CORELIQUID.1=이 코어가 장착된 골렘은 연결된 블럭의 액체 탱크에 적절한 액체를 항상 채워둡니다.<BR>골렘을 우클릭해 원하는 액체가 담긴 용기(물 양동이 등)를 지정해 줘서 특정 액체만 채우도록 할 수 도 있습니다.<BR>골렘은 한번에 100mb의 액체밖에 옮길 수 없지만 액체 블럭을 직접 퍼서 옮기도록 지정할 경우 한번에 한 블럭(1000mb) 전체를 옮깁니다.
 #
+tc.research_name.CORESORTING=골렘 코어: 분류
+tc.research_text.CORESORTING=정리정돈
+tc.research_page.CORESORTING.1=이 코어가 장착된 골렘은 비우기 코어 골렘과 유사하게 행동하지만, 한가지 큰 차이점이 있습니다. 분류 코어 골렘은 비우려 하는 인벤토리에서 자신이 아이템을 옮겨두는 인벤토리에 이미 있는 아이템만을 꺼내갑니다. 이 기능은 잡다하게 섞여있는 아이템들을 분류하는 데 매우 편리합니다.<BR>비우기 코어에 있는 꺼내갈 아이템을 추가, 혹은 제외하는 기능은 이 코어에는 없습니다.
+#
 tc.research_name.COREALCHEMY=골렘 코어: 연금술
 tc.research_text.COREALCHEMY=에센시아를 옮깁니다
 tc.research_page.COREALCHEMY.1=이 코어는 액체 채우기 코어를 좀 더 특별한 쪽으로 최적화 시킨 코어로, 에센시아를 옮기기 위해 특별히 만들어졌습니다.<BR>연성 화로나 증류기에 연결된 연금술 코어 골렘은 증류기에 담긴 에센시아 전부를 지정된 단지로 옮깁니다. 모든 단지에 표식을 지정해 줄 필요는 없습니다. 이 골렘은 지정된 단지 주변에 붙어있는 모든 단지에 차례대로 에센시아를 채워넣습니다.<BR>연금술 코어 골렘은 지정된 단지가 다 찼을 경우 그 단지와 가장 가까운 단지부터 가득 채워 나갑니다.
@@ -1028,7 +1035,7 @@ tc.research_page.UPGRADEEARTH.1=이 업그레이드는 골렘이 한 번에 옮�
 #
 tc.research_name.UPGRADEFIRE=골렘 업그레이드: 파이어
 tc.research_text.UPGRADEFIRE=더 뜨거운 골렘
-tc.research_page.UPGRADEFIRE.1=이 업그레이드는 골렘의 아이템 지정 슬롯을 2개로 늘려주어 더 다양한 종류의 아이템을 분류/필터링 할 수 있게 해 줍니다.<BR>또한 골렘의 타격공격에 맞은 대상에 불이 붙습니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
+tc.research_page.UPGRADEFIRE.1=이 업그레이드는 골렘의 아이템 지정 슬롯을 2칸 더 늘려주어 더 다양한 종류의 아이템을 분류/필터링 할 수 있게 해 줍니다.<BR>또한 골렘의 타격공격에 맞은 대상에 불이 붙습니다.<BR>특정 골렘 코어들은 특정 업그레이드로부터 얻는 효과가 다르므로 사우모노미콘에 추가적으로 생성된 페이지가 있는지 찾아보는게 좋습니다.
 #
 tc.research_name.UPGRADEWATER=골렘 업그레이드: 워터
 tc.research_text.UPGRADEWATER=더 예민한 골렘
@@ -1194,7 +1201,8 @@ tc.research_name.TUBES=에센시아 튜브
 tc.research_text.TUBES=에센시아 수송
 tc.research_page.TUBES.1=이전에도 에센시아를 옮기는 몇가지 방법이 있었지만, 대규모 작업에 적합한 방법은 없었습니다 - 지금까진 말이죠.<BR>새지 않고 안정적인 액체 튜브를 만드는 방법을 알게 되었습니다. 일반적인 화학 물질들은 유리병으로 옮길 수 있었지만 어떤 에센시아들은 용기를 녹여버리거나 그냥 통과해 버리기도 했습니다. 유리를 철로 감싸고 수은으로 화학처리를 해서 가장 증발하기 쉬운 에센시아조차도 새어 나가지 못하게 하는 데 성공했습니다. 금으로 장식을 새겨넣어 미관 또한 살렸습니다.
 tc.research_page.TUBES.2=이 튜브는 주로 단지와 증류기를 연결하는 데 사용되며 그 외에도 거의 대부분의 연금술 장치들에 연결시켜 사용할 수 있습니다.<BR>단지 같은 에센시아를 받아들일 수 있는 장치가 연결되면 즉각 튜브 안으로 에센시아가 흐르게 됩니다.<BR>서로 다른 종류의 에센시아를 담고 있는 단지는 같은 종류의 에센시아만을 끌어당깁니다. 하지만 에센시아 튜브은 한 번에 한 종류의 에센시아만을 통과시킬 수 있고 우선권은 흡입력이 가장 센 쪽이 갖습니다. 밸브를 사용하지 않으면 네트워크 내부 흐름이 쉽게 막혀버리기 때문에 밸브의 사용은 필수적이라 할 수 있습니다.<LINE>  
-tc.research_page.TUBES.3=에센시아 밸브는 기본적으로 에센시아 튜브과 같은 기능을 하지만, 레드스톤 신호를 주거나 밸브를 손으로 돌려서 에센시아의 흐름을 차단할 수 있습니다.<LINE>에센시아 공진기는 네트워크의 문제를 해결하기 위한 편리한 도구입니다. 이 장치는 에센시아 튜브이나 다른 에센시아를 사용하는 장치에 사용 할 수 있으며 사용할 경우 어떤 에센시아를 담고 있는지, 적용되는 흡입력이 어느 정도인지 등을 알 수 있습니다. 
+tc.research_page.TUBES.3=에센시아 밸브는 기본적으로 에센시아 튜브과 같은 기능을 하지만, 레드스톤 신호를 주거나 밸브를 손으로 돌려서 에센시아의 흐름을 차단할 수 있습니다.<LINE>에센시아 공진기는 네트워크의 문제를 해결하기 위한 편리한 도구입니다. 이 장치는 에센시아 튜브나 다른 에센시아를 사용하는 장치에 사용 할 수 있으며 사용할 경우 어떤 에센시아를 담고 있는지, 적용되는 흡입력이 어느 정도인지 등을 알 수 있습니다. 
+tc.research_page.TUBES.4=완드로 튜브를 우클릭해서 우클릭한 지점의 모든 연결을 끊을 수 있습니다.<BR>또한 밸브 같은 특정 튜브들은 정 중앙을 완드로 우클릭해서 방향을 바꿀 수 있습니다.
 #
 tc.research_name.CENTRIFUGE=연금술 원심분리기
 tc.research_text.CENTRIFUGE=분리하기
@@ -1214,11 +1222,11 @@ tc.research_page.TRAVELTRUNK.UEN=   §n골렘 업그레이드: 엔트로피§r<B
 #
 tc.research_name.LAMPGROWTH=성장의 램프
 tc.research_text.LAMPGROWTH=성장을 촉진시키는 램프
-tc.research_page.LAMPGROWTH.1=재료로 쓰인 아케인 램프와는 다르게, 성장의 램프는 Herba 에센시아를 공급해주기 전에는 그다지 많은 빛을 뿜어내지 않습니다. Herba 에센시아를 공급할 경우, 이 램프의 빛이 환하게 닿는 곳의 작물들은 매우 빠른 속도로 자라납니다.<BR>에센시아는 램프 주변의 단지에서 공급할 수도 있고, 에센시아 튜브으로 직접 주입할 수도 있습니다. 파이프로 공급해 줄 경우 에센시아를 10% 더 효율적으로 사용합니다.
+tc.research_page.LAMPGROWTH.1=재료로 쓰인 아케인 램프와는 다르게, 성장의 램프는 Herba 에센시아를 공급해주기 전에는 그다지 많은 빛을 뿜어내지 않습니다. Herba 에센시아를 공급할 경우, 이 램프의 빛이 환하게 닿는 곳의 작물들은 매우 빠른 속도로 자라납니다.<BR>에센시아는 램프 주변의 단지에서 공급할 수도 있고, 에센시아 튜브로 직접 주입할 수도 있습니다. 파이프로 공급해 줄 경우 에센시아를 10% 더 효율적으로 사용합니다.
 #
 tc.research_name.LAMPFERTILITY=번영의 램프
 tc.research_text.LAMPFERTILITY=낭만적인 불빛
-tc.research_page.LAMPFERTILITY.1=이 램프의 부드러운 분홍빛 불빛 속에서 모든 살아있는 생물들은 사랑의 감정에 빠지게 되며, 자신과 같은 종의 짝짓기 상대를 찾게 됩니다.<BR>한 종류의 생물이 8마리 이상 있는 경우 이 램프는 아무런 영향을 주지 않습니다.<BR>램프의 작동에는 Victus 에센시아가 필요하며, 에센시아가 든 단지를 주변에 두거나 에센시아 튜브을 통해 직접 에센시아를 공급할 수 있습니다.
+tc.research_page.LAMPFERTILITY.1=이 램프의 부드러운 분홍빛 불빛 속에서 모든 살아있는 생물들은 사랑의 감정에 빠지게 되며, 자신과 같은 종의 짝짓기 상대를 찾게 됩니다.<BR>한 종류의 생물이 8마리 이상 있는 경우 이 램프는 아무런 영향을 주지 않습니다.<BR>램프의 작동에는 Victus 에센시아가 필요하며, 에센시아가 든 단지를 주변에 두거나 에센시아 튜브를 통해 직접 에센시아를 공급할 수 있습니다.
 #
 tc.research_name.JARVOID=공허의 단지
 tc.research_text.JARVOID=에센시아가 너무 많다고? 그럴리가!
@@ -1226,7 +1234,7 @@ tc.research_page.JARVOID.1=공허의 단지는 기본적인 특성은 평범한 
 #
 tc.research_name.TUBEFILTER=강화 에센시아 튜브
 tc.research_text.TUBEFILTER=원하는게 무엇이건 어디서든지 - 
-tc.research_page.TUBEFILTER.1=§n에센시아 필터링 튜브§r는 일반 튜브와 같은 기능을 가졌으며 라벨을 붙일 수 있다는 특징이 있습니다. 라벨을 붙일 경우, 라벨에 표시된 에센시아만이 이 튜브 를 통해 흐를 수 있게 됩니다.<BR>빈 손으로 Shift 우클릭을 할 경우 라벨을 제거합니다.
+tc.research_page.TUBEFILTER.1=§n에센시아 필터링 튜브§r는 일반 튜브와 같은 기능을 가졌으며 라벨을 붙일 수 있다는 특징이 있습니다. 라벨을 붙일 경우, 라벨에 표시된 에센시아만이 이 튜브를 통해 흐를 수 있게 됩니다.<BR>빈 손으로 Shift 우클릭을 할 경우 라벨을 제거합니다.
 tc.research_page.TUBEFILTER.2=§n감쇄 에센시아 튜브§r는 내부의 흡입력을 절반으로 감쇄시킵니다.<LINE>§n단방향 에센시아 튜브§r는 흡입력을 한쪽으로만 받아들입니다. 파란색 표식이 어느 방향의 흡입력을 받아들일지 나타냅니다.
 #
 tc.research_name.MIRRORESSENTIA=에센시아 거울
@@ -1246,7 +1254,7 @@ tc.research_page.PRIMALARROW.3=§n혼돈의 화살§r<BR>이 화살은 공격력
 #
 tc.research_name.THAUMATORIUM=연금술 자동화
 tc.research_text.THAUMATORIUM=대규모 연금술
-tc.research_page.THAUMATORIUM.1=지금까지 연금술은 잘못 계산된 위상들, 점점 사라지는 에센시아와 재료 등 일일이 수동 작업을 요하는 다소 산만한 작업이었습니다. 드디어 이런 것들을 과거의 유물로 만들어버릴 만한 방법이 탄생했습니다.<BR>사우마토리엄은 마법사가 어떤 공식을 통해서, 어떤 촉매를 사용할지 직접 선택할 수 있게 해 주는 놀라운 발명품입니다. 이 장치는 그 다음 튜브을 통해서 자동으로 필요한 에센시아를 끌어옵니다. 지속적인 촉매의 공급만 있다면 이 장치는 계속해서 완벽하게 완성품을 만들어냅니다.
+tc.research_page.THAUMATORIUM.1=지금까지 연금술은 잘못 계산된 위상들, 점점 사라지는 에센시아와 재료 등 일일이 수동 작업을 요하는 다소 산만한 작업이었습니다. 드디어 이런 것들을 과거의 유물로 만들어버릴 만한 방법이 탄생했습니다.<BR>사우마토리엄은 마법사가 어떤 공식을 통해서, 어떤 촉매를 사용할지 직접 선택할 수 있게 해 주는 놀라운 발명품입니다. 이 장치는 그 다음 튜브를 통해서 자동으로 필요한 에센시아를 끌어옵니다. 지속적인 촉매의 공급만 있다면 이 장치는 계속해서 완벽하게 완성품을 만들어냅니다.
 tc.research_page.THAUMATORIUM.2=이 장치를 구성하는 데 필요한 도가니에는 물은 필요가 없지만, 용암이나 나이터 같은 열원은 여전히 필요합니다. 이 장치를 열어보면 여러 칸이 존재하는 것을 볼 수 있습니다. 좌측 상단의 칸은 촉매가 들어가는 곳입니다. 촉매를 넣어주면, 해당 촉매를 이용할 수 있는 공식들이 우측 상단에 표시됩니다.<BR>하단의 게이지는 순서대로 그 공식들이 필요로 하는 에센시아의 수량을 보여줍니다. 여기에는 기계의 진행률 또한 표시됩니다.<BR>완성품은 기계 앞으로 배출되거나 반출구 앞의 인벤토리로 들어가게 됩니다.
 tc.research_page.THAUMATORIUM.3=사우마토리엄은 기본적으로는 한번에 하나의 공식만을 실행할 수 있지만, 옆면에 느모닉 매트릭스를 장착시킬 경우 동시에 여러가지 공식을 실행할 수 있습니다.<BR>각각의 매트릭스는 동시에 실행할 수 있는 공식을 2개씩 늘려줍니다. 
 #
@@ -1255,11 +1263,26 @@ tc.research_text.RUNICARMOR=가드를 올려라!
 tc.research_page.RUNICARMOR.1=지속적인 보호마법의 연구 결과 루닉 결계의 개념에 대해 알게 되었습니다. 이름 때문에 착각할 수 도 있지만, 이것은 일반적인 보호구가 아니라 평상복에 덧씌우는 아뮬렛, 반지 등의 집합체입니다.<BR>이 장치는 대부분의 데미지를 막아내는 결계를 생성합니다. 결계는 체력바 위에 덧씌워져서 나타나며, 착용자에게 가해지는 모든 데미지를 우선해서 받아냅니다. 결계 수치가 바닥나면 평소처럼 착용자에게 데미지가 직접 들어오게 됩니다.
 tc.research_page.RUNICARMOR.2=결계는 천천히 복구되지만, 결계가 없더라도 가죽 방어구 수준의 방어력을 제공합니다.<BR>결계를 회복하는 데는 §2Terra§0와 §eAer§0비스를 필요로 하며, 이 비스는 가지고 있는 완드에서 소모됩니다.<BR>이 방어구는 굶주림, 익사 등의 환경적 요인에 의한 데미지는 막지 못합니다.<BR>이러한 특징 때문에 이 보호장비는 일반적인 방법으로는 인챈트할 수 없고, 특별한 방법을 통해서 효율성을 끌어올려야만 하며, 이 방법은 연구를 통한 발견이 필요합니다.
 #
-tc.research_name.RUNICARMORUPGRADES=루닉 결계 업그레이드
-tc.research_text.RUNICARMORUPGRADES=가드를 최대로!
-tc.research_page.RUNICARMORUPGRADES.1=루닉 결계를 개선하는 것은 생각보다 쉬운 듯 합니다. 결계에 적용할 수 있는 몇가지 업그레이드를 발견하였지만, 한번에 하나씩만 적용이 가능합니다.<LINE>                §n가속§r<BR>이 업그레이드가 적용된 결계는 복원 속도가 빨라집니다.<BR>                §n확장§r<BR>이 업그레이드는 결계의 총량을 늘려줍니다.
-tc.research_page.RUNICARMORUPGRADES.2=             §n충격파§r<BR>결계가 완전히 파괴될 경우 주변으로 강력한 에너지파를 방출합니다. 폭발력은 이 업그레이드가 적용된 결계의 갯수가 많을 수록 커집니다. 이 능력은 30초의 재사용 대기시간을 가집니다.<BR>             §n재활성화§r<BR>결계가 파괴될 경우 착용자의 체내로 신체를 재생시켜주는 에너지를 몇십초간 주입합니다. 이 에너지는 이 업그레이드가 적용된 결계의 갯수가 많을수록 강력해집니다. 이 능력은 30초의 재사용 대기시간을 가집니다.
-tc.research_page.RUNICARMORUPGRADES.3=             §n긴급 방호§r<BR>결계가 파괴될 경우, 이 업그레이드는 8(혹은 그 이상)의 결계량을 입고 있는 루닉 결계에 분배합니다. 이 업그레이드가 적용된 결계 한 개당 8의 결계 포인트를 회복시킵니다. 이 능력은 2분의 재사용 대기시간을 가집니다.
+tc.research_name.RUNICAUGMENTATION=결계 확장
+tc.research_text.RUNICAUGMENTATION=가드를 최대로!
+tc.research_page.RUNICAUGMENTATION.1=결계가 부여된 반지와 부적, 허리띠만으로도 매우 훌륭하지만, 이런 결계를 다른 도구에도 부여할 수는 없는 걸까요?<BR>마법에서는 불가능이 마법입니다. 마도학자의 기술을 응용해서 마법구조적으로 매우 안정한 방어구에는 결계를 부여하는 것이 가능합니다.<BR>'마법구조적으로 안정한' 방어구라 함은, 사우뮴이나 마법이 깃든 천, 혹은 이와 비슷한 재료로 이루어진 방어구를 말합니다.<BR>결계는 한번에 1포인트밖에 부여할 수 없지만, 한 도구에 여러번 결계를 부여할 수 있습니다. 하지만 결계량이 1 늘어나면 에센시아 소모는 두 배로 늘어납니다.
+tc.research_page.RUNICAUGMENTATION.2=결계 반지와 같은 도구도 이 방법으로 결계량을 늘릴 수 있지만, 에센시아 소모량 증가에는 이미 존재하는 결계량도 포함되기 때문에 굉장히 많은 에센시아를 필요로 합니다.
+#
+tc.research_name.RUNICCHARGED=결계 반지: 가속
+tc.research_text.RUNICCHARGED=충전을 위한 충전
+tc.research_page.RUNICCHARGED.1=이 반지는 결계 반지를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 반지보다 결계량은 약간 적지만, 결계 재충전 속도가 25%정도 더 빠릅니다.<BR>반지를 여러개 착용해서 결계 재충전 시간을 효과적으로 줄일 수도 있습니다.
+#
+tc.research_name.RUNICHEALING=결계 반지: 재활성화
+tc.research_text.RUNICHEALING=그 정도론 끄떡 없지
+tc.research_page.RUNICHEALING.1=이 반지는 결계 반지를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 반지보다 결계량은 약간 적지만, 결계가 깨졌을 경우 몆 초간 착용자에게 생명 에너지를 불어넣습니다.<BR>이 기능은 30초에 한 번만 작동합니다.
+#
+tc.research_name.RUNICKINETIC=결계 허리띠: 충격파
+tc.research_text.RUNICKINETIC=후후, 날 치면 후회하게 될 텐데?
+tc.research_page.RUNICKINETIC.1=이 허리띠는 결계 허리띠를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 허리띠보다 결계량은 약간 적지만, 결계가 깨졌을 경우 주변에 걍력한 충격파를 발산하여 데미지를 주고 멀리 밀쳐냅니다.<BR>이 기능은 30초에 한 번만 작동합니다.
+#
+tc.research_name.RUNICEMERGENCY=결계 부적: 긴급 방호
+tc.research_text.RUNICEMERGENCY=날 그리 쉽게 쓰러뜨릴 순 없어
+tc.research_page.RUNICEMERGENCY.1=이 부적은 결계 부적을 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 부적보다 결계량은 약간 적지만, 결계가 깨졌을 경우 즉시 8의 결계 포인트를 회복합니다.<BR>이 기능은 2분에 한 번만 작동합니다.
 #
 tc.research_name.WARDEDARCANA=사생활 보호
 tc.research_text.WARDEDARCANA=접근 제한
@@ -1268,8 +1291,8 @@ tc.research_page.WARDEDARCANA.2=이 열쇠를 다른 사람에게 주어서 그 
 tc.research_page.WARDEDARCANA.3=새로운 감압판은 몇가지 특징적인 기능들을 갖고 있습니다.<BR>우선, 이 감압판은 우클릭으로 변경할 수 있는 세 가지 모드가 있습니다. 나무 감압판처럼 모든 것에 반응하거나, 주인에게만 반응하거나, 주인에게만 반응을 하지 않게 설정할 수 있습니다.<BR>또한 주인만이 이 감압판을 제거할 수 있습니다.<BR>마지막으로, 열쇠를 사용해서 다른 사람에게 권한을 부여할 수 있습니다. 또한 이 감압판은 아케인 문을 열 때도 사용이 가능하며, 이 경우 문과 감압판 모두에 사용 권한이 있어야 합니다.
 tc.research_page.WARDEDARCANA.4=결계 유리는 단순한 장식블럭으로 이 블럭 또한 마찬가지로 주인이 아닌 사람은 부술 수 없습니다.<BR>이 유리는 열쇠를 사용해도 다른 사람에게 권한을 주는 것이 불가능합니다.
 #
-tc.research_name.VISAMULET=비스 배터리
+tc.research_name.VISAMULET=비스 부적
 tc.research_text.VISAMULET=어디서든 부족함 없이
-tc.research_page.VISAMULET.1=완드 하나로도 대부분의 상황에는 충분합니다. 하지만 가끔 완드 하나에 저장된 비스만으로는 부족한 경우가 있기 마련이죠. 두 개 이상의 완드를 들고 다니는 것만으로 이 문제를 해결할 수 있지만, 연구 결과 다른 방법 또한 존재함을 알 수 있었습니다.<BR>비스를 저장할 수 있는 이 아뮬렛은, 착용할 경우 인벤토리에 소지한 모든 비스를 소모하는 도구들을 자동으로 충전시킵니다.<BR>이 장치에도 한계는 있는데, 이 아뮬렛으로 완드를 충전하기 위해서는 충전하고자 하는 완드를 손에 들고 있어야 하며 충전 속도도 꽤 느린 편입니다. 
-tc.research_page.VISAMULET.2=그럼에도 루닉 결계나 수리 인챈트가 된 도구에 비스를 공급하기에는 최적의 장치라 할 수 있습니다.<BR>아뮬렛은 완드 충전 주각에서만 충전시킬 수 있습니다.
+tc.research_page.VISAMULET.1=완드 하나로도 대부분의 상황에는 충분합니다. 하지만 가끔 완드 하나에 저장된 비스만으로는 부족한 경우가 있기 마련이죠. 두 개 이상의 완드를 들고 다니는 것만으로 이 문제를 해결할 수 있지만, 연구 결과 다른 방법 또한 존재함을 알 수 있었습니다.<BR>비스를 저장할 수 있는 이 부적은, 착용할 경우 인벤토리에 소지한 모든 비스를 소모하는 도구들을 자동으로 충전시킵니다.<BR>이 도구에도 한계는 있는데, 이 부적으로 완드를 충전하기 위해서는 충전하고자 하는 완드를 손에 들고 있어야 하며 충전 속도도 꽤 느린 편입니다. 
+tc.research_page.VISAMULET.2=그럼에도 루닉 결계나 수리 인챈트가 된 도구에 비스를 공급하기에는 최적의 도구라 할 수 있습니다.<BR>부적은 완드 충전 주각에서만 충전시킬 수 있습니다.
 #
