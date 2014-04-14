@@ -335,6 +335,7 @@ item.ItemGolemCore.7.name=Срубка
 item.ItemGolemCore.8.name=Использование
 item.ItemGolemCore.9.name=Забивание
 item.ItemGolemCore.10.name=Сортировка
+item.ItemGolemCore.11.name=Рыбалка
 item.ItemGolemCore.100.name=Основа сердца
 item.ItemGolemPlacer.0.name=Соломенный голем
 item.ItemGolemPlacer.1.name=Деревянный голем
@@ -1019,6 +1020,13 @@ tc.research_page.CORESORTING.1=Это сердце работает как и с
 tc.research_name.COREBUTCHER=Сердце голема: Забивание
 tc.research_text.COREBUTCHER=Жажда крови
 tc.research_page.COREBUTCHER.1=Это сердце - улучшение сердца охраны.<BR>Голем с этим сердцем будет атаковать животных, но он достаточно умный, поэтому он будет убивать только старых особей, при этом он всегда проверяет - осталась ли половозрелая пара.
+#
+tc.research_name.COREFISHING=Сердце голема: Рыбалка
+tc.research_text.COREFISHING=Хижины в комплект не входят
+tc.research_page.COREFISHING.1=Это сердце позволяет Вашим големам рыбачить.<BR>Для лучшего результата голем должен находиться ряом с глубоким и доступным водоёмом.<BR>Сила голема определяет скорость работы.<BR>
+tc.research_page.COREFISHING.2=      §nУлучшение: Огонь разблокировано§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Голем автоматически жарит пойманную рыбу.
+tc.research_page.COREFISHING.3=     §nУлучнеие: Порядок разблокировано§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Увеличивается шанс поимки хорошей рыбы.
+tc.research_page.COREFISHING.4=    §nУлучшение: Хаос разблокировано§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Уменьшается шанс поимки плохой рыбы.
 #
 tc.research_name.COREALCHEMY=Сердце голема: Алхимия
 tc.research_text.COREALCHEMY=Переносим эссенцию
