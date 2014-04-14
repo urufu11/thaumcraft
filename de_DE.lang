@@ -1295,3 +1295,4 @@ tc.research_name.VISAMULET=Vis-Speicher
 tc.research_text.VISAMULET=Komplett zinsfrei
 tc.research_page.VISAMULET.1=Meistens ist ein einzelner Stab mehr als genug für einen Thaumaturgen, jedoch kommt es vor, dass das Vis, das dieser Speichert, einfach nicht ausreicht. Mehr als einen Stab zu tragen, würde dieses Problem lösen, aber Experimente haben gezeigt, dass es noch einen weiteren Weg gibt.<BR>Durch die Fertigung eines Amulettes, das fähig ist, Vis zu speichern, ist es dir möglich, Stäbe und andere Items aufzuladen, während du es trägst, egal, wo du bist.<BR>Dein Erfolg hat jedoch auch seine Grenzen: Du kannst Stäbe nur wiederaufladen, währen du sie in deiner Hand hältst, und auch dann wird der Stab nur sehr langsam aufgeladen. 
 tc.research_page.VISAMULET.2=Jedoch ist das Amulett auch eine gute Energiequelle für Dinge wie die 'Reparieren'-Verzauberung oder Runenschilde.<BR>Das Amulett kann ausschließlich in einem Stabaufladungssockel aufgeladen werden.
+#
