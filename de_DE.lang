@@ -78,6 +78,7 @@ tile.blockCustomPlant.1.name=Silberholzsetzling
 tile.blockCustomPlant.2.name=Schimmerblatt
 tile.blockCustomPlant.3.name=Aschperle
 tile.blockCustomPlant.4.name=Ätherblüte
+tile.blockCustomPlant.5.name=Flimmerling
 tile.blockMetalDevice.0.name=Tiegel
 tile.blockMetalDevice.1.name=Arkaner Alambik
 tile.alembic.msg.1=Der Alambik ist leer
@@ -333,6 +334,7 @@ item.ItemGolemCore.6.name=Alchemie
 item.ItemGolemCore.7.name=Fällen
 item.ItemGolemCore.8.name=Nutzen
 item.ItemGolemCore.9.name=Schlachten
+item.ItemGolemCore.10.name=Sortieren
 item.ItemGolemCore.100.name=Leer
 item.ItemGolemPlacer.0.name=Strohgolem
 item.ItemGolemPlacer.1.name=Holzgolem
@@ -368,16 +370,15 @@ item.ItemManaBean.name=Manabohne
 item.TrunkSpawner.name=Reisekoffer
 item.TrunkSpawner.text.1=Dieser Koffer hält Items
 item.ItemResonator.name=Essentia-Resonator
-item.ItemAmuletRunic.name=Amulett des Runenschildes
+item.ItemAmuletRunic.0.name=Amulett des Runenschildes
+item.ItemAmuletRunic.1.name=Amulett des Notfallschildes
 item.ItemRingRunic.0.name=Ring des Schutzes
 item.ItemRingRunic.1.name=Ring des Runenschildes
-item.ItemGirdleRunic.name=Gürtel des Runenschildes
+item.ItemRingRunic.2.name=Geladener Ring des Schutzes
+item.ItemRingRunic.3.name=Revitalisierender Ring des Schutzes
+item.ItemGirdleRunic.0.name=Gürtel des Runenschildes
+item.ItemGirdleRunic.1.name=Kinetischer Gürtel des Schutzes
 item.runic.charge=Runenschutz
-item.runic.ENERGIZED=Energetisiert
-item.runic.AUGMENTED=Erweitert
-item.runic.KINETIC=Kinetisches Feedback
-item.runic.REVITALIZING=Revitalisierendes Feedback
-item.runic.EMERGENCY=Notfallschild
 item.ItemBaubleBlanks.0.name=Gewöhnliches Amulett
 item.ItemBaubleBlanks.1.name=Gewöhnlicher Ring
 item.ItemBaubleBlanks.2.name=Gewöhnlicher Gürtel
@@ -961,15 +962,15 @@ tc.research_page.GOLEMFLESH.1=Obwohl es makaber ist, haben Golems aus Zombieflei
 #
 tc.research_name.GOLEMSTONE=Steingolems
 tc.research_text.GOLEMSTONE=Stark, aber langsam
-tc.research_page.GOLEMSTONE.1=Steingolems sind sehr haltbar und fähig, große Lasten zu tragen, aber sie sind viel langsamer als die meisten anderen Golems.<BR>§l§nSteingolem-Attribute§r<BR>§lHaltbarkeit:§r Überdurchschnittlich<BR>§lStärke:§r Überdurchschnittlich<BR>§lSelbstreparatur:§r Langsam<BR>§lTragelimit:§r 16<BR>§lGeschwindigkeit:§r Langsam<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMSTONE.1=Steingolems sind sehr haltbar und fähig, große Lasten zu tragen, aber sie sind viel langsamer als die meisten anderen Golems. Sie sind so schwer, dass sie im Wasser sinken. <BR>§l§nSteingolem-Attribute§r<BR>§lHaltbarkeit:§r Überdurchschnittlich<BR>§lStärke:§r Überdurchschnittlich<BR>§lSelbstreparatur:§r Langsam<BR>§lTragelimit:§r 16<BR>§lGeschwindigkeit:§r Langsam<BR>§lUpgrades:§r 1
 #
 tc.research_name.GOLEMIRON=Eisengolems
 tc.research_text.GOLEMIRON=Wie Dorfgolems, nur kleiner... und besser
-tc.research_page.GOLEMIRON.1=Eisengolems sind extrem robust und stark, fähig, gewaltige Lasten zu tragen. Ihr Gewicht jedoch verursacht, dass sie sich ziemlich langsam bewegen.<BR>§l§nEisengolem-Attribute§r<BR>§lHaltbarkeit:§r Hoch<BR>§lStärke:§r Hoch<BR>§lSelbstreparatur:§r Sehr langsam<BR>§lTragelimit:§r 32<BR>§lGeschwindigkeit:§r Sehr langsam<BR>§lUpgrades:§r 1
+tc.research_page.GOLEMIRON.1=Eisengolems sind extrem robust und stark, fähig, gewaltige Lasten zu tragen. Ihr Gewicht jedoch verursacht, dass sie sich ziemlich langsam bewegen und im Wasser sinken.<BR>§l§nEisengolem-Attribute§r<BR>§lHaltbarkeit:§r Hoch<BR>§lStärke:§r Hoch<BR>§lSelbstreparatur:§r Sehr langsam<BR>§lTragelimit:§r 32<BR>§lGeschwindigkeit:§r Sehr langsam<BR>§lUpgrades:§r 1
 #
 tc.research_name.GOLEMTHAUMIUM=Thaumium Golems
 tc.research_text.GOLEMTHAUMIUM=Mystische Helfer
-tc.research_page.GOLEMTHAUMIUM.1=Thaumiumgolems haben etwas bessere Attribute als Eisengolems und sind fähig, zwei Upgrades zu tragen. Auch sind sie äußerst resistent gegen magischen Schaden.<BR>§l§nThaumiumgolem-Attribute§r<BR>§lHaltbarkeit:§r Sehr hoch<BR>§lSärke:§r Hoch<BR>§lSelbstreparatur:§r Langsam<BR>§lTragelimit:§r 32<BR>§lGeschwindigkeit:§r Langsam<BR>§lUpgrades:§r 2
+tc.research_page.GOLEMTHAUMIUM.1=Thaumiumgolems haben etwas bessere Attribute als Eisengolems und sind fähig, zwei Upgrades zu tragen. Auch sind sie äußerst resistent gegen magischen Schaden. Sie sind so schwer, dass sie im Wasser sinken<BR>§l§nThaumiumgolem-Attribute§r<BR>§lHaltbarkeit:§r Sehr hoch<BR>§lSärke:§r Hoch<BR>§lSelbstreparatur:§r Langsam<BR>§lTragelimit:§r 32<BR>§lGeschwindigkeit:§r Langsam<BR>§lUpgrades:§r 2
 #
 tc.research_name.GOLEMBELL=Glocke des Golemanten
 tc.research_text.GOLEMBELL=Gib Acht
@@ -1015,6 +1016,10 @@ tc.research_name.CORELIQUID=Golemkern: Umfüllen
 tc.research_text.CORELIQUID=Halte einen Tank gefüllt mit Flüssigkeit
 tc.research_page.CORELIQUID.1=Golems mit diesem Kern bemühen sich, den ihnen zugewiesenen Tank mit der richtigen Flüssigkeit gefüllt zu halten.<BR>Wenn du willst, kannst du festlegen, welche Flüssigkeit in den Tank gebracht werden soll, indem du das Interface des Golems öffnest und einen Behälter mit der Flüssigkeit (etwa einen Eimer) in ein Feld legst. Alle anderen Flüssigkeiten werden ignoriert.<BR>Ein Umfüll-Golem kann nur 100mB an Flüssigkeit pro Item, dass ein Sammel-Golem aus dem selben Material tragen dürfte, transportieren. Dennoch sieht immer so aus, als würden sie einen ganzen Eimer voll Flüssigkeit tragen, wenn sie angewiesen wurden, Quellblöcke aufzunehmen.
 #
+tc.research_name.CORESORTING=Golemkern: Sortieren
+tc.research_text.CORESORTING=Alles in Ordnung
+tc.research_page.CORESORTING.1=Dieser Kern funktioniert fast wie der Leeren-Kern, mit einem Hautunterschied: Der Golem nimmt ein Item nur dann aus dem Inventar, an dem er angebracht ist, wenn sich bereits ein Item gleicher Art in einem der markierten Inventare befindet. Dies macht den Kern äußerst nützlich, um ungeordnete Items in einem Container in gerordnete Container zu sortieren.<BR>Du kannst nicht bestimmen, ob ausschließlich oder ausgeschlossen spezifische Items transportiert werden, wie es beim normalen Leeren-Kern möglich ist.
+#
 tc.research_name.COREALCHEMY=Golemkern: Alchemie
 tc.research_text.COREALCHEMY=Essentia herumbewegen
 tc.research_page.COREALCHEMY.1=Dieser Kern ist eine spezialisierte Variante des Umfüll-Kerns, extra abgestimmt auf den Transport von Essentia.<BR>Alchemie-Golems, denen ein Alchemischer Ofen oder ein Alambik zugewiesen wurde, entnehmen Essentia aus dem ganzen Stapel der Alambiken und bringen sie zu markierten Gläsern. Es muss nicht jedes einzelne Glas markiert werden - die Golems sind intelligent genug, um auch benachbarte Gläser zu befüllen.<BR>Sie priorisieren Gläser in der Nähe und werden ein Glas erst komplett füllen, bevor sie ein Neues benutzen.
@@ -1030,7 +1035,7 @@ tc.research_page.UPGRADEEARTH.1=Dieses Upgrade erhöht die Anzahl an Items, die 
 #
 tc.research_name.UPGRADEFIRE=Golemupgrade: Feuer
 tc.research_text.UPGRADEFIRE=Feuert deinen Golem an
-tc.research_page.UPGRADEFIRE.1=Dieses Upgrade erweitert das Interface-Inventar des Golems um zwei Slots, dadurch können mehr Items gefiltert oder sortiert werden.<BR>Die Nahkampfattacken des Golems entzünden seinen Gegner.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
+tc.research_page.UPGRADEFIRE.1=Dieses Upgrade erweitert das Interface-Inventar des Golems, dadurch können mehr Items gefiltert oder sortiert werden. Die Zahl an hinzugefügten Slots hängt von der Nummer der normalerweise verfügbaren Slots ab.<BR>Die Nahkampfattacken des Golems entzünden seinen Gegner.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
 #
 tc.research_name.UPGRADEWATER=Golemupgrade: Wasser
 tc.research_text.UPGRADEWATER=Macht deinen Golem scharfsinniger
@@ -1147,8 +1152,8 @@ tc.research_page.MIRRORHAND.1=Dieser magische Handspiegel funktioniert genau wie
 #
 tc.research_name.NODEJAR=Nodie im Glas
 tc.research_text.NODEJAR=Für den Thaumaturgen auf Trab
-tc.research_page.NODEJAR.1=Bannende Gläser haben sich nützlich erwiesen um alle möglichen normalen und mystischen Dinge zu lagern, und du glaubst, du hast eine weitere Verwendung entdeckt - Aura-Nodien einfangen.<BR>Indem du ein großes Glas um die Nodie baust und den richtigen Zauber mit deinem Stab anwendest, wird die Nodie in dem Konstrukt gefangen und es schrumpft auf eine wesentlich praktischere Größe. Das Glas kann dann sicher aufgesammelt und bewegt werden, aber der Umschließungsspruch hat eine hohe Chance, die Nodie zu beschädigen.<BR>Die Nodie bleibt in dem Zustand bestehen, in dem sie eingefangen wurde, und wird niemals fähig sein, Vis, dass ihr zu diesem Zeitpunkt fehlte, zu regenerieren.
-tc.research_page.NODEJAR.2=Solange sich die Nodie im Glas befindet, kann man weder Vis von ihr zapfen, noch regeneriert sie sich.<BR>Um die Nodie aus dem Glas zu befreien, muss man es in der Welt platzieren und mit dem Stab anklicken. Das Glas wird dabei zerstört.
+tc.research_page.NODEJAR.1=Bannende Gläser haben sich nützlich erwiesen um alle möglichen normalen und mystischen Dinge zu lagern, und du glaubst, du hast eine weitere Verwendung entdeckt - Aura-Nodien einfangen.<BR>Indem du ein großes Glas um die Nodie baust und den richtigen Zauber mit deinem Stab anwendest, wird die Nodie in dem Konstrukt gefangen und es schrumpft auf eine wesentlich praktischere Größe. Das Glas kann dann sicher aufgesammelt und bewegt werden, aber der Umschließungsspruch hat eine hohe Chance, die Nodie zu beschädigen.<BR>Die Nodie bleibt in dem Zustand bestehen, in dem sie eingefangen wurde, und wird
+tc.research_page.NODEJAR.2=niemals fähig sein, Vis, dass ihr zu diesem Zeitpunkt fehlte, zu regenerieren.<BR>Solange sich die Nodie im Glas befindet, kann man weder Vis von ihr zapfen, noch regeneriert sie sich.<BR>Um die Nodie aus dem Glas zu befreien, muss man es in der Welt platzieren und mit dem Stab anklicken. Das Glas wird dabei zerstört.
 #
 tc.research_name.PAVETRAVEL=Pflasterstein des Reisens
 tc.research_text.PAVETRAVEL=Vereinfacht deine Reise
@@ -1197,6 +1202,7 @@ tc.research_text.TUBES=Transport von Essentia
 tc.research_page.TUBES.1=Du hast verschiedene Wege entdeckt, um Essentia zu transportieren, aber keiner von ihnen hat sich für Alchemie in großem Stil als brauchbar erwiesen - bis jetzt.<BR>Du weißt jetzt, wie man stabile und relativ dichte Röhren herstellt. Während man normale Chemikalien in Glas transportieren kann, können bestimme Arten von Essentia sich entweder auflösen oder aber hindurch diffundieren. Indem du das Glas in Eisen einfasst und es mit Quecksilber behandelst, kannst du selbst die flüchtigsten Arten von Essentia beschützen. Goldene Anschlüsse geben dem Röhrensystem den letzten Schliff und machen es optisch ansprechend.
 tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließt immer dann durch die Röhren, wenn diese mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser.<BR>Gläser mit verschiedenen Sorten Essentia werden nur den in ihnen enthaltenen Essentia-Typ zu sich saugen. Die Röhren können jedoch nur eine Art Essentia gleichzeitig saugen und transportieren - die höchste Saugkraft hat Priorität. Ohne die richtige Verwendung von Ventilen ist es sehr leicht, ein Röhrennetz zu verstopfen. Der Gebrauch von Ventilen ist unerlässlich.<BR>Wenn du Röhren siehst,
 tc.research_page.TUBES.3=an denen Essentia austritt, bedeutet das, dass verschiedene Saugkräfte interferieren. Die Farbe gibt dir einen Hinweis auf die Art der Absaugung.<LINE>Das Essentia-Ventil verhält sich wie eine normale Röhre, außer dass es manuell oder mit einem Redstone-Signal geschlossen werden kann. In diesem Fall wird der Essentiafluss unterbrochen.<LINE>Der Essentia-Resonator ist nützlich, um Fehler in deinem Netzwerk zu finden. Du kannst ihn an einer Röhre oder einem verbundenen Gerät verwenden, um zu sehen, welche Essentia es momentan enthält und wie groß die Saugkraft ist.
+tc.research_page.TUBES.4=Röhren können von ihren Nachbarn getrennt und wieder verbunden werden, indem man mit einem Stab auf einen Röhrenabschnitt klickt.<BR>Der Stab kann auch verwendet werden, um auf das Mittelstück zu klicken, um bestimmte Röhren wie das Ventil zu rotieren.
 #
 tc.research_name.CENTRIFUGE=Alchemische Zentrifuge
 tc.research_text.CENTRIFUGE=Nimmt Dinge auseinander
@@ -1262,6 +1268,27 @@ tc.research_text.RUNICARMORUPGRADES=Schilde auf Maximum!
 tc.research_page.RUNICARMORUPGRADES.1=Die Runenschilde zu verbessern, ist leichter als gedacht. Du hast mehrere Verbesserungen entdeckt, aber es kann immer nur eine davon gleichzeitig aktiv sein.<LINE>§nEnergetisiert§r<BR>Diese Verbesserung wird die Runenrüstung 20% schneller wiederaufladen.<BR>§nErweitert§r<BR>Dieses Upgrade erhöht die Kapazität, die ein Rüstungsteil besitzt.
 tc.research_page.RUNICARMORUPGRADES.2=§nKinetisches Feedback§r<BR>Wenn dein Schild durchbrochen wurde, setzt dieses Upgrade eine Detonation aus kinetischer Energie frei. Der Schaden und die Kraft dieser Detonation erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.<BR>§nRevitalisierendes Feedback§r<BR>Wenn dein Schild durchbrochen wurde, wird ein mehrere Sekunden dauernder Impuls aus regenerierender Energie an den Träger abgegeben. Die Stärke dieses Impulses erhöht sich mit der Anzahl der Rüstungsteile mit diesem Upgrade. Dieser Effekt braucht 30 Sekunden zur Regeneration.
 tc.research_page.RUNICARMORUPGRADES.3=§nNotfallschild§r<BR>Wenn der Runenschild durchbrochen wurde, verteilt dieses Upgrade 8 Ladungen (oder mehr) auf deine getragenen Runenrüstungsteile. Jedes Teil mit diesem Upgrade fügt 5 Ladungen hinzu. Dieser Effekt braucht zwei Minuten zur Regeneration.
+#
+tc.research_name.RUNICAUGMENTATION=Runenschild-Erweiterung
+tc.research_text.RUNICAUGMENTATION=Schilde auf Maximum!
+tc.research_page.RUNICAUGMENTATION.1=Ringe, Amulette und Gürtle mit Runenschilden sind schön und gut, aber bestimmt du kannst diese schützende Verzauberung auch auf andere dinge legen?<BR>Natürlich kannst du! Indem die die Magie der Thaumaturgie(c) (Patent steht aus) nutzt, bist du fähig, den meisten magisch stabilen Rüstungsteilen Runenschilde hinzuzufügen.<BR>'Magisch stabile' Items sind jene, die aus Thaumium, Verzaubertem Stoff oder ähnlichen magischen Materialien gefertigt wurden.<BR>Nur eine einzige Runenschildladung wird dem Item hinzugefügt, aber du kannst ein Item mehrmals verzaubern, auch wenn sich die Essentiakosten jedes mal verdoppeln.
+tc.research_page.RUNICAUGMENTATION.2=Du kannst existierende Runen-Items ebenfalls verzaubern, jedoch werden die Kosten auf der bereits existierenden Runenladung berechnet, was einen solchen Vorgang außergewöhnlich teuer macht.
+#
+tc.research_name.RUNICCHARGED=Geladener Ring des Schutzes
+tc.research_text.RUNICCHARGED=Nur mal kurz ausruhen
+tc.research_page.RUNICCHARGED.1=Dies ist eine spezialisierte Version des Rings des Schutzes.<BR>Er hat eine etwas geringere Ladung als der Ring, auf dem er basiert, aber die Wiederaufladezeit des Runenschutzes ist um 25% erhöht.<BR>Du kannst mehrere dieser Ringe tragen, was die normale Ladezeit effektiv halbiert.
+#
+tc.research_name.RUNICHEALING=Revitalisierender Ring des Schutzes
+tc.research_text.RUNICHEALING=Ein Retter in der Not
+tc.research_page.RUNICHEALING.1=Dies ist eine spezialisierte Version des Rings des Schutzes.<BR>Er hat eine etwas geringere Ladung als der Ring, auf dem er basiert, aber er wird, wenn der Runenschild durchbrochen wurde, einen Puls regenerierender Energie entladen, der einige Sekunden anhalten wird.<BR>Dieser Effekt kann sich nur einmal alle 30 Sekunden aktivieren.
+#
+tc.research_name.RUNICKINETIC=Kinetischer Gürtel des Schutzes
+tc.research_text.RUNICKINETIC=Hehe, du wirst es noch bereuen.
+tc.research_page.RUNICKINETIC.1=Dies ist eine spezialisierte Version des Gürtels des Runenschildes.<BR>Er hat eine etwas geringere Ladung als der Gürtel, auf dem er basiert, aber er wird, wenn der Runenschild durchbrochen wurde, eine Detonation kinetischer Energie entladen, was alles in der Nähe schädigt und zurückstößt.<BR>Dieser Effekt kann sich nur einmal alle 30 Sekunden aktivieren.
+#
+tc.research_name.RUNICEMERGENCY=Amulett des Notfallschildes
+tc.research_text.RUNICEMERGENCY=Ich bin noch nicht fertig!
+tc.research_page.RUNICEMERGENCY.1=Dies ist eine spezialisierte Version des Amuletts des Runenschildes.<BR>Es hat eine etwas geringere Ladung als das Amulett, auf dem es basiert, aber dieses Upgrade wird, wenn der Runenschild durchbrochen wurde, deiner Schildladung umgehend 8 Einheiten hinzufügen.<BR>Dieser Effekt kann sich nur einmal alle 2 Minuten aktivieren.
 #
 tc.research_name.WARDEDARCANA=Bannmagie
 tc.research_text.WARDEDARCANA=Zugangskontrolle
