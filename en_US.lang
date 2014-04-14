@@ -335,6 +335,7 @@ item.ItemGolemCore.7.name=Chop
 item.ItemGolemCore.8.name=Use
 item.ItemGolemCore.9.name=Butcher
 item.ItemGolemCore.10.name=Sorting
+item.ItemGolemCore.11.name=Fishing
 item.ItemGolemCore.100.name=Blank
 item.ItemGolemPlacer.0.name=Straw Golem
 item.ItemGolemPlacer.1.name=Wood Golem
@@ -863,7 +864,7 @@ tc.research_page.ELEMENTALPICK.2=If shift is held while using this tool all its 
 #
 tc.research_name.ELEMENTALSWORD=Sword of the Zephyr
 tc.research_text.ELEMENTALSWORD=Angry Winds
-tc.research_page.ELEMENTALSWORD.1=You have merged the elemental fury of air shards with a thaumium sword.<BR>When used to strike a foe, the blade will sweep in a wide arc, hitting additional foes near you main target.<BR>While blocking the sword will conjure a sphere of whirling winds around you, pushing enemies and loose objects away and deflecting incoming projectiles.<BR>While blocking it will also slowly lift you into the air.
+tc.research_page.ELEMENTALSWORD.1=You have merged the elemental fury of air shards with a thaumium sword.<BR>When used to strike a foe, the blade will sweep in a wide arc, hitting additional foes near your main target.<BR>While blocking the sword will conjure a sphere of whirling winds around you, pushing enemies and loose objects away and deflecting incoming projectiles.<BR>While blocking it will also slowly lift you into the air.
 #
 tc.research_name.ELEMENTALSHOVEL=Shovel of the Earthmover
 tc.research_text.ELEMENTALSHOVEL=Shifting Earth
@@ -1019,6 +1020,13 @@ tc.research_page.CORELIQUID.1=Golems fitted with this core will attempt to keep 
 tc.research_name.CORESORTING=Golem Core: Sorting
 tc.research_text.CORESORTING=Keeping things in order
 tc.research_page.CORESORTING.1=This core works much like an Empty core with one key difference: It only takes an item from its home inventory if it already exists in one of its marked inventories. This makes it exceedingly useful to sort unordered items in a container into their proper places.<BR>You cannot specify specific items to include or exclude like you can with the normal Empty core.
+#
+tc.research_name.COREFISHING=Golem Core: Fishing
+tc.research_text.COREFISHING=Sea shanties sold separately
+tc.research_page.COREFISHING.1=This core allows a golem to fish for your supper.<BR>For best results the golem needs to be placed near deep and open water.<BR>Golem strength determines fishing speed.<BR>
+tc.research_page.COREFISHING.2=      §nFire Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade will automatically cook any fish it catches.
+tc.research_page.COREFISHING.3=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Order upgrades will increase the chance of getting good fishing results.
+tc.research_page.COREFISHING.4=    §nEntropy Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropy upgrades will reduce the chance of getting bad fishing results.
 #
 tc.research_name.COREALCHEMY=Golem Core: Alchemy
 tc.research_text.COREALCHEMY=Moving essentia around
@@ -1270,7 +1278,7 @@ tc.research_page.RUNICAUGMENTATION.2=You can enchant existing runic items like R
 #
 tc.research_name.RUNICCHARGED=Charged Ring of Shielding
 tc.research_text.RUNICCHARGED=Charge for the Charge Ring!
-tc.research_page.RUNICCHARGED.1=This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but the recharge time of runing shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
+tc.research_page.RUNICCHARGED.1=This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
 #
 tc.research_name.RUNICHEALING=Revitalizing Ring of Shielding
 tc.research_text.RUNICHEALING=Go ahead, I can take it.
@@ -1282,7 +1290,7 @@ tc.research_page.RUNICKINETIC.1=This is a specialized version of the Girdle of S
 #
 tc.research_name.RUNICEMERGENCY=Amulet of Emergency Shielding
 tc.research_text.RUNICEMERGENCY=You can't get me that easily.
-tc.research_page.RUNICEMERGENCY.1=This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once every 2 minutes.
+tc.research_page.RUNICEMERGENCY.1=This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once every 2 minutes.
 #
 tc.research_name.WARDEDARCANA=Warded Arcana
 tc.research_text.WARDEDARCANA=Controlling access
