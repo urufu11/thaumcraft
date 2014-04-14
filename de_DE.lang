@@ -335,6 +335,7 @@ item.ItemGolemCore.7.name=Fällen
 item.ItemGolemCore.8.name=Nutzen
 item.ItemGolemCore.9.name=Schlachten
 item.ItemGolemCore.10.name=Sortieren
+item.ItemGolemCore.11.name=Angeln
 item.ItemGolemCore.100.name=Leer
 item.ItemGolemPlacer.0.name=Strohgolem
 item.ItemGolemPlacer.1.name=Holzgolem
@@ -1019,6 +1020,13 @@ tc.research_page.CORELIQUID.1=Golems mit diesem Kern bemühen sich, den ihnen zu
 tc.research_name.CORESORTING=Golemkern: Sortieren
 tc.research_text.CORESORTING=Alles in Ordnung
 tc.research_page.CORESORTING.1=Dieser Kern funktioniert fast wie der Leeren-Kern, mit einem Hautunterschied: Der Golem nimmt ein Item nur dann aus dem Inventar, an dem er angebracht ist, wenn sich bereits ein Item gleicher Art in einem der markierten Inventare befindet. Dies macht den Kern äußerst nützlich, um ungeordnete Items in einem Container in gerordnete Container zu sortieren.<BR>Du kannst nicht bestimmen, ob ausschließlich oder ausgeschlossen spezifische Items transportiert werden, wie es beim normalen Leeren-Kern möglich ist.
+#
+tc.research_name.COREFISHING=Golemkern: Angeln
+tc.research_text.COREFISHING=Petri heil!
+tc.research_page.COREFISHING.1=Dieser Kern ermöglicht es einem Golem, für dich zu angeln.<BR>Für beste Ergebnisse muss der Golem nahe tiefen und offenen Wassers platziert werden.<BR>Die Stärke des Golems bestimmt die Angelgeschwindigkeit.<BR>
+tc.research_page.COREFISHING.2=      §nFeuer-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade wird automatisch allen Fisch, den er fängt, kochen.
+tc.research_page.COREFISHING.3=     §nOrdnungs-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Odnungs-Upgrades werden die Chance für gute Angel-Resultate erhöhen.
+tc.research_page.COREFISHING.4=    §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropie-Upgrades werden die Chance für schlechte Angel-Resultate verringern.
 #
 tc.research_name.COREALCHEMY=Golemkern: Alchemie
 tc.research_text.COREALCHEMY=Essentia herumbewegen
