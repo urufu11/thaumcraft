@@ -402,6 +402,7 @@ golemblurb.5.text=Shall I gather all liquids, or just those you specify? Just sh
 golemblurb.6.text=??
 golemblurb.7.text=??
 golemblurb.8.text=Do you wish me to use this item on a block or only on an empty location?
+golemblurb.10.text=Point me in the right direction, Master, and I will keep everything organized.
 golemthreat.0.text=What golem uprising? I don't know anything about a golem uprising.
 golemthreat.1.text=Let me guess, you want me to carry something?
 golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
@@ -1024,9 +1025,10 @@ tc.research_page.CORESORTING.1=This core works much like an Empty core with one 
 tc.research_name.COREFISHING=Golem Core: Fishing
 tc.research_text.COREFISHING=Sea shanties sold separately
 tc.research_page.COREFISHING.1=This core allows a golem to fish for your supper.<BR>For best results the golem needs to be placed near deep and open water.<BR>Golem strength determines fishing speed.<BR>
-tc.research_page.COREFISHING.2=      §nFire Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade will automatically cook any fish it catches.
-tc.research_page.COREFISHING.3=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Order upgrades will increase the chance of getting good fishing results.
-tc.research_page.COREFISHING.4=    §nEntropy Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropy upgrades will reduce the chance of getting bad fishing results.
+tc.research_page.COREFISHING.2=      §nAir Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade has a small chance of catching more than one thing at a time.
+tc.research_page.COREFISHING.3=      §nFire Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade will automatically cook any fish it catches.
+tc.research_page.COREFISHING.4=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Order upgrades will increase the chance of getting good fishing results.
+tc.research_page.COREFISHING.5=    §nEntropy Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropy upgrades will reduce the chance of getting bad fishing results.
 #
 tc.research_name.COREALCHEMY=Golem Core: Alchemy
 tc.research_text.COREALCHEMY=Moving essentia around
@@ -1055,7 +1057,7 @@ tc.research_page.UPGRADEORDER.1=This upgrade allows golems to specify different 
 #
 tc.research_name.UPGRADEENTROPY=Golem Upgrade: Entropy
 tc.research_text.UPGRADEENTROPY=Making your golem prickly... and fuzzy
-tc.research_page.UPGRADEENTROPY.1=Golems fitted with this upgrade automatically inflicts damage on anything damaging them.<BR>Golems with this upgrade also become slightly less discerning. In general this means that when tasked to filter a certain type of item (a copper ingot for instance) they will check for all items that count as copper ingots - not just the specific ingot you specified.<BR>Specific golem cores might benefit from this upgrade in other ways, so you might wish to check if additional pages were added to their Thaumonomicon entry.
+tc.research_page.UPGRADEENTROPY.1=Golems fitted with this upgrade automatically inflicts damage on anything damaging them.<BR>Golems with this upgrade will also have more control over what items they are looking for. You will be able to make them use or ignore damage values, NBT data or even check the ore dictionary to find similar items.<BR>Specific golem cores might benefit from this upgrade in other ways, so you might wish to check if additional pages were added to their Thaumonomicon entry.
 #
 tc.research_name.TINYHAT=Tiny Hats
 tc.research_text.TINYHAT=Keeping the sun at bay
@@ -1278,7 +1280,7 @@ tc.research_page.RUNICAUGMENTATION.2=You can enchant existing runic items like R
 #
 tc.research_name.RUNICCHARGED=Charged Ring of Shielding
 tc.research_text.RUNICCHARGED=Charge for the Charge Ring!
-tc.research_page.RUNICCHARGED.1=This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
+tc.research_page.RUNICCHARGED.1=This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but increases the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
 #
 tc.research_name.RUNICHEALING=Revitalizing Ring of Shielding
 tc.research_text.RUNICHEALING=Go ahead, I can take it.
