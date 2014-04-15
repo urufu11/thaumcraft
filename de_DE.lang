@@ -402,6 +402,7 @@ golemblurb.5.text=Soll ich alle Flüssigkeiten sammeln oder nur jene, die du fes
 golemblurb.6.text=??
 golemblurb.7.text=??
 golemblurb.8.text=Wünschst du, dass ich dieses Item auf einen Block benutze oder nur an einer leeren Position?
+golemblurb.10.text=Weise mir den Weg, Meister, und ich werde alles sortiert halten.
 golemthreat.0.text=Welcher Golemaufstand? Ich weiß gar nichts über einen Golemaufstand.
 golemthreat.1.text=Lass mich raten, du möchtest, dass ich etwas trage?
 golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
@@ -1024,9 +1025,10 @@ tc.research_page.CORESORTING.1=Dieser Kern funktioniert fast wie der Leeren-Kern
 tc.research_name.COREFISHING=Golemkern: Angeln
 tc.research_text.COREFISHING=Petri heil!
 tc.research_page.COREFISHING.1=Dieser Kern ermöglicht es einem Golem, für dich zu angeln.<BR>Für beste Ergebnisse muss der Golem nahe tiefen und offenen Wassers platziert werden.<BR>Die Stärke des Golems bestimmt die Angelgeschwindigkeit.<BR>
-tc.research_page.COREFISHING.2=      §nFeuer-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade wird automatisch allen Fisch, den er fängt, kochen.
-tc.research_page.COREFISHING.3=     §nOrdnungs-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Odnungs-Upgrades werden die Chance für gute Angel-Resultate erhöhen.
-tc.research_page.COREFISHING.4=    §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropie-Upgrades werden die Chance für schlechte Angel-Resultate verringern.
+tc.research_page.COREFISHING.2=      §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade hat eine geringe Chance, mehr als ein Ding auf einmal zu fangen.
+tc.research_page.COREFISHING.3=      §nFeuer-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade wird automatisch allen Fisch, den er fängt, kochen.
+tc.research_page.COREFISHING.4=     §nOrdnungs-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Odnungs-Upgrades werden die Chance für gute Angel-Resultate erhöhen.
+tc.research_page.COREFISHING.5=    §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropie-Upgrades werden die Chance für schlechte Angel-Resultate verringern.
 #
 tc.research_name.COREALCHEMY=Golemkern: Alchemie
 tc.research_text.COREALCHEMY=Essentia herumbewegen
@@ -1055,7 +1057,7 @@ tc.research_page.UPGRADEORDER.1=Dieses Upgrade ermöglicht es Golems, Farben zu 
 #
 tc.research_name.UPGRADEENTROPY=Golemupgrade: Entropie
 tc.research_text.UPGRADEENTROPY=Macht deinen Golem bissig... und ungenau
-tc.research_page.UPGRADEENTROPY.1=Golems mit diesem Upgrade verletzen automatisch alles, was ihnen Schaden zufügt.<BR>Ebenfalls werden Golems mit diesem Upgrade weniger wählerisch. Wenn sie beispielsweise die Aufgabe haben nach einem bestimmten Typ von Items zu filtern (etwa Kupferbarren), dann werden sie alle Items akzeptieren, die als Kupferbarren zählen und nicht nur genau den Barren, den du angegeben hast.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
+tc.research_page.UPGRADEENTROPY.1=Golems mit diesem Upgrade verletzen automatisch alles, was ihnen Schaden zufügt.<BR>Ebenfalls werden Golems mit diesem Upgrade mehr Kontrolle darüber haben, welche Items sie suchen. Du wirst fähig sein, sie Metadaten un NBT-Daten ignorieren sowie im OreDictionary nach ähnlichen Items suchen zu lassen.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
 #
 tc.research_name.TINYHAT=Winzige Hüte
 tc.research_text.TINYHAT=Halten die Sonne unter Kontrolle
