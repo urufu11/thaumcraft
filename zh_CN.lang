@@ -78,7 +78,7 @@ tile.blockCustomPlant.1.name=银树树苗
 tile.blockCustomPlant.2.name=水银花
 tile.blockCustomPlant.3.name=火焰草
 tile.blockCustomPlant.4.name=天域花
-tile.blockCustomPlant.5.name=Vishroom
+tile.blockCustomPlant.5.name=纤毛菇
 tile.blockMetalDevice.0.name=坩埚
 tile.blockMetalDevice.1.name=奥术蒸馏器
 tile.alembic.msg.1=蒸馏器是空的
@@ -596,7 +596,7 @@ tc.research_page.KNOWFRAG.1=在旅途中你偶然发现了一些古代遗迹以�
 tc.research_name.ASPECTS=魔力要素
 tc.research_text.ASPECTS=万物构造之源
 tc.research_page.ASPECTS.1=一切造物(道具,对象及生物)均系于被名为§5“要素”§0的魔力元素.要素描绘了物品的构成及其对魔力元素的偏向.普通的岩石可能蕴含Saxum(即拉丁文的岩石)要素,而更复杂的事物,比如树木,甚或生物则可能蕴含多种数量不等的要素.目前已经有50余种要素被发现.<LINE>有两类截然不同的要素:§5元始要素§0以及§5复合要素§0.
-tc.research_page.ASPECTS.2=§l元始要素§r是六种最基本的要素类型:§6Aer§0(风之要素),§2Terra§0(地之要素),§cIgnis§0(火之要素),§3Aqua§0(水之要素),§fOrdo§0(秩序要素),§8Perditio§0(混沌要素).<BR>它们是构成其它要素的基础.<BR>§l复合要素§r由两种其它要素复合而成. 相对简单的复合要素由两种元始要素复合而成, 但也存在一些经过多次复合,非常复杂的复合要素.<BR>举简单的例子来说,比如Terra(地之要素)与Aqua(水之要素)复合可以得到Victus(生命要素). 
+tc.research_page.ASPECTS.2=§l元始要素§r是六种最基本的要素类型:§6Aer§0(风之要素),§2Terra§0(地之要素),§cIgnis§0(火之要素),§3Aqua§0(水之要素),§fOrdo§0(秩序要素),§8Perditio§0(混沌要素).<BR>它们是构成其它要素的基础.<BR>§l复合要素§r由两种其它要素复合而成. 相对简单的复合要素由两种元始要素复合而成, 但也存在一些经过多次复合,非常复杂的复合要素.<BR>举简单的例子来说,比如§2Terra§0(地之要素)与§3Aqua§0(水之要素)复合可以得到Victus(生命要素). 
 tc.research_page.ASPECTS.3=若想要查看一个物品所具备的要素,需要在选中物品时按下潜行键(默认shift),这样你就能看见其蕴含要素的种类和数量.但是你需要先对该物品进行初步的研究,否则其蕴含的要素会显示未知.<LINE>要素在一定程度上分离于其对象,并且作为纯粹的本质物,要素非常具有价值：无论是用作合成的工具还是用于魔法研究.<BR>魔力通常存储于法杖中,但它也可能以液相存储,此时我们通常称其为§5要素源质§0,为方便起见,本手册中有时也统一简称其为要素.
 #
 tc.research_name.NODES=灵气和节点
@@ -616,7 +616,7 @@ tc.research_name.PLANTS=植物&树木
 tc.research_text.PLANTS=神奇植物
 tc.research_page.PLANTS.1=§l      §n宏伟之木§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>这种枝繁叶茂的大树广泛分布于郊外.<BR>由于其木材吸收了大量的魔力能量,因此可作为制作神秘学建筑以及设备的最佳材料之一.
 tc.research_page.PLANTS.2=§l     §n银树§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>这种罕见的神奇树木算得上奇妙的景观.其枝叶散发出蕴含着魔力能量的柔和光芒,而其柔韧白皙的干部则因净化咒波的能力而非常有价值.<BR>这种神秘的树木心部还常常能够孕育出灵气节点,这种特性让银树树苗足以成为一种比珍宝更贵重的奖励.
-tc.research_page.PLANTS.3=§l        §n水银花§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.它们是一种出产水银而非花蜜的植物.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.3=§l        §n水银花§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.收获并打浆后能得到水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l        §n火焰草§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>这些植物随着熊熊的元素烈火而生长,只能在炎热气候的地区发现.它们能够被采集并且研磨成重要的炼金材料之一：烈焰粉.
 tc.research_page.PLANTS.5=§l         §n魔豆§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这种奇异的,荚状的植物仅仅生长于魔法森林的树荫中.它们生长缓慢,收获时仅能掉落1~2个魔豆.
 tc.research_page.PLANTS.6=魔豆内含丰富的要素.它们可供食用,但出现的效果常常会有点无法预料.<BR>魔豆可以移植,但是培育这种作物困难费时.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
@@ -627,7 +627,7 @@ tc.research_page.RESEARCHER1.1=你越发擅长于研究.<BR>当你移除放入�
 #
 tc.research_name.RESEARCHER2=研究精通
 tc.research_text.RESEARCHER2=力量就是知识
-tc.research_page.RESEARCHER2.1=你越发精通于研究.<BR>当你移除放入六边形的要素,会有50%的几率取回研究点.<BR>此外放置要素时也有10%的几率不消耗研究点.
+tc.research_page.RESEARCHER2.1=你越发精通于研究.<BR>当你移除放入六边形的要素,会有50%的几率取回研究点.<BR>此外放置要素时也有10%的几率不消耗研究点.<BR>最后,在研究台界面中,你还能够通过按住shfit点击你想要制造出的要素,以融合要素得到它.如果你有足够用以融合的要素,它们会自动融合成你要制造的复合要素.
 #
 tc.research_name.RESEARCHDUPE=研究拷贝
 tc.research_text.RESEARCHDUPE=分享即关怀
@@ -635,8 +635,8 @@ tc.research_page.RESEARCHDUPE.1=你已发现拷贝完整研究笔记的方法.<B
 #
 tc.research_name.DECONSTRUCTOR=解构工作台
 tc.research_text.DECONSTRUCTOR=当仅仅看一眼并不足够时
-tc.research_page.DECONSTRUCTOR.1=在神秘使的研究生涯中,难免因欠缺某些方面知识而导致研究受到碍阻. <BR>此时可以借助结构工作台进行辅助.这个工作台能够将物品分解成最基础的六种元始要素,从而为你提供研究的突破口.然而这种设备的限制显而易见 - 被分解的复合要素并非直接变成组合成它们的要素,而是变成了组成它们的最基础的元始要素之一,而元始要素如何组合搭配仍然不得而知.<BR>例如分解圆石(蕴含saxum以及 
-tc.research_page.DECONSTRUCTOR.2=perditio要素)按说可以得到2点terra要素和1点perditio要素,但你只能由一定几率得知其中一种元始要素.<BR>而且,这台设备效率极低,当物品中蕴含要素越少,能有所发现就越难.
+tc.research_page.DECONSTRUCTOR.1=在神秘使的研究生涯中,难免因欠缺某些方面知识而导致研究受到碍阻. <BR>此时可以借助结构工作台进行辅助.这个工作台能够将物品分解成最基础的六种元始要素,从而为你提供研究的突破口.然而这种设备的限制显而易见 - 被分解的复合要素并非直接变成组合成它们的要素,而是变成了组成它们的最基础的元始要素之一,而元始要素如何组合搭配仍然不得而知.<BR>例如分解圆石(蕴含Saxum以及 
+tc.research_page.DECONSTRUCTOR.2=§8Perditio§0要素)按说可以得到2点§2Terra§0要素和1点§8perditio§0要素,但你只能由一定几率得知其中一种元始要素.<BR>而且,这台设备效率极低,当物品中蕴含要素越少,能有所发现就越难.
 #
 tc.research_name.BASICTHAUMATURGY=基础法杖工艺
 tc.research_text.BASICTHAUMATURGY=你的第一柄工具
@@ -707,9 +707,9 @@ tc.research_name.ROD_silverwood=银树杖柄
 tc.research_text.ROD_silverwood=神秘核心
 tc.research_page.ROD_silverwood.1=银树被证明是极其优良的魔力存储材料,每种魔力能存储100vis.
 #
-tc.research_name.SCEPTRE=Crafting Sceptre
-tc.research_text.SCEPTRE=Made to task
-tc.research_page.SCEPTRE.1=Crafting sceptres are specialized wands made to be used to craft mystical objects and nothing else. Foci cannot be attached to them, but they have several features that still make them worthwile using.<BR>Firstly, they have an additional 5% vis discount above and beyond what their caps would normally grant.<BR>Secondly they are able to hold 50% more vis than their cores would normally allow.<BR>Like other wands they can be crafted using most combinations of rods and caps - just a few examples are given on the next page.
+tc.research_name.SCEPTRE=工艺权杖
+tc.research_text.SCEPTRE=以制造为己任
+tc.research_page.SCEPTRE.1=工艺权杖是一种特制法杖,它专业制造魔力物品三十年,而别无旁顾.虽无法安装法杖核心,但其若干特性仍使得它非常值得使用.<BR>首先,这种法杖额外会提供5%的灵气减免,这比其杖端能提供的还要多.<BR>其次,在其杖柄通常所提供的容量的基础上,这种法杖还能够多存储50%的魔力.<BR>类似其他法杖,工艺权杖也可以通过杖端杖柄的绝大部分组合方式制出-下面几页仅仅给出部分例子.
 #
 tc.research_name.ROD_obsidian=黑曜石杖柄
 tc.research_text.ROD_obsidian=地之魔力容器
@@ -1021,15 +1021,15 @@ tc.research_page.CORELIQUID.1=安装了这种核心的傀儡会努力保证与�
 #
 tc.research_name.CORESORTING=傀儡核心:排序
 tc.research_text.CORESORTING=让一切都井井有条
-tc.research_page.CORESORTING.1=This core works much like an Empty core with one key difference: It only takes an item from its home inventory if it already exists in one of its marked inventories. This makes it exceedingly useful to sort unordered items in a container into their proper places.<BR>You cannot specify specific items to include or exclude like you can with the normal Empty core.
+tc.research_page.CORESORTING.1=这种核心的效果类似空白核心,但有一个关键性区别:只有当某物品已经存在于某个和傀儡绑定的了的容器中时,它才会从目标容器中取出物品放入该容器.这使得它们在将某容器中未分类的物品整理到合适位置时显得非常有用.<BR>但你无法指定包含何种特定物品,除非你使用普通的空白核心.
 #
 tc.research_name.COREFISHING=傀儡核心:垂钓
 tc.research_text.COREFISHING=海屋独家销售
-tc.research_page.COREFISHING.1=This core allows a golem to fish for your supper.<BR>For best results the golem needs to be placed near deep and open water.<BR>Golem strength determines fishing speed.<BR>
-tc.research_page.COREFISHING.2=      §nAir Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade has a small chance of catching more than one thing at a time.
-tc.research_page.COREFISHING.3=      §nFire Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade will automatically cook any fish it catches.
-tc.research_page.COREFISHING.4=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Order upgrades will increase the chance of getting good fishing results.
-tc.research_page.COREFISHING.5=    §nEntropy Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropy upgrades will reduce the chance of getting bad fishing results.
+tc.research_page.COREFISHING.1=这种核心让傀儡为你的晚餐而垂钓.<BR>为发挥最佳效果傀儡需要放在露天的深水边.<BR>傀儡的力量决定垂钓速度.<BR>
+tc.research_page.COREFISHING.2=      §n傀儡升级:风解锁§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>装有这种升级的傀儡有小几率能一次抓到不止一条鱼.
+tc.research_page.COREFISHING.3=      §n傀儡升级:火解锁§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>安装这种升级的傀儡会自动烹饪它抓住的鱼.
+tc.research_page.COREFISHING.4=     §n傀儡升级:秩序解锁§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>秩序升级会提高钓到大鱼的概率.
+tc.research_page.COREFISHING.5=    §n傀儡升级:混沌解锁§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>混沌升级会减少钓到廉价物品的概率.
 #
 tc.research_name.COREALCHEMY=傀儡核心:炼金
 tc.research_text.COREALCHEMY=移动要素
@@ -1057,7 +1057,7 @@ tc.research_page.UPGRADEORDER.1=这种升级会使得傀儡能够识别使用傀
 #
 tc.research_name.UPGRADEENTROPY=傀儡升级:混沌
 tc.research_text.UPGRADEENTROPY=混沌智慧
-tc.research_page.UPGRADEENTROPY.1=安装这种升级的傀儡能够自动对伤害进行反击.<BR>安装这种升级后傀儡还能够对事物进行模糊处理.一般来说这意味着当设定其识别某样物品(例如铜锭)时它会识别同类的所有物品(类似铜锭的所有金属锭)-而非你设定的具体物品.<BR>特定的傀儡核心配合这种核心还有更多好处,如果希望了解可以参阅其它傀儡核心条目的页面.
+tc.research_page.UPGRADEENTROPY.1=安装这种升级的傀儡能够自动对伤害进行反击.<BR>安装这种升级后还能增强傀儡寻找物品的控制力,它将能够忽略物品的伤害值,NBT数据,甚至可以通过检查矿物辞典搜寻到同类物品.<BR>特定的傀儡核心配合这种核心还有更多好处,如果希望了解可以参阅其它傀儡核心条目的页面.
 #
 tc.research_name.TINYHAT=礼帽
 tc.research_text.TINYHAT=晒不着,淋不到
@@ -1268,10 +1268,10 @@ tc.research_page.THAUMATORIUM.1=迄今炼金术多少有些变成一件撞运道
 tc.research_page.THAUMATORIUM.2=当你开启该设备会看见一些格子.左上方的格子用来放置催化剂.添置好后在右上格子中便可以从该种催化剂能够参与的所有可能配方中选择你想要合成的那个.<BR>下方的长条会按所需顺序显示所需的源质.当设备运作时它还会显示进度条.<BR>制成的物品会从设备前方弹出,或者进入到放置在弹射口位置的容器中.
 tc.research_page.THAUMATORIUM.3=一般来说一个炼金塔只能同时激活一个配方,但在其周围安附记忆矩阵就能增加它同时监控的配方数量.<BR>每个记忆矩阵能够增添2个配方.
 #
-tc.research_name.RUNICARMOR=符文护甲
+tc.research_name.RUNICARMOR=符文护盾
 tc.research_text.RUNICARMOR=护盾开启!
-tc.research_page.RUNICARMOR.1=你对防护法术的研究最终使你发明出符文护甲.这名字稍有误导之嫌,因为它并非传统意义上的护甲,而是一种佩戴在日常衣物上的符咒,纹章或类似防护物品. <BR>这种物品会制造出一个防范绝大多数伤害的魔力屏障.护甲会拥有一个伤害量承受池来先一步减免损伤,以保护佩戴者免受各种伤害.当伤害量承受池耗尽佩戴者才会开始像平常一样承受伤害.<BR>伤害量承受池随着时间推移会自己回复,但即使是耗尽状态也至少会为佩戴者提供基本上相当于皮革装备的防护.
-tc.research_page.RUNICARMOR.2=<BR>但护甲并不会防护溺水,饥饿或者其他类似环境危害造成的伤害.由于其天然特性护甲也不能使用寻常方法附魔,但你确定有些方法能够提供其效能 - 只是还有待你去研究发现.
+tc.research_page.RUNICARMOR.1=对防护法术的研究最终使你发明出符文护盾.它并非传统意义上的护甲装备,而是一种佩戴在日常衣物上的符咒,纹章或类似防护物品. <BR>这种物品会制造出一个防范绝大多数伤害的魔力屏障.护盾会拥有一个伤害量承受池来先一步减免损伤,以保护佩戴者免受各种伤害.当伤害量承受池耗尽佩戴者才会开始像平常一样承受伤害.<BR>伤害量承受池随着时间推移会自己回复,但即使是耗尽状态也至少会为佩戴者提供基本上相当于皮革装备的防护.
+tc.research_page.RUNICARMOR.2=<BR>这种自动回复需要护盾从穿戴者携带的法杖中抽取§2Terra§0和§eAer§0要素.<BR>但符文护盾并不会防护溺水,饥饿或者其他类似环境危害造成的伤害.由于其天然特性符文护盾也无法使用寻常方法附魔,但你确定有些方法能够提供其效能 - 只是尚待发现.
 #
 tc.research_name.RUNICAUGMENTATION=增广符文护盾
 tc.research_text.RUNICAUGMENTATION=护盾全开
@@ -1280,7 +1280,7 @@ tc.research_page.RUNICAUGMENTATION.2=你也可以对像护盾指环这样已经�
 #
 tc.research_name.RUNICCHARGED=充能护盾指环
 tc.research_text.RUNICCHARGED=为充能指环充能!
-tc.research_page.RUNICCHARGED.1=这是种特别版的护盾指环.<BR>较改造前的指环充能量略少些，但充能时间是符文护盾的1/4.<BR>你可以穿戴不止一只指环,这会让正常充能时间减半.
+tc.research_page.RUNICCHARGED.1=这是种特别版的护盾指环.<BR>较改造前的指环充能量略少些，且充能时间比符文护盾多1/4.<BR>但你可以穿戴不止一只指环,这会让正常充能时间减半.
 #
 tc.research_name.RUNICHEALING=再充能护盾指环
 tc.research_text.RUNICHEALING=继续向前,我能接受!
@@ -1289,7 +1289,6 @@ tc.research_page.RUNICHEALING.1=这是种特别版的护盾指环.<BR>较改造�
 tc.research_name.RUNICKINETIC=冲击护盾腰带
 tc.research_text.RUNICKINETIC=呵呵,你会后悔的
 tc.research_page.RUNICKINETIC.1=这是种特别版的护盾腰带.<BR>较改造前的腰带充能量略少些,但当护盾被打破时会爆发出一阵能够伤害并推开附近所有物品的冲击波.<BR>在30s内只能激活一次这种效果.
-
 #
 tc.research_name.RUNICEMERGENCY=应急护盾护身符
 tc.research_text.RUNICEMERGENCY=你就不能让我舒舒坦坦
