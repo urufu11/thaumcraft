@@ -513,13 +513,11 @@ tc.aspect.vitium=Beschmutzung
 tc.aspect.lux=Licht
 tc.aspect.potentia=Energie
 tc.aspect.motus=Bewegung, Animation
-tc.aspect.saxum=Stein
 tc.aspect.tempestas=Wetter
 tc.aspect.victus=Leben
 tc.aspect.mortuus=Tod
 tc.aspect.volatus=Flug
 tc.aspect.tenebrae=Dunkelheit
-tc.aspect.granum=Samen, Jung
 tc.aspect.limus=Schleim, Klebrig
 tc.aspect.herba=Pflanze
 tc.aspect.arbor=Baum, Holz
@@ -595,7 +593,7 @@ tc.research_page.KNOWFRAG.1=Auf deinen Reisen könntest du auf Fragmente antiken
 #
 tc.research_name.ASPECTS=Aspekte der Magie
 tc.research_text.ASPECTS=Die Grundsteine der Magie
-tc.research_page.ASPECTS.1=Jede Art von Item, Blöcken oder Kreaturen ist abhängig von unterschiedlichen mystische Elementen, die §5Aspekte§0 benannt werden. Aspekte beschreiben die Zusammensetzung und Neigung der Objekte zu magischen Elementen. Ein einfacher Stein besitzt nur den Aspekt Saxum, andere komplexere Objekte wie Bäume oder sogar Kreaturen besitzen verschiedene Aspekte in unterschiedlichen Mengen. Es gibt fast 50 bekannte Aspekte, und es werden noch immer mehr entdeckt.<LINE>Es gibt zwei Hauptarten von Aspekten: §5Primäre§0 und §5Verbundene§0.
+tc.research_page.ASPECTS.1=Jede Art von Item, Blöcken oder Kreaturen ist abhängig von unterschiedlichen mystische Elementen, die §5Aspekte§0 benannt werden. Aspekte beschreiben die Zusammensetzung und Neigung der Objekte zu magischen Elementen. Ein einfacher Stein besitzt nur den Aspekt Terra, andere komplexere Objekte wie Bäume oder sogar Kreaturen besitzen verschiedene Aspekte in unterschiedlichen Mengen. Es gibt fast 50 bekannte Aspekte, und es werden noch immer mehr entdeckt.<LINE>Es gibt zwei Hauptarten von Aspekten: §5Primäre§0 und §5Verbundene§0.
 tc.research_page.ASPECTS.2=§lPrimäre Aspekte§r sind die grundlegenden Arten von Aspekten, es gibt nur 6 von ihnen: §6Aer§0 (Luft), §2Terra§0 (Erde), §cIgnis§0 (Feuer), §3Aqua§0 (Wasser), §fOrdo§0 (Ordnung), §8Perditio§0 (Entropie).<BR>Diese bilden die Grundbausteine aller anderen Aspekte.<BR>§lVerbundaspekte§r sind aus zwei anderen Aspekten zusammengesetzt. Die einfachsten Verbundaspekte bestehen aus zwei primären Aspekten, es sind jedoch auch unglaublich komplexe Verbundaspekte aus mehreren aufeinander aufbauenden Aspekten möglich.<BR>Das einfachste Beispiel für einen Verbundaspekt ist Victus (Leben), eine Kombination aus §2Terra§0 und §3Aqua§0. 
 tc.research_page.ASPECTS.3=Um zu sehen, welche Aspekte ein Item besitzt, fahre einfach mit der Maus über das Item und drücke Schleichen (Shift), und du wirst erfahren, welche Aspekte das Item enthält sind und wie stark sie jeweils sind. Zuerst musst du jedoch das Item untersuchen, vorher bleiben die Aspekte verborgen.<LINE>Aspekte, die irgendwie von ihren Objekten abgetrennt und verfeinert wurden, werden §5Vis§0 genannt und sind sehr wertvoll: sowohl als Ziel magischer Forschung als auch zum Herstellen von Gegenständen.<BR>Vis ist meist in Zauberstäben gebunden, aber man kann es ebenso als eine magische Flüssigkeit lagern. Als Flüssigkeit gespeichertes Vis wird §5Essentia§0 genannt.
 #
@@ -635,8 +633,8 @@ tc.research_page.RESEARCHDUPE.1=Du weißt jetzt, wie du Forschungsergebnisse kop
 #
 tc.research_name.DECONSTRUCTOR=Dekonstruktionstisch
 tc.research_text.DECONSTRUCTOR=Wenn genau hinsehen einfach nicht genug ist
-tc.research_page.DECONSTRUCTOR.1=Es kommt der Punkt in der Karriere eines jeden Thaumaturgen, an dem er nicht mehr weiterforschen kann, da es ihm an Aspekten mangelt.<BR>Eine mögliche Abhilfe ist der Dekonstruktionstisch. Dieser Tisch ermöglicht dir, Objekte in ihre Einzelteile zu zerlegen, die du dann untersuchen kannst. Dem sind jedoch Grenzen gesetzt - der Dekonstruktionstisch spaltet Verbundaspekte in ihre Bestandteile, bis nur noch primäre Aspekte vorhanden sind. Während dieses Prozesses geht viel verloren und das Beste, auf das der Thaumaturge hoffen kann ist ein einzelnes Stück eines primären Aspekts.<BR>Pflasterstein (Saxum und §8Perditio§0) beispielsweise
-tc.research_page.DECONSTRUCTOR.2=wird heruntergebrochen auf 2 §2Terra§0 und 1 §8Terra§0, von denen nur eines möglicherweise entdeckt werden kann.<BR>Zudem ist er relativ langsam und je weniger Aspekte ein Objekt besitzt, desto geringer ist die Chance etwas zu entdecken.
+tc.research_page.DECONSTRUCTOR.1=Es kommt der Punkt in der Karriere eines jeden Thaumaturgen, an dem er nicht mehr weiterforschen kann, da es ihm an Aspekten mangelt.<BR>Eine mögliche Abhilfe ist der Dekonstruktionstisch. Dieser Tisch ermöglicht dir, Objekte in ihre Einzelteile zu zerlegen, die du dann untersuchen kannst. Dem sind jedoch Grenzen gesetzt - der Dekonstruktionstisch spaltet Verbundaspekte in ihre Bestandteile, bis nur noch primäre Aspekte vorhanden sind. Während dieses Prozesses geht viel verloren und das Beste, auf das der Thaumaturge hoffen kann ist ein einzelnes Stück eines primären Aspekts.<BR>Eisen (Metallum) beispielsweise
+tc.research_page.DECONSTRUCTOR.2=wird heruntergebrochen auf §2Terra§0 und §8Ordo§0, von denen nur eines möglicherweise entdeckt werden kann.<BR>Zudem ist er relativ langsam und je weniger Aspekte ein Objekt besitzt, desto geringer ist die Chance etwas zu entdecken.
 #
 tc.research_name.BASICTHAUMATURGY=Basis-Stabkunde
 tc.research_text.BASICTHAUMATURGY=Dein erstes Werkzeug
@@ -990,7 +988,9 @@ tc.research_page.COREEMPTY.1=Golems mit diesem Kern werden Items aus dem zugetei
 #
 tc.research_name.COREUSE=Golemkern: Nutzen
 tc.research_text.COREUSE=Klickedieklick
-tc.research_page.COREUSE.1=Wie beim "Leeren"-Kern entnehmen Golems mit diesem Kern Items aus dem zugewiesenen Inventar, aber anstatt sie in ein anderes Inventar zu legen oder in die Gegend zu werfen, versuchen sie, die Items an einem Zielblock oder einer Zielgegend zu benutzen.<BR>Dabei gehen sie vor, als wären sie ein Spieler, der mit dem Item auf das gewählte Ziel rechtsklickt.<BR>Wenn du willst, kannst du festlegen, welche Items entfernt werden sollen, indem du das Interface des Golems öffnest. Alle anderen Items werden ignoriert.
+tc.research_page.COREUSE.1=Wie beim "Leeren"-Kern entnehmen Golems mit diesem Kern Items aus dem zugewiesenen Inventar, aber anstatt sie in ein anderes Inventar zu legen oder in die Gegend zu werfen, versuchen sie, die Items an einem Zielblock oder einer Zielgegend zu benutzen.<BR>Dabei gehen sie vor, als wären sie ein Spieler, der mit dem Item auf das gewählte Ziel rechts- oder linksklickt - du bestimmst, was von beidem getan wird.<BR>Wenn du willst, kannst du festlegen, welche Items entfernt werden sollen, indem du das Interface des Golems öffnest. Alle anderen Items werden ignoriert.
+tc.research_page.COREUSE.2=Wenn der Golem nicht an ein Inventar gebunden ist, wird er versuchen, seine Aktion mit leeren Händen auszuführen - einfach auf das Ziel zu klicken, wie angeordnet.<LINE>Du bist fähig, dem Golem zu sagen, wie auf etwas 'geklickt' werden soll - statt nur zu sagen, rechts- oder linkszuklicken, kannst du auch bestimmen, ob der Golem bei der Ausführung schleichen soll oder nicht.<BR>Du kannst auch bestimmen, ob er nur auf Luft statt auf einen Block klicken soll.
+tc.research_page.COREUSE.3=      §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Dieses Upgrade erhöht die Geschwindigkeit, mit welcher der Golem den Zielblock oder -raum klicken kann.
 #
 tc.research_name.COREFILL=Golemkern: Füllen
 tc.research_text.COREFILL=Ein Inventar gefüllt haltend
@@ -1285,15 +1285,15 @@ tc.research_page.RUNICCHARGED.1=Dies ist eine spezialisierte Version des Rings d
 #
 tc.research_name.RUNICHEALING=Revitalisierender Ring des Schutzes
 tc.research_text.RUNICHEALING=Ein Retter in der Not
-tc.research_page.RUNICHEALING.1=Dies ist eine spezialisierte Version des Rings des Schutzes.<BR>Er hat eine etwas geringere Ladung als der Ring, auf dem er basiert, aber er wird, wenn der Runenschild durchbrochen wurde, einen Puls regenerierender Energie entladen, der einige Sekunden anhalten wird.<BR>Dieser Effekt kann sich nur einmal alle 30 Sekunden aktivieren.
+tc.research_page.RUNICHEALING.1=Dies ist eine spezialisierte Version des Rings des Schutzes.<BR>Er hat eine etwas geringere Ladung als der Ring, auf dem er basiert, aber er wird, wenn der Runenschild durchbrochen wurde, einen Puls regenerierender Energie entladen, der einige Sekunden anhalten wird.<BR>Dieser Effekt kann sich nur einmal alle 20 Sekunden aktivieren.
 #
 tc.research_name.RUNICKINETIC=Kinetischer Gürtel des Schutzes
 tc.research_text.RUNICKINETIC=Hehe, du wirst es noch bereuen.
-tc.research_page.RUNICKINETIC.1=Dies ist eine spezialisierte Version des Gürtels des Runenschildes.<BR>Er hat eine etwas geringere Ladung als der Gürtel, auf dem er basiert, aber er wird, wenn der Runenschild durchbrochen wurde, eine Detonation kinetischer Energie entladen, was alles in der Nähe schädigt und zurückstößt.<BR>Dieser Effekt kann sich nur einmal alle 30 Sekunden aktivieren.
+tc.research_page.RUNICKINETIC.1=Dies ist eine spezialisierte Version des Gürtels des Runenschildes.<BR>Er hat eine etwas geringere Ladung als der Gürtel, auf dem er basiert, aber er wird, wenn der Runenschild durchbrochen wurde, eine Detonation kinetischer Energie entladen, was alles in der Nähe schädigt und zurückstößt.<BR>Dieser Effekt kann sich nur einmal alle 20 Sekunden aktivieren.
 #
 tc.research_name.RUNICEMERGENCY=Amulett des Notfallschildes
 tc.research_text.RUNICEMERGENCY=Ich bin noch nicht fertig!
-tc.research_page.RUNICEMERGENCY.1=Dies ist eine spezialisierte Version des Amuletts des Runenschildes.<BR>Es hat eine etwas geringere Ladung als das Amulett, auf dem es basiert, aber dieses Upgrade wird, wenn der Runenschild durchbrochen wurde, deiner Schildladung umgehend 8 Einheiten hinzufügen.<BR>Dieser Effekt kann sich nur einmal alle 2 Minuten aktivieren.
+tc.research_page.RUNICEMERGENCY.1=Dies ist eine spezialisierte Version des Amuletts des Runenschildes.<BR>Es hat eine etwas geringere Ladung als das Amulett, auf dem es basiert, aber dieses Upgrade wird, wenn der Runenschild durchbrochen wurde, deiner Schildladung umgehend 8 Einheiten hinzufügen.<BR>Dieser Effekt kann sich nur einmal jede Minute aktivieren.
 #
 tc.research_name.WARDEDARCANA=Bannmagie
 tc.research_text.WARDEDARCANA=Zugangskontrolle
