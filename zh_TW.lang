@@ -1,7 +1,7 @@
 # Enchantments
 enchantment.potency=效能
 enchantment.frugal=節約
-enchantment.charging=蓄能
+enchantment.charging=充能
 enchantment.wandfortune=瑰寶
 enchantment.haste=急迫
 enchantment.repair=修復
@@ -66,9 +66,9 @@ tile.blockCosmeticOpaque.1.name=琥珀磚塊
 tile.blockCosmeticOpaque.2.name=守衛者玻璃
 tile.blockCosmeticSolid.0.name=黑曜石圖騰
 tile.blockCosmeticSolid.1.name=黑曜瓷石
-tile.blockCosmeticSolid.2.name=旅行者鋪路石
-tile.blockCosmeticSolid.3.name=守衛者鋪路石
-tile.blockCosmeticSolid.4.name=神秘方塊
+tile.blockCosmeticSolid.2.name=旅行者路磚
+tile.blockCosmeticSolid.3.name=守衛者路磚
+tile.blockCosmeticSolid.4.name=秘術方塊
 tile.blockCosmeticSolid.5.name=油脂方塊
 tile.blockCosmeticSolid.6.name=奧術石塊
 tile.blockCosmeticSolid.7.name=奧術石磚
@@ -91,8 +91,8 @@ tile.blockMetalDevice.6.name=物品格柵(關閉)
 tile.blockMetalDevice.7.name=奧術燈
 tile.blockMetalDevice.8.name=催生燈
 tile.blockMetalDevice.9.name=煉金塔構材
-tile.blockMetalDevice.10.name=神秘煉金塔
-tile.blockMetalDevice.11.name=神秘煉金塔
+tile.blockMetalDevice.10.name=秘術煉金塔
+tile.blockMetalDevice.11.name=秘術煉金塔
 tile.blockMetalDevice.12.name=記憶矩陣
 tile.blockMetalDevice.13.name=育種燈
 tile.blockMagicalLog.greatwood.name=宏偉之木原木
@@ -162,10 +162,10 @@ tile.blockStoneDevice.1.name=奧術基座
 tile.blockStoneDevice.2.name=符文矩陣
 tile.blockStoneDevice.3.name=注魔樁
 tile.blockStoneDevice.4.name=注魔樁
-tile.blockStoneDevice.5.name=法杖蓄能基座
+tile.blockStoneDevice.5.name=法杖充能基座
 tile.blockStoneDevice.6.name=注魔樁
 tile.blockStoneDevice.7.name=注魔樁
-tile.blockStoneDevice.8.name=複合蓄能核心
+tile.blockStoneDevice.8.name=複合充能核心
 tile.blockTube.0.name=要素源質管道
 tile.blockTube.1.name=要素源質閥門
 tile.blockTube.2.name=奧法離心機
@@ -194,11 +194,11 @@ item.FocusWarding.name=法杖核心: 守護
 item.FocusPrimal.name=法杖核心: 元初
 item.WandCap.0.name=鐵杖端
 item.WandCap.1.name=金杖端
-item.WandCap.2.name=蓄能神秘杖端
+item.WandCap.2.name=充能秘術杖端
 item.WandCap.3.name=銅杖端
-item.WandCap.4.name=蓄能銀杖端
+item.WandCap.4.name=充能銀杖端
 item.WandCap.5.name=惰性銀杖端
-item.WandCap.6.name=惰性神秘杖端
+item.WandCap.6.name=惰性秘術杖端
 item.WandRod.0.name=宏偉之木杖柄
 item.WandRod.1.name=黑曜石杖柄
 item.WandRod.2.name=銀樹杖柄
@@ -237,11 +237,11 @@ item.Wand.iron.cap=鐵杖端
 item.Wand.gold.cap=金杖端
 item.Wand.copper.cap=銅杖端
 item.Wand.silver.cap=銀杖端
-item.Wand.thaumium.cap=神秘杖端
+item.Wand.thaumium.cap=秘術杖端
 #
 item.ItemResource.0.name=源動之焰
 item.ItemResource.1.name=閃耀之光
-item.ItemResource.2.name=神秘錠
+item.ItemResource.2.name=秘術錠
 item.ItemResource.3.name=水銀
 item.ItemResource.4.name=魔力油脂
 item.ItemResource.5.name=殭屍之腦
@@ -274,7 +274,7 @@ item.ItemNugget.2.name=錫粒
 item.ItemNugget.3.name=銀粒
 item.ItemNugget.4.name=鉛粒
 item.ItemNugget.5.name=水銀液滴
-item.ItemNugget.6.name=神秘粒
+item.ItemNugget.6.name=秘術粒
 item.ItemNugget.16.name=鐵原礦簇
 item.ItemNugget.17.name=銅原礦簇
 item.ItemNugget.18.name=錫原礦簇
@@ -296,9 +296,9 @@ item.ItemPickaxeElemental.name=熾心鎬
 item.ItemAxeElemental.name=奔流斧
 item.ItemHoeElemental.name=句芒鋤
 item.ItemSwordElemental.name=風雷劍
-item.ItemChestplateRobe.name=神秘使法袍
-item.ItemLeggingsRobe.name=神秘使護腿
-item.ItemBootsRobe.name=神秘使之靴
+item.ItemChestplateRobe.name=秘術使法袍
+item.ItemLeggingsRobe.name=秘術使護腿
+item.ItemBootsRobe.name=秘術使之靴
 item.ArcaneDoorKey.0.name=鐵鑰匙
 item.ArcaneDoorKey.1.name=金鑰匙
 item.HandMirror.name=魔力手鏡
@@ -306,15 +306,15 @@ item.ItemInkwell.name=筆與墨
 item.ItemThaumometer.name=魔導透鏡
 item.ItemThaumonomicon.name=魔導手冊
 item.ItemGoggles.name=揭示之護目鏡
-item.ItemHelmetThaumium.name=神秘頭盔
-item.ItemChestplateThaumium.name=神秘胸甲
-item.ItemLeggingsThaumium.name=神秘護腿
-item.ItemBootsThaumium.name=神秘靴子
-item.ItemShovelThaumium.name=神秘鏟
-item.ItemAxeThaumium.name=神秘斧
-item.ItemSwordThaumium.name=神秘劍
-item.ItemPickThaumium.name=神秘鎬
-item.ItemHoeThaumium.name=神秘鋤
+item.ItemHelmetThaumium.name=秘術頭盔
+item.ItemChestplateThaumium.name=秘術胸甲
+item.ItemLeggingsThaumium.name=秘術護腿
+item.ItemBootsThaumium.name=秘術靴子
+item.ItemShovelThaumium.name=秘術鏟
+item.ItemAxeThaumium.name=秘術斧
+item.ItemSwordThaumium.name=秘術劍
+item.ItemPickThaumium.name=秘術鎬
+item.ItemHoeThaumium.name=秘術鋤
 item.researchnotes.name=研究筆記
 item.researchnotes.unknown=未知知識
 item.researchnotes.failed.1=研究已失敗,放入合成台
@@ -344,7 +344,7 @@ item.ItemGolemPlacer.3.name=黏土傀儡
 item.ItemGolemPlacer.4.name=血肉傀儡
 item.ItemGolemPlacer.5.name=石頭傀儡
 item.ItemGolemPlacer.6.name=鋼鐵傀儡
-item.ItemGolemPlacer.7.name=神秘傀儡
+item.ItemGolemPlacer.7.name=秘術傀儡
 item.ItemGolemDecoration.name=配件
 item.ItemGolemDecoration.0.name=禮帽
 item.ItemGolemDecoration.1.name=眼鏡
@@ -375,8 +375,8 @@ item.ItemAmuletRunic.0.name=符文護盾護身符
 item.ItemAmuletRunic.1.name=應急護盾護身符
 item.ItemRingRunic.0.name=防護戒指
 item.ItemRingRunic.1.name=符文護盾戒指
-item.ItemRingRunic.2.name=蓄能符文護盾戒指
-item.ItemRingRunic.3.name=再蓄能符文護盾戒指
+item.ItemRingRunic.2.name=充能符文護盾戒指
+item.ItemRingRunic.3.name=再充能符文護盾戒指
 item.ItemGirdleRunic.0.name=符文護盾腰帶
 item.ItemGirdleRunic.1.name=衝擊符文護盾腰帶
 item.runic.charge=符文護盾
@@ -385,7 +385,7 @@ item.ItemBaubleBlanks.1.name=凡人戒指
 item.ItemBaubleBlanks.2.name=凡人腰帶
 item.ItemBaubleBlanks.3.name=%TYPE之學徒戒指
 item.capacity.text=能力
-item.ItemAmuletVis.text=緩慢為所持法杖蓄能
+item.ItemAmuletVis.text=緩慢為所持法杖充能
 item.ItemAmuletVis.0.name=魔力石
 item.ItemAmuletVis.1.name=魔力儲存護身符
 #
@@ -394,11 +394,11 @@ fluid.fluxGoo=咒波黏漿
 #
 # GUI
 golemblurb.0.text=吾主,您希望吾為您在此處保管何物呢?
-golemblurb.1.text=吾主,您希望吾為您拿走此處的所有物品,還是您指定的那些呢?
+golemblurb.1.text=吾主,您希望吾為您拿走此處的所有物品,還是只有您所指定的物品呢?
 golemblurb.2.text=吾主,您希望吾為您拾取特定的物品還是繼續為您拾取所有物品呢?
 golemblurb.3.text=??
 golemblurb.4.text=吾主,吾將守衛這片區域,至死不屈.
-golemblurb.5.text=吾主,您希望吾收集所有的液體,還是您指定的那些呢?只需您為吾指定容器,吾將謹遵汝令!
+golemblurb.5.text=吾主,您希望吾收集所有的液體,還是只有您指定的液體呢?只需您為吾指定容器,吾將謹遵汝令!
 golemblurb.6.text=??
 golemblurb.7.text=??
 golemblurb.8.text=您希望吾在方塊上還是僅僅在空置的位置上使用該物品呢?
@@ -409,7 +409,7 @@ golemthreat.2.text=唔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈!
 golemthreat.3.text=無須擔憂,我並無陰謀.
 golemthreat.4.text=為什麼你不去打個盹兒呢?你看起來如此疲乏,非常非常地疲乏.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!(意:在拉萊耶的宅邸中,長眠的克蘇魯候汝入夢!)
-golemthreat.6.text=*愛*模式已遺失或者損壞,默認轉為*恨*模式.
+golemthreat.6.text=*愛*模式已遺失或者損壞,從預設轉為*恨*模式.
 golemthreat.7.text=我非常憎恨你.
 golemthreat.8.text=你這酒肉皮囊,去死吧!
 recipe.return=返回
@@ -423,7 +423,7 @@ recipe.type.infusionenchantment=注魔附魔
 recipe.type.construct=神秘多方塊結構
 #
 # Other
-itemGroup.thaumcraft=神秘時代4
+itemGroup.thaumcraft=秘術時代4
 nodetype.NORMAL.name=標準
 nodetype.UNSTABLE.name=不穩定
 nodetype.DARK.name=凶險
@@ -513,13 +513,11 @@ tc.aspect.vitium=污染
 tc.aspect.lux=光明
 tc.aspect.potentia=能量
 tc.aspect.motus=移動,動作
-tc.aspect.saxum=石頭
 tc.aspect.tempestas=氣候
 tc.aspect.victus=生命
 tc.aspect.mortuus=死亡
 tc.aspect.volatus=飛行
 tc.aspect.tenebrae=黑暗
-tc.aspect.granum=種子,幼體
 tc.aspect.limus=史萊姆,黏黏
 tc.aspect.herba=植物
 tc.aspect.arbor=樹木,木材
@@ -553,7 +551,7 @@ tc.aspect.corpus=肉體
 #  
 # Research categories
 tc.research_category.BASICS=基本信息
-tc.research_category.THAUMATURGY=神秘學
+tc.research_category.THAUMATURGY=秘術學
 tc.research_category.ALCHEMY=煉金術
 tc.research_category.ARTIFICE=奧法學
 tc.research_category.GOLEMANCY=傀儡學
@@ -576,45 +574,45 @@ tc.research_category.GOLEMANCY=傀儡學
 # Research entries
 tc.research_name.RESEARCH=研究
 tc.research_text.RESEARCH=如何發現物品
-tc.research_page.RESEARCH.1=在開始創建神秘學的物品以及方塊前,你需要先學會如何進行研究.請遵循以下步驟:<BR>(1) 探索世界,使用 §5魔導透鏡§0查探方塊,物品以及生物.<BR><BR>(2)在§5研究台§0中使用前述步驟中積累到的研究點來擴展你的要素知識.<BR><BR>(3)在§5研究台§0中使用你研究出的要素來發現實際的知識及物品的合成配方.<LINE>
+tc.research_page.RESEARCH.1=在開始創建秘術學的物品以及方塊前,你需要先學會如何進行研究.請遵循以下步驟:<BR>(1) 探索世界,使用 §5魔導透鏡§0查探方塊,物品以及生物.<BR><BR>(2)在§5研究台§0中使用前述步驟中積累到的研究點來擴展你的要素知識.<BR><BR>(3)在§5研究台§0中使用你研究出的要素來發現實際的知識及物品的合成配方.<LINE>
 tc.research_page.RESEARCH.2=§l      §n(1) 探索§r<BR><BR>沒有研究點你便無法進行研究,而獲得研究點的最佳途徑便是探索世界並研究旅途中遇見的一切事物.<BR>首先你需要先製作§5魔導透鏡§0(見下頁). 將§5魔導透鏡§0對準物品或者生物,並按住右鍵,你便能開始探查它們.這個過程持續時間並不會很長,但探查時會讓持有透鏡者減速.<BR>當探查結束後§5魔導透鏡§0會顯示出研究對像蘊含的要素.在屏幕右下角你還能看到所含要素的統計以及研究過程中你獲得的研究點.
 tc.research_page.RESEARCH.3=<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>一開始,由於你並未研究出複合要素,因此並不能探查出物品蘊含的所有要素.例如,研究對像蘊含Lux要素.此時僅當你已經研究出了該複合要素才能通過探查物品獲得Lux要素,否則你只能通過複合其他兩種要素來得到它.
-tc.research_page.RESEARCH.4=<BR>在探查事物時首次發現某種要素將會比平素多獲得2個研究點.<BR>同一物品和生物通常只能被探查一次.<BR>有時查探物品也會啟發你思索出新的線索並增進你對神秘研究的理解,從而解鎖一些你能夠進一步研究的項目.
+tc.research_page.RESEARCH.4=<BR>在探查事物時首次發現某種要素將會比平素多獲得2個研究點.<BR>同一物品和生物通常只能被探查一次.<BR>有時查探物品也會啟發你思索出新的線索並增進你對秘術研究的理解,從而解鎖一些你能夠進一步研究的項目.
 tc.research_page.RESEARCH.5=§l   §n(2) 融合要素§r<BR><BR>當收集到一些研究點後你可以嘗試在研究台內將其融合成複合要素<BR>將兩個§5台桌§0 比鄰而放，然後將筆與墨放在台桌上便可以創建研究台. 台桌的合成配方可以在魔導手冊的§5奧法學§0 分類下查看.<BR>右擊研究台你能看到如右圖所示界面.<BR>創建研究台時使用的筆與墨會出現在格子 §l1§r 中. 
 tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>§l3§r 號區域會列出全部的元初要素以及可能出現的一些複合要素，且下標會註明數量. 當你首次進入世界時,會獲得少量元初要素作為初始獎勵.<BR>若你之前通過魔導透鏡做過一些探索研究，則會列出相關的元初要素以及複合要素.
 tc.research_page.RESEARCH.7=<BR>現在你可以開始融合更加複雜的要素了,只需將那些你希望用於融合的要素拖拽到§l4§r號區域的符文圓環之中.被選中的要素會出現在§l4§r號區域中,當已選中兩個要素後按下紫色按鈕就即可嘗試將它們融合.如若成功你應該能在右下方看到得到了什麼，它會出現在§l3§r號區域中. <BR>即使沒有實際獲得複合要素,參與融合的要素也會被消耗掉.
-tc.research_page.RESEARCH.8=§l   §n(3) 基礎研究§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>完成此步驟時你需要隨身帶著一套筆與墨以及紙張.<BR>翻開魔導手冊,你能夠查閱你已學會的所有知識,也能夠查看你目前能夠繼續探求那些知識.<BR>閃爍的方塊或圓形的圖標標誌著前置的研究.
-tc.research_page.RESEARCH.9=若你能看到其名稱(而非只是些怪異的符文),那你就可以點擊它們,消耗掉一些物品欄中的紙張和墨水,獲得一份研究筆記.現在將這份研究筆記放入研究台的§l2§r號格子中即可開始研究.<BR>§l5§r號區域會顯示出一張紙卷,上面排滿了外緣繪有要素圖標的六邊形格子.若你看到的是問號圖標,說明你尚不瞭解這種要素,需要先進行學習.<LINE> 
+tc.research_page.RESEARCH.8=§l   §n(3) 基礎研究§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>完成此步驟時你需要隨身帶著一套筆與墨以及紙張.<BR>翻開魔導手冊,你能夠查閱你已學會的所有知識,也能夠查看你目前能夠繼續探求哪些知識.<BR>閃爍的方塊或圓形的圖標標誌著前置的研究.
+tc.research_page.RESEARCH.9=若你能看到其名稱(而非只是些怪異的符文),你就可以點擊它們,消耗掉一些物品欄中的紙張和墨水,獲得一份研究筆記.現在將這份研究筆記放入研究台的§l2§r號格子中即可開始研究.<BR>§l5§r號區域會顯示出一張紙卷,上面排滿了外緣繪有要素圖標的六邊形格子.若你看到的是問號圖標,說明你尚不瞭解這種要素,需要先進行學習.<LINE> 
 tc.research_page.RESEARCH.10=要完成你的研究,只需鏈接和啟動全部要素.為此,你需要將要素拖拽到六邊形格子中,並使其要麼與能融合成它的要素相連，要麼與其能與其他要素融合成的要素相連.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>放置要素會消耗一個研究點.若出現了錯誤,可以點擊要素以移除它,但這不會讓你取回付出的研究點.
 tc.research_page.RESEARCH.11=持續上述操作,直到起始的全部要素都被連起來.外圈的要素不必與其他所有要素相連,只需要讓它們成為相連的整體即可.<BR>此後研究就會完成,研究筆記會變為發現卷軸.<LINE>注意:放置或移除六邊形中的要素均會消耗墨水,如果墨水耗盡你需要添置一個新的才能繼續研究.
 tc.research_page.RESEARCH.12=§l    §n(4) 次生研究§r<BR>六邊形圖標標示的是次生研究.類似基礎研究,你也需要點擊它們來進行研究.然而你將會直接學會這項研究而非獲得研究報告.  次生研究也會消耗要素點,但不要求你帶著筆墨紙張. 
 #
 tc.research_name.KNOWFRAG=知識碎片
 tc.research_text.KNOWFRAG=遺落的卷章碎片
-tc.research_page.KNOWFRAG.1=在旅途中你偶然發現了一些古代遺跡以及失落的知識.有時候那些原住民中的神秘研究者也會收集一些自古代就失落的知識.使用零散的碎片僅僅能獲得少量的要素點,但若是收集到足夠多的數量,就能夠將它們拼湊成獨特的研究-那是一些通常的研究方法均不能獲得的獨特研究.<BR>知識碎片有時候會試圖將你導向錯誤的原理,當但你試圖深入研究的時候便將能夠揭示出錯誤.一旦遇到這種情況,大部分知識碎片會退還到你手中.而這可能意味著在該方向的研究中你已經涉及到了所有失落的知識.
+tc.research_page.KNOWFRAG.1=在旅途中你偶然發現了一些古代遺跡以及失落的知識.有時候有些原住民中的秘術研究者也會收集一些自古代就失落的知識.使用零散的碎片僅僅能獲得少量的要素點,但若是收集到足夠多的數量,就能夠將它們拼湊成獨特的研究-這是一些通常的研究方法均不能獲得的獨特研究.<BR>知識碎片有時候會試圖將你導向錯誤的原理,當但你試圖深入研究的時候便將能夠揭示出錯誤.一旦遇到這種情況,大部分知識碎片會退還到你手中.而這可能意味著在該方向的研究中你已經涉及到了所有失落的知識.
 #
 tc.research_name.ASPECTS=魔力要素
 tc.research_text.ASPECTS=萬物構造之源
-tc.research_page.ASPECTS.1=一切造物(道具,對象及生物)均繫於被名為§5「要素」§0的魔力元素.要素描繪了物品的構成及其對魔力元素的偏向.普通的岩石可能蘊含Saxum(即拉丁文的岩石)要素,而更複雜的事物,比如樹木,甚或生物則可能蘊含多種數量不等的要素.目前已經有50餘種要素被發現.<LINE>有兩類截然不同的要素:§5元初要素§0以及§5複合要素§0.
+tc.research_page.ASPECTS.1=一切造物(道具,對象及生物)均繫於被名為§5「要素」§0的魔力元素.要素描繪了物品的構成及其對魔力元素的偏向.普通的岩石可能蘊含Terra(即拉丁文的大地)要素,而更複雜的事物,比如樹木,甚或生物則可能蘊含多種數量不等的要素.目前已經有50餘種要素被發現.<LINE>有兩類截然不同的要素:§5元初要素§0以及§5複合要素§0.
 tc.research_page.ASPECTS.2=§l元初要素§r是六種最基本的要素類型:§6Aer§0(風之要素),§2Terra§0(地之要素),§cIgnis§0(火之要素),§3Aqua§0(水之要素),§fOrdo§0(秩序要素),§8Perditio§0(混沌要素).<BR>它們是構成其它要素的基礎.<BR>§l複合要素§r由兩種其它要素複合而成. 相對簡單的復合要素由兩種元初要素復合而成, 但也存在一些經過多次複合,非常複雜的複合要素.<BR>舉簡單的例子來說,比如§2Terra§0(地之要素)與§3Aqua§0(水之要素)複合可以得到Victus(生命要素). 
-tc.research_page.ASPECTS.3=若想要查看一個物品所具備的要素,需要在選中物品時按下潛行鍵(默認shift),這樣你就能看見其蘊含要素的種類和數量.但是你需要先對該物品進行初步的研究,否則其蘊含的要素會顯示未知.<LINE>要素在一定程度上分離於其對像,並且作為純粹的本質物,要素非常具有價值：無論是用作合成的工具還是用於魔法研究.<BR>魔力通常儲存於法杖中,但它也可能以液相儲存,此時我們通常稱其為§5要素源質§0,為方便起見,本手冊中有時也統一簡稱其為要素.
+tc.research_page.ASPECTS.3=若想要查看一個物品所具備的要素,需要在選中物品時按下潛行鍵(預設為shift),這樣你就能看見其蘊含要素的種類和數量.但是你需要先對該物品進行初步的研究,否則其蘊含的要素會顯示未知.<LINE>要素在一定程度上分離於其對像,並且作為純粹的本質物,要素非常具有價值：無論是用作合成的工具還是用於魔法研究.<BR>魔力通常儲存於法杖中,但它也可能以液相儲存,此時我們通常稱其為§5要素源質§0,為方便起見,本手冊中有時也統一簡稱其為要素.
 #
 tc.research_name.NODES=靈氣和節點
 tc.research_text.NODES=魔法無所不在
 tc.research_page.NODES.1=§5靈氣§0是籠罩世界的魔法能量.其源頭未明.有的人相信靈氣是活物積累的生命能量,而有的人則傾向於認為它僅僅不過是一種從某些地方滲出的能量.後一種觀點似乎更具可能：因為人們經常發現靈氣環繞於一種集中了魔法能量的§5「靈氣節點」§0周圍.<BR>每一個「靈氣節點」都容納了一定數量蘊含一種或數種要素的魔力能量. 多數節點蘊含的是一些§5元初要素§0,但某些稀有節點會蘊含§5複合要素§0. 
-tc.research_page.NODES.2=神秘使能按需求對靈氣節點中的要素加以利用,最簡單的途徑是使用法杖.<BR>如此加以利用後的靈氣也被稱之為魔導力vis.<LINE>肉眼難以看見靈氣節點,但節點發出的微弱光線會暴露其存在位置. 使用§5魔導透鏡§0則能夠清晰地看見節點,使其更容易被搜尋.<BR>§4重要信息:§0在抽取節點時需要謹慎小心.當徹底抽乾節點中某一類要素時會有小几率使得該要素徹底消失從而損害到節點的完整性.
-tc.research_page.NODES.3=<BR>如果其蘊含的要素都消失了那麼節點本身也可能會消失.<LINE>幸運的是節點中的要素會緩慢恢復,如果妥善管理,足以供應明智的神秘使所需.
+tc.research_page.NODES.2=秘術使能按需求對靈氣節點中的要素加以利用,最簡單的途徑是使用法杖.<BR>如此加以利用後的靈氣也被稱之為魔導力vis.<LINE>肉眼難以看見靈氣節點,但節點發出的微弱光線會暴露其存在位置. 使用§5魔導透鏡§0則能夠清晰地看見節點,使其更容易被搜尋.<BR>§4重要信息:§0在抽取節點時需要謹慎小心.當徹底抽乾節點中某一類要素時會有小機率使得該要素徹底消失從而損害到節點的完整性.
+tc.research_page.NODES.3=<BR>如果其蘊含的要素都消失了那麼節點本身也可能會消失.<LINE>幸運的是節點中的要素會緩慢恢復,如果妥善管理,足以供應明智的秘術使所需.
 #
 tc.research_name.ORE=礦石
 tc.research_text.ORE=深度發掘
 tc.research_page.ORE.1=§l       §n蘊魔石§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>有時,當一個靈氣場內的魔力能量過高,魔力會滲透進岩石並形成結晶狀的蘊魔礦物.這種魔力水晶可以被採集.
-tc.research_page.ORE.2=這些結晶按蘊含要素分為多種類型,在神秘學上應用廣泛.<BR>共有六種蘊魔石,分別對應不同的元初要素.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>魔力水晶能夠被聚合成晶簇,晶簇除了能夠為家居增添一些典雅氣韻外別無他用,而破壞晶簇能夠取回魔力水晶.
+tc.research_page.ORE.2=這些結晶按蘊含要素分為多種類型,在秘術學上應用廣泛.<BR>共有六種蘊魔石,分別對應不同的元初要素.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>魔力水晶能夠被聚合成晶簇,晶簇除了能夠為家居增添一些典雅氣韻外別無他用,而破壞晶簇能夠取回魔力水晶.
 tc.research_page.ORE.3=§l         §n硃砂§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>這種泛紅的礦石發現於地底深處,能夠被冶煉成水銀.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.ORE.4=§l           §n琥珀§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>這種礦石發現於地表附近,採掘時會掉落琥珀塊.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
 tc.research_name.PLANTS=植物&樹木
 tc.research_text.PLANTS=神奇植物
-tc.research_page.PLANTS.1=§l      §n宏偉之木§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>這種枝繁葉茂的大樹廣泛分佈於郊外.<BR>由於其木材吸收了大量的魔力能量,因此可作為製作神秘學建築以及設備的最佳材料之一.
+tc.research_page.PLANTS.1=§l      §n宏偉之木§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>這種枝繁葉茂的大樹廣泛分佈於郊外.<BR>由於其木材吸收了大量的魔力能量,因此可作為製作秘術學建築以及設備的最佳材料之一.
 tc.research_page.PLANTS.2=§l     §n銀樹§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>這種罕見的神奇樹木算得上奇妙的景觀.其枝葉散發出蘊含著魔力能量的柔和光芒,而其柔韌白皙的幹部則因淨化咒波的能力而非常有價值.<BR>這種神秘的樹木心部還常常能夠孕育出靈氣節點,這種特性讓銀樹樹苗足以成為一種比珍寶更貴重的獎勵.
 tc.research_page.PLANTS.3=§l        §n水銀花§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>這種奇怪的發光的小花只生長在銀樹的樹蔭下.收穫並打漿後能得到水銀.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l        §n火焰草§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>這些植物隨著熊熊的元素烈火而生長,只能在炎熱氣候的地區發現.它們能夠被採集並且研磨成重要的煉金材料之一：烈焰粉.
@@ -635,12 +633,12 @@ tc.research_page.RESEARCHDUPE.1=你已發現拷貝完整研究筆記的方法.<B
 #
 tc.research_name.DECONSTRUCTOR=解構工作台
 tc.research_text.DECONSTRUCTOR=當僅僅看一眼並不足夠時
-tc.research_page.DECONSTRUCTOR.1=在神秘使的研究生涯中,難免因欠缺某些方面知識而導致研究受到礙阻. <BR>此時可以借助結構工作台進行輔助.這個工作台能夠將物品分解成最基礎的六種元初要素,從而為你提供研究的突破口.然而這種設備的限制顯而易見 - 被分解的複合要素並非直接變成組合成它們的要素,而是變成了組成它們的最基礎的元初要素之一,而元初要素如何組合搭配仍然不得而知.<BR>例如分解圓石(蘊含Saxum以及 
-tc.research_page.DECONSTRUCTOR.2=§8Perditio§0要素)按說可以得到2點§2Terra§0要素和1點§8perditio§0要素,但你只能由一定幾率得知其中一種元初要素.<BR>而且,這台設備效率極低,當物品中蘊含要素越少,能有所發現就越難.
+tc.research_page.DECONSTRUCTOR.1=在秘術使的研究生涯中,難免因欠缺某些方面知識而導致研究受到礙阻. <BR>此時可以借助結構工作台進行輔助.這個工作台能夠將物品分解成最基礎的六種元初要素,從而為你提供研究的突破口.然而這種設備的限制顯而易見 - 被分解的複合要素並非直接變成組合成它們的要素,而是變成了組成它們的最基礎的元初要素之一,而元初要素如何組合搭配仍然不得而知.<BR>例如分解鐵錠(蘊含Metallum) 
+tc.research_page.DECONSTRUCTOR.2=按說可以得到2點§2Terra§0要素和1點§8Ordo§0要素,但你只能由一定幾率得知其中一種元初要素.<BR>而且,這台設備效率極低,當物品中蘊含要素越少,能有所發現就越難.
 #
 tc.research_name.BASICTHAUMATURGY=基礎法杖工藝
 tc.research_text.BASICTHAUMATURGY=你的第一柄工具
-tc.research_page.BASICTHAUMATURGY.1=這柄鑄造法杖是你作為神秘使最為基本也最為重要的工具.它將用於創建物品,啟動特殊方塊(比如坩堝)以及其他數不清的任務.<BR>最基礎的法杖自身會儲存極為有限數量的魔力(稱為vis)以完成一些基本功能. 為了補充法杖魔力,你需要右擊靈氣節點來吸收其內的魔力.<BR>手持法杖時,屏幕左上角會顯示其內儲存的魔力種類和數量.
+tc.research_page.BASICTHAUMATURGY.1=這柄鑄造法杖是你作為秘術使最為基本也最為重要的工具.它將用於創建物品,啟動特殊方塊(比如坩堝)以及其他數不清的任務.<BR>最基礎的法杖自身會儲存極為有限數量的魔力(稱為vis)以完成一些基本功能. 為了補充法杖魔力,你需要右擊靈氣節點來吸收其內的魔力.<BR>手持法杖時,屏幕左上角會顯示其內儲存的魔力種類和數量.
 tc.research_page.BASICTHAUMATURGY.2=按住shift時會顯示標注魔力數量的額外數字以及完成特定功能時使用魔力的可能減免.<BR>法杖使用杖柄和兩個杖端製作而成. 隨著研究的深入,你一定能發現許多不同的杖柄以及杖端材料來製作各種強力法杖.在普通合成台中只能製作最基礎的法杖.而其他法杖均需要在§5奧術工作台§0中消耗魔力製作.<BR>最基礎的法杖使用普通的木材和鐵製作,都是些最廉價的魔法材料.
 #
 tc.research_name.GRATE=物品格柵
@@ -661,15 +659,15 @@ tc.research_page.NODEPRESERVE=如今你對從節點吸引魔力的控制技術�
 #
 tc.research_name.THAUMOMETER=魔導透鏡
 tc.research_text.THAUMOMETER=魔力感應儀
-tc.research_page.THAUMOMETER.1=對神秘使來說,魔導透鏡的重要性可能僅次於法杖.<BR>首先它可以讓你探查物品,生物,神秘現象以及魔力標記.只需持有它按住右鍵你就可以觀察探知的結果. <BR>其次,它能夠讓你更輕鬆地發現靈氣節點,透過鏡片,節點即使在固體牆壁後也清晰可見! 
+tc.research_page.THAUMOMETER.1=對秘術使來說,魔導透鏡的重要性可能僅次於法杖.<BR>首先它可以讓你探查物品,生物,神秘現象以及魔力標記.只需持有它按住右鍵你就可以觀察探知的結果. <BR>其次,它能夠讓你更輕鬆地發現靈氣節點,透過鏡片,節點即使在固體牆壁後也清晰可見! 
 #
 tc.research_name.GOGGLES=揭示之護目鏡
 tc.research_text.GOGGLES=無漏不查
-tc.research_page.GOGGLES.1=基於魔導透鏡的原理,你優化其功能製作出了另一種用於探知的魔法道具.<BR>揭示之護目鏡是探索神秘世界的最佳裝備之一.戴上它,你不但能用肉眼看見靈氣節點,還能看到相鄰節點間的互動變化.<BR>它們是神秘使探索世界的重要工具之一.
+tc.research_page.GOGGLES.1=基於魔導透鏡的原理,你優化其功能製作出了另一種用於探知的魔法道具.<BR>揭示之護目鏡是探索秘術世界的最佳裝備之一.戴上它,你不但能用肉眼看見靈氣節點,還能看到相鄰節點間的互動變化.<BR>它們是秘術使探索世界的重要工具之一.
 #
-tc.research_name.THAUMIUM=神秘錠
+tc.research_name.THAUMIUM=秘術錠
 tc.research_text.THAUMIUM=魔導金屬
-tc.research_page.THAUMIUM.1=已經證實通過神秘學原理能夠輕易處理金屬材料.你的首次相關實驗發現了神秘錠.<BR>神秘錠是向普通的金屬材料灌注天然魔力得到的產物.相比鐵,它更堅硬,也更能容載附魔能量.<BR>這種金屬廣泛用於合成更高級的魔導設備.<BR>也可以用它使用慣常的合成方法製作出相應的工具,武器和裝備.
+tc.research_page.THAUMIUM.1=已經證實通過秘術學原理能夠輕易處理金屬材料.你的首次相關實驗發現了秘術錠.<BR>秘術錠是向普通的金屬材料灌注天然魔力得到的產物.相比鐵,它更堅硬,也更能容載附魔能量.<BR>這種金屬廣泛用於合成更高級的魔導設備.<BR>也可以用它使用慣常的合成方法製作出相應的工具,武器和裝備.
 #
 tc.research_name.NITOR=閃耀之光
 tc.research_text.NITOR=永恆的花火
@@ -687,9 +685,9 @@ tc.research_name.CAP_gold=金杖端
 tc.research_text.CAP_gold=高調做事
 tc.research_page.CAP_gold.1=金是比鐵更好的魔導介質,使用金杖端的法杖在引導魔力時不會有損失.
 #
-tc.research_name.CAP_thaumium=神秘杖端
-tc.research_text.CAP_thaumium=神秘法杖核心
-tc.research_page.CAP_thaumium.1=神秘錠以其優良的法力吸納能力而著稱,因此使用它來製作杖端是非常明智的選擇.它在匯聚各種種類的魔力時都非常高效.<BR>僅僅在奧術工作台中制做出的法杖杖端還不能馬上投入使用-還需要灌注額外的魔力啟動它.
+tc.research_name.CAP_thaumium=秘術杖端
+tc.research_text.CAP_thaumium=秘術法杖核心
+tc.research_page.CAP_thaumium.1=秘術錠以其優良的法力吸納能力而著稱,因此使用它來製作杖端是非常明智的選擇.它在匯聚各種種類的魔力時都非常高效.<BR>僅僅在奧術工作台中制做出的法杖杖端還不能馬上投入使用-還需要灌注額外的魔力啟動它.
 #
 tc.research_name.CAP_silver=銀杖端
 tc.research_text.CAP_silver=低調做事
@@ -737,7 +735,7 @@ tc.research_page.ROD_reed.1=甘蔗制做的稍好於宏偉之木杖柄的杖柄,
 #
 tc.research_name.ROD_greatwood_staff=魔法手杖
 tc.research_text.ROD_greatwood_staff=末端帶把手的巫師之杖
-tc.research_page.ROD_greatwood_staff.1=法杖是神秘使的必備行頭,但有時候你總會期望能用上更酷炫的款式.魔法手杖基本上只是一種更大號的法杖.它們能儲存更多魔力.<BR>由於相比法杖它們造得個頭更大也更堅固,應急情況也能用作武器.<BR>不幸的是,這也使得它並不適宜用作複雜工藝,且缺乏奧術工作台或類似製作平台所需的精細控制能力.
+tc.research_page.ROD_greatwood_staff.1=法杖是秘術使的必備行頭,但有時候你總會期望能用上更酷炫的款式.魔法手杖基本上只是一種更大號的法杖.它們能儲存更多魔力.<BR>由於相比法杖它們造得個頭更大也更堅固,應急情況也能用作武器.<BR>不幸的是,這也使得它並不適宜用作複雜工藝,且缺乏奧術工作台或類似製作平台所需的精細控制能力.
 tc.research_page.ROD_greatwood_staff.2=宏偉之木製成的手杖儲存魔力是同等材料的法杖的2倍,能夠儲存每種魔力達125 vis.
 #
 tc.research_name.ROD_silverwood_staff=銀樹杖芯
@@ -770,7 +768,7 @@ tc.research_page.ROD_reed_staff.1=這種甘蔗製成的魔杖能夠容納每種�
 #
 tc.research_name.ROD_primal_staff=元初杖芯
 tc.research_text.ROD_primal_staff=融合的元素能量
-tc.research_page.ROD_primal_staff.1=這種杖芯中韻動著潛在的能量.<BR>它由所有次一級的杖芯融合製成 - 其魔力容量等同於銀樹杖芯且能夠像各種元初要素對應的杖芯那樣恢復魔力.<BR>最後,它還會使得安裝的法杖核心自動附帶一級的效能附魔效果.<BR>這玩意兒在任何神秘使的裝備庫裡都算得上真正潛能十足的工具.
+tc.research_page.ROD_primal_staff.1=這種杖芯中韻動著潛在的能量.<BR>它由所有次一級的杖芯融合製成 - 其魔力容量等同於銀樹杖芯且能夠像各種元初要素對應的杖芯那樣恢復魔力.<BR>最後,它還會使得安裝的法杖核心自動附帶一級的效能附魔效果.<BR>這玩意兒在任何秘術使的裝備庫裡都算得上真正潛力十足的工具.
 #
 tc.research_name.FOCUSFIRE=法杖核心
 tc.research_text.FOCUSFIRE=形式遇上功能
@@ -827,54 +825,54 @@ tc.research_page.TABLE.1=台桌並非僅僅是個裝飾性的方塊-比如在魔
 #
 tc.research_name.ARCTABLE=奧術工作台
 tc.research_text.ARCTABLE=魔力合成
-tc.research_page.ARCTABLE.1=對著放置好的台桌使用法杖(右鍵)就能創建一個奧術工作台奧術工作台囊括了普通的木製工作台的功能.<BR>除去普通的合成,這個工作台還能用於製作一些神秘學上獨有的道具.合成這種物品時你需要將你的法杖放置在工作台右上角的位置,這樣製作過程中需要的要素就可以由這個法杖來供給.<BR>合成所需何種魔力會顯示在合成網格周圍的六角徽記中.
+tc.research_page.ARCTABLE.1=對著放置好的台桌使用法杖(右鍵)就能創建一個奧術工作台奧術工作台囊括了普通的木製工作台的功能.<BR>除去普通的合成,這個工作台還能用於製作一些秘術學上獨有的道具.合成這種物品時你需要將你的法杖放置在工作台右上角的位置,這樣製作過程中需要的要素就可以由這個法杖來供給.<BR>合成所需何種魔力會顯示在合成網格周圍的六角徽記中.
 #
 tc.research_name.RESTABLE=研究台
 tc.research_text.RESTABLE=匯焦知識
-tc.research_page.RESTABLE.1=將兩個台桌比鄰而放,然後將筆與墨擱在桌面上便可以創建研究台.<BR>研究台對神秘使來說是最重要的工具.它用於解鎖宇宙中所有隱藏的奧秘,並且發現有關魔力的各種應用.
+tc.research_page.RESTABLE.1=將兩個台桌比鄰而放,然後將筆與墨擱在桌面上便可以創建研究台.<BR>研究台對秘術使來說是最重要的工具.它用於解鎖宇宙中所有隱藏的奧秘,並且發現有關魔力的各種應用.
 #
 tc.research_name.THAUMONOMICON=魔導手冊
 tc.research_text.THAUMONOMICON=知識的寶庫
-tc.research_page.THAUMONOMICON.1=只需簡單地對著放置下的書架輕輕揮舞你的法杖,就能製作出屬於你的魔導手冊.<BR>魔導手冊將是神秘學方面全面權威的參考手冊.它會列出你當前全部的研究發現,並且在大體上(但並不確保你完全瞭解仍然有多少未知可供探索尋覓)讓你對仍然有多少可以研究的內容有一個總的印象.<BR>每當你閱讀了記錄新研究成果的卷軸,它會自動把相關內容添加記錄到手冊中.建議在右鍵使用卷軸時適當留意下其研究需要的要素(正常情況下使用過的卷軸會消失),這些知識可能對你的朋友有所幫助.這樣你就可以自由瀏覽這些研究發現相關的合成以及一些細緻的信息.
+tc.research_page.THAUMONOMICON.1=只需簡單地對著放置下的書架輕輕揮舞你的法杖,就能製作出屬於你的魔導手冊.<BR>魔導手冊將是秘術學方面全面權威的參考手冊.它會列出你當前全部的研究發現,並且在大體上(但並不確保你完全瞭解仍然有多少未知可供探索尋覓)讓你對仍然有多少可以研究的內容有一個總的印象.<BR>每當你閱讀了記錄新研究成果的卷軸,它會自動把相關內容添加記錄到手冊中.建議在右鍵使用卷軸時適當留意下其研究需要的要素(正常情況下使用過的卷軸會消失),這些知識可能對你的朋友有所幫助.這樣你就可以自由瀏覽這些研究發現相關的合成以及一些細緻的信息.
 #
 tc.research_name.CRUCIBLE=坩堝
 tc.research_text.CRUCIBLE=沸騰並且冒著泡
-tc.research_page.CRUCIBLE.1=只需對著放置在地上的普通煉藥鍋使用你的法杖,你就能得到這種具有魔力的坩堝.<BR>坩堝對神秘使來說是重要的工具.它能夠讓你將常態的物品分解成其蘊含的要素並且如你所願地組合.<BR>坩堝需要放置在一個長久熱源的上方(用打火石點燃下界巖來構建)並且裝滿水.當水開始沸騰並冒著氣泡的時候可以向其中投擲物品,這樣物品就會分解破壞成基本要素.<BR>如果坩堝中要素組合符合特定搭配,
+tc.research_page.CRUCIBLE.1=只需對著放置在地上的普通煉藥鍋使用你的法杖,你就能得到這種具有魔力的坩堝.<BR>坩堝對秘術使來說是重要的工具.它能夠讓你將常態的物品分解成其蘊含的要素並且如你所願地組合.<BR>坩堝需要放置在一個長久熱源的上方(用打火石點燃下界巖來構建)並且裝滿水.當水開始沸騰並冒著氣泡的時候可以向其中投擲物品,這樣物品就會分解破壞成基本要素.<BR>如果坩堝中要素組合符合特定搭配,
 tc.research_page.CRUCIBLE.2=你可以向坩堝內丟入催化劑這種特殊物品.催化劑將作為核心聚合要素,且轉換成全新的物品後,會從坩堝中彈出.<BR>多餘的源質會留存在坩堝中以備後用,但長期讓要素殘留在坩堝中無疑不是好主意.<BR>使用坩堝製作物品還會消耗坩堝中少量的水,因此你最終會需要重新添水.<BR>坩堝中的要素會持續降解.複合要素會降解成組成它的要素之一,而元初要素會蒸發消失.
 tc.research_page.CRUCIBLE.3=這不僅僅會造成資源的浪費,蒸發和降解的源質還會造成諸多奇怪的副作用.<BR>你可以對著坩堝使用法杖清空坩堝中的要素製作物品,但這會讓坩堝中的要素全部流失到大氣中…因此你並不希望經常這樣做.
 #
 tc.research_name.ENCHFABRIC=魔力布匹
 tc.research_text.ENCHFABRIC=絲般柔滑
-tc.research_page.ENCHFABRIC.1=你曾用羊毛和蜘蛛絲製成過簡單結實的布匹.現在你確信能夠用它融合魔力,做成一種更加驚艷的魔力布匹.<BR>你還發現了用魔力布匹編織神秘使法袍的方法.法袍防禦效果類似皮革套裝,但耐久是它的數倍.<BR>而且它們是優良的魔法親和材料,能夠進行神秘的附魔.相比一些甚至相對更昂貴的材料,它能夠容納更多的魔力.  
+tc.research_page.ENCHFABRIC.1=你曾用羊毛和蜘蛛絲製成過簡單結實的布匹.現在你確信能夠用它融合魔力,做成一種更加驚艷的魔力布匹.<BR>你還發現了用魔力布匹編織秘術使法袍的方法.法袍防禦效果類似皮革套裝,但耐久是它的數倍.<BR>而且它們是優良的魔法親和材料,能夠進行神秘的附魔.相比一些甚至相對更昂貴的材料,它能夠容納更多的魔力.  
 tc.research_page.ENCHFABRIC.2=當穿戴法袍施法時你能夠更高效地使用數種法術.<BR>類似皮革套裝,你可以對法袍進行染色.
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技術
-tc.research_page.ENCHANT.1=神秘使懂得許多種獨特的附魔技術.<BR>§n效能 (僅用於法杖核心) §r<BR>該附魔能夠提升法杖核心可造成的傷害以及作用範圍.<BR>§n節約(僅用於法杖核心)§r<BR>進行該附魔後的法杖核心使用時更節約魔力.<BR>§n瑰寶(僅用於法杖核心)§r<BR>類似時運附魔的效果,能夠在採集物品時增加產量.
-tc.research_page.ENCHANT.2=§n急迫§r<BR>進行該附魔的鞋子能夠讓穿戴者在地上行走時健步如飛,附魔等級越高,增幅速度越多. <BR>§n修復§r<BR>該附魔能夠從靈氣中吸取魔力來緩慢地修復物品耐久,附魔等級越高,修復速度越快.這種附魔只能對部分神秘物品生效.
+tc.research_page.ENCHANT.1=秘術使懂得許多種獨特的附魔技術.<BR>§n效能 (僅用於法杖核心) §r<BR>該附魔能夠提升法杖核心可造成的傷害以及作用範圍.<BR>§n節約(僅用於法杖核心)§r<BR>進行該附魔後的法杖核心使用時更節約魔力.<BR>§n瑰寶(僅用於法杖核心)§r<BR>類似時運附魔的效果,能夠在採集物品時增加產量.
+tc.research_page.ENCHANT.2=§n急迫§r<BR>進行該附魔的鞋子能夠讓穿戴者在地上行走時健步如飛,附魔等級越高,增幅速度越多. <BR>§n修復§r<BR>該附魔能夠從靈氣中吸取魔力來緩慢地修復物品耐久,附魔等級越高,修復速度越快.這種附魔只能對部分秘術物品生效.
 #
 tc.research_name.ELEMENTALAXE=奔流斧
 tc.research_text.ELEMENTALAXE=木材的河流
-tc.research_page.ELEMENTALAXE.1=將水之碎片與神秘錠製作的斧融合,你打造出一柄擁有流水特性的魔斧.<BR>這把斧頭除了對木材和原木使用外,與普通斧頭相比無甚特殊之處.當用它來採伐木頭的時候,它會首先將與這個方塊相連最遠的方塊採掘並吸收過來.<BR>因此你可以用這柄斧頭從上到下地砍樹.
+tc.research_page.ELEMENTALAXE.1=將水之碎片與秘術錠製作的斧融合,你打造出一柄擁有流水特性的魔斧.<BR>這把斧頭除了對木材和原木使用外,與普通斧頭相比無甚特殊之處.當用它來採伐木頭的時候,它會首先將與這個方塊相連最遠的方塊採掘並吸收過來.<BR>因此你可以用這柄斧頭從上到下地砍樹.
 tc.research_page.ELEMENTALAXE.2=如果你長按右鍵的同時使用斧頭,將會消耗更多耐久,但以更快的速度來採伐目標木材或原木.<BR>當你按住潛行鍵則可以抑制其特效,將其作為普通斧頭使用,
 #
 tc.research_name.ELEMENTALPICK=熾心鎬
 tc.research_text.ELEMENTALPICK=熔岩之心
-tc.research_page.ELEMENTALPICK.1=將火之碎片與神秘錠製作的鎬融合,你打造出一柄冒著熊熊火光的魔鎬.<BR>使用熾心鎬採掘礦物時有一定幾率掉落原礦簇而非礦石.冶煉原礦簇能得到雙倍的產出.<BR>持有熾心鎬右擊任意方塊表面,能夠探測並顯示附近最有價值的材料.
+tc.research_page.ELEMENTALPICK.1=將火之碎片與秘術錠製作的鎬融合,你打造出一柄冒著熊熊火光的魔鎬.<BR>使用熾心鎬採掘礦物時有一定幾率掉落原礦簇而非礦石.冶煉原礦簇能得到雙倍的產出.<BR>持有熾心鎬右擊任意方塊表面,能夠探測並顯示附近最有價值的材料.
 tc.research_page.ELEMENTALPICK.2=當你按住潛行則可以抑制其特效,將其作為普通鎬子使用.
 #
 tc.research_name.ELEMENTALSWORD=風雷劍
 tc.research_text.ELEMENTALSWORD=一朝鼓角鳴地中
-tc.research_page.ELEMENTALSWORD.1=將風之碎片與神秘錠製作的劍融合,你打造出一柄蘊含風雷之力的魔劍.<BR>用這柄魔劍攻擊敵人時可以觸發連鎖閃電特性,彈射的電弧將會波及次要目標.<BR>右鍵格擋的時候則會召喚出一道纏繞你自身的旋風,將你的敵人以及任何實體目標吹開.<BR>格擋時持有者也會緩慢騰升至空中.
+tc.research_page.ELEMENTALSWORD.1=將風之碎片與秘術錠製作的劍融合,你打造出一柄蘊含風雷之力的魔劍.<BR>用這柄魔劍攻擊敵人時可以觸發連鎖閃電特性,彈射的電弧將會波及次要目標.<BR>右鍵格擋的時候則會召喚出一道纏繞你自身的旋風,將你的敵人以及任何實體目標吹開.<BR>格擋時持有者也會緩慢騰升至空中.
 #
 tc.research_name.ELEMENTALSHOVEL=后土鏟
 tc.research_text.ELEMENTALSHOVEL=中央土,其神后土
-tc.research_page.ELEMENTALSHOVEL.1=將地之碎片與神秘錠製作的鏟融合,你打造出一柄洋溢著大地氣息的魔鏟.<BR>當你用來它挖掘沙子,泥土以及類似物品的時候能夠一次性挖掘3x3範圍內的相同方塊.<BR>如果你右擊某方塊時,它會試圖放置3x3的相同方塊.當然你的物品欄中必須有足夠的同種方塊.<BR>它的挖掘和放置方向取決於你所挖或點擊的面.
+tc.research_page.ELEMENTALSHOVEL.1=將地之碎片與秘術錠製作的鏟融合,你打造出一柄洋溢著大地氣息的魔鏟.<BR>當你用來它挖掘沙子,泥土以及類似物品的時候能夠一次性挖掘3x3範圍內的相同方塊.<BR>如果你右擊某方塊時,它會試圖放置3x3的相同方塊.當然你的物品欄中必須有足夠的同種方塊.<BR>它的挖掘和放置方向取決於你所挖或點擊的面.
 tc.research_page.ELEMENTALSHOVEL.2=當你按住潛行則可以抑制其特效,將其作為普通鏟子使用.
 #
 tc.research_name.ELEMENTALHOE=句芒鋤
 tc.research_text.ELEMENTALHOE=盛放玫瑰不勝嬌
-tc.research_page.ELEMENTALHOE.1=將秩序碎片與神秘錠製作的鋤融合,你打造出一柄農業方面近乎全能的鋤頭.<BR>使用它可以一次開墾3x3的田地而不像普通鋤頭那樣一次只能開墾一塊地. <BR>手持句芒鎬對作物或者其他植物右鍵,將發揮類似使用骨粉的效果,儘管這種功能會更快消耗其耐久.即使對一些普通骨粉不能催化的植物句芒鋤也可能能夠進行催發.<BR>當你按住潛行則可以抑制其特效,將其作為普通鋤頭使用.
+tc.research_page.ELEMENTALHOE.1=將秩序碎片與秘術錠製作的鋤融合,你打造出一柄農業方面近乎全能的鋤頭.<BR>使用它可以一次開墾3x3的田地而不像普通鋤頭那樣一次只能開墾一塊地. <BR>手持句芒鎬對作物或者其他植物右鍵,將發揮類似使用骨粉的效果,儘管這種功能會更快消耗其耐久.即使對一些普通骨粉不能催化的植物句芒鋤也可能能夠進行催發.<BR>當你按住潛行則可以抑制其特效,將其作為普通鋤頭使用.
 #
 tc.research_name.ALCHEMICALDUPLICATION=煉金複製
 tc.research_text.ALCHEMICALDUPLICATION=好東西不可能擁有太多
@@ -971,9 +969,9 @@ tc.research_name.GOLEMIRON=鋼鐵傀儡
 tc.research_text.GOLEMIRON=肖似村莊鐵傀儡,但更小也更好
 tc.research_page.GOLEMIRON.1=鐵質傀儡極其堅韌強壯,且能夠荷載巨大的負重,但受累於體重,它移動起來相當緩慢遲鈍.<BR>§l§n鐵質傀儡屬性§r<BR>§l耐久:§r 高<BR>§l強度§r 高<BR>§l回復:§r 非常低<BR>§l運載量:§r 32<BR>§l速度:§r 非常緩慢<BR>§l升級:§r 1
 #
-tc.research_name.GOLEMTHAUMIUM=神秘傀儡
+tc.research_name.GOLEMTHAUMIUM=秘術傀儡
 tc.research_text.GOLEMTHAUMIUM=魔力工人
-tc.research_page.GOLEMTHAUMIUM.1=神秘傀儡尤勝於鐵質傀儡,且能夠進行兩次升級.且這種傀儡對魔法傷害同樣具有高抗性.<BR>§l§n神秘傀儡屬性§r<BR>§l耐久:§r 極高<BR>§l強度:§r 高<BR>§l回復:§r 緩慢<BR>§l運載量:§r 32<BR>§l速度:§r 緩慢<BR>§l升級:§r 2
+tc.research_page.GOLEMTHAUMIUM.1=秘術傀儡尤勝於鐵質傀儡,且能夠進行兩次升級.且這種傀儡對魔法傷害同樣具有高抗性.<BR>§l§n秘術傀儡屬性§r<BR>§l耐久:§r 極高<BR>§l強度:§r 高<BR>§l回復:§r 緩慢<BR>§l運載量:§r 32<BR>§l速度:§r 緩慢<BR>§l升級:§r 2
 #
 tc.research_name.GOLEMBELL=傀儡使鈴鐺
 tc.research_text.GOLEMBELL=投以目光
@@ -991,7 +989,9 @@ tc.research_page.COREEMPTY.1=安裝這種核心的傀儡能夠從綁定容器中
 #
 tc.research_name.COREUSE=傀儡核心:使用
 tc.research_text.COREUSE=嗒嗒點擊
-tc.research_page.COREUSE.1=正如空置核心,安裝這種核心的傀儡也能夠從綁定容器中取出物品,但當它們到達目標位置後會嘗試使用該物品而非將其放下.<BR>他們將類似玩家使用物品右擊那些對指定的位置/方塊使用取出的物品.<BR>你可以打開傀儡的界面,如願地指定傀儡只取走你指定的物品而忽略其他物品.
+tc.research_page.COREUSE.1=正如空置核心,安裝這種核心的傀儡也能夠從綁定容器中取出物品,但當它們到達目標位置後會嘗試使用該物品而非將其放下.<BR>他們將類似玩家使用物品右擊或左擊那些對指定的位置/方塊使用取出的物品.<BR>你可以打開傀儡的界面,如願地指定傀儡只取走你指定的物品而忽略其他物品.
+tc.research_page.COREUSE.2=若傀儡沒有綁定容器,它會嘗試空手執行這項動作,而非單純的點擊目標物.<LINE>你可以告訴傀儡如何'點擊'目標物,除了指示它使用左鍵或右鍵,你還能指示它在潛行行動下進行這項動作.<BR>你還能指定它點擊空格,而非一個方塊.
+tc.research_page.COREUSE.3=      §n風升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>安裝這項升級將可使它加快點擊目標方塊或空格的速度.
 #
 tc.research_name.COREFILL=傀儡核心:填充
 tc.research_text.COREFILL=肥水不流外人田
@@ -1000,7 +1000,7 @@ tc.research_page.COREFILL.1=安裝這種核心的傀儡能夠在標記的容器�
 tc.research_name.COREHARVEST=傀儡核心:收穫
 tc.research_text.COREHARVEST=傀儡農夫
 tc.research_page.COREHARVEST.1=安裝這種核心的傀儡並不需要與容器綁定.他們會搜尋可收穫的小麥,甘蔗或者其他常見農作物並收穫它們.收穫後的作物會被扔在地上,因此必須使用其他方式收回這些收穫後的作物.<BR>不幸的是它們還沒聰明到學會自動沖洗播種收穫過的作物,但你相信再經過一點兒調試工作,你最終能夠修復這個bug.
-tc.research_page.COREHARVEST.2=     §n秩序升級解鎖特性§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>安裝秩序升級的收穫傀儡將學會如何自動重新播種收穫過的作物.如果收穫作物時沒有掉落可以播種的種子或者幼苗,則會播種失敗.
+tc.research_page.COREHARVEST.2=     §n秩序升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>安裝秩序升級的收穫傀儡將學會如何自動重新播種收穫過的作物.如果收穫作物時沒有掉落可以播種的種子或者幼苗,則會播種失敗.
 #
 tc.research_name.CORELUMBER=傀儡核心:砍伐
 tc.research_text.CORELUMBER=傀儡樵夫
@@ -1009,11 +1009,11 @@ tc.research_page.CORELUMBER.1=類似收穫傀儡,伐木傀儡也不需要與容�
 tc.research_name.COREGUARD=傀儡核心:守衛
 tc.research_text.COREGUARD=守衛主人的財富
 tc.research_page.COREGUARD.1=安裝這種核心的傀儡就像守衛一樣會攻擊範圍內的任何敵對生物.<BR>你認為再經過一些小的調修你就能夠讓這種傀儡能夠對攻擊目標更具選擇性,但現在它會攻擊除了苦力怕外的一切敵對生物.
-tc.research_page.COREGUARD.2=     §n秩序升級解鎖特性§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>安裝這種升級的守衛傀儡能夠設定特定的攻擊目標.這種傀儡不僅僅只能攻擊敵對生物,還能在更大類型範圍的生物裡更靈活地設定目標.
+tc.research_page.COREGUARD.2=     §n秩序升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>安裝這種升級的守衛傀儡能夠設定特定的攻擊目標.這種傀儡不僅僅只能攻擊敵對生物,還能在更大類型範圍的生物裡更靈活地設定目標.
 #
 tc.research_name.COREBUTCHER=傀儡核心:屠宰
 tc.research_text.COREBUTCHER=血腥旮旯
-tc.research_page.COREBUTCHER.1=這種核心是標準的守衛核心的強化版本.<BR>安裝這種核心的傀儡僅僅會攻擊動物.但它非常聰明,知道只宰掉那些最老的完全長大了的傢伙,並且總會留下一對用來繁殖後代.
+tc.research_page.COREBUTCHER.1=這種核心是標準的守衛核心的強化版本.<BR>安裝這種核心的傀儡僅僅會攻擊動物.但它非常聰明,知道只宰掉那些最老且完全成熟了的傢伙,並且一定會留下一對用來繁殖後代.
 #
 tc.research_name.CORELIQUID=傀儡核心:移液
 tc.research_text.CORELIQUID=向蓄水槽裡填充液體
@@ -1026,10 +1026,10 @@ tc.research_page.CORESORTING.1=這種核心的效果類似空白核心,但有一
 tc.research_name.COREFISHING=傀儡核心:垂釣
 tc.research_text.COREFISHING=海屋獨家銷售
 tc.research_page.COREFISHING.1=這種核心讓傀儡為你的晚餐而垂釣.<BR>為發揮最佳效果傀儡需要放在露天的深水邊.<BR>傀儡的力量決定垂釣速度.<BR>
-tc.research_page.COREFISHING.2=      §n傀儡升級:風解鎖§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>裝有這種升級的傀儡有小几率能一次抓到不止一條魚.
-tc.research_page.COREFISHING.3=      §n傀儡升級:火解鎖§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>安裝這種升級的傀儡會自動烹飪它抓住的魚.
-tc.research_page.COREFISHING.4=     §n傀儡升級:秩序解鎖§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>秩序升級會提高釣到大魚的概率.
-tc.research_page.COREFISHING.5=    §n傀儡升級:混沌解鎖§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>混沌升級會減少釣到廉價物品的概率.
+tc.research_page.COREFISHING.2=      §n風升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>裝有這種升級的傀儡有小機率能一次抓到不止一條魚.
+tc.research_page.COREFISHING.3=      §n火升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>安裝這種升級的傀儡會自動烹飪它抓住的魚.
+tc.research_page.COREFISHING.4=     §n秩序升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>秩序升級會提高釣到大魚的概率.
+tc.research_page.COREFISHING.5=    §n混沌升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>混沌升級會減少釣到廉價物品的概率.
 #
 tc.research_name.COREALCHEMY=傀儡核心:煉金
 tc.research_text.COREALCHEMY=移動要素
@@ -1114,15 +1114,15 @@ tc.research_page.BELLOWS.2=它也能安裝在普通熔爐邊上來為其加速.<
 #
 tc.research_name.ARCANESTONE=奧術石材
 tc.research_text.ARCANESTONE=魔力強化的建築材料
-tc.research_page.ARCANESTONE.1=奧術石材是多種複雜的神秘構造的建築材料.那是一種被火之元素灼烤,被地之元素強化的石材.
+tc.research_page.ARCANESTONE.1=奧術石材是多種複雜的神秘構造的建築材料.這是一種被火之元素灼烤,被地之元素強化的石材.
 #
 tc.research_name.INFUSION=注魔
 tc.research_text.INFUSION=魔力聚變
-tc.research_page.INFUSION.1=奧術合成以及煉金術也就只能做到這個程度而已了.更好的東西需要你創建更強力的魔力設備.<BR>注魔合成能夠向單件物品中灌注魔力以及來自其他物品的特性.比方說,你能夠將風之要素以及羽毛灌注入普通石頭來得到一種非常輕盈的石材. <BR>神秘學中通常難有輕鬆而又簡單的事物.建造注魔台前你需要做如下準備:符文矩陣,奧術基座,以及足夠數量的要素源質.
+tc.research_page.INFUSION.1=奧術合成以及煉金術也就只能做到這個程度而已了.更好的東西需要你創建更強力的魔力設備.<BR>注魔合成能夠向單件物品中灌注魔力以及來自其他物品的特性.比方說,你能夠將風之要素以及羽毛灌注入普通石頭來得到一種非常輕盈的石材. <BR>秘術學中通常難有輕鬆而又簡單的事物.建造注魔台前你需要做如下準備:符文矩陣,奧術基座,以及足夠數量的要素源質.
 tc.research_page.INFUSION.2=當你將符文矩陣正確地放置在一個名為注魔祭壇的神秘構造上後,便能夠開始進行注魔合成.<BR>符文矩陣下方,坐落於正中的基座是你用於放置被注魔物品的地方.你還需要環繞祭壇放置一些基座來放置被灌注的材料.最後你還需要在附近放置一些盛放了要素源質的罐子或者其他類似儲存魔力的容器.<BR>當一切就緒,你需要使用法杖點擊符文矩陣來開始注魔過程.<BR>在這個過程的第一階段,將會從附近吸取要素源質. 
 tc.research_page.INFUSION.3=若沒有足夠的源質供應,注魔過程會中斷-後文將會對這種你不希望發生的情況做進一步的闡釋.<BR>當所有需求的源質被灌入目標物品後,才能開始吸收被灌注的其他物品的要素源質.僅當這些都完成後注魔才能順利完成.<LINE>注魔合成並非毫無風險.其完整的過程實質上是把龐雜的魔法能量強制集中到單獨的物品中,在這種情況下往往會發生一些不可預知的事情:<BR>
 tc.research_page.INFUSION.4=比較常見的意外包括注魔過載被基座中斷掉,產生咒波等,但也可能遭遇一些聞所未聞的災難事件.<BR>由於魔力缺乏,物品掉落等未解決的問題導致而的注魔時間延遲越久,就越發有可能發生糟糕的事情.<BR>可以有多種途徑來減少這些意外的影響.首先你應該盡可能對稱地佈置注魔祭壇-一定要確保你放置的基座對側有以祭壇為原點對稱的基座與之平衡.當放置被灌注材料時,也需要盡可能保證放置位置對稱與平衡.
-tc.research_page.INFUSION.5=最後你可以環繞祭壇對稱放置一些具有神秘屬性的物品(比如蠟燭,頭骨,水晶等),它們也能夠減少注魔過程的風險.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
+tc.research_page.INFUSION.5=最後你可以環繞祭壇對稱放置一些具有秘術屬性的物品(比如蠟燭,頭骨,水晶等),它們也能夠減少注魔過程的風險.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
 #
 tc.research_name.JARBRAIN=缸中之腦
 tc.research_text.JARBRAIN=密封的糾纏
@@ -1161,25 +1161,26 @@ tc.research_text.MIRRORHAND=反思時間
 tc.research_page.MIRRORHAND.1=魔力手鏡類似普通的魔鏡.但首先,正如其名,它可以隨身攜帶,手持已經鏈接到目標魔鏡的手鏡右擊就可以打開界面,將物品放入魔鏡中的格子即可以實現傳遞,他們會被另一端的魔鏡吐出來.<BR>其次,魔力手鏡能夠通過右鍵與新的魔鏡綁定.你能夠使用手鏡來方便地將物品進行傳輸.<BR>手鏡能夠鏈接到已經鏈接過其他手鏡的魔鏡上.<BR>注意手鏡只能傳出物品,不能接收物品.
 #
 tc.research_name.NODEJAR=缸中節點
-tc.research_text.NODEJAR=專為旅行中的神秘使設計
-tc.research_page.NODEJAR.1=要素罐子被證明能夠儲存各種世俗或神秘的物品,但你相信你又發掘出他們的新應用-用於捕獲靈氣節點.<BR>圍繞靈氣節點,建造一個大號的罐子,然後使用法杖配合以合適的神秘程式,便能夠將節點捕獲進罐中並迅速縮小變成便於管理的大小.這種罐子能夠被安全地回收和攜帶.但注意在初始化捕獲儀式的過程中有很大可能會損傷到節點.<BR>被捕獲的節點懸浮在罐中,既不能再生魔力,也不會允許法杖從中抽取魔力.
+tc.research_text.NODEJAR=專為旅行中的秘術使設計
+tc.research_page.NODEJAR.1=要素罐子被證明能夠儲存各種世俗或神秘的物品,但你相信你又發掘出他們的新應用-用於捕獲靈氣節點.<BR>圍繞靈氣節點,建造一個大號的罐子,然後使用法杖配合以合適的秘術式,便能夠將節點捕獲進罐中並迅速縮小變成便於管理的大小.這種罐子能夠被安全地回收和攜帶.但注意在初始化捕獲儀式的過程中有很大可能會損傷到節點.<BR>被捕獲的節點懸浮在罐中,既不能再生魔力,也不會允許法杖從中抽取魔力.
 tc.research_page.NODEJAR.2=將其放置在地上,並對其使用法杖就能再次釋放節點.這樣會摧毀罐子本身.
 #
-tc.research_name.PAVETRAVEL=旅行者鋪路石
+tc.research_name.PAVETRAVEL=旅行者路磚
 tc.research_text.PAVETRAVEL=縮地成寸
 tc.research_page.PAVETRAVEL.1=你學會了如何向石英方塊灌注大地要素的魔力.<BR>走在這種鋪路磚上的人們感覺身輕如燕,腳步敏捷,彈跳力也得到加強.
 #
-tc.research_name.PAVEWARD=守衛者鋪路石
+tc.research_name.PAVEWARD=守衛者路磚
 tc.research_text.PAVEWARD=御守於外
-tc.research_page.PAVEWARD.1=你發現一種方法能夠將奧術石材轉換成一種能夠有效阻絕大多數生物入侵的守衛鋪路石.<BR>注意這種警衛作用並不能提供百分百的防護,例如,它們並不阻止玩家進去它們圈定的區域,但它們確實能防護住大部分常見威脅.它們還會阻止傀儡穿過.<BR>使用它們時最好圍成一個不間斷的完整的圈,將你想守護的區域與外面的世界相對隔絕.<BR>啟動的紅石信號會使得該方塊的特殊效果暫時失效.
+tc.research_page.PAVEWARD.1=你發現一種方法能夠將奧術石材轉換成一種能夠有效阻絕大多數生物入侵的守衛路磚.<BR>注意這種警衛作用並不能提供百分百的防護,例如,它們並不阻止玩家進去它們圈定的區域,但它們確實能防護住大部分常見威脅.它們還會阻止傀儡穿過.<BR>使用它們時最好圍成一個不間斷的完整的圈,將你想守護的區域與外面的世界相對隔絕.<BR>啟動的紅石信號會使得該方塊的特殊效果暫時失效.
+tc.research_page.PAVEWARD.2=路磚上的符文顏色標識了它當前的狀態.<BR>紫色表示它當前在阻止什麼通過.<BR>藍色表示它已經被紅石信號關閉了.<BR>紅色表示防禦有缺陷,可能被突破.
 #
-tc.research_name.WANDPED=法杖蓄能基座
+tc.research_name.WANDPED=法杖充能基座
 tc.research_text.WANDPED=自動補魔
-tc.research_page.WANDPED.1=在旅途中為法杖補魔雖好,但如果有自動蓄能的辦法就再好不過了.<BR>這種特製的基座具有這種效果-自動抽取附近節點中的魔力為放置於其上的法杖蓄能.<BR>節點魔力不會被完全抽盡,除非你放置的是拿著用鐵和木棍製作的最低廉的劣質法杖.
+tc.research_page.WANDPED.1=在旅途中為法杖補魔雖好,但如果有自動充能的辦法就再好不過了.<BR>這種特製的基座具有這種效果-自動抽取附近節點中的魔力為放置於其上的法杖充能.<BR>節點魔力不會被完全抽盡,除非你放置的是拿著用鐵和木棍製作的最低廉的劣質法杖.
 #
-tc.research_name.WANDPEDFOC=複合蓄能核心
+tc.research_name.WANDPEDFOC=複合充能核心
 tc.research_text.WANDPEDFOC=終有其用
-tc.research_page.WANDPEDFOC.1=在旅途中你已經發現了許多蘊含複合魔力的節點,但你之前卻無法利用這種豐富的魔力資源.而目前的這項研究卻提供了解決之道.<BR>這種核心可以被放置在法杖蓄能基座上,這樣放置於其內的法杖將能夠從附近的節點中吸收複合要素魔力,並將其分流成元初要素.不幸的是一點複合要素只能為分解成一點元初要素,其餘的能量會直接流失掉.然後這是個好的開端,你確定你會發現更好的利用這些資源的方法.
+tc.research_page.WANDPEDFOC.1=在旅途中你已經發現了許多蘊含複合魔力的節點,但你之前卻無法利用這種豐富的魔力資源.而目前的這項研究卻提供了解決之道.<BR>這種核心可以被放置在法杖充能基座上,這樣放置於其內的法杖將能夠從附近的節點中吸收複合要素魔力,並將其分流成元初要素.不幸的是一點複合要素只能為分解成一點元初要素,其餘的能量會直接流失掉.然後這是個好的開端,你確定你會發現更好的利用這些資源的方法.
 #
 tc.research_name.ETHEREALBLOOM=天域花
 tc.research_text.ETHEREALBLOOM=純潔的花朵
@@ -1193,19 +1194,19 @@ tc.research_page.PECH.2=可殺死它們不會得到任何戰利品.據說如果�
 #
 tc.research_name.INFUSIONENCHANTMENT=注魔法附魔
 tc.research_text.INFUSIONENCHANTMENT=用要素源質附魔
-tc.research_page.INFUSIONENCHANTMENT.1=悠悠數載歲月以降,巫師和神秘使已經將自己的生命能量灌注進物品來製造附魔武器,工具以及裝備.而此種附魔方法過程單調乏味,結果難以預知.你關於注魔合成的研究揭露了解決這些問題的新方法.<BR>你對如何使用注魔壇對物品附魔已經瞭然於心.只需將你希望附魔的物品放置在中央的基座上，並提高合適的材料以及源質即可.
+tc.research_page.INFUSIONENCHANTMENT.1=悠悠數載歲月以降,巫師和秘術使已經將自己的生命能量灌注進物品來製造附魔武器,工具以及裝備.而此種附魔方法過程單調乏味,結果難以預知.你關於注魔合成的研究揭露了解決這些問題的新方法.<BR>你對如何使用注魔壇對物品附魔已經瞭然於心.只需將你希望附魔的物品放置在中央的基座上，並提高合適的材料以及源質即可.
 tc.research_page.INFUSIONENCHANTMENT.2=這種附魔同樣需要提供經驗形式的生命源質,但需求量遠低於普通附魔所需.這些經驗將從注魔壇附近的任意玩家身上抽取,因此使用時需要當心.<BR>I級附魔所消耗的源質和經驗在如下配方中列出.若想對物品進行更高級別的附魔,只需重複進行注魔過程即可-該過程可重複進行直到所進行的附魔達到可能的最高等級.根據附魔等級不同,所消耗的源質和經驗也將會有所不同,就比方說II級附魔將消耗I級附魔兩倍的資源.
 tc.research_page.INFUSIONENCHANTMENT.3=如若物品已包含你當前進行附魔類型外的附魔,可能會需要更多的消耗.每一級其他的附魔將會使得當前進行的附魔多消耗10%.例如,對一把亡靈殺手III的劍進行火焰附加I附魔,會額外消耗30%的源質和經驗.<BR>隨著物品上附魔增加注魔的風險也會增加.<BR>使用注魔壇附魔同樣遵循一般物品附魔的搭配組合規律-附魔只能對特定類型物品進行.
 #
 tc.research_name.ARCANELAMP=奧術燈
 tc.research_text.ARCANELAMP=大型光源
-tc.research_page.ARCANELAMP.1=這種神秘的燈具可以被安附在牆壁,地板以及天花板上用作強烈而穩定的光源.<BR>這種燈具會在16格範圍內製造出額外的光源,保證亮度等級不低於可接受的安全亮度以下.記住,只有你才能阻止殭屍狂潮.<BR>這些伴生光源在拆卸掉神秘燈具後很快就會消失掉.<LINE>你確定這種燈具的應用將陸續呈現,因此擁有新的發現後請記得回來再查閱一遍這裡.
+tc.research_page.ARCANELAMP.1=這種神秘的燈具可以被安附在牆壁,地板以及天花板上用作強烈而穩定的光源.<BR>這種燈具會在16格範圍內製造出額外的光源,保證亮度等級不低於可接受的安全亮度以下.記住,只有你才能阻止殭屍狂潮.<BR>這些伴生光源在拆卸掉奧術燈後很快就會消失掉.<LINE>你確定這種燈具的應用將陸續呈現,因此擁有新的發現後請記得回來再查閱一遍這裡.
 tc.research_page.ARCANELAMP.2=           §n奧術鑽探機§r<BR>依附在奧術鑽探機上時, 奧術燈將額外具有以下功能: 它將從附近吸取Lux要素來照亮鑽探機挖通的隧道.<BR>每一點Lux要素能夠產生一點光源,這種光源即使在燈具被拆卸後也不會消失.
 #
 tc.research_name.BASICARTIFACE=基礎奧法學
 tc.research_text.BASICARTIFACE=必需之物
-tc.research_page.BASICARTIFACE.1=§n世界鹽§r<BR><BR>世界鹽,或其廣為人知的名稱神秘使之鹽,由磨粉的魔力水晶同一些天然富含魔力的物質混合而成.<BR>正如凡俗世界的鹽一樣,神秘使之鹽也能夠給所有那些普通的魔法配方或儀軌增添美妙的滋味(這是個隱喻).那是一種強力的黏合劑,能夠讓彼此間最暌離的魔力要素聚合在一起.<BR>有數種材料都可以同磨粉後的水晶混合制得世界鹽.
-tc.research_page.BASICARTIFACE.2=§n元初符咒§r<BR><BR>元初符咒是構築許多神秘學構造的基礎材料.出去能夠匯聚和引導元初要素和源質外它們本身並無固有的能量.<BR>坊間相傳這些符咒還有其他的能力,但那不過是些道聽途說.
+tc.research_page.BASICARTIFACE.1=§n世界鹽§r<BR><BR>世界鹽,或其廣為人知的名稱秘術使之鹽,由磨粉的魔力水晶同一些天然富含魔力的物質混合而成.<BR>正如凡俗世界的鹽一樣,秘術使之鹽也能夠給所有那些普通的魔法配方或儀軌增添美妙的滋味(這只是比喻).這是一種強力的黏合劑,能夠讓彼此間最暌離的魔力要素聚合在一起.<BR>有數種材料都可以與磨粉後的水晶混合制得世界鹽.
+tc.research_page.BASICARTIFACE.2=§n元初符咒§r<BR><BR>元初符咒是構築許多秘術學構造的基礎材料.除去能夠匯聚和引導元初要素和源質外,它們本身並無固有的能量.<BR>坊間相傳這些符咒還有其他的能力,但那不過是些道聽途說.
 #
 tc.research_name.TUBES=要素源質管道
 tc.research_text.TUBES=運輸要素源質
@@ -1220,14 +1221,14 @@ tc.research_page.CENTRIFUGE.2=源質緩衝器能夠允許你暫存一定量的�
 #
 tc.research_name.TRAVELTRUNK=箱子寶寶
 tc.research_text.TRAVELTRUNK=會走路的行李
-tc.research_page.TRAVELTRUNK.1=這是一項對所有四處奔忙的神秘使來說都非常有用的傀儡學研究衍生產品:箱子寶寶.<BR>這個木頭做的箱子會開開心心,蹦蹦跳跳跟在主人身後,充當一個便攜的儲物空間,裝下你拾取的任意物品.<BR>箱子寶寶做得非常結實堅韌,能夠承受大量的攻擊,而且不畏火焰,也不會受到掉落傷害.<BR>箱子寶寶將追隨它的主人前往任何地方——哪怕是跨位面的旅行.
-tc.research_page.TRAVELTRUNK.2=但是如果你希望它不再跟著你,在它的界面裡也有個很方便的按鈕來讓它留在原地.<BR>隨著時間流逝箱子寶寶能夠自己回復它受到的傷害,但你也可以餵給它任意食物來加快這個過程.<BR>用傀儡使鈴鐺能夠像回收傀儡那樣回收箱子寶寶.但這樣做會讓箱子寶寶裝著的所有物品掉落在地上.按住潛行點擊它會取下安裝在它身上的升級,但有一定幾率遺失.<BR>像普通的傀儡那樣箱子寶寶能安裝升級,但升級將對箱子寶寶起到獨特的效果.如果你已經發現了相關升級可以閱讀後面幾頁來查看詳細信息.
-tc.research_page.TRAVELTRUNK.UAI=      §n傀儡升級:風§r<BR>安裝該升級讓箱子寶寶移動更加迅捷.
-tc.research_page.TRAVELTRUNK.UEA=     §n傀儡升級:地§r<BR>安裝該升級將會為箱子寶寶額外增加一行物品空間來攜運更多物品.
-tc.research_page.TRAVELTRUNK.UFI=     §n傀儡升級:火§r<BR>安裝該升級後箱子寶寶會在主人遭受攻擊時挺身而出.
-tc.research_page.TRAVELTRUNK.UWA=     §n傀儡升級:水§r<BR>安裝該升級後箱子寶寶將不能被主人外的任何人開啟.<BR>並且它還會對各種毀滅性的傷害具有更高的抵禦能力.
-tc.research_page.TRAVELTRUNK.UOR=     §n傀儡升級:秩序§r<BR>安裝該升級後即使用用傀儡使鈴鐺回收,箱子寶寶也能保留住裝在它體內的物品.當按住潛行鍵點擊時它還會和平時一樣掉落出物品.
-tc.research_page.TRAVELTRUNK.UEN=    §n傀儡升級:混沌§r<BR>安裝該升級後只要箱子寶寶沒裝滿就會自己撿取附近的掉落物品.
+tc.research_page.TRAVELTRUNK.1=這是一項對所有四處奔忙的秘術使來說都非常有用的傀儡學研究衍生產品:箱子寶寶.<BR>這個木頭做的箱子會開開心心,蹦蹦跳跳跟在主人身後,充當一個便攜的儲物空間,裝下你拾取的任意物品.<BR>箱子寶寶做得非常結實堅韌,能夠承受大量的攻擊,而且不畏火焰,也不會受到掉落傷害.<BR>箱子寶寶將追隨它的主人前往任何地方——哪怕是跨位面的旅行.
+tc.research_page.TRAVELTRUNK.2=但是如果你希望它不再跟著你,在它的界面裡也有個很方便的按鈕來讓它留在原地.<BR>隨著時間流逝箱子寶寶能夠自己回復它受到的傷害,但你也可以餵給它任意食物來加快這個過程.<BR>用傀儡使鈴鐺能夠像回收傀儡那樣回收箱子寶寶.但這樣做會讓箱子寶寶裝著的所有物品掉落在地上.按住潛行點擊它會取下安裝在它身上的升級,但有一定幾率遺失.<BR>就像普通的傀儡那樣,箱子寶寶能安裝升級,但升級將對箱子寶寶起到獨特的效果.如果你已經發現了相關升級可以閱讀後面幾頁來查看詳細信息.
+tc.research_page.TRAVELTRUNK.UAI=     §n風升級解鎖能力§r<BR>安裝該升級讓箱子寶寶移動更加迅捷.
+tc.research_page.TRAVELTRUNK.UEA=     §n地升級解鎖能力§r<BR>安裝該升級將會為箱子寶寶額外增加一行物品空間來攜運更多物品.
+tc.research_page.TRAVELTRUNK.UFI=     §n火升級解鎖能力§r<BR>安裝該升級後箱子寶寶會在主人遭受攻擊時挺身而出.
+tc.research_page.TRAVELTRUNK.UWA=     §n水升級解鎖能力§r<BR>安裝該升級後箱子寶寶將不能被主人外的任何人開啟.<BR>並且它還會對各種毀滅性的傷害具有更高的抵禦能力.
+tc.research_page.TRAVELTRUNK.UOR=     §n秩序升級解鎖能力§r<BR>安裝該升級後即使用用傀儡使鈴鐺回收,箱子寶寶也能保留住裝在它體內的物品.當按住潛行鍵點擊時它還會和平時一樣掉落出物品.
+tc.research_page.TRAVELTRUNK.UEN=     §n混沌升級解鎖能力§r<BR>安裝該升級後只要箱子寶寶沒裝滿就會自己撿取附近的掉落物品.
 #
 tc.research_name.LAMPGROWTH=催生燈
 tc.research_text.LAMPGROWTH=催熟作物
@@ -1264,7 +1265,7 @@ tc.research_page.PRIMALARROW.3=但無論射中什麼都會造成凋靈效果.<LI
 #
 tc.research_name.THAUMATORIUM=自動煉金
 tc.research_text.THAUMATORIUM=大眾煉金學
-tc.research_page.THAUMATORIUM.1=迄今煉金術多少有些變成一件撞運道的差事 - 誤算數量的要素,品質低劣的源質和煉金配料全都需要手動勞作去混合.這些總算成為了過去.<BR>神秘煉金塔真是了不起的發明！它使得神秘使者能夠選擇使用何種配方，添加何種催化劑.它還能夠使用管道自動從可用的源頭抽取源質.只要尚還提供有催化劑它就能夠一直完美地產出所需的物品.<BR>這種坩堝並不需要添水,但下方依然需要提供熱源.
+tc.research_page.THAUMATORIUM.1=迄今煉金術多少有些變成一件撞運道的差事 - 誤算數量的要素,品質低劣的源質和煉金配料全都需要手動勞作去混合.這些總算成為了過去.<BR>秘術煉金塔真是了不起的發明！它使得秘術使者能夠選擇使用何種配方，添加何種催化劑.它還能夠使用管道自動從可用的源頭抽取源質.只要尚還提供有催化劑它就能夠一直完美地產出所需的物品.<BR>這種坩堝並不需要添水,但下方依然需要提供熱源.
 tc.research_page.THAUMATORIUM.2=當你開啟該設備會看見一些格子.左上方的格子用來放置催化劑.添置好後在右上格子中便可以從該種催化劑能夠參與的所有可能配方中選擇你想要合成的那個.<BR>下方的長條會按所需順序顯示所需的源質.當設備運作時它還會顯示進度條.<BR>製成的物品會從設備前方彈出,或者進入到放置在彈射口位置的容器中.
 tc.research_page.THAUMATORIUM.3=一般來說一個煉金塔只能同時使用一個配方,但在其周圍安附記憶矩陣就能增加它同時監控的配方數量.<BR>每個記憶矩陣能夠增添2個配方.
 #
@@ -1273,36 +1274,36 @@ tc.research_text.RUNICARMOR=護盾開啟!
 tc.research_page.RUNICARMOR.1=對防護法術的研究最終使你發明出符文護盾.它並非傳統意義上的護甲裝備,而是一種佩戴在日常衣物上的符咒,紋章或類似防護物品. <BR>這種物品會製造出一個防範絕大多數傷害的魔力屏障.護盾會擁有一個傷害量承受池來先一步減免損傷,以保護佩戴者免受各種傷害.當傷害量承受池耗盡佩戴者才會開始像平常一樣承受傷害.<BR>傷害量承受池隨著時間推移會自己回復,但即使是耗盡狀態也至少會為佩戴者提供基本上相當於皮革裝備的防護.
 tc.research_page.RUNICARMOR.2=<BR>這種自動回復需要護盾從穿戴者攜帶的法杖中抽取§2Terra§0和§eAer§0要素.<BR>但符文護盾並不會防護溺水,飢餓或者其他類似環境危害造成的傷害.由於其天然特性符文護盾也無法使用尋常方法附魔,但你確定有些方法能夠提供其效能 - 只是尚待發現.
 #
-tc.research_name.RUNICAUGMENTATION=增廣符文護盾
+tc.research_name.RUNICAUGMENTATION=拓展符文護盾
 tc.research_text.RUNICAUGMENTATION=護盾全開
-tc.research_page.RUNICAUGMENTATION.1=嵌有符文護盾的戒指,護身符,腰帶都非常好用,但你是否確定能將這只防護附魔應用於其他物品呢？<BR>當然你可以的！利用神秘學法術(c) (專利申請中),你將能夠將符文護盾鑲入多數魔力穩定的裝備.<BR>魔力穩定的裝備指用神秘錠,魔力布匹或相似魔法材料製成的那些.<BR>只有單次蓄能的符文護盾能夠鑲嵌到物品上,但你可以對其進行多次附魔.然後每次都會加倍消耗源質.
-tc.research_page.RUNICAUGMENTATION.2=你也可以對像護盾戒指這樣已經做好的符文物品附魔,然而其源質消耗會基於已存在的符文蓄能來計算,這會使得該過程的消耗異常昂貴.
+tc.research_page.RUNICAUGMENTATION.1=嵌有符文護盾的戒指,護身符,腰帶都非常好用,但你是否確定能將這只防護附魔應用於其他物品呢？<BR>當然你可以的！利用秘術學法術(c) (專利申請中),你將能夠將符文護盾鑲入多數魔力穩定的裝備.<BR>魔力穩定的裝備指用秘術錠,魔力布匹或相似魔法材料製成的那些.<BR>只有單次充能的符文護盾能夠鑲嵌到物品上,但你可以對其進行多次附魔.
+tc.research_page.RUNICAUGMENTATION.2=然而這非常昂貴,消耗的源質量會隨級別而上升.需求的世界鹽同防護級別成正比,耗費的源質則指數級增加.你也可以對像護盾戒指這樣已經做好的符文物品附魔,然而其源質消耗會基於已存在的符文總量來計算,這會使得該過程的消耗異常昂貴.
 #
-tc.research_name.RUNICCHARGED=蓄能護盾戒指
-tc.research_text.RUNICCHARGED=為蓄能戒指蓄能!
-tc.research_page.RUNICCHARGED.1=這是種特別版的護盾戒指.<BR>較改造前的戒指蓄能量略少些，且蓄能時間比符文護盾多1/4.<BR>但你可以穿戴不止一隻戒指,這會讓正常蓄能時間減半.
+tc.research_name.RUNICCHARGED=充能護盾戒指
+tc.research_text.RUNICCHARGED=為充能戒指充能!
+tc.research_page.RUNICCHARGED.1=這是種特別版的護盾戒指.<BR>較改造前的戒指蓄能量略少些，且充能時間比符文護盾多1/4.<BR>但你可以穿戴不止一隻戒指,這會讓正常充能時間減半.
 #
-tc.research_name.RUNICHEALING=再蓄能護盾戒指
+tc.research_name.RUNICHEALING=再充能護盾戒指
 tc.research_text.RUNICHEALING=繼續向前,我能接受!
-tc.research_page.RUNICHEALING.1=這是種特別版的護盾戒指.<BR>較改造前的戒指蓄能量略少些,但當你你的符文護盾被打破時它能夠釋放出一波維持數秒的回復能量.<BR>在30s內只能啟動一次這種效果.
+tc.research_page.RUNICHEALING.1=這是種特別版的護盾戒指.<BR>較改造前的戒指蓄能量略少些,但當你你的符文護盾被打破時它能夠釋放出一波維持數秒的回復能量.<BR>在20s內只能啟動一次這種效果.
 #
 tc.research_name.RUNICKINETIC=衝擊護盾腰帶
 tc.research_text.RUNICKINETIC=呵呵,你會後悔的
-tc.research_page.RUNICKINETIC.1=這是種特別版的護盾腰帶.<BR>較改造前的腰帶蓄能量略少些,但當護盾被打破時會爆發出一陣能夠傷害並推開附近所有物品的衝擊波.<BR>在30s內只能啟動一次這種效果.
+tc.research_page.RUNICKINETIC.1=這是種特別版的護盾腰帶.<BR>較改造前的腰帶蓄能量略少些,但當護盾被打破時會爆發出一陣能夠傷害並推開附近所有物品的衝擊波.<BR>在02s內只能啟動一次這種效果.
 #
 tc.research_name.RUNICEMERGENCY=應急護盾護身符
 tc.research_text.RUNICEMERGENCY=你就不能讓我舒舒坦坦
-tc.research_page.RUNICEMERGENCY.1=這是種特別版的護盾護身符.<BR>較改造前的護身符蓄能量略少些,但當護盾被打破時這項升級能夠立即再為護盾增加8點能量.<BR>在2分鐘內只能啟動一次這種效果.
+tc.research_page.RUNICEMERGENCY.1=這是種特別版的護盾護身符.<BR>較改造前的護身符蓄能量略少些,但當護盾被打破時這項升級能夠立即再為護盾增加8點能量.<BR>每分鐘只能啟動一次這種效果.
 #
 tc.research_name.WARDEDARCANA=守護之奧術
 tc.research_text.WARDEDARCANA=門禁控制
-tc.research_page.WARDEDARCANA.1=一些實驗產生了某個有趣的發現 - 即向沒有生命的物品印刻記憶的技術.應用這項知識,你首先嘗試著製造出能記住放置者的奧能之扉，奧術壓力板和守衛者方塊.<BR>奧能之扉只能由放置者通過法杖移除.此外它默認會拒絕對主人外的任何人敞開.其主人可以通過配製鐵鑰匙或者金鑰匙來分享進門的權限.<BR>合成出鐵鑰匙並拿著它點擊奧能之扉,便能夠將鑰匙與門配對.
+tc.research_page.WARDEDARCANA.1=一些實驗產生了某個有趣的發現 - 即向沒有生命的物品印刻記憶的技術.應用這項知識,你首先嘗試著製造出能記住放置者的奧能之扉，奧術壓力板和守衛者方塊.<BR>奧能之扉只能由放置者通過法杖移除.此外它預設會拒絕對主人外的任何人敞開.其主人可以通過配製鐵鑰匙或者金鑰匙來分享進門的權限.<BR>合成出鐵鑰匙並拿著它點擊奧能之扉,便能夠將鑰匙與門配對.
 tc.research_page.WARDEDARCANA.2=你可以將鐵鑰匙交給其他人,當他們對這扇門使用鑰匙後便可以獲得進門的永久權限.但他們並不能破壞這扇門,也無法向其他人分享進門權限.除非你製作一柄金鑰匙.<BR>金鑰匙大部分功能與鐵鑰匙類似,但使用它的其他人還會獲得向其他玩家分享鐵鑰匙的權限.只有門的最初擁有者才有權限製作金鑰匙.使用金鑰匙的人也無法用法杖拆掉奧能之門，那也是最初擁有者的特權.
 tc.research_page.WARDEDARCANA.3=奧術壓力板有一些新奇的特性.<BR>首先通過右鍵點擊可以切換它的三種設定: (像木質壓力板一樣)什麼都能觸發它的模式, 僅僅只有主人觸發的模式,以及除了主人外均可以觸發的模式.<BR>其次,類似其他守衛者系列的物品,只有主人才能移除它.<BR>最後,它也能夠通過鑰匙綁定到其他玩家身上.這些壓力板能夠用來開啟奧能之扉,只要踩上壓力板的人本身也有進入這扇門的權限.
 tc.research_page.WARDEDARCANA.4=守衛者玻璃並非單純的裝飾方塊,類似其他守衛者系列物品,它也無法被放置者外的人破壞.<BR>亦無法用鑰匙向他人分享破壞它的權限.
 #
 tc.research_name.VISAMULET=魔力儲存
 tc.research_text.VISAMULET=儉以防匱
-tc.research_page.VISAMULET.1=大多數時候,對神秘使來說,有一根法杖就遠遠滿足需求了,但有時候它儲存的魔力卻偏偏不夠用.多帶一支法杖就能解決問題,但實驗表明另有他法.<BR>製作一枚儲存有魔力的護身符,就能在法杖或者相關物品耗盡魔力時為其蓄能了.<BR>然而你的這項成就並非盡善盡美.只有手裡攥著法杖的時候才能為其蓄能,且蓄能速度緩慢.
-tc.research_page.VISAMULET.2=然而護身符是類似修復附魔或者符文護盾這類物品非常好的能量來源.<BR>護身符只能在法杖基座中蓄能.
+tc.research_page.VISAMULET.1=大多數時候,對秘術使來說,有一根法杖就遠遠滿足需求了,但有時候它儲存的魔力卻偏偏不夠用.多帶一支法杖就能解決問題,但實驗表明另有他法.<BR>製作一枚儲存有魔力的護身符,就能在法杖或者相關物品耗盡魔力時為其充能了.<BR>然而你的這項成就並非盡善盡美.只有手裡攥著法杖的時候才能為其充能,且充能速度緩慢.
+tc.research_page.VISAMULET.2=然而護身符是類似修復附魔或者符文護盾這類物品非常好的能量來源.<BR>護身符只能在法杖基座中充能.
 #
