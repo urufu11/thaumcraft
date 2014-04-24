@@ -513,14 +513,12 @@ tc.aspect.vitium=污染
 tc.aspect.lux=光明
 tc.aspect.potentia=能量
 tc.aspect.motus=移动,动作
-tc.aspect.saxum=石头
 tc.aspect.tempestas=气候
 tc.aspect.victus=生命
 tc.aspect.mortuus=死亡
 tc.aspect.volatus=飞行
 tc.aspect.tenebrae=黑暗
-tc.aspect.granum=种子,幼体
-tc.aspect.limus=史莱姆,粘黏
+tc.aspect.limus=史莱姆,粘液
 tc.aspect.herba=植物
 tc.aspect.arbor=树木,木材
 tc.aspect.spiritus=灵魂
@@ -595,7 +593,7 @@ tc.research_page.KNOWFRAG.1=在旅途中你偶然发现了一些古代遗迹以�
 #
 tc.research_name.ASPECTS=魔力要素
 tc.research_text.ASPECTS=万物构造之源
-tc.research_page.ASPECTS.1=一切造物(道具,对象及生物)均系于被名为§5“要素”§0的魔力元素.要素描绘了物品的构成及其对魔力元素的偏向.普通的岩石可能蕴含Saxum(即拉丁文的岩石)要素,而更复杂的事物,比如树木,甚或生物则可能蕴含多种数量不等的要素.目前已经有50余种要素被发现.<LINE>有两类截然不同的要素:§5元始要素§0以及§5复合要素§0.
+tc.research_page.ASPECTS.1=一切造物(道具,对象及生物)均系于被名为§5“要素”§0的魔力元素.要素描绘了物品的构成及其对魔力元素的偏向.普通的岩石可能蕴含Terra(即拉丁文的大地)要素,而更复杂的事物,比如树木,甚或生物则可能蕴含多种数量不等的要素.目前已经有50余种要素被发现.<LINE>有两类截然不同的要素:§5元始要素§0以及§5复合要素§0.
 tc.research_page.ASPECTS.2=§l元始要素§r是六种最基本的要素类型:§6Aer§0(风之要素),§2Terra§0(地之要素),§cIgnis§0(火之要素),§3Aqua§0(水之要素),§fOrdo§0(秩序要素),§8Perditio§0(混沌要素).<BR>它们是构成其它要素的基础.<BR>§l复合要素§r由两种其它要素复合而成. 相对简单的复合要素由两种元始要素复合而成, 但也存在一些经过多次复合,非常复杂的复合要素.<BR>举简单的例子来说,比如§2Terra§0(地之要素)与§3Aqua§0(水之要素)复合可以得到Victus(生命要素). 
 tc.research_page.ASPECTS.3=若想要查看一个物品所具备的要素,需要在选中物品时按下潜行键(默认shift),这样你就能看见其蕴含要素的种类和数量.但是你需要先对该物品进行初步的研究,否则其蕴含的要素会显示未知.<LINE>要素在一定程度上分离于其对象,并且作为纯粹的本质物,要素非常具有价值：无论是用作合成的工具还是用于魔法研究.<BR>魔力通常存储于法杖中,但它也可能以液相存储,此时我们通常称其为§5要素源质§0,为方便起见,本手册中有时也统一简称其为要素.
 #
@@ -635,8 +633,8 @@ tc.research_page.RESEARCHDUPE.1=你已发现拷贝完整研究笔记的方法.<B
 #
 tc.research_name.DECONSTRUCTOR=解构工作台
 tc.research_text.DECONSTRUCTOR=当仅仅看一眼并不足够时
-tc.research_page.DECONSTRUCTOR.1=在神秘使的研究生涯中,难免因欠缺某些方面知识而导致研究受到碍阻. <BR>此时可以借助结构工作台进行辅助.这个工作台能够将物品分解成最基础的六种元始要素,从而为你提供研究的突破口.然而这种设备的限制显而易见 - 被分解的复合要素并非直接变成组合成它们的要素,而是变成了组成它们的最基础的元始要素之一,而元始要素如何组合搭配仍然不得而知.<BR>例如分解圆石(蕴含Saxum以及 
-tc.research_page.DECONSTRUCTOR.2=§8Perditio§0要素)按说可以得到2点§2Terra§0要素和1点§8perditio§0要素,但你只能由一定几率得知其中一种元始要素.<BR>而且,这台设备效率极低,当物品中蕴含要素越少,能有所发现就越难.
+tc.research_page.DECONSTRUCTOR.1=在神秘使的研究生涯中,难免因欠缺某些方面知识而导致研究受到碍阻. <BR>此时可以借助结构工作台进行辅助.这个工作台能够将物品分解成最基础的六种元始要素,从而为你提供研究的突破口.然而这种设备的限制显而易见 - 被分解的复合要素并非直接变成组合成它们的要素,而是变成了组成它们的最基础的元始要素之一,而元始要素如何组合搭配仍然不得而知.<BR>例如分解铁(蕴含Metallum 
+tc.research_page.DECONSTRUCTOR.2=要素)按说可以得到2点§2Terra§0要素和1点§8Ordo§0要素,但你只能由一定几率得知其中一种元始要素.<BR>而且,这台设备效率极低,当物品中蕴含要素越少,能有所发现就越难.
 #
 tc.research_name.BASICTHAUMATURGY=基础法杖工艺
 tc.research_text.BASICTHAUMATURGY=你的第一柄工具
@@ -991,7 +989,9 @@ tc.research_page.COREEMPTY.1=安装这种核心的傀儡能够从绑定容器中
 #
 tc.research_name.COREUSE=傀儡核心:使用
 tc.research_text.COREUSE=嗒嗒点击
-tc.research_page.COREUSE.1=正如空置核心,安装这种核心的傀儡也能够从绑定容器中取出物品,但当它们到达目标位置后会尝试使用该物品而非将其放下.<BR>他们将类似玩家使用物品右击那些对指定的位置/方块使用取出的物品.<BR>你可以打开傀儡的界面,如愿地指定傀儡只取走你指定的物品而忽略其他物品.
+tc.research_page.COREUSE.1=正如空置核心,安装这种核心的傀儡也能够从绑定容器中取出物品,但当它们到达目标位置后会尝试使用该物品而非将其放下.<BR>他们将类似玩家左击/右击那样对对指定的位置/方块使用物品—你可以指定是何种物品.<BR>你可以打开傀儡的界面,如愿地指定傀儡只取走你指定的物品而忽略其他物品.
+tc.research_page.COREUSE.2=如果该傀儡并未与任何容器绑定,它会试图模仿玩家空手点击对应目标的效果.<LINE>你可以在潜行时设定它使用左击还是右击.<BR>你还可以设定它仅仅对空气方块点击而非对方块.
+tc.research_page.COREUSE.3=      §n风之升级解锁§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>该升级会提示傀儡执行点击的速率.
 #
 tc.research_name.COREFILL=傀儡核心:填充
 tc.research_text.COREFILL=肥水不流外人田
@@ -1285,15 +1285,15 @@ tc.research_page.RUNICCHARGED.1=这是种特别版的护盾指环.<BR>较改造�
 #
 tc.research_name.RUNICHEALING=再充能护盾指环
 tc.research_text.RUNICHEALING=继续向前,我能接受!
-tc.research_page.RUNICHEALING.1=这是种特别版的护盾指环.<BR>较改造前的指环充能量略少些,但当你你的符文护盾被打破时它能够释放出一波维持数秒的回复能量.<BR>在30s内只能激活一次这种效果.
+tc.research_page.RUNICHEALING.1=这是种特别版的护盾指环.<BR>较改造前的指环充能量略少些,但当你你的符文护盾被打破时它能够释放出一波维持数秒的回复能量.<BR>在20s内只能激活一次这种效果.
 #
 tc.research_name.RUNICKINETIC=冲击护盾腰带
 tc.research_text.RUNICKINETIC=呵呵,你会后悔的
-tc.research_page.RUNICKINETIC.1=这是种特别版的护盾腰带.<BR>较改造前的腰带充能量略少些,但当护盾被打破时会爆发出一阵能够伤害并推开附近所有物品的冲击波.<BR>在30s内只能激活一次这种效果.
+tc.research_page.RUNICKINETIC.1=这是种特别版的护盾腰带.<BR>较改造前的腰带充能量略少些,但当护盾被打破时会爆发出一阵能够伤害并推开附近所有物品的冲击波.<BR>在20s内只能激活一次这种效果.
 #
 tc.research_name.RUNICEMERGENCY=应急护盾护身符
 tc.research_text.RUNICEMERGENCY=你就不能让我舒舒坦坦
-tc.research_page.RUNICEMERGENCY.1=这是种特别版的护盾护身符.<BR>较改造前的护身符充能量略少些,但当护盾被打破时这项升级能够立即再为护盾增加8点能量.<BR>在2分钟内只能激活一次这种效果.
+tc.research_page.RUNICEMERGENCY.1=这是种特别版的护盾护身符.<BR>较改造前的护身符充能量略少些,但当护盾被打破时这项升级能够立即再为护盾增加8点能量.<BR>在1分钟内只能激活一次这种效果.
 #
 tc.research_name.WARDEDARCANA=守护之奥术
 tc.research_text.WARDEDARCANA=门禁控制
