@@ -388,6 +388,7 @@ item.capacity.text=能力
 item.ItemAmuletVis.text=緩慢為所持法杖充能
 item.ItemAmuletVis.0.name=魔力石
 item.ItemAmuletVis.1.name=魔力儲存護身符
+item.ItemGirdleHover.name=奧法安全索
 #
 # Fluids
 fluid.fluxGoo=咒波黏漿
@@ -420,7 +421,7 @@ recipe.type.arcane=奧術工作台
 recipe.type.crucible=坩堝
 recipe.type.infusion=奧術注魔
 recipe.type.infusionenchantment=注魔附魔
-recipe.type.construct=神秘多方塊結構
+recipe.type.construct=神秘方塊結構組合
 #
 # Other
 itemGroup.thaumcraft=秘術時代4
@@ -439,15 +440,15 @@ death.attack.taint.player=%1$s在與%2$s戰鬥時死於咒波污染.
 death.attack.tentacle=%1$s被%2$s壓死了.
 death.attack.swarm=%1$s被%2$s感染了.
 death.attack.swarm.item=%1$s被%2$s使用%3$s感染了.
-tc.handmirrorlinkedto=鏈接到
-tc.handmirrorlinked=鏈接已建立.
-tc.handmirrorerror=目標魔鏡重置或遺失,鏈接損壞.
+tc.handmirrorlinkedto=連結到
+tc.handmirrorlinked=連結已建立.
+tc.handmirrorerror=目標魔鏡重置或遺失,連結損壞.
 tc.discoveryerror=你淺陋的學識不足以理解箇中奧妙.
 tc.discoveryunknown=未知理論
 tc.discoveryprogress=% 完成
 tc.portableholeerror=便攜式洞穴能量不足.
-tc.key1=鑰匙已經鏈接該奧能之扉.
-tc.key2=鑰匙已經鏈接該奧術壓力板.
+tc.key1=鑰匙已經連結該奧能之扉.
+tc.key2=鑰匙已經連結該奧術壓力板.
 tc.key3=你現在可以打開門了.
 tc.key4=你現在可以向別人分享進入權限.
 tc.key5=只要你是其主人你就能啟動該壓力板.
@@ -518,7 +519,7 @@ tc.aspect.victus=生命
 tc.aspect.mortuus=死亡
 tc.aspect.volatus=飛行
 tc.aspect.tenebrae=黑暗
-tc.aspect.limus=史萊姆,黏黏
+tc.aspect.limus=史萊姆,黏液
 tc.aspect.herba=植物
 tc.aspect.arbor=樹木,木材
 tc.aspect.spiritus=靈魂
@@ -583,7 +584,7 @@ tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:
 tc.research_page.RESEARCH.7=<BR>現在你可以開始融合更加複雜的要素了,只需將那些你希望用於融合的要素拖拽到§l4§r號區域的符文圓環之中.被選中的要素會出現在§l4§r號區域中,當已選中兩個要素後按下紫色按鈕就即可嘗試將它們融合.如若成功你應該能在右下方看到得到了什麼，它會出現在§l3§r號區域中. <BR>即使沒有實際獲得複合要素,參與融合的要素也會被消耗掉.
 tc.research_page.RESEARCH.8=§l   §n(3) 基礎研究§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>完成此步驟時你需要隨身帶著一套筆與墨以及紙張.<BR>翻開魔導手冊,你能夠查閱你已學會的所有知識,也能夠查看你目前能夠繼續探求哪些知識.<BR>閃爍的方塊或圓形的圖標標誌著前置的研究.
 tc.research_page.RESEARCH.9=若你能看到其名稱(而非只是些怪異的符文),你就可以點擊它們,消耗掉一些物品欄中的紙張和墨水,獲得一份研究筆記.現在將這份研究筆記放入研究台的§l2§r號格子中即可開始研究.<BR>§l5§r號區域會顯示出一張紙卷,上面排滿了外緣繪有要素圖標的六邊形格子.若你看到的是問號圖標,說明你尚不瞭解這種要素,需要先進行學習.<LINE> 
-tc.research_page.RESEARCH.10=要完成你的研究,只需鏈接和啟動全部要素.為此,你需要將要素拖拽到六邊形格子中,並使其要麼與能融合成它的要素相連，要麼與其能與其他要素融合成的要素相連.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>放置要素會消耗一個研究點.若出現了錯誤,可以點擊要素以移除它,但這不會讓你取回付出的研究點.
+tc.research_page.RESEARCH.10=要完成你的研究,只需連結和啟動全部要素.為此,你需要將要素拖拽到六邊形格子中,並使其要麼與能融合成它的要素相連，要麼與其能與其他要素融合成的要素相連.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>放置要素會消耗一個研究點.若出現了錯誤,可以點擊要素以移除它,但這不會讓你取回付出的研究點.
 tc.research_page.RESEARCH.11=持續上述操作,直到起始的全部要素都被連起來.外圈的要素不必與其他所有要素相連,只需要讓它們成為相連的整體即可.<BR>此後研究就會完成,研究筆記會變為發現卷軸.<LINE>注意:放置或移除六邊形中的要素均會消耗墨水,如果墨水耗盡你需要添置一個新的才能繼續研究.
 tc.research_page.RESEARCH.12=§l    §n(4) 次生研究§r<BR>六邊形圖標標示的是次生研究.類似基礎研究,你也需要點擊它們來進行研究.然而你將會直接學會這項研究而非獲得研究報告.  次生研究也會消耗要素點,但不要求你帶著筆墨紙張. 
 #
@@ -975,7 +976,7 @@ tc.research_page.GOLEMTHAUMIUM.1=秘術傀儡尤勝於鐵質傀儡,且能夠進�
 #
 tc.research_name.GOLEMBELL=傀儡使鈴鐺
 tc.research_text.GOLEMBELL=投以目光
-tc.research_page.GOLEMBELL.1=傀儡難以服從口頭指令的劣習廣為人知,而這個鈴鐺可以幫助你避免這種窘況.<BR>使用鈴鐺右擊傀儡就能選擇它.之後傀儡的放置位置以及綁定位置會亮起一道齒輪狀的光環.<BR>然後你便可以使用鈴鐺右擊世界上的任意位置來將傀儡鏈接到某方塊,某位置或者某個將與之交互的容器上.再次點擊相同位置會解除鏈接,如果傀儡能夠同多種顏色的標記互動也可能會出現在不同顏色中循環切換的情況.
+tc.research_page.GOLEMBELL.1=傀儡難以服從口頭指令的劣習廣為人知,而這個鈴鐺可以幫助你避免這種窘況.<BR>使用鈴鐺右擊傀儡就能選擇它.之後傀儡的放置位置以及綁定位置會亮起一道齒輪狀的光環.<BR>然後你便可以使用鈴鐺右擊世界上的任意位置來將傀儡連結到某方塊,某位置或者某個將與之交互的容器上.再次點擊相同位置會解除連結,如果傀儡能夠同多種顏色的標記互動也可能會出現在不同顏色中循環切換的情況.
 tc.research_page.GOLEMBELL.2=<BR>在標記位置潛行(Shift)+右鍵會清除標記,而按下F鍵則會清除所有標記位置. <LINE>左擊傀儡則會完好無損地卸載當前安裝的全部升級. 潛行(Shift )+左鍵能夠拾取傀儡,但其傀儡運轉核心以及升級會分別獨立掉落.然後這樣做有很大幾率丟失掉升級. 
 #
 tc.research_name.COREGATHER=傀儡核心:聚集
@@ -1028,8 +1029,8 @@ tc.research_text.COREFISHING=海屋獨家銷售
 tc.research_page.COREFISHING.1=這種核心讓傀儡為你的晚餐而垂釣.<BR>為發揮最佳效果傀儡需要放在露天的深水邊.<BR>傀儡的力量決定垂釣速度.<BR>
 tc.research_page.COREFISHING.2=      §n風升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>裝有這種升級的傀儡有小機率能一次抓到不止一條魚.
 tc.research_page.COREFISHING.3=      §n火升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>安裝這種升級的傀儡會自動烹飪它抓住的魚.
-tc.research_page.COREFISHING.4=     §n秩序升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>秩序升級會提高釣到大魚的概率.
-tc.research_page.COREFISHING.5=    §n混沌升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>混沌升級會減少釣到廉價物品的概率.
+tc.research_page.COREFISHING.4=      §n秩序升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>秩序升級會提高釣到大魚的概率.
+tc.research_page.COREFISHING.5=      §n混沌升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>混沌升級會減少釣到廉價物品的概率.
 #
 tc.research_name.COREALCHEMY=傀儡核心:煉金
 tc.research_text.COREALCHEMY=移動要素
@@ -1126,12 +1127,16 @@ tc.research_page.INFUSION.5=最後你可以環繞祭壇對稱放置一些具有�
 #
 tc.research_name.JARBRAIN=缸中之腦
 tc.research_text.JARBRAIN=密封的糾纏
-tc.research_page.JARBRAIN.1=- 向罐子丟一個殭屍之腦.<BR>- 添加蜘蛛眼和水.<BR>- 回想那些邪惡的念頭,然後對著它揮舞你的法杖.<BR>若你能遵循上述步驟就能得到一個會動的邪惡的缸中之腦.<BR>它保留了作為殭屍的飢餓慾望卻無力享用那些「美味」的腦子.但它仍然會試圖收集那些在其附近死亡的生靈的思想和經驗(以經驗球的實體形式出現). 當你搖一搖容納它的罐子,它會放棄一部分不義之財將其交給你.
+tc.research_page.JARBRAIN.1=- 向罐子投入一個殭屍之腦.<BR>- 添加蜘蛛眼和水.<BR>- 回想那些邪惡的念頭,然後對著它揮舞你的法杖.<BR>若你能遵循上述步驟就能得到一個會動的邪惡的缸中之腦.<BR>它保留了作為殭屍的飢餓慾望卻無力享用那些「美味」的腦子.但它仍然會試圖收集那些在其附近死亡的生靈的思想和經驗(以經驗球的實體形式出現). 當你搖一搖容納它的罐子,它會放棄一部分不義之財將其交給你.<BR>當罐子裝滿時上方會顯示粒子效果.
 #
 tc.research_name.HOVERHARNESS=奧法韁繩
-tc.research_text.HOVERHARNESS=...那是一隻鳥?
+tc.research_text.HOVERHARNESS=那是一隻鳥?
 tc.research_page.HOVERHARNESS.1=最終你揭開了飛行的秘密. 你創造出一種通過使用奧法能量將自身錨定在神秘力場中,因此幫助你擺脫重力的韁繩.你認為量子和夸克在某種程度上也參與了這個過程.<BR>韁繩需要的魔力在創造的時候就已經全部加入進去,它消耗的燃料是原生的要素：Potentia(能量).當穿戴著韁繩的時候右擊盛滿的罐子來灌注要素.<BR>當穿戴有奧法韁繩時按下"F"開啟或關閉其功能.
 tc.research_page.HOVERHARNESS.2=啟動後奧法韁繩會持續消耗Potentia要素.<BR>急迫附魔能夠加快奧法韁繩的飛行速度.
+#
+tc.research_name.HOVERGIRDLE=奧法安全索
+tc.research_text.HOVERGIRDLE=那是一架飛機?
+tc.research_page.HOVERGIRDLE.1=這條安全索被設計來與用於奧法韁繩.其本身具有相當微小的升力,恰巧只能抵擋落下時的傷害.<BR>當你在奧法韁繩上繫上這條安全索,將會大幅的提升你的飛行速度. 唯一的缺點是奧法韁繩會稍微消耗更多的能量.
 #
 tc.research_name.ADVANCEDGOLEM=高級傀儡
 tc.research_text.ADVANCEDGOLEM=也許我應該考慮考慮儘管...
@@ -1153,12 +1158,12 @@ tc.research_page.ARCANEEAR.1=奧術之耳是一個能夠檢測附近的音符盒
 #
 tc.research_name.MIRROR=魔鏡
 tc.research_text.MIRROR=鏡中奇緣
-tc.research_page.MIRROR.1=暫時將物體轉移到位面之間的狹縫被證明是可能的,但你確信你還能做更多事情.任何懂得些許魔法嘗試的人都會意識到鏡子也許能夠連接到其他的空間,那麼何不嘗試研究以鏡子為基礎的空間魔法物品呢?現在你研究出一種可以鏈接不同空間的神奇魔鏡.通過鏡子的物品能夠在不同位置,甚至不同位面間相互傳遞.<BR>不幸的是空間通道對像你這樣的實體生物非常排斥,因此用這種魔鏡來傳輸生物暫時是不可能的.<BR>要鏈接一對魔鏡,你需要將其中一面鏡子安裝在目標位置. 
-tc.research_page.MIRROR.2=並用第二面鏡子右擊第一名鏡子,並安裝在需要的位置.當兩面都裝好後會建立連接,鏡面會出現黑洞的圖案.當你將物品投入其中,物品會自動從另一個鏡子被拋出.<BR>魔鏡只能成對鏈接.當安裝好後不能與第三個魔鏡建立鏈接.當你拆卸後重新安裝魔鏡的時候,它能夠自動回憶上次建立配對的魔鏡. 然而,拆卸配對的魔鏡後,你也能很方便地用它建立新的鏈接.<BR>傳送物品並非無償,你需要在附近提供Iter要素源質,每堆疊物品消耗一點源質.
+tc.research_page.MIRROR.1=暫時將物體轉移到位面之間的狹縫被證明是可能的,但你確信你還能做更多事情.任何懂得些許魔法嘗試的人都會意識到鏡子也許能夠連接到其他的空間,那麼何不嘗試研究以鏡子為基礎的空間魔法物品呢?現在你研究出一種可以連結不同空間的神奇魔鏡.通過鏡子的物品能夠在不同位置,甚至不同位面間相互傳遞.<BR>不幸的是空間通道對像你這樣的實體生物非常排斥,因此用這種魔鏡來傳輸生物暫時是不可能的.<BR>要連結一對魔鏡,你需要將其中一面鏡子安裝在目標位置. 
+tc.research_page.MIRROR.2=並用第二面鏡子右擊第一名鏡子,並安裝在需要的位置.當兩面都裝好後會建立連接,鏡面會出現黑洞的圖案.當你將物品投入其中,物品會自動從另一個鏡子被拋出.<BR>魔鏡只能成對連結.當安裝好後不能與第三個魔鏡建立連結.當你拆卸後重新安裝魔鏡的時候,它能夠自動回憶上次建立配對的魔鏡. 然而,拆卸配對的魔鏡後,你也能很方便地用它建立新的連結.<BR>傳送物品並非無償,你需要在附近提供Iter要素源質,每堆疊物品消耗一點源質.
 #
 tc.research_name.MIRRORHAND=魔力手鏡
 tc.research_text.MIRRORHAND=反思時間
-tc.research_page.MIRRORHAND.1=魔力手鏡類似普通的魔鏡.但首先,正如其名,它可以隨身攜帶,手持已經鏈接到目標魔鏡的手鏡右擊就可以打開界面,將物品放入魔鏡中的格子即可以實現傳遞,他們會被另一端的魔鏡吐出來.<BR>其次,魔力手鏡能夠通過右鍵與新的魔鏡綁定.你能夠使用手鏡來方便地將物品進行傳輸.<BR>手鏡能夠鏈接到已經鏈接過其他手鏡的魔鏡上.<BR>注意手鏡只能傳出物品,不能接收物品.
+tc.research_page.MIRRORHAND.1=魔力手鏡類似普通的魔鏡.但首先,正如其名,它可以隨身攜帶,手持已經連結到目標魔鏡的手鏡右擊就可以打開界面,將物品放入魔鏡中的格子即可以實現傳遞,他們會被另一端的魔鏡吐出來.<BR>其次,魔力手鏡能夠通過右鍵與新的魔鏡綁定.你能夠使用手鏡來方便地將物品進行傳輸.<BR>手鏡能夠連結到已經連結過其他手鏡的魔鏡上.<BR>注意手鏡只能傳出物品,不能接收物品.
 #
 tc.research_name.NODEJAR=缸中節點
 tc.research_text.NODEJAR=專為旅行中的秘術使設計
