@@ -388,6 +388,7 @@ item.capacity.text=Capacity
 item.ItemAmuletVis.text=Slowly recharges held wands
 item.ItemAmuletVis.0.name=Vis Stone
 item.ItemAmuletVis.1.name=Amulet of Vis Storage
+item.ItemGirdleHover.name=Thaumostatic Girdle
 #
 # Fluids
 fluid.fluxGoo=Flux Goo
@@ -1126,12 +1127,16 @@ tc.research_page.INFUSION.5=altar in symmetrical formations (things like candles
 #
 tc.research_name.JARBRAIN=Brain in a Jar
 tc.research_text.JARBRAIN=Sealing in the foulness
-tc.research_page.JARBRAIN.1=- Throw one rotten zombie brain into a jar.<BR>- Add some spider eyes and water.<BR>- Stir gently with your wand while thinking dark thoughts.<BR>If you follow the recipe exactly you should now have a partially animated and fully malicious zombie brain.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving its jar a good shake will make it surrender some of its ill-gotten gains for your own use.
+tc.research_page.JARBRAIN.1=- Throw one rotten zombie brain into a jar.<BR>- Add some spider eyes and water.<BR>- Stir gently with your wand while thinking dark thoughts.<BR>If you follow the recipe exactly you should now have a partially animated and fully malicious zombie brain.<BR>It retains some of the hunger it possessed as a zombie and while it cannot consume brains, it still enjoys eating the thoughts and experiences of those slain nearby. Giving its jar a good shake will make it surrender some of its ill-gotten gains for your own use.<BR>Particle effects will be displayed above the jar when it is full.
 #
 tc.research_name.HOVERHARNESS=Thaumostatic Harness
-tc.research_text.HOVERHARNESS=Is it a bird...
+tc.research_text.HOVERHARNESS=Is it a bird?
 tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>Unusually the only vis required to power this harness is added during its creation process. Instead the fuel it requires for flight is raw Potentia. Simply right click while holding the harness to insert filled jars.<BR>Pressing 'F' while wearing the harness activates or deactivates it.
 tc.research_page.HOVERHARNESS.2=While active the harness will constantly use Potentia.<BR>It can be enchanted with the Haste enchant to increase the speed at which you move while flying.
+#
+tc.research_name.HOVERGIRDLE=Thaumostatic Girdle
+tc.research_text.HOVERGIRDLE=Is it a plane?
+tc.research_page.HOVERGIRDLE.1=This girdle is designed to be used with the Thaumostatic Harness. On its own it has very little lifting power - it has just enough to prevent most fall damage.<BR>When worn with the harness however it greatly increases the speed at which you are able to fly. The only drawback is that the harness will consume slightly more fuel than normal.
 #
 tc.research_name.ADVANCEDGOLEM=Advanced Golems
 tc.research_text.ADVANCEDGOLEM=Maybe I should think this through...
