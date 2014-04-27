@@ -1,4 +1,4 @@
-﻿# Enchantments
+# Enchantments
 enchantment.potency=Macht
 enchantment.frugal=Sparsamkeit
 enchantment.charging=Aufladen
@@ -388,6 +388,7 @@ item.capacity.text=Kapazität
 item.ItemAmuletVis.text=Lädt langsam gehaltene Stäbe auf
 item.ItemAmuletVis.0.name=Vis-Stein
 item.ItemAmuletVis.1.name=Amulett des Visspeichers
+item.ItemGirdleHover.name=Thaumostatischer Gürtel
 #
 # Fluids
 fluid.fluxGoo=Fluxschleim
@@ -1125,13 +1126,17 @@ tc.research_page.INFUSION.4=von einem Sockel geworfen oder Flux entsteht, aber m
 tc.research_page.INFUSION.5=symmetrisch um den Altar anordnen (etwa Kerzen, Schädel, Kristalle etc.). Diese verringern die Instabilität.<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
 #
 tc.research_name.JARBRAIN=Gehirn im Glas
-tc.research_text.JARBRAIN=Versiegele die Verdorbenheit
-tc.research_page.JARBRAIN.1=- Man gebe ein faules Zombiehirn in ein Glas.<BR>- Dazu Spinnenaugen und Wasser.<BR>- Vorsichtig und unter düsteren Gedanken mit dem Stab umrühren.<BR>Wenn du dich genau an das Rezept gehalten hast, besitzt du nun ein halb lebendiges und durchweg boshaftes Zombiehirn.<BR>Es hat immer noch den Hunger eines Zombies, doch da es keine Hirne verschlingen kann, begnügt es sich mit den Gedanken und Erfahrungen jener, die in seiner Nähe gefallen sind. Wenn man das Glas schüttelt, überlässt das Hirn dir einige seiner schrecklichen Erträge.
+tc.research_text.JARBRAIN=Aber du kannst mich ruhig Bobo nennen.
+tc.research_page.JARBRAIN.1=- Man gebe ein faules Zombiehirn in ein Glas.<BR>- Dazu Spinnenaugen und Wasser.<BR>- Vorsichtig und unter düsteren Gedanken mit dem Stab umrühren.<BR>Wenn du dich genau an das Rezept gehalten hast, besitzt du nun ein halb lebendiges und durchweg boshaftes Zombiehirn.<BR>Es hat immer noch den Hunger eines Zombies, doch da es keine Hirne verschlingen kann, begnügt es sich mit den Gedanken und Erfahrungen jener, die in seiner Nähe gefallen sind. Wenn man das Glas schüttelt, überlässt das Hirn dir einige seiner schrecklichen Erträge.<BR>Partikel werden über dem Glas entstehen, wenn es voll ist.
 #
 tc.research_name.HOVERHARNESS=Thaumostatisches Geschirr
-tc.research_text.HOVERHARNESS=Ist es ein Vogel...
+tc.research_text.HOVERHARNESS=Ist es ein Vogel?
 tc.research_page.HOVERHARNESS.1=Endlich hast du das Geheimnis des Fliegens entdeckt. Du hast ein Geschirr kreiert, dass sich mit thaumostatischer Energie am thaumischen Feld abstößt und so die Gravitation besiegt. Vielleicht spielen auch Quanten und Quarks eine Rolle.<BR>Ungewöhnlicherweise wird das einzige Vis, dass für den Betrieb benötigt wird, während der Herstellung hinzugefügt. Stattdessen ist der benötigte Treibstoff rohes Potentia. Rechtsklicke einfach mit dem Geschirr, um gefüllte Gläser einzufüllen.<BR>Drücke 'F', um das Geschirr zu aktivieren und zu deaktivieren, während du es trägst.
 tc.research_page.HOVERHARNESS.2=Solange es aktiv ist, verbraucht es ständig Potentia.<BR>Es kann mit "Hast" verzaubert werden, um die Fluggeschwindigkeit zu erhöhen.
+#
+tc.research_name.HOVERGIRDLE=Thaumostatischer Gürtel
+tc.research_text.HOVERGIRDLE=Ist es ein Flugzeug?
+tc.research_page.HOVERGIRDLE.1=Dieser Gürtel ist für den Gebrauch mit Thaumostatischem Geschirr vorgesehen. Allein hat er sehr geringe Anhebekraft - gerade genug, um den meisten Fallschaden zu verhindern.<BR>Wenn mit dem Geschirr getragen, wird er jedoch die Geschwindigkeit, mit der du fliegen kannst, drastisch erhöht. Der einzige Nachteil daran ist, dass das Geschirr etwas mehr Treibstoff verbrauchen wird als normal.
 #
 tc.research_name.ADVANCEDGOLEM=Fortgeschrittene Golems
 tc.research_text.ADVANCEDGOLEM=Vielleicht sollte ich das noch einmal durchdenken...
