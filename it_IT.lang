@@ -1127,16 +1127,16 @@ tc.research_page.INFUSION.5=l'altare in formazioni simmetriche (oggetti come can
 #
 tc.research_name.JARBRAIN=Cervello in Barattolo
 tc.research_text.JARBRAIN=Sigillare le oscenità
-tc.research_page.JARBRAIN.1=- Butta un cervello marcio di zombie in un barattolo.<BR>- Aggiungi acqua ed occhi di ragno.<BR>- Mescola con la tua bacchetta, concentrandoti su pensieri oscuri.<BR>Seguendo questa ricetta, otterrai un cervello di zombie parzialmente animato e molto malevolo.<BR>Ha mantenuto la fame che aveva come zombie, e poiché non può divorare cervelli, ingoia i pensieri e le esperienze di coloro che sono morti nei dintorni. Scuotendo bene, il barattolo rilascerà parte del suo tesoro per i tuoi utilizzi.<BR>Quando il barattolo e pieno si vedranno degli effetti di luce.
+tc.research_page.JARBRAIN.1=- Butta un cervello marcio di zombie in un barattolo.<BR>- Aggiungi acqua ed occhi di ragno.<BR>- Mescola con la tua bacchetta, concentrandoti su pensieri oscuri.<BR>Seguendo questa ricetta, otterrai un cervello di zombie parzialmente animato e molto malevolo.<BR>Ha mantenuto la fame che aveva come zombie, e poiché non può divorare cervelli, ingoia i pensieri e le esperienze di coloro che sono morti nei dintorni. Scuotendo bene, il barattolo rilascerà parte del suo tesoro per i tuoi utilizzi.<BR>Quando il barattolo è pieno si vedranno degli effetti di luce.
 #
 tc.research_name.HOVERHARNESS=Imbracatura Taumostatica
-tc.research_text.HOVERHARNESS=E un uccello?
+tc.research_text.HOVERHARNESS=È un uccello?
 tc.research_page.HOVERHARNESS.1=Finalmente sei riuscito a sbloccare il segreto del volo. Hai creato un'imbracatura che si aggancia direttamente al Campo Taumico utilizzando l'energia taumostatica, permettendoti così di sconfiggere la gravità. Sicuramente in qualche modo centrano i quanti ed i quark.<BR>Stranamente l'unico vis richiesto per alimentare questo aggeggio è infuso direttamente durante il suo processo di creazione. Invece il carburante che richiede per volare è Potentia grezza. Clicca con il destro mentre tieni in mano l'imbracatura per aprire l'interfaccia ed inserire barattoli pieni.
 tc.research_page.HOVERHARNESS.2=Premendo F, mentre si indossa l'imbracatura, la si attiva o disattiva.<BR>Mentre è attiva l'imbracatura consumerà Potentia.<BR>Può essere incantata con Fretta per aumentare la velocità di volo.
 #
 item.ItemGirdleHover.name=Cinturone Taumostatico
-tc.research_text.HOVERGIRDLE=E un aereo?
-tc.research_page.HOVERGIRDLE.1=Questo cinturone e ideata per essere usato con l Imbracatura Taumostatica. Da solo non ha molta forza levitante, ha soltanto cio che basta per evitare la maggior parte dei danni da caduta.<BR>Pero quando viene indossato con l imbracatura ne aumenta di molto la velocita con cui voli. Pero consumerai piu carburante del normale.
+tc.research_text.HOVERGIRDLE=È un aereo?
+tc.research_page.HOVERGIRDLE.1=Questo cinturone è ideato per essere usato con l'Imbracatura Taumostatica. Da solo non ha molta forza levitante, ha ciò che basta per evitare la maggior parte dei danni da caduta.<BR>Però quando viene indossato con l'imbracatura ne aumenta di molto la velocità con cui voli. Però consumerai piu carburante del normale.
 #
 tc.research_name.ADVANCEDGOLEM=Golem Avanzati
 tc.research_text.ADVANCEDGOLEM=Forse avrei dovuto pensarci meglio...
