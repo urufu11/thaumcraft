@@ -388,6 +388,7 @@ item.capacity.text=能力
 item.ItemAmuletVis.text=缓慢为所持法杖充能
 item.ItemAmuletVis.0.name=魔力石
 item.ItemAmuletVis.1.name=魔力存储护身符
+item.ItemGirdleHover.name=奥法腰带
 #
 # Fluids
 fluid.fluxGoo=咒波粘浆
@@ -607,16 +608,16 @@ tc.research_name.ORE=矿石
 tc.research_text.ORE=深度发掘
 tc.research_page.ORE.1=§l       §n蕴魔石§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>有时,当一个灵气场内的魔力能量过高,魔力会渗透进岩石并形成结晶状的蕴魔矿物.这种魔力水晶可以被采集.
 tc.research_page.ORE.2=这些结晶按蕴含要素分为多种类型,在神秘学上应用广泛.<BR>共有六种蕴魔石,分别对应不同的元始要素.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>魔力水晶能够被聚合成晶簇,晶簇除了能够为家居增添一些典雅气韵外别无他用,而破坏晶簇能够取回魔力水晶.
-tc.research_page.ORE.3=§l         §n朱砂§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>这种泛红的矿石发现于地底深处,能够被冶炼成水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.ORE.4=§l           §n琥珀§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>这种矿石发现于地表附近,采掘时会掉落琥珀块.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.3=§l       §n朱砂§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>这种泛红的矿石发现于地底深处,能够被冶炼成水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=§l       §n琥珀§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>这种矿石发现于地表附近,采掘时会掉落琥珀块.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
 tc.research_name.PLANTS=植物&树木
 tc.research_text.PLANTS=神奇植物
-tc.research_page.PLANTS.1=§l      §n宏伟之木§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>这种枝繁叶茂的大树广泛分布于郊外.<BR>由于其木材吸收了大量的魔力能量,因此可作为制作神秘学建筑以及设备的最佳材料之一.
-tc.research_page.PLANTS.2=§l     §n银树§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>这种罕见的神奇树木算得上奇妙的景观.其枝叶散发出蕴含着魔力能量的柔和光芒,而其柔韧白皙的干部则因净化咒波的能力而非常有价值.<BR>这种神秘的树木心部还常常能够孕育出灵气节点,这种特性让银树树苗足以成为一种比珍宝更贵重的奖励.
-tc.research_page.PLANTS.3=§l        §n水银花§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.收获并打浆后能得到水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.PLANTS.4=§l        §n火焰草§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>这些植物随着熊熊的元素烈火而生长,只能在炎热气候的地区发现.它们能够被采集并且研磨成重要的炼金材料之一：烈焰粉.
-tc.research_page.PLANTS.5=§l         §n魔豆§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这种奇异的,荚状的植物仅仅生长于魔法森林的树荫中.它们生长缓慢,收获时仅能掉落1~2个魔豆.
+tc.research_page.PLANTS.1=§l    §n宏伟之木§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>这种枝繁叶茂的大树广泛分布于郊外.<BR>由于其木材吸收了大量的魔力能量,因此可作为制作神秘学建筑以及设备的最佳材料之一.
+tc.research_page.PLANTS.2=§l    §n银树§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>这种罕见的神奇树木算得上奇妙的景观.其枝叶散发出蕴含着魔力能量的柔和光芒,而其柔韧白皙的干部则因净化咒波的能力而非常有价值.<BR>这种神秘的树木心部还常常能够孕育出灵气节点,这种特性让银树树苗足以成为一种比珍宝更贵重的奖励.
+tc.research_page.PLANTS.3=§l    §n水银花§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.收获并打浆后能得到水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l    §n火焰草§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>这些植物随着熊熊的元素烈火而生长,只能在炎热气候的地区发现.它们能够被采集并且研磨成重要的炼金材料之一：烈焰粉.
+tc.research_page.PLANTS.5=§l    §n魔豆§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这种奇异的,荚状的植物仅仅生长于魔法森林的树荫中.它们生长缓慢,收获时仅能掉落1~2个魔豆.
 tc.research_page.PLANTS.6=魔豆内含丰富的要素.它们可供食用,但出现的效果常常会有点无法预料.<BR>魔豆可以移植,但是培育这种作物困难费时.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
 tc.research_name.RESEARCHER1=研究专长
@@ -1126,12 +1127,16 @@ tc.research_page.INFUSION.5=最后你可以环绕祭坛对称放置一些具有�
 #
 tc.research_name.JARBRAIN=缸中之脑
 tc.research_text.JARBRAIN=密封的纠缠
-tc.research_page.JARBRAIN.1=- 向罐子丢一个僵尸之脑.<BR>- 添加蜘蛛眼和水.<BR>- 回想那些邪恶的念头,然后对着它挥舞你的法杖.<BR>若你能遵循上述步骤就能得到一个会动的邪恶的缸中之脑.<BR>它保留了作为僵尸的饥饿欲望却无力享用那些“美味”的脑子.但它仍然会试图收集那些在其附近死亡的生灵的思想和经验(以经验球的实体形式出现). 当你摇一摇容纳它的罐子,它会放弃一部分不义之财将其交给你.
+tc.research_page.JARBRAIN.1=- 向罐子丢一个僵尸之脑.<BR>- 添加蜘蛛眼和水.<BR>- 回想那些邪恶的念头,然后对着它挥舞你的法杖.<BR>若你能遵循上述步骤就能得到一个会动的邪恶的缸中之脑.<BR>它保留了作为僵尸的饥饿欲望却无力享用那些“美味”的脑子.但它仍然会试图收集那些在其附近死亡的生灵的思想和经验(以经验球的实体形式出现). 当你摇一摇容纳它的罐子,它会放弃一部分不义之财将其交给你.<BR>罐子盛满后上方将显示粒子效果.
 #
 tc.research_name.HOVERHARNESS=奥法缰绳
-tc.research_text.HOVERHARNESS=...它是一只鸟?
+tc.research_text.HOVERHARNESS=它是一只鸟?
 tc.research_page.HOVERHARNESS.1=最终你揭开了飞行的秘密. 你创造出一种通过使用奥法能量将自身锚定在神秘力场中,因此帮助你摆脱重力的缰绳.你认为量子和夸克在某种程度上也参与了这个过程.<BR>缰绳需要的魔力在创造的时候就已经全部加入进去,它消耗的燃料是原生的要素：Potentia(潜能).当穿戴着缰绳的时候右击盛满的罐子来灌注要素.<BR>当穿戴有奥法缰绳时按下"F"激活或关闭其功能.
 tc.research_page.HOVERHARNESS.2=激活后奥法缰绳会持续消耗Potentia要素.<BR>急迫附魔能够加快奥法缰绳的飞行速度.
+#
+tc.research_name.HOVERGIRDLE=奥法腰带
+tc.research_text.HOVERGIRDLE=它是只灰机?
+tc.research_page.HOVERGIRDLE.1=这种腰带被设计用来配合奥法缰绳使用.就自身而言,其浮空力非常小-仅够让穿戴者免受大部分的掉落伤害.<BR>但配合奥法缰绳一起使用时,它能够显著提升飞行速度.唯一的坏处是奥法缰绳消耗的燃料将比平时稍多.
 #
 tc.research_name.ADVANCEDGOLEM=高级傀儡
 tc.research_text.ADVANCEDGOLEM=也许我应该考虑考虑尽管...
