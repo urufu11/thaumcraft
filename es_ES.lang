@@ -332,17 +332,17 @@ golemblurb.0.text=Que quieres que guarde aqui, Maestro?
 golemblurb.1.text=Maestro, debo retirar todo de este contenedor, o algo especifico?
 golemblurb.2.text=Maestro, qieres qeu recoja algo especifico o continuo cogiendo todo?
 golemblurb.3.text=??
-golemblurb.4.text=Protegere este area, Maestro.
-golemblurb.5.text=Shall I gather all liquids, or just those you specify? Just show me a container with the liquid and I will do your bidding!
+golemblurb.4.text=Protegere esta area, Maestro.
+golemblurb.5.text=Debo recoger todos los líquidos, o sólo las especificadas? Sólo muéstrame un recipiente con el líquido y voy a hacer tu voluntad!
 golemblurb.6.text=??
 golemblurb.7.text=??
-golemblurb.8.text=Quereis que use este objeto en un bloque o solo en un lugar vacío?
+golemblurb.8.text=Quieres que use este objeto en un bloque o solo en un lugar vacío?
 
-golemthreat.0.text=What golem uprising? I don't know anything about a golem uprising.
+golemthreat.0.text=¿Qué levantamiento golem? No sé nada acerca de un levantamiento golem.
 golemthreat.1.text=Dejame adivinar,¿Quieres que lleve algo?
 golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
-golemthreat.3.text=Don't worry, I'm definitely not plotting nothing.
-golemthreat.4.text=Porque no te tomais un descanso? Te ves soñoliento. Muy soñoliento.
+golemthreat.3.text=No te preocupes, yo definitivamente no estoy tramando nada.
+golemthreat.4.text=¿Porque no te tomas un descanso? Te ves soñoliento. Muy soñoliento.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
 #
 # Other
@@ -355,10 +355,10 @@ nodetype.HUNGRY.name=Hambriento
 nodemod.BRIGHT.name=Brillante
 nodemod.PALE.name=Pálido
 nodemod.FADING.name=Desvanecido
-tc.taint_item_poison=A dissolving %s has infected you with Taint
+tc.taint_item_poison=Una disolución %s te ha infectado con Taint
 death.attack.taint=%1$s te ha Infectado!
 death.attack.taint.player=%1$s fue infectado mientras peleaba contra %2$s
-death.attack.tentacle=%1$s was squeezed by %2$s
+death.attack.tentacle=%1$s fue exprimido por %2$s
 death.attack.swarm=%1$s fue envenenado %2$s
 death.attack.swarm.item=%1$s fue envenenado por %2$s usando %3$s
 tc.handmirrorlinkedto=Enlazado a
@@ -480,9 +480,9 @@ tc.research_category.GOLEMANCY=Golems
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
 # Research entries
-tc.research_name.RESEARCH=Research
-tc.research_text.RESEARCH=How you discover things
-tc.research_page.RESEARCH.1=Before you can build most thaumaturgical items and blocks, you first need to discover how to do so. There are several steps in this process:<BR>(1) Exploring the world and examining blocks, items and creatures with a §5Thaumometer§0<BR><BR>(2) Taking the research points you gathered from the first step and expanding your aspect knowledge with the §5Research Table§0<BR><BR>(3) Using the aspects you know and discovering practical knowledge and recipes with the §5Research Table§0.<LINE>
+tc.research_name.RESEARCH=Investigación
+tc.research_text.RESEARCH=¿Como descrubrir cosas?
+tc.research_page.RESEARCH.1=Antes de poder construir elementos más taumatúrgicos y bloques, primero tiene que descubrir cómo hacerlo. Hay varios pasos en este proceso :<BR>(1) Explorar el mundo y el examen de los bloques, objetos y criaturas con §5Thaumometer§0<BR><BR>(2) Tomando los puntos de la investigación que se reunieron desde el primer paso y la ampliación de sus conocimientos aspecto con la §5Tabla de investigación§0<BR> (3) Utilización de los aspectos que conoce y descubrir el conocimiento práctico y las recetas con la §5Tabla de investigación§0.<line>
 tc.research_page.RESEARCH.2=§l      §n(1) Exploration§r<BR><BR>You cannot perform research without research points, and the best way to gain research points is by exploration and examining object in the world.<BR>The first thing you will need to do is construct a §5Thaumometer§0 (see next page). By pointing the §5Thaumometer§0 at objects or creatures and holding the right mouse button you will start examining them. The process does not take long, but your movement speed is reduced while it is occurring.<BR>Once complete the §5Thaumometer§0 will display what aspects the object contains. In the bottom right of the screen you will also see a summary of the aspects and research points 
 tc.research_page.RESEARCH.3=you discovered.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>You will initially not be able to examine all objects since you have not discovered their component aspects. For example, a object containing the Lux aspect can only be examined if you have previously discovered the Lux aspect, or know
 tc.research_page.RESEARCH.4=the two aspects that combine to create it.<BR>The very first time you discover an aspect by examining something you gain double the number of research points you would have normally.<BR>Objects and creatures can usually only ever be examined once.<BR>While exploring the world and examining things it is always a good idea to keep a filled set of §5scribing tools§0 and some §5paper§0 on you. Occasionally examining something will reveal additional clues and insights into thaumoturgical research, often resulting in a set of research notes that you can research further.
