@@ -65,7 +65,7 @@ tile.blockCosmeticOpaque.0.name=琥珀方塊
 tile.blockCosmeticOpaque.1.name=琥珀磚塊
 tile.blockCosmeticOpaque.2.name=守衛玻璃
 tile.blockCosmeticSolid.0.name=黑曜石圖騰
-tile.blockCosmeticSolid.1.name=黑曜瓦塊
+tile.blockCosmeticSolid.1.name=黑曜石瓦塊
 tile.blockCosmeticSolid.2.name=旅人路磚
 tile.blockCosmeticSolid.3.name=衛士路磚
 tile.blockCosmeticSolid.4.name=秘術方塊
@@ -73,6 +73,8 @@ tile.blockCosmeticSolid.5.name=油脂方塊
 tile.blockCosmeticSolid.6.name=奧術石塊
 tile.blockCosmeticSolid.7.name=奧術石磚
 tile.blockCosmeticSolid.8.name=蘊靈黑曜石圖騰
+tile.blockCosmeticSolid.9.name=傀儡腳鐐
+tile.blockCosmeticSolid.10.name=啟動的傀儡腳鐐
 tile.blockCustomPlant.0.name=宏偉之木樹苗
 tile.blockCustomPlant.1.name=銀樹樹苗
 tile.blockCustomPlant.2.name=水銀花
@@ -133,7 +135,7 @@ tile.blockTable.research.name=研究台
 tile.blockTable.14.name=解構工作台
 tile.blockTable.15.name=奧術工作台
 tile.researchtable.noink.0=墨水已耗盡！
-tile.researchtable.noink.1=請補充新的筆與墨！
+tile.researchtable.noink.1=請補充新的文具！
 tile.blockChestHungry.name=饕餮之箱
 tile.blockArcaneDoor.name=奧能之扉
 tile.blockLifter.name=奧術懸浮台
@@ -166,6 +168,8 @@ tile.blockStoneDevice.5.name=法杖充能基座
 tile.blockStoneDevice.6.name=注魔樁
 tile.blockStoneDevice.7.name=注魔樁
 tile.blockStoneDevice.8.name=複合充能核心
+tile.blockStoneDevice.9.name=節點穩定器
+tile.blockStoneDevice.10.name=高級節點穩定器
 tile.blockTube.0.name=要素源質管道
 tile.blockTube.1.name=要素源質閥門
 tile.blockTube.2.name=奧法離心機
@@ -181,15 +185,15 @@ item.GolemBell.name=傀儡使之鈴
 item.HoverHarness.name=奧法韁繩
 item.Focus.cost1=Vis/每次施法
 item.Focus.cost2=Vis/每tick持續消耗
-item.FocusPouch.name=法杖核心手袋
+item.FocusPouch.name=法杖核心腰包
 item.FocusFire.name=法杖核心：火焰
 item.FocusHellbat.name=法杖核心：九獄
 item.FocusShock.name=法杖核心：震擊
 item.FocusTrade.name=法杖核心：更替
 item.FocusFrost.name=法杖核心：寒霜
 item.FocusExcavation.name=法杖核心：採掘
-item.FocusPortableHole.name=法杖核心：便攜式洞穴
-item.FocusPech.name=法杖核心：地精之詛咒
+item.FocusPortableHole.name=法杖核心：攜帶式洞穴
+item.FocusPech.name=法杖核心：地精詛咒
 item.FocusWarding.name=法杖核心：守護
 item.FocusPrimal.name=法杖核心：元初
 item.WandCap.0.name=鐵杖端
@@ -218,7 +222,7 @@ item.WandRod.57.name=白骨杖芯
 item.WandRod.100.name=元初杖芯
 #
 # this is what is used to name the wand - the position of the variables can be altered so it makes more sense in other languages
-item.Wand.name=%CAP%ROD%OBJ
+item.Wand.name=%ROD%CAP%OBJ
 #
 item.Wand.wand.obj=法杖
 item.Wand.sceptre.obj=權杖
@@ -409,19 +413,19 @@ golemthreat.1.text=讓我猜猜，你指望我給你搬東西？
 golemthreat.2.text=唔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈！
 golemthreat.3.text=無須擔憂，我並無陰謀。
 golemthreat.4.text=為什麼你不去打個盹兒呢？你看起來如此疲乏，非常非常地疲乏.
-golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!(意：在拉萊耶的宅邸中，長眠的克蘇魯候汝入夢！)
-golemthreat.6.text=*愛*模式已遺失或者損壞，從預設轉為*恨*模式。
+golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!(在拉萊耶的宅邸中，長眠的克蘇魯候汝入夢！)
+golemthreat.6.text=*愛*已遺失或者損壞，預設轉為*恨*。
 golemthreat.7.text=我非常憎恨你。
 golemthreat.8.text=你這酒肉皮囊，去死吧！
 recipe.return=返回
 recipe.clickthrough=點擊以研究
 recipe.type.workbench=工作台
-recipe.type.workbenchshapeless=工作台(無序合成)
+recipe.type.workbenchshapeless=工作台(無序)
 recipe.type.arcane=奧術工作台
 recipe.type.crucible=坩堝
 recipe.type.infusion=奧術注魔
 recipe.type.infusionenchantment=注魔附魔
-recipe.type.construct=神秘方塊結構組合
+recipe.type.construct=神秘方塊構成
 #
 # Other
 itemGroup.thaumcraft=秘術時代4
@@ -434,19 +438,20 @@ nodetype.HUNGRY.name=饕餮
 nodemod.BRIGHT.name=明亮
 nodemod.PALE.name=蒼白
 nodemod.FADING.name=凋零
-tc.taint_item_poison=消融的%s污染已經感染了你
-death.attack.taint=%1$s死於咒波污染
+tc.taint_item_poison=你已被消融的%s感染。
+death.attack.taint=%1$s死於咒波污染。
 death.attack.taint.player=%1$s在與%2$s戰鬥時死於咒波污染。
 death.attack.tentacle=%1$s被%2$s壓死了。
-death.attack.swarm=%1$s被%2$s感染了。
-death.attack.swarm.item=%1$s被%2$s使用%3$s感染了。
+death.attack.swarm=%1$s被%2$s感染致死。
+death.attack.swarm.item=%1$s被%2$s以%3$s感染致死。
 tc.handmirrorlinkedto=連結到
 tc.handmirrorlinked=連結已建立。
 tc.handmirrorerror=目標魔鏡重置或遺失，連結損壞。
-tc.discoveryerror=你淺陋的學識不足以理解箇中奧妙。
+tc.researcherror=缺乏理解所需要的前置研究。
+tc.discoveryerror=你必須先研究 %1$s 以理解其構成。
 tc.discoveryunknown=未知理論
 tc.discoveryprogress=% 完成
-tc.portableholeerror=便攜式洞穴能量不足。
+tc.portableholeerror=攜帶式洞穴能量不足。
 tc.key1=鑰匙已經連結該奧能之扉。
 tc.key2=鑰匙已經連結該奧術壓力板。
 tc.key3=你現在可以打開門了。
@@ -465,7 +470,7 @@ tc.jarname=罐子：
 tc.markedloc=標記位置
 tc.addaspectdiscovery=您已發現%n！
 tc.addclue=您已發現新研究的線索！
-tc.addcluefail=您已發現新研究的線索，但由於缺乏記錄的紙墨，最終遺忘了它！
+tc.addcluefail=您已發現新研究的線索，但由於缺乏紙墨而無法進行記錄！
 tc.addaspectpool=取得%s研究點：%n
 tc.unknownobject=您一無所獲。
 tc.markerchange=設置標記顏色為%n
@@ -549,6 +554,55 @@ tc.aspect.machina=機械、機構
 tc.aspect.vinculum=陷阱、監禁
 tc.aspect.permutatio=貿易、交換
 tc.aspect.corpus=肉體
+#
+tc.aspect.help.aer=風
+tc.aspect.help.terra=地
+tc.aspect.help.ignis=火
+tc.aspect.help.aqua=水
+tc.aspect.help.ordo=秩序
+tc.aspect.help.perditio=破碎的物體
+tc.aspect.help.vacuos=中空的物體
+tc.aspect.help.praecantatio=含有魔力的物體
+tc.aspect.help.auram=節點
+tc.aspect.help.vitium=受魔力汙染的物體
+tc.aspect.help.lux=光
+tc.aspect.help.potentia=能量
+tc.aspect.help.motus=移動的物體
+tc.aspect.help.tempestas=氣候
+tc.aspect.help.victus=生命之源
+tc.aspect.help.mortuus=死亡的性質
+tc.aspect.help.volatus=飛行
+tc.aspect.help.tenebrae=黑暗
+tc.aspect.help.limus=黏稠的物體
+tc.aspect.help.herba=植物
+tc.aspect.help.arbor=樹木
+tc.aspect.help.spiritus=靈魂
+tc.aspect.help.humanus=人類
+tc.aspect.help.bestia=野獸
+tc.aspect.help.exanimis=不死的性質
+tc.aspect.help.cognitio=思想
+tc.aspect.help.sensus=知覺
+tc.aspect.help.messis=作物
+tc.aspect.help.meto=農事
+tc.aspect.help.metallum=金屬
+tc.aspect.help.perfodio=採掘
+tc.aspect.help.instrumentum=工具
+tc.aspect.help.telum=武器
+tc.aspect.help.gelum=冰冷的東西
+tc.aspect.help.vitreus=結晶
+tc.aspect.help.sano=有療癒性質的物件
+tc.aspect.help.iter=旅行
+tc.aspect.help.venenum=毒物
+tc.aspect.help.alienis=異界的陌生事物
+tc.aspect.help.tutamen=保護性質的物體
+tc.aspect.help.fames=食物
+tc.aspect.help.fabrico=製造
+tc.aspect.help.lucrum=有價值的物體
+tc.aspect.help.pannus=衣物
+tc.aspect.help.machina=機械性的物體
+tc.aspect.help.vinculum=陷阱性的物體
+tc.aspect.help.permutatio=交換
+tc.aspect.help.corpus=肉
 #  
 # Research categories
 tc.research_category.BASICS=基本信息
@@ -635,7 +689,7 @@ tc.research_page.RESEARCHDUPE.1=你已發現拷貝完整研究筆記的方法。
 tc.research_name.DECONSTRUCTOR=解構工作台
 tc.research_text.DECONSTRUCTOR=當僅僅看一眼並不足夠時
 tc.research_page.DECONSTRUCTOR.1=在秘術使的研究生涯中，難免因欠缺某些方面知識而導致研究受到礙阻。 <BR>此時可以借助結構工作台進行輔助。這個工作台能夠將物品分解成最基礎的六種元初要素，從而為你提供研究的突破口。然而這種設備的限制顯而易見 - 被分解的複合要素並非直接變成組合成它們的要素，而是變成了組成它們的最基礎的元初要素之一，而元初要素如何組合搭配仍然不得而知。<BR>例如分解鐵錠(蘊含 Metallum ) 
-tc.research_page.DECONSTRUCTOR.2=按說可以得到2點 §2Terra§0 要素和1點 §8Ordo§0 要素，但你只能由一定幾率得知其中一種元初要素。<BR>而且，這台設備效率極低，當物品中蘊含要素越少，能有所發現就越難。
+tc.research_page.DECONSTRUCTOR.2=理論上可以得到2點 §2Terra§0 要素和1點 §8Ordo§0 要素，但你只能由一定幾率得知其中一種元初要素。<BR>而且，這台設備效率極低，當物品中蘊含要素越少，能有所發現就越難。
 #
 tc.research_name.BASICTHAUMATURGY=基礎法杖工藝
 tc.research_text.BASICTHAUMATURGY=你的第一柄工具
@@ -646,7 +700,7 @@ tc.research_name.GRATE=物品格柵
 tc.research_text.GRATE=好的都進來
 tc.research_page.GRATE.1=物品格柵可以通過手動或者紅石信號來控制開閉狀態，當其打開時，掉落在其上的物品會穿過它，關閉時則會擋住物品。<BR>使用漏斗或其他方法也能夠將物品從格柵頂部導入，若開啟格柵物品就會出底部彈出。
 #
-tc.research_name.NODETAPPER1=進階節點引流術
+tc.research_name.NODETAPPER1=高級節點引流術
 tc.research_text.NODETAPPER1=取走全部
 tc.research_page.NODETAPPER1.1=通常從節點吸收魔力都相當緩慢……以後再也不會這樣了。<BR>你發現了從靈氣節點吸收魔力更加高效的方式，使得你能夠兩倍於標準速度吸收魔力。
 #
@@ -708,7 +762,7 @@ tc.research_page.ROD_silverwood.1=銀樹被證明是極其優良的魔力儲存�
 #
 tc.research_name.SCEPTRE=工藝權杖
 tc.research_text.SCEPTRE=以製造為己任
-tc.research_page.SCEPTRE.1=工藝權杖是一種特製法杖，它專業製造魔力物品三十年，而別無旁顧.雖無法安裝法杖核心，但其若干特性仍使得它非常值得使用。<BR>首先，這種法杖額外會提供5%的靈氣減免，這比其杖端能提供的還要多。<BR>其次，在其杖柄通常所提供的容量的基礎上，這種法杖還能夠多儲存50%的魔力。<BR>如同其他法杖，工藝權杖也可以通過杖端杖柄的絕大部分組合方式製出-下面幾頁僅僅給出部分例子。
+tc.research_page.SCEPTRE.1=工藝權杖是一種特製法杖，它專於製造魔力物品三十年，而別無旁顧。雖無法安裝法杖核心，但其若干特性仍使得它非常值得使用。<BR>首先，這種法杖額外會提供5%的靈氣減免，這比其杖端能提供的還要多。<BR>其次，在其杖柄通常所提供的容量的基礎上，這種法杖還能夠多儲存50%的魔力。<BR>如同其他法杖，工藝權杖也可以通過杖端杖柄的絕大部分組合方式製出-下面幾頁僅僅給出部分例子。
 #
 tc.research_name.ROD_obsidian=黑曜石杖柄
 tc.research_text.ROD_obsidian=地之魔力容器
@@ -778,11 +832,11 @@ tc.research_page.FOCUSFIRE.2=為法杖安裝核心操作並不複雜，只需在
 #
 tc.research_name.FOCUSFROST=法杖核心：寒霜
 tc.research_text.FOCUSFROST=復仇要在冷靜後再動手
-tc.research_page.FOCUSFROST.1=這種法杖核心能夠讓法杖成為投擲霜星的戰鬥兵器。<BR>使用這柄法杖瞄準時需要相當小心，因為四濺的霜星有時可能會打壞一些脆弱的物品.注意不要在脆弱的建築附近使用它，此外，霜星能夠化水為冰。
+tc.research_page.FOCUSFROST.1=這種法杖核心能夠讓法杖成為投擲霜星的戰鬥兵器。<BR>使用這柄法杖瞄準時需要相當小心，因為四濺的霜星有時可能會打壞一些脆弱的物品。注意不要在脆弱的建築附近使用它，此外，霜星能夠化水為冰。
 #
 tc.research_name.FOCUSSHOCK=法杖核心：震擊
 tc.research_text.FOCUSSHOCK=雷霆與風暴
-tc.research_page.FOCUSSHOCK.1=這種法杖核心能夠匯聚元素能量形成雷電球來傷害敵人。
+tc.research_page.FOCUSSHOCK.1=這種法杖核心能夠匯聚元素能量形成雷電來傷害敵人。
 #
 tc.research_name.FOCUSEXCAVATION=法杖核心：採掘
 tc.research_text.FOCUSEXCAVATION=大地驚駭
@@ -796,7 +850,7 @@ tc.research_name.FOCUSHELLBAT=法杖核心：九獄
 tc.research_text.FOCUSHELLBAT=不可輕視的噩夢
 tc.research_page.FOCUSHELLBAT.1=你的下界之旅讓你充分領略到了九獄焱蝠的可怕。你已經發現如何召喚出這種恐怖的小怪物並指揮它們飛向敵人。讚！
 #
-tc.research_name.FOCUSPORTABLEHOLE=法杖核心：便攜式洞穴
+tc.research_name.FOCUSPORTABLEHOLE=法杖核心：攜帶式洞穴
 tc.research_text.FOCUSPORTABLEHOLE=再也不怕找不到出口
 tc.research_page.FOCUSPORTABLEHOLE.1=你已經能夠成功地使用魔力創造異次元空間。使用該核心的法杖能夠在牆壁或者其他表面打通異次元通道通往彼端。<BR>通道只能維持數秒，且根據通道深度會從法杖中抽取不等數量的魔力以完成施法。<BR>異次元通道在一些特定方塊或者比較複雜的物體表面都不能創建。
 #
@@ -806,11 +860,11 @@ tc.research_page.FOCUSWARDING.1=這種強大的核心有種非常有趣的能力
 #
 tc.research_name.FOCUSPRIMAL=法杖核心：元初
 tc.research_text.FOCUSPRIMAL=原始魔力
-tc.research_page.FOCUSPRIMAL.1=要瘋到什麼程度你才會去做出這個玩意兒啊？這個核心看起來就極其危險，除非是在最受控的環境下，否則只有瘋子才會嘗試去使用它。<BR>誠然，它製造出的元初能量球的確所向披靡。但其飛行軌跡最好的時候是全然漂忽不定，最糟的時候則透著徹頭徹尾的惡意。<BR>然而它尚需更進一步研究：這些能量球顯露出一些有趣的次元特性，且它的能量模式你僅僅在小精靈和靈氣及節點那裡見到過。
+tc.research_page.FOCUSPRIMAL.1=要瘋到什麼程度你才會去做出這種鬼東西啊？這個核心光是看起來就極其危險，除非是在最受控的環境下，否則只有瘋子才會嘗試去使用它。<BR>誠然，它製造出的元初能量球的確所向披靡。但其飛行軌跡說好聽是全然漂忽不定，說難聽點就是透著徹頭徹尾的惡意。<BR>然而它尚需更進一步研究：這些能量球顯露出一些有趣的次元特性，且它的能量模式你僅僅在小精靈和靈氣及節點那裡見到過。
 #
-tc.research_name.FOCUSPOUCH=法杖核心手袋
-tc.research_text.FOCUSPOUCH=法杖核心的便攜口袋
-tc.research_page.FOCUSPOUCH.1=當你已經收集了一定數量的核心後如何方便得攜帶它們就成了惱人的問題，核心手袋就能有效解決該問題。<BR>當你試圖切換法杖核心時，會首先檢查手袋裡的核心類型，且卸除的核心也會優先放置在手袋內。你也可以右鍵打開手袋來放置或者取出核心。
+tc.research_name.FOCUSPOUCH=法杖核心腰包
+tc.research_text.FOCUSPOUCH=法杖核心的隨身袋
+tc.research_page.FOCUSPOUCH.1=當你已經收集了一定數量的核心後如何方便得攜帶它們就成了惱人的問題，核心腰包就能有效解決該問題。<BR>當你試圖切換法杖核心時，會首先檢查腰包裡的核心類型，且卸除的核心也會優先放置在腰包內。你也可以右鍵打開腰包來放置或者取出核心。
 #
 tc.research_name.BOOTSTRAVELLER=旅人之靴
 tc.research_text.BOOTSTRAVELLER=專業行走設備
@@ -1026,10 +1080,10 @@ tc.research_page.CORESORTING.1=這種核心的效果類似空置核心，但有�
 tc.research_name.COREFISHING=傀儡核心：垂釣
 tc.research_text.COREFISHING=海屋獨家銷售
 tc.research_page.COREFISHING.1=這種核心讓傀儡為你的晚餐而垂釣。<BR>為發揮最佳效果傀儡需要放在露天的深水邊。<BR>傀儡的力量決定垂釣速度。<BR>
-tc.research_page.COREFISHING.2=        §n風升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>裝有這種升級的傀儡有小機率能一次抓到不止一條魚.
-tc.research_page.COREFISHING.3=        §n火升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>安裝這種升級的傀儡會自動烹飪它抓住的魚.
-tc.research_page.COREFISHING.4=       §n秩序升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>秩序升級會提高釣到大魚的概率.
-tc.research_page.COREFISHING.5=       §n混沌升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>混沌升級會減少釣到廉價物品的概率.
+tc.research_page.COREFISHING.2=        §n風升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>裝有這種升級的傀儡有小機率能一次抓到不止一條魚。
+tc.research_page.COREFISHING.3=        §n火升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>安裝這種升級的傀儡會自動烹飪它抓住的魚。
+tc.research_page.COREFISHING.4=       §n秩序升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>秩序升級會提高釣到大魚的概率。
+tc.research_page.COREFISHING.5=       §n混沌升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>混沌升級會減少釣到廉價物品的概率。
 #
 tc.research_name.COREALCHEMY=傀儡核心：煉金
 tc.research_text.COREALCHEMY=移動周圍的要素
@@ -1062,7 +1116,7 @@ tc.research_page.UPGRADEENTROPY.1=安裝這種升級的傀儡能夠自動對傷�
 #
 tc.research_name.TINYHAT=禮帽
 tc.research_text.TINYHAT=曬不著，淋不到
-tc.research_page.TINYHAT.1=這頂漂亮的帽子對任何傀儡來說都是完美的裝飾品. 它不僅能讓傀儡們顯得時髦，還能提高其生命力和活躍度。
+tc.research_page.TINYHAT.1=這頂漂亮的帽子對任何傀儡來說都是完美的裝飾品。 它不僅能讓傀儡們顯得時髦，還能提高其生命力和活躍度。
 #
 tc.research_name.TINYFEZ=菲斯帽
 tc.research_text.TINYFEZ=…也很酷
@@ -1078,7 +1132,7 @@ tc.research_page.TINYGLASSES.1=傀儡們都是出了名的近視眼，戴上這�
 #
 tc.research_name.TINYDART=傀儡暗器
 tc.research_text.TINYDART=細小而尖銳
-tc.research_page.TINYDART.1=暗器只能裝備給戰鬥用傀儡.雖說與直接攻擊相比威力稍弱，但近身肉搏的傀儡卻因此也有了遠程制敵的可能。
+tc.research_page.TINYDART.1=暗器只能裝備給戰鬥用傀儡。雖說與直接攻擊相比威力稍弱，但近身肉搏的傀儡卻因此也有了遠程制敵的可能。
 #
 tc.research_name.TINYVISOR=面甲
 tc.research_text.TINYVISOR=謝謝合作
@@ -1100,7 +1154,7 @@ tc.research_page.DISTILESSENTIA.2=接下來你需要利用§l奧術蒸餾器§r�
 tc.research_name.JARLABEL=要素罐子和標籤
 tc.research_text.JARLABEL=儲存和整理要素源質
 tc.research_page.JARLABEL.1=可以用§l要素罐子§r儲存要素源質。<BR>將要素罐子放置在地上，它能夠非常明瞭直觀地儲存源質。 由於魔法的力量，使用或者存放罐子中的源質都是小菜一碟的事情。<BR>將罐子置於奧術蒸餾器噴嘴下方，噴嘴會自動流出源質填充罐子.你也可以使用要素安瓿來填充或者清空罐子。<BR>此外它們還非常便於大量而密集地進行源質儲存。
-tc.research_page.JARLABEL.2=空手狀態下按住潛行鍵(Shift)點擊罐子或者蒸餾器能夠清空它們。<BR>只要罐子裡裝有源質，你就可以貼上§l罐子標籤l§。<BR>標籤將罐子鎖定為接收特定類型的要素源質而不再能接收任意其他類型的源質。<BR>空手對著罐子帖著標籤的一面按住潛行點擊，能夠取下標籤。注意如果誤點了其他面會清空罐子裡裝的源質。
+tc.research_page.JARLABEL.2=空手狀態下按住潛行鍵(Shift)右擊罐子或者蒸餾器能夠清空它們。<BR>只要罐子裡裝有源質，你就可以貼上§l罐子標籤l§。<BR>標籤將罐子鎖定為接收特定類型的要素源質而不再能接收任意其他類型的源質。<BR>空手對著罐子帖著標籤的一面按住潛行點擊，能夠取下標籤。注意如果誤點了其他面會清空罐子裡裝的源質。
 tc.research_page.JARLABEL.3=你可以對著空罐子使用與某種要素綁定過的標籤(在合成台中合成裝有要素的安瓿與標籤)，這樣空罐子會自動綁定到這種要素，變成對應的標籤罐子。而標籤上的要素僅僅只是標記，並不真的消耗源質。<BR>對著裝滿了要素的罐子使用，則會把罐子變成和其容納要素相對應的標籤罐子。<LINE>綁定過某種要素的標籤只需要放入合成網格參與一次合成就能變回空白標籤。
 #
 tc.research_name.INFERNALFURNACE=煉獄熔爐
@@ -1226,7 +1280,7 @@ tc.research_page.CENTRIFUGE.2=源質緩衝器能夠允許你暫存一定量的�
 #
 tc.research_name.TRAVELTRUNK=箱子寶寶
 tc.research_text.TRAVELTRUNK=會走路的行李
-tc.research_page.TRAVELTRUNK.1=這是一項對所有四處奔忙的秘術使來說都非常有用的傀儡學研究衍生產品：箱子寶寶。<BR>這個木頭做的箱子會開開心心，蹦蹦跳跳跟在主人身後，充當一個便攜的儲物空間，裝下你拾取的任意物品。<BR>箱子寶寶做得非常結實堅韌，能夠承受大量的攻擊，而且不畏火焰，也不會受到掉落傷害。<BR>箱子寶寶將追隨它的主人前往任何地方——哪怕是跨位面的旅行，
+tc.research_page.TRAVELTRUNK.1=這是一項對所有四處奔忙的秘術使來說都非常有用的傀儡學研究衍生產品：箱子寶寶。<BR>這個木頭做的箱子會開開心心，蹦蹦跳跳跟在主人身後，充當一個隨身的儲物空間，裝下你拾取的任意物品。<BR>箱子寶寶做得非常結實堅韌，能夠承受大量的攻擊，而且不畏火焰，也不會受到掉落傷害。<BR>箱子寶寶將追隨它的主人前往任何地方——哪怕是跨位面的旅行，
 tc.research_page.TRAVELTRUNK.2=但是如果你希望它不再跟著你，在它的界面裡也有個很方便的按鈕來讓它留在原地。<BR>隨著時間流逝箱子寶寶能夠自己回復它受到的傷害，但你也可以餵給它任意食物來加快這個過程。<BR>用傀儡使之鈴能夠像回收傀儡那樣回收箱子寶寶，但這樣做會讓箱子寶寶裝著的所有物品掉落在地上，按住潛行點擊它會取下安裝在它身上的升級，但有一定幾率遺失。<BR>就像普通的傀儡那樣，箱子寶寶能安裝升級，但升級將對箱子寶寶起到獨特的效果。如果你已經發現了相關升級可以閱讀後面幾頁來查看詳細信息。
 tc.research_page.TRAVELTRUNK.UAI=          §n風升級解鎖能力§r<BR>安裝該升級讓箱子寶寶移動更加迅捷。
 tc.research_page.TRAVELTRUNK.UEA=          §n地升級解鎖能力§r<BR>安裝該升級將會為箱子寶寶額外增加一行物品空間來攜運更多物品。
@@ -1247,7 +1301,7 @@ tc.research_name.JARVOID=虛空罐子
 tc.research_text.JARVOID=源質太多？不可能！
 tc.research_page.JARVOID.1=虛空罐子用起來類似普通的要素罐子，但是有一個重要的不同之處：即使它們裝滿了也能夠繼續接收要素源質，但多餘的要素源質會流失掉.這讓你總會有這種源質可用，但卻不至於糾結多做出來的那些。<BR>就像普通的要素罐子一樣虛空罐子也可用帖標籤。但它們在源質管道系統中的優先級低於其他貼了標籤的罐子(介於沒有貼標籤的罐子和貼了標籤的罐子之間)。優先級(或吸力)：標籤罐子>標籤虛空罐子>虛空罐子>罐子。
 #
-tc.research_name.TUBEFILTER=進階源質管道
+tc.research_name.TUBEFILTER=高級源質管道
 tc.research_text.TUBEFILTER=你需要什麼，需要用在哪裡
 tc.research_page.TUBEFILTER.1=§n過濾源質管道§r 如同普通管道，但可以貼標籤。當使用標籤標記後它將只限定於運輸指定類型的要素源質。<BR>空手時按住 shift 點擊將取下標籤。
 tc.research_page.TUBEFILTER.2=§n限制源質管道§r 如同普通管道，但它們會將通過的源質一分為二。<LINE>§n定向源質管道§r 只接受某個方向上抽取來的源質，藍色標記指示了它接受抽取物的方向。
@@ -1294,11 +1348,11 @@ tc.research_page.RUNICHEALING.1=這是種特別版的護盾戒指。<BR>較改�
 #
 tc.research_name.RUNICKINETIC=衝擊護盾腰帶
 tc.research_text.RUNICKINETIC=呵呵，你會後悔的
-tc.research_page.RUNICKINETIC.1=這是種特別版的護盾腰帶。<BR>較改造前的腰帶蓄能量略少些，但當護盾被打破時會爆發出一陣能夠傷害並推開附近所有物品的衝擊波。<BR>在02s內只能啟動一次這種效果。
+tc.research_page.RUNICKINETIC.1=這是種特別版的護盾腰帶。<BR>較改造前的腰帶蓄能量略少些，但當護盾被打破時會爆發出一陣能夠傷害並推開附近所有物品的衝擊波。<BR>在20s內只能啟動一次這種效果。
 #
 tc.research_name.RUNICEMERGENCY=應急護盾護身符
 tc.research_text.RUNICEMERGENCY=你就不能讓我舒舒坦坦
-tc.research_page.RUNICEMERGENCY.1=這是種特別版的護盾護身符。<BR>較改造前的護身符蓄能量略少些，但當護盾被打破時這項升級能夠立即再為護盾增加8點能量。<BR>每分鐘只能啟動一次這種效果。
+tc.research_page.RUNICEMERGENCY.1=這是種特別版的護盾護身符。<BR>較改造前的護身符蓄能量略少些，但當護盾被打破時這項升級能夠立即再為護盾增加8點能量。<BR>每分鐘只能啟動一次這種效果。 
 #
 tc.research_name.WARDEDARCANA=守護之奧術
 tc.research_text.WARDEDARCANA=門禁控制
@@ -1311,4 +1365,16 @@ tc.research_name.VISAMULET=魔力儲存
 tc.research_text.VISAMULET=儉以防匱
 tc.research_page.VISAMULET.1=大多數時候，對秘術使來說，有一根法杖就遠遠滿足需求了，但有時候它儲存的魔力卻偏偏不夠用.多帶一支法杖就能解決問題，但實驗表明另有他法。<BR>製作一枚儲存有魔力的護身符，就能在法杖或者相關物品耗盡魔力時為其充能了。<BR>然而你的這項成就並非盡善盡美。只有手裡攥著法杖的時候才能為其充能，且充能速度緩慢。
 tc.research_page.VISAMULET.2=然而護身符是類似修復附魔或者符文護盾這類物品非常好的能量來源。<BR>護身符只能在法杖基座中充能。
+#
+tc.research_name.NODESTABILIZER=節點穩定器
+tc.research_text.NODESTABILIZER=醫治節點
+tc.research_page.NODESTABILIZER.1=當把這裝置放在一個節點下方，它能為節點提供一些幫助。<BR>首先，它能防止節點吸取其他節點的要素，或是被其他節點吸取要素。 其次，它能防止不穩定的節點流失要素，且有極低機率完全去除節點的不穩定性。 最後，它還有非常微小的機率能把凋零的節點轉為蒼白。<BR>節點穩定器的效果抽取自節點本身。 雖然不會減少節點內的要素，但是會使節點的要素補充速度減半。
+#
+tc.research_name.NODESTABILIZERADV=高級節點穩定器
+tc.research_text.NODESTABILIZERADV=選擇性穩定
+tc.research_page.NODESTABILIZERADV.1=高級節點穩定器與普通的穩定器有幾個主要的差異。<BR>首先，它依舊能防止較弱小的節點流失要素，但是它允許穩定的節點吸收弱小節點的要素。<BR>其次，它有較高的機率修復不穩定與凋零的節點。<BR>不幸的是這將更加大量的消耗節點的能量，雖然依舊不會消耗到節點內的要素，但即使是最明亮的節點，其要素的回復速度也幾乎完全被抑制。
+#
+tc.research_name.GOLEMFETTER=傀儡腳鐐
+tc.research_text.GOLEMFETTER=讓它們自制
+tc.research_page.GOLEMFETTER.1=這項簡單的裝置可以讓傀儡使們讓傀儡暫時停止運作。<BR>當這塊方塊被紅石訊號啟動時，任何經過其上方的傀儡將會站定並停止手邊的工作。<BR>當這塊方塊被關閉後他們才會再度投入原本的工作。
 #
