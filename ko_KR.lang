@@ -73,6 +73,8 @@ tile.blockCosmeticSolid.5.name=수지 블럭
 tile.blockCosmeticSolid.6.name=아케인 스톤
 tile.blockCosmeticSolid.7.name=아케인 스톤 벽돌
 tile.blockCosmeticSolid.8.name=충전된 흑요석 토템
+tile.blockCosmeticSolid.9.name=골렘 족쇄
+tile.blockCosmeticSolid.10.name=활성화된 골렘 족쇄
 tile.blockCustomPlant.0.name=그레이트우드 묘목
 tile.blockCustomPlant.1.name=실버우드 묘목
 tile.blockCustomPlant.2.name=시머리프
@@ -166,6 +168,8 @@ tile.blockStoneDevice.5.name=완드 충전 주각
 tile.blockStoneDevice.6.name=인퓨전 기둥
 tile.blockStoneDevice.7.name=인퓨전 기둥
 tile.blockStoneDevice.8.name=복합 충전 포커스
+tile.blockStoneDevice.9.name=노드 스태빌라이저
+tile.blockStoneDevice.10.name=Adv. 노드 스태빌라이저
 tile.blockTube.0.name=에센시아 튜브
 tile.blockTube.1.name=에센시아 밸브
 tile.blockTube.2.name=연금술 원심분리기
@@ -388,6 +392,7 @@ item.capacity.text=용량
 item.ItemAmuletVis.text=손에 쥔 완드를 천천히 충전시킵니다.
 item.ItemAmuletVis.0.name=비스 스톤
 item.ItemAmuletVis.1.name=비스 부적
+item.ItemGirdleHover.name=사우모스태틱 허리띠
 #
 # Fluids
 fluid.fluxGoo=플럭스 점액
@@ -442,7 +447,8 @@ death.attack.swarm.item=%1$s 가 %3$s을(를) 사용하여 %2$s에게 감염되�
 tc.handmirrorlinkedto=연결 시작
 tc.handmirrorlinked=성공적으로 연결되었습니다.
 tc.handmirrorerror=목적지 거울이 없거나 잘못 설치되었습니다. 연결이 끊어집니다.
-tc.discoveryerror=이것을 이해하기위한 지식이 불충분합니다.
+tc.researcherror=이것을 이해하기 위한 지식이 부족합니다.
+tc.discoveryerror=이것을 이해하기 위해선 %1$s 연구를 선행해야 합니다.
 tc.discoveryunknown=알 수 없는 이론
 tc.discoveryprogress=% 완료
 tc.portableholeerror=포터블 홀에 저장된 에너지가 불충분합니다.
@@ -513,13 +519,11 @@ tc.aspect.vitium=테인트, 오염
 tc.aspect.lux=빛
 tc.aspect.potentia=힘
 tc.aspect.motus=움직임, 활력
-tc.aspect.saxum=돌
 tc.aspect.tempestas=날씨
 tc.aspect.victus=생명
 tc.aspect.mortuus=죽음
 tc.aspect.volatus=비행
 tc.aspect.tenebrae=암흑
-tc.aspect.granum=씨앗, 미숙함
 tc.aspect.limus=슬라임, 끈적끈적함
 tc.aspect.herba=식물
 tc.aspect.arbor=나무, 목재
@@ -550,7 +554,56 @@ tc.aspect.machina=기계, 기구
 tc.aspect.vinculum=함정, 속박
 tc.aspect.permutatio=교환, 거래
 tc.aspect.corpus=살, 시체
-#  
+#
+tc.aspect.help.aer=공기
+tc.aspect.help.terra=땅
+tc.aspect.help.ignis=불
+tc.aspect.help.aqua=물
+tc.aspect.help.ordo=질서
+tc.aspect.help.perditio=부서진 것들
+tc.aspect.help.vacuos=비어있는 것들
+tc.aspect.help.praecantatio=마법과 관련된 것들
+tc.aspect.help.auram=노드
+tc.aspect.help.vitium=마법의 부정적 영향
+tc.aspect.help.lux=빛
+tc.aspect.help.potentia=힘
+tc.aspect.help.motus=움직이는 것들
+tc.aspect.help.tempestas=날씨
+tc.aspect.help.victus=생명의 근원
+tc.aspect.help.mortuus=죽음의 특성
+tc.aspect.help.volatus=비상
+tc.aspect.help.tenebrae=어둠
+tc.aspect.help.limus=끈적끈적한 것들
+tc.aspect.help.herba=식물
+tc.aspect.help.arbor=나무
+tc.aspect.help.spiritus=영혼
+tc.aspect.help.humanus=인간
+tc.aspect.help.bestia=짐승
+tc.aspect.help.exanimis=언데드의 특성
+tc.aspect.help.cognitio=인지
+tc.aspect.help.sensus=시각
+tc.aspect.help.messis=작물
+tc.aspect.help.meto=농사
+tc.aspect.help.metallum=금속
+tc.aspect.help.perfodio=채광
+tc.aspect.help.instrumentum=도구
+tc.aspect.help.telum=무기
+tc.aspect.help.gelum=차가운 것들
+tc.aspect.help.vitreus=수정
+tc.aspect.help.sano=치유
+tc.aspect.help.iter=여정
+tc.aspect.help.venenum=독극물
+tc.aspect.help.alienis=이계의 기괴함
+tc.aspect.help.tutamen=보호와 관련된 것들
+tc.aspect.help.fames=음식
+tc.aspect.help.fabrico=제작
+tc.aspect.help.lucrum=가치있는 것들
+tc.aspect.help.pannus=직물
+tc.aspect.help.machina=기계적인 것들
+tc.aspect.help.vinculum=속박과 관련된 것들
+tc.aspect.help.permutatio=교환과 변화
+tc.aspect.help.corpus=살점
+#
 # Research categories
 tc.research_category.BASICS=기본 정보
 tc.research_category.THAUMATURGY=마도학
@@ -595,8 +648,8 @@ tc.research_page.KNOWFRAG.1=탐험을 하다 보면 고대의 잃어버린 지�
 #
 tc.research_name.ASPECTS=마법의 위상들
 tc.research_text.ASPECTS=마법의 구성요소
-tc.research_page.ASPECTS.1=모든 물체들과 생물들은 §5위상§0이라 알려진 신비로운 원소들로 엮여 있습니다. 위상들은 물체의 구성원리를 담고 있습니다. 아주 단순한 돌도 Saxum이란 위상을 갖고 있으며 돌보다 훨씬 복잡한, 이를테면 나무나 생명체들 또한 다양한 위상들을 제각각 포함하고 있습니다. 위상은 약 50종류가 있는것으로 알려졌으며, 현재도 계속해서 새로운 위상이 발견되고 있습니다.<LINE>위상은 §5태초의 위상§0과 §5복합위상§0으로 구분되어집니다.
-tc.research_page.ASPECTS.2=§l태초의 위상§r에는 §6Aer§0 (공기), §2Terra§0 (대지), §cIgnis§0 (불), §3Aqua§0 (물), §fOrdo§0 (질서), §8Perditio§0 (파괴)의 총 6종류가 있으며 이것들은 다른 위상의 기본 재료가 되는 위상입니다.<BR>§l복합위상§r 은 이름 그대로 두가지 위상이 합성된 것입니다. 가장 단순한 것은 태초의 위상 두가지로 만들수 있지만 복합위상끼리 합성해서 만드는 복잡한 복합위상 또한 존재합니다.<BR>가장 단순한 복합위상으로는 Victus (생명)가 있으며 §2Terra§0와 §3Aqua§0로 이루어져 있습니다. 
+tc.research_page.ASPECTS.1=모든 물체들과 생물들은 §5위상§0이라 알려진 신비로운 원소들로 엮여 있습니다. 위상들은 물체의 구성원리를 담고 있습니다. 아주 단순한 돌도 Terra란 위상을 갖고 있으며 돌보다 훨씬 복잡한, 이를테면 나무나 생명체들 또한 다양한 위상들을 제각각 포함하고 있습니다. 위상은 약 50종류가 있는것으로 알려졌으며, 현재도 계속해서 새로운 위상이 발견되고 있습니다.<LINE>위상은 §5태초의 위상§0과 §5복합위상§0으로 구분되어집니다.
+tc.research_page.ASPECTS.2=§l태초의 위상§r에는 §6Aer§0 (공기), §2Terra§0 (대지), §cIgnis§0 (불), §3Aqua§0 (물), §fOrdo§0 (질서), §8Perditio§0 (혼돈)의 총 6종류가 있으며 이것들은 다른 위상의 기본 재료가 되는 위상입니다.<BR>§l복합위상§r 은 이름 그대로 두가지 위상이 합성된 것입니다. 가장 단순한 것은 태초의 위상 두가지로 만들수 있지만 복합위상끼리 합성해서 만드는 복잡한 복합위상 또한 존재합니다.<BR>가장 단순한 복합위상으로는 Victus (생명)가 있으며 §2Terra§0와 §3Aqua§0로 이루어져 있습니다. 
 tc.research_page.ASPECTS.3=아이템이 가지고 있는 위상을 알고싶다면 Shift키를 누른 채로 마우스를 아이템 위에 올려놓으면 됩니다. 하지만 이렇게 구성 위상을 보기 위해선 그 위상들이 알고 있는 위상이어야 하는데, 그 전까진 알 수 없는 위상으로 남아있게 됩니다.<LINE>특수한 방법을 통해 물체로부터 추출되서 정화된 위상은 §5비스(Vis)§0라고 부릅니다. 비스는 마법물품 제작에 들어가는 재료로도, 연구 과제로도 대단히 큰 가치를 지닙니다.<BR>비스는 보통 완드에 저장하지만 액체상태로 저장하는 것 또한 가능합니다. 액체상태의 비스는 §5에센시아§0라 부릅니다.
 #
 tc.research_name.NODES=오라와 노드
@@ -636,7 +689,7 @@ tc.research_page.RESEARCHDUPE.1=연구일지를 복사하는 방법을 알아내
 tc.research_name.DECONSTRUCTOR=분석 테이블
 tc.research_text.DECONSTRUCTOR=관찰만으로는 충분하지 않을 때
 tc.research_page.DECONSTRUCTOR.1=마도학자들에게는 지식의 부족으로 인해 연구 진행이 불가능해지는 시점이 올 때가 있습니다. <BR>이 때 가능한 해결책이 바로 분석 테이블입니다. 이 테이블은 물체를 연구할 수 있는 가장 기본이 되는 단위로 쪼갤 수 있도록 해 줍니다. 하지만 이 테이블에도 한계가 있는데, 복합위상을 분해할 경우 가장 기본적인 태초의 위상 단 하나만 나오게 됩니다. 이 과정에서 많은 지식이 소실되며, 마도학자는 필요한 위상이 나오기를 바라는 수밖에 없습니다.
-tc.research_page.DECONSTRUCTOR.2=예를 들어, 조약돌(Saxum과 §8Perditio§0)는 2 §2Terra§0와 1 §8Perditio§0로 분해되며, 이 중 하나만이 발견됩니다.<BR>이 과정은 매우 느리며, 분해 대상이 가진 위상이 적을수록 무언가 발견될 확률도 낮아집니다.
+tc.research_page.DECONSTRUCTOR.2=예를 들어, 철괴(Metallum)는 §2Terra§0와 §fOrdo§0로 분해되며, 이 중 하나만이 발견됩니다.<BR>이 과정은 매우 느리며, 분해 대상이 가진 위상이 적을수록 무언가 발견될 확률도 낮아집니다.
 #
 tc.research_name.BASICTHAUMATURGY=기본 완드 제작
 tc.research_text.BASICTHAUMATURGY=첫 번째 도구
@@ -709,7 +762,7 @@ tc.research_page.ROD_silverwood.1=실버우드는 마법에너지 저장소로�
 #
 tc.research_name.SCEPTRE=제작용 홀
 tc.research_text.SCEPTRE=제작을 위해서
-tc.research_page.SCEPTRE.1=제작용 홀은 오직 마법 도구 제작을 위해 고안되었습니다. 포커스를 장착시킬 수 없는 대신 홀만의 특별한 기능들을 갖고 있습니다.<BR우선, 홀은 완드 캡의 비스 절약량에 추가로 5% 더 절약할 수 있도록 해 줍니다.<BR>또한 홀을 제작할 때 사용한 코어의 기본 저장량의 50%를 추가적으로 가집니다.<BR>완드와 마찬가지로 홀은 대부분의 코어와 완드 캡으로 만들 수 있습니다. 다음 페이지에는 몆가지 예시가 나와있습니다.
+tc.research_page.SCEPTRE.1=제작용 홀은 오직 마법 도구 제작을 위해 고안되었습니다. 홀은 포커스를 장착시킬 수 없는 대신 완드와는 다른 특별한 기능들을 갖고 있습니다.<BR>우선, 홀은 사용된 캡의 비스 절약량에 추가로 5% 더 절약할 수 있도록 해 줍니다.<BR>또한 홀을 제작할 때 사용한 코어의 기본 저장량의 50%를 추가적으로 가집니다.<BR>완드와 마찬가지로 홀은 대부분의 코어와 완드 캡으로 만들 수 있습니다. 다음 페이지에는 몆가지 예시가 나와있습니다.
 #
 tc.research_name.ROD_obsidian=흑요석 완드 코어
 tc.research_text.ROD_obsidian=단단한 비스 저장소
@@ -807,7 +860,7 @@ tc.research_page.FOCUSWARDING.1=이 포커스는 꽤 재밌는 기능을 가진 
 #
 tc.research_name.FOCUSPRIMAL=완드 포커스: 태초의 힘
 tc.research_text.FOCUSPRIMAL=정제되지 않은 마력
-tc.research_page.FOCUSPRIMAL.1=도대체 어떤 광기가 너에게 잠식해서 이것을 만들도록 한 거지? 이 포커스는 굉장히 위험하고, 오직 미치광이만이 이 포커스를 사용하려 들거야.<BR>이것이 만들어내는 정제되지 않은 태초의 에너지 덩어리는 굉장히 강력할지라도 그 구체가 날아가는 방향은 도무지 종잡을 수 없고, 심지어는 자신을 향해 날아 들지도 몰라.<BR>하지만, 어쩌면 연구 해 볼 가치가 있을지도 모르지. 이것에서 발사된 구체는 꽤나 흥미로운 특성을 지니고 있고, 위습이나 오라 노드에서만 확인 할 수 있는 에너지 패턴을 띠고 있어.
+tc.research_page.FOCUSPRIMAL.1=이 포커스를 도대체 무슨 생각으로 만든 겁니까? 미치광이가 아닌 이상에야 이 포커스를 굳이 만들 필요는 없을 겁니다.<BR>이 포커스가 발사하는 정제되지 않은 태초의 에너지 덩어리는 굉장히 강력할지라도, 그 구체의 궤적은 도무지 종잡을 수가 없으며 심지어는 자신을 향해 날아드는 경우도 있습니다.<BR>하지만, 어쩌면 연구 해 볼 가치가 있을지도 모르겠군요. 이것에서 발사된 구체는 꽤나 흥미로운 특성을 지니고 있고, 위습이나 오라 노드에서만 확인 할 수 있는 에너지 패턴을 띠고 있습니다.
 #
 tc.research_name.FOCUSPOUCH=포커스 주머니
 tc.research_text.FOCUSPOUCH=좀 더 편한 포커스 보관
@@ -991,6 +1044,8 @@ tc.research_page.COREEMPTY.1=이 코어가 장착된 골렘은 연결된 인벤�
 tc.research_name.COREUSE=골렘 코어: 사용
 tc.research_text.COREUSE=클릭 클릭
 tc.research_page.COREUSE.1=마치 비우기 코어처럼 이 코어가 장착된 골렘은 연결된 인벤토리에서 아이템을 꺼냅니다. 하지만 이 코어가 장착된 골렘은 그 아이템을 지정된 인벤토리에 넣거나 땅바닥에 버리는 대신 지정된 장소나 블럭 위에 사용합니다.<BR>골렘이 아이템을 사용하면 플레이어가 마치 우클릭을 한 것과 같은 효과가 발생합니다.<BR>골렘을 우클릭해서 특정 아이템만 꺼내 사용하도록 설정할 수 있습니다.
+tc.research_page.COREUSE.2=만약 골렘이 인벤토리에 연결되어있지 않을 경우 빈 손으로 지정해준 동작을 수행하려 시도합니다. 다시 말해, 선택한 블럭(혹은 그와 비슷한 것)클릭 합니다.<LINE>골렘이 '클릭'을 어떻게 할지도 지정해 줄 수있습니다. 여기에는 단순히 우클릭, 좌클릭만이 아니라 쉬프트를 누른 채로 클릭하는 등의 동작도 포함됩니다.<BR>특정 블럭이 아닌 그냥 허공에 클릭하도록 지정할 수도 있습니다.
+tc.research_page.COREUSE.3=      §nAir Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>이 업그레이드가 적용된 사용 코어 골렘은 '클릭'을 좀 더 빠른 속도로 수행합니다.
 #
 tc.research_name.COREFILL=골렘 코어: 채우기
 tc.research_text.COREFILL=인벤토리를 항상 채워둡니다
@@ -1126,12 +1181,16 @@ tc.research_page.INFUSION.5=놓아 둘 수도 있습니다. 이것들은 불안�
 #
 tc.research_name.JARBRAIN=단지 안의 뇌
 tc.research_text.JARBRAIN=악의로 가득찬
-tc.research_page.JARBRAIN.1=- 썩은 좀비 뇌 하나를 단지 안에 던져넣으세요.<BR>- 물을 넣고 거미 눈을 약간 첨가합니다.<BR>- 사악한 생각을 하며 완드로 휘저어 주세요.<BR>레시피를 정확히 따랐다면 악의로 가득 찬, 부분적으로 살아있는 좀비 뇌를 얻을 수 있습니다.<BR>이 뇌는 좀비였을 적의 탐욕을 지니고 있습니다. 이제 다른 뇌는 먹을 수 없게 됐지만, 그 대신 주변에 떨어진 경험치를 흡수합니다. 뇌가 부당하게 가져간 경험치는 단지를 흔들어서 다시 뺏어 올 수 있습니다.
+tc.research_page.JARBRAIN.1=- 썩은 좀비 뇌 하나를 단지 안에 던져넣으세요.<BR>- 물을 넣고 거미 눈을 약간 첨가합니다.<BR>- 사악한 생각을 하며 완드로 휘저어 주세요.<BR>레시피를 정확히 따랐다면 악의로 가득 찬, 부분적으로 살아있는 좀비 뇌를 얻을 수 있습니다.<BR>이 뇌는 좀비였을 적의 탐욕을 지니고 있습니다. 이제 다른 뇌는 먹을 수 없게 됐지만, 그 대신 주변에 떨어진 경험치를 흡수합니다. 뇌가 부당하게 가져간 경험치는 단지를 흔들어서 다시 뺏어 올 수 있습니다.<BR>단지가 가득 찼을 경우 입자 효과가 표시됩니다.
 #
 tc.research_name.HOVERHARNESS=사우모스태틱 하네스
-tc.research_text.HOVERHARNESS=마치 새와 같이
+tc.research_text.HOVERHARNESS=마치 새처럼
 tc.research_page.HOVERHARNESS.1=마침내 비행의 비밀을 알아냈습니다. 사우모스태틱 에너지를 사용해 마력장 안을 중력에 구애받지 않고 비행할 수 있는 이 장치에는 양자역학의 원리도 약간 적용되었습니다.<BR>하네스는 작동하는데 연료가 필요합니다. 이 장치는 연료로 순수한 Potentia 에센시아를 사용합니다. 하네스를 손에 든 채로 우클릭해 뜨는 창에 Potentia 단지를 넣어주면 됩니다.<BR>장착 후 F키를 눌러서 하네스를 활성화/비활성화할 수 있습니다.
 tc.research_page.HOVERHARNESS.2=활성화 된 동안에는 지속적으로 Potentia를 소모합니다.<BR>신속 인챈트를 부여해서 비행 이동 속도를 빠르게 할 수 있습니다.
+#
+tc.research_name.HOVERGIRDLE=사우모스태틱 허리띠
+tc.research_text.HOVERGIRDLE=마치 비행기처럼
+tc.research_page.HOVERGIRDLE.1=이 허리띠는 사우모스태틱 하네스와 같이 사용하도록 특별히 고안된 허리띠입니다. 이 허리띠 자체에는 낙하 데미지를 어느정도 무마해 주는 수준의 부양력밖에 없습니다.<BR>하지만 하네스와 같이 착용하였을 경우는 이야기가 좀 달라지는데, 약간의 연료를 더 소모하는 것으로 하네스의 속도를 큰 폭으로 끌어올려주게 됩니다.
 #
 tc.research_name.ADVANCEDGOLEM=강화 골렘
 tc.research_text.ADVANCEDGOLEM=이건 생각을 좀 해봐야 겠는데...
@@ -1172,7 +1231,8 @@ tc.research_page.PAVETRAVEL.1=아케인 스톤의 마법적인 구조를 개량�
 tc.research_name.PAVEWARD=경계석
 tc.research_text.PAVEWARD=외부로부터의 보호
 tc.research_page.PAVEWARD.1=아케인 스톤을 경계벽으로 개량해서 거의 대부분의 생물이 지나가지 못하도록 하는 바닥재를 만들 수 있습니다.<BR>이 바닥재가 100% 완벽한 것은 아니며 다른 플레이어가 지나가는 것은 막지 못하지만 거의 대부분의 위협은 막아낼 수 있습니다. 또한 골렘은 이 돌 위를 지나가지 못합니다.<BR>최상의 결과를 위해서는 보호하고 싶은 장소 주위를 이 돌로 끊어진 부분 없이 둘러치는 것이 좋습니다.<BR>활성화된 레드스톤 신호는 이 돌의 특성을 억제시킵니다.
-#
+tc.research_page.PAVEWARD.2=경계석 위에 표시되는 룬의 색은 경계석의 현재 상태를 나타냅니다.<BR>보라색 룬은 현재 경계석의 기능이 작동중임을 나타냅니다.<BR>파란색 룬은 현재 경계석이 레드스톤 신호에 의해 비활성화 되었음을 의미합니다.<BR>빨간색 룬은 현재 경계석이 보호하는 구역 어딘가에 빠져나갈 수 있는 틈새가 있다는 것을 의미합니다.
+ #
 tc.research_name.WANDPED=완드 충전 주각
 tc.research_text.WANDPED=자동 완드 충전기
 tc.research_page.WANDPED.1=완드를 충전하기 위해 여기저기 돌아다니는 것도 좋지만 역시 자동 충전이 좀 더 편리하겠죠.<BR>이 특별히 제작된 주각은 주각 안에 놓여진 완드에 자동으로 주변의 노드에서 비스를 끌어와 충전시켜줍니다.<BR>완드가 철이나 완드 코어기로 만들어진 저급이 아닌 이상 노드가 완전히 소모되지는 않습니다.
@@ -1270,13 +1330,13 @@ tc.research_page.THAUMATORIUM.3=사우마토리엄은 기본적으로는 한번�
 #
 tc.research_name.RUNICARMOR=루닉 결계
 tc.research_text.RUNICARMOR=가드를 올려라!
-tc.research_page.RUNICARMOR.1=지속적인 보호마법의 연구 결과 루닉 결계의 개념에 대해 알게 되었습니다. 이름 때문에 착각할 수 도 있지만, 이것은 일반적인 보호구가 아니라 평상복에 덧씌우는 아뮬렛, 반지 등의 집합체입니다.<BR>이 장치는 대부분의 데미지를 막아내는 결계를 생성합니다. 결계는 체력바 위에 덧씌워져서 나타나며, 착용자에게 가해지는 모든 데미지를 우선해서 받아냅니다. 결계 수치가 바닥나면 평소처럼 착용자에게 데미지가 직접 들어오게 됩니다.
+tc.research_page.RUNICARMOR.1=지속적인 보호마법의 연구 결과 루닉 결계의 개념에 대해 알게 되었습니다. 이름 때문에 착각할 수 도 있지만, 이것은 일반적인 보호구가 아니라 평상복 위에 덧입는 부적, 반지 등의 액세서리들입니다.<BR>이 엑세서리들은 대부분의 데미지를 막아내는 결계를 생성합니다. 결계는 체력바 위에 덧씌워져서 나타나며, 착용자에게 가해지는 모든 데미지를 우선해서 받아냅니다. 결계 수치가 바닥나면 평소처럼 착용자에게 데미지가 직접 들어오게 됩니다.
 tc.research_page.RUNICARMOR.2=결계는 천천히 복구되지만, 결계가 없더라도 가죽 방어구 수준의 방어력을 제공합니다.<BR>결계를 회복하는 데는 §2Terra§0와 §eAer§0비스를 필요로 하며, 이 비스는 가지고 있는 완드에서 소모됩니다.<BR>이 방어구는 굶주림, 익사 등의 환경적 요인에 의한 데미지는 막지 못합니다.<BR>이러한 특징 때문에 이 보호장비는 일반적인 방법으로는 인챈트할 수 없고, 특별한 방법을 통해서 효율성을 끌어올려야만 하며, 이 방법은 연구를 통한 발견이 필요합니다.
 #
 tc.research_name.RUNICAUGMENTATION=결계 확장
 tc.research_text.RUNICAUGMENTATION=가드를 최대로!
-tc.research_page.RUNICAUGMENTATION.1=결계가 부여된 반지와 부적, 허리띠만으로도 매우 훌륭하지만, 이런 결계를 다른 도구에도 부여할 수는 없는 걸까요?<BR>마법에서는 불가능이 마법입니다. 마도학자의 기술을 응용해서 마법구조적으로 매우 안정한 방어구에는 결계를 부여하는 것이 가능합니다.<BR>'마법구조적으로 안정한' 방어구라 함은, 사우뮴이나 마법이 깃든 천, 혹은 이와 비슷한 재료로 이루어진 방어구를 말합니다.<BR>결계는 한번에 1포인트밖에 부여할 수 없지만, 한 도구에 여러번 결계를 부여할 수 있습니다. 하지만 결계량이 1 늘어나면 에센시아 소모는 두 배로 늘어납니다.
-tc.research_page.RUNICAUGMENTATION.2=결계 반지와 같은 도구도 이 방법으로 결계량을 늘릴 수 있지만, 에센시아 소모량 증가에는 이미 존재하는 결계량도 포함되기 때문에 굉장히 많은 에센시아를 필요로 합니다.
+tc.research_page.RUNICAUGMENTATION.1=결계가 부여된 반지와 부적, 허리띠만으로도 매우 훌륭하지만, 이런 결계를 다른 도구에도 부여할 수는 없는 걸까요?<BR>마법에서는 불가능이 마법입니다. 마도학자의 기술을 응용해서 마법구조적으로 매우 안정한 방어구에는 결계를 부여하는 것이 가능합니다.<BR>'마법구조적으로 안정한' 방어구라 함은, 사우뮴이나 마법이 깃든 천, 혹은 이와 비슷한 재료로 이루어진 방어구를 말합니다.<BR>결계는 한번에 1포인트밖에 부여할 수 없지만, 한 도구에 여러번 결계를 부여할 수 있습니다.
+tc.research_page.RUNICAUGMENTATION.2=하지만 결계량이 1 늘어나면 에센시아 소모는 두 배로 늘어나며, 결계 반지와 같은 도구도 이 방법으로 결계량을 늘릴 수 있지만 이 에센시아 소모량 증가에는 이미 존재하는 결계량도 포함되기 때문에 굉장히 많은 에센시아를 필요로 합니다.
 #
 tc.research_name.RUNICCHARGED=결계 반지: 가속
 tc.research_text.RUNICCHARGED=충전을 위한 충전
@@ -1284,15 +1344,15 @@ tc.research_page.RUNICCHARGED.1=이 반지는 결계 반지를 특정 기능에 
 #
 tc.research_name.RUNICHEALING=결계 반지: 재활성화
 tc.research_text.RUNICHEALING=그 정도론 끄떡 없지
-tc.research_page.RUNICHEALING.1=이 반지는 결계 반지를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 반지보다 결계량은 약간 적지만, 결계가 깨졌을 경우 몆 초간 착용자에게 생명 에너지를 불어넣습니다.<BR>이 기능은 30초에 한 번만 작동합니다.
+tc.research_page.RUNICHEALING.1=이 반지는 결계 반지를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 반지보다 결계량은 약간 적지만, 결계가 깨졌을 경우 몆 초간 착용자에게 생명 에너지를 불어넣습니다.<BR>이 기능은 20초에 한 번만 작동합니다.
 #
 tc.research_name.RUNICKINETIC=결계 허리띠: 충격파
 tc.research_text.RUNICKINETIC=후후, 날 치면 후회하게 될 텐데?
-tc.research_page.RUNICKINETIC.1=이 허리띠는 결계 허리띠를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 허리띠보다 결계량은 약간 적지만, 결계가 깨졌을 경우 주변에 걍력한 충격파를 발산하여 데미지를 주고 멀리 밀쳐냅니다.<BR>이 기능은 30초에 한 번만 작동합니다.
+tc.research_page.RUNICKINETIC.1=이 허리띠는 결계 허리띠를 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 허리띠보다 결계량은 약간 적지만, 결계가 깨졌을 경우 주변에 걍력한 충격파를 발산하여 데미지를 주고 멀리 밀쳐냅니다.<BR>이 기능은 20초에 한 번만 작동합니다.
 #
 tc.research_name.RUNICEMERGENCY=결계 부적: 긴급 방호
 tc.research_text.RUNICEMERGENCY=날 그리 쉽게 쓰러뜨릴 순 없어
-tc.research_page.RUNICEMERGENCY.1=이 부적은 결계 부적을 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 부적보다 결계량은 약간 적지만, 결계가 깨졌을 경우 즉시 8의 결계 포인트를 회복합니다.<BR>이 기능은 2분에 한 번만 작동합니다.
+tc.research_page.RUNICEMERGENCY.1=이 부적은 결계 부적을 특정 기능에 특화시킨 것입니다.<BR>기존의 결계 부적보다 결계량은 약간 적지만, 결계가 깨졌을 경우 즉시 8의 결계 포인트를 회복합니다.<BR>이 기능은 1분에 한 번만 작동합니다.
 #
 tc.research_name.WARDEDARCANA=사생활 보호
 tc.research_text.WARDEDARCANA=접근 제한
@@ -1305,4 +1365,16 @@ tc.research_name.VISAMULET=비스 부적
 tc.research_text.VISAMULET=어디서든 부족함 없이
 tc.research_page.VISAMULET.1=완드 하나로도 대부분의 상황에는 충분합니다. 하지만 가끔 완드 하나에 저장된 비스만으로는 부족한 경우가 있기 마련이죠. 두 개 이상의 완드를 들고 다니는 것만으로 이 문제를 해결할 수 있지만, 연구 결과 다른 방법 또한 존재함을 알 수 있었습니다.<BR>비스를 저장할 수 있는 이 부적은, 착용할 경우 인벤토리에 소지한 모든 비스를 소모하는 도구들을 자동으로 충전시킵니다.<BR>이 도구에도 한계는 있는데, 이 부적으로 완드를 충전하기 위해서는 충전하고자 하는 완드를 손에 들고 있어야 하며 충전 속도도 꽤 느린 편입니다. 
 tc.research_page.VISAMULET.2=그럼에도 루닉 결계나 수리 인챈트가 된 도구에 비스를 공급하기에는 최적의 도구라 할 수 있습니다.<BR>부적은 완드 충전 주각에서만 충전시킬 수 있습니다.
+#
+tc.research_name.NODESTABILIZER=노드 스태빌라이저
+tc.research_text.NODESTABILIZER=노드 치유
+tc.research_page.NODESTABILIZER.1=이 유용한 장치는 노드 아래 둘 경우 몆가지 이로운 효과들을 제공합니다.<BR>우선, 노드들이 서로 비스를 뺏고 빼앗기는 것을 방지합니다. 또한 불안정한 노드가 비스를 잃는 것을 방지하며, 가끔 불안정한 상태를 완전히 제거하는 경우도 있습니다. 마지막으로, 비록 아주 미미한 확률이지만, 꺼져가는 노드를 희미한 노드로 회복시켜줄 수 있습니다.<BR>하지만 장치가 작동하기 위해선 동력원이 필요하며 이 동력은 위에 놓여진 노드에서 충당합니다. 노드에 담긴 비스가 줄어들 정도로 많이 소모하진 않지만, 위에 놓여진 노드의 재충전 속도를 절반 가까이 떨어뜨립니다.
+#
+tc.research_name.NODESTABILIZERADV=Adv. 노드 스태빌라이저
+tc.research_text.NODESTABILIZERADV=선택적 안정화
+tc.research_page.NODESTABILIZERADV.1=Adv. 노드 스태빌라이저는 기본적으로 일반 스태빌라이저의 모든 기능을 갖고 있지만, 몆가지 중대한 차이점이 있습니다.<BR>우선, 이 장치가 장착된 노드는 다른 더 큰 노드에게 비스를 뺏기지 않으나, 반대로 다른 더 작은 노드의 비스를 빼앗아 올 수 있습니다.<BR>또한, 꺼져가는 노드와 불안정한 노드를 회복시켜줄 확률이 더 높습니다.<BR>하지만 여기에는 더 많은 동력이 필요하며, 여전히 노드에 담긴 비스가 줄어들 정도는 아닐지라도, 눈부신 노드의 충전속도조차 무마될 수준의 비스를 소모합니다.
+#
+tc.research_name.GOLEMFETTER=골렘 족쇄
+tc.research_text.GOLEMFETTER=동작 강제
+tc.research_page.GOLEMFETTER.1=이 간단한 장치는 골렘을 일시적으로 정지시킬 수 있게 해 줍니다.<BR>이 블럭이 레드스톤 신호에 의해 활성화될 경우 이 위를 지나는 모든 골렘은 그 자리에 멈춰서며 수행중이던 작업을 모두 일시중단합니다.<BR>레드스톤 신호가 끊어질 경우 멈춰있던 골렘은 다시 하던 일을 이어서 하게 됩니다.
 #
