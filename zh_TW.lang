@@ -447,8 +447,8 @@ death.attack.swarm.item=%1$s被%2$s以%3$s感染致死。
 tc.handmirrorlinkedto=連結到
 tc.handmirrorlinked=連結已建立。
 tc.handmirrorerror=目標魔鏡重置或遺失，連結損壞。
-tc.researcherror=缺乏理解所需要的前置研究。
-tc.discoveryerror=你必須先研究 %1$s 以理解其構成。
+tc.researcherror=你淺陋的學識不足以理解箇中奧秘。
+tc.discoveryerror=你必須先探索%1$s以解開其奧妙之處。
 tc.discoveryunknown=未知理論
 tc.discoveryprogress=% 完成
 tc.portableholeerror=攜帶式洞穴能量不足。
@@ -570,7 +570,7 @@ tc.aspect.help.potentia=能量
 tc.aspect.help.motus=移動的物體
 tc.aspect.help.tempestas=氣候
 tc.aspect.help.victus=生命之源
-tc.aspect.help.mortuus=死亡的性質
+tc.aspect.help.mortuus=死亡的規則
 tc.aspect.help.volatus=飛行
 tc.aspect.help.tenebrae=黑暗
 tc.aspect.help.limus=黏稠的物體
@@ -596,7 +596,7 @@ tc.aspect.help.venenum=毒物
 tc.aspect.help.alienis=異界的陌生事物
 tc.aspect.help.tutamen=保護性質的物體
 tc.aspect.help.fames=食物
-tc.aspect.help.fabrico=製造
+tc.aspect.help.fabrico=製造工具
 tc.aspect.help.lucrum=有價值的物體
 tc.aspect.help.pannus=衣物
 tc.aspect.help.machina=機械性的物體
@@ -710,7 +710,7 @@ tc.research_page.NODETAPPER2.1=你已經掌握更加精細的魔力吸引技術�
 #
 tc.research_name.NODEPRESERVE=節點防護術
 tc.research_text.NODEPRESERVE=未雨綢繆
-tc.research_page.NODEPRESERVE=如今你對從節點吸引魔力的控制技術愈加出神入化。除非你按住潛行鍵，否則你總能夠存留節點中的每種要素至少一點。<BR>注意，如果你手持的是普通木材和鐵製作的廉價法杖，使用這項技巧的時候也會失手。
+tc.research_page.NODEPRESERVE=如今你對從節點吸引魔力的控制技術愈加出神入化。除非你按住潛行鍵，否則你總能夠存留節點中的每種要素至少一點。<BR>注意，如果你手持的是普通木材或是鐵製的廉價法杖，使用這項技巧的時候也會失手。
 #
 tc.research_name.THAUMOMETER=魔導透鏡
 tc.research_text.THAUMOMETER=魔力感應儀
@@ -762,7 +762,7 @@ tc.research_page.ROD_silverwood.1=銀樹被證明是極其優良的魔力儲存�
 #
 tc.research_name.SCEPTRE=工藝權杖
 tc.research_text.SCEPTRE=以製造為己任
-tc.research_page.SCEPTRE.1=工藝權杖是一種特製法杖，它專於製造魔力物品三十年，而別無旁顧。雖無法安裝法杖核心，但其若干特性仍使得它非常值得使用。<BR>首先，這種法杖額外會提供5%的靈氣減免，這比其杖端能提供的還要多。<BR>其次，在其杖柄通常所提供的容量的基礎上，這種法杖還能夠多儲存50%的魔力。<BR>如同其他法杖，工藝權杖也可以通過杖端杖柄的絕大部分組合方式製出-下面幾頁僅僅給出部分例子。
+tc.research_page.SCEPTRE.1=工藝權杖是一種特製法杖，它專於製造魔力物品三十年，而別無旁顧。雖無法安裝法杖核心，但其若干特性仍使得它非常值得使用。<BR>首先，這種法杖額外會提供5%的靈氣減免，這比其杖端能提供的還要多。<BR>其次，在其杖柄通常所提供的容量的基礎上，這種法杖還能夠多儲存50%的魔力。<BR>如同其他法杖，工藝權杖也可以通過杖端杖柄的絕大部分組合方式製出-下頁僅僅給出部分例子。
 #
 tc.research_name.ROD_obsidian=黑曜石杖柄
 tc.research_text.ROD_obsidian=地之魔力容器
@@ -864,7 +864,7 @@ tc.research_page.FOCUSPRIMAL.1=要瘋到什麼程度你才會去做出這種鬼�
 #
 tc.research_name.FOCUSPOUCH=法杖核心腰包
 tc.research_text.FOCUSPOUCH=法杖核心的隨身袋
-tc.research_page.FOCUSPOUCH.1=當你已經收集了一定數量的核心後如何方便得攜帶它們就成了惱人的問題，核心腰包就能有效解決該問題。<BR>當你試圖切換法杖核心時，會首先檢查腰包裡的核心類型，且卸除的核心也會優先放置在腰包內。你也可以右鍵打開腰包來放置或者取出核心。
+tc.research_page.FOCUSPOUCH.1=當你已經收集了一定數量的核心後如何方便得攜帶它們就成了惱人的問題，核心腰包就能有效解決該問題。<BR>當你試圖切換法杖核心時，會首先檢查腰包裡的核心類型，且卸除的核心也會優先放置在腰包內。你也可以手持腰包右鍵打開來放置或者取出核心。
 #
 tc.research_name.BOOTSTRAVELLER=旅人之靴
 tc.research_text.BOOTSTRAVELLER=專業行走設備
@@ -888,7 +888,7 @@ tc.research_page.RESTABLE.1=將兩個台桌比鄰而放，然後將筆與墨擱�
 #
 tc.research_name.THAUMONOMICON=魔導手冊
 tc.research_text.THAUMONOMICON=知識的寶庫
-tc.research_page.THAUMONOMICON.1=只需簡單地對著放置下的書架輕輕揮舞你的法杖，就能製作出屬於你的魔導手冊。<BR>魔導手冊將是秘術學方面全面權威的參考手冊。它會列出你當前全部的研究發現，並且在大體上(但並不確保你完全瞭解仍然有多少未知可供探索尋覓)讓你對仍然有多少可以研究的內容有一個總的印象。<BR>每當你閱讀了記錄新研究成果的卷軸，它會自動把相關內容添加記錄到手冊中。建議在右鍵使用卷軸時適當留意下其研究需要的要素(正常情況下使用過的卷軸會消失)，這些知識可能對你的朋友有所幫助.這樣你就可以自由瀏覽這些研究發現相關的合成以及一些細緻的信息。
+tc.research_page.THAUMONOMICON.1=只需簡單地對著放置下的書架輕輕揮舞你的法杖，就能製作出屬於你的魔導手冊。<BR>魔導手冊將是秘術學方面全面權威的參考手冊。它會列出你當前全部的研究發現，並且在大體上(但並不確保你完全瞭解仍然有多少未知可供探索尋覓)讓你對仍然有多少可以研究的內容有一個總的印象。<BR>每當你閱讀了記錄新研究成果的卷軸，它會自動把相關內容添加記錄到手冊中。建議在右鍵使用卷軸時適當留意下其研究需要的要素(正常情況下使用過的卷軸會消失)，這些知識可能對你的朋友有所幫助。這樣你就可以自由瀏覽這些研究發現相關的合成以及一些細緻的信息。
 #
 tc.research_name.CRUCIBLE=坩堝
 tc.research_text.CRUCIBLE=沸騰並且冒著泡
@@ -1028,7 +1028,7 @@ tc.research_text.GOLEMTHAUMIUM=魔法小小兵
 tc.research_page.GOLEMTHAUMIUM.1=秘術傀儡尤勝於鐵質傀儡，且能夠進行兩次升級。且這種傀儡對魔法傷害同樣具有高抗性。<BR>§l§n秘術傀儡屬性§r<BR>§l耐久：§r 極高<BR>§l強度：§r 高<BR>§l回復：§r 緩慢<BR>§l運載量：§r 32<BR>§l速度：§r 緩慢<BR>§l升級：§r 2
 #
 tc.research_name.GOLEMBELL=傀儡使之鈴
-tc.research_text.GOLEMBELL=聽好囉~
+tc.research_text.GOLEMBELL=聽好囉～
 tc.research_page.GOLEMBELL.1=傀儡難以服從口頭指令的劣習廣為人知，而這個鈴鐺可以幫助你避免這種窘況。<BR>使用鈴鐺右擊傀儡就能選擇它。之後傀儡的放置位置以及綁定位置會亮起一道齒輪狀的光環。<BR>然後你便可以使用鈴鐺右擊世界上的任意位置來將傀儡連結到某方塊，某位置或者某個將與之連結的容器上。再次點擊相同位置會解除連結，如果傀儡能夠同多種顏色的標記互動也可能會出現在不同顏色中循環切換的情況。
 tc.research_page.GOLEMBELL.2=<BR>在標記位置潛行(Shift)+右鍵會清除標記，而按下 F 鍵則會清除所有標記位置。 <LINE>左擊傀儡則會完好無損地卸載當前安裝的全部升級. 潛行(Shift)+左鍵能夠拾取傀儡，但其傀儡運轉核心以及升級會分別獨立掉落。然而這樣做有很大機率丟失掉升級。 
 #
@@ -1165,7 +1165,7 @@ tc.research_page.INFERNALFURNACE.2=你應該還要注意的是煉獄熔爐偶爾
 tc.research_name.BELLOWS=奧術風箱
 tc.research_text.BELLOWS=煽風點火
 tc.research_page.BELLOWS.1=奧術風箱功能正如其名，不過它能夠自己動作，對著需要的方向發出陣陣氣流。<BR>將其安裝在地獄熔爐側面和後面的開孔處(一個熔爐可以安裝3個)會出現有趣的現象：蘊含魔力的氣流不僅僅加快了熔爐燃燒的速度，也讓火焰更加純淨，減少了咒波的產生率，增大了獲得金屬粒或者其他材料的額外產物的機會。
-tc.research_page.BELLOWS.2=它也能安裝在普通熔爐邊上來為其加速。<BR>如果安裝在坩堝旁邊，則能縮短水煮沸的時間。<BR>你相信你未來能發掘出它更多的應用. <BR>按住 Shift 點擊罐子或者蒸餾器能夠清空它們。
+tc.research_page.BELLOWS.2=它也能安裝在普通熔爐邊上來為其加速。<BR>如果安裝在坩堝旁邊，則能縮短水煮沸的時間。<BR>你相信你未來能發掘出它更多的應用。 <BR>按住 Shift 點擊罐子或者蒸餾器能夠清空它們。
 #
 tc.research_name.ARCANESTONE=奧術石材
 tc.research_text.ARCANESTONE=魔力強化的建築材料
@@ -1175,17 +1175,17 @@ tc.research_name.INFUSION=注魔
 tc.research_text.INFUSION=魔力聚變
 tc.research_page.INFUSION.1=奧術合成以及煉金術也就只能做到這個程度而已了。更好的東西需要你創建更強力的魔力設備。<BR>注魔合成能夠向單件物品中灌注魔力以及來自其他物品的特性。比方說，你能夠將風之要素以及羽毛灌注入普通石頭來得到一種非常輕盈的石材。 <BR>秘術學中通常難有輕鬆而又簡單的事物。建造注魔台前你需要做如下準備：符文矩陣，奧術基座，以及足夠數量的要素源質。
 tc.research_page.INFUSION.2=當你將符文矩陣正確地放置在一個名為注魔祭壇的神秘構造上後，便能夠開始進行注魔合成。<BR>符文矩陣下方，坐落於正中的基座是你用於放置被注魔物品的地方。你還需要環繞祭壇放置一些基座來放置被灌注的材料。最後你還需要在附近放置一些盛放了要素源質的罐子或者其他儲存魔力的容器。<BR>當一切就緒，你需要使用法杖點擊符文矩陣來開始注魔過程。<BR>在這個過程的第一階段，將會從附近吸取要素源質。 
-tc.research_page.INFUSION.3=若沒有足夠的源質供應，注魔過程會中斷-後文將會對這種你不希望發生的情況做進一步的闡釋。<BR>當所有需求的源質被灌入目標物品後，才能開始吸收被灌注的其他物品的要素源質。僅當這些都完成後注魔才能順利完成.<LINE>注魔合成並非毫無風險。其完整的過程實質上是把龐雜的魔法能量強制集中到單獨的物品中，在這種情況下往往會發生一些不可預知的事情：<BR>
+tc.research_page.INFUSION.3=若沒有足夠的源質供應，注魔過程會中斷-後文將會對這種你不希望發生的情況做進一步的闡釋。<BR>當所有需求的源質被灌入目標物品後，才能開始吸收被灌注的其他物品的要素源質。僅當這些都完成後注魔才能順利完成。<LINE>注魔合成並非毫無風險。其完整的過程實質上是把龐雜的魔法能量強制集中到單獨的物品中，在這種情況下往往會發生一些不可預知的事情：<BR>
 tc.research_page.INFUSION.4=比較常見的意外包括注魔過載被基座中斷掉，產生咒波等，但也可能遭遇一些聞所未聞的災難事件。<BR>由於魔力缺乏，物品掉落等未解決的問題導致而的注魔時間延遲越久，就越發有可能發生糟糕的事情。<BR>可以有多種途徑來減少這些意外的影響。首先你應該盡可能對稱地佈置注魔祭壇，一定要確保你放置的基座對側有以祭壇為原點對稱的基座與之平衡。當放置被灌注材料時，也需要盡可能保證放置位置對稱與平衡。
 tc.research_page.INFUSION.5=最後你可以環繞祭壇對稱放置一些具有秘術屬性的物品(比如蠟燭、頭骨、水晶等)，它們也能夠減少注魔過程的風險。<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
 #
 tc.research_name.JARBRAIN=缸中之腦
 tc.research_text.JARBRAIN=封閉的糾結
-tc.research_page.JARBRAIN.1=- 向罐子投入一個殭屍之腦。<BR>- 添加蜘蛛眼和水。<BR>- 回想那些邪惡的念頭，然後對著它揮舞你的法杖。<BR>若你能遵循上述步驟就能得到一個會動的邪惡的缸中之腦。<BR>它保留了作為殭屍的飢餓慾望卻無力享用那些「美味」的腦子.但它仍然會試圖收集那些在其附近死亡的生靈的思想和經驗(以經驗球的實體形式出現)。 當你搖一搖容納它的罐子，它會放棄一部分不義之財將其交給你。<BR>當罐子裝滿時上方會顯示粒子效果。
+tc.research_page.JARBRAIN.1=- 向罐子投入一個殭屍之腦。<BR>- 添加蜘蛛眼和水。<BR>- 回想那些邪惡的念頭，然後對著它揮舞你的法杖。<BR>若你能遵循上述步驟就能得到一個會動的邪惡的缸中之腦。<BR>它保留了作為殭屍的飢餓慾望卻無力享用那些「美味」的腦子。但它仍然會試圖收集那些在其附近死亡的生靈的思想和經驗(以經驗球的實體形式出現)。 當你搖一搖容納它的罐子，它會放棄一部分不義之財將其交給你。<BR>當罐子裝滿時上方會顯示粒子效果。
 #
 tc.research_name.HOVERHARNESS=奧法韁繩
 tc.research_text.HOVERHARNESS=那是一隻鳥？
-tc.research_page.HOVERHARNESS.1=最終你揭開了飛行的秘密。 你創造出一種通過使用奧法能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要的魔力在創造的時候就已經全部加入進去，它消耗的燃料是原生的要素：Potentia(能量)。當穿戴著韁繩的時候右擊盛滿的罐子來灌注要素。<BR>當穿戴有奧法韁繩時按下"F"開啟或關閉其功能。
+tc.research_page.HOVERHARNESS.1=最終你揭開了飛行的秘密。 你創造出一種通過使用奧法能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要的魔力在創造的時候就已經全部加入進去，它消耗的燃料是原生的要素：Potentia(能量)。當手持著韁繩的時候右擊來安裝盛滿的要素罐子。<BR>當穿戴有奧法韁繩時按下"F"開啟或關閉其功能。
 tc.research_page.HOVERHARNESS.2=啟動後奧法韁繩會持續消耗 Potentia 要素。<BR>急迫附魔能夠加快奧法韁繩的飛行速度。
 #
 tc.research_name.HOVERGIRDLE=奧法腰帶
@@ -1235,7 +1235,7 @@ tc.research_page.PAVEWARD.2=路磚上的符文顏色標識了它當前的狀態�
 #
 tc.research_name.WANDPED=法杖充能基座
 tc.research_text.WANDPED=自動補魔
-tc.research_page.WANDPED.1=在旅途中為法杖補魔雖好，但如果有自動充能的辦法就再好不過了。<BR>這種特製的基座具有這種效果：自動抽取附近節點中的魔力為放置於其上的法杖充能。<BR>節點魔力不會被完全抽盡，除非你放置的是拿著用鐵和木棍製作的最低廉的劣質法杖。
+tc.research_page.WANDPED.1=在旅途中為法杖補魔雖然不錯，但如果有自動充能的辦法就更好不過了。<BR>這種特製的基座具有這種效果：自動抽取附近節點中的魔力為放置於其上的法杖充能。<BR>節點魔力不會被完全抽盡，除非你放置的是拿著用鐵或木棍製作的低廉劣質法杖。
 #
 tc.research_name.WANDPEDFOC=複合充能核心
 tc.research_text.WANDPEDFOC=終有其用
@@ -1295,7 +1295,7 @@ tc.research_page.LAMPGROWTH.1=不像奧術燈具就是用來照明的，除非�
 #
 tc.research_name.LAMPFERTILITY=繁衍燈
 tc.research_text.LAMPFERTILITY=散發出羅曼蒂克的光輝照耀事物
-tc.research_page.LAMPFERTILITY.1=沐浴在此燈柔和的粉色光芒之中的所有動物都會徑直陷入到更加羅曼蒂克的情緒之中。 它們會盡可能地尋找同類交配。<BR>若某種動物已經達到8只或以上，這種燈便不會再對其造成影響。<BR>它需要 victus 要素來驅動.既可以將要素罐子放於附近，又可以直接將繁衍燈安附在要素管道系統中。
+tc.research_page.LAMPFERTILITY.1=沐浴在此燈柔和的粉色光芒之中的所有動物都會徑直陷入到更加羅曼蒂克的情緒之中。 它們會盡可能地尋找同類交配。<BR>若某種動物已經達到8只或以上，這種燈便不會再對其造成影響。<BR>它需要 victus 要素來驅動。既可以將要素罐子放於附近，也可以直接將繁衍燈安附在要素管道系統中。
 #
 tc.research_name.JARVOID=虛空罐子
 tc.research_text.JARVOID=源質太多？不可能！
