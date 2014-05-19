@@ -1088,7 +1088,7 @@ tc.research_page.COREFISHING.5=  §nMigliormento di Entropia Sbloccato§r<IMG>th
 tc.research_name.COREALCHEMY=Nucleo Golem: Alchimia
 tc.research_text.COREALCHEMY=Spostare essentia a destra e sinistra
 tc.research_page.COREALCHEMY.1=Questo nucleo è simile a quello da travaso, ma progettato specificamente per far trasportare essentia.<BR>Un golem alchimista assegnato ad una fornace alchemica o ad un alambicco, attingerà l'essentia di tutta la pila di alambicchi, e la trasporterà all'interno dei barattoli rinforzati marcati. Non è necessario marcare ogni singolo barattolo, il golem riempirà automaticamente tutti i quelli adiacenti a quello marcato e tutti i barattoli connessi ad esso.<BR>I golem alchimisti danno priorità maggiore ai barattoli più vicini e cercheranno di riempire un contenitore fino all'orlo prima di iniziarne un altro.
-tc.research_page.COREALCHEMY.2=Golem alchemici possono anche trasportare essentia tra la maggior parte di contenitori di essentia e blocchi che usano essentia.
+tc.research_page.COREALCHEMY.2=Inoltre favoriranno i barattoli etichettati. Se ci sono dei barattoli senza fondo pieni riempiranno per primo dei barattoli normali, almeno che il barattolo senza fondo è etichettato. In quel caso i barattoli senza fondo sono riempiti per ultimo.<BR>Golem alchemici possono anche trasportare essentia tra la maggior parte di contenitori di essentia e blocchi che usano essentia.
 #
 tc.research_name.UPGRADEAIR=Miglioramento per Golem: Aria
 tc.research_text.UPGRADEAIR=Rendere il tuo golem più veloce
