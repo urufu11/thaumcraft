@@ -1087,8 +1087,8 @@ tc.research_page.COREFISHING.5=    §nEntropie-Upgrade freigeschaltet§r<IMG>tha
 #
 tc.research_name.COREALCHEMY=Golemkern: Alchemie
 tc.research_text.COREALCHEMY=Essentia herumbewegen
-tc.research_page.COREALCHEMY.1=Dieser Kern ist eine spezialisierte Variante des Umfüll-Kerns, extra abgestimmt auf den Transport von Essentia.<BR>Alchemie-Golems, denen ein Alchemischer Ofen oder ein Alambik zugewiesen wurde, entnehmen Essentia aus dem ganzen Stapel der Alambiken und bringen sie zu markierten Gläsern. Es muss nicht jedes einzelne Glas markiert werden - die Golems sind intelligent genug, um auch benachbarte Gläser zu befüllen.<BR>Sie priorisieren Gläser in der Nähe und werden ein Glas erst komplett füllen, bevor sie ein Neues benutzen.
-tc.research_page.COREALCHEMY.2=Alchemiegolems können Essentia auch zwischen den meisten anderen Essentiaspeichern sowie Blöcken, die Essentia aufnehmen, transportieren.
+tc.research_page.COREALCHEMY.1=Dieser Kern ist eine spezialisierte Variante des Umfüll-Kerns, extra abgestimmt auf den Transport von Essentia.<BR>Alchemie-Golems, denen ein Alchemischer Ofen oder ein Alambik zugewiesen wurde, entnehmen Essentia aus dem ganzen Stapel der Alambiken und bringen sie zu markierten Gläsern. Es muss nicht jedes einzelne Glas markiert werden - die Golems sind intelligent genug, um auch benachbarte Gläser zu befüllen.<BR>Sie priorisieren Gläser in der Nähe und werden ein Glas erst komplett füllen, bevor sie ein neues benutzen.
+tc.research_page.COREALCHEMY.2=Ebenfalls werden sie Gläser mit Schildern solchen ohne bevorzugen. Wenn es volle Gläser der Leere gibt, werden sie zunächst versuchen, normale Gläser zu füllen, außer, wenn das Glas der Leere ein Schild hat. Im Falle eines Gleichstandes werden Gläser der Leere immer zuletzt befüllt.<BR>Alchemiegolems können Essentia auch zwischen den meisten anderen Essentiaspeichern sowie Blöcken, die Essentia aufnehmen, transportieren.
 #
 tc.research_name.UPGRADEAIR=Golemupgrade: Luft
 tc.research_text.UPGRADEAIR=Macht deinen Golem schneller
