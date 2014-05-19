@@ -237,11 +237,11 @@ item.Wand.ice.rod=白骨
 item.Wand.reed.rod=甘蔗
 item.Wand.quartz.rod=石英
 item.Wand.primal.rod=元初
-item.Wand.iron.cap=鐵杖端
-item.Wand.gold.cap=金杖端
-item.Wand.copper.cap=銅杖端
-item.Wand.silver.cap=銀杖端
-item.Wand.thaumium.cap=秘術杖端
+item.Wand.iron.cap=鐵端
+item.Wand.gold.cap=金端
+item.Wand.copper.cap=銅端
+item.Wand.silver.cap=銀端
+item.Wand.thaumium.cap=秘術端
 #
 item.ItemResource.0.name=源動之焰
 item.ItemResource.1.name=閃耀之光
@@ -1087,8 +1087,8 @@ tc.research_page.COREFISHING.5=       §n混沌升級解鎖能力§r<IMG>thaumcr
 #
 tc.research_name.COREALCHEMY=傀儡核心：煉金
 tc.research_text.COREALCHEMY=移動周圍的要素
-tc.research_page.COREALCHEMY.1=這種核心可謂移液傀儡的特殊版本，專為運輸要素源質而設計。<BR>煉金傀儡通常與煉金爐或者奧術蒸餾器綁定，它們會抽取蒸餾器中的要素源質並將其運輸到要素罐子中。並不需要一一對罐子進行標注，煉金傀儡能夠自動填充與被標記罐子連成一片的所有罐子。<BR>煉金傀儡會優先填充較近的罐子，且在一個罐子被填滿前，不會將同類要素填充進其他罐子中。
-tc.research_page.COREALCHEMY.2=煉金傀儡也能在不同的要素源質容器間輸送源質。
+tc.research_page.COREALCHEMY.1=這種核心可說是移液傀儡的特殊版本，專為運輸要素源質而設計。<BR>煉金傀儡通常與煉金爐或者奧術蒸餾器綁定，它們會抽取蒸餾器中的要素源質並將其運輸到要素罐子中。並不需要一一對罐子進行標注，煉金傀儡能夠自動填充與被標記罐子連成一片的所有罐子。<BR>煉金傀儡會優先填充較近的罐子，且在一個罐子被填滿前，不會將同類要素填充進其他罐子中。
+tc.research_page.COREALCHEMY.2=煉金傀儡能方便整理貼標籤罐子和未貼標籤的罐子。若虛空罐子已滿時，傀儡會優先把源質送往一般的罐子，除非你在虛空罐子上貼了標籤。否則虛空罐子的優先順位將排在最末。<BR>煉金傀儡也能在不同的要素源質容器間輸送源質。
 #
 tc.research_name.UPGRADEAIR=傀儡升級：風
 tc.research_text.UPGRADEAIR=迅捷如風
