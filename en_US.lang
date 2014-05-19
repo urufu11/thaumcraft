@@ -1088,7 +1088,7 @@ tc.research_page.COREFISHING.5=    §nEntropy Upgrade Unlocked§r<IMG>thaumcraft
 tc.research_name.COREALCHEMY=Golem Core: Alchemy
 tc.research_text.COREALCHEMY=Moving essentia around
 tc.research_page.COREALCHEMY.1=This core is a specialized version of a decanting core, specifically designed to transport essentia.<BR>Alchemy golems assigned to an alchemy furnace or alembic it will draw essentia from the entire stack of alembics and transport it to marked warded jars. It is not required to mark every single jar - the golem will automatically fill all jars adjacent to the marked jar and all other similarly connected jars.<BR>Alchemy golems prioritize nearby jars first and will try to fill an entire jar before starting on a new one.
-tc.research_page.COREALCHEMY.2=Alchemy golems can also transport essentia between most other essentia storage containers and blocks that accept essentia.
+tc.research_page.COREALCHEMY.2=They will also favor labeled jars over unlabeled ones. If there are full void jars they will try and fill normal jars first, unless the void jar is labeled. In the case of ties void jars are always filled last.<BR>Alchemy golems can also transport essentia between most other essentia storage containers and blocks that accept essentia.
 #
 tc.research_name.UPGRADEAIR=Golem Upgrade: Air
 tc.research_text.UPGRADEAIR=Making your golem faster
