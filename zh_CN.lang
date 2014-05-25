@@ -1089,6 +1089,7 @@ tc.research_page.COREFISHING.5=    §n傀儡升级:混沌解锁§r<IMG>thaumcraf
 tc.research_name.COREALCHEMY=傀儡核心:炼金
 tc.research_text.COREALCHEMY=移动要素
 tc.research_page.COREALCHEMY.1=这种核心可谓移液傀儡的特殊版本,专为运输要素源质而设计.<BR>炼金傀儡通常与炼金炉或者奥术蒸馏器绑定,它们会抽取蒸馏器中的要素源质并将其运输到要素罐子中.并不需要一一对罐子进行标注,炼金傀儡能够自动填充与被标记罐子连成一片的所有罐子.<BR>炼金傀儡会优先填充较近的罐子,且在一个罐子被填满前,不会将同类要素填充进其他罐子中.
+tc.research_page.COREALCHEMY.2=炼金傀儡处理标签罐子的优先级比未贴标签的要高.而虚空罐子的优先级则比普通罐子低,除非你往虚空罐子上贴标签.因此虚空罐子总是最后才填满.<BR>炼金傀儡还能够在其他可容纳源质的容器和方块之间运输源质.
 #
 tc.research_name.UPGRADEAIR=傀儡升级:风
 tc.research_text.UPGRADEAIR=迅捷如风
