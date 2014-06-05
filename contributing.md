@@ -1,4 +1,5 @@
 * Make sure you are running the latest version of Thaumcraft and Forge;
+* Do not report issues for 1.6 versions of Thaumcraft, they aren't supported any more.
 * Make sure you list your TC and Forge version at the top of any issue.
 * Issues regarding MCPC+ are not accepted;
 * Issues regarding running Thaumcraft in a developer environment are not accepted, this is not TC addon development hotline;
