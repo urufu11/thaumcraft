@@ -380,7 +380,7 @@ item.ItemAmuletRunic.1.name=應急護盾護身符
 item.ItemRingRunic.0.name=防護戒指
 item.ItemRingRunic.1.name=符文護盾戒指
 item.ItemRingRunic.2.name=充能符文護盾戒指
-item.ItemRingRunic.3.name=再充能符文護盾戒指
+item.ItemRingRunic.3.name=回復符文護盾戒指
 item.ItemGirdleRunic.0.name=符文護盾腰帶
 item.ItemGirdleRunic.1.name=衝擊符文護盾腰帶
 item.runic.charge=符文護盾
@@ -1270,8 +1270,9 @@ tc.research_page.BASICARTIFACE.2=§n元初符咒§r<BR><BR>元初符咒是構築
 tc.research_name.TUBES=要素源質管道
 tc.research_text.TUBES=運輸要素源質
 tc.research_page.TUBES.1=你已發現了好些運輸要素源質的方法，但都被證明難以與大規模的煉金操作相適應-現在這問題解決了。<BR>你已破解了製作穩定及相對密封的管道的關鍵所在。儘管普通的化學物質可以用玻璃管道運輸，但某些類型的要素源質卻可能溶解掉或者直接穿透玻璃。在玻璃管道上裹上鐵皮並用水銀處理，讓即使最不穩定的源質也能安全通過。黃金的管道配件裝飾得管道系統極其美觀。
-tc.research_page.TUBES.2=管道可以與各種類型的奧法設備相連，儘管一般你主要用它連接要素罐子和蒸餾器。<BR>要素源質會主動流向任意可以容納它的容器，比方說要素罐子。<BR>裝有不同源質的罐子只會吸引那些同類要素源質。但管道一次只能吸入並運輸一種類型的源質，吸力最高的會優先處理。若無法恰當使用閥門很容易導致管道系統堵塞.閥門的使用尤為關鍵。<LINE>
-tc.research_page.TUBES.3=要素閥門如同普通管道，但可以通過手動或者紅石信號控制其開閉。關閉閥門後通過它的源質流會被阻斷。<LINE>要素共鳴器是為管道系統排障的方便工具。你可以使用它查看管道或其他使用源質的設備中當前容納著何種源質以及它們的吸力強弱。
+tc.research_page.TUBES.2=管道可以與各種類型的奧法設備相連，儘管一般你主要用它連接要素罐子和蒸餾器。<BR>要素源質會主動流向任意可以容納它的容器，比方說要素罐子。<BR>裝有不同源質的罐子只會吸引那些同類要素源質。但管道一次只能吸入並運輸一種類型的源質，吸力最高的會優先處理。若無法恰當使用閥門很容易導致管道系統堵塞.閥門的使用尤為關鍵。
+tc.research_page.TUBES.3=當你看到氣體被從一個管道被排出，這意味著不同的吸力會干擾彼此。顏色告訴了你其吸入源質類型的線索。<LINE>要素閥門如同普通管道，但可以通過手動或者紅石信號控制其開閉。關閉閥門後通過它的源質流會被阻斷。<LINE>要素共鳴器是為管道系統排障的方便工具。你可以使用它查看管道或其他使用源質的設備中當前容納著何種源質以及它們的吸力強弱。
+tc.research_page.TUBES.4=可以藉由魔杖點擊來斷開或接上相鄰的源質管道。<BR>也能用魔杖點擊中央部份來旋轉部分像是閥門之類的管道。
 #
 tc.research_name.CENTRIFUGE=奧法離心機
 tc.research_text.CENTRIFUGE=分離物品
@@ -1306,7 +1307,6 @@ tc.research_text.TUBEFILTER=你需要什麼，需要用在哪裡
 tc.research_page.TUBEFILTER.1=§n過濾源質管道§r 如同普通管道，但可以貼標籤。當使用標籤標記後它將只限定於運輸指定類型的要素源質。<BR>空手時按住 shift 點擊將取下標籤。
 tc.research_page.TUBEFILTER.2=§n限制源質管道§r 如同普通管道，但它們會將通過的源質一分為二。<LINE>§n定向源質管道§r 只接受某個方向上抽取來的源質，藍色標記指示了它接受抽取物的方向。
 #
-#
 tc.research_name.MIRRORESSENTIA=源質之鏡
 tc.research_text.MIRRORESSENTIA=隨處可用的源質
 tc.research_page.MIRRORESSENTIA.1=魔力手鏡對長途運輸物品可謂實用，但相同的原理能否應用於源質系統呢？你覺得你已經研究出實現它的方法了。<BR>源質之鏡，顧名思義，可以像魔力手鏡傳輸物品那樣傳輸源質。然而也有幾條重要的使用限制：<BR>你無法用管道將源質導入鏡中，源質之鏡只能從源頭抽取源質運輸到注魔矩陣或煉金熔爐這樣的設備去。
@@ -1340,9 +1340,9 @@ tc.research_page.RUNICAUGMENTATION.2=然而這非常昂貴，消耗的源質量�
 #
 tc.research_name.RUNICCHARGED=充能護盾戒指
 tc.research_text.RUNICCHARGED=為充能戒指充能！
-tc.research_page.RUNICCHARGED.1=這是種特別版的護盾戒指。<BR>較改造前的戒指蓄能量略少些，且充能時間比符文護盾多1/4。<BR>但你可以穿戴不止一隻戒指，這會讓正常充能時間減半。
+tc.research_page.RUNICCHARGED.1=這是種特別版的護盾戒指。<BR>較改造前的戒指蓄能量略少些，但是它能增加符文護盾1/4的充能速度。<BR>你可以戴上不止一隻戒指，可以讓正常充能時間減半。
 #
-tc.research_name.RUNICHEALING=再充能護盾戒指
+tc.research_name.RUNICHEALING=回復護盾戒指
 tc.research_text.RUNICHEALING=繼續向前，我能接受！
 tc.research_page.RUNICHEALING.1=這是種特別版的護盾戒指。<BR>較改造前的戒指蓄能量略少些，但當你你的符文護盾被打破時它能夠釋放出一波維持數秒的回復能量。<BR>在20s內只能啟動一次這種效果。
 #
