@@ -41,8 +41,8 @@ entity.Thaumcraft.Pech.2.name=Pech Stalker
 entity.Thaumcraft.PrimalOrb.name=Klot Av Grundläggande Energi
 entity.Thaumcraft.TravelingTrunk.name=Resande Kista
 entity.trunk.guiname='s Kista
-entity.trunk.move=Kistan Kommer Nu Att Förja Efter Dig
-entity.trunk.stay=Kistan Kommer Nu Att Stana
+entity.trunk.move=Kistan Kommer Nu Att Följa Efter Dig
+entity.trunk.stay=Kistan Kommer Nu Att Stanna
 #
 # Blocks
 tile.blockAiry.0.name=Aura Node
