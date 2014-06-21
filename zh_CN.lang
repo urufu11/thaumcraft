@@ -370,7 +370,7 @@ item.ItemGolemUpgrade.2.desc=威猛似火:伤害,容量提升
 item.ItemGolemUpgrade.3.desc=灵动若水:感知,范围提升
 item.ItemGolemUpgrade.4.desc=威严井然之秩序：智力,组织力提升
 item.ItemGolemUpgrade.5.desc=理辩守卫之混沌：防御,推理力提升
-item.ItemBowBone.name=骨碗
+item.ItemBowBone.name=骨弓
 item.ItemManaBean.name=魔豆
 item.TrunkSpawner.name=箱子宝宝
 item.TrunkSpawner.text.1=箱子宝宝可以携运物品
@@ -501,7 +501,7 @@ tc.primalcharm.1=你觉得似乎听到了耳语
 tc.primalcharm.2=一阵猛烈的颠簸
 tc.primalcharm.3=它嗡嗡的响声十分舒缓
 tc.primalcharm.4=稍等,它刚刚闪烁着七色的光芒?
-tc.primalcharm.trigger=片刻间,诡异的能量缠绕着元始符咒.它们很快便消散了,但使你受到了奇异的启发...
+tc.primalcharm.trigger=一刹那,诡异的能量缠绕着元始符咒.它们很快便消散了,但你却受到了奇异的启发...
 #
 # Aspects
 tc.aspect.primal=元始要素
@@ -931,15 +931,15 @@ tc.research_page.ELEMENTALHOE.1=将秩序碎片与神秘锭制作的锄融合,�
 #
 tc.research_name.ALCHEMICALDUPLICATION=炼金复制
 tc.research_text.ALCHEMICALDUPLICATION=好东西不可能拥有太多
-tc.research_page.ALCHEMICALDUPLICATION.1=There are many substances in the world that are alchemical in nature.<BR>By carefully adding the proper aspects to these substances you should be able to make more of them.
+tc.research_page.ALCHEMICALDUPLICATION.1=这世上有许多物质本就是炼金材料.<BR>小心翼翼地向它们添加合适的要素,就能够让它们变得更多.
 #
 tc.research_name.ALCHEMICALMANUFACTURE=炼金制造
 tc.research_text.ALCHEMICALMANUFACTURE=条条路儿通罗马
-tc.research_page.ALCHEMICALMANUFACTURE.1=You have mastered the basics of alchemy and alchemical duplication and are now ready to try creating more complex substances from scratch.<BR>You have formulated several recipes that create normally hard to get substances and items via alchemy.
+tc.research_page.ALCHEMICALMANUFACTURE.1=在已经掌握了炼金术基础和炼金复制技术后你开始准备从头尝试制造更加复杂的物质.<BR>你已经研究出若干配方,能够通过炼金术制造平素难以得到的物质和物品.
 #
 tc.research_name.ENTROPICPROCESSING=混沌过程
 tc.research_text.ENTROPICPROCESSING=让事情变得更糟?
-tc.research_page.ENTROPICPROCESSING.1=While creating magical and mundane substances is quite satisfying, sometimes you just want to break things down into their component parts. What is simpler than adding entropic energy to things?<BR>Actually, there is several reasons why this is a bad idea, but what is progress without some risk?
+tc.research_page.ENTROPICPROCESSING.1=魔法物品或者凡俗物品做起来都令人满意,但有时候你只是想将物品分解成组成部分.还有比向它们添加混沌能量更简单的事情吗?<BR>其实这主意足可罗列若干理由陈述其糟糕,但哪有不冒点风险就能取得进展的道理呢?
 #
 #
 tc.research_name.TRANSIRON=嬗变术:炼铁术
