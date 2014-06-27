@@ -11,3 +11,5 @@
 * Make sure your title is a good resume of the issue, "Research bug" or "Entity crash" are not good titles, for one.
 * Don't edit en_US.lang
 * Read the FaQ in the [TC thread](http://www.minecraftforum.net/topic/2011841-).
+
+A general, all use "good posting guide" can be found here: http://vazkii.us/br101/
