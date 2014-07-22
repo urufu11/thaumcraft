@@ -222,7 +222,7 @@ item.WandRod.57.name=Nucleo de Vara de Hueso
 item.WandRod.100.name=Nucleo de Vara Primigenio
 #
 # this is what is used to name the wand - the position of the variables can be altered so it makes more sense in other languages
-item.Wand.name=%CAP %ROD %OBJ
+item.Wand.name=%OBJ %ROD %CAP
 #
 item.Wand.wand.obj=Varita
 item.Wand.sceptre.obj=Cetro
@@ -1181,7 +1181,7 @@ tc.research_page.INFUSION.5=parafernalia oculta en formaciones simetricas (cosas
 #
 tc.research_name.JARBRAIN=Cerebro en un Tarro
 tc.research_text.JARBRAIN=Sellado en la inmundicia
-tc.research_page.JARBRAIN.1- Tira un cerebro zombie podrido en un tarro<BR>- Agrega algunos ojos de araña y agua.<BR>- Revuelve suavemente con la varita mientras piensas pensamientos oscuros.<BR>Si sigues la receta exactamente deberias tener ahora cerebro zombie malicioso y parcialmente animado.<BR>Conserva parte del hambre que tenia como un zombie y si bien no puede consumir el cerebro, todavia le gusta comer los pensamientos y experiencias de los muertos en las inmediaciones. Golpear un tarro hara que suelte parte de sus ganancias para tu propio uso.<BR>Se mostraran efectos de particulas cuando el frasco este lleno.
+tc.research_page.JARBRAIN.1=- Tira un cerebro zombie podrido en un tarro<BR>- Agrega algunos ojos de araña y agua.<BR>- Revuelve suavemente con la varita mientras piensas pensamientos oscuros.<BR>Si sigues la receta exactamente deberias tener ahora cerebro zombie malicioso y parcialmente animado.<BR>Conserva parte del hambre que tenia como un zombie y si bien no puede consumir el cerebro, todavia le gusta comer los pensamientos y experiencias de los muertos en las inmediaciones. Golpear un tarro hara que suelte parte de sus ganancias para tu propio uso.<BR>Se mostraran efectos de particulas cuando el frasco este lleno.
 #
 tc.research_name.HOVERHARNESS=Arnes Thaumostatico
 tc.research_text.HOVERHARNESS=Es un pajaro?
