@@ -1464,7 +1464,7 @@ tc.research_page.VISPOWER.4=das Vis zu allem, was Vis benötigt, weiterleitet, e
 tc.research_page.VISPOWER.5=an einer einzigen Quelle die Menge an CV, die sie produzieren kann, übersteigen.<LINE>Es ist auch möglich, eine Energetisierte Nodie in eine gewöhnliche zurückzuwandeln. Dazu musst du einfach das Redstone-Signal am Transduktor entfernen, dann wird sie sich langsam in eine normale Nodie zurückverwandeln. Wenn die Nodie wieder normalisiert ist, ist sie zunächst komplett leer, sodass sie Gefahr läuft, beschädigt zu werden.
 #
 tc.research_name.VISCHARGERELAY=Vis-Laderelais
-tc.research_text.VISCHARGERELAY=Arkanes Basteln ist nun einfach
+tc.research_text.VISCHARGERELAY=Arkanes Basteln leicht gemacht
 tc.research_page.VISCHARGERELAY.1=Ein Ärgernis für jeden Thaumaturgen, der regulär arkane Objekte fertigt, ist, kontinuierlich seinen Stab aufgeladen zu haben.<BR>Nun da du einen Weg gefunden hast, Vis direkt aus Nodien zu ziehen, ist es dir möglich, ein Vis-Laderelais zu fertigen. Es funktionier wie ein gewöhnliches Relais, aber es ist dafür geschaffen, oberhalb einer Arkanen Werkbank platziert zu werden. Es wird Vis aus dem Relais ziehen, um damit Stäbe innerhalb der Werkbank aufzuladen.<BR>Der einzige Nachteil ist, dass das Relais die Stäbe viel langsamer auflädt, als ein Aufladungssockel oder Mensch es könnte.
 #
 tc.research_name.WARP=Warp, Flux und weiteres Böse
@@ -1483,24 +1483,24 @@ tc.research_page.LIQUIDDEATH.1=Diese Flüssigkeit ist so hochgefährlich, dass b
 #
 tc.research_name.ARMORFORTRESS=Thaumiumfestungsrüstung
 tc.research_text.ARMORFORTRESS=Du kommst hier nicht rein
-tc.research_page.ARMORFORTRESS.1=Thaumium armor has many things to recommend it, but its basic construction leaves it inferior to diamond armor. By improving the construction process and complexity you have found a way to create armor of exceptional craftsmanship, durability and strength.<BR>Each individual piece of Thaumium Fortress armor has the same protective properties as diamond armor, but has greater durability and offers additional protection against magic and fire.<BR>The biggest benefit however is that the individual armor pieces is designed and constructed to be worn together: Each additional
-tc.research_page.ARMORFORTRESS.2=piece of this armor worn increases the overall protection offered by all other pieces and improves its visual appeal.<BR>As with most objects constructed from thaumium, the armor is easy to enchant.
+tc.research_page.ARMORFORTRESS.1=Es gibt viele Dinge an Thaumiumrüstung, die sie empfehlenswert macht, ihren Schutz, der schwächer als der einer Diamantrüstung ist, gehört definitiv nicht dazu. Durch Verbesserung von Konstruktionsprozess und Komplexität hast du einen Weg gefunden, durch außergewöhnliche Handwerkskunst Haltbarkeit und Robustheit zu erhöhen.<BR>Jedes individuelle Stück Thaumiumfestungsrüstung hat die gleichen schützenden Eigenschaften wie Diamantrüstung, hat jedoch höhere Haltbarkeit und bietet erhöhten Schutz gegen Feuer und Magie.<BR>Der größte Vorteil jedoch ist, dass jedes individuelle Rüstungsteil dafür gemacht ist, mit den anderen zusammen getragen zu werden: Jedes zusätzliche
+tc.research_page.ARMORFORTRESS.2=Teil dieser Rüstung erhöht den Schutz, der von allen anderen Teilen geboten wird, außerdem sieht es schicker aus.<BR>Ferner ist diese Rüstung, wie alles, was aus Thaumium besteht, sehr leicht zu verzaubern.
 #
 tc.research_name.HELMGOGGLES=Helm der Enthüllung
 tc.research_text.HELMGOGGLES=Thaumiumfestungshelm-Upgrade
-tc.research_page.HELMGOGGLES.1=Usually a thaumaturge needs to choose between protection or utility when out and about. Not anymore!<BR>This modifies a Thaumium Fortress Helm to give you all the functionality of Goggles of Revealing. It does however not give the vis discount the goggles usually do.<BR>A helm can have this upgrade along with faceplates.
+tc.research_page.HELMGOGGLES.1=Für gewöhnlich muss sich ein Thaumaturge zwischen Schutz und Nutzen entscheiden, wenn er unterwegs ist. Nun nicht mehr!<BR>Dieses Werk modifiziert einen Thaumiumfestungshelm, sodass er dir die Funktionalität der Brille der Enthüllung bietet. Eine Visreduktion, wie die Brille sie mit sich bringt, hat der Helm jedoch nicht.<BR>Ein helm kann dieses Upgrade zusammen mit einer Maske tragen.
 #
 tc.research_name.MASKGRINNINGDEVIL=Maske: Grinsender Teufel
 tc.research_text.MASKGRINNINGDEVIL=Thaumiumfestungshelm-Upgrade
-tc.research_page.MASKGRINNINGDEVIL.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When worn, this mask has an interesting damping effect on those suffering from Warp event. While it does not reduce the number of events, it does reduce their severity somewhat.<BR>It seems laughing in the face of danger does have its rewards.
+tc.research_page.MASKGRINNINGDEVIL.1=Diese Maske ist dafür geschaffen, einem existieren Thaumiumfestungshelm hinzugefügt zu werden.<BR>Wenn getragen, hat die Maske einen interessanten Effekt auf jene, die an Warp leiden. Während sie nicht die Häufigkeit reduziert, mit welcher der Warp-Effekt auftritt, reduziert es dessen Stärke ein wenig.<BR>Es scheint, dass Lachen im Angesicht der Gefahr tatsächlich lohnenswert ist.
 #
 tc.research_name.MASKANGRYGHOST=Maske: Zorniger Geist
 tc.research_text.MASKANGRYGHOST=Thaumiumfestungshelm-Upgrade
-tc.research_page.MASKANGRYGHOST.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.
+tc.research_page.MASKANGRYGHOST.1=Diese Maske ist dafür geschaffen, einem existieren Thaumiumfestungshelm hinzugefügt zu werden.<BR>Wenn du im Nahkampf getroffen wirst, während du diese Maske trägt, hat die Kreatur, die dich traf, eine Chance, den Effekt des Withers zu erleiden.<BR>Geschieht ihnen recht.
 #
 tc.research_name.MASKSIPPINGFIEND=Maske: Schlürfender Dämon
 tc.research_text.MASKSIPPINGFIEND=Thaumiumfestungshelm-Upgrade
-tc.research_page.MASKSIPPINGFIEND.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their lifeforce to strenghthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that?
+tc.research_page.MASKSIPPINGFIEND.1=Diese Maske ist dafür geschaffen, einem existieren Thaumiumfestungshelm hinzugefügt zu werden.<BR>Wenn du im Nahkampf eine Kreatur triffst, während du diese Maske trägst, stiehlst du gelegentlich eine kleine Portion ihrer Lebensenergie, um deine eigene zu erhöhen.<BR>Der Fakt, dass du das machst, indem du von ihrem Blut trinkst, scheint dich weniger zu stören, als es sollte. Du fragst dich, ob du dir darüber Sorgen machen solltest?
 #
 tc.research_name.ELDRITCHMINOR=Unwirkliche Erscheinungen
 tc.research_text.ELDRITCHMINOR=Die ersten Schritte ins Unbekannte
@@ -1513,12 +1513,12 @@ tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png
 #
 tc.research_name.VOIDMETAL=Leermetall
 tc.research_text.VOIDMETAL=Seltsam, sollte sich doch kalt anfühlen...
-tc.research_page.VOIDMETAL.1=By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essense where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
-tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devestating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favourably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
+tc.research_page.VOIDMETAL.1=Indem du Magie in Metall infundiert hast, kreiertest du Thaumium. Es war eine würdige Entdeckung, aber es ist an der Zeit, Thaumium den Amateuren und Dilettanten zu überlassen.<BR>Ein seltsamer und halbvergessener Traum hat dich veranlasst, etwas... anderes zu versuchen. Was wäre, wenn du Metall mit mehr als nut Magie infundieren könntest, mit der wahren Essenz dessen, aus dem Magie kommt: Dunkelheit und die Leere, die zwischen den Sternen liegt.<BR>Das resultierende Metall ist beunruhigend glatt und warm anzufassen. Es ist fast so weich wie Gold, was es leicht zu bearbeiten macht, aber,
+tc.research_page.VOIDMETAL.2=wenn hart getroffen, wird es so hart wie Thaumium, manchmal sogar härter. Noch beeinduckendererweise repariert das Metall sich nach allem außer dem allerverheerendsten Schaden von selbst, da dass Metall langsam in seine Ursprungsform zurückfließt.<BR>Der einzige Nachteil ist, dass es nicht so leicht zu verzaubern ist wie Thaumium, jedoch ist es immer noch besser als gewöhliche Materialien wie Eisen.<BR>Du hast entdeckt, dass Vorsicht beim Umgang mit diesem Metall geboten ist - von ihm verletzt zu werden, scheint temporär deine Stärke auszusaugen.
 #
 tc.research_name.ARMORVOIDFORTRESS=Leerfestungsrüstung
 tc.research_text.ARMORVOIDFORTRESS=Du kommst hier nicht raus
-tc.research_page.ARMORVOIDFORTRESS.1=This is a simple improvement on the concepts layed down by the discovery of fortress armor. By using Void Metal instead of Thaumium you are not only increasing the effectiveness of the armor, but also it's durability.<BR>Of course some people claim that wearing such a large amount of Void metal is probably not good, but there will always be doubters and they should be ignored. You find the dull ache that settles into your bones as you wear it comforting.<BR>Like normal fortress armor this armor can be enhanced by various different faceplates and modifications.
+tc.research_page.ARMORVOIDFORTRESS.1=Dies ist eine einfache Verbesserung der Konzepte, die durch die Entdeckung von Festungsrüstung entstanden. Indem du Leermetall statt Thaumium verwendest, kannst du nicht nur die Effektivität der Rüstung, sondern auch seine Haltbarkeit erhöhen.<BR>Natürlich könnten Leute behaupten, dass das Tragen einer so großen Menge von Leermetall wahrscheinlich nicht gut sei, aber es nun einmal immer Zweifler geben, die es zu ignorieren gilt. Den dumpfen Schmerz, der sich in deine Knochen setzt, sobald du die Rüstung trägst, findest du eher angenehm.<BR>Wie gewöhnliche Festungsrüstung kann diese Rüstung durch verschiedene Masken und Modifikationen verbessert werden.
 #
 tc.research_name.CAP_void=Leermetallstabkappen
 tc.research_text.CAP_void=Macht von anderswo
