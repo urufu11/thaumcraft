@@ -7,8 +7,27 @@ enchantment.haste=Hast
 enchantment.repair=Reparieren
 #
 #Potions
-potion.fluxtaint=Fluxverseuchung
+potion.fluxtaint=Fluxvergiftung
 potion.soulshatter=Seelensplittern
+potion.visexhaust=Fluxgrippe
+potion.infvisexhaust=Fluxphage
+potion.unhunger=Unnatürlicher Hunger
+potion.warpward=Warpbann
+potion.deathgaze=Tödlicher Blick
+potion.blurred=Verschwommene Sicht
+potion.sunscorned=Sonnenscheu
+#
+#Warp
+warp.text.1=Du fühlst dich auf eigenartige Weise leer.
+warp.text.2=Ein spontaner und unnatürlicher Hunger sucht dich heim.
+warp.text.hunger.1=Dein Hunger kann mit gewöhnlicher Nahrung nicht gestillt werden.
+warp.text.hunger.2=Dein Hunger scheint zu verschwinden.
+warp.text.3=Selsame Stimmen enthüllen dir Geheimnisse.
+warp.text.4=Deine Sicht wird seltsam und schummrig.
+warp.text.5=Das Light wird auf einmal unglaublich hell und verbrennt deine Haut.
+warp.text.6=Ein dichter Nebel kommt aus dem Nichts. Irgendetwas rührt sich in seinen Tiefen.
+warp.text.7=Sie sind überall! Lauf!
+warp.text.8=Es muss doch irgendeinen Weg geben, diese Kopfschmerzen zu loszuwerden... Oder?
 #
 # Entities
 entity.Thaumcraft.ThaumSlime.name=Thaumischer Schleim
@@ -43,6 +62,9 @@ entity.Thaumcraft.TravelingTrunk.name=Reisekoffer
 entity.trunk.guiname='s Koffer
 entity.trunk.move=Der Koffer wird dir nun folgen
 entity.trunk.stay=Der Koffer wird bleiben, wo er ist
+entity.Thaumcraft.MindSpider.name=Geistesspinne
+entity.Thaumcraft.EldritchGuardian.name=Unheimlicher Wächter
+entity.Thaumcraft.EldritchOrb.name=Unheimlicher Orb
 #
 # Blocks
 tile.blockAiry.0.name=Auranodie
@@ -50,7 +72,7 @@ tile.blockAiry.1.name=Nitor
 tile.blockAiry.2.name=Lichtschimmer
 tile.blockAiry.3.name=Lichtschimmer
 tile.blockAiry.4.name=Bannende Aura
-tile.blockAiry.5.name=Auranodie
+tile.blockAiry.5.name=Energetisierte Auranodie
 tile.blockHole.name=Leerer Raum
 tile.blockSecure.name=Bannender Steinblock
 tile.blockCustomOre.0.name=Zinnobererz
@@ -88,6 +110,7 @@ tile.alembic.msg.2=Der Alambik ist fast leer
 tile.alembic.msg.3=Der Alambik ist etwa halb voll
 tile.alembic.msg.4=Der Alambik ist fast voll
 tile.alembic.msg.5=Der Alambik ist voll
+tile.blockMetalDevice.2.name=Vis-Ladungsrelais
 tile.blockMetalDevice.5.name=Itemgitter 
 tile.blockMetalDevice.6.name=Itemgitter (Geschlossen)
 tile.blockMetalDevice.7.name=Arkane Lampe
@@ -97,6 +120,7 @@ tile.blockMetalDevice.10.name=Thaumatorium
 tile.blockMetalDevice.11.name=Thaumatorium
 tile.blockMetalDevice.12.name=Mnemomatrix
 tile.blockMetalDevice.13.name=Lampe der Fruchtbarkeit
+tile.blockMetalDevice.14.name=Visrelais 
 tile.blockMagicalLog.greatwood.name=Großholzstamm
 tile.blockMagicalLog.silverwood.name=Silberholzstamm
 tile.blockMagicalLeaves.greatwood.name=Großholzblätter
@@ -159,6 +183,8 @@ tile.blockTaintFibres.3.name=Sporenstängel
 tile.blockTaintFibres.4.name=Ausgewachsener Sporenstängel
 tile.blockFluxGoo.name=Fluxschleim
 tile.blockFluxGas.name=Fluxgas
+tile.blockFluidPure.name=Reinigende Flüssigkeit
+tile.blockFluidPure.name=Flüssiger Tod
 tile.blockStoneDevice.0.name=Alchemischer Ofen
 tile.blockStoneDevice.1.name=Arkaner Sockel
 tile.blockStoneDevice.2.name=Runenmatrix
@@ -170,6 +196,7 @@ tile.blockStoneDevice.7.name=Infusionssäule
 tile.blockStoneDevice.8.name=Verbunds-Aufladefokus
 tile.blockStoneDevice.9.name=Nodienstabilisator
 tile.blockStoneDevice.10.name=Fortgeschrittener Nodienstabilisator
+tile.blockStoneDevice.11.name=Nodientransduktor
 tile.blockTube.0.name=Essentiaröhre
 tile.blockTube.1.name=Essentiaventil
 tile.blockTube.2.name=Alchemische Zentrifuge
@@ -203,6 +230,8 @@ item.WandCap.3.name=Kupferkappe
 item.WandCap.4.name=Geladene Silberkappe
 item.WandCap.5.name=Inerte Silberkappe
 item.WandCap.6.name=Inerte Thaumiumkappe
+item.WandCap.7.name=Geladene Leermetallkappe
+item.WandCap.8.name=Inerte Leermetallkappe
 item.WandRod.0.name=Großholzstab
 item.WandRod.1.name=Obsidianstab
 item.WandRod.2.name=Silberholzstab
@@ -242,13 +271,14 @@ item.Wand.gold.cap=Goldgebundener
 item.Wand.copper.cap=Kupferbekappter
 item.Wand.silver.cap=Silberverzierter
 item.Wand.thaumium.cap=Thaumiumverzierter
+item.Wand.void.cap=Leerenversetzer
 #
 item.ItemResource.0.name=Alumentum
 item.ItemResource.1.name=Nitor
 item.ItemResource.2.name=Thaumiumbarren
 item.ItemResource.3.name=Quecksilber
 item.ItemResource.4.name=Magischer Talg
-item.ItemResource.5.name=Zombiehirn
+item.ItemResource.5.name=Zombiehirn (gestorben)
 item.ItemResource.6.name=Bernstein
 item.ItemResource.7.name=Verzauberter Stoff
 item.ItemResource.8.name=Visfilter
@@ -259,12 +289,16 @@ item.ItemResource.12.name=Schmutzranke
 item.ItemResource.13.name=Glasschild
 item.ItemResource.14.name=Salis Mundus
 item.ItemResource.15.name=Ursprungstalisman
+item.ItemResource.16.name=Leermetallbarren
+item.ItemResource.17.name=Leersamen
+item.ItemZombieBrain.name=Zombiehirn
 item.ItemShard.0.name=Luft-Scherbe
 item.ItemShard.1.name=Feuer-Scherbe
 item.ItemShard.2.name=Wasser-Scherbe
 item.ItemShard.3.name=Erd-Scherbe
 item.ItemShard.4.name=Ordnungs-Scherbe
 item.ItemShard.5.name=Entropie-Scherbe
+item.ItemShard.6.name=Balance-Scherbe
 item.ItemPrimalArrow.0.name=Luftpfeil
 item.ItemPrimalArrow.1.name=Feuerpfeil
 item.ItemPrimalArrow.2.name=Wasserpfeil
@@ -279,6 +313,7 @@ item.ItemNugget.3.name=Silbernugget
 item.ItemNugget.4.name=Bleinugget
 item.ItemNugget.5.name=Quecksilbertropfen
 item.ItemNugget.6.name=Thaumiumnugget
+item.ItemNugget.7.name=Leermetallnugget
 item.ItemNugget.16.name=Nativer Eisenklumpen
 item.ItemNugget.17.name=Nativer Kupferklumpen
 item.ItemNugget.18.name=Nativer Zinnklumpen
@@ -325,6 +360,7 @@ item.researchnotes.failed.1=Fehlgeschlagen, platziere ins Werkfenster,
 item.researchnotes.failed.2=um Wissensfragmente wiederzubekommen
 item.discovery.name=Entdeckung
 item.ItemWispEssence.name=Ätherische Essenz
+item.ItemCrystalEssence.name=Kristallisierte Essenz
 item.ItemEssence.0.name=Glasphiole
 item.ItemEssence.1.name=Essentiaphiole
 item.ItemGolemCore.name=Golemanimationskern
@@ -393,9 +429,33 @@ item.ItemAmuletVis.text=Lädt langsam gehaltene Stäbe auf
 item.ItemAmuletVis.0.name=Vis-Stein
 item.ItemAmuletVis.1.name=Amulett des Visspeichers
 item.ItemGirdleHover.name=Thaumostatischer Gürtel
+item.ItemBathSalts.name=Reinigendes Badesalz
+item.ItemBucketDeath.name=Eimer mit Flüssigem Tod
+item.ItemHelmetFortress.name=Thaumiumfestungshelm
+item.ItemChestplateFortress.name=Thaumiumfestungskürass
+item.ItemLeggingsFortress.name=Thaumiumfestungsbeinschutz
+item.HelmetFortress.mask.0=Grinsender Teufel
+item.HelmetFortress.mask.1=Zorniger Geist
+item.HelmetFortress.mask.2=Schlürfender Dämon
+item.ItemEldritchObject.name=Unheimliches Auge
+item.ItemHelmetVoid.name=Leerhelm
+item.ItemChestplateVoid.name=Leerharnisch
+item.ItemLeggingsVoid.name=Leerbeinschutz
+item.ItemBootsVoid.name=Leerstiefel
+item.ItemShovelVoid.name=Leerschaufel
+item.ItemAxeVoid.name=Leeraxt
+item.ItemSwordVoid.name=Leerschwert
+item.ItemPickVoid.name=Leerspitzhacke
+item.ItemHoeVoid.name=Leerhacke
+item.ItemHelmetVoidFortress.name=Leerfestungshelm
+item.ItemChestplateVoidFortress.name=Leerfestungskürass
+item.ItemLeggingsVoidFortress.name=Leerfestungsbeinschutz
 #
 # Fluids
 fluid.fluxGoo=Fluxschleim
+fluid.fluxGas=Fluxgas
+fluid.purity=Reinigende Flüssigkeit
+fluid.death=Flüssiger Tod
 #
 # GUI
 golemblurb.0.text=Was soll ich hier behalten, Meister?
@@ -420,6 +480,7 @@ golemthreat.8.text=Stirb, Fleischsack!.
 recipe.return=Zurück
 recipe.clickthrough=Klicke für Forschung
 recipe.type.workbench=Werkbank
+recipe.type.smelting=Schmelzen
 recipe.type.workbenchshapeless=Werkbank (Formlos)
 recipe.type.arcane=Arkane Werkbank
 recipe.type.crucible=Tiegel
@@ -444,6 +505,8 @@ death.attack.taint.player=%1$s wurde durch Beschmutzung getötet, während er %2
 death.attack.tentacle=%1$s wurde von %2$s zerquetscht
 death.attack.swarm=%1$s ist von %2$s befallen worden
 death.attack.swarm.item=%1$s ist von %2$s, %3$s nutzend, befallen worden
+death.attack.dissolve=%1$s hat sich aufgelöst
+death.attack.dissolve.player=%1$s hat sich, %2$s bekämpfend, aufgelöst
 tc.handmirrorlinkedto=Verbunden mit
 tc.handmirrorlinked=Verbindung hergestellt.
 tc.handmirrorerror=Zielspiegel wurde entfernt oder ist falsch angebracht. Verbindung aufgelöst.
@@ -472,12 +535,22 @@ tc.addaspectdiscovery=Du hast %n entdeckt!
 tc.addclue=Du hast einen Hinweis auf neue Forschung entdeckt!
 tc.addcluefail=Du hast einen Hinweis entdeckt. Jedoch ist er verloren, da du ihn nicht dokumentieren konntest!
 tc.addaspectpool=%s Forschungspunkt(e) für %n erhalten
+tc.addwarp=§5Du hast Warp erhalten!§0
+tc.addwarptemp=§5Du hast temporär Warp erhalten!§0
+tc.forbidden=§l§5Verbotenes Wissen (%n)§0
+tc.forbidden.level.1=Hauptsächlich harmlos
+tc.forbidden.level.2=Gerinfügig gefährlich
+tc.forbidden.level.3=Mäßig gefährlich
+tc.forbidden.level.4=Gefährlich
+tc.forbidden.level.5=Tabu
 tc.unknownobject=Nichts kann hiervon gelernt werden.
 tc.markerchange=Setze Markerfarbe auf %n
 tc.markerchangeany=Setze auf beliebige Farbe
 tc.researchmissing=Fehlende erforderliche Forschung!
 tc.discount=Reduktion
 tc.visdiscount=Visreduktion
+tc.vis.cost=Viskosten
+tc.vis.costavg=Durchschn. Viskosten
 tc.inst=Instabilität: 
 tc.inst.0=§1Unbedeutend§0
 tc.inst.1=§9Gering§0
@@ -610,6 +683,7 @@ tc.research_category.THAUMATURGY=Thaumaturgie
 tc.research_category.ALCHEMY=Alchemie
 tc.research_category.ARTIFICE=Artefakte
 tc.research_category.GOLEMANCY=Golemantik
+tc.research_category.ELDRITCH=Unnatürliches
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -672,7 +746,7 @@ tc.research_page.PLANTS.2=§l        §nSilberholzbäume§r<BR><IMG>thaumcraft:t
 tc.research_page.PLANTS.3=§l        §nSchimmerblatt§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Nur im Schatten eines Silberholzbaumes sind diese seltsamen, glühenden Blumen zu finden. Sie können geerntet und zerstampft werden, um Quecksilber zu produzieren.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.PLANTS.4=§l        §nAschperle§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Lediglich in den heißesten Gegenden der Welt wächst diese Pflanze, genährt von elementarem Feuer. Wird sie geerntet und zermahlen, erhält man ein feines Pulver, das Lohenstaub ähnelt.
 tc.research_page.PLANTS.5=§l        §nManaschote§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Diese seltsame, schotenartige Pflanze kann nur an Bäumen in magischen Wäldern gefunden werden. Sie gedeihen nur sehr langsam und geben bei der Ernte selten mehr als eine oder zwei Bohnen. 
-tc.research_page.PLANTS.6=Jene Bohnen, Manabohnen genannt, enthalten konzentrierte Essentia. Sie können verspeist werden, doch die Nebenwirkungen sind unvorhersehbar.<BR>Es ist möglich, sie anzubauen, doch das Kultivieren ist schwierig und zeitaufwändig.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
+tc.research_page.PLANTS.6=Jene Bohnen, Manabohnen genannt, enthalten konzentrierte Essentia. Sie können verspeist werden, doch die Nebenwirkungen sind unvorhersehbar.<BR>Es ist möglich, sie anzubauen, doch das Kultivieren ist schwierig und zeitaufwändig.<BR>Wilde Manaschoten produzieren nur Primäraspekte, aber man erzählt sich, dass das Pflanzen von Bohnen nahe beieinander gelegentlich in Bohnen mit Verbundaspekten resultiert.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
 tc.research_name.RESEARCHER1=Forschungskenntnis
 tc.research_text.RESEARCHER1=Wissen ist Macht
@@ -726,7 +800,7 @@ tc.research_page.THAUMIUM.1=Metalle haben sich als durch thaumaturgische Grundla
 #
 tc.research_name.NITOR=Nitor
 tc.research_text.NITOR=Mystische Flamme
-tc.research_page.NITOR.1=Diese Flamme wird von Magie genährt. Die Verwendungsmöglichkeiten für eine ewige Flamme sind endlos. Leider produziert sie nicht mehr Licht als Wärme, aber als gleichmäßige Licht- und Energiequelle könnte sie nützlich sein.<BR>Nitor lässt sich als magische Lichtquelle in der Welt platzieren.
+tc.research_page.NITOR.1=Diese Flamme wird von Magie genährt. Die Verwendungsmöglichkeiten für eine ewige Flamme erscheinen endlos, jedoch scheint sie mehr Licht als Wärme auszustrahlen. Nichtsdestotrotz könnte sie aber als gleichmäßige Energiequelle nützlich sein.<BR>Nitor lässt sich als magische Lichtquelle in der Welt platzieren.
 #
 tc.research_name.ALUMENTUM=Alumentum
 tc.research_text.ALUMENTUM=Mystische Energiequelle
@@ -890,11 +964,13 @@ tc.research_name.THAUMONOMICON=Thaumonomikon
 tc.research_text.THAUMONOMICON=Ein Behältnis für Wissen
 tc.research_page.THAUMONOMICON.1=Um das Thaumonomikon herzustellen, musst du nur deinen Stab mit einem platzierten Bücherregal benutzen.<BR>Das Thaumonomikon ist ein Nachschlagewerk über die Thaumaturgie. Es führt alle Entdeckungen auf, die du bis jetzt gemacht hast und vermittelt einen ungefähren Eindruck, wie viel es noch zu entdecken gibt.<BR>Immer, wenn du etwas erforscht hast und die Aufzeichnungen benutzt, wird es automatisch dem Buch hinzugefügt. Nun kannst du durch deine Entdeckungen blättern und auf sie klicken, um mehr Informationen und auch die zugehörigen Rezepte zu erhalten. 
 #
-tc.research_name.CRUCIBLE=Tiegel
+tc.research_name.CRUCIBLE=Grundlagen der Alchemie
 tc.research_text.CRUCIBLE=Blubbern und Kochen
 tc.research_page.CRUCIBLE.1=Einen Tiegel erstellst du, indem du mit deinem Zauberstab auf einen Kessel klickst.<BR>Er ist ein wichtiges Werkzeug für jeden Thaumaturgen. Der Tiegel erlaubt es, Objekte in ihre Essentia zu verwandeln und diese nach den Wünschen des Thaumaturgen zu nutzen.<BR>Er muss über einer konstanten Wärmequelle aufgestellt und mit Wasser gefüllt werden. Wenn das Wasser beginnt zu kochen, wirst du einfach die Objekte hinein, deren Essentia du benutzen willst.<BR>Wenn du die richtige Zusammensetzung kennst und die Mischung
 tc.research_page.CRUCIBLE.2=im Tiegel korrekt ist, kannst du ein besonderes Item als Katalysator hinzugeben. Der Katalysator nimmt die Essentia auf und verwandelt sich in ein neues Item, das vom Tiegel ausgeworfen wird.<BR>Übrig gebliebene Essentia bleiben im Tiegel für eine spätere Verwendung, aber ist keine gute Idee, sie dort zu lange drin zu lassen.<BR>Das Arbeiten mit dem Tiegel verbraucht Wasser und eventuell musst du es nachfüllen.<BR>Essentia im Tiegel zersetzen sich langsam. Verbundene Essentia zerfallen in ihre Komponenten und primäre Essentia verdampfen einfach.  
-tc.research_page.CRUCIBLE.3=Außer der Ressourcenverschwendung kann das verdampfen und zersetzen von Essentia seltsame Nebeneffekte haben.<BR>Du kannst den Tiegel leeren, indem du ihn mit einem Stab rechtsklickst. Alle Essentia werden dann in die Atmosphäre entlassen... nicht gerade das, was man öfter tun sollte.
+tc.research_page.CRUCIBLE.3=Außer der Ressourcenverschwendung kann das verdampfen und zersetzen von Essentia seltsame Nebeneffekte haben.<BR>Du kannst den Tiegel leeren, indem du ihn mit einem Stab shift-rechtsklickst. Alle Essentia werden dann in die Atmosphäre entlassen... nicht gerade etwas, was man öfter tun sollte.
+tc.research_page.CRUCIBLE.4=There are some basic alchemical recipes that anyone can perform. See the following pages for their recipes.<LINE>§nBalanced Vis Shards§r<BR><BR>These are normal vis shards that have been alchemicaly infused with the five primal elements they do not already possess. The result us a shard of crystal perfectly resonating with primal energy.<BR>Smelting a balanced vis shard in a furnace creates Salis Mundus (see following pages).
+tc.research_page.CRUCIBLE.5=§nSalis Mundus§r<BR><BR>Salis Mundus, or Thaumaturge's Salt as it is more commonly known, is crafted by exposing a balanced vis shard to high enough heat that it shatters into a fine powder.<BR>Like its mundane counterpart, Thaumaturge's salt adds flavour (metaphorically speaking) to any magical recipe or formula. It is a strong binding agent, able to hold the most disparate of magical elements together.
 #
 tc.research_name.ENCHFABRIC=Verzauberter Stoff
 tc.research_text.ENCHFABRIC=Samtig und stylisch
@@ -903,7 +979,7 @@ tc.research_page.ENCHFABRIC.2=Die einzelnen Teile dieses Outfits geben dir einen
 #
 tc.research_name.ENCHANT=Verzauberungen
 tc.research_text.ENCHANT=Neue Verzauberungen
-tc.research_page.ENCHANT.1=Thaumcraft fügt einige einzigartige Verzauberungen hinzu.<BR>§nMacht (Nur Foki)§r<BR>Diese Verzauberung erhöht den Schaden, die Reichweite oder den Einflussbereich des Fokus.<BR>§nSparsamkeit (Nur Foki)§r<BR>Foki mit dieser Verzauberung benötigen weniger Vis, wenn sie benutzt werden.<BR>§nSchatz (Nur Foki)§r<BR>Diese Verzauberung ist wie die Glück-Verzauberung, sie erhöht die Anzahl an abgebauten Items.
+tc.research_page.ENCHANT.1=Thaumcraft fügt einige einzigartige Verzauberungen hinzu.<BR>§nMacht (Nur Foki)§r<BR>Diese Verzauberung erhöht den Schaden, die Reichweite oder den Einflussbereich des Fokus, erhöht aber ebenso die Viskosten leicht.<BR>§nSparsamkeit (Nur Foki)§r<BR>Foki mit dieser Verzauberung benötigen weniger Vis, wenn sie benutzt werden.<BR>§nSchatz (Nur Foki)§r<BR>Diese Verzauberung ist wie die Glück-Verzauberung, sie erhöht die Anzahl an abgebauten Items.
 tc.research_page.ENCHANT.2=§nHast§r<BR>Mit Hast verzauberte Stiefel erhöhen die Land-Geschwindigkeit des Trägers. Je höher die Stufe der Verzauberung ist, desto größer ist dabei der Geschwindigkeitsbonus.<BR>§nReparieren§r<BR>Diese Verzauberung repariert Items, indem sie Vis aus Stäben in deinem Inventar zieht. Die Viskosten werden durch den Wert des Items bestimmt. Je höher die Stufe der Verzauberung ist, desto schneller ist dieser Prozess. Sie kann nur auf manche Thaumcraft-Items angewendet werden.
 #
 tc.research_name.ELEMENTALAXE=Axt des Stroms
@@ -1148,8 +1224,8 @@ tc.research_page.TINYHAMMER.1=Diese Waffe erhöht den Schaden, den ein Golem mit
 #
 tc.research_name.DISTILESSENTIA=Essentia-Destillation
 tc.research_text.DISTILESSENTIA=Essentia ernten
-tc.research_page.DISTILESSENTIA.1=Du ahnst, dass du in Zukunft Zugang zu verschiedenen Aspekten benötigst - nicht nur den Primären aus deinem Zauberstab.<BR>Mit einfachen alchemischen Verfahren hast du einen Weg gefunden, Objekte zu analysieren und in ihre Essentia zu zerlegen.<BR>Der erste Schritt in diesem Prozess benötigt einen §lAlchemischen Ofen§r. Der Alchemische Ofen funktioniert wie ein normaler Ofen, indem er Kohle verbrennt um Hitze zu erzeugen, doch anstatt Erze zu reinen Metallen zu schmelzen, spaltet er Objekte in eine Brühe aus rohen, unverarbeiteten Essentia.
-tc.research_page.DISTILESSENTIA.2=Der nächste Prozessschritt ist, die Essentia-Brühe mit Hilfe von §lArkanen Alambiken§r zu destillieren.<BR>Damit es funktioniert, müssen die Alambiken über dem Ofen angebracht werden. Die Essentia-Brühe zieht langsam in sie hinein und wird dort in einzelne Essentia separiert.<BR>Es lassen sich bis zu 5 Alambiken auf einen Ofen stapeln.<BR>Mit Phiolen können die Essentia dann aus den Alambiken entnommen werden.<BR>Wenn der Alchemische Ofen mit Alumentum befeuert wird, verläuft der Destillationsprozess wesentlich schneller.
+tc.research_page.DISTILESSENTIA.1=In Zukunft wirst du definitiv schnellen Zugang zu verschiedenen Aspekten benötigen - nicht nur den Primären aus deinem Zauberstab.<BR>Mit einfachen alchemischen Verfahren hast du einen Weg gefunden, Objekte zu analysieren und in ihre Essentia zu zerlegen.<BR>Der erste Schritt in diesem Prozess benötigt einen §lAlchemischen Ofen§r. Der Alchemische Ofen funktioniert wie ein normaler Ofen, indem er Kohle verbrennt um Hitze zu erzeugen, doch anstatt Erze zu reinen Metallen zu schmelzen, spaltet er Objekte in eine Brühe aus rohen, unverarbeiteten Essentia.
+tc.research_page.DISTILESSENTIA.2=Der nächste Prozessschritt ist, die Essentia-Brühe mit Hilfe von §lArkanen Alambiken§r zu destillieren.<BR>Damit es funktioniert, müssen die Alambiken über dem Ofen angebracht werden. Die Essentia-Brühe zieht langsam in sie hinein und wird dort in einzelne Essentia separiert.<BR>Es lassen sich bis zu 5 Alambiken auf einen Ofen stapeln.<BR>Mit Phiolen kann die Essentia dann aus den Alambiken entnommen werden.<BR>Wenn der Alchemische Ofen mit Alumentum befeuert wird, verläuft der Destillationsprozess wesentlich schneller.
 #
 tc.research_name.JARLABEL=Bannende Gläser und Glasschilder
 tc.research_text.JARLABEL=Essentia speichern und organisieren
@@ -1158,8 +1234,8 @@ tc.research_page.JARLABEL.2=Auf Gläser und Alambiks mit Shift zu klicken, wird 
 tc.research_page.JARLABEL.3=Du kannst ein Glasschild mit einer Essentiaphiole in einer Werkbank kombinieren, um ihm einen Aspekt zuzuordnen, und, wenn auf einem leeren Glas platziert, wird es dem Glas automatisch den Aspekt zuordnen. Die für das Rezept nötige Essentia wird nicht verbraucht.<BR>Ein Glasschild auf einem gefüllten Glas zu platzieren, wird seinen Aspekt zum Essentiatyp des Glases ändern.<LINE>Ein Glasschild kann wieder leer gemacht werden, indem es einfach allein in einem Werkgitter platziert wird.
 #
 tc.research_name.INFERNALFURNACE=Höllischer Ofen
-tc.research_text.INFERNALFURNACE=Heiß genug?
-tc.research_page.INFERNALFURNACE.1=Durch rohes §cIgnis§0 in einem Konstrukt aus Obsidian und Netherziegeln hast du einen sehr effizienten und verbrauchsarmen Ofen geschaffen. Er ist so effizient, dass er von Zeit zu Zeit zusätzliches Material in Form von Nuggets oder anderen Items erzeugt.<BR>Obwohl der Betrieb grundsätzlich gratis ist, benötigt der Ofen ab und an ein wenig neue §cIgnis§0-Essentia, andernfalls ist er sehr langsam. Dafür stellt man ein Glas mit §cIgnis§0-Essentia innerhalb von 10 Blöcken in Sichtweite der Ofenfront auf. Glücklicherweise ist der Ofen sehr sparsam.
+tc.research_text.INFERNALFURNACE=Verbrenn' dir nicht die Finger
+tc.research_page.INFERNALFURNACE.1=Durch rohes §cIgnis§0 in einem Konstrukt aus Obsidian und Netherziegeln hast du einen sehr effizienten und verbrauchsarmen Ofen geschaffen. Er ist so effizient, dass er von Zeit zu Zeit zusätzliches Material in Form von Nuggets oder anderen Items erzeugt.<BR>Obwohl der Betrieb grundsätzlich gratis ist, benötigt der Ofen ab und an ein wenig neue §cIgnis§0-Essentia oder Vis, andernfalls ist er sehr langsam. Dies kann auf verschiedene Weisen geschehen, die du bereits gelernt hast oder noch lernen wirst.
 tc.research_page.INFERNALFURNACE.2=Es sollte nicht vergessen werden, dass ab und zu etwas Flux in die Umwelt entweicht.<BR>Items die geschmolzen werden sollen, müssen von oben in den Ofen geworfen werden, das Ergebnis wird vorne ausgespuckt.
 #
 tc.research_name.BELLOWS=Arkaner Blasebalg
@@ -1199,8 +1275,8 @@ tc.research_page.ADVANCEDGOLEM.1=Du hast einen Weg gefunden, Golems auf viele kl
 tc.research_name.ARCANEBORE=Arkaner Bohrer
 tc.research_text.ARCANEBORE=Bergbau entwickelt sich
 tc.research_page.ARCANEBORE.1=Du hast ein Gerät entdeckt, dass die Kraft und Reichweite des Grabe-Fokus erweitern kann. Noch besser, diese Maschine kann das sogar ohne deine ständige Aufsicht! Du musst sie nur auf einem besonderen Gestell platzieren, sie mit dem Zauberstab in die richtige Richtung zeigen lassen und ein Redstone-Signal anlegen.<BR>Der Arkane Bohrer benötigt zwei Dinge, um zu funktionieren: Erstens braucht er einen Grabe-Fokus im linken Inventarplatz. Besitzt der Fokus Verzauberungen, wirken sich diese auf den Bohrer aus.
-tc.research_page.ARCANEBORE.2=Zweitens benötigt der Bohrer eine beliebige Spitzhacke im rechten Inventarplatz. Das Material der Spitzhacke hat nur wenig Einfluss auf den Bohrer, aber je haltbarer sie ist, desto länger ist sie benutzbar. Wie mit dem Stab wirken sich alle Verzauberungen und Spezialfähigkeiten der Spitzhacke auf alles aus, was der Bohrer abbaut.<BR>Ein Glas mit §8Perditio§0-Essentia in einem 8-Block-Radius um den Bohrer erhöht die Abbaugeschwindigkeit drastisch, aber für alle 16 Blöcke wird ein Punkt Perditio verbraucht.<BR>Der Arkane Bohrer kann nur über oder unter einem Arkanen Bohrergestell angebracht werden. Alles abgebauten Items werden von dem Gestell zu der Seite ausgeworfen, zu der die Öffnung zeigt.
-tc.research_page.ARCANEBORE.3=Wenn möglich, wird ein angrenzendes Inventar verwendet. Die Richtung kann mit dem Stab geändert werden.
+tc.research_page.ARCANEBORE.2=Zweitens benötigt der Bohrer eine beliebige Spitzhacke im rechten Inventarplatz. Das Material der Spitzhacke hat nur wenig Einfluss auf den Bohrer, aber je haltbarer sie ist, desto länger ist sie benutzbar. Wie mit dem Stab wirken sich alle Verzauberungen und Spezialfähigkeiten der Spitzhacke auf alles aus, was der Bohrer abbaut.<BR>Der Arkane Bohrer kann nur über oder unter einem Arkanen Bohrergestell angebracht werden. Alle abgebauten Items werden von dem Gestell zu der Seite ausgeworfen, zu der die Öffnung zeigt.<BR>Wenn möglich, wird ein angrenzendes Inventar verwendet. Die Richtung kann mit einem Stab geändert werden.
+tc.research_page.ARCANEBORE.3=Der Bohrer kann mit §8Perditio§0-Essentia oder -Vis angetrieben werden, um die Abbaugeschwindigkeit drastisch zu erhöhen. Vis oder Essentia kann wie Üblich über Rohre oder Relais dargeboten werden.<BR>Ein Punkt §8Perditio§0-Essentia wird den Bohrer für die nächsten 20 Blöcke beschleunigen. Alternativ werden 5 CV pro abzubauenden Block benötigt, und der Bohrer akzeptiert bis zu 100 CV pro tick.
 #
 tc.research_name.LEVITATOR=Arkaner Levitator
 tc.research_text.LEVITATOR=Die zweitbeste Art zu Fliegen
@@ -1212,8 +1288,9 @@ tc.research_page.ARCANEEAR.1=Das Arkane Ohr ist ein Gerät, das Geräusche von i
 #
 tc.research_name.MIRROR=Spiegelmagie
 tc.research_text.MIRROR=Hinter den Spiegeln
-tc.research_page.MIRROR.1=Du kannst jetzt zwei Spiegel verzaubern, sodass sie als Verbindung zwischen den Welten wirken. Alles, was durch einen Spiegel geschickt wird, kommt durch die Zwischenwelt aus dem anderen Spiegel heraus - sogar in anderen Dimensionen.<BR>Leider ist die Zwischenwelt extrem tödlich für sterbliche Kreaturen wir dich, daher kann man bis jetzt nur Gegenstände transportieren.<BR>Um ein Paar dieser Spiegel zu verbinden, musst du nur einen von ihnen am gewünschten Ort platzieren. Dann rechtsklickst du mit dem zweiten  
+tc.research_page.MIRROR.1=Du kannst jetzt zwei Spiegel verzaubern, sodass sie als Verbindung zwischen den Welten wirken. Alles, was durch einen Spiegel (hineingeworfen oder über Rohre) geschickt wird, kommt durch die Zwischenwelt aus dem anderen Spiegel heraus - sogar in anderen Dimensionen.<BR>Leider ist die Zwischenwelt extrem tödlich für sterbliche Kreaturen wir dich, daher kann man bis jetzt nur Gegenstände transportieren.<BR>Um ein Paar dieser Spiegel zu verbinden, musst du nur einen von ihnen am gewünschten Ort platzieren. Dann rechtsklickst du mit dem zweiten  
 tc.research_page.MIRROR.2=Spiegel auf den eben platzierten und sie werden aneinander gebunden. Jetzt platzierst du den Spiegel, wo immer du willst. Items, die in einen geworfen werden, kommen aus dem anderen heraus.<BR>Spiegel können nur paarweise verbunden werden, daher kannst du zu zwei platzierten und funktionierenden Spiegeln keinen dritten hinzufügen. Wenn du einen Spiegel aufnimmst, behält er den letzten Partner, mit dem er verbunden war, du kannst sie also leicht umstellen, ohne sie neu verbinden zu müssen. Wenn jedoch ein gepaarter Spiegel aufgenommen wird, kannst du sie mit jeweils anderen Spiegeln verbinden.<BR>Der Transport von Items ist nicht umsonst. Du benötigst eine Iter-Quelle in der Nähe. Jeder volle Stack Items benötigt 1 Essentia.
+tc.research_page.MIRROR.3=Transporting items through mirrors places stress on the magical glass and to prevent it from shattering the mirror automatically slows down the rate at which items is spit out the other side. The greater the instability, the more the transfer rate is slowed.<BR>This instability slowly lessens over time, but it can also be negated by relaying §7Ordo§0 vis directly to the mirror.
 #
 tc.research_name.MIRRORHAND=Magischer Handspiegel
 tc.research_text.MIRRORHAND=Persönliche Reflektion
