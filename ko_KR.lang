@@ -271,7 +271,7 @@ item.Wand.gold.cap=골든
 item.Wand.copper.cap=구리
 item.Wand.silver.cap=실버
 item.Wand.thaumium.cap=사우믹
-item.Wand.void.cap=보이드
+item.Wand.void.cap=공허합금
 #
 item.ItemResource.0.name=알루멘텀
 item.ItemResource.1.name=나이터
@@ -1444,12 +1444,12 @@ tc.research_page.VISAMULET.2=그럼에도 루닉 결계나 수리 인챈트가 �
 #
 tc.research_name.NODESTABILIZER=노드 스태빌라이저
 tc.research_text.NODESTABILIZER=노드 치유
-tc.research_page.NODESTABILIZER.1=이 유용한 장치는 노드 아래 둘 경우 몆가지 이로운 효과들을 제공합니다.<BR>우선, 노드들이 서로 비스를 뺏고 빼앗기는 것을 방지합니다. 또한 불안정한 노드가 비스를 잃는 것을 방지하며, 가끔 불안정한 상태를 완전히 제거하는 경우도 있습니다. 마지막으로, 비록 아주 미미한 확률이지만, 꺼져가는 노드를 희미한 노드로 회복시켜줄 수 있습니다.<BR>하지만 장치가 작동하기 위해선 동력원이 필요하며 이 동력은 위에 놓여진 노드에서 충당합니다. 노드에 담긴 비스가 줄어들 정도로 많이 소모하진 않지만, 위에 놓여진 노드의 재충전 속도를 절반 가까이 떨어뜨립니다.
-tc.research_page.NODESTABILIZER.2=레드스톤 신호를 주어서 스태빌라이저의 작동을 중지시킬 수 있습니다.
+tc.research_page.NODESTABILIZER.1=이 유용한 장치는 노드 아래 둘 경우 몆가지 이로운 효과들을 제공합니다.<BR>우선, 노드들이 서로 비스를 뺏고 빼앗기는 것을 방지합니다. 또한 불안정한 노드가 비스를 잃는 것을 방지하며, 가끔 불안정한 상태를 완전히 제거하는 경우도 있습니다. 마지막으로, 비록 아주 미미한 확률이지만, 꺼져가는 노드를 희미한 노드로 회복시켜줄 수 있습니다.<BR>하지만 장치가 작동하기 위해선 동력원이 필요하며 이 동력은 위에 놓여진 노드에서 충당합니다. 노드에 담긴 비스가 줄어들 정도로 많이 소모하진
+tc.research_page.NODESTABILIZER.2=않지만, 위에 놓여진 노드의 재충전 속도를 절반 가까이 떨어뜨립니다.<BR>레드스톤 신호를 주어서 스태빌라이저의 작동을 중지시킬 수 있습니다.
 #
 tc.research_name.NODESTABILIZERADV=Adv. 노드 스태빌라이저
 tc.research_text.NODESTABILIZERADV=선택적 안정화
-tc.research_page.NODESTABILIZERADV.1=Adv. 노드 스태빌라이저는 기본적으로 일반 스태빌라이저의 모든 기능을 갖고 있지만, 몆가지 중대한 차이점이 있습니다.<BR>우선, 이 장치가 장착된 노드는 다른 더 큰 노드에게 비스를 뺏기지 않으나, 반대로 다른 더 작은 노드의 비스를 빼앗아 올 수 있습니다.<BR>또한, 꺼져가는 노드와 불안정한 노드를 회복시켜줄 확률이 더 높습니다.<BR>하지만 여기에는 더 많은 동력이 필요하며, 여전히 노드에 담긴 비스가 줄어들 정도는 아닐지라도, 눈부신 노드의 충전속도조차 무마될 수준의 비스를 소모합니다.
+tc.research_page.NODESTABILIZERADV.1=Adv. 노드 스태빌라이저는 기본적으로 일반 스태빌라이저의 모든 기능을 갖고 있지만, 몆가지 중대한 차이점이 있습니다.<BR>우선, 이 장치가 장착된 노드는 다른 더 큰 노드에게 비스를 뺏기지 않으나, 반대로 다른 더 작은 노드의 비스를 빼앗아 올 수 있습니다.<BR>또한 노드를 회복시켜줄 확률이 더 높습니다.<BR>하지만 여기에는 더 많은 동력이 필요하며, 여전히 노드에 담긴 비스가 줄어들 정도는 아닐지라도, 눈부신 노드의 충전속도조차 무마될 수준의 비스를 소모합니다.
 #
 tc.research_name.GOLEMFETTER=골렘 족쇄
 tc.research_text.GOLEMFETTER=동작 강제
@@ -1459,9 +1459,9 @@ tc.research_name.VISPOWER=비스의 이용
 tc.research_text.VISPOWER=에너지 공급
 tc.research_page.VISPOWER.1=마도학자에게 있어서 비스가 들어있는 노드는 자신이 행하는 모든 기적의 근원이라 할 수 있습니다. 하지만 노드들에는 여러 제약이 있기 때문에 대규모의 작업에 사용하기란 쉬운 일이 아닙니다. 이 제약들 중에서도 가장 큰 문제가 되는 것은, 노드의 에너지는 쉽게 고갈되며, 이 고갈된 에너지가 다시 충전되기까진 꽤 오랜 시간이 걸린다는 점입니다..<BR>여기 이 문제에 대한 몇가지 해결책이 있습니다. 이 노드라는 것은 실제로는 신비한 에너지의 기원이 되는 곳으로 이어진 작은 통로 주변에 에너지가 비스의 형태로 축적되어 있는 것입니다. 이 문은 너무나도 작아서
 tc.research_page.VISPOWER.2=아주 소량의 에너지만이 우리가 사는 세계로 넘어오게 됩니다. 때문에 이 통로를 강제로 넓힌다면 대량의 에너지가 순식간에 넘어오도록 하는 것이 가능합니다.<BR>하지만 이는 매우 위험한 행동이며, 통로를 넓히는 과정 내내 극도의 주의가 필요합니다.<BR>우선, 노드가 작업중에 계속해서 안정된 상태를 유지해야 합니다. 노드의 안정화가 완료되었다면 그 후에 §l노드 변환기§r를 노드 위에 설치하세요. 그 후 변환기에 레드스톤 신호를 주어 활성화시키면 활성화된 노드로의 변환이 시작되고 저장된 비스를 빠르게 잃게 됩니다.<BR>약간의 시간 후에 노드는 활성화된 노드로
-tc.research_page.VISPOWER.3=완전히 탈바꿈하게 됩니다. 활성화된 노드로 변환된 후에는 스태빌라이저와 변환기 모두 절대로 꺼져서는 안됩니다.<LINE>활성화된 노드는 더이상 비스를 저장하지도, 충전되지도 않으며 완드나 이와 비슷한 도구로 비스를 추출하는 것도 불가능해 집니다. 대신, 이 노드는 매 틱마다§lCV§r (센티비스, 100분의 1비스) 를 꾸준히 생산합니다. 이 에너지는 주변에 비스 중계기를 놓아 추출할 수 있습니다.<BR>각각의 중계기는 CV를 전달하는 통로 역할을 하며 활성화된 노드로부터 8블럭 이내에 여러 대의 중계기를 설치할 수 있습니다. 또한 중계기는 서로 비스를 주고 받을 수 있기 때문에 이를 이용해
-tc.research_page.VISPOWER.4=지옥불 화로와 같이 비스를 필요로 하는 곳 어디에든 연결이 가능합니다.<BR>이 중계기는 분기 구조를 따르기 때문에 하나의 중계기는 한 군데의 중계기나 노드에서만 비스를 받을 수 있지만 받은 비스는 여러 중계기로 나뭇가지가 뻗어나가듯이 분배해 주는 것이 가능합니다.<BR>또한 중계기에 적절한 샤드를 사용해서 특정 속성의 비스에 '채널을 맞추는' 것이 가능합니다. 이렇게 채널을 맞춘다고 해서 해당 중계기를 지나는 비스의 종류를 제한하는 것은 아니며, 채널이 맞춰지지 않거나 같은 속성의 비스에 맞춰진 중계기 외의 다른 중계기와 연결되는 것을 막는 것 뿐입니다.<BR>노드가 틱당 생산하는 에너지의 양은 제한되어있기 때문에 
-tc.research_page.VISPOWER.5=한 노드에 너무 많은 장치들을 연결시키면 CV 소모량이 생산량을 초과할 수 있습니다.<LINE>변환기의 작동을 중지시키면 활성화된 노드가 다시 평범한 노드로 서서히 돌아옵니다. 이 때 이전 상태로 되돌려진 노드에는 비스가 전혀 없는 상태이기 때문에 노드에 손상이 갈 수 도 있으니 주의하세요.
+tc.research_page.VISPOWER.3=완전히 탈바꿈하게 됩니다. 활성화된 노드로 변환된 후에는 스태빌라이저와 변환기 모두 절대로 꺼져서는 안됩니다.<LINE>활성화된 노드는 더이상 비스를 저장하지도, 충전되지도 않으며 완드나 이와 비슷한 도구로 비스를 추출하는 것도 불가능해 집니다. 대신, 이 노드는 매 틱마다§lCV§r (센티비스, 100분의 1비스) 를 꾸준히 생산합니다. 이 에너지는 주변에 비스 중계기를 놓아 추출할 수 있습니다.<BR>각각의 중계기는 CV를 전달하는 통로 역할을 하며 활성화된 노드로부터 8블럭 이내에 여러 대의 중계기를 설치 가능합니다. 또한 중계기는 서로 비스를 주고 받을 수 있기 때문에 이를 이용해
+tc.research_page.VISPOWER.4=지옥불 화로와 같이 비스를 필요로 하는 곳 어디에든 연결이 가능합니다.<BR>이 중계기는 분기 구조를 따르기 때문에 하나의 중계기는 한 군데의 중계기나 노드에서만 비스를 받을 수 있지만 받은 비스는 여러 중계기로 나뭇가지가 뻗어나가듯이 분배해 주는 것이 가능합니다.<BR>또한 중계기에 적절한 샤드를 사용해서 특정 속성의 비스에 '채널을 맞추는' 것이 가능합니다. 이렇게 채널을 맞춘다고 해서 해당 중계기를 지나는 비스의 종류를 제한하는 것은 아니며, 채널이 맞춰지지 않거나 같은 속성의 비스에 맞춰진 중계기 외의 다른 중계기와 연결되는 것을 막는 것 뿐입니다.
+tc.research_page.VISPOWER.5=노드가 틱당 생산하는 에너지의 양은 제한되어있기 때문에 한 노드에 너무 많은 장치들을 연결시키면 CV 소모량이 생산량을 초과할 수 있습니다.<LINE>변환기의 작동을 중지시키면 활성화된 노드가 다시 평범한 노드로 서서히 돌아옵니다. 이 때 이전 상태로 되돌려진 노드에는 비스가 전혀 없는 상태이기 때문에 노드에 손상이 갈 수 도 있으니 주의하세요.
 #
 tc.research_name.VISCHARGERELAY=비스 충전 중계기
 tc.research_text.VISCHARGERELAY=단순화된 아케인 제작
@@ -1469,9 +1469,9 @@ tc.research_page.VISCHARGERELAY.1=자꾸만 고갈되는 완드는 마도학자�
 #
 tc.research_name.WARP=뒤틀림, 플럭스, 그 외의 해로운 것들
 tc.research_text.WARP=모든 행위엔 그에 합당한 대가를
-tc.research_page.WARP.1=§n뒤틀림§r<BR>보통 인간의 몸은 마법에 그리 적합하지 않다고들 하며, 우리는 '뒤틀림'이라는 것의 존재에 의해 이게 틀린 말만은 아니라는 것을 알 수 있습니다.<BR>금지된 마법을 연구하거나 무언가 수상한 것을 제작할 때면, 마도학자의 몸과 영혼은 쉽게 뒤틀리게 되고, 마도학자가 현실을 보는 시야마저 왜곡시킵니다. 이러한 현상을 '뒤틀림'이라 부릅니다.<BR>일시적인 뒤틀림은 시간이 지나면 서서히 증세가 사라지지만, 힘을 뒤쫒는데 따르는 위험함을 무시하기로 작정한 마도학자들에게서 종종 나타나는 영구적인 뒤틀림 현상은 아직 그 치료 방법이 전혀 알려진 바가 없습니다.
-tc.research_page.WARP.2=뒤틀림의 증상은 보통 경미한 집중 장애, 육체적 고통, 혹은 환각으로 나타납니다.<BR>하지만 이는 단순한 정신질환에 불과한 것이 아닙니다. 때때로 뒤틀린 시야에서 중요한 지식을 찾는 경우가 있으며 그저 환영이라 생각한 것이 실제로는 소름끼치는 진실인 경우 또한 있습니다.
-tc.research_page.WARP.3=§n플럭스§r<BR>뒤틀림이 잘못된 마법이 정신에 영향을 주어 생기는 증상이라면, 플럭스는 외부적으로 나타나는 현상입니다.<BR>이 플럭스는 세 가지 형태로 발현되는데, 액체 형태, 기체 형태, 그리고 육체적인 병이 바로 플럭스의 주된 현상입니다. 앞의 두 현상은 대부분의 마도학자들이 귀찮아 하는 현상으로, 보통 인퓨전이나 연금술을 행할 때 발생합니다. 이걸 치우는 건 그다지 어렵지 않지만, 문제는 이 액체, 혹은 기체와 닿았을 때 종종 걸리는 세 번째 증상으로, 바로 플럭스 감기입니다.<BR>이건 그다지 위험한 질병은 아니지만, 이 병에 걸리게 되면 무언가에 집중하는 것이 힘들어져 비스를 이용한 작업을 할 때 비스 소모량이 늘어나게 됩니다.
+tc.research_page.WARP.1=§n뒤틀림§r<BR>보통 인간의 몸은 마법에 그리 적합하지 않다고들 하며, 우리는 '뒤틀림'이라는 것의 존재에 의해 이게 틀린 말만은 아니라는 것을 알 수 있습니다.<BR>금지된 마법을 연구하거나 무언가 수상한 것을 제작할 때면, 마도학자의 몸과 영혼은 쉽게 뒤틀리게 되고, 마도학자가 현실을 보는 시야마저 왜곡시킵니다. 이러한 현상을 '뒤틀림'이라 부릅니다.<BR>일시적인 뒤틀림은 시간이 지나면 서서히 증세가 사라지지만, 힘을 뒤쫒는데 따르는 위험함을 무시하기로 작정한
+tc.research_page.WARP.2=마도학자들에게서 종종 나타나는 영구적인 뒤틀림 현상은 아직 그 치료 방법이 전혀 알려진 바가 없습니다.<BR>뒤틀림의 증상은 보통 경미한 집중 장애, 육체적 고통, 혹은 환각으로 나타납니다.<BR>하지만 이는 단순한 정신질환에 불과한 것이 아닙니다. 때때로 뒤틀린 시야에서 중요한 지식을 찾는 경우가 있으며 그저 환영이라 생각한 것이 실제로는 소름끼치는 진실인 경우 또한 있습니다.
+tc.research_page.WARP.3=§n플럭스§r<BR>뒤틀림이 잘못된 마법이 정신에 영향을 주어 생기는 증상이라면, 플럭스는 외부적으로 나타나는 현상입니다.<BR>이 플럭스는 세 가지 형태로 발현되는데, 액체 형태, 기체 형태, 그리고 육체적인 병이 바로 플럭스의 주된 현상입니다. 앞의 두 현상은 대부분의 마도학자들이 귀찮아 하는 현상으로, 보통 인퓨전이나 연금술을 행할 때 발생합니다. 이걸 치우는 건 그다지 어렵지 않지만, 문제는 이 액체, 혹은 기체와 닿았을 때 종종 걸리는 세 번째 증상으로, 바로 플럭스 감기입니다. 이 병에 걸리게 되면 마법 에너지 집중 힘들어져 비스 소모량이 늘어나게 됩니다.
 #
 tc.research_name.BATHSALTS=정화의 입욕 소금
 tc.research_text.BATHSALTS=정신적 스트레스로부터 해방을
@@ -1508,19 +1508,19 @@ tc.research_page.ELDRITCHMINOR.1=머릿속의 광명으로부터 갑작스런 �
 #
 tc.research_name.ELDRITCHMAJOR=드러난 이세계
 tc.research_text.ELDRITCHMAJOR=나는 무한의 경계 저 너머를 보고야 말았어...
-tc.research_page.ELDRITCHMAJOR.1=장막은 거두어지기 마련이고, 이계를 가린 장막이 지금 막, 내 머릿속에서 거둬졌다.<BR>나는 경이로움을 목격했다. 경이로움? 아니, 그건 경이로움이 아니야... §m내가 본 것은 말이지§r<BR>§o나는 봤어.. 나는 봤어... 봤어.. 봤어.. 봤다고 봐버렸어!.... "나는 그들을 봤어"§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>이 항목, 도대체 누가 작성한거지?
+tc.research_page.ELDRITCHMAJOR.1=장막은 거두어지기 마련이고, 이계를 가린 장막이 지금 막, 내 머릿속에서 거둬졌다.<BR>나는 경이로움을 목격했다. 경이로움? 아니, 그건 경이로움이 아니야..내가 본 것은 말이지..<BR><IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.2=§o나는 봤어.. 나는 봤어... 봤어.. 봤어.. 봤다고 봐버렸어!.... "나는 그들을 봤어"§r<BR><IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>
 #
 tc.research_name.VOIDMETAL=공허합금
 tc.research_text.VOIDMETAL=금속인데 차갑지 않네...?
-tc.research_page.VOIDMETAL.1=사우뮴은 마법을 금속에 불어넣어 만들어낸 특별한 금속입니다. 이는 제법 가치있는 발견이지만, 이제 사우뮴은 초보, 입문자들에게 넘겨줄 때입니다.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essense where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
-tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devestating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favourably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
+tc.research_page.VOIDMETAL.1=사우뮴은 마법을 금속에 불어넣어 만들어낸 특별한 금속입니다. 이는 제법 가치있는 발견이지만, 이제 사우뮴은 초보 입문자들에게 넘겨주세요.<BR>이상하지만 생생한 꿈에서, 독특한 발상을 하게 되었습니다. 금속에 마법 그 이상, 마법 에너지의 원천이라 할 수 있는 우주의 어둠과 공허에 존재하는 정수 그 자체를 주입해 보는 건 어떨까요?<BR>그 결과물은 너무나도 매끄럽고 약간의 온기가 느껴지는 합금입니다. 이 금속은 거의 금처럼 무르기 때문에 가공하기 쉽지만
+tc.research_page.VOIDMETAL.2=제련할 경우 사우뮴과 같은, 혹은 그 이상의 강도를 지니게 됩니다. 게다가 이 금속은 원형을 유지하려는 성질이 있어 엄청난 손상을 입어도 금속 스스로 서서히 복구가 됩니다.<BR>단점이라 할 만한 건 사우뮴처럼 인챈트에 능하지는 않다는 것이지만, 철 등의 일반적인 금속에 비해서는 잘 되는 편입니다.<BR>이 금속을 다룰 때는 주의를 기울여야 하는데, 이 금속에 의해 상처가 났을 경우 일시적으로 힘이 저하될 수 있습니다.
 #
 tc.research_name.ARMORVOIDFORTRESS=공허의 전투 갑주
 tc.research_text.ARMORVOIDFORTRESS=개미 한마리 빠져나가지 못하도록
-tc.research_page.ARMORVOIDFORTRESS.1=This is a simple improvement on the concepts layed down by the discovery of fortress armor. By using Void Metal instead of Thaumium you are not only increasing the effectiveness of the armor, but also it's durability.<BR>Of course some people claim that wearing such a large amount of Void metal is probably not good, but there will always be doubters and they should be ignored. You find the dull ache that settles into your bones as you wear it comforting.<BR>Like normal fortress armor this armor can be enhanced by various different faceplates and modifications. 
+tc.research_page.ARMORVOIDFORTRESS.1=이 갑옷은 일반적인 전투 갑주의 약간의 개선판이라 할 수 있습니다. 제작에 사우뮴 대신 공허합금을 사용하였기 때문에 효율성과 내구도 모두 증강되었습니다.<BR>물론 몇몇 사람들은 그렇게 대량의 공허합금을 몸에 걸치는 건 그다지 바람직한 행동이 아니라고 하지만, 이는 항상 있어왔던 이야기이고 무시해도 별 상관 없는 얘기일 뿐입니다. 이걸 착용하고 있으면 가끔 뼛속이 아릴 때가 있습니다.<BR>일반적인 전투 갑주처럼 이 갑옷 역시 안면 보호판등으로 기능을 확장하는 것이 가능합니다. 
 #
 tc.research_name.CAP_void=공허합금 완드캡
 tc.research_text.CAP_void=이세계의 힘
-tc.research_page.CAP_void.1=Crafting wand caps from Voidmetal seems counterintuative since it seems to be highly resistant to magic, but counterintuative is where you live now.<BR>Your gamble payed off. The metal itself may be resistant to magic, but it channels with suprsising ease. The magic does seem §ostrange§r somehow, but it is probably just your imagination.
+tc.research_page.CAP_void.1=마법에 저항력이 강한 공허합금으로 완드캡을 만드는 것은 통념에 반하는 행위 같지만, 지금은 기존의 통념을 뒤집는 자가 성공하는 시대입니다.<BR>그리고 이 도박은 꽤 성공적인 것 같아 보입니다. 재료가 된 금속 자체는 마법에 저항이 강할지 몰라도, 이 금속으로 만든 완드캡은 놀라울 정도로 쉽게 마력을 머금습니다. 좀 §o이상하게§r 생각될지 몰라도, 마법이란게 원래 그런식 아니겠습니까.
 #
