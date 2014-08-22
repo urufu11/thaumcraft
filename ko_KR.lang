@@ -230,8 +230,8 @@ item.WandCap.3.name=구리 캡
 item.WandCap.4.name=활성화된 은 캡
 item.WandCap.5.name=활성화되지 않은 은 캡
 item.WandCap.6.name=활성화되지 않은 사우뮴 캡
-item.WandCap.7.name=활성화된 Voidmetal 캡
-item.WandCap.8.name=활성화되지 않은 Voidmetal 캡
+item.WandCap.7.name=활성화된 공허합금 캡
+item.WandCap.8.name=활성화되지 않은 공허합금 캡
 item.WandRod.0.name=그레이트우드 완드 코어
 item.WandRod.1.name=흑요석 완드 코어
 item.WandRod.2.name=실버우드 완드 코어
@@ -289,7 +289,7 @@ item.ItemResource.12.name=테인트 덩굴
 item.ItemResource.13.name=단지 라벨
 item.ItemResource.14.name=정화된 소금
 item.ItemResource.15.name=태초의 부적
-item.ItemResource.16.name=Voidmetal 주괴
+item.ItemResource.16.name=공허합금 주괴
 item.ItemResource.17.name=공허의 씨앗
 item.ItemZombieBrain.name=좀비 뇌
 item.ItemShard.0.name=에어 샤드
@@ -313,7 +313,7 @@ item.ItemNugget.3.name=은 조각
 item.ItemNugget.4.name=납 조각
 item.ItemNugget.5.name=수은 방울
 item.ItemNugget.6.name=사우뮴 조각
-item.ItemNugget.7.name=Voidmetal 조각
+item.ItemNugget.7.name=공허합금 조각
 item.ItemNugget.16.name=순수한 철 덩어리
 item.ItemNugget.17.name=순수한 구리 덩어리
 item.ItemNugget.18.name=순수한 주석 덩어리
@@ -429,14 +429,14 @@ item.ItemAmuletVis.text=손에 쥔 완드를 천천히 충전시킵니다.
 item.ItemAmuletVis.0.name=비스석
 item.ItemAmuletVis.1.name=비스 저장 아뮬렛
 item.ItemGirdleHover.name=사우모스태틱 허리띠
-item.ItemBathSalts.name=정화의 소금
+item.ItemBathSalts.name=정화용 입욕 소금
 item.ItemBucketDeath.name=액체 죽음 양동이
-item.ItemHelmetFortress.name=무사의 사우뮴 헬멧
-item.ItemChestplateFortress.name=무사의 사우뮴 흉갑
-item.ItemLeggingsFortress.name=무사의 사우뮴 하체 보호구
+item.ItemHelmetFortress.name=사우뮴 전투 헬멧
+item.ItemChestplateFortress.name=사우뮴 전투 흉갑
+item.ItemLeggingsFortress.name=사우뮴 전투 레깅스
 item.HelmetFortress.mask.0=악마의 미소
 item.HelmetFortress.mask.1=분노한 영혼
-item.HelmetFortress.mask.2=흘러나오는 광기
+item.HelmetFortress.mask.2=새어나오는 광기
 item.ItemEldritchObject.name=이계의 눈빛
 item.ItemHelmetVoid.name=공허의 헬멧
 item.ItemChestplateVoid.name=공허의 갑옷
@@ -447,9 +447,9 @@ item.ItemAxeVoid.name=공허의 도끼
 item.ItemSwordVoid.name=공허의 검
 item.ItemPickVoid.name=공허의 곡괭이
 item.ItemHoeVoid.name=공허의 괭이
-item.ItemHelmetVoidFortress.name=공허가 깃든 무사의 헬멧
-item.ItemChestplateVoidFortress.name=공허가 깃든 무사의 흉갑
-item.ItemLeggingsVoidFortress.name=공허가 깃든 무사의 하체 보호구
+item.ItemHelmetVoidFortress.name=공허의 전투 헬멧
+item.ItemChestplateVoidFortress.name=공허의 전투 흉갑
+item.ItemLeggingsVoidFortress.name=공허의 전투 레깅스
 #
 # Fluids
 fluid.fluxGoo=플럭스 점액
@@ -1473,54 +1473,54 @@ tc.research_page.WARP.1=§n뒤틀림§r<BR>보통 인간의 몸은 마법에 그
 tc.research_page.WARP.2=뒤틀림의 증상은 보통 경미한 집중 장애, 육체적 고통, 혹은 환각으로 나타납니다.<BR>하지만 이는 단순한 정신질환에 불과한 것이 아닙니다. 때때로 뒤틀린 시야에서 중요한 지식을 찾는 경우가 있으며 그저 환영이라 생각한 것이 실제로는 소름끼치는 진실인 경우 또한 있습니다.
 tc.research_page.WARP.3=§n플럭스§r<BR>뒤틀림이 잘못된 마법이 정신에 영향을 주어 생기는 증상이라면, 플럭스는 외부적으로 나타나는 현상입니다.<BR>이 플럭스는 세 가지 형태로 발현되는데, 액체 형태, 기체 형태, 그리고 육체적인 병이 바로 플럭스의 주된 현상입니다. 앞의 두 현상은 대부분의 마도학자들이 귀찮아 하는 현상으로, 보통 인퓨전이나 연금술을 행할 때 발생합니다. 이걸 치우는 건 그다지 어렵지 않지만, 문제는 이 액체, 혹은 기체와 닿았을 때 종종 걸리는 세 번째 증상으로, 바로 플럭스 감기입니다.<BR>이건 그다지 위험한 질병은 아니지만, 이 병에 걸리게 되면 무언가에 집중하는 것이 힘들어져 비스를 이용한 작업을 할 때 비스 소모량이 늘어나게 됩니다.
 #
-tc.research_name.BATHSALTS=Purifying Bath Salts
-tc.research_text.BATHSALTS=Stress relief for the mind
-tc.research_page.BATHSALTS.1=Warp is a danger for even the most careful of thaumaturges. For those that have done a bit too much dabbling Warp effects are probably more than just an annoyance. Purifying Bath Salts help with that.<BR>Simply tossing these salts into water will turn the water into a silvery, purifying liquid that sooths away the stresses of the day and brings temporary relief from the effects of Warp. It should be noted however the the more warp a thaumaturge suffers from, the shorter the duration of this protection.<BR>The salts are quite fragile and will soon dissolve if tossed around haphazardly. 
+tc.research_name.BATHSALTS=정화의 입욕 소금
+tc.research_text.BATHSALTS=정신적 스트레스로부터 해방을
+tc.research_page.BATHSALTS.1=아무리 세심한 마도학자라도 뒤틀림을 피하기란 쉬운 일이 아닙니다. 그리고 이 뒤틀림으로 인한 증상들은 매우 성가시며, 때때로 위험하기까지 합니다. 이 특별한 소금은 뒤틀림 증상을 조금이나마 완화시켜줍니다.<BR>물 속에 이 소금을 던져넣으면 곧 몸과 정신을 정화시켜주는 은빛의 액체로 변하게 되며 이 액체에 들어갈 경우 모든 스트레스들을 해소해주어 잠시나마 뒤틀림 증상들로부터 벗어날 수 있도록 해 줍니다. 다만, 뒤틀림 증상이 심할 수록 이 정화 효과는 지속시간이 줄어듭니다.<BR>이 소금은 쉽사리 오염되기 때문에 함부로 던지진 마세요.
 #
-tc.research_name.LIQUIDDEATH=Liquid Death
-tc.research_text.LIQUIDDEATH=For external use only
-tc.research_page.LIQUIDDEATH.1=This liquid is so dangerously toxic that virtually nothing can prevent it from dissolving flesh, bone and even harder substances. Nothing alive or that even displays the semblance of life can survive it.<BR>Apart from obvious practical applications, this vile substance has another interesting property: Any essentia a dissolved creature possessed form into crystals that can be harvested.<BR>I will leave it to the reader's imagination what uses those crystals can be put to. 
+tc.research_name.LIQUIDDEATH=액체 죽음
+tc.research_text.LIQUIDDEATH=외용으로만 사용하세요!
+tc.research_page.LIQUIDDEATH.1=강력한 독성을 띠는 이 액체는 어떠한 종류의 생명체일 지라도 살과 뼈, 심지어는 더 단단한 부위들까지 순식간에 녹여버립니다.<BR>실용성은 제쳐두고라도, 이 액체에는 꽤 흥미로운 특징이 존재하는데, 이 액체에 녹아버린 생명체에 포함된 에센시아가 액체 속에서 결정을 이루게 됩니다.<BR>이렇게 만들어진 에센시아 결정을 어디에 사용할지는 여러분의 상상에 맡기겠습니다. 
 #
-tc.research_name.ARMORFORTRESS=Thaumium Fortress Armor
-tc.research_text.ARMORFORTRESS=Nothing is getting in
-tc.research_page.ARMORFORTRESS.1=Thaumium armor has many things to recommend it, but its basic construction leaves it inferior to diamond armor. By improving the construction process and complexity you have found a way to create armor of exceptional craftsmanship, durability and strength.<BR>Each individual piece of Thaumium Fortress armor has the same protective properties as diamond armor, but has greater durability and offers additional protection against magic and fire.<BR>The biggest benefit however is that the individual armor pieces is designed and constructed to be worn together: Each additional
-tc.research_page.ARMORFORTRESS.2=piece of this armor worn increases the overall protection offered by all other pieces and improves its visual appeal.<BR>As with most objects constructed from thaumium, the armor is easy to enchant.
+tc.research_name.ARMORFORTRESS=사우뮴 전투 갑주
+tc.research_text.ARMORFORTRESS=철벽 방어
+tc.research_page.ARMORFORTRESS.1=기존의 사우뮴 방어구는 여러 장점이 많은 무난한 갑옷이지만, 그 단순한 설계 구조로 인해 다이아몬드 갑옷에 비해 성능이 떨어졌습니다. 때문에 제작 과정을 다듬고 좀 더 튼튼한 구조를 채용한다면 기존의 사우뮴 갑옷에 비해 훨씬 튼튼하고, 보기에도 좋은 갑옷을 만들어낼 수 있습니다.<BR>각 부위에 대응되는 사우뮴 전투 갑주는 기본적으로는 다이아몬드 갑옷과 같은 방어력에 더 높은 내구력을 제공하며, 불과 마법에 큰 저항력을 가집니다.<BR>하지만 이 갑옷의 가장 큰 특징은 세트를 갖추어 입었을때 비로소 발휘됩니다.
+tc.research_page.ARMORFORTRESS.2=모든 부위를 다 갖춰 착용할 경우 각 부위가 가지는 방어력의 총합보다 더 높은 방어력을 갖게 되며, 외관상으로 멋져 보이기까지 합니다.<BR>사우뮴으로 만들어진 다른 도구들처럼 이 갑옷 역시 인챈트가 수월한 편입니다.
 #
-tc.research_name.HELMGOGGLES=Helm of Revealing
-tc.research_text.HELMGOGGLES=Thaumium Fortress Helm Upgrade
-tc.research_page.HELMGOGGLES.1=Usually a thaumaturge needs to choose between protection or utility when out and about. Not anymore!<BR>This modifies a Thaumium Fortress Helm to give you all the functionality of Goggles of Revealing. It does however not give the vis discount the goggles usually do.<BR>A helm can have this upgrade along with faceplates. 
+tc.research_name.HELMGOGGLES=발견의 헬멧
+tc.research_text.HELMGOGGLES=사우뮴 전투 헬멧 업그레이드
+tc.research_page.HELMGOGGLES.1=마도학자들은 보통 외출을 할 때 기능과 방어력 사이에서 고민하게 됩니다. 때문에 이 고민을 덜어보기 위해 발견의 헬멧이 고안되었습니다.<BR>이 개조된 헬멧은 완벽하게 발견의 고글처럼 기능합니다. 대신 비스를 절약해 주는 특성은 빠져있습니다.<BR>이 업그레이드는 안면 보호구와 동시에 적용이 가능합니다. 
 #
-tc.research_name.MASKGRINNINGDEVIL=Grinning Devil Faceplate
-tc.research_text.MASKGRINNINGDEVIL=Thaumium Fortress Helm Upgrade
-tc.research_page.MASKGRINNINGDEVIL.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When worn, this mask has an interesting damping effect on those suffering from Warp event. While it does not reduce the number of events, it does reduce their severity somewhat.<BR>It seems laughing in the face of danger does have its rewards. 
+tc.research_name.MASKGRINNINGDEVIL=안면 보호판: 악마의 미소
+tc.research_text.MASKGRINNINGDEVIL=사우뮴 전투 헬멧 업그레이드
+tc.research_page.MASKGRINNINGDEVIL.1=이 보호판은 사우뮴 전투 헬멧에 덧씌워 착용하도록 설계되었습니다.<BR>이를 착용할 경우, 뒤틀림으로 인해 발생하던 현상들을 대폭 약화시켜줍니다. 발생 횟수를 줄여주는 것은 아니고, 그 강도를 줄여주는 정도입니다.<BR>마치 악마와도 같은 웃음을 짓고 있습니다. 
 #
-tc.research_name.MASKANGRYGHOST=Angry Ghost Faceplate
-tc.research_text.MASKANGRYGHOST=Thaumium Fortress Helm Upgrade
-tc.research_page.MASKANGRYGHOST.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you are struck in combat while wearing this grim mask the creature striking you has a chance to suffer a Withering effect.<BR>Serves them right.
+tc.research_name.MASKANGRYGHOST=안면 보호판: 분노한 영혼
+tc.research_text.MASKANGRYGHOST=사우뮴 전투 헬멧 업그레이드
+tc.research_page.MASKANGRYGHOST.1=이 보호판은 사우뮴 전투 헬멧에 덧씌워 착용하도록 설계되었습니다.<BR>이를 착용한 채로 누군가와 싸울 경우, 착용자를 공격한 상대는 간혹 위더 디버프에 걸리게 됩니다.<BR>그들에 합당한 대우를 하기 바랍니다.
 #
-tc.research_name.MASKSIPPINGFIEND=Sipping Fiend Faceplate
-tc.research_text.MASKSIPPINGFIEND=Thaumium Fortress Helm Upgrade
-tc.research_page.MASKSIPPINGFIEND.1=This mask is designed to be added to an existing Thaumium Fortress helm.<BR>When you strike a creature in combat while wearing this mask, you sometimes steal a small portion of their lifeforce to strenghthen your own.<BR>The fact that you do this by supping on their blood doesn't seem to bother you nearly as much as it should. You wonder if you should be worried about that?
+tc.research_name.MASKSIPPINGFIEND=안면 보호판: 새어나오는 광기
+tc.research_text.MASKSIPPINGFIEND=사우뮴 전투 헬멧 업그레이드
+tc.research_page.MASKSIPPINGFIEND.1=이 보호판은 사우뮴 전투 헬멧에 덧씌워 착용하도록 설계되었습니다.<BR>이를 착용한 채로 누군가를 공격할 경우 가끔씩 상대방의 체력을 빼앗아 올 수 있습니다.<BR>사실 상대방의 피를 마셔 체력을 회복하는 것이지만, 그다지 역겹게 느껴지진 않을 것입니다. 뭐 거리낄 게 있습니까?
 #
-tc.research_name.ELDRITCHMINOR=Eldritch Epiphany
-tc.research_text.ELDRITCHMINOR=First steps into the unknown
-tc.research_page.ELDRITCHMINOR.1=It has suddenly become clear to you. Where others see chaos, you occasionally catch a glimpse of a pattern... a very strange and disturbing pattern. Something stirs in the darkest corners of the universe.<BR>You have tried to explain it to others, but recieve only strange looks in return. No matter, you will show them someday.<BR>You will show them all.
+tc.research_name.ELDRITCHMINOR=이계에 대한 깨달음
+tc.research_text.ELDRITCHMINOR=미지로의 첫 걸음
+tc.research_page.ELDRITCHMINOR.1=머릿속의 광명으로부터 갑작스런 깨달음을 얻었습니다. 다른 이들이 혼돈이라 부르는 그 속에서 종종 희미한, 하지만 굉장히 기괴하고 꺼림칙한 형상이 보입니다. 이 우주의 가장 어두운 구석에서, 무언가가 깨어났다는 것을 느낄 수 있습니다...<BR>이를 다른 이들에게 설명하려 한다면 분명히 미치광이 취급을 받을 것입니다. 하지만 그들에게 알려야만 합니다.<BR>그들은 알아야만 합니다...
 #
-tc.research_name.ELDRITCHMAJOR=Eldritch Revelation
-tc.research_text.ELDRITCHMAJOR=I have seen beyond the bounds of infinity
-tc.research_page.ELDRITCHMAJOR.1=A veil has been lifted - a door opened in my mind.<BR> When I look through I see wonders. No, not wonders. §mWhat I see is§r<BR>§oWhat I see is I see i see I sEee i§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Who wrote this?
+tc.research_name.ELDRITCHMAJOR=드러난 이세계
+tc.research_text.ELDRITCHMAJOR=나는 무한의 경계 저 너머를 보고야 말았어...
+tc.research_page.ELDRITCHMAJOR.1=장막은 거두어지기 마련이고, 이계를 가린 장막이 지금 막, 내 머릿속에서 거둬졌다.<BR>나는 경이로움을 목격했다. 경이로움? 아니, 그건 경이로움이 아니야... §m내가 본 것은 말이지§r<BR>§o나는 봤어.. 나는 봤어... 봤어.. 봤어.. 봤다고 봐버렸어!.... "나는 그들을 봤어"§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>이 항목, 도대체 누가 작성한거지?
 #
-tc.research_name.VOIDMETAL=Voidmetal
-tc.research_text.VOIDMETAL=Strange, it should feel cold...
-tc.research_page.VOIDMETAL.1=By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essense where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
+tc.research_name.VOIDMETAL=공허합금
+tc.research_text.VOIDMETAL=금속인데 차갑지 않네...?
+tc.research_page.VOIDMETAL.1=사우뮴은 마법을 금속에 불어넣어 만들어낸 특별한 금속입니다. 이는 제법 가치있는 발견이지만, 이제 사우뮴은 초보, 입문자들에게 넘겨줄 때입니다.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essense where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
 tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devestating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favourably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
 #
-tc.research_name.ARMORVOIDFORTRESS=Void Fortress Armor
-tc.research_text.ARMORVOIDFORTRESS=Nothing is getting out
+tc.research_name.ARMORVOIDFORTRESS=공허의 전투 갑주
+tc.research_text.ARMORVOIDFORTRESS=개미 한마리 빠져나가지 못하도록
 tc.research_page.ARMORVOIDFORTRESS.1=This is a simple improvement on the concepts layed down by the discovery of fortress armor. By using Void Metal instead of Thaumium you are not only increasing the effectiveness of the armor, but also it's durability.<BR>Of course some people claim that wearing such a large amount of Void metal is probably not good, but there will always be doubters and they should be ignored. You find the dull ache that settles into your bones as you wear it comforting.<BR>Like normal fortress armor this armor can be enhanced by various different faceplates and modifications. 
 #
-tc.research_name.CAP_void=Voidmetal Wand Caps
-tc.research_text.CAP_void=Power from beyond
+tc.research_name.CAP_void=공허합금 완드캡
+tc.research_text.CAP_void=이세계의 힘
 tc.research_page.CAP_void.1=Crafting wand caps from Voidmetal seems counterintuative since it seems to be highly resistant to magic, but counterintuative is where you live now.<BR>Your gamble payed off. The metal itself may be resistant to magic, but it channels with suprsising ease. The magic does seem §ostrange§r somehow, but it is probably just your imagination.
 #
