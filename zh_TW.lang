@@ -63,8 +63,8 @@ entity.trunk.guiname=的箱子寶寶
 entity.trunk.move=箱子寶寶將跟隨你行動
 entity.trunk.stay=箱子寶寶將留在原地
 entity.Thaumcraft.MindSpider.name=心魔蛛
-entity.Thaumcraft.EldritchGuardian.name=異端守衛
-entity.Thaumcraft.EldritchOrb.name=異端能量球
+entity.Thaumcraft.EldritchGuardian.name=禁忌守衛
+entity.Thaumcraft.EldritchOrb.name=禁忌能量球
 #
 # Blocks
 tile.blockAiry.0.name=靈氣節點
@@ -102,7 +102,7 @@ tile.blockCustomPlant.1.name=銀樹樹苗
 tile.blockCustomPlant.2.name=水銀花
 tile.blockCustomPlant.3.name=火焰草
 tile.blockCustomPlant.4.name=天域花
-tile.blockCustomPlant.5.name=源質菇
+tile.blockCustomPlant.5.name=靈菇
 tile.blockMetalDevice.0.name=坩堝
 tile.blockMetalDevice.1.name=奧術蒸餾器
 tile.alembic.msg.1=蒸餾器是空的
@@ -280,7 +280,7 @@ item.ItemResource.3.name=水銀
 item.ItemResource.4.name=魔力油脂
 item.ItemResource.5.name=殭屍之腦(defunct)
 item.ItemResource.6.name=琥珀
-item.ItemResource.7.name=魔力布匹
+item.ItemResource.7.name=魔力布料
 item.ItemResource.8.name=源質管道
 item.ItemResource.9.name=知識碎片
 item.ItemResource.10.name=鏡面玻璃
@@ -431,12 +431,12 @@ item.ItemAmuletVis.1.name=魔力儲存護身符
 item.ItemGirdleHover.name=奧法腰帶
 item.ItemBathSalts.name=淨化浴鹽
 item.ItemBucketDeath.name=桶裝化骨死水
-item.ItemHelmetFortress.name=秘術要塞兜盔
-item.ItemChestplateFortress.name=秘術要塞胸鎧
-item.ItemLeggingsFortress.name=秘術要塞脛甲
-item.HelmetFortress.mask.0=獰笑惡魔
+item.ItemHelmetFortress.name=秘術城寨兜盔
+item.ItemChestplateFortress.name=秘術城寨胸鎧
+item.ItemLeggingsFortress.name=秘術城寨脛甲
+item.HelmetFortress.mask.0=獰笑惡鬼
 item.HelmetFortress.mask.1=暴怒幽魂
-item.HelmetFortress.mask.2=吸血邪妖
+item.HelmetFortress.mask.2=嗜血邪妖
 item.ItemEldritchObject.name=妖異之眼
 item.ItemHelmetVoid.name=虛空兜盔
 item.ItemChestplateVoid.name=虛空胸甲
@@ -447,9 +447,9 @@ item.ItemAxeVoid.name=虛空斧
 item.ItemSwordVoid.name=虛空劍
 item.ItemPickVoid.name=虛空鎬
 item.ItemHoeVoid.name=虛空鋤
-item.ItemHelmetVoidFortress.name=虛空要塞兜盔
-item.ItemChestplateVoidFortress.name=虛空要塞胸鎧
-item.ItemLeggingsVoidFortress.name=虛空要塞脛甲
+item.ItemHelmetVoidFortress.name=虛空城寨兜盔
+item.ItemChestplateVoidFortress.name=虛空城寨胸鎧
+item.ItemLeggingsVoidFortress.name=虛空城寨脛甲
 #
 # Fluids
 fluid.fluxGoo=汙染黏漿
@@ -683,7 +683,7 @@ tc.research_category.THAUMATURGY=秘術學
 tc.research_category.ALCHEMY=煉金術
 tc.research_category.ARTIFICE=奧法學
 tc.research_category.GOLEMANCY=傀儡學
-tc.research_category.ELDRITCH=異端
+tc.research_category.ELDRITCH=禁術
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -767,7 +767,7 @@ tc.research_page.DECONSTRUCTOR.2=理論上可以得到2點 §2Terra§0 要素和
 #
 tc.research_name.BASICTHAUMATURGY=基礎法杖工藝
 tc.research_text.BASICTHAUMATURGY=你的第一柄工具
-tc.research_page.BASICTHAUMATURGY.1=這柄鑄造法杖是你作為秘術使最為基本也最為重要的工具。它將用於創建物品，啟動特殊方塊(比如坩堝)以及其他數不清的任務。<BR>最基礎的法杖自身會儲存極為有限數量的魔力(稱為vis)以完成一些基本功能。 為了補充法杖魔力，你需要右擊靈氣節點來吸收其內的魔力。<BR>手持法杖時，屏幕左上角會顯示其內儲存的魔力種類和數量。
+tc.research_page.BASICTHAUMATURGY.1=這柄鑄造法杖是你作為秘術使最為基本也最為重要的工具。它將用於創建物品，啟動特殊方塊(比如坩堝)以及其他數不清的任務。<BR>最基礎的法杖自身會儲存極為有限數量的魔力(vis)以完成一些基本功能。 為了補充法杖魔力，你需要右擊靈氣節點來吸收其內的魔力。<BR>手持法杖時，屏幕左上角會顯示其內儲存的魔力種類和數量。
 tc.research_page.BASICTHAUMATURGY.2=按住 shift 時會顯示標注魔力數量的額外數字以及完成特定功能時使用魔力的可能減免。<BR>法杖使用杖柄和兩個杖端製作而成。 隨著研究的深入，你一定能發現許多不同的杖柄以及杖端材料來製作各種強力法杖。在普通合成台中只能製作最基礎的法杖。而其他法杖均需要在§5奧術工作台§0中消耗魔力製作。<BR>最基礎的法杖使用普通的木材和鐵製作，都是些最廉價的魔法材料。
 #
 tc.research_name.GRATE=物品格柵
@@ -828,11 +828,11 @@ tc.research_page.CAP_copper.1=銅作為杖端和鐵性質相似。但是它在�
 #
 tc.research_name.ROD_greatwood=宏偉之木杖柄
 tc.research_text.ROD_greatwood=魔力儲存庫
-tc.research_page.ROD_greatwood.1=宏偉之木的原木雕刻而成，能儲存二倍於普通木材的魔力，也就是說每種魔力都能儲存 50 vis。
+tc.research_page.ROD_greatwood.1=宏偉之木的原木雕刻而成，能儲存二倍於普通木材的魔力，也就是說每種魔力都能儲存 50vis。
 #
 tc.research_name.ROD_silverwood=銀樹杖柄
 tc.research_text.ROD_silverwood=神秘核心
-tc.research_page.ROD_silverwood.1=銀樹被證明是極其優良的魔力儲存材料，每種魔力能儲存 100 vis。
+tc.research_page.ROD_silverwood.1=銀樹被證明是極其優良的魔力儲存材料，每種魔力能儲存 100vis。
 #
 tc.research_name.SCEPTRE=工藝權杖
 tc.research_text.SCEPTRE=以製造為己任
@@ -865,7 +865,7 @@ tc.research_page.ROD_reed.1=甘蔗制做的稍好於宏偉之木杖柄的杖柄�
 tc.research_name.ROD_greatwood_staff=魔法手杖
 tc.research_text.ROD_greatwood_staff=末端帶把手的巫師之杖
 tc.research_page.ROD_greatwood_staff.1=法杖是秘術使的必備行頭，但有時候你總會期望能用上更酷炫的款式。魔法手杖基本上只是一種更大號的法杖。它們能儲存更多魔力。<BR>由於相比法杖它們造得個頭更大也更堅固，應急情況也能作為武器。<BR>不幸的是，這也使得它並不適宜用作複雜工藝，且缺乏奧術工作台或其他製作平台所需的精細控制能力。
-tc.research_page.ROD_greatwood_staff.2=宏偉之木製成的手杖儲存魔力是同等材料的法杖的2倍，能夠儲存每種魔力達 125 vis。
+tc.research_page.ROD_greatwood_staff.2=宏偉之木製成的手杖儲存魔力是同等材料的法杖的2倍，能夠儲存每種魔力達 125vis。
 #
 tc.research_name.ROD_silverwood_staff=銀樹杖芯
 tc.research_text.ROD_silverwood_staff=魔力入髓
@@ -945,7 +945,7 @@ tc.research_text.BOOTSTRAVELLER=專業行走設備
 tc.research_page.BOOTSTRAVELLER.1=這雙富含神秘的魔力工藝技巧的靴子能讓任何旅人的旅途變得更輕鬆愉快。<BR>它能夠讓你移動得比平常更加迅速，並且能夠直接掠過較高的階層。它也能夠讓你跳得更高，落得更遠。<BR>另外，它還能讓你像魚一樣破浪而行，雖然是一條相對緩慢和笨拙的魚，但姑且也算是條魚嘛！
 #
 tc.research_name.PHIAL=玻璃安瓿
-tc.research_text.PHIAL=神秘容器
+tc.research_text.PHIAL=秘術容器
 tc.research_page.PHIAL.1=玻璃安瓿能夠盛放各種形式的液體或者其他物質，但最為重要的是它可以容納要素源質。<BR>液相的要素源質難以收集，且會徹底污染盛放它的玻璃安瓿，因此玻璃安瓿只能作為一種一次性使用的消耗品。
 #
 tc.research_name.TABLE=台桌
@@ -970,11 +970,11 @@ tc.research_page.CRUCIBLE.1=只需對著放置在地上的普通煉藥鍋使用�
 tc.research_page.CRUCIBLE.2=你可以向坩堝內丟入催化劑這種特殊物品。催化劑將作為核心聚合要素，且轉換成全新的物品後，會從坩堝中彈出。<BR>多餘的源質會留存在坩堝中以備後用，但長期讓要素殘留在坩堝中無疑不是好主意。<BR>使用坩堝製作物品還會消耗坩堝中少量的水，因此你最終會需要重新添水。<BR>坩堝中的要素會持續降解.複合要素會降解成組成它的要素之一，而元初要素會蒸發消失。
 tc.research_page.CRUCIBLE.3=這不僅僅會造成資源的浪費，蒸發和降解的源質還會造成諸多奇怪的副作用。<BR>你可以對著坩堝使用法杖清空坩堝中的要素製作物品，但這會讓坩堝中的要素全部流失到大氣中…… 因此你並不希望經常這樣做。
 tc.research_page.CRUCIBLE.4=下面是一些所有人皆可使用的煉金配方。<LINE>    §n均衡碎片§r<BR><BR>向普通的魔力碎片灌注其餘五種它不具有的元初要素的魔力碎片，最終得到的就是這種六大元初要素相互平衡的，能與元初能量完美共鳴的水晶碎片。<BR> 在熔爐中冶煉平衡碎片能夠得到世界鹽(參見後文)。
-tc.research_page.CRUCIBLE.5=    §n世界鹽§r<BR><BR>世界鹽,或其廣為人知的名稱神秘使之鹽，是加熱衡之碎片使其分解得到的細粉。<BR>正如凡俗世界的鹽一樣，秘術使之鹽也能夠給所有那些普通的魔法配方或儀軌增添美妙的滋味(這是個隱喻)。它是一種強力的黏合劑。能夠讓彼此間最暌離的魔力要素聚合在一起。
+tc.research_page.CRUCIBLE.5=    §n世界鹽§r<BR><BR>世界鹽,或其廣為人知的名稱秘術使之鹽，是加熱衡之碎片使其分解得到的細粉。<BR>正如凡俗世界的鹽一樣，秘術使之鹽也能夠給所有那些普通的魔法配方或儀軌增添美妙的滋味(這是個隱喻)。它是一種強力的黏合劑。能夠讓彼此間最暌離的魔力要素聚合在一起。
 #
-tc.research_name.ENCHFABRIC=魔力布匹
+tc.research_name.ENCHFABRIC=魔力布料
 tc.research_text.ENCHFABRIC=絲般柔滑
-tc.research_page.ENCHFABRIC.1=你曾用羊毛和蜘蛛絲製成過簡單結實的布匹.現在你確信能夠用它融合魔力，做成一種更加驚艷的魔力布匹。<BR>你還發現了用魔力布匹編織秘術使法袍的方法。法袍防禦效果等同於皮革套裝，但耐久是它的數倍。<BR>而且它們是優良的魔法親和材料，能夠進行神秘的附魔。相比一些甚至相對更昂貴的材料，它能夠容納更多的魔力。
+tc.research_page.ENCHFABRIC.1=你曾用羊毛和蜘蛛絲製成過簡單結實的布匹.現在你確信能夠用它融合魔力，做成一種更加驚艷的魔力布料。<BR>你還發現了用魔力布料編織秘術使法袍的方法。法袍防禦效果等同於皮革套裝，但耐久是它的數倍。<BR>而且它們是優良的魔法親和材料，能夠進行神秘的附魔。相比一些甚至相對更昂貴的材料，它能夠容納更多的魔力。
 tc.research_page.ENCHFABRIC.2=當穿戴法袍施法時你能夠更高效地使用數種法術。<BR>就像皮革套裝，你可以對法袍進行染色。
 #
 tc.research_name.ENCHANT=附魔
@@ -1275,7 +1275,7 @@ tc.research_page.ADVANCEDGOLEM.1=你已經發現了一些在微小而重要的�
 tc.research_name.ARCANEBORE=奧術鑽探機
 tc.research_text.ARCANEBORE=採礦業的進化
 tc.research_page.ARCANEBORE.1=你已經發現一種擁有採掘核心能力，且具有更大的工作範圍的奧術設備，不僅如此，這台機器還可以無人監控地自動運行。只需要將它安裝在特別的基座上，將其方向調校正確後，再提供一個法杖供能，並用紅石信號啟動即可。<BR>奧術鑽探機需要兩件東西才能正常工作。首先你需要將採掘核心放在物品欄左側格子中，法杖核心的附魔效果也會被加成到鑽探機上。
-tc.research_page.ARCANEBORE.2=第二，你需要在右邊格子裡放置一個任意類型的鎬子。鎬的材料對鑽探機運行效果影響很小，但其耐久直接決定鑽探機的運行時間。此外，就如同核心，鎬子上的附魔效果也能夠被加成到鑽探機上。<BR>將裝有perditio要素的罐子放置在鑽頭附近(8格內)將顯著提高其挖掘效率，但每挖16個方塊就會消耗一點 perditio 要素。<BR>奧法鑽頭只能安附在奧法鑽探基座的上方或下方。挖掘到的物品都會從鑽探基座的噴嘴所朝方向彈出來。
+tc.research_page.ARCANEBORE.2=第二，你需要在右邊格子裡放置一個任意類型的鎬子。鎬的材料對鑽探機運行效果影響很小，但其耐久直接決定鑽探機的運行時間。此外，就如同核心，鎬子上的附魔效果也能夠被加成到鑽探機上。<BR>將裝有perditio要素的罐子放置在鑽頭附近(8格內)將顯著提高其挖掘效率，但每挖16個方塊就會消耗一點perditio要素。<BR>奧法鑽頭只能安附在奧法鑽探基座的上方或下方。挖掘到的物品都會從鑽探基座的噴嘴所朝方向彈出來。
 tc.research_page.ARCANEBORE.3=如果有箱子則會自動進入其物品欄。你可以用法杖改變奧術鑽探機的朝向。 
 #
 tc.research_name.LEVITATOR=奧術懸浮台
@@ -1411,7 +1411,7 @@ tc.research_page.RUNICARMOR.2=傷害量承受池隨著時間推移會自動回�
 #
 tc.research_name.RUNICAUGMENTATION=拓展符文護盾
 tc.research_text.RUNICAUGMENTATION=護盾全開
-tc.research_page.RUNICAUGMENTATION.1=嵌有符文護盾的戒指，護身符，腰帶都非常好用，但你是否確定能將這只防護附魔應用於其他物品呢？<BR>當然你可以的！利用秘術學法術(c) (專利申請中)，你將能夠將符文護盾鑲入多數魔力穩定的裝備。<BR>魔力穩定的裝備指用秘術錠，魔力布匹或相似魔法材料製成的那些。<BR>只有單次充能的符文護盾能夠鑲嵌到物品上，但你可以對其進行多次附魔。
+tc.research_page.RUNICAUGMENTATION.1=嵌有符文護盾的戒指，護身符，腰帶都非常好用，但你是否確定能將這只防護附魔應用於其他物品呢？<BR>當然你可以的！利用秘術學法術(c) (專利申請中)，你將能夠將符文護盾鑲入多數魔力穩定的裝備。<BR>魔力穩定的裝備指用秘術錠，魔力布料或相似魔法材料製成的那些。<BR>只有單次充能的符文護盾能夠鑲嵌到物品上，但你可以對其進行多次附魔。
 tc.research_page.RUNICAUGMENTATION.2=然而這非常昂貴，消耗的源質量會隨級別而上升。需求的世界鹽同防護級別成正比，耗費的源質則指數級增加。你也可以對像護盾戒指這樣已經做好的符文物品附魔，然而其源質消耗會基於已存在的符文總量來計算，這會使得該過程的消耗異常昂貴。
 #
 tc.research_name.RUNICCHARGED=充能護盾戒指
@@ -1469,7 +1469,7 @@ tc.research_page.VISCHARGERELAY.1=只要是秘術使，都曾有過進行常規�
 #
 tc.research_name.WARP=扭曲、咒波，以及所有不祥之物
 tc.research_text.WARP=萬物皆有其價值
-tc.research_page.WARP.1=§n扭曲§r<BR>許多人認為不應該涉足魔法，沒什麼能比扭曲更能證實這項觀點了。<BR>從事禁忌的魔法研究或者製作悖於自然的造物，都會讓秘術使眼中的現實世界無論在精神上還是在肉體上都出現畸變，此現象謂之扭曲。<BR>目前尚未有擺脫這種現象的方法，一旦選擇不顧危險地追球力量，神秘使身上出現的
+tc.research_page.WARP.1=§n扭曲§r<BR>許多人認為不應該涉足魔法，沒什麼能比扭曲更能證實這項觀點了。<BR>從事禁忌的魔法研究或者製作悖於自然的造物，都會讓秘術使眼中的現實世界無論在精神上還是在肉體上都出現畸變，此現象謂之扭曲。<BR>目前尚未有擺脫這種現象的方法，一旦選擇不顧危險地追球力量，秘術使身上出現的
 tc.research_page.WARP.2=扭曲現象就會猶如滑坡般每況愈下。扭曲通常徵狀為心神恍惚，肉體疼痛或者出現幻覺。<BR>這些徵狀並不僅僅只是精神上的疾患，有時候視野中會湧現出有用的知識，而幻覺也駭人地真實。
 tc.research_page.WARP.3=§n咒波§r<BR>如果說扭曲是魔力紊亂在精神上的表現，那麼咒波就是其物理上的表現。<BR>咒波能夠以三種形式表現出來；液體、氣體、以及肉體不適的狀態。前兩種是令大多數秘術秘使都煩惱過的問題，它們通常是魔力濫用的後果，並不特別難以清除，但它們經常會導致第三種形式出現：以身體疾患為表現的咒流。<BR>咒流並不特別危險，但是若秘術使染上這種疾病，聚集魔力就會變得更加困難，導致他不得不得在同樣的操作中耗費更多魔力。
 #
@@ -1481,34 +1481,34 @@ tc.research_name.LIQUIDDEATH=化骨死水
 tc.research_text.LIQUIDDEATH=僅限外用
 tc.research_page.LIQUIDDEATH.1=這種液體是極其危險之溶劑，豈止骨肉，即使更加堅硬的物體也難以承受。沒有任何生命體或相似於生命者能與之共存。<BR>除去非常顯而易見的用法外，這種邪惡的物質還擁有一種奇妙的特性：被消融的生物種蘊含的源質會以可採集的結晶的形式留存下來。<BR>至於這些水晶究竟有何妙用就有待讀者自行發揮想像力了。 
 #
-tc.research_name.ARMORFORTRESS=秘術要塞甲冑
+tc.research_name.ARMORFORTRESS=秘術城寨甲冑
 tc.research_text.ARMORFORTRESS=難攻不破
-tc.research_page.ARMORFORTRESS.1=秘術盔甲優點雖多，但基礎的護甲等級卻遜於鑽石盔甲。在提升其構材性能與複雜性的同時，你逐漸發展出一項額外提升護甲的工藝、耐久和強度的技術。<BR>每項秘術要塞甲胄部件都有和鑽石護甲同等程度的防護能力，不僅如此，它們還具有更加卓絕的耐久值，並且對火焰和魔法傷害有額外的防護效果。<BR>但它們最不可思議之處
-tc.research_page.ARMORFORTRESS.2=在於獨立的護甲部件如果同時穿戴將會啟動套裝效果：每多穿戴一件部件，都會提升整體部件的防護效果，並使造型變得更加美觀。<BR>由於其構成使用的大量秘術錠，這種護甲很容易附​​魔。
+tc.research_page.ARMORFORTRESS.1=秘術盔甲優點雖多，但基礎的護甲等級卻遜於鑽石盔甲。在提升其構材性能與複雜性的同時，你逐漸發展出一項額外提升護甲的工藝、耐久和強度的技術。<BR>每項秘術城寨甲胄部件都有和鑽石護甲同等程度的防護能力，不僅如此，它們還具有更加卓絕的耐久值，並且對火焰和魔法傷害有額外的防護效果。<BR>
+tc.research_page.ARMORFORTRESS.2=但它們最不可思議之處在於如果同時穿戴獨立的護甲部件將會啟動套裝效果：每多穿戴一件部件，都會提升整體部件的防護效果，並使造型變得更加華麗。<BR>由於其構成使用的大量秘術錠，使得這種護甲很容易附​​魔。
 #
 tc.research_name.HELMGOGGLES=揭示之盔
-tc.research_text.HELMGOGGLES=秘術要塞兜盔改裝
-tc.research_page.HELMGOGGLES.1=一般而言，秘術使需要在防護性與實用性間艱難地做出選擇。而現在再也不需如此了！<BR>這頂改裝後的秘術要塞兜盔雖然並不具有護目鏡的魔力減免功能，但卻能夠為你提供揭示之護目鏡所具有的其他所有功能。<BR>這頂頭盔還能再加裝面具。
+tc.research_text.HELMGOGGLES=秘術城寨兜盔改裝
+tc.research_page.HELMGOGGLES.1=一般而言，秘術使需要在防護性與實用性間艱難地做出選擇。而現在再也不需如此了！<BR>這頂改裝後的秘術城寨兜盔雖然並不具有護目鏡的魔力減免功能，但卻能夠為你提供揭示之護目鏡所具有的其他所有功能。<BR>這頂頭盔還能再加裝面具。
 #
-tc.research_name.MASKGRINNINGDEVIL=獰笑惡魔面具
-tc.research_text.MASKGRINNINGDEVIL=秘術要塞兜盔升級
-tc.research_page.MASKGRINNINGDEVIL.1=此面具為秘術要塞兜盔的配件。<BR>戴上這幅面具會獲得奇妙的阻滯扭曲的效果，雖說無法阻止扭曲發生，但卻能夠使它的效果一定程度上被削弱。<BR>看來身處危險之中仍帶著笑容是有好處的。
+tc.research_name.MASKGRINNINGDEVIL=獰笑惡鬼面具
+tc.research_text.MASKGRINNINGDEVIL=秘術城寨兜盔升級
+tc.research_page.MASKGRINNINGDEVIL.1=此面具為城寨兜盔的配件。<BR>戴上這幅面具會獲得奇妙的阻滯扭曲的效果，雖說無法阻止扭曲發生，但卻能夠使它的效果一定程度上被削弱。<BR>看來身處危險之中仍帶著笑容是有好處的。
 #
 tc.research_name.MASKANGRYGHOST=暴怒幽魂面具
-tc.research_text.MASKANGRYGHOST=秘術要塞兜盔升級
-tc.research_page.MASKANGRYGHOST.1=此面具為秘術要塞兜盔的配件。<BR>他們若是攻擊戴著這幅冷酷面具後的你，會有一定機率染上凋靈效果。<BR>自作自受。
+tc.research_text.MASKANGRYGHOST=秘術城寨兜盔升級
+tc.research_page.MASKANGRYGHOST.1=此面具為城寨兜盔的配件。<BR>他們若是攻擊戴著這幅冷酷面具後的你，會有一定機率染上凋靈效果。<BR>自作自受。
 #
-tc.research_name.MASKSIPPINGFIEND=吸血邪妖面具
-tc.research_text.MASKSIPPINGFIEND=秘術要塞兜盔升級
-tc.research_page.MASKSIPPINGFIEND.1=此面具為秘術要塞兜盔的配件。<BR>在戴上這幅面具後，你如果攻擊其他生物，有機會竊取它們的生命力來強化自己。<BR>你吸它們血實際上似乎並沒有像你所以為的那樣感覺有什麼異樣。但你困惑的是你該不該對此憂心？
+tc.research_name.MASKSIPPINGFIEND=嗜血邪妖面具
+tc.research_text.MASKSIPPINGFIEND=秘術城寨兜盔升級
+tc.research_page.MASKSIPPINGFIEND.1=此面具為城寨兜盔的配件。<BR>在戴上這幅面具後，你如果攻擊其他生物，有機會竊取它們的生命力來強化自己。<BR>你吸它們血實際上似乎並沒有像你所以為的那樣感覺有什麼異樣。但你困惑的是你該不該對此憂心？
 #
-tc.research_name.ELDRITCHMINOR=異端頓悟
+tc.research_name.ELDRITCHMINOR=禁忌頓悟
 tc.research_text.ELDRITCHMINOR=踏入未知的第一步
-tc.research_page.ELDRITCHMINOR.1=一切忽然變的如此清晰。在他人眼中的渾沌，你偶爾能有所驚鴻一瞥...看到那令人不安的圖樣，有什麼在宇宙的最深闇處騷動著。<BR>你一度試圖向別人解釋你發現的一切，但卻只招來了奇怪的眼神，無論如何，終有一日你會向他們展現你的發現。<BR>向他們所有人。
+tc.research_page.ELDRITCHMINOR.1=一切忽然變的如此清晰。在他人眼中的渾沌，你偶爾能有所驚鴻一瞥...看到那令人不安的圖樣，有什麼在宇宙的最深闇處騷動著。<BR>你一度試圖向別人解釋你發現的一切，但卻只招來了奇怪的眼神，無論如何，終有一日你會向他們展現你所發現的一切。<BR>向他們所有人。
 #
-tc.research_name.ELDRITCHMAJOR=異端啟示錄
+tc.research_name.ELDRITCHMAJOR=禁忌啟示錄
 tc.research_text.ELDRITCHMAJOR=我已經看穿了那無垠的邊界
-tc.research_page.ELDRITCHMAJOR.1=面紗已經被揭開-吾心中有道門已經被開啟。<BR>當吾望穿吾所迷惘處。不，那並非迷惘§m吾所見者§r<BR>§o吾所見　吾 見 吾見靓 五口目 ㄨ§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.1=面紗已經被揭開-吾心中有道門已經被開啟。<BR>當我望穿吾所迷惘處。不，那並非迷惘§m我所看見的§r<BR>§o吾之所見 吾 見 吾見靓 五口目 ㄨ§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
 tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>這啥鬼！？誰畫的阿？
 #
 tc.research_name.VOIDMETAL=虛空金屬
@@ -1516,9 +1516,9 @@ tc.research_text.VOIDMETAL=怪了，這摸起來應該是涼...
 tc.research_page.VOIDMETAL.1=透過向金屬灌入魔力，你曾製造出秘術錠，還算是了不得的發現吧，不過今後就把它們留給那些業餘的愛好人士吧。<BR>那依稀能回想起的內容彷彿夢境又如記憶般，讓你產生了去嘗試一些更加不同之事物的...衝動。假如你向金屬灌入的並非魔力，而是產生那些魔力的源泉，那些存在於群星之間的黑暗和虛空，又會如何呢？<BR>合成出來的金屬是如此令人不安的光滑、溫暖。猶如黃金般柔軟易於加工，
 tc.research_page.VOIDMETAL.2=但一旦被加工成型，便會變得猶如秘術錠一般堅硬，甚至猶有過之。更加令人印象深刻的是，即使是毀滅性的損壞，它也能夠很快地自動復原，金屬會自動流向它原本所在的位置。<BR>唯一的劣勢是它不再像秘術錠那樣易於附魔，但即使如此，其附魔性能也遠勝鐵這樣的世俗材料。<BR>使用這種金屬時你發現有一點必須加以關注-被它傷害到似乎會暫時性地陷入虛弱無力的狀態。
 #
-tc.research_name.ARMORVOIDFORTRESS=虛空要塞甲胄
+tc.research_name.ARMORVOIDFORTRESS=虛空城寨甲胄
 tc.research_text.ARMORVOIDFORTRESS=無處可逃
-tc.research_page.ARMORVOIDFORTRESS.1=這是對要塞甲胄的一個簡單升級。使用虛空金屬代替秘術錠作為材料不僅提升了甲胄的防護性能，還提高了它的耐久度。<BR>當然一些人呼籲穿戴如此多的虛空金屬製品不大好，但是世界上總是會存在一些應該忽略的質疑者。你發現當你舒適地穿著這套甲冑時，會有種入骨的鈍痛感。<BR>如同其他要塞甲冑，它也能加上面具等改裝配件。
+tc.research_page.ARMORVOIDFORTRESS.1=這是一個基於城寨甲胄概念的簡單升級。使用虛空金屬代替秘術錠作為材料不僅提升了甲胄的防護性能，還提高了它的耐久度。<BR>當然一些人呼籲穿戴如此多的虛空金屬製品不大好，但是世界上總是會存在一些應該忽略的質疑者。你發現當你舒適地穿著這套甲冑時，會有種入骨的鈍痛感。<BR>如同其他城寨甲冑，它也能加上面具等改裝配件。
 #
 tc.research_name.CAP_void=虛空杖端
 tc.research_text.CAP_void=來自另一端的力量
