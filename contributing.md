@@ -1,3 +1,4 @@
+* Check the other issues first to make sure yours hasn't been reported yet.
 * Make sure you are running the latest version of Thaumcraft and Forge;
 * Do not report issues for 1.6 versions of Thaumcraft, they aren't supported any more.
 * Make sure you list your TC and Forge version at the top of any issue.
@@ -9,6 +10,7 @@
 * Make sure NEI block highlights are off if thaumcraft things are disappearing/changing into something else while looking at them;
 * You don't need to prefix or suffix your issue titles with [Bug] or [Idea] or anything in square brackets, put the info inside the issue text, if anything needs to be flagged, we take care of it.
 * Make sure your title is a good resume of the issue, "Research bug" or "Entity crash" are not good titles, for one.
+* Open up one issue for each bug, don't compile them, it makes it harder to sort through.
 * Don't edit en_US.lang
 * Read the FaQ in the [TC thread](http://www.minecraftforum.net/topic/2011841-).
 
