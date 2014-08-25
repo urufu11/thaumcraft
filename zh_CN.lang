@@ -979,7 +979,7 @@ tc.research_page.ENCHFABRIC.2=当穿戴法袍施法时你能够更高效地使�
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技术
-tc.research_page.ENCHANT.1=<BR>§n潜能 (仅用于法杖核心) §r<BR>该附魔能够提升法杖核心可造成的伤害以及作用范围,但会略微增加魔力消耗.<BR>§n朴素(仅用于法杖核心)§r<BR>进行该附魔后的法杖核心更加节约魔力.<BR>§n瑰宝(仅用于法杖核心)§r<BR>类似时运附魔的效果,增加采集物品的产量.
+tc.research_page.ENCHANT.1=神秘使懂得许多种独特的附魔技术.<BR>§n潜能 (仅用于法杖核心) §r<BR>该附魔能够提升法杖核心可造成的伤害以及作用范围,但会略微增加魔力消耗.<BR>§n朴素(仅用于法杖核心)§r<BR>进行该附魔后的法杖核心更加节约魔力.<BR>§n瑰宝(仅用于法杖核心)§r<BR>类似时运附魔的效果,增加采集物品的产量.
 tc.research_page.ENCHANT.2=§n急迫§r<BR>进行该附魔的鞋子能够让穿戴者在地上行走时健步如飞,附魔等级越高,增幅速度越多.<BR>§n修复§r<BR>该附魔能够从灵气中吸取魔力来缓慢地修复物品耐久,附魔等级越高,修复速度越快.这种附魔只能对部分神秘物品生效.
 #
 tc.research_name.ELEMENTALAXE=奔流斧
