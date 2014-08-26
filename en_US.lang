@@ -447,9 +447,9 @@ item.ItemAxeVoid.name=Void Axe
 item.ItemSwordVoid.name=Void Sword
 item.ItemPickVoid.name=Void Pickaxe
 item.ItemHoeVoid.name=Void Hoe
-item.ItemHelmetVoidFortress.name=Void Fortress Helm
-item.ItemChestplateVoidFortress.name=Void Fortress Cuirass
-item.ItemLeggingsVoidFortress.name=Void Fortress Thigh Guards
+item.ItemHelmetVoidRobe.name=Void Thaumaturge Hood
+item.ItemChestplateVoidRobe.name=Void Thaumaturge Robe
+item.ItemLeggingsVoidRobe.name=Void Thaumaturge Leggings
 #
 # Fluids
 fluid.fluxGoo=Flux Goo
@@ -1261,7 +1261,7 @@ tc.research_page.JARBRAIN.1=- Throw one rotten zombie brain into a jar.<BR>- Add
 #
 tc.research_name.HOVERHARNESS=Thaumostatic Harness
 tc.research_text.HOVERHARNESS=Is it a bird?
-tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>Unusually the only vis required to power this harness is added during its creation process. Instead the fuel it requires for flight is raw Potentia. Simply right click while holding the harness to insert filled jars.<BR>Pressing 'F' while wearing the harness activates or deactivates it.
+tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>Unusually the only vis required to power this harness is added during its creation process. Instead the fuel it requires for flight is raw Potentia. Simply right click while holding the harness to insert filled jars.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
 tc.research_page.HOVERHARNESS.2=While active the harness will constantly use Potentia.<BR>It can be enchanted with the Haste enchant to increase the speed at which you move while flying.
 #
 tc.research_name.HOVERGIRDLE=Thaumostatic Girdle
@@ -1459,7 +1459,7 @@ tc.research_name.VISPOWER=Harnessing Vis
 tc.research_text.VISPOWER=Power to the People
 tc.research_page.VISPOWER.1=Without vis nodes thaumaturges would not even be able to perform the simplest of tasks, but the nodes themselves have several limitations that make their use impractical for extensive operations. Foremost amongst these limitations is the fact that they are easily depleted and it takes quite some time for them to once again gather energy from mystical source they are connected to.<BR>You think you may have found a way around that limitation. In effect nodes are tiny gateways to a mysterious font of mystical energy around which the energy slowly accumalates in the form of Vis. The gateway is so small that only a tiny
 tc.research_page.VISPOWER.2=amount of energy leaks into our reality. By levering open this doorway you can cause vis to pour forth in a torrent.<BR>This is even more dangerous than it sounds however and careful steps must be taken during the entire process.<BR>Firstly the node needs to be stabilized during the entire process. Once that is done you need to craft and place a §lNode Transducer§r above the node. When you apply a redstone signal to the transducer the node will begin converting to an energized node and quickly lose its stored vis in the process.<BR>The process takes some time, but when it is done the node will
-tc.research_page.VISPOWER.3=change into an energized node. Caution should be taken to keep both the stabilizer and transducer active from now on.<LINE>Energized nodes no longer store or recharge vis, nor can vis be drawn from them with a wand or other means. Instead they produce a steady supply of §lCV§r (centi-vis, or a hundreth of a vis) each tick. This energy can be tapped by placing vis relays near the energized node.<BR>Each relay acts a conduit for CV and any number of relays can be placed within 8 blocks of a energized node. Relays also transfer energy to each other allowing you to create a network that relays vis to
+tc.research_page.VISPOWER.3=change into an energized node. Caution should be taken to keep both the stabilizer and transducer active from now on.<LINE>Energized nodes no longer store or recharge vis, nor can vis be drawn from them with a wand or other means. Instead they produce a steady supply of §lCV§r (centi-vis, or a hundreth of a vis) each tick. This energy can be tapped by placing vis relays near the energized node.<BR>Each relay acts as a conduit for CV and any number of relays can be placed within 8 blocks of an energized node. Relays also transfer energy to each other allowing you to create a network that transports vis to
 tc.research_page.VISPOWER.4=anything that needs it, like the Infernal Furnace.<BR>Relays use a branching system, so each relay can have only one source (either another relay, or an energized node), but may have multiple child relays that branch off it.<BR>You can also 'tune' a relay to one of the primal aspects by using an appropriate vis shard on it. This does not limit what vis can flow through that relay, but does prevent it from connecting to any other relay except untuned ones or ones tuned to the same primal.<BR>The amount of energy a node produces per tick is finite so attaching too many devices to a 
 tc.research_page.VISPOWER.5=single source might exceed the amount of CV it can produce.<LINE>It is possible to turn an energized node back into a normal node. Simply cut the redstone signal to the transducer and it slowly turn it back into a normal node. Caution should be taken however since the node will be completely drained of vis and thus runs the risk of being damaged.
 #
@@ -1516,9 +1516,9 @@ tc.research_text.VOIDMETAL=Strange, it should feel cold...
 tc.research_page.VOIDMETAL.1=By infusing magic into metal you had managed to create Thaumium. It was a worthy discovery, but the time has come to leave thaumium to amateurs and dabblers.<BR>A strange and half-remembered dream has given you the urge to try something... different. What if you infuse metal with more than just magic, but with the very essense where magic is drawn from: Darkness and the Void that dwells between the stars.<BR>The resulting metal is disturbingly slick and warm to the touch. It is almost as soft as gold making it easy to work, but
 tc.research_page.VOIDMETAL.2=when struck it becomes as hard as thaumium and sometimes even harder. More impressively all but the most devestating damage soon repairs itself as the metal slowly flows back into place.<BR>The only downside is that it isn't as easy to enchant as thaumium, but still compares favourably to mundane materials like iron.<BR>You have discovered that care must be taken when handling the metal - being harmed by it seems to temporarily sap your strength.
 #
-tc.research_name.ARMORVOIDFORTRESS=Void Fortress Armor
-tc.research_text.ARMORVOIDFORTRESS=Nothing is getting out
-tc.research_page.ARMORVOIDFORTRESS.1=This is a simple improvement on the concepts layed down by the discovery of fortress armor. By using Void Metal instead of Thaumium you are not only increasing the effectiveness of the armor, but also it's durability.<BR>Of course some people claim that wearing such a large amount of Void metal is probably not good, but there will always be doubters and they should be ignored. You find the dull ache that settles into your bones as you wear it comforting.<BR>Like normal fortress armor this armor can be enhanced by various different faceplates and modifications. 
+tc.research_name.ARMORVOIDFORTRESS=Void Thaumaturge Robes
+tc.research_text.ARMORVOIDFORTRESS=Otherwordly Style
+tc.research_page.ARMORVOIDFORTRESS.1=A truly enlightened thaumaturge realises that he need not choose between utility and defense.<BR>By augmenting existing void armor with the proper enchantments and combining them with thaumaturge's robes he will be able to create a set of armored robes that not only offers physical protection and mental focus, but mystical protection as well.<BR>The robes will also retain all the properties of void armor while the hood will offer all the benefits of the goggles used in it's crafting.<BR>This armor can be dyed.
 #
 tc.research_name.CAP_void=Voidmetal Wand Caps
 tc.research_text.CAP_void=Power from beyond
