@@ -26,7 +26,7 @@ warp.text.3=이상한 속삭임이 비밀스러운 무언가를 전해왔습니�
 warp.text.4=시야가 갑자기 이상하리만치 음침해 졌습니다.
 warp.text.5=갑자기 불빛이 피부를 태울 정도로 너무나 강렬하게 느껴집니다.
 warp.text.6=갑자기 깊은 안개가 드리웠습니다. 무언가 심연 속에서 움직이는 것만 같습니다.
-warp.text.7=사방에 그들이 있어... 도망, 도망가야돼!
+warp.text.7=사방에 그것들이 있어... 도망, 도망가야돼!
 warp.text.8=머리가 너무 아파... 이 두통을 없앨순 없을까?
 #
 # Entities
@@ -184,7 +184,7 @@ tile.blockTaintFibres.4.name=자란 포자 줄기
 tile.blockFluxGoo.name=플럭스 점액
 tile.blockFluxGas.name=플럭스 기체
 tile.blockFluidPure.name=정화의 액체
-tile.blockFluidPure.name=죽음의 액체
+tile.blockFluidDeath.name=액체 죽음
 tile.blockStoneDevice.0.name=연성 화로
 tile.blockStoneDevice.1.name=아케인 주각
 tile.blockStoneDevice.2.name=루닉 매트릭스
@@ -447,9 +447,9 @@ item.ItemAxeVoid.name=공허의 도끼
 item.ItemSwordVoid.name=공허의 검
 item.ItemPickVoid.name=공허의 곡괭이
 item.ItemHoeVoid.name=공허의 괭이
-item.ItemHelmetVoidFortress.name=공허의 전투 헬멧
-item.ItemChestplateVoidFortress.name=공허의 전투 흉갑
-item.ItemLeggingsVoidFortress.name=공허의 전투 레깅스
+item.ItemHelmetVoidRobe.name=공허의 후드
+item.ItemChestplateVoidRobe.name=공허의 로브
+item.ItemLeggingsVoidRobe.name=공허의 바지
 #
 # Fluids
 fluid.fluxGoo=플럭스 점액
@@ -1509,16 +1509,16 @@ tc.research_page.ELDRITCHMINOR.1=머릿속의 광명으로부터 갑작스런 �
 tc.research_name.ELDRITCHMAJOR=드러난 이세계
 tc.research_text.ELDRITCHMAJOR=나는 무한의 경계 저 너머를 보고야 말았어...
 tc.research_page.ELDRITCHMAJOR.1=장막은 거두어지기 마련이고, 이계를 가린 장막이 지금 막, 내 머릿속에서 거둬졌다.<BR>나는 경이로움을 목격했다. 경이로움? 아니, 그건 경이로움이 아니야..내가 본 것은 말이지..<BR><IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=§o나는 봤어.. 나는 봤어... 봤어.. 봤어.. 봤다고 봐버렸어!.... "나는 그들을 봤어"§r<BR><IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>
+tc.research_page.ELDRITCHMAJOR.2=§o나는 봤어.. 나는 봤어... 봤어.. 봤어.. 봤다고 봐버렸어!.... "나는 그들을 봤어"§r<BR><BR><IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>
 #
 tc.research_name.VOIDMETAL=공허합금
 tc.research_text.VOIDMETAL=금속인데 차갑지 않네...?
 tc.research_page.VOIDMETAL.1=사우뮴은 마법을 금속에 불어넣어 만들어낸 특별한 금속입니다. 이는 제법 가치있는 발견이지만, 이제 사우뮴은 초보 입문자들에게 넘겨주세요.<BR>이상하지만 생생한 꿈에서, 독특한 발상을 하게 되었습니다. 금속에 마법 그 이상, 마법 에너지의 원천이라 할 수 있는 우주의 어둠과 공허에 존재하는 정수 그 자체를 주입해 보는 건 어떨까요?<BR>그 결과물은 너무나도 매끄럽고 약간의 온기가 느껴지는 합금입니다. 이 금속은 거의 금처럼 무르기 때문에 가공하기 쉽지만
 tc.research_page.VOIDMETAL.2=제련할 경우 사우뮴과 같은, 혹은 그 이상의 강도를 지니게 됩니다. 게다가 이 금속은 원형을 유지하려는 성질이 있어 엄청난 손상을 입어도 금속 스스로 서서히 복구가 됩니다.<BR>단점이라 할 만한 건 사우뮴처럼 인챈트에 능하지는 않다는 것이지만, 철 등의 일반적인 금속에 비해서는 잘 되는 편입니다.<BR>이 금속을 다룰 때는 주의를 기울여야 하는데, 이 금속에 의해 상처가 났을 경우 일시적으로 힘이 저하될 수 있습니다.
 #
-tc.research_name.ARMORVOIDFORTRESS=공허의 전투 갑주
-tc.research_text.ARMORVOIDFORTRESS=개미 한마리 빠져나가지 못하도록
-tc.research_page.ARMORVOIDFORTRESS.1=이 갑옷은 일반적인 전투 갑주의 약간의 개선판이라 할 수 있습니다. 제작에 사우뮴 대신 공허합금을 사용하였기 때문에 효율성과 내구도 모두 증강되었습니다.<BR>물론 몇몇 사람들은 그렇게 대량의 공허합금을 몸에 걸치는 건 그다지 바람직한 행동이 아니라고 하지만, 이는 항상 있어왔던 이야기이고 무시해도 별 상관 없는 얘기일 뿐입니다. 이걸 착용하고 있으면 가끔 뼛속이 아릴 때가 있습니다.<BR>일반적인 전투 갑주처럼 이 갑옷 역시 안면 보호판등으로 기능을 확장하는 것이 가능합니다. 
+tc.research_name.ARMORVOIDFORTRESS=공허의 로브
+tc.research_text.ARMORVOIDFORTRESS=이세계 스타일
+tc.research_page.ARMORVOIDFORTRESS.1=진정으로 깨우친 마도학자라면 기능성과 방어력 사이에서 고민하지 않을 것입니다.<BR>적절한 마법을 이용해서 증강시킨 공허의 갑옷을 마도학자의 로브와 합치면 물리적 방어력뿐만 아니라 마법에 대한 내성도 지니는 로브를 만들어 낼 수 있습니다.<BR>이 로브는 공허의 갑옷의 모든 기능을 그대로 가지며, 특히 후드에는 제작에 들어간 고글의 기능 또한 포함되어 있습니다.<BR>이 로브는 염색이 가능합니다.
 #
 tc.research_name.CAP_void=공허합금 완드캡
 tc.research_text.CAP_void=이세계의 힘
