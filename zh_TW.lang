@@ -326,8 +326,8 @@ item.ItemNuggetChicken.name=雞肉粒
 item.ItemNuggetBeef.name=牛肉粒
 item.ItemNuggetPork.name=豬肉粒
 item.ItemNuggetFish.name=魚肉粒
-item.BlockJarFilledItem.name=要素罐子
-item.BlockJarFilledItem.void.name=要素虛空罐子
+item.BlockJarFilledItem.name=要素罐
+item.BlockJarFilledItem.void.name=虛空要素罐
 item.BlockJarNodeItem.name=缸中節點
 item.TripleMeatTreat.name=三層肉餅
 item.ItemShovelElemental.name=后土鏟
@@ -447,9 +447,9 @@ item.ItemAxeVoid.name=虛空斧
 item.ItemSwordVoid.name=虛空劍
 item.ItemPickVoid.name=虛空鎬
 item.ItemHoeVoid.name=虛空鋤
-item.ItemHelmetVoidFortress.name=虛空城寨兜盔
-item.ItemChestplateVoidFortress.name=虛空城寨胸鎧
-item.ItemLeggingsVoidFortress.name=虛空城寨脛甲
+item.ItemHelmetVoidRobe.name=虛空祕術使兜帽
+item.ItemChestplateVoidRobe.name=虛空祕術使長袍
+item.ItemLeggingsVoidRobe.name=虛空祕術使護脛
 #
 # Fluids
 fluid.fluxGoo=汙染黏漿
@@ -979,7 +979,7 @@ tc.research_page.ENCHFABRIC.2=當穿戴法袍施法時你能夠更高效地使�
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技術
-tc.research_page.ENCHANT.1=秘術使懂得許多種獨特的附魔技術。<BR>§n效能 (僅用於法杖核心) §r<BR>該附魔能夠提升法杖核心可造成的傷害以及作用範圍。<BR>§n節約(僅用於法杖核心)§r<BR>進行該附魔後的法杖核心使用時更節約魔力。<BR>§n瑰寶(僅用於法杖核心)§r<BR>類似幸運附魔的效果，能夠在採集物品時增加產量。
+tc.research_page.ENCHANT.1=秘術使擁有許多種獨特的附魔技術。<BR>§n效能 (僅用於法杖核心) §r<BR>該附魔能夠提升法杖核心可造成的傷害以及作用範圍。<BR>§n節約(僅用於法杖核心)§r<BR>進行該附魔後的法杖核心使用時更節約魔力。<BR>§n瑰寶(僅用於法杖核心)§r<BR>類似幸運附魔的效果，能夠在採集物品時增加產量。
 tc.research_page.ENCHANT.2=§n急迫§r<BR>進行該附魔的鞋子能夠讓穿戴者在地上行走時健步如飛，附魔等級越高，增幅速度越多。 <BR>§n修復§r<BR>該附魔能夠從靈氣中吸取魔力來緩慢地修復物品耐久，附魔等級越高，修復速度越快。這種附魔只能對部分秘術物品生效。
 #
 tc.research_name.ELEMENTALAXE=奔流斧
@@ -1516,9 +1516,9 @@ tc.research_text.VOIDMETAL=怪了，這摸起來應該是涼...
 tc.research_page.VOIDMETAL.1=透過向金屬灌入魔力，你曾製造出秘術錠，還算是了不得的發現吧，不過今後就把它們留給那些業餘的愛好人士吧。<BR>那依稀能回想起的內容彷彿夢境又如記憶般，讓你產生了去嘗試一些更加不同之事物的...衝動。假如你向金屬灌入的並非魔力，而是產生那些魔力的源泉，那些存在於群星之間的黑暗和虛空，又會如何呢？<BR>合成出來的金屬是如此令人不安的光滑、溫暖。猶如黃金般柔軟易於加工，
 tc.research_page.VOIDMETAL.2=但一旦被加工成型，便會變得猶如秘術錠一般堅硬，甚至猶有過之。更加令人印象深刻的是，即使是毀滅性的損壞，它也能夠很快地自動復原，金屬會自動流向它原本所在的位置。<BR>唯一的劣勢是它不再像秘術錠那樣易於附魔，但即使如此，其附魔性能也遠勝鐵這樣的世俗材料。<BR>使用這種金屬時你發現有一點必須加以關注-被它傷害到似乎會暫時性地陷入虛弱無力的狀態。
 #
-tc.research_name.ARMORVOIDFORTRESS=虛空城寨甲胄
-tc.research_text.ARMORVOIDFORTRESS=無處可逃
-tc.research_page.ARMORVOIDFORTRESS.1=這是一個基於城寨甲胄概念的簡單升級。使用虛空金屬代替秘術錠作為材料不僅提升了甲胄的防護性能，還提高了它的耐久度。<BR>當然一些人呼籲穿戴如此多的虛空金屬製品不大好，但是世界上總是會存在一些應該忽略的質疑者。你發現當你舒適地穿著這套甲冑時，會有種入骨的鈍痛感。<BR>如同其他城寨甲冑，它也能加上面具等改裝配件。
+tc.research_name.ARMORVOIDFORTRESS=虛空祕術使長袍
+tc.research_text.ARMORVOIDFORTRESS=異界風格
+tc.research_page.ARMORVOIDFORTRESS.1=一個真正開悟的祕術使理解了如何不再需要從效用和防禦之間做選擇。<BR>透過適當的結界拓展現有的虛空盔甲，並將它與祕術使法袍結合，便能打造出一套裝甲法袍。不僅能保護肉體免於傷害，也能擁有相當不錯的魔法保護。<BR>這件長袍也保留了所有虛空盔甲的性質，同時其兜帽配方中的護目鏡也能發揮其功能。<BR>這套裝備可染色。
 #
 tc.research_name.CAP_void=虛空杖端
 tc.research_text.CAP_void=來自另一端的力量
