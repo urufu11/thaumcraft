@@ -489,7 +489,7 @@ recipe.type.infusionenchantment=注魔附魔
 recipe.type.construct=神秘方塊構成
 #
 # Other
-itemGroup.thaumcraft=Thaumcraft4
+itemGroup.thaumcraft=秘術時代4
 nodetype.NORMAL.name=標準
 nodetype.UNSTABLE.name=不穩定
 nodetype.DARK.name=凶險
@@ -1261,7 +1261,7 @@ tc.research_page.JARBRAIN.1=- 向罐子投入一個殭屍之腦。<BR>- 添加�
 #
 tc.research_name.HOVERHARNESS=奧術韁繩
 tc.research_text.HOVERHARNESS=那是一隻鳥？
-tc.research_page.HOVERHARNESS.1=最終你揭開了飛行的秘密。 你創造出一種通過使用奧術能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要的魔力在創造的時候就已經全部加入進去，它消耗的燃料是原生的要素：Potentia(能量)。當手持著韁繩的時候右擊來安裝盛滿的要素罐子。<BR>當穿戴有奧術韁繩時按下"F"開啟或關閉其功能。
+tc.research_page.HOVERHARNESS.1=最終你揭開了飛行的秘密。 你創造出一種通過使用奧術能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要的魔力在創造的時候就已經全部加入進去，它消耗的燃料是原生的要素：Potentia(能量)。當手持著韁繩的時候右擊來安裝盛滿的要素罐子。<BR>當穿戴有奧術韁繩時按下"H"開啟或關閉其功能。
 tc.research_page.HOVERHARNESS.2=啟動後奧術韁繩會持續消耗 Potentia 要素。<BR>急迫附魔能夠加快奧術韁繩的飛行速度。
 #
 tc.research_name.HOVERGIRDLE=奧術腰帶
