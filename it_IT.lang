@@ -1174,19 +1174,19 @@ tc.research_name.UPGRADEEARTH=Miglioramento per golem: terra
 tc.research_text.UPGRADEEARTH=Rendere il tuo golem più forte
 tc.research_page.UPGRADEEARTH.1=Questo aggiornamento aumenta la quantità di oggetti che il tuo golem può portare alla volta. Ogni aggiornamento aumenta il limite fra 4 e 16 (a seconda della portata massima di base).<BR>Inoltre incrementa il suo danno fisico, e la rapidità con cui raccoglie materiali o esegue compiti che dipendono dalla forza bruta.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
-tc.research_name.UPGRADEFIRE= Miglioramento per golem: fuoco
+tc.research_name.UPGRADEFIRE=Miglioramento per golem: fuoco
 tc.research_text.UPGRADEFIRE=Rendere il tuo golem tutto focoso
 tc.research_page.UPGRADEFIRE.1=Questo aggiornamento aumenta l'inventario dell'interfaccia di un golem, consentendo di filtrare più oggetti. Il numero di slot aggiunti dipende dal numero che possiede normalmente.<BR>Inoltre, gli attacchi da mischia del golem danno fuoco al bersaglio.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
-tc.research_name.UPGRADEWATER= Miglioramento per golem: acqua
+tc.research_name.UPGRADEWATER=Miglioramento per golem: acqua
 tc.research_text.UPGRADEWATER=Rendere il tuo golem più percettivo
 tc.research_page.UPGRADEWATER.1=Questo aggiornamento aumenta la portata visiva della maggior parte dei golem, permettendogli di viaggiare più lontano per compiere i loro doveri.<BR>Inoltre aumenta la portata e la precisione degli attacchi a distanza.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
-tc.research_name.UPGRADEORDER= Miglioramento per golem: ordine
+tc.research_name.UPGRADEORDER=Miglioramento per golem: ordine
 tc.research_text.UPGRADEORDER=Rendere il tuo golem più organizzato
 tc.research_page.UPGRADEORDER.1=Questo aggiornamento permette ai golem di usufruire di più marcatori colorati con la campanella del Golemante. Questo permette un maggior controllo su ciò che fanno e dove lo fanno.<BR>Questo miglioramento inoltre sblocca determinate caratteristiche di alcuni nuclei di animazione, dandogli una funzionalità più vasta.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
-tc.research_name.UPGRADEENTROPY= Miglioramento per golem: entropia
+tc.research_name.UPGRADEENTROPY=Miglioramento per golem: entropia
 tc.research_text.UPGRADEENTROPY=Rendere il tuo golem pungente... e confuso
 tc.research_page.UPGRADEENTROPY.1=I golem equipaggiati con questo aggiornamento danneggiano tutto ciò che li colpisce.<BR>Inoltre avranno un maggior controllo su ciò che cercano. Puoi fare in modo che usino o non usino "damage values", NBT data o persino controllare il "ore dictionary" per trovare oggetti simili.<BR>Determinati nuclei di animazione potrebbero trarre benefici diversi da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
@@ -1270,7 +1270,7 @@ tc.research_page.HOVERGIRDLE.1=Questo cinturone è ideato per essere usato con l
 #
 tc.research_name.ADVANCEDGOLEM=Golem avanzati
 tc.research_text.ADVANCEDGOLEM=Forse avrei dovuto pensarci meglio...
-tc.research_page.ADVANCEDGOLEM.1=Hai scoperto un modo per migliorare i golem in tanti piccoli ma efficaci modi.<BR>Prima di tutto, i golem sottoposti a questo processo possono portare un aggiornamento in più, pur non potendo avere più di due aggiornamenti dello stesso tipo.<BR>Secondo, si muovono leggermente più velocemente.<BR>Terzo, hanno una portata visiva leggermente migliore.<BR>Sicuramente quello sguardo assassino nei loro occhi è semplicemente una tua immaginazione...  
+tc.research_page.ADVANCEDGOLEM.1=Hai scoperto un modo per migliorare i golem in tanti piccoli ma efficaci modi.<BR>Prima di tutto, i golem sottoposti a questo processo possono portare un potenziamento in più, pur non potendo avere più di due potenziamenti dello stesso tipo.<BR>Secondo, si muovono leggermente più velocemente.<BR>Terzo, hanno una portata visiva leggermente migliore.<BR>Sicuramente quello sguardo assassino nei loro occhi è semplicemente una tua immaginazione...  
 #
 tc.research_name.ARCANEBORE=Trivella arcana
 tc.research_text.ARCANEBORE=L'evoluzione dell'escavazione
