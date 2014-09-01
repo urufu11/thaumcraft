@@ -1,3 +1,4 @@
+* Do not post questions, ideas or suggestions unless they directly correlate to a bug you're reporting. If you want to do any of the former, do so on the [TC thread](http://www.minecraftforum.net/topic/2011841-).
 * Check the other issues first to make sure yours hasn't been reported yet.
 * Make sure you are running the latest version of Thaumcraft and Forge;
 * Do not report issues for 1.6 versions of Thaumcraft, they aren't supported any more.

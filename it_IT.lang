@@ -337,7 +337,7 @@ item.ItemHoeElemental.name=Zappa della crescita
 item.ItemSwordElemental.name=Spada dello zefiro
 item.ItemChestplateRobe.name=Veste del taumaturgo
 item.ItemLeggingsRobe.name=Braghe del taumaturgo
-item.ItemBootsRobe.name=Scarpe del taumaturgo
+item.ItemBootsRobe.name=Stivali del taumaturgo
 item.ArcaneDoorKey.0.name=Chiave arcana di ferro
 item.ArcaneDoorKey.1.name=Chiave arcana d'oro
 item.HandMirror.name=Specchio magico portatile
@@ -447,9 +447,9 @@ item.ItemAxeVoid.name=Ascia di Vuoto
 item.ItemSwordVoid.name=Spada di Vuoto
 item.ItemPickVoid.name=Piccone di Vuoto
 item.ItemHoeVoid.name=Zappa di Vuoto
-item.ItemHelmetVoidFortress.name=Elmo della fortezza di Vuoto
-item.ItemChestplateVoidFortress.name=Corazza della fortezza di Vuoto
-item.ItemLeggingsVoidFortress.name=Gambiera della fortezza di Vuoto
+item.ItemHelmetVoidRobe.name=Cappuccio del taumaturgo di Vuoto
+item.ItemChestplateVoidRobe.name=Veste del taumaturgo di Vuoto
+item.ItemLeggingsVoidRobe.name=Braghe del taumaturgo di Vuoto
 #
 # Fluids
 fluid.fluxGoo=Flusso melmoso
@@ -1174,19 +1174,19 @@ tc.research_name.UPGRADEEARTH=Miglioramento per golem: terra
 tc.research_text.UPGRADEEARTH=Rendere il tuo golem più forte
 tc.research_page.UPGRADEEARTH.1=Questo aggiornamento aumenta la quantità di oggetti che il tuo golem può portare alla volta. Ogni aggiornamento aumenta il limite fra 4 e 16 (a seconda della portata massima di base).<BR>Inoltre incrementa il suo danno fisico, e la rapidità con cui raccoglie materiali o esegue compiti che dipendono dalla forza bruta.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
-tc.research_name.UPGRADEFIRE= Miglioramento per golem: fuoco
+tc.research_name.UPGRADEFIRE=Miglioramento per golem: fuoco
 tc.research_text.UPGRADEFIRE=Rendere il tuo golem tutto focoso
 tc.research_page.UPGRADEFIRE.1=Questo aggiornamento aumenta l'inventario dell'interfaccia di un golem, consentendo di filtrare più oggetti. Il numero di slot aggiunti dipende dal numero che possiede normalmente.<BR>Inoltre, gli attacchi da mischia del golem danno fuoco al bersaglio.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
-tc.research_name.UPGRADEWATER= Miglioramento per golem: acqua
+tc.research_name.UPGRADEWATER=Miglioramento per golem: acqua
 tc.research_text.UPGRADEWATER=Rendere il tuo golem più percettivo
 tc.research_page.UPGRADEWATER.1=Questo aggiornamento aumenta la portata visiva della maggior parte dei golem, permettendogli di viaggiare più lontano per compiere i loro doveri.<BR>Inoltre aumenta la portata e la precisione degli attacchi a distanza.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
-tc.research_name.UPGRADEORDER= Miglioramento per golem: ordine
+tc.research_name.UPGRADEORDER=Miglioramento per golem: ordine
 tc.research_text.UPGRADEORDER=Rendere il tuo golem più organizzato
 tc.research_page.UPGRADEORDER.1=Questo aggiornamento permette ai golem di usufruire di più marcatori colorati con la campanella del Golemante. Questo permette un maggior controllo su ciò che fanno e dove lo fanno.<BR>Questo miglioramento inoltre sblocca determinate caratteristiche di alcuni nuclei di animazione, dandogli una funzionalità più vasta.<BR>Determinati nuclei di animazione potrebbero trarre benefici da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
-tc.research_name.UPGRADEENTROPY= Miglioramento per golem: entropia
+tc.research_name.UPGRADEENTROPY=Miglioramento per golem: entropia
 tc.research_text.UPGRADEENTROPY=Rendere il tuo golem pungente... e confuso
 tc.research_page.UPGRADEENTROPY.1=I golem equipaggiati con questo aggiornamento danneggiano tutto ciò che li colpisce.<BR>Inoltre avranno un maggior controllo su ciò che cercano. Puoi fare in modo che usino o non usino "damage values", NBT data o persino controllare il "ore dictionary" per trovare oggetti simili.<BR>Determinati nuclei di animazione potrebbero trarre benefici diversi da questo miglioramento, quindi dovresti controllare se sono state aggiunte nuove pagine nella loro sezione de Taumonomicon.
 #
@@ -1262,7 +1262,7 @@ tc.research_page.JARBRAIN.1=- Butta un cervello marcio di zombie in un barattolo
 tc.research_name.HOVERHARNESS=Imbracatura taumostatica
 tc.research_text.HOVERHARNESS=È un uccello?
 tc.research_page.HOVERHARNESS.1=Finalmente sei riuscito a sbloccare il segreto del volo. Hai creato un'imbracatura che si aggancia direttamente al Campo Taumico utilizzando l'energia taumostatica, permettendoti così di sconfiggere la gravità. Sicuramente in qualche modo centrano i quanti ed i quark.<BR>Stranamente l'unico vis richiesto per alimentare questo aggeggio è infuso direttamente durante il suo processo di creazione. Invece il carburante che richiede per volare è Potentia grezza. Clicca con il destro mentre tieni in mano l'imbracatura per aprire l'interfaccia ed inserire barattoli pieni.
-tc.research_page.HOVERHARNESS.2=Premendo F, mentre si indossa l'imbracatura, la si attiva o disattiva.<BR>Mentre è attiva l'imbracatura consumerà Potentia.<BR>Può essere incantata con Fretta per aumentare la velocità di volo.
+tc.research_page.HOVERHARNESS.2=Premendo H, mentre si indossa l'imbracatura, la si attiva o disattiva.<BR>Mentre è attiva l'imbracatura consumerà Potentia.<BR>Può essere incantata con Fretta per aumentare la velocità di volo.
 #
 tc.research_name.HOVERGIRDLE=Cinturone taumostatico
 tc.research_text.HOVERGIRDLE=È un aereo?
@@ -1270,7 +1270,7 @@ tc.research_page.HOVERGIRDLE.1=Questo cinturone è ideato per essere usato con l
 #
 tc.research_name.ADVANCEDGOLEM=Golem avanzati
 tc.research_text.ADVANCEDGOLEM=Forse avrei dovuto pensarci meglio...
-tc.research_page.ADVANCEDGOLEM.1=Hai scoperto un modo per migliorare i golem in tanti piccoli ma efficaci modi.<BR>Prima di tutto, i golem sottoposti a questo processo possono portare un aggiornamento in più, pur non potendo avere più di due aggiornamenti dello stesso tipo.<BR>Secondo, si muovono leggermente più velocemente.<BR>Terzo, hanno una portata visiva leggermente migliore.<BR>Sicuramente quello sguardo assassino nei loro occhi è semplicemente una tua immaginazione...  
+tc.research_page.ADVANCEDGOLEM.1=Hai scoperto un modo per migliorare i golem in tanti piccoli ma efficaci modi.<BR>Prima di tutto, i golem sottoposti a questo processo possono portare un potenziamento in più, pur non potendo avere più di due potenziamenti dello stesso tipo.<BR>Secondo, si muovono leggermente più velocemente.<BR>Terzo, hanno una portata visiva leggermente migliore.<BR>Sicuramente quello sguardo assassino nei loro occhi è semplicemente una tua immaginazione...  
 #
 tc.research_name.ARCANEBORE=Trivella arcana
 tc.research_text.ARCANEBORE=L'evoluzione dell'escavazione
@@ -1516,9 +1516,9 @@ tc.research_text.VOIDMETAL=Strano, dovrebbe essere freddo...
 tc.research_page.VOIDMETAL.1=Infondendo magia nel metallo hai crato il Taumio. é stato una scoperta utile, ma è arrivato il momento di lasciare il taumio agli esordienti e dilettanti.<BR>Uno strano e mezzo-ricordato sogno ti ha dato il bisogno di provare qualcosa... di diverso. Cosa succede se infondi il metallo con l'essenza stessa da cui è assorbita la magia: l'Oscurità e il Vuoto che si trova tra le stelle.<BR>Il metallo risultante è inquietantemente viscido e caldo al tocco. É quasi morbido quanto l'oro rendendolo facile da lavorare,
 tc.research_page.VOIDMETAL.2=ma quando colpito diventa duro come il taumio e a volte persiono più duro. Ancora più sorprendenteil fatto che il danno più devastante si ripara da solo col metallo che torna lentamente al suo posto.<BR>L'unico lato negativo è che non è tanto incantabile quanto il taumio, ma ancora migliore di materiali mondani come il ferro.<BR>Hai scoperto che devi fare attenzione quando usi il metallo, subendo danno da esso sembra prendere temporaneamente la tua forza.
 #
-tc.research_name.ARMORVOIDFORTRESS=Armatura della fortezza di Vuoto
-tc.research_text.ARMORVOIDFORTRESS=Niente può uscire
-tc.research_page.ARMORVOIDFORTRESS.1=Questo è un semplice potenziamento del concetto ootenuto dalla scoperta dell'armatura della fortezza. Usando Metalvuoto invece di taumio non aumenti solo l'efficacia dell'armatura, ma anche la durabilità.<BR>Ovviamente alcune persone dicono che indossando tanto Metalvuoto non è probabilmente salutare, ma ci saranno sempre dubitori e devono essere ignorati. Provi un leggero dolore alle ossa quando lo indossi comodamente.<BR>Come la normale armatura della fortezza questa qui può essere potenziata con varie maschere. 
+tc.research_name.ARMORVOIDFORTRESS=Vesti del taumaturgo di Vuoto
+tc.research_text.ARMORVOIDFORTRESS=Moda dell'altro mondo
+tc.research_page.ARMORVOIDFORTRESS.1=Un taumaturgo veramente illuminato capisce che non deve scegliere tra utilità e difesa.<BR>Migliorando l'armatura di Vuoto con certi incantesimi e combinandola con le vesti del taumaturgo creerà un completo di vesti armate che non solo offriranno protezione fisica e concentrazione mentale, ma anche protezione mistica.<BR>Le vesti inoltre conserveranno tutte le proprietà dell'armatura di Vuoto mentre il cappuccio ofrirà tutti i benefici degli occhiali usati per fabbricarlo.<BR>L'armatura può essere colorata.
 #
 tc.research_name.CAP_void=Cappucci in metalvuoto per bacchette
 tc.research_text.CAP_void=Potere dall'oltre

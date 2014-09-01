@@ -18,9 +18,9 @@ potion.blurred=视瞻昏渺
 potion.sunscorned=日之辱蔑
 #
 #Warp
-warp.text.1=忽然之间你身上涌出古怪的疲乏感.
+warp.text.1=你身上涌出古怪的疲乏感.
 warp.text.2=突如其来的反常饥饿感让你感到劳累.
-warp.text.hunger.1=你不再对平常的食物感兴趣,吃下它们仅仅能缓解一时的饥饿.
+warp.text.hunger.1=你不再对平常的食物感兴趣.
 warp.text.hunger.2=你的饥饿感开始消退.
 warp.text.3=古怪的耳语向你倾吐着秘密.
 warp.text.4=你的视野变得诡异而模糊.
@@ -62,7 +62,7 @@ entity.Thaumcraft.TravelingTrunk.name=箱子宝宝
 entity.trunk.guiname=的箱子宝宝
 entity.trunk.move=箱子宝宝将跟随你行动
 entity.trunk.stay=箱子宝宝将留在原地
-entity.Thaumcraft.MindSpider.name=精神蜘蛛
+entity.Thaumcraft.MindSpider.name=心魔蜘蛛
 entity.Thaumcraft.EldritchGuardian.name=邪术守卫
 entity.Thaumcraft.EldritchOrb.name=邪术球
 #
@@ -447,9 +447,9 @@ item.ItemAxeVoid.name=虚空斧
 item.ItemSwordVoid.name=虚空剑
 item.ItemPickVoid.name=虚空镐
 item.ItemHoeVoid.name=虚空锄
-item.ItemHelmetVoidFortress.name=虚空要塞兜鍪
-item.ItemChestplateVoidFortress.name=虚空要塞胸铠
-item.ItemLeggingsVoidFortress.name=虚空要塞护胫
+item.ItemHelmetVoidRobe.name=虚空神秘使兜帽
+item.ItemChestplateVoidRobe.name=虚空神秘使法袍
+item.ItemLeggingsVoidRobe.name=虚空神秘使护腿
 #
 # Fluids
 fluid.fluxGoo=咒波粘浆
@@ -979,7 +979,7 @@ tc.research_page.ENCHFABRIC.2=当穿戴法袍施法时你能够更高效地使�
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技术
-tc.research_page.ENCHANT.1=神秘使懂得许多种独特的附魔技术.<BR>§n潜能 (仅用于法杖核心) §r<BR>该附魔能够提升法杖核心可造成的伤害以及作用范围.<BR>§n朴素(仅用于法杖核心)§r<BR>进行该附魔后的法杖核心使用时更节约魔力.<BR>§n瑰宝(仅用于法杖核心)§r<BR>类似时运附魔的效果,能够在采集物品时增加产量.
+tc.research_page.ENCHANT.1=神秘使懂得许多种独特的附魔技术.<BR>§n潜能 (仅用于法杖核心) §r<BR>该附魔能够提升法杖核心可造成的伤害以及作用范围,但会略微增加魔力消耗.<BR>§n朴素(仅用于法杖核心)§r<BR>进行该附魔后的法杖核心更加节约魔力.<BR>§n瑰宝(仅用于法杖核心)§r<BR>类似时运附魔的效果,增加采集物品的产量.
 tc.research_page.ENCHANT.2=§n急迫§r<BR>进行该附魔的鞋子能够让穿戴者在地上行走时健步如飞,附魔等级越高,增幅速度越多.<BR>§n修复§r<BR>该附魔能够从灵气中吸取魔力来缓慢地修复物品耐久,附魔等级越高,修复速度越快.这种附魔只能对部分神秘物品生效.
 #
 tc.research_name.ELEMENTALAXE=奔流斧
@@ -1235,7 +1235,7 @@ tc.research_page.JARLABEL.3=你可以对着空罐子使用与某种要素绑定�
 #
 tc.research_name.INFERNALFURNACE=炼狱熔炉
 tc.research_text.INFERNALFURNACE=够热?
-tc.research_page.INFERNALFURNACE.1=利用天然§cIgnis§0要素的神奇力量,你使用下界砖以及黑曜石构筑了这个高效且不需要任何燃料的熔炉.实际上,它是如此的高效,有时甚至会额外地以颗粒或锭状的形式产出所烧的矿物.<BR>虽然并不需要燃料,但如果无法源源不断地供应§cIgnis§0要素源质,那么熔炉燃烧速度会很慢.你可以在炼狱熔炉10格内的某处放置一个盛放了§cIgnis§0要素源质的罐子来满足此需求.幸运的是要素源质消耗很慢,只需要一点点,就能运行很久.
+tc.research_page.INFERNALFURNACE.1=利用天然§cIgnis§0要素的神奇力量,你使用下界砖以及黑曜石构筑了这个高效且不需要任何燃料的熔炉.实际上,它是如此的高效,有时甚至会额外地以颗粒或锭状的形式产出所烧的矿物.<BR>不消耗源质的炼狱熔炉冶炼速度非常缓慢,倘若想要提高效率需要不时地向它供应§cIgnis§0源质或魔力.你可以使用目前发现以及今后将会发现的所有方法来进行魔力供应.
 tc.research_page.INFERNALFURNACE.2=你应该还要注意的是炼狱熔炉偶尔会向环境中泄漏出一点儿咒波.<BR>将你希望烧的物品从上面投入,它会从正前方吐出产物.有时候你会想,要是你的箱子能够自己接住这个熔炉吐出来的东西就好了.
 #
 tc.research_name.BELLOWS=奥术风箱
@@ -1275,8 +1275,8 @@ tc.research_page.ADVANCEDGOLEM.1=你已经发现了一些在微小而重要的�
 tc.research_name.ARCANEBORE=奥术钻探机
 tc.research_text.ARCANEBORE=采矿业的进化
 tc.research_page.ARCANEBORE.1=你已经发现一种拥有采掘核心能力,且具有更大的工作范围的奥术设备,不仅如此,这台机器还可以无人监控地自动运行.只需要将它安装在特别的基座上,将其方向调校正确后,再提供一个法杖供能,并用红石信号激活即可.<BR>奥术钻探机需要两件东西才能正常工作.首先你需要将采掘核心放在物品栏左侧格子中,法杖核心的附魔效果也会被加成到钻探机上.
-tc.research_page.ARCANEBORE.2=其次,你需要在右边格子里放置一个任意类型的镐子.镐的材料对钻探机运行效果影响很小,但其耐久直接决定钻探机的运行时间.此外,类似核心,镐子上的附魔效果也能够被加成到钻探机上.<BR>将装有perditio要素的罐子放置在钻头附近(8格内)将显著提高其挖掘效率,但每挖16个方块就会消耗一点perditio要素.<BR>奥法钻头只能安附在奥法钻探基座的上方或下方.挖掘到的物品都会从钻探基座的喷嘴所朝方向弹出来.
-tc.research_page.ARCANEBORE.3=如果有箱子则会自动进入其物品栏.你可以用法杖改变奥术钻探机的朝向.
+tc.research_page.ARCANEBORE.2=其次,你需要在右边格子里放置一个任意类型的镐子.镐的材料对钻探机运行效果影响很小,但其耐久直接决定钻探机的运行时间.此外,类似核心,镐子上的附魔效果也能够被加成到钻探机上.<BR>奥法钻头只能安附在奥法钻探基座的上方或下方.挖掘到的物品都会从钻探基座的喷嘴所朝方向弹出来.<BR>如果有箱子则会自动进入其物品栏.你可以用法杖改变奥术钻探机的朝向.
+tc.research_page.ARCANEBORE.3=倘若向钻探机供应§8Perditio§0源质或魔力其钻探效率将大大提升.既可以使用管道供应魔力或源质,也可以使用节点中继器供应厘魔(CV).一点§8Perditio§0源质能够让钻探机以更快的速度挖掘接下来的20个方块.而作为另外一种选择的中继器系统的效率则是,每加速挖掘一个方块消耗5点CV,而钻探机每tick最多能够输入100CV.
 #
 tc.research_name.LEVITATOR=奥术悬浮台
 tc.research_text.LEVITATOR=下面该研究怎么飞了!
@@ -1288,8 +1288,8 @@ tc.research_page.ARCANEEAR.1=奥术之耳是一个能够检测附近的音符盒
 #
 tc.research_name.MIRROR=魔镜
 tc.research_text.MIRROR=镜中奇缘
-tc.research_page.MIRROR.1=暂时将物体转移到位面之间的隙间被证明是可能的,但你确信你还能做更多事情.任何懂得些许魔法尝试的人都会意识到镜子也许能够连接到其他的空间,那么何不尝试研究以镜子为基础的空间魔法物品呢?现在你研究出一种可以链接不同空间的神奇魔镜.通过镜子的物品能够在不同位置,甚至不同位面间相互传递.<BR>不幸的是空间通道对像你这样的实体生物非常排斥,因此用这种魔镜来传输生物暂时是不可能的.<BR>要链接一对魔镜,你需要将其中一面镜子安装在目标位置.
-tc.research_page.MIRROR.2=并用第二面镜子右击第一名镜子,并安装在需要的位置.当两面都装好后会建立连接,镜面会出现黑洞的图案.当你将物品投入其中,物品会自动从另一个镜子被抛出.<BR>魔镜只能成对链接.当安装好后不能与第三个魔镜建立链接.当你拆卸后重新安装魔镜的时候,它能够自动回忆上次建立配对的魔镜.然而,拆卸配对的魔镜后,你也能很方便地用它建立新的链接.<BR>传送物品并非无偿,你需要在附近提供Iter要素源质,每堆叠物品消耗一点源质.
+tc.research_page.MIRROR.1=你尝试附魔镜子,将它变成通往世界间隙那广漠虚空的传送门.投入其(或是使用管道向镜子输入)的物品将会跨越空间甚至跨越位面,然后从另外一面镜子喷出.<BR>不幸的是空间通道对像你这样的实体生物非常排斥,因此用这种魔镜来传输生物暂时是不可能的.<BR>要链接一对魔镜,你需要将其中一面镜子安装在目标位置.
+tc.research_page.MIRROR.2=并用第二面镜子右击第一名镜子,并安装在需要的位置.当两面都装好后会建立连接,镜面会出现黑洞的图案.当你将物品投入其中,物品会自动从另一个镜子被抛出.<BR>魔镜只能成对链接.当安装好后不能与第三个魔镜建立链接.当你拆卸后重新安装魔镜的时候,它能够自动回忆上次建立配对的魔镜.然而,拆卸配对的魔镜后,你也能很方便地用它建立新的链接.
 tc.research_page.MIRROR.3=通过镜子传输物品会对魔力玻璃造成压力,为免于破碎镜子会自动降低从另一端的镜面喷吐出物品的频率.不稳定性越高, 传输速度越慢.<BR>这种不稳定性会随着时间推移而下降,或者也可以向镜子直接通入§7Ordo§0源质来抵消它.
 #
 tc.research_name.MIRRORHAND=魔力手镜
@@ -1337,7 +1337,7 @@ tc.research_page.INFUSIONENCHANTMENT.3=如若物品已包含你当前进行附�
 tc.research_name.ARCANELAMP=奥术灯
 tc.research_text.ARCANELAMP=大型光源
 tc.research_page.ARCANELAMP.1=这种神秘的灯具可以被安附在墙壁,地板以及天花板上用作强烈而稳定的光源.<BR>这种灯具会在16格范围内制造出额外的光源,保证亮度等级不低于可接受的安全亮度以下.记住,只有你才能阻止僵尸狂潮.<BR>这些伴生光源在拆卸掉神秘灯具后很快就会消失掉.<LINE>你确定这种灯具的应用将陆续呈现,因此拥有新的发现后请记得回来再查阅一遍这里.
-tc.research_page.ARCANELAMP.2=           §n奥术钻探机§r<BR>依附在奥术钻探机上时,奥术灯将额外具有以下功能: 它将从附近吸取Lux要素来照亮钻探机挖通的隧道.<BR>每一点Lux要素能够产生一点光源,这种光源即使在灯具被拆卸后也不会消失.
+tc.research_page.ARCANELAMP.2=           §n奥术钻探机§r<BR>依附在奥术钻探机上时,奥术灯将额外具有以下功能: 它能够照亮钻探机挖通的隧道.
 #
 tc.research_name.BASICARTIFACE=基础炼化学
 tc.research_text.BASICARTIFACE=必需之物
@@ -1367,7 +1367,7 @@ tc.research_page.TRAVELTRUNK.UEN=    §n傀儡升级:混沌§r<BR>安装该升�
 #
 tc.research_name.LAMPGROWTH=催生灯
 tc.research_text.LAMPGROWTH=催熟作物
-tc.research_page.LAMPGROWTH.1=不像奥术灯具就是用来照明的,除非提供Herba要素,催生灯不会散发出一丝光芒.而沐浴在其光芒之下的作物会生长得比平时更为快速.<BR>要素既可以通过在附近放置要素罐子来提供,也可以直接将灯具安装在源质管道上.
+tc.research_page.LAMPGROWTH.1=不像奥术灯具就是用来照明的,除非提供Herba要素,催生灯不会散发出一丝光芒.而沐浴在其光芒之下的作物会生长得比平时更为快速.<BR>要素可以通过直接将灯具安装在源质管道上来提供.
 #
 tc.research_name.LAMPFERTILITY=育种灯
 tc.research_text.LAMPFERTILITY=散发出罗曼蒂克的光辉照耀事物
@@ -1385,7 +1385,7 @@ tc.research_page.TUBEFILTER.2=§n限定源质管道§r 类似普通管道,但它
 #
 tc.research_name.MIRRORESSENTIA=源质之镜
 tc.research_text.MIRRORESSENTIA=随处可用的源质
-tc.research_page.MIRRORESSENTIA.1=魔力手镜对长途运输物品可谓实用,但相同的原理能否应用于源质系统呢?你觉得你已经研究出实现它的方法了.<BR>源质之镜,顾名思义,可以类似魔力手镜传输物品那样传输源质.然而也有几条重要的使用限制：<BR>你无法用管道将源质导入镜中 - 源质之镜只能从源头抽取源质运输到类似注魔矩阵或炼金熔炉这样的设备去.
+tc.research_page.MIRRORESSENTIA.1=魔力手镜对长途运输物品可谓实用,但相同的原理能否应用于源质系统呢?你觉得你已经研究出实现它的方法了.<BR>源质之镜,顾名思义,可以类似魔力手镜传输物品那样传输源质.然而也有几条重要的使用限制：<BR>你无法用管道将源质导入镜中 - 源质之镜只能从源头抽取源质运输到类似注魔矩阵这样的设备去.
 tc.research_page.MIRRORESSENTIA.2=意即镜子允许这些设备通过镜子从源头抽取源质.<BR>远距离抽取像源质这么不稳定的东西并非毫无风险,有时会造成少量源质流失.
 #
 tc.research_name.BONEBOW=骨弓
@@ -1440,7 +1440,7 @@ tc.research_page.WARDEDARCANA.4=守卫者玻璃并非单纯的装饰方块,类�
 tc.research_name.VISAMULET=魔力存储
 tc.research_text.VISAMULET=俭以防匮
 tc.research_page.VISAMULET.1=大多数时候,对神秘使来说,有一根法杖就远远满足需求了,但有时候它储存的魔力却偏偏不够用.多带一支法杖就能解决问题,但实验表明另有他法.<BR>制作一枚储存有魔力的护身符,就能在法杖或者相关物品耗尽魔力时为其充能了.<BR>然而你的这项成就并非尽善尽美.只有手里攥着法杖的时候才能为其充能,且充能速度缓慢.
-tc.research_page.VISAMULET.2=然而护身符是类似修复附魔或者符文护盾这类物品非常好的能量来源.<BR>护身符只能在法杖基座中充能.
+tc.research_page.VISAMULET.2=然而护身符是类似修复附魔或者符文护盾这类物品非常好的能量来源.<BR>护身符只能使用法杖基座或魔力中继器充能.
 #
 tc.research_name.NODESTABILIZER=节点稳定器
 tc.research_text.NODESTABILIZER=节点疗法
@@ -1504,7 +1504,7 @@ tc.research_page.MASKSIPPINGFIEND.1=此面具乃是神秘要塞兜鍪的专属�
 #
 tc.research_name.ELDRITCHMINOR=邪术揭谛
 tc.research_text.ELDRITCHMINOR=迈入未知的第一步
-tc.research_page.ELDRITCHMINOR.1=突然之间对你来说它变得昭然.在其他人只能看见混沌一片的地方,你却灵光一瞥捕捉到它那诡异莫名,令人不安的模式.宇宙最黑暗的角落鬼影绰绰.<BR>你一度试图向别人解释你发现的一切,但却只招来了奇怪的眼神.无论如何,有朝一日你会向他们展现你的发现.<BR>向他们所有人.
+tc.research_page.ELDRITCHMINOR.1=突然间对你来说它变得昭然.在其他人只能看见混沌一片的地方,你却灵光一瞥捕捉到它那诡异莫名,令人不安的模式.宇宙最黑暗的角落鬼影绰绰.<BR>你一度试图向别人解释你发现的一切,但却只招来了奇怪的眼神.无论如何,有朝一日你终将向他们展现你的发现.<BR>向他们所有人.
 #
 tc.research_name.ELDRITCHMAJOR=邪术启示录
 tc.research_text.ELDRITCHMAJOR=吾已看见那超越无限疆域的妙境
@@ -1512,16 +1512,15 @@ tc.research_page.ELDRITCHMAJOR.1=神秘的面纱已滑落 - 吾的脑海中敞�
 tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>这条谁写的啊喂?
 #
 tc.research_name.VOIDMETAL=虚空金属
-tc.research_text.VOIDMETAL=古怪的是它摸起来一阵凉意...
-tc.research_page.VOIDMETAL.1=通过向金属灌入魔力你曾制造出神秘锭,还算是了不得的发现吧,不过今后就把它们留给那些浅尝辄止的业余爱好人士吧.<BR>那依稀能回想起内容的怪诞梦境让你产生了去尝试一些更加与众不同的事物的冲动.假如你向金属灌入的并非魔力,而是那些产生魔力的源泉,那些存在于群星之间的黑暗和虚空要素,又会怎样呢?<BR>所得到的这种金属摸起来令人不安地光滑和冰凉.它软如黄金,因此易于加工,但一旦被加工成型,便会变得犹如神秘锭一般坚硬,有时甚至犹有过之.
+tc.research_text.VOIDMETAL=奇怪,它摸起来应该是凉的...
+tc.research_page.VOIDMETAL.1=通过向金属灌入魔力你曾制造出神秘锭,还算是了不得的发现吧,不过今后就把它们留给那些浅尝辄止的业余爱好人士吧.<BR>那依稀能回想起内容的怪诞梦境让你产生了去尝试一些更加与众不同的事物的冲动.假如你向金属灌入的并非魔力,而是那些产生魔力的源泉,那些存在于群星之间的黑暗和虚空要素,又会怎样呢?<BR>如此所得的金属摸起来令人不安地光滑而温暖.它软如黄金,因此易于加工,但一旦被加工成型,便会变得犹如神秘锭一般坚硬,有时甚至犹有过之.
 tc.research_page.VOIDMETAL.2=令人印象更加深刻的是,哪怕是毁灭性的损坏它也能够很快地自动复原,金属会自动流向它原本所在的位置.<BR>唯一的劣势是它不再像神秘锭那样易被附魔,但即使如此它的附魔性能也胜过铁这样的世俗材料.<BR>使用这种金属时你发现有一点必须加以关注 - 被它伤害到似乎会暂时性地陷入疲弱无力的状态.
 #
-tc.research_name.ARMORVOIDFORTRESS=虚空要塞甲胄
-tc.research_text.ARMORVOIDFORTRESS=无物可逃
-tc.research_page.ARMORVOIDFORTRESS.1=这是对要塞甲胄的一次简单升级.使用虚空金属代替神秘锭作为材料不仅提升了甲胄的防护性能,还提升了它的耐久.<BR>当然一些人宣称穿戴如此多的虚空金属制品恐怕并会有损健康,但是世界上总是会存在一些质疑者,他们的意见尽可以忽略.虽然当你舒舒服服穿着它的时候,常常会感到有渗骨的钝痛感.<BR>类似普通的要塞甲胄,这种护甲也可以加装各式面具或者进行改装.
+tc.research_name.ARMORVOIDFORTRESS=虚空神秘使法袍
+tc.research_text.ARMORVOIDFORTRESS=异域风情
+tc.research_page.ARMORVOIDFORTRESS.1=一位真正有所领悟的神秘使能够认识到他不必一定要在实用性和防护能力间做出选择.<BR>通过合适的附魔手段增幅虚空护甲,并将它们与神秘使法袍相结合做成的防护套装,不仅能够提供物理防护,辅助凝神施咒,还能提供魔法防护.<BR>鉴于兜帽在制造时使用了护目镜因而保留了其全部能力,所以这套法袍也具有虚空护甲的全部特性.<BR>这套法袍能够被染色.
 #
 tc.research_name.CAP_void=虚空杖端
 tc.research_text.CAP_void=来自彼界之力
 tc.research_page.CAP_void.1=用虚空金属合成的杖端因其魔力抗性显得违背直觉,但神秘使的天职就是做违背直觉的事情.<BR>你的孤注一掷大获成功.尽管这种金属具有魔抗,但引导起魔力来却如臂使指般轻松.它看起来有些§o诡异§r 不过嘛,那只是出于你的妄想而已.
-#
 #
