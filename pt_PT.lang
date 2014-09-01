@@ -704,43 +704,43 @@ tc.research_category.ELDRITCH=Eldritch
 tc.research_name.RESEARCH=Pesquisa
 tc.research_text.RESEARCH=Como descobrir coisas
 tc.research_page.RESEARCH.1=Antes que possas construir a maior parte dos itens e blocos thaúmicos, primeiro precisas de descobrir como fazê-lo. Existem vários passos neste processo:<BR>(1) Explorar o mundo e examinar blocos, itens e creaturas com um §5Thaumómetro§0<BR><BR>(2) Pegar nos pontos de pesquisa que recolheste do primeiro passo e expandir o teu conhecimento na §5Mesa de Pesquisa§0<BR><BR>(3) Usando aspetos que conheces e descobrindo conhecimento prático e receitas com a §5Mesa de Pesquisa§0.<LINE>
-tc.research_page.RESEARCH.2=§l      §n(1) Exploration§r<BR><BR>You cannot perform research without research points, and the best way to gain research points is by exploration and examining objects in the world.<BR>The first thing you will need to do is construct a §5Thaumometer§0 (see next page). By pointing the §5Thaumometer§0 at objects or creatures and holding the right mouse button you will start examining them. The process does not take long, but your movement speed is reduced while it is occurring.<BR>Once complete the §5Thaumometer§0 will display what aspects the object contains. In the bottom right of the screen you will also see a summary of the aspects and research points 
-tc.research_page.RESEARCH.3=you discovered.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>You will initially not be able to examine all objects since you have not discovered their component aspects. For example, a object containing the Lux aspect can only be examined if you have previously discovered the Lux aspect, or know
-tc.research_page.RESEARCH.4=the two aspects that combine to create it.<BR>The very first time you discover an aspect by examining something you gain two more research points than you would have normally.<BR>Objects and creatures can usually only ever be examined once.<BR>Occasionally examining something will reveal additional clues and insights into thaumoturgical research, unlocking subjects that you can research further.<BR>Research discovered in this fashion will have amber icons.
-tc.research_page.RESEARCH.5=§l   §n(2) Combining Aspects§r<BR><BR>Once you have gathered some research points you can attempt to combine them into compound aspects within a research table.<BR>To craft a research table simply place two §5tables§0 next to each other and click on them with a set of Scribing Tools. The recipe for tables is listed under the §5Artiface§0 research category.<BR>If you open the research tables inventory, you will see an interface as pictured on the right.<BR>The scribing tools you used to craft the table will be located in slot §l1§r. 
-tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>You should see all the primal aspects (and possibly some compound aspects) listed in the area marked §l3§r with varying amounts attached to them. When you enter a world for the first time, every player is assigned a small pool of primal aspects to get them started.<BR>If you had done some exploring with
-tc.research_page.RESEARCH.7=the thaumometer beforehand then you might have a significant number of primal and compound aspects listed here.<BR>You can now start combining aspects into more complex compound aspects but simply clicking on those you wish to combine or dragging it to the runed circles in area §l4§r. The selected aspects will appear in area §l4§r and when you have two selected pressing the purple button will attempt to combine them. If successful you should see what was gained in the bottom right and it should appear in area §l3§r.<BR>The component aspects are consumed even if the combination did not result in valid compound aspect.
-tc.research_page.RESEARCH.8=§l   §n(3) Primary Research§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>You need to be carrying a set of scribing tools and paper for this step.<BR>If you open your Thaumonomicon you will see all the knowledge have and also all the knowledge that you are now able to persue.<BR>Flashing square or round icons represent primary researches.
-tc.research_page.RESEARCH.9=If you can read their title (instead of seeing strange runes) you are simply able to click on them. Paper and ink will be consumed from your inventory and you will gain a research note. You can now take this research note to the table to start researching it by placing it in slot §l2§r.<BR>Section §l5§r will now display a sheet of paper covered in hexagonal tiles with aspect icons around the outer edge. If you see question mark icons it means you do not know that aspect yet and you will need to learn it first.<LINE> 
+tc.research_page.RESEARCH.2=§l      §n(1) Exploração§r<BR><BR>Não podes fazer pesquisas sem pontos de pesquisa, e a melhor maneira de ganhá-los é a explorar e examinar objetos no mundo.<BR>A primeira coisa de que vais precisar é construir um §5Thaumómetro§0 (ver próxima pág). Ao apontar o §5Thaumómetro§0 para objetos ou creaturas e a segurar o botão direito do rato vais começar a examiná-los. O processo não demora muito, mas a tua velocidade é reduzida enquanto o fazes.<BR>Depois de concluído, o §5Thaumómetro§0 vai mostrar que aspetos é que o objeto tem. No canto inferior direito do ecrã vais ver ver um sumário dos aspetos e pontos de pesquisa 
+tc.research_page.RESEARCH.3=que descobriste.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>Inicialmente não vais poder examinar todos os objetos visto que não descobriste os seus aspetos componentes. Por exemplo, um objeto que contenha o aspeto Lux apenas pode ser examinado se anteriormente descobriste o aspeto Lux, ou soubesses
+tc.research_page.RESEARCH.4=os dois aspetos que combinam para creá-lo.<BR>A primeira vez que descobres um aspeto ao examinar qualquer coisa ganhas dois pontos de pesquisa a mais.<BR>Normalmente, objetos e criaturas apenas podem ser examinados uma vez.<BR>Ocasionalmente examinar algo revelará pistas adicionais sobre pesquisas thaumaturgicas, desbloqueando tópicos que podes pesquisar mais.<BR>Pesquisas descobertas desta forma vão ter ícones amarelados.
+tc.research_page.RESEARCH.5=§l   §n(2) Combinar Aspetos§r<BR><BR>Quando recolheres alguns pontos de pesquisa podes tentar combiná-los em aspetos compostos numa mesa de pesquisa.<BR>Para craftar uma mesa de pesquisa apenas põe duas §5mesas§0 próximas uma da outra e clica nelas com Ferramentas de Pesquisa. A receita para as mesas está listada no separador §5Artifício§0.<BR>Se abrires o inventário da mesa de pesquisa, vais ver uma interface como a da direita.<BR>As ferramentas de escrita que usaste na mesa vão estar em §l1§r. 
+tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Vais ver todos os aspetos primários (e possivelmente alguns aspetos compostos) listados na área marcada §l3§r com valore variantes neles. Quando entras num mundo pela primeira vez, todos os jogadores são designados com uma pequena quantidade de aspetos primários para começares.<BR>Se fizeste alguma exploração com
+tc.research_page.RESEARCH.7=o thaumómetro antes, então deves ter um número significante de aspetos primários e compostos listados aqui.<BR>Podes agora começar a combinar aspetos em aspetos compostos mais complexos simplemente clicando naqueles que queres combinar ou ao arrastá-los para os círculos na área §l4§r. Os aspetos selecionados vão aparecer na área §l4§r e quando tiveres dois deles selecionados premir o botão roxo vai tentar combiná-los. Se com sucesso deverás ver o que ganhaste no canto inferior direito e aparecerá na área §l3§r.<BR>Os aspetos usados são consumidos mesmo se a combinação não for válida.
+tc.research_page.RESEARCH.8=§l   §n(3) Pesquisa Primária§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Precisas de carregar ferramentas de escrita e papel para este passo.<BR>Se abrires o teu Thaumonomicon vais ver todo o conhecimento que tens ou podes obter.<BR>Ícones quadrados or redondos representam pesquisas primárias.
+tc.research_page.RESEARCH.9=Se conseguires ler o seu título (em vez de ver runas estranhas) basta simplesmente clicar nelas. Papel e tinta vão ser consumidos do teu inventário e irás ganhar notas sobre essa pesquisa. Podes agora levar estas notas para a mesa e começar a pesquisá-la ao colocá-la em §l2§r.<BR>A secção §l5§r mostra agora um papel coberto em ladrilhos hexagonais com símbolos de aspetos neles. Se vires um ponto de interrogação quer dizer que não conheces o aspeto ainda e vais precisar de aprendê-lo primero.<LINE> 
 tc.research_page.RESEARCH.10=To complete your research you simply need to connect and activate all the aspects. You do this by dragging an aspect to a hex adjacent to it that is either composed of the target aspect, or can be combined with another aspect to form the target aspect.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>Placing an aspect consumes one research point. If you make a mistake you can click on the aspect to remove it, but you will not regain the research point. 
 tc.research_page.RESEARCH.11=You continue doing the until you have formed a pattern connecting all the starting aspects. The outer aspects need not be connected to all the others, they simply need to form a connected whole.<BR>Once this is done the research will complete and the research note will turn into a discovery.<LINE>NOTE: Placing and removing aspects from the hex grid consumes ink from your scribing tools. If it runs out you will not be able to proceed until you refill it.
 tc.research_page.RESEARCH.12=§l    §nSecondary Research§r<BR>Hexagonal icons indicate Secondary research. Much like primary research you just need to click on them. However instead of gaining a research note, you will simply learn the research directly. Secondary research does have an aspect cost you need to pay, but they do not require you to be carrying scribing tools or paper.
 #
-tc.research_name.KNOWFRAG=Knowledge Fragments
-tc.research_text.KNOWFRAG=Fragments of lost lore
-tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge. On their own they are only worth a few research points when used, but if you gather enough of them together you might gain unique research that you can pursue. Usually the research they reveal cannot be gained through normal means.<BR>The fragments of knowledge can on occasion lead to a false theory, but this will be revealed when you attempt to research it. When this happens most of your knowledge fragments will be returned to you and it usually means you have exhausted all current avenues of research into lost knowledge.
+tc.research_name.KNOWFRAG=Fragmentos do Conhecimento
+tc.research_text.KNOWFRAG=Fragmentos do núcleo perdido
+tc.research_page.KNOWFRAG.1=Nas tuas viagens podes encontrar antigos fragmentos de conhecimento perdido. Em si só, só valem alguns pontos de pesquisa quando usados, mas se recolheres suficientes deles juntos podes ganhar pesquisas únicas que podes usar. Normalmente as pesquisas que contêm não pode ser ganha por meios normais.<BR>Os fragmentos de conhecimento podem ocasionalmente gerar uma teoria falsa, mas esta só se revelará quando tentares pesquisá-la. Quando isto acontecer a maioria dos fragmentos de conhecimento retornarão para ti, o que normalmente significa que esgotaste todas as vias de pesquisa atuais em conhecimento perdido.
 #
-tc.research_name.ASPECTS=Aspects of Magic
-tc.research_text.ASPECTS=The building blocks of magic
+tc.research_name.ASPECTS=Aspetos da Magia
+tc.research_text.ASPECTS=Os blocos de construção da magia
 tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 50 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
 tc.research_page.ASPECTS.2=§lPrimal Aspects§r are the most basic types of aspects and there are only 6 of them: §6Aer§0 (air), §2Terra§0 (earth), §cIgnis§0 (fire), §3Aqua§0 (Water), §7Ordo§0 (order), §8Perditio§0 (entropy).<BR>These form the basic building blocks of all other aspects.<BR>§lCompound Aspects§r are built from two other aspects. The simplest compound aspects are made from two primal aspects, but it is possible to have incredibly complex compound aspects made from successive layers of simpler aspects.<BR>The simplest example of such a compound aspect, is the aspect of Victus (life), which is a combination of §2Terra§0 and §3Aqua§0. 
 tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each. You will first need to study the item however, until then the aspects will remain unknown.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
 #
-tc.research_name.NODES=Auras and Nodes
-tc.research_text.NODES=Magic is everywhere
+tc.research_name.NODES=Auras e Nodos
+tc.research_text.NODES=A magic está em todo o lado
 tc.research_page.NODES.1=The §5Aura§0 is a field of magical energy prevalent throughout the world. Its origin is unclear. Some believe it is the accumulated life force of living beings, while others believe it to merely be another type of energy seeping in from some other place. The last theory seems to be most likely, as the aura is often found surrounding a node of concentrated mystical energy known as an §5Aura Node§0.<BR>Each aura node has a base amount of magical energy it can contain and this energy is aligned to one or more aspects. It is usually aligned to §5Primal Aspects§0, but rarely a node may contain §5Compound Aspects§0. 
 tc.research_page.NODES.2=The aspects within an aura node can be tapped by a thaumaturge for his own purposes. The simplest way to do so is with the use of a wand.<BR>Energy that has been harvested in this manner is known as vis.<LINE>Aura nodes are hard to see with the naked eye, but faint glimmers of light often betray their presence. The §5Thaumometer§0 makes nodes slightly easier to find, as looking through its lens makes them clearly visible.<BR>§4Important:§0 Caution must be taken when draining a node. There is a small chance that when a specific type of aspect within a node is completely drained, it may 
 tc.research_page.NODES.3=disappear or harm the integrity of the node.<BR>It is possible for the node to disappear completely if all the aspects are used up.<LINE>Fortunately most nodes replenish their aspects over time and if properly maintained can provide a clever thaumaturge with all the vis he could want.<BR>Nodes react in interesting ways to other nearby nodes and bigger nodes tend to drain the vis out of their smaller neighbours to increase their own girth. 
 #
-tc.research_name.ORE=Ores
-tc.research_text.ORE=Dig deep
+tc.research_name.ORE=Minérios
+tc.research_text.ORE=Escavar mais fundo
 tc.research_page.ORE.1=§l       §nInfused Stone§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>On occasion there is so much primal energy in an aura that it will settle into solid stone to form Infused Ore. The magic forms crystals within the rock that can be harvested.
 tc.research_page.ORE.2=These crystals have various elemental properties and have many uses in Thaumaturgy.<BR>There are six types of infused stone, one for each of the Primal Aspects.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>They can be combined together to form crystal clusters. Crystal clusters have no special properties beyond adding a touch of class to any home. Breaking a crystal cluster causes it to shatter into its component crystals.
 tc.research_page.ORE.3=§l         §nCinnabar§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>This reddish ore is found deep underground and when smelted produces quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
 tc.research_page.ORE.4=§l           §nAmber§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>This ore is found near the surface and when mined drops chunks of amber.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
-tc.research_name.PLANTS=Plants & Trees
-tc.research_text.PLANTS=Magical vegetation
+tc.research_name.PLANTS=Plantas & Árvores
+tc.research_text.PLANTS=Vegetação mágica
 tc.research_page.PLANTS.1=§l      §nGreatwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
 tc.research_page.PLANTS.2=§l     §nSilverwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that aura nodes often form within their hearts - this feature alone makes a silverwood sapling a prize beyond measure.
 tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
@@ -748,66 +748,66 @@ tc.research_page.PLANTS.4=§l        §nCinderpearl§r<BR><IMG>thaumcraft:textur
 tc.research_page.PLANTS.5=§l         §nMana Pod§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>This strange, podlike plant is only found growing on trees in magical forests. The grow very slowly and when harvested usually only yield one or two beans. 
 tc.research_page.PLANTS.6=These beans, known as Mana Beans, contain concentrated amounts of essentia. They can also be consumed, though the results are often a bit unpredictable.<BR>They can be replanted, but cultivation is difficult and time-consuming.<BR>Wild mana pods usually only produce primal aspects, though it is said that planting beans adjacent to existing ones sometimes result in beans with compound aspects.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
-tc.research_name.RESEARCHER1=Research Expertise
-tc.research_text.RESEARCHER1=Knowledge is Power
+tc.research_name.RESEARCHER1=Especialização em Pesquisa
+tc.research_text.RESEARCHER1=Conhecimento é Poder
 tc.research_page.RESEARCHER1.1=You have become more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.
 #
-tc.research_name.RESEARCHER2=Research Mastery
-tc.research_text.RESEARCHER2=Power is Knowledge
+tc.research_name.RESEARCHER2=Mestre em Pesquisas
+tc.research_text.RESEARCHER2=Poder é Conhecimento
 tc.research_page.RESEARCHER2.1=You have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by shift-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
 #
-tc.research_name.RESEARCHDUPE=Research Duplication
-tc.research_text.RESEARCHDUPE=Sharing is Caring
+tc.research_name.RESEARCHDUPE=Duplicação de Pesquisas
+tc.research_text.RESEARCHDUPE=Partilhar é Importar-se
 tc.research_page.RESEARCHDUPE.1=You have discovered a way to copy completed research note.<BR>When you complete research or place a completed research note in the research table you will see a star icon. Clicking this will create a copy of this research as long as you are carrying paper and ink and have enough aspects available.<BR>The more copies are created of that research, the more expensive copying it will become.
 #
-tc.research_name.DECONSTRUCTOR=Deconstruction table
-tc.research_text.DECONSTRUCTOR=When taking a good look just isn't enough
+tc.research_name.DECONSTRUCTOR=Mesa de Desconstrução
+tc.research_text.DECONSTRUCTOR=Quando dar uma olhadela não é suficiente
 tc.research_page.DECONSTRUCTOR.1=There comes a point in any thaumaturge's career where he is unable to progress with research due to his lack of knowledge. <BR>One possible recourse is the Deconstruction Table. The table allows you to break down objects into their simplest parts which you can examine. There are limits however - the table breaks compound aspects into their component aspects until only primal aspects remain. During this process much knowledge is lost and at best the thaumaturge can hope for is a single piece of primal knowledge.<BR>For example iron (Metallum) 
 tc.research_page.DECONSTRUCTOR.2=will be simplified into §2Terra§0 and §8Ordo§0, only one of which will have a chance of being discovered.<BR>It is also fairly slow and the fewer aspects and object has, the lower the chance to discover something.
 #
-tc.research_name.BASICTHAUMATURGY=Basic Wandcraft
-tc.research_text.BASICTHAUMATURGY=Your first tool
+tc.research_name.BASICTHAUMATURGY=Criação de Varinhas Básica
+tc.research_text.BASICTHAUMATURGY=A tua primeira ferramenta
 tc.research_page.BASICTHAUMATURGY.1=The casting wand is your most basic, but also your most important tool. It is what you use to craft objects, activate blocks like the crucible, and countless other tasks.<BR>The most basic wand stores a very limited amount of magical energy (called vis) that it uses to perform its tasks. The replenish the energy in a wand, you must right-click and hold to draw vis from an aura node.<BR>While holding a wand you will see a indicator on the top left of the screen that shows how much vis is stored within the wand.
 tc.research_page.BASICTHAUMATURGY.2=Holding shift will display exact numbers held by the wand and any possible discounts you have to performing magical tasks.<BR>Wands are always constructed by the combination of a rod and two end-caps. As you progress with your studies, you are sure you will discover different materials that you can use to craft rods and caps to make powerful wands. Only the basic wand can be put together in a normal crafting table. All other wands require the §5Arcane Workbench§0 and will cost vis to construct.<BR>The basic wand is constructed from mundane wood and iron, both of which make poor materials for working magic.
 #
 tc.research_name.GRATE=Item Grate
-tc.research_text.GRATE=Let the good things in
+tc.research_text.GRATE=Deixa as coisas boas entrar
 tc.research_page.GRATE.1=The item grate allows you to toggle it open or close it with your hand, or with a redstone signal. If in the open position, any dropped items will simply fall right through it.<BR>Items can also be piped into the top of an item grate using a hopper or other means and if open, it will be ejected out the bottom.
 #
-tc.research_name.NODETAPPER1=Advanced Node Tapping
-tc.research_text.NODETAPPER1=Taking it all
+tc.research_name.NODETAPPER1=Sucção de Nodos Avançada
+tc.research_text.NODETAPPER1=Levá-la toda
 tc.research_page.NODETAPPER1.1=Usually the process of drawing vis from a node with a wand is quite slow... but not anymore.<BR>You have discovered a more efficient way of tapping into aura nodes, resulting in a doubling of the vis draw rate.
 #
-tc.research_name.NODETAPPER2=Master Node Tapping
-tc.research_text.NODETAPPER2=All your vis are belong to us
+tc.research_name.NODETAPPER2=Sucção de Nodos de mestre
+tc.research_text.NODETAPPER2=Toda a vossa vis pertence-nos
 tc.research_page.NODETAPPER2.1=You have added further refinements to the methods you use to tap aura nodes.<BR>You are now able to draw vis three times faster than normal.
 #
-tc.research_name.NODEPRESERVE=Node Preserver
-tc.research_text.NODEPRESERVE=Saving some for later
+tc.research_name.NODEPRESERVE=Preservador de Nodos
+tc.research_text.NODEPRESERVE=Guardar um pouco para mais tarde
 tc.research_page.NODEPRESERVE=You now have better control over the amount of vis you draw from nodes. You will always leave at least one vis of each aspect in the node, unless you are sneaking.<BR>Be warned, this level of control is not possible when using wands crafted from normal wood and iron.
 #
-tc.research_name.THAUMOMETER=Thaumometer
-tc.research_text.THAUMOMETER=Measuring Magic
+tc.research_name.THAUMOMETER=Thaumómetro
+tc.research_text.THAUMOMETER=Medir Magia
 tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to hold the right mouse button and wait.<BR>Secondly it makes discovering nodes easier, as they become clearly visible if viewed through the Thaumometer's lens - even through solid objects! 
 #
-tc.research_name.GOGGLES=Goggles of Revealing
-tc.research_text.GOGGLES=Seeing the Unseen
+tc.research_name.GOGGLES=Óculos da Revelação
+tc.research_text.GOGGLES=Ver o que não é visto
 tc.research_page.GOGGLES.1=Building on the basic principles of the Thaumometer, you have begun refining its ability to detect magic into something more... revealing.<BR>This set of mystical lenses will make aura nodes much easier to find along with revealing all manner of hidden things.<BR>They form an important tool in any Thaumaturgist's arsenal.
 #
-tc.research_name.THAUMIUM=Magical Metallurgy
-tc.research_text.THAUMIUM=Where metals meet magic
+tc.research_name.THAUMIUM=Metalurgia Mágica
+tc.research_text.THAUMIUM=Onde os metais conhecem magia
 tc.research_page.THAUMIUM.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armour in a crafting table using the normal recipes.
 #
 tc.research_name.NITOR=Nitor
-tc.research_text.NITOR=Mystical Flame
+tc.research_text.NITOR=Chama Mágica
 tc.research_page.NITOR.1=This flame seems to be fuelled by magic itself. The number of uses for an everburning flame seems endless, but unfortunately it seems to produce much more light than heat. Despite that it could still prove to be a steady source of energy.<BR>Nitor can also be placed in the world to act as a magical light source.
 #
 tc.research_name.ALUMENTUM=Alumentum
-tc.research_text.ALUMENTUM=Mystical Energy Source
+tc.research_text.ALUMENTUM=Fonte de Energia Mística
 tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is more than eager to release that energy at the slightest bump. It may be unstable, but it would probably make a good source of fuel.<BR>It is probably not a good idea to throw it against a solid surface unless you enjoy explosions.
 #
-tc.research_name.HUNGRYCHEST=Hungry Chest
-tc.research_text.HUNGRYCHEST=A chest that doesn't wait to be opened
+tc.research_name.HUNGRYCHEST=Baú Faminto
+tc.research_text.HUNGRYCHEST=Um baú que não espera para ser aberto
 tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
 #
 tc.research_name.CAP_gold=Gold Wand Caps
