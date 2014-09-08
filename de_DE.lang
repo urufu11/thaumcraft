@@ -1518,7 +1518,7 @@ tc.research_page.VOIDMETAL.2=wenn hart getroffen, wird es so hart wie Thaumium, 
 #
 tc.research_name.ARMORVOIDFORTRESS=Leerthaumaturgenroben
 tc.research_text.ARMORVOIDFORTRESS=Der Stil einer anderen Welt
-tc.research_page.ARMORVOIDFORTRESS.1=Ein wirklich erleuchteter Thaumaturge wird realisieren, dass er sich nicht zwischen Nützlichkeit und Schutz entscheiden muss.<BR>Indem er vorhandene Leerrüstung mit bestimmten Verzauberungen verstärkt und mit einer Thaumaturgenrobe kombiniert, wird er fähig sein, ein Set gepanzerter Roben zu kreieren, das nicht nur physischen Schutz und mentalen Fokus, sondern auch mystischen Schutz bietet.<BR>Die Roben behalten auch all die Eigenschaften der Leerrüstung, währen die Kapuze alle Vorteile der zur Herstellung verwendeten Brille bietet.<BR>Diese Rüstung kann gefärbt werden.
+tc.research_page.ARMORVOIDFORTRESS.1=Ein wirklich erleuchteter Thaumaturge wird realisieren, dass er sich nicht zwischen Nützlichkeit und Schutz entscheiden muss.<BR>Indem er vorhandene Leerrüstung mit bestimmten Verzauberungen verstärkt und mit einer Thaumaturgenrobe kombiniert, wird er fähig sein, ein Set gepanzerter Roben zu kreieren, das nicht nur physischen Schutz und mentalen Fokus, sondern auch mystischen Schutz bietet.<BR>Die Roben behalten auch all die Eigenschaften der Leerrüstung, währen die Haube alle Vorteile der zur Herstellung verwendeten Brille bietet.<BR>Diese Rüstung kann gefärbt werden.
 #
 tc.research_name.CAP_void=Leermetallstabkappen
 tc.research_text.CAP_void=Macht von anderswo
