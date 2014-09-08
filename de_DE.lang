@@ -447,9 +447,9 @@ item.ItemAxeVoid.name=Leeraxt
 item.ItemSwordVoid.name=Leerschwert
 item.ItemPickVoid.name=Leerspitzhacke
 item.ItemHoeVoid.name=Leerhacke
-item.ItemHelmetVoidFortress.name=Leerfestungshelm
-item.ItemChestplateVoidFortress.name=Leerfestungskürass
-item.ItemLeggingsVoidFortress.name=Leerfestungsbeinschutz
+item.ItemHelmetVoidRobe.name=Leerthaumaturgenhaube
+item.ItemChestplateVoidRobe.name=Leerthaumaturgenrobe
+item.ItemLeggingsVoidRobe.name=Leerthaumaturgenhose
 #
 # Fluids
 fluid.fluxGoo=Fluxschleim
@@ -1261,7 +1261,7 @@ tc.research_page.JARBRAIN.1=- Man gebe ein faules Zombiehirn in ein Glas.<BR>- D
 #
 tc.research_name.HOVERHARNESS=Thaumostatisches Geschirr
 tc.research_text.HOVERHARNESS=Ist es ein Vogel?
-tc.research_page.HOVERHARNESS.1=Endlich hast du das Geheimnis des Fliegens entdeckt. Du hast ein Geschirr kreiert, dass sich mit thaumostatischer Energie am thaumischen Feld abstößt und so die Gravitation besiegt. Vielleicht spielen auch Quanten und Quarks eine Rolle.<BR>Ungewöhnlicherweise wird das einzige Vis, dass für den Betrieb benötigt wird, während der Herstellung hinzugefügt. Stattdessen ist der benötigte Treibstoff rohes Potentia. Rechtsklicke einfach mit dem Geschirr, um gefüllte Gläser einzufüllen.<BR>Drücke 'F', um das Geschirr zu aktivieren und zu deaktivieren, während du es trägst.
+tc.research_page.HOVERHARNESS.1=Endlich hast du das Geheimnis des Fliegens entdeckt. Du hast ein Geschirr kreiert, dass sich mit thaumostatischer Energie am thaumischen Feld abstößt und so die Gravitation besiegt. Vielleicht spielen auch Quanten und Quarks eine Rolle.<BR>Ungewöhnlicherweise wird das einzige Vis, dass für den Betrieb benötigt wird, während der Herstellung hinzugefügt. Stattdessen ist der benötigte Treibstoff rohes Potentia. Rechtsklicke einfach mit dem Geschirr, um gefüllte Gläser einzufüllen.<BR>Drücke 'H', um das Geschirr zu aktivieren und zu deaktivieren, während du es trägst.
 tc.research_page.HOVERHARNESS.2=Solange es aktiv ist, verbraucht es ständig Potentia.<BR>Es kann mit "Hast" verzaubert werden, um die Fluggeschwindigkeit zu erhöhen.
 #
 tc.research_name.HOVERGIRDLE=Thaumostatischer Gürtel
@@ -1516,9 +1516,9 @@ tc.research_text.VOIDMETAL=Seltsam, sollte sich doch kalt anfühlen...
 tc.research_page.VOIDMETAL.1=Indem du Magie in Metall infundiert hast, kreiertest du Thaumium. Es war eine würdige Entdeckung, aber es ist an der Zeit, Thaumium den Amateuren und Dilettanten zu überlassen.<BR>Ein seltsamer und halbvergessener Traum hat dich veranlasst, etwas... anderes zu versuchen. Was wäre, wenn du Metall mit mehr als nut Magie infundieren könntest, mit der wahren Essenz dessen, aus dem Magie kommt: Dunkelheit und die Leere, die zwischen den Sternen liegt.<BR>Das resultierende Metall ist beunruhigend glatt und warm anzufassen. Es ist fast so weich wie Gold, was es leicht zu bearbeiten macht, aber,
 tc.research_page.VOIDMETAL.2=wenn hart getroffen, wird es so hart wie Thaumium, manchmal sogar härter. Noch beeinduckendererweise repariert das Metall sich nach allem außer dem allerverheerendsten Schaden von selbst, da dass Metall langsam in seine Ursprungsform zurückfließt.<BR>Der einzige Nachteil ist, dass es nicht so leicht zu verzaubern ist wie Thaumium, jedoch ist es immer noch besser als gewöhliche Materialien wie Eisen.<BR>Du hast entdeckt, dass Vorsicht beim Umgang mit diesem Metall geboten ist - von ihm verletzt zu werden, scheint temporär deine Stärke auszusaugen.
 #
-tc.research_name.ARMORVOIDFORTRESS=Leerfestungsrüstung
-tc.research_text.ARMORVOIDFORTRESS=Du kommst hier nicht raus
-tc.research_page.ARMORVOIDFORTRESS.1=Dies ist eine einfache Verbesserung der Konzepte, die durch die Entdeckung von Festungsrüstung entstanden. Indem du Leermetall statt Thaumium verwendest, kannst du nicht nur die Effektivität der Rüstung, sondern auch seine Haltbarkeit erhöhen.<BR>Natürlich könnten Leute behaupten, dass das Tragen einer so großen Menge von Leermetall wahrscheinlich nicht gut sei, aber es nun einmal immer Zweifler geben, die es zu ignorieren gilt. Den dumpfen Schmerz, der sich in deine Knochen setzt, sobald du die Rüstung trägst, findest du eher angenehm.<BR>Wie gewöhnliche Festungsrüstung kann diese Rüstung durch verschiedene Masken und Modifikationen verbessert werden.
+tc.research_name.ARMORVOIDFORTRESS=Leerthaumaturgenroben
+tc.research_text.ARMORVOIDFORTRESS=Der Stil einer anderen Welt
+tc.research_page.ARMORVOIDFORTRESS.1=Ein wirklich erleuchteter Thaumaturge wird realisieren, dass er sich nicht zwischen Nützlichkeit und Schutz entscheiden muss.<BR>Indem er vorhandene Leerrüstung mit bestimmten Verzauberungen verstärkt und mit einer Thaumaturgenrobe kombiniert, wird er fähig sein, ein Set gepanzerter Roben zu kreieren, das nicht nur physischen Schutz und mentalen Fokus, sondern auch mystischen Schutz bietet.<BR>Die Roben behalten auch all die Eigenschaften der Leerrüstung, währen die Haube alle Vorteile der zur Herstellung verwendeten Brille bietet.<BR>Diese Rüstung kann gefärbt werden.
 #
 tc.research_name.CAP_void=Leermetallstabkappen
 tc.research_text.CAP_void=Macht von anderswo
