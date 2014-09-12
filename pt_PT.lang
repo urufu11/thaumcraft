@@ -712,8 +712,8 @@ tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:
 tc.research_page.RESEARCH.7=o thaumómetro antes, então deves ter um número significante de aspetos primários e compostos listados aqui.<BR>Podes agora começar a combinar aspetos em aspetos compostos mais complexos simplemente clicando naqueles que queres combinar ou ao arrastá-los para os círculos na área §l4§r. Os aspetos selecionados vão aparecer na área §l4§r e quando tiveres dois deles selecionados premir o botão roxo vai tentar combiná-los. Se com sucesso deverás ver o que ganhaste no canto inferior direito e aparecerá na área §l3§r.<BR>Os aspetos usados são consumidos mesmo se a combinação não for válida.
 tc.research_page.RESEARCH.8=§l   §n(3) Pesquisa Primária§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Precisas de carregar ferramentas de escrita e papel para este passo.<BR>Se abrires o teu Thaumonomicon vais ver todo o conhecimento que tens ou podes obter.<BR>Ícones quadrados or redondos representam pesquisas primárias.
 tc.research_page.RESEARCH.9=Se conseguires ler o seu título (em vez de ver runas estranhas) basta simplesmente clicar nelas. Papel e tinta vão ser consumidos do teu inventário e irás ganhar notas sobre essa pesquisa. Podes agora levar estas notas para a mesa e começar a pesquisá-la ao colocá-la em §l2§r.<BR>A secção §l5§r mostra agora um papel coberto em ladrilhos hexagonais com símbolos de aspetos neles. Se vires um ponto de interrogação quer dizer que não conheces o aspeto ainda e vais precisar de aprendê-lo primero.<LINE> 
-tc.research_page.RESEARCH.10=To complete your research you simply need to connect and activate all the aspects. You do this by dragging an aspect to a hex adjacent to it that is either composed of the target aspect, or can be combined with another aspect to form the target aspect.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>Placing an aspect consumes one research point. If you make a mistake you can click on the aspect to remove it, but you will not regain the research point. 
-tc.research_page.RESEARCH.11=You continue doing the until you have formed a pattern connecting all the starting aspects. The outer aspects need not be connected to all the others, they simply need to form a connected whole.<BR>Once this is done the research will complete and the research note will turn into a discovery.<LINE>NOTE: Placing and removing aspects from the hex grid consumes ink from your scribing tools. If it runs out you will not be able to proceed until you refill it.
+tc.research_page.RESEARCH.10=Para completar a tua pesquisa simplesmente precisas de conectar e ativar todos os aspetos. Fazes isso ao arrastar um aspeto para um hex adjacente que seja ou composto por esse aspeto, ou que possa ser combinado combinado com outro aspeto para dar o aspeto que colocás-te.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>Colocar um aspeto consome um ponto de pesquisa. Se te enganáres podes clicar no aspeto para removê-lo ,mas não irás recuperar o ponto de pesquisa. 
+tc.research_page.RESEARCH.11=Continuas a fazer isto até formares um padrão que conecte todos os aspetos iniciais. Os outros aspetos não precisam de estar conectados a todos os outros, simplesmente têm de formar um conjunto conectado.<BR>Quando isso estiver feito a pesquisa estará completa e as notas sobre a pesquisa tornar-se-ão numa descoberta.<LINE>NOTA: Colocar e remover aspetos da grelha de hex consome tinta das tuas ferramentas de pesquisa. Se ficares sem tinta não poderás proceder até o reencheres.
 tc.research_page.RESEARCH.12=§l    §nSecondary Research§r<BR>Hexagonal icons indicate Secondary research. Much like primary research you just need to click on them. However instead of gaining a research note, you will simply learn the research directly. Secondary research does have an aspect cost you need to pay, but they do not require you to be carrying scribing tools or paper.
 #
 tc.research_name.KNOWFRAG=Fragmentos do Conhecimento
@@ -722,12 +722,12 @@ tc.research_page.KNOWFRAG.1=Nas tuas viagens podes encontrar antigos fragmentos 
 #
 tc.research_name.ASPECTS=Aspetos da Magia
 tc.research_text.ASPECTS=Os blocos de construção da magia
-tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 50 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
-tc.research_page.ASPECTS.2=§lPrimal Aspects§r are the most basic types of aspects and there are only 6 of them: §6Aer§0 (air), §2Terra§0 (earth), §cIgnis§0 (fire), §3Aqua§0 (Water), §7Ordo§0 (order), §8Perditio§0 (entropy).<BR>These form the basic building blocks of all other aspects.<BR>§lCompound Aspects§r are built from two other aspects. The simplest compound aspects are made from two primal aspects, but it is possible to have incredibly complex compound aspects made from successive layers of simpler aspects.<BR>The simplest example of such a compound aspect, is the aspect of Victus (life), which is a combination of §2Terra§0 and §3Aqua§0. 
-tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each. You will first need to study the item however, until then the aspects will remain unknown.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
+tc.research_page.ASPECTS.1=Todo item, objeto ou criatura está ligada a elementos variados também conhecidos como §5aspetos§0. Os aspetos descrevem a composição do objeto em relação aos elementos mágicos. Uma simples pedra pode possuir o aspeto de Terra enquanto que coisas mais complexas como árvores ou até animais podem ser feitas de aspetos variados. Há cerca de 50 aspetos conhecidos com mais a serem descobertos a toda a hora.<LINE>Existem dois tipos principais de aspetos: §5Primário§0 and §5Composto§0.
+tc.research_page.ASPECTS.2=Os §lAspetos Primários§r são o tipo mais básico de aspetos e há apenas 6 deles: §6Aer§0 (ar), §2Terra§0 (terra), §cIgnis§0 (fogo), §3Aqua§0 (água), §7Ordo§0 (ordem), §8Perditio§0 (entropia).<BR>Estes formam o blocos básicos de construção de todos os outros aspetos.<BR>§lApetos Compostos§r são feitos de dois outros aspetos. Os aspetos compostos mais simples são feitos de dois aspetos primários, mas é possível ter aspetos compostos muito complexos que sejam feitos de camadas sucessivas de aspetos mais simples.<BR>O exemplo mais fácil de tal aspeto composto é o aspeto de Victus (vida), que é a combinção de §2Terra§0 e §3Aqua§0. 
+tc.research_page.ASPECTS.3=Para ver que aspetos um item possui, apenas coloca o cursor em cima do item e prime shift, assim verás que aspetos um item tem e as suas quantidades. No entanto terás de pesquisar o item, até isso os aspetos serão desconhecidos.<LINE>Os aspects que de alguma forma foram separados do seu objeto e purificados são conhecidos como  §5Vis§0 e são valiosos: quer seja como ingrediente de craftin ou quer seja como sujeito de pesquisa mágica.<BR>Normalmente a Vis é ligada a varinhas, mas também é possível armazená-la como um líquido mágico. Vis armazenada como líquido é também conhecida por §5Essência§0.
 #
 tc.research_name.NODES=Auras e Nodos
-tc.research_text.NODES=A magic está em todo o lado
+tc.research_text.NODES=A magia está em todo o lado
 tc.research_page.NODES.1=The §5Aura§0 is a field of magical energy prevalent throughout the world. Its origin is unclear. Some believe it is the accumulated life force of living beings, while others believe it to merely be another type of energy seeping in from some other place. The last theory seems to be most likely, as the aura is often found surrounding a node of concentrated mystical energy known as an §5Aura Node§0.<BR>Each aura node has a base amount of magical energy it can contain and this energy is aligned to one or more aspects. It is usually aligned to §5Primal Aspects§0, but rarely a node may contain §5Compound Aspects§0. 
 tc.research_page.NODES.2=The aspects within an aura node can be tapped by a thaumaturge for his own purposes. The simplest way to do so is with the use of a wand.<BR>Energy that has been harvested in this manner is known as vis.<LINE>Aura nodes are hard to see with the naked eye, but faint glimmers of light often betray their presence. The §5Thaumometer§0 makes nodes slightly easier to find, as looking through its lens makes them clearly visible.<BR>§4Important:§0 Caution must be taken when draining a node. There is a small chance that when a specific type of aspect within a node is completely drained, it may 
 tc.research_page.NODES.3=disappear or harm the integrity of the node.<BR>It is possible for the node to disappear completely if all the aspects are used up.<LINE>Fortunately most nodes replenish their aspects over time and if properly maintained can provide a clever thaumaturge with all the vis he could want.<BR>Nodes react in interesting ways to other nearby nodes and bigger nodes tend to drain the vis out of their smaller neighbours to increase their own girth. 
@@ -770,7 +770,7 @@ tc.research_text.BASICTHAUMATURGY=A tua primeira ferramenta
 tc.research_page.BASICTHAUMATURGY.1=The casting wand is your most basic, but also your most important tool. It is what you use to craft objects, activate blocks like the crucible, and countless other tasks.<BR>The most basic wand stores a very limited amount of magical energy (called vis) that it uses to perform its tasks. The replenish the energy in a wand, you must right-click and hold to draw vis from an aura node.<BR>While holding a wand you will see a indicator on the top left of the screen that shows how much vis is stored within the wand.
 tc.research_page.BASICTHAUMATURGY.2=Holding shift will display exact numbers held by the wand and any possible discounts you have to performing magical tasks.<BR>Wands are always constructed by the combination of a rod and two end-caps. As you progress with your studies, you are sure you will discover different materials that you can use to craft rods and caps to make powerful wands. Only the basic wand can be put together in a normal crafting table. All other wands require the §5Arcane Workbench§0 and will cost vis to construct.<BR>The basic wand is constructed from mundane wood and iron, both of which make poor materials for working magic.
 #
-tc.research_name.GRATE=Item Grate
+tc.research_name.GRATE=Grelha de Itens
 tc.research_text.GRATE=Deixa as coisas boas entrar
 tc.research_page.GRATE.1=The item grate allows you to toggle it open or close it with your hand, or with a redstone signal. If in the open position, any dropped items will simply fall right through it.<BR>Items can also be piped into the top of an item grate using a hopper or other means and if open, it will be ejected out the bottom.
 #
@@ -810,48 +810,48 @@ tc.research_name.HUNGRYCHEST=Baú Faminto
 tc.research_text.HUNGRYCHEST=Um baú que não espera para ser aberto
 tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
 #
-tc.research_name.CAP_gold=Gold Wand Caps
-tc.research_text.CAP_gold=Capping things off with style
+tc.research_name.CAP_gold=Varinhas de ponta de Ouro
+tc.research_text.CAP_gold=Tapar coisas com estilo
 tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
 #
-tc.research_name.CAP_thaumium=Thaumium Wand Caps
-tc.research_text.CAP_thaumium=Magical wand caps
+tc.research_name.CAP_thaumium=Varinhas de ponta de Thaumium
+tc.research_text.CAP_thaumium=Pontas de varinhas Mágicas
 tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.<BR>Crafting these wand caps in an arcane worktable is not sufficient - they need to be infused with additional magical energy to make them usable.
 #
-tc.research_name.CAP_silver=Silver Wand Caps
-tc.research_text.CAP_silver=Capping things off with a little less style
+tc.research_name.CAP_silver=Varinhas de ponta de Prata
+tc.research_text.CAP_silver=Tapar coisas com um pouco menos de estilo
 tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, earth, air and water).<BR>Crafting these wand caps in an arcane worktable is not sufficient - they need to be infused with additional magical energy to make them usable.
 #
-tc.research_name.CAP_copper=Copper Wand Caps
-tc.research_text.CAP_copper=When iron caps just won't cut it
+tc.research_name.CAP_copper=Varinhas de ponta de Cobre
+tc.research_text.CAP_copper=Quando pontas de ferro apenas não servem
 tc.research_page.CAP_copper.1=Copper has similar properties to iron when used as a wand cap, but is as efficient as gold when used to channel §7Ordo§0 or §8Perditio§0 vis.
 #
-tc.research_name.ROD_greatwood=Greatwood Wand Core
-tc.research_text.ROD_greatwood=Repository of magical energy
+tc.research_name.ROD_greatwood=Varinhas de ponta de Greatwood
+tc.research_text.ROD_greatwood=Repositório de energia mágica
 tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double the vis storage potential of mundane wood, being able to store up to 50 vis of each type.
 #
-tc.research_name.ROD_silverwood=Silverwood Wand Core
-tc.research_text.ROD_silverwood=Magical to the core
+tc.research_name.ROD_silverwood=Varinhas de ponta de Silverwood
+tc.research_text.ROD_silverwood=Mágico até ao núcleo
 tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 100 vis of each type.
 #
-tc.research_name.SCEPTRE=Crafting Sceptres
-tc.research_text.SCEPTRE=Made to task
+tc.research_name.SCEPTRE=Séptros de Crafting
+tc.research_text.SCEPTRE=Feitos para a tarefa
 tc.research_page.SCEPTRE.1=Crafting sceptres are specialized wands made to be used to craft mystical objects and nothing else. Foci cannot be attached to them, but they have several features that still make them worthwile using.<BR>Firstly, they have an additional 5% vis discount above and beyond what their caps would normally grant.<BR>Secondly they are able to hold 50% more vis than their cores would normally allow.<BR>Like other wands they can be crafted using most combinations of rods and caps - just a few examples are given on the next page.
 #
-tc.research_name.ROD_obsidian=Obsidian Wand Core
-tc.research_text.ROD_obsidian=Earthen vis storage
+tc.research_name.ROD_obsidian=Núcleo de varinha de Obsidiana
+tc.research_text.ROD_obsidian=Armazenamento de vis Terráquea
 tc.research_page.ROD_obsidian.1=A wand core chiselled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #
-tc.research_name.ROD_bone=Bone Wand Core
-tc.research_text.ROD_bone=Entropic vis storage
+tc.research_name.ROD_bone=Núcleo de varinha de Osso
+tc.research_text.ROD_bone=Armazenamento de vis Entrópica
 tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #
-tc.research_name.ROD_blaze=Blaze Rod Wand Core
-tc.research_text.ROD_blaze=Fiery vis storage
+tc.research_name.ROD_blaze=Núcleo de varinha de Vara de Blaze
+tc.research_text.ROD_blaze=Armazenamento de vis Ardente
 tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
 #
-tc.research_name.ROD_ice=Icy Wand Core
-tc.research_text.ROD_ice=Icy vis storage
+tc.research_name.ROD_ice=Núcleo de varinha de Gelo
+tc.research_text.ROD_ice=Armazenamento de vis gelada
 tc.research_page.ROD_ice.1=Wand cores crafted from ice can store slightly more vis than greatwood cores. What makes it superior to greatwood cores however is that if the level of §3Aqua§0 stored inside it drops below 10%, its icy nature will slowly replenish it.
 #
 tc.research_name.ROD_quartz=Quartz Wand Core
@@ -899,41 +899,41 @@ tc.research_name.ROD_primal_staff=Staff Core of the Primal
 tc.research_text.ROD_primal_staff=Elemental power combined
 tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish it's vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturges arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
 #
-tc.research_name.FOCUSFIRE=Wand Foci
-tc.research_text.FOCUSFIRE=Form meets Function
+tc.research_name.FOCUSFIRE=Foco de Varinha
+tc.research_text.FOCUSFIRE=A Forma encontra a Função
 tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
 tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will show up in a radial menu allowing you to chose from any of the ones you are carrying with a simple click.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
 #
-tc.research_name.FOCUSFROST=Wand Focus: Frost
+tc.research_name.FOCUSFROST=Foco de Varinha: Gelo
 tc.research_text.FOCUSFROST=Revenge is a dish best served cold
 tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks is capable of destroying fragile objects. 
 #
-tc.research_name.FOCUSSHOCK=Wand Focus: Shock
-tc.research_text.FOCUSSHOCK=Thunder and Lightning
+tc.research_name.FOCUSSHOCK=Foco de Varinha: Choque
+tc.research_text.FOCUSSHOCK=Trovão e Relâmpago
 tc.research_page.FOCUSSHOCK.1=This focus is capable of focusing elemental energy into bolts of lightning that you can hurl at your enemies.
 #
-tc.research_name.FOCUSEXCAVATION=Wand Focus: Excavation
-tc.research_text.FOCUSEXCAVATION=Terra Terror
+tc.research_name.FOCUSEXCAVATION=Foco de Varinha: Excavação
+tc.research_text.FOCUSEXCAVATION=Terror da Terra
 tc.research_page.FOCUSEXCAVATION.1=This focus turns your wand into a tool capable of moving vast amounts of earth and stone with little effort.<BR>Simply point it at what you want to excavate and the magic does the rest. Tougher materials take longer to mine, and anything other than earth, stone or similar materials will take much longer to mine.
 #
-tc.research_name.FOCUSTRADE=Wand Focus: Equal Trade
-tc.research_text.FOCUSTRADE=This for That
+tc.research_name.FOCUSTRADE=Foco de Varinha: Troca Equivalente
+tc.research_text.FOCUSTRADE=Isto por Aquilo
 tc.research_page.FOCUSTRADE.1=You can use this focus to trade dozens of blocks in the world with some you are carrying.<BR>You must first choose the block you wish to change other blocks into by sneaking and right clicking on the desired block. When you then left-click on another block it will turn into the target block. Right clicking will transform a whole swathe of blocks.<BR>You must be carrying enough target blocks, and the transformed blocks will replace them in your inventory. Only blocks with at least one face adjacent to open air or non-solid blocks will be transformed.
 #
-tc.research_name.FOCUSHELLBAT=Wand Focus: Nine Hells
-tc.research_text.FOCUSHELLBAT=Tiny Terrors
+tc.research_name.FOCUSHELLBAT=Foco de Varinha: Nove Infernos
+tc.research_text.FOCUSHELLBAT=Pequenos Terrores
 tc.research_page.FOCUSHELLBAT.1=Your trips onto the Nether have taught you to fear the tiny terrors known as Hellbats. Now you have discovered a way to summon the little terrors and send them after your enemies. Excellent.
 #
-tc.research_name.FOCUSPORTABLEHOLE=Wand Focus: Portable Hole
-tc.research_text.FOCUSPORTABLEHOLE=Never be without an exit again
+tc.research_name.FOCUSPORTABLEHOLE=Foco de Varinha: Buraco Portátil
+tc.research_text.FOCUSPORTABLEHOLE=Não fiques sem saída outra vez
 tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extradimensional spaces. Using this focus on a wall or other surface will create an extradimensional passage leading to the other side.<BR>This 'hole' only remains open for a few seconds and drains vis from the wand depending on its depth.<BR>Extradimensional holes cannot be created through certain kinds of matter or particularly complex objects.
 #
-tc.research_name.FOCUSWARDING=Wand Focus: Warding
-tc.research_text.FOCUSWARDING=Protecting what is yours
+tc.research_name.FOCUSWARDING=Foco de Varinha: Proteção
+tc.research_text.FOCUSWARDING=Proteger o que é teu
 tc.research_page.FOCUSWARDING.1=This powerful focus has a very interesting ability. When used on a block it will create an invisible, protective barrier around that block. From that point on the block will not be able to be removed or destroyed until you once again use the wand on it.<BR>The focus can be used on most simple blocks and they will retain many of their normal properties, though while warded those blocks will effectively become frozen in time.<BR>While holding a wand with this focus you will be able to see all blocks that you (and only you) have warded.
 #
-tc.research_name.FOCUSPRIMAL=Wand Focus: Primal
-tc.research_text.FOCUSPRIMAL=Raw Magic
+tc.research_name.FOCUSPRIMAL=Foco de Varinha: Primal
+tc.research_text.FOCUSPRIMAL=Magia Bruta
 tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
 #
 tc.research_name.FOCUSPOUCH=Focus Pouch
@@ -964,8 +964,8 @@ tc.research_name.THAUMONOMICON=Thaumonomicon
 tc.research_text.THAUMONOMICON=A Repository of Knowledge
 tc.research_page.THAUMONOMICON.1=To craft the Thaumonomicon, you must simply use your wand on a bookshelf placed in the world.<BR>The Thaumonomicon is a reference book of all things thaumaturgical. It lists all the discoveries you have made so far and gives you a general impression of how many there are still to be made.<BR>Whenever you successfully research something and use the scroll, it will automatically be added to this book. You can then browse through the discoveries and click on them to be shown more detailed information regarding them as well as any crafting recipes associated with those discoveries. 
 #
-tc.research_name.CRUCIBLE=Basic Alchemy
-tc.research_text.CRUCIBLE=Bubble and Boil
+tc.research_name.CRUCIBLE=Alquímia Básica
+tc.research_text.CRUCIBLE=Borbulhar e Ferver
 tc.research_page.CRUCIBLE.1=To craft the Crucible, you must simply use your wand on a cauldron placed in the world.<BR>The crucible is an important tool for any thaumaturge. It allows him to render physical objects into their component Essentia and recombine it again as he wishes.<BR>The crucible needs to be placed over a source of constant heat and filled with water. Once the water starts boiling you simply throw any items you wish into the crucible and they will be broken down into their component Essentia.<BR>If you know the proper formula and the mix of essentia within the    
 tc.research_page.CRUCIBLE.2=crucible is correct, you can then drop a special item into the crucible known as a Catalyst. The catalyst draws the essentia into itself and transforms into a whole new item that the crucible then ejects.<BR>Any leftover Essentia remains within the crucible for further use, but it is not a good idea to leave essentia within a crucible for too long.<BR>Crafting also uses some of the water within the crucible and you will eventually need to refill it.<BR>Essentia within the crucible is constantly degrading. Compound essentia degrades into one of its component aspects, and Primal essentia simply evaporates.  
 tc.research_page.CRUCIBLE.3=Beyond the waste of resources, evaporating and degrading essentia can cause many strange side-effects.<BR>You can empty a crucible by shift right-clicking on it with a wand. All the essentia is dumped into the atmosphere... not something you would want to do too often.
@@ -977,8 +977,8 @@ tc.research_text.ENCHFABRIC=Silky and Stylish
 tc.research_page.ENCHFABRIC.1=By combining spider silk and wool and infusing it with primal vis, you have created a silky length of magical cloth that would have numerous uses.<BR>You have also discovered patterns to create cloth robes from the magical fabric. These robes have similar protective properties to leather armor, but they are much more durable than mundane materials could ever be.<BR>They also hold mystical enchantments very well and can hold powerful magic much better than even expensive armor.  
 tc.research_page.ENCHFABRIC.2=The various pieces of this outfit grant a small discount to the amount of vis drained from casting wands when you use them.<BR>You can dye the armor like you would leather armor.
 #
-tc.research_name.ENCHANT=Enchantments
-tc.research_text.ENCHANT=New Enchantments
+tc.research_name.ENCHANT=Encantamentos
+tc.research_text.ENCHANT=Novos Encantamentos
 tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nPotency (foci only)§r<BR>This enchantment increases the damage, range or area of the focus it is applied to, but increases vis costs slightly.<BR>§nFrugal (foci only)§r<BR>Foci with this enchantment use less vis when activated.<BR>§nTreasure (foci only)§r<BR>This enchantment functions like the Fortune enchantment, increasing the amount of items gained when harvesting.
 tc.research_page.ENCHANT.2=§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearers landspeed. The higher the level of the enchant, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from wands in your inventory. The vis cost is determined by the value of the item.<BR>The higher the level of the enchantment, the quicker this takes place. This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.
 #
