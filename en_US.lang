@@ -16,6 +16,7 @@ potion.warpward=Warp Ward
 potion.deathgaze=Deadly Gaze
 potion.blurred=Blurred Vision
 potion.sunscorned=Sun Scorned
+potion.thaumarhia=Thaumarhia
 #
 #Warp
 warp.text.1=You feel oddly drained.
@@ -28,6 +29,13 @@ warp.text.5=The light suddenly becomes overwhelmingly bright and burns your skin
 warp.text.6=A thick fog appears from nowhere. Something stirs in its depths.
 warp.text.7=They're everywhere! Run!
 warp.text.8=Surely there must be a way to stop these headaches?
+warp.text.9=You suddenly feel reluctant to break things. 
+warp.text.10=Your perception suddenly expands.
+warp.text.11=What was that noise? Something is behind you.
+warp.text.12=Something is following you.
+warp.text.13=Something is watching you. Maybe it is time to stop.
+warp.text.14=You have a moment of clarity.
+warp.text.15=Your stomach suddenly gurgles very strangely.
 #
 # Entities
 entity.Thaumcraft.ThaumSlime.name=Thaumic Slime
@@ -65,6 +73,8 @@ entity.trunk.stay=The trunk will stay where it is
 entity.Thaumcraft.MindSpider.name=Mind Spider
 entity.Thaumcraft.EldritchGuardian.name=Eldritch Guardian
 entity.Thaumcraft.EldritchOrb.name=Eldritch Orb
+entity.Thaumcraft.CultistKnight.name=Crimson Knight
+entity.Thaumcraft.CultistCleric.name=Crimson Cleric
 #
 # Blocks
 tile.blockAiry.0.name=Aura Node
@@ -149,6 +159,7 @@ tile.blockWoodenDevice.4.name=Arcane Bore Base
 tile.blockWoodenDevice.5.name=Arcane Bore
 tile.blockWoodenDevice.6.name=Greatwood Planks
 tile.blockWoodenDevice.7.name=Silverwood Planks
+tile.blockWoodenDevice.8.name=Banner
 tile.blockJar.0.name=Warded Jar
 tile.blockJar.1.name=Brain in a Jar
 tile.blockJar.2.name=Node in a Jar
@@ -183,7 +194,7 @@ tile.blockTaintFibres.3.name=Spore Stalk
 tile.blockTaintFibres.4.name=Mature Spore Stalk
 tile.blockFluxGoo.name=Flux Goo
 tile.blockFluxGas.name=Flux Gas  
-tile.blockFluidPure.name=Purifiying Fluid
+tile.blockFluidPure.name=Purifying Fluid
 tile.blockFluidDeath.name=Liquid Death
 tile.blockStoneDevice.0.name=Alchemical Furnace
 tile.blockStoneDevice.1.name=Arcane Pedestal
@@ -197,6 +208,9 @@ tile.blockStoneDevice.8.name=Compound Recharge Focus
 tile.blockStoneDevice.9.name=Node Stabilizer
 tile.blockStoneDevice.10.name=Advanced Node Stabilizer
 tile.blockStoneDevice.11.name=Node Transducer
+tile.blockStoneDevice.12.name=Arcane Spa
+text.spa.mix.true=Mix with ingredient
+text.spa.mix.false=Use just the fluid
 tile.blockTube.0.name=Essentia Tube
 tile.blockTube.1.name=Essentia Valve
 tile.blockTube.2.name=Alchemical Centrifuge
@@ -204,8 +218,15 @@ tile.blockTube.3.name=Filtered Essentia Tube
 tile.blockTube.4.name=Essentia Buffer
 tile.blockTube.5.name=Restricted Essentia Tube
 tile.blockTube.6.name=Directional Essentia Tube
+tile.blockTube.7.name=Essentia Crystalizer
 container.alchemyfurnace=Alchemical Furnace
 tile.blockArcaneFurnace.name=Infernal Furnace
+tile.blockEldritch.0.name=Eldritch Altar
+tile.blockEldritch.1.name=Eldritch Obelisk
+tile.blockEldritch.2.name=Eldritch Obelisk
+tile.blockEldritch.3.name=Eldritch Capstone
+tile.blockPortalEldritch.name=Eldritch Portal
+tile.blockEssentiaReservoir.name=Essentia Reservoir
 #
 # Items
 item.GolemBell.name=Golemancer's Bell
@@ -420,6 +441,7 @@ item.ItemRingRunic.3.name=Revitalizing Ring of Shielding
 item.ItemGirdleRunic.0.name=Girdle of Runic Shielding
 item.ItemGirdleRunic.1.name=Kinetic Girdle of Shielding
 item.runic.charge=Runic shield
+item.warping=Warping
 item.ItemBaubleBlanks.0.name=Mundane Amulet
 item.ItemBaubleBlanks.1.name=Mundane Ring
 item.ItemBaubleBlanks.2.name=Mundane Belt
@@ -431,13 +453,18 @@ item.ItemAmuletVis.1.name=Amulet of Vis Storage
 item.ItemGirdleHover.name=Thaumostatic Girdle
 item.ItemBathSalts.name=Purifying Bath Salts
 item.ItemBucketDeath.name=Bucket of Liquid Death
+item.ItemBucketPure.name=Bucket of Purifying Fluid
 item.ItemHelmetFortress.name=Thaumium Fortress Helm
 item.ItemChestplateFortress.name=Thaumium Fortress Cuirass
 item.ItemLeggingsFortress.name=Thaumium Fortress Thigh Guards
 item.HelmetFortress.mask.0=Grinning Devil
 item.HelmetFortress.mask.1=Angry Ghost
 item.HelmetFortress.mask.2=Sipping Fiend
-item.ItemEldritchObject.name=Eldritch Eye
+item.ItemEldritchObject.0.name=Eldritch Eye
+item.ItemEldritchObject.1.name=Crimson Rites
+item.ItemEldritchObject.text.1=It seems to be watching you.
+item.ItemEldritchObject.text.2=The book is filled with strange symbols.
+item.ItemEldritchObject.text.3=Click to study it. [currently disabled]
 item.ItemHelmetVoid.name=Void Helm
 item.ItemChestplateVoid.name=Void Chestplate
 item.ItemLeggingsVoid.name=Void Leggings
@@ -450,12 +477,21 @@ item.ItemHoeVoid.name=Void Hoe
 item.ItemHelmetVoidRobe.name=Void Thaumaturge Hood
 item.ItemChestplateVoidRobe.name=Void Thaumaturge Robe
 item.ItemLeggingsVoidRobe.name=Void Thaumaturge Leggings
+item.ItemSanitySoap.name=Sanitising Soap
+item.ItemSanityChecker.name=Sanity Checker
+item.ItemHelmetCultistRobe.name=Crimson Cult Hood
+item.ItemChestplateCultistRobe.name=Crimson Cult Robe
+item.ItemLeggingsCultistRobe.name=Crimson Cult Leggings
+item.ItemBootsCultist.name=Crimson Cult Boots
+item.ItemHelmetCultistPlate.name=Crimson Cult Helm
+item.ItemChestplateCultistPlate.name=Crimson Cult Chestplate
+item.ItemLeggingsCultistPlate.name=Crimson Cult Greaves
 #
 # Fluids
 fluid.fluxGoo=Flux Goo
 fluid.fluxGas=Flux Gas
-fluid.purity=Purifiying Fluid
-fluid.death=Liquid Death
+fluid.fluidPure=Purifiying Fluid
+fluid.fluidDeath=Liquid Death
 #
 # GUI
 golemblurb.0.text=What do you want me to keep here, Master?
@@ -535,8 +571,12 @@ tc.addaspectdiscovery=You have discovered %n!
 tc.addclue=You have discovered a clue to new research!
 tc.addcluefail=You discovered a clue, but it is lost since you can't record it!
 tc.addaspectpool=Gained %s research point(s) for %n
-tc.addwarp=§5You have gained Warp!§0
+tc.addwarp=§5You have gained permanent Warp!§0
 tc.addwarptemp=§5You have gained temporary Warp!§0
+tc.addwarpsticky=§5You have gained Warp!§0
+tc.removewarp=§5You have lost permanent Warp!§0
+tc.removewarpsticky=§5You have lost Warp!§0
+tc.removewarptemp=§5You have lost temporary Warp!§0
 tc.forbidden=§l§5Forbidden knowledge (%n)§0
 tc.forbidden.level.1=Mostly Harmless
 tc.forbidden.level.2=Minor
@@ -1229,7 +1269,7 @@ tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the es
 #
 tc.research_name.JARLABEL=Warded Jars and Labels
 tc.research_text.JARLABEL=Storing and organizing essentia
-tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars placed under the spout of an alembic will be automatically filled. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
+tc.research_page.JARLABEL.1=Essentia can be stored in §lWarded Jars§r.<BR>Warded jars can be placed in world and is able to store essentia virtually indefinitely. The enchantments placed on the jars also makes adding or extracting essentia a breeze.<BR>Jars can be filled from an alembic by clicking with the jar directly on the alembic. They can also be filled and emptied using phials.<BR>What is more they make an excellent storage medium for jams and preserves.
 tc.research_page.JARLABEL.2=Shift clicking on jars and alembics with an empty hand will empty them.<BR>As long as a jar contains some essentia, you can attach a §lJar Label§r to it.<BR>This label will 'lock' the jar to that type of essentia and it will not be able to accept any other kind of essentia.<BR>You can remove a label by shift clicking with an empty hand on the side of the jar containing the label. Take care not to shift click on any other side as it will empty the jar as normal.
 tc.research_page.JARLABEL.3=You can place a label in a crafting bench with a phial of essentia to assign an aspect to it and when placed on an empty jar it will automatically lock the jar to that aspect. The essentia used in the recipe is not consumed.<BR>Placing it on a filled jar will change the label to the jar's essentia type.<LINE>A label can be made blank again by simply placing it by itself in a crafting grid.
 #
@@ -1411,7 +1451,7 @@ tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Ter
 #
 tc.research_name.RUNICAUGMENTATION=Runic Shielding Augmentation
 tc.research_text.RUNICAUGMENTATION=Shields to maximum!
-tc.research_page.RUNICAUGMENTATION.1=Rings, amulets and girdles with runic shielding is all good and well, but surely you can apply this protective enchantment to other things?<BR>Of course you can! By utilizing the magic of Thaumaturgy(c) (patent pending), you are able to add runic shielding to most magically stable pieces of armor.<BR>'Magicaly stable' items are those crafted from thaumium, enchanted fabric or similarly magical materials.<BR>Only a single charge of runic shielding is added to the item, but you can enchant an item multiple times. This is expensive and
+tc.research_page.RUNICAUGMENTATION.1=Rings, amulets and girdles with runic shielding is all good and well, but surely you can apply this protective enchantment to other things?<BR>Of course you can! By utilizing the magic of Thaumaturgy(c) (patent pending), you are able to add runic shielding to most magically stable pieces of armor.<BR>'Magically stable' items are those crafted from thaumium, enchanted fabric or similarly magical materials.<BR>Only a single charge of runic shielding is added to the item, but you can enchant an item multiple times. This is expensive and
 tc.research_page.RUNICAUGMENTATION.2=the amount of ingredients and essentia required will increase with each level. The Salis Mundus required will equal the level of shielding you want, and the essentia cost will increase exponentially.<BR>You can enchant existing runic items like Rings of Shielding as well, however the cost is calculated based on their existing runic charge making it an exceptionally expensive process.
 #
 tc.research_name.RUNICCHARGED=Charged Ring of Shielding
@@ -1439,7 +1479,7 @@ tc.research_page.WARDEDARCANA.4=Warded glass is a simple cosmetic block, but lik
 #
 tc.research_name.VISAMULET=Vis Storage
 tc.research_text.VISAMULET=Waste not, Want not
-tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there is occassions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>Your success has been mixed however. You can only recharge wands while holding them in your own hand and even then the recharge rate is slow. 
+tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>Your success has been mixed however. You can only recharge wands while holding them in your own hand and even then the recharge rate is slow. 
 tc.research_page.VISAMULET.2=However the amulet is able to act as a good power source for other things like the Repair enchant or runic shielding.<BR>The amulet can only be recharged in a wand pedestal or from nearby vis relays.
 #
 tc.research_name.NODESTABILIZER=Node Stabilizer
@@ -1523,4 +1563,34 @@ tc.research_page.ARMORVOIDFORTRESS.1=A truly enlightened thaumaturge realises th
 tc.research_name.CAP_void=Voidmetal Wand Caps
 tc.research_text.CAP_void=Power from beyond
 tc.research_page.CAP_void.1=Crafting wand caps from Voidmetal seems counterintuative since it seems to be highly resistant to magic, but counterintuative is where you live now.<BR>Your gamble payed off. The metal itself may be resistant to magic, but it channels with suprsising ease. The magic does seem §ostrange§r somehow, but it is probably just your imagination.
+#
+tc.research_name.ARCANESPA=Arcane Spa
+tc.research_text.ARCANESPA=Relaxing in style
+tc.research_page.ARCANESPA.1=Pouring bath salts into water is a bit of a chore, but luckily one easily solved with a bit of magic.<BR>You have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, you have found that it can be used to pump nearly any liquid you can fill it with. You can fill it with automation, or by clicking on the block with the appropriate container<BR>Applying a redstone signal will disable it.  
+#
+tc.research_name.SANESOAP=Sanitising Soap
+tc.research_text.SANESOAP=Getting rid of dirty thoughts
+tc.research_page.SANESOAP.1=Cleaning the body is easy enough, but once warp becomes a nuisance you need something that can clean the mind as well.<BR>This soap cleans the flesh, but the effects it has on your psyche is what trule makes it special. When used it has a small chance of reducing non-permanent warp and will remove all temporary warp.<BR>Using it while under the effects of a Warp Ward or while standing in Purifying Fluid will increase your odds.  
+#
+tc.research_name.SANITYCHECK=Sanity Check
+tc.research_text.SANITYCHECK=Introspection for the brave
+tc.research_page.SANITYCHECK.1=Things have become busy in your mind lately. It is probably best that you have a look inside there and make sure everything is still all right.<BR>This tool will allow you to check the effects of warp on your psyche and how much it is effecting you.<BR>Of course you cannot allow a tool like this to fall into the hands of your enemies so you have taken great pains to obfuscate the information it provides. You might have gone too far though - you are having a hard time deciphering it yourself.  
+#
+tc.research_name.CRIMSON=The Crimson Cult
+tc.research_text.CRIMSON=A Cautionary Tale
+tc.research_page.CRIMSON.1=Much of this books is written in a spidery and unintelligible script, but what you do understand offers some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goals is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but you doubt it is anything good.<BR>Interestingly enough, you think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
+#
+tc.research_name.OCULUS=Opening the Eye
+tc.research_text.OCULUS=I will show them, I will show the all!
+tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson cultists has never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eye's on the specially marked keystone found at one of the strange altars where you first discovered the cult. The sinister node above the keystone must remain intact.<BR>Once this is done is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 100 units of each should be sufficient.
+tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
+#
+tc.research_name.ESSENTIARESERVOIR=Advanced Essentia Storage 
+tc.research_text.ESSENTIARESERVOIR=Don't bump it
+tc.research_page.ESSENTIARESERVOIR.1=Most types of essentia is fairly volatile and care must be taken in its storage - that is why most thaumaturges uses warded jars. You, however, are not most thaumaturges.<BR>Using the wonderful new substance called void metal, you have discovered a way to greatly improve the storage of essentia. Essentia reservoirs are capable of storing up to 256 essentia in any combination.<BR>Potentially disasterous mixing of the different essentia types is prevented by having dynamicly reshaping compartments crafted from the new metal.
+tc.research_page.ESSENTIARESERVOIR.2=Like jars, the reservoirs can only be accessed from one side, though you can choose how they are orientated. Unfortunately they cannot be emptied or filled by hand so you need to rely on tubes or golems for that.<BR>Picking up a reservoir while filled is, um, inadvisable.<BR>You were so pleased with this discovery that you showed it off to some of your fellow thaumaturges. Strangely, most of them dived for cover even after you assured them the constant sound of metal under incredible stress is perfectly normal.
+#
+tc.research_name.ESSENTIACRYSTAL=Essentia Crystalization 
+tc.research_text.ESSENTIACRYSTAL=Hard currency or liquid assets?
+tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystalizer draws in liquid essentia from a pipe network and slowly converts it into small shards of crystaline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystalizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>Supplying it with terra vis will greatly increase its speed.
 #
