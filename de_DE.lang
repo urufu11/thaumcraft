@@ -16,6 +16,7 @@ potion.warpward=Warpbann
 potion.deathgaze=Tödlicher Blick
 potion.blurred=Verschwommene Sicht
 potion.sunscorned=Sonnenscheu
+potion.thaumarhia=Thaumarhoe
 #
 #Warp
 warp.text.1=Du fühlst dich auf eigenartige Weise leer.
@@ -28,6 +29,13 @@ warp.text.5=Das Licht wird auf einmal unglaublich hell und verbrennt deine Haut.
 warp.text.6=Ein dichter Nebel kommt aus dem Nichts. Irgendetwas rührt sich in seinen Tiefen.
 warp.text.7=Sie sind überall! Lauf!
 warp.text.8=Es muss doch irgendeinen Weg geben, diese Kopfschmerzen zu loszuwerden... Oder?
+warp.text.9=You suddenly feel reluctant to break things.
+warp.text.10=Deine Wahrnehmung erweitert sich plötzlich.
+warp.text.11=Was war das für ein Geräusch? Etwas ist hinter dir.
+warp.text.12=Irgendetwas folgt dir.
+warp.text.13=Etwas beobachtet dich. Vielleicht solltest du aufhören.
+warp.text.14=Du findest einen Moment der Klarheit.
+warp.text.15=Dein Magen fängt plötzlich an, seltsam zu gurgeln.
 #
 # Entities
 entity.Thaumcraft.ThaumSlime.name=Thaumischer Schleim
@@ -65,6 +73,8 @@ entity.trunk.stay=Der Koffer wird bleiben, wo er ist
 entity.Thaumcraft.MindSpider.name=Geistesspinne
 entity.Thaumcraft.EldritchGuardian.name=Unheimlicher Wächter
 entity.Thaumcraft.EldritchOrb.name=Unheimlicher Orb
+entity.Thaumcraft.CultistKnight.name=Karmesinritter
+entity.Thaumcraft.CultistCleric.name=Karmesinkleriker
 #
 # Blocks
 tile.blockAiry.0.name=Auranodie
@@ -149,6 +159,7 @@ tile.blockWoodenDevice.4.name=Arkane Bohrerbasis
 tile.blockWoodenDevice.5.name=Arkaner Bohrer
 tile.blockWoodenDevice.6.name=Großholzbretter
 tile.blockWoodenDevice.7.name=Silberholzbretter
+tile.blockWoodenDevice.8.name=Banner
 tile.blockJar.0.name=Bannendes Glas
 tile.blockJar.1.name=Gehirn im Glas
 tile.blockJar.2.name=Nodie im Glas
@@ -197,6 +208,9 @@ tile.blockStoneDevice.8.name=Verbunds-Aufladefokus
 tile.blockStoneDevice.9.name=Nodienstabilisator
 tile.blockStoneDevice.10.name=Fortgeschrittener Nodienstabilisator
 tile.blockStoneDevice.11.name=Nodientransduktor
+tile.blockStoneDevice.12.name=Arkanes Bad
+text.spa.mix.true=Mische mit Zutat
+text.spa.mix.false=Nur Flüssigkeit verwenden
 tile.blockTube.0.name=Essentiaröhre
 tile.blockTube.1.name=Essentiaventil
 tile.blockTube.2.name=Alchemische Zentrifuge
@@ -204,8 +218,15 @@ tile.blockTube.3.name=Gefilterte Essentiaröhre
 tile.blockTube.4.name=Essentia-Puffer
 tile.blockTube.5.name=Restriktive Essentiaröhre
 tile.blockTube.6.name=Essentia-Richtungsröhre
+tile.blockTube.7.name=Essentiakristallisierer
 container.alchemyfurnace=Alchemischer Ofen
 tile.blockArcaneFurnace.name=Höllenofen
+tile.blockEldritch.0.name=Unheimlicher Altar
+tile.blockEldritch.1.name=Unheimlicher Obelisk
+tile.blockEldritch.2.name=Unheimlicher Obelisk
+tile.blockEldritch.3.name=Unheimlicher Schlussstein
+tile.blockPortalEldritch.name=Unheimliches Portal
+tile.blockEssentiaReservoir.name=Essentiareservoir
 #
 # Items
 item.GolemBell.name=Glocke des Golemanten
@@ -420,6 +441,7 @@ item.ItemRingRunic.3.name=Revitalisierender Ring des Schutzes
 item.ItemGirdleRunic.0.name=Gürtel des Runenschildes
 item.ItemGirdleRunic.1.name=Kinetischer Gürtel des Schutzes
 item.runic.charge=Runenschutz
+item.warping=Warping
 item.ItemBaubleBlanks.0.name=Gewöhnliches Amulett
 item.ItemBaubleBlanks.1.name=Gewöhnlicher Ring
 item.ItemBaubleBlanks.2.name=Gewöhnlicher Gürtel
@@ -431,13 +453,18 @@ item.ItemAmuletVis.1.name=Amulett des Visspeichers
 item.ItemGirdleHover.name=Thaumostatischer Gürtel
 item.ItemBathSalts.name=Reinigendes Badesalz
 item.ItemBucketDeath.name=Eimer mit Flüssigem Tod
+item.ItemBucketPure.name=Eimer mit Reinigender Flüssigkeit
 item.ItemHelmetFortress.name=Thaumiumfestungshelm
 item.ItemChestplateFortress.name=Thaumiumfestungskürass
 item.ItemLeggingsFortress.name=Thaumiumfestungsbeinschutz
 item.HelmetFortress.mask.0=Grinsender Teufel
 item.HelmetFortress.mask.1=Zorniger Geist
 item.HelmetFortress.mask.2=Schlürfender Dämon
-item.ItemEldritchObject.name=Unheimliches Auge
+item.ItemEldritchObject.0.name=Unheimliches Auge
+item.ItemEldritchObject.1.name=Karmesinriten
+item.ItemEldritchObject.text.1=Es scheint dich zu beobachten.
+item.ItemEldritchObject.text.2=Das Buch ist mit seltsamen Symbolen gefüllt.
+item.ItemEldritchObject.text.3=Klicke, um es zu studieren. [Funktioniert momentan nicht]
 item.ItemHelmetVoid.name=Leerhelm
 item.ItemChestplateVoid.name=Leerharnisch
 item.ItemLeggingsVoid.name=Leerbeinschutz
@@ -450,12 +477,21 @@ item.ItemHoeVoid.name=Leerhacke
 item.ItemHelmetVoidRobe.name=Leerthaumaturgenhaube
 item.ItemChestplateVoidRobe.name=Leerthaumaturgenrobe
 item.ItemLeggingsVoidRobe.name=Leerthaumaturgenhose
+item.ItemSanitySoap.name=Säubernde Seife
+item.ItemSanityChecker.name=Sanity Checker
+item.ItemHelmetCultistRobe.name=Karmesinkulthaube
+item.ItemChestplateCultistRobe.name=Karmesinkultrobe
+item.ItemLeggingsCultistRobe.name=Karmesinkulthose
+item.ItemBootsCultist.name=Karmesinkultstiefel
+item.ItemHelmetCultistPlate.name=Karmesinkulthelm
+item.ItemChestplateCultistPlate.name=Karmesinkultbrustschutz
+item.ItemLeggingsCultistPlate.name=Karmesinkultbeinschutz
 #
 # Fluids
 fluid.fluxGoo=Fluxschleim
 fluid.fluxGas=Fluxgas
-fluid.purity=Reinigende Flüssigkeit
-fluid.death=Flüssiger Tod
+fluid.fluidPure=Reinigende Flüssigkeit
+fluid.fluidDeath=Flüssiger Tod
 #
 # GUI
 golemblurb.0.text=Was soll ich hier behalten, Meister?
@@ -535,8 +571,12 @@ tc.addaspectdiscovery=Du hast %n entdeckt!
 tc.addclue=Du hast einen Hinweis auf neue Forschung entdeckt!
 tc.addcluefail=Du hast einen Hinweis entdeckt. Jedoch ist er verloren, da du ihn nicht dokumentieren konntest!
 tc.addaspectpool=%s Forschungspunkt(e) für %n erhalten
-tc.addwarp=§5Du hast Warp erhalten!§0
+tc.addwarp=§5Du hast permanent Warp erhalten!§0
 tc.addwarptemp=§5Du hast temporär Warp erhalten!§0
+tc.addwarpsticky=§5Du hast Warp erhalten!§0
+tc.removewarp=§5Du bist permanenten Warp losgeworden!§0
+tc.removewarpsticky=§5Du bist Warp losgeworden!§0
+tc.removewarptemp=§5Du bist temporären Warp losgeworden!§0
 tc.forbidden=§l§5Verbotenes Wissen (%n)§0
 tc.forbidden.level.1=Hauptsächlich harmlos
 tc.forbidden.level.2=Gerinfügig gefährlich
@@ -1229,7 +1269,7 @@ tc.research_page.DISTILESSENTIA.2=Der nächste Prozessschritt ist, die Essentia-
 #
 tc.research_name.JARLABEL=Bannende Gläser und Glasschilder
 tc.research_text.JARLABEL=Essentia speichern und organisieren
-tc.research_page.JARLABEL.1=Essentia kann in §lBannenden Gläsern§r gespeichert werden.<BR>Bannende Gläser können in der Welt platziert werden und sind fähig, Essentia nahezu unbegrenzt lange zu lagern. Die Verzauberungen auf den Gläsern machen auch das Hinzufügen oder Extrahieren von Essentia zum Kinderspiel.<BR>Gläser, die unter dem Ausguss des Alambiks platziert sind, werden automatisch gefüllt. Sie können auch mit Phiolen befüllt werden.<BR>Auch bieten sie ein exzellentes Lagermedium für Marmeladen und Eingemachtes.
+tc.research_page.JARLABEL.1=Essentia kann in §lBannenden Gläsern§r gespeichert werden.<BR>Bannende Gläser können in der Welt platziert werden und sind fähig, Essentia nahezu unbegrenzt lange zu lagern. Die Verzauberungen auf den Gläsern machen auch das Hinzufügen oder Extrahieren von Essentia zum Kinderspiel.<BR>Gläser können direkt aus einem Alambik befüllt werden, indem mit dem Glas auf den Alambik geklickt wird. Sie können auch mit Phiolen befüllt werden.<BR>Auch bieten sie ein exzellentes Lagermedium für Marmeladen und Eingemachtes.
 tc.research_page.JARLABEL.2=Auf Gläser und Alambiks mit Shift zu klicken, wird sie leeren.<BR>So lange ein Glas etwas Essentia enthält, kannst du ein §lGlassschild§r an ihm anbringen.<BR>Dieses Glasschild wird dem Glas diesen Essentiatyp 'zuordnen' und es wird nicht mehr fähig sein, andere Arten von Essentia aufzunehmen.<BR>Du kannst ein Glasschild entfernen, indem du mit einer leeren Hand auf die Seite des Glases, auf der das Glasschild ist, Shift-rechtsklickst. Sei vorsichtig, nicht auf eine andere Seite zu Shift-rechtsklicken, da dies wie gewöhnlich das Glas leeren würde.
 tc.research_page.JARLABEL.3=Du kannst ein Glasschild mit einer Essentiaphiole in einer Werkbank kombinieren, um ihm einen Aspekt zuzuordnen, und, wenn auf einem leeren Glas platziert, wird es dem Glas automatisch den Aspekt zuordnen. Die für das Rezept nötige Essentia wird nicht verbraucht.<BR>Ein Glasschild auf einem gefüllten Glas zu platzieren, wird seinen Aspekt zum Essentiatyp des Glases ändern.<LINE>Ein Glasschild kann wieder leer gemacht werden, indem es einfach allein in einem Werkgitter platziert wird.
 #
@@ -1523,4 +1563,34 @@ tc.research_page.ARMORVOIDFORTRESS.1=Ein wirklich erleuchteter Thaumaturge wird 
 tc.research_name.CAP_void=Leermetallstabkappen
 tc.research_text.CAP_void=Macht von anderswo
 tc.research_page.CAP_void.1=Stabkappen aus Leermetall zu fertigen, scheint ziemlich eigenartig, da jenes eigentlich äußerst resistent gegen Magie ist, aber "eigenartig" ist ist immer relativ.<BR>Nun hat sich Wagnis ausgezahlt. Das Metall an sich mag magieresistent sein, jedoch leitet es diese mit überraschender Leichtigkeit. Die Magie scheint irgendwie §oseltsam§r zu sein, aber das ist wahrscheinlich bloß Einbildung.
+#
+tc.research_name.ARCANESPA=Arkanes Bad
+tc.research_text.ARCANESPA=Entspannung mit Stil
+tc.research_page.ARCANESPA.1=Badesalze ins Wasser zu geben, ist längst lästige Routine geworden, glücklicherweise kann man diese mit ein wenig Magie umgehen.<BR>Du hast eine praktische Maschine kreiert, die, wenn mit Wasser und Badesalzen gefüllt, beides automatisch mischen und die Flüssigkeit in einen Bereich oberhalb von ihr pumpen wird. Die Maschine wird einen 5x5-Bereich oberhalb von ihr befüllen.<BR>Zusätzlich hast du herausgefunden, dass sie zum Pumpen fast jeder Flüssigkeit, mit der du sie füllen kannst, verwenden kannst. Du kannst es durch jegliche Form von Automatisierung füllen sowie, indem du mit dem entsprechenden Container auf den Block klickst<BR>Ein Redstone-Signal wird ihn deaktivieren.
+#
+tc.research_name.SANESOAP=Säubernde Seife
+tc.research_text.SANESOAP=Werde deine schmutzigen Gedanken los
+tc.research_page.SANESOAP.1=Cleaning the body is easy enough, but once warp becomes a nuisance you need something that can clean the mind as well.<BR>This soap cleans the flesh, but the effects it has on your psyche is what trule makes it special. When used it has a small chance of reducing non-permanent warp and will remove all temporary warp.<BR>Using it while under the effects of a Warp Ward or while standing in Purifying Fluid will increase your odds.
+#
+tc.research_name.SANITYCHECK=Sanity Check
+tc.research_text.SANITYCHECK=Introspektion für Mutige
+tc.research_page.SANITYCHECK.1=Things have become busy in your mind lately. It is probably best that you have a look inside there and make sure everything is still all right.<BR>This tool will allow you to check the effects of warp on your psyche and how much it is effecting you.<BR>Of course you cannot allow a tool like this to fall into the hands of your enemies so you have taken great pains to obfuscate the information it provides. You might have gone too far though - you are having a hard time deciphering it yourself.
+#
+tc.research_name.CRIMSON=Der Karmesinkult
+tc.research_text.CRIMSON=Eine Warnung an dich
+tc.research_page.CRIMSON.1=Much of this books is written in a spidery and unintelligible script, but what you do understand offers some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goals is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but you doubt it is anything good.<BR>Interestingly enough, you think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
+#
+tc.research_name.OCULUS=Das Öffnen des Auges
+tc.research_text.OCULUS=Ich werd's ihnen zeigen, ich werde es allen zeigen!
+tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson cultists has never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eye's on the specially marked keystone found at one of the strange altars where you first discovered the cult. The sinister node above the keystone must remain intact.<BR>Once this is done is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 100 units of each should be sufficient.
+tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown!
+#
+tc.research_name.ESSENTIARESERVOIR=Fortgeschnittene Essentiaspeicherung
+tc.research_text.ESSENTIARESERVOIR=Nicht anstoßen
+tc.research_page.ESSENTIARESERVOIR.1=Most types of essentia is fairly volatile and care must be taken in its storage - that is why most thaumaturges uses warded jars. You, however, are not most thaumaturges.<BR>Using the wonderful new substance called void metal, you have discovered a way to greatly improve the storage of essentia. Essentia reservoirs are capable of storing up to 256 essentia in any combination.<BR>Potentially disasterous mixing of the different essentia types is prevented by having dynamicly reshaping compartments crafted from the new metal.
+tc.research_page.ESSENTIARESERVOIR.2=Like jars, the reservoirs can only be accessed from one side, though you can choose how they are orientated. Unfortunately they cannot be emptied or filled by hand so you need to rely on tubes or golems for that.<BR>Picking up a reservoir while filled is, um, inadvisable.<BR>You were so pleased with this discovery that you showed it off to some of your fellow thaumaturges. Strangely, most of them dived for cover even after you assured them the constant sound of metal under incredible stress is perfectly normal.
+#
+tc.research_name.ESSENTIACRYSTAL=Essentiakristallisation
+tc.research_text.ESSENTIACRYSTAL=Immerhin sublimieren sie nicht
+tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystalizer draws in liquid essentia from a pipe network and slowly converts it into small shards of crystaline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystalizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>Supplying it with terra vis will greatly increase its speed.
 #
