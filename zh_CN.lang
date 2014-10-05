@@ -16,6 +16,7 @@ potion.warpward=扭曲守护
 potion.deathgaze=死亡凝视
 potion.blurred=视瞻昏渺
 potion.sunscorned=日之辱蔑
+potion.thaumarhia=奥妙
 #
 #Warp
 warp.text.1=你身上涌出古怪的疲乏感.
@@ -28,6 +29,13 @@ warp.text.5=光线突然变得不可抗拒地明亮起来,你的皮肤开始燃�
 warp.text.6=浓雾凭空而生,其间鬼影绰绰.
 warp.text.7=它们无处不在!快跑!
 warp.text.8=肯定有什么办法能够遏制这些头疼事!
+warp.text.9=你突然之间厌倦了破坏.
+warp.text.10=你的感觉猛地膨胀开来.
+warp.text.11=那片嘈杂声是怎么一回事?有东西在尾随你.
+warp.text.12=有东西在尾随你.
+warp.text.13=冥冥中一道目光注视着你.或许该罢手了.
+warp.text.14=有那么一瞬间你感到头脑无比清晰.
+warp.text.15=你的胃突然发出异常奇怪的咕咕声.
 #
 # Entities
 entity.Thaumcraft.ThaumSlime.name=神秘史莱姆
@@ -65,6 +73,8 @@ entity.trunk.stay=箱子宝宝将留在原地
 entity.Thaumcraft.MindSpider.name=心魔蜘蛛
 entity.Thaumcraft.EldritchGuardian.name=邪术守卫
 entity.Thaumcraft.EldritchOrb.name=邪术球
+entity.Thaumcraft.CultistKnight.name=血腥骑士
+entity.Thaumcraft.CultistCleric.name=血腥教徒
 #
 # Blocks
 tile.blockAiry.0.name=灵气节点
@@ -149,6 +159,7 @@ tile.blockWoodenDevice.4.name=奥术钻探机基座
 tile.blockWoodenDevice.5.name=奥术钻探机
 tile.blockWoodenDevice.6.name=宏伟之树木板
 tile.blockWoodenDevice.7.name=银树木板
+tile.blockWoodenDevice.8.name=旗帜
 tile.blockJar.0.name=要素罐子
 tile.blockJar.1.name=缸中之脑
 tile.blockJar.2.name=缸中节点
@@ -197,6 +208,9 @@ tile.blockStoneDevice.8.name=复合充能核心
 tile.blockStoneDevice.9.name=节点稳定器
 tile.blockStoneDevice.10.name=高级节点稳定器
 tile.blockStoneDevice.11.name=节点换能器
+tile.blockStoneDevice.12.name=奥术浴场
+text.spa.mix.true=药浴
+text.spa.mix.false=仅使用该流体进行洗浴
 tile.blockTube.0.name=要素源质管道
 tile.blockTube.1.name=要素源质阀门
 tile.blockTube.2.name=奥法离心机
@@ -204,8 +218,15 @@ tile.blockTube.3.name=过滤源质管道
 tile.blockTube.4.name=源质缓存器
 tile.blockTube.5.name=限定源质管道
 tile.blockTube.6.name=定向源质管道
+tile.blockTube.7.name=源质结晶器
 container.alchemyfurnace=炼金炉
 tile.blockArcaneFurnace.name=炼狱熔炉
+tile.blockEldritch.0.name=邪术祭坛
+tile.blockEldritch.1.name=邪术方尖碑
+tile.blockEldritch.2.name=邪术方尖碑
+tile.blockEldritch.3.name=邪术拱顶石
+tile.blockPortalEldritch.name=邪术传送门
+tile.blockEssentiaReservoir.name=源质库
 #
 # Items
 item.GolemBell.name=傀儡使铃铛
@@ -420,6 +441,7 @@ item.ItemRingRunic.3.name=再充能符文护盾指环
 item.ItemGirdleRunic.0.name=符文护盾腰带
 item.ItemGirdleRunic.1.name=冲击符文护盾腰带
 item.runic.charge=符文护盾
+item.warping=扭曲
 item.ItemBaubleBlanks.0.name=凡人护身符
 item.ItemBaubleBlanks.1.name=凡人指环
 item.ItemBaubleBlanks.2.name=凡人腰带
@@ -431,6 +453,7 @@ item.ItemAmuletVis.1.name=魔力存储护身符
 item.ItemGirdleHover.name=奥法腰带
 item.ItemBathSalts.name=净化浴盐
 item.ItemBucketDeath.name=桶装死亡之水
+item.ItemBucketPure.name=桶装净化之水
 item.ItemHelmetFortress.name=神秘要塞兜鍪
 item.ItemChestplateFortress.name=神秘要塞胸铠
 item.ItemLeggingsFortress.name=神秘要塞护胫
@@ -438,6 +461,10 @@ item.HelmetFortress.mask.0=狞笑恶魔面具
 item.HelmetFortress.mask.1=暴怒幽魂面具
 item.HelmetFortress.mask.2=吸血邪妖面具
 item.ItemEldritchObject.name=邪术之眼
+item.ItemEldritchObject.1.name=血腥仪式
+item.ItemEldritchObject.text.1=它似乎正注视着你.
+item.ItemEldritchObject.text.2=书上涂满了诡异的符文.
+item.ItemEldritchObject.text.3=点击以学习.[当前不可用]
 item.ItemHelmetVoid.name=虚空头盔
 item.ItemChestplateVoid.name=虚空胸甲
 item.ItemLeggingsVoid.name=虚空护腿
@@ -450,12 +477,21 @@ item.ItemHoeVoid.name=虚空锄
 item.ItemHelmetVoidRobe.name=虚空神秘使兜帽
 item.ItemChestplateVoidRobe.name=虚空神秘使法袍
 item.ItemLeggingsVoidRobe.name=虚空神秘使护腿
+item.ItemSanitySoap.name=祛邪肥皂
+item.itemSanityChecker.name=神智检测仪
+item.ItemHelmetCultistRobe.name=血腥邪徒兜帽
+item.ItemChestplateCultistRobe.name=血腥邪徒法袍
+item.ItemLeggingsCultistRobe.name=血腥邪徒护腿
+item.ItemBootsCultist.name=血腥邪徒靴子
+item.ItemHelmetCultistPlate.name=血腥邪徒头盔
+item.ItemChestplateCultistPlate.name=血腥邪徒胸甲
+item.ItemLeggingsCultistPlate.name=血腥邪徒护胫
 #
 # Fluids
 fluid.fluxGoo=咒波粘浆
 fluid.fluxGas=咒波瓦斯
-fluid.purity=净化之水
-fluid.death=死亡之水
+fluid.fluidPurity=净化之水
+fluid.fluidDeath=死亡之水
 #
 # GUI
 golemblurb.0.text=吾主,您希望吾为您在此处保管何物呢?
@@ -535,8 +571,12 @@ tc.addaspectdiscovery=您已发现%n!
 tc.addclue=您已发现新研究的线索!
 tc.addcluefail=您已发现新研究的线索,但由于缺乏记录的纸墨,最终遗忘了它!
 tc.addaspectpool=取得%s研究点:%n
-tc.addwarp=§5你身上开始出现扭曲！§0
+tc.addwarp=§5你身上开始出现永久扭曲！§0
 tc.addwarptemp=§5你身上暂时出现了扭曲!§0
+tc.addwarpsticky=§5你身上开始出现扭曲！§0
+tc.removewarp=§5你身上的永久扭曲被祛除了!§0
+tc.removewarpsticky=§5你身上的扭曲被祛除了!§0
+tc.removewarptemp=§5你身上的临时扭曲被祛除了!§0
 tc.forbidden=§l§5禁忌知识(%n)§0
 tc.forbidden.level.1=近乎无害
 tc.forbidden.level.2=略有风险 
@@ -1229,7 +1269,7 @@ tc.research_page.DISTILESSENTIA.2=接下来你需要利用§l奥术蒸馏器§r�
 #
 tc.research_name.JARLABEL=要素罐子和标签
 tc.research_text.JARLABEL=存储和整理要素源质
-tc.research_page.JARLABEL.1=可以用§l要素罐子§r储存要素源质.<BR>将要素罐子放置在地上,它能够非常明了直观地储存源质.由于魔法的力量,使用或者存放罐子中的源质都是小菜一碟的事情.<BR>将罐子置于奥术蒸馏器喷嘴下方,喷嘴会自动流出源质填充罐子.你也可以使用要素安瓿来填充或者清空罐子.<BR>此外它们还非常便于大量而密集地进行源质储存.
+tc.research_page.JARLABEL.1=可以用§l要素罐子§r储存要素源质.<BR>将要素罐子放置在地上,它能够非常明了直观地储存源质.由于魔法的力量,使用或者存放罐子中的源质都是小菜一碟的事情.<BR>手持罐子直接点击奥术蒸馏器就可以将源质装进罐中.你也可以使用要素安瓿来填充或清空罐子.<BR>此外它们还非常便于大量而密集地进行源质储存.
 tc.research_page.JARLABEL.2=空手状态下按住潜行键Shift点击罐子或者蒸馏器能够清空它们.<BR>只要罐子里装有源质,你就可以贴上§l罐子标签l§.<BR>标签将罐子锁定为接收特定类型的要素源质而不再能接收任意其他类型的源质.<BR>空手对着罐子帖着标签的一面按住潜行点击,能够取下标签.注意如果误点了其他面会清空罐子里装的源质.
 tc.research_page.JARLABEL.3=你可以对着空罐子使用与某种要素绑定过的标签(在合成台中合成装有要素的安瓿与标签),这样空罐子会自动绑定到这种要素,变成对应的标签罐子.而标签上的要素仅仅只是标记,并不真的消耗源质.<BR>对着装满了要素的罐子使用,则会把罐子变成和其容纳要素相对应的标签罐子.<LINE>绑定过某种要素的标签只需要放入合成网格参与一次合成就能变回空白标签.
 #
@@ -1504,7 +1544,7 @@ tc.research_page.MASKSIPPINGFIEND.1=此面具乃是神秘要塞兜鍪的专属�
 #
 tc.research_name.ELDRITCHMINOR=邪术揭谛
 tc.research_text.ELDRITCHMINOR=迈入未知的第一步
-tc.research_page.ELDRITCHMINOR.1=突然间对你来说它变得昭然.在其他人只能看见混沌一片的地方,你却灵光一瞥捕捉到它那诡异莫名,令人不安的模式.宇宙最黑暗的角落鬼影绰绰.<BR>你一度试图向别人解释你发现的一切,但却只招来了奇怪的眼神.无论如何,有朝一日你终将向他们展现你的发现.<BR>向他们所有人.
+tc.research_page.ELDRITCHMINOR.1=突然间对你来说它变得昭然.在其他人只能看见混沌一片的地方,你却灵光一瞥捕捉到它那诡异莫名,令人不安的模式.宇宙最黑暗的角落鬼影绰绰.<BR>你一度试图向别人解释你发现的一切,但却只招来了奇怪的眼神.无论如何,有朝一日你终将向他们展示你的发现.<BR>向他们所有人.
 #
 tc.research_name.ELDRITCHMAJOR=邪术启示录
 tc.research_text.ELDRITCHMAJOR=吾已看见那超越无限疆域的妙境
@@ -1522,5 +1562,35 @@ tc.research_page.ARMORVOIDFORTRESS.1=一位真正有所领悟的神秘使能够�
 #
 tc.research_name.CAP_void=虚空杖端
 tc.research_text.CAP_void=来自彼界之力
-tc.research_page.CAP_void.1=用虚空金属合成的杖端因其魔力抗性显得违背直觉,但神秘使的天职就是做违背直觉的事情.<BR>你的孤注一掷大获成功.尽管这种金属具有魔抗,但引导起魔力来却如臂使指般轻松.它看起来有些§o诡异§r 不过嘛,那只是出于你的妄想而已.
+tc.research_page.CAP_void.1=用虚空金属合成的杖端因其魔力抗性显得违背直觉,但神秘使的天职就是做违背直觉的事情.<BR>你的孤注一掷大获成功.尽管这种金属具有魔抗,但引导起魔力来却如臂使指般轻松.它看起来有些§o诡异§r.不过嘛,那只是出于你的妄想而已.
+#
+tc.research_name.ARCANESPA=奥术浴场
+tc.research_text.ARCANESPA=时髦的休闲方式
+tc.research_page.ARCANESPA.1=手动将浴盐洒进水里略显琐碎无聊,好在神秘使能够通过一点点魔法手段轻松地解决这个问题.<BR>你已制造出一台便捷的设备,能够自动混合水和浴盐,并将它们泵出到设备上方的空间.泵出的流体将填满机器正上方5X5大小的区域.<BR>另外,你发现它也能用于将任意其他流体泵出.你可以使用自动化设备装填它,或者拿着合适的容器右击方块.<BR>通入红石信号能够关闭它. 
+#
+tc.research_name.SANESOAP=祛邪肥皂
+tc.research_text.SANESOAP=摆脱那些肮脏的念头吧
+tc.research_page.SANESOAP.1=净化肉体固然容易,但一旦陷入扭曲之苦,就同样需要洗涤心灵的妙法.<BR>这块肥皂能够清洗肉体上的污垢,但它真正特别之处在于还能对你的精神世界产生效果.它能够祛除所有暂时性的扭曲,并有小几率能够祛除非永久性的扭曲.<BR>浸泡净化之水或处于扭曲守护状态时使用这块肥皂能够增加它生效的几率.
+#
+tc.research_name.SANITYCHECK=神智检测仪
+tc.research_text.SANITYCHECK=勇敢者的内省
+tc.research_page.SANITYCHECK.1=近来你的脑海中一片纷繁.似乎你应当好好内省一番,以确保没有哪里不对劲.<BR>神智检测仪能够帮助你查看精神世界的扭曲效果以及它们会如何影响你.<BR>理所当然地,你不可能允许这些资料落入敌手,因此你煞费苦心地让它提供的信息模糊而晦涩.不过你似乎做得过头了-你自己理解起来都有点困难.
+#
+tc.research_name.CRIMSON=血腥崇拜
+tc.research_text.CRIMSON=一部警示录
+tc.research_page.CRIMSON.1=书册上的多数内容以密如蛛网,不知所云的字符写成,但你明确读懂的部分让你对那些血腥邪徒的目的隐约有了奇怪的了解.<BR>它们的起源仍笼罩在谜团中,但它们似乎正致力于完成一个它们称为"Apertis Oculis"的开眼仪式.这仪式究竟是做什么的尚不清楚,但你怀疑那并不是什么好事.<BR>蛮有趣的是,你认为神秘学能够补完它们长久以来一直寻找的仪式所残缺的部分.很明显开展这类研究纯属疯子行径...
+#
+tc.research_name.OCULUS=开眼仪式
+tc.research_text.OCULUS=向他们展示你的发现,向他们所有人.
+tc.research_page.OCULUS.1=一切都是那样简单-你对那些血腥邪徒一直没有发现它感到惊讶.<BR>想要完成仪式,需要将4颗邪术之眼放在一种特别显眼的拱顶石上.那种拱顶石在你头一回发现血腥邪徒的祭坛那里就能找到.拱顶石上方的凶险节点必须保持完整.<BR>完成上述步奏后,还需要再让拱顶石从法杖中抽取大量的元始要素-每种大约100点.
+tc.research_page.OCULUS.2=如果所有步骤均正确,那么仪式将被完成而名为"眼"之存在将会睁开.<BR>当然你并不知道那意味着什么.不过那又有什么关系呢?只有傻瓜才会畏惧未知.
+#
+tc.research_name.ESSENTIARESERVOIR=高级源质存储
+tc.research_text.ESSENTIARESERVOIR=别磕着它
+tc.research_page.ESSENTIARESERVOIR.1=多数类型的源质相当容易挥发,需要小心储存-这也是普通神秘使会选择使用密闭罐子的原因所在.可是你并非那些普通的神秘使.<BR>通过使用一种名为虚空锭的神奇新物质,你发现一种显著提升源质存储能力的方法.源质库能够容纳256点任意类型组合的源质.<BR>这种新型金属构筑的动态隔间都够有效隔绝不同类型的源质从而弥除异种源质混合可能会造成的潜在危险.
+tc.research_page.ESSENTIARESERVOIR.2=类似罐子,源质库也只有一面能够参与源质物流系统,尽管你可以指定这一面的朝向.不幸的是,这种容器无法手动清空或者手动填装,你必须借助于傀儡或者源质管道.<BR>不推荐挖掉盛有内容的源质库.<BR>这项发现让你喜悦万分,因此你向一些神秘使伙伴展示了它.奇怪的是,他们多数都一副避之不及的样子,即使你已经向他们保证经过极端高压处理后这种金属的安全性值得信任.
+#
+tc.research_name.ESSENTIACRYSTAL=源质结晶器 
+tc.research_text.ESSENTIACRYSTAL=要硬通货,还是要流动资产?
+tc.research_page.ESSENTIACRYSTAL.1=你差不多已经掌握了如何将凝聚的物质转换为液态的源质,所以反过来也并不是多麻烦的事儿.<BR>源质结晶器从管道系统中抽取源质并缓慢地将其凝聚成要素源质水晶的小碎片.源质水晶易于管理运输,也非常稳定.<BR>结晶器会将凝聚的水晶弹射出来或者装入旁边的容器,通入红石信号可以关闭这一功能.<BR>向其提供terra魔力将显著提升其速度.
 #
