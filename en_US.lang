@@ -218,7 +218,7 @@ tile.blockTube.3.name=Filtered Essentia Tube
 tile.blockTube.4.name=Essentia Buffer
 tile.blockTube.5.name=Restricted Essentia Tube
 tile.blockTube.6.name=Directional Essentia Tube
-tile.blockTube.7.name=Essentia Crystalizer
+tile.blockTube.7.name=Essentia Crystallizer
 container.alchemyfurnace=Alchemical Furnace
 tile.blockArcaneFurnace.name=Infernal Furnace
 tile.blockEldritch.0.name=Eldritch Altar
@@ -381,7 +381,7 @@ item.researchnotes.failed.1=Failed, place in crafting grid
 item.researchnotes.failed.2=to regain knowledge fragments
 item.discovery.name=Discovery
 item.ItemWispEssence.name=Ethereal Essence
-item.ItemCrystalEssence.name=Crystalized Essence
+item.ItemCrystalEssence.name=Crystallized Essence
 item.ItemEssence.0.name=Glass Phial
 item.ItemEssence.1.name=Phial of Essentia
 item.ItemGolemCore.name=Golem Animation Core
@@ -477,7 +477,7 @@ item.ItemHoeVoid.name=Void Hoe
 item.ItemHelmetVoidRobe.name=Void Thaumaturge Hood
 item.ItemChestplateVoidRobe.name=Void Thaumaturge Robe
 item.ItemLeggingsVoidRobe.name=Void Thaumaturge Leggings
-item.ItemSanitySoap.name=Sanitising Soap
+item.ItemSanitySoap.name=Sanitizing Soap
 item.ItemSanityChecker.name=Sanity Checker
 item.ItemHelmetCultistRobe.name=Crimson Cult Hood
 item.ItemChestplateCultistRobe.name=Crimson Cult Robe
@@ -1568,9 +1568,9 @@ tc.research_name.ARCANESPA=Arcane Spa
 tc.research_text.ARCANESPA=Relaxing in style
 tc.research_page.ARCANESPA.1=Pouring bath salts into water is a bit of a chore, but luckily one easily solved with a bit of magic.<BR>You have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, you have found that it can be used to pump nearly any liquid you can fill it with. You can fill it with automation, or by clicking on the block with the appropriate container<BR>Applying a redstone signal will disable it.  
 #
-tc.research_name.SANESOAP=Sanitising Soap
+tc.research_name.SANESOAP=Sanitizing Soap
 tc.research_text.SANESOAP=Getting rid of dirty thoughts
-tc.research_page.SANESOAP.1=Cleaning the body is easy enough, but once warp becomes a nuisance you need something that can clean the mind as well.<BR>This soap cleans the flesh, but the effects it has on your psyche is what trule makes it special. When used it has a small chance of reducing non-permanent warp and will remove all temporary warp.<BR>Using it while under the effects of a Warp Ward or while standing in Purifying Fluid will increase your odds.  
+tc.research_page.SANESOAP.1=Cleaning the body is easy enough, but once warp becomes a nuisance you need something that can clean the mind as well.<BR>This soap cleans the flesh, but the effects it has on your psyche is what truly makes it special. When used it has a small chance of reducing non-permanent warp and will remove all temporary warp.<BR>Using it while under the effects of a Warp Ward or while standing in Purifying Fluid will increase your odds.  
 #
 tc.research_name.SANITYCHECK=Sanity Check
 tc.research_text.SANITYCHECK=Introspection for the brave
@@ -1578,19 +1578,19 @@ tc.research_page.SANITYCHECK.1=Things have become busy in your mind lately. It i
 #
 tc.research_name.CRIMSON=The Crimson Cult
 tc.research_text.CRIMSON=A Cautionary Tale
-tc.research_page.CRIMSON.1=Much of this books is written in a spidery and unintelligible script, but what you do understand offers some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goals is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but you doubt it is anything good.<BR>Interestingly enough, you think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
+tc.research_page.CRIMSON.1=Much of this book is written in a spidery and unintelligible script, but what you do understand offers some strange insights into the goals of the Crimson Cult.<BR>Their origins are shrouded in mystery, but it seems their goal is the perfection of a ritual they refer to as "Apertis Oculis" - Opening the Eye. What it does is unclear, but you doubt it is anything good.<BR>Interestingly enough, you think thaumaturgy might offer the missing pieces they have so long sought. Obviously only a madman would pursue this line of study...
 #
 tc.research_name.OCULUS=Opening the Eye
-tc.research_text.OCULUS=I will show them, I will show the all!
-tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson cultists has never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eye's on the specially marked keystone found at one of the strange altars where you first discovered the cult. The sinister node above the keystone must remain intact.<BR>Once this is done is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 100 units of each should be sufficient.
+tc.research_text.OCULUS=I will show them, I will show them all!
+tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson cult has never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult. The sinister node above the keystone must remain intact.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 100 units of each should be sufficient.
 tc.research_page.OCULUS.2=If you have done everything right the ritual should be complete and the so called "Eye" would be opened.<BR>Of course you have no idea what that means. No matter, only fools fear the unknown! 
 #
 tc.research_name.ESSENTIARESERVOIR=Advanced Essentia Storage 
 tc.research_text.ESSENTIARESERVOIR=Don't bump it
-tc.research_page.ESSENTIARESERVOIR.1=Most types of essentia is fairly volatile and care must be taken in its storage - that is why most thaumaturges uses warded jars. You, however, are not most thaumaturges.<BR>Using the wonderful new substance called void metal, you have discovered a way to greatly improve the storage of essentia. Essentia reservoirs are capable of storing up to 256 essentia in any combination.<BR>Potentially disasterous mixing of the different essentia types is prevented by having dynamicly reshaping compartments crafted from the new metal.
+tc.research_page.ESSENTIARESERVOIR.1=Most types of essentia are fairly volatile and care must be taken in its storage - that is why most thaumaturges uses warded jars. You, however, are not most thaumaturges.<BR>Using the wonderful new substance called void metal, you have discovered a way to greatly improve the storage of essentia. Essentia reservoirs are capable of storing up to 256 essentia in any combination.<BR>Potentially disasterous mixing of the different essentia types is prevented by having dynamicly reshaping compartments crafted from the new metal.
 tc.research_page.ESSENTIARESERVOIR.2=Like jars, the reservoirs can only be accessed from one side, though you can choose how they are orientated. Unfortunately they cannot be emptied or filled by hand so you need to rely on tubes or golems for that.<BR>Picking up a reservoir while filled is, um, inadvisable.<BR>You were so pleased with this discovery that you showed it off to some of your fellow thaumaturges. Strangely, most of them dived for cover even after you assured them the constant sound of metal under incredible stress is perfectly normal.
 #
-tc.research_name.ESSENTIACRYSTAL=Essentia Crystalization 
+tc.research_name.ESSENTIACRYSTAL=Essentia Crystallization 
 tc.research_text.ESSENTIACRYSTAL=Hard currency or liquid assets?
-tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystalizer draws in liquid essentia from a pipe network and slowly converts it into small shards of crystaline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystalizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>Supplying it with terra vis will greatly increase its speed.
+tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystallizer draws in liquid essentia from a pipe network and slowly converts it into small shards of crystalline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystallizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>Supplying it with terra vis will greatly increase its speed.
 #
