@@ -15,7 +15,8 @@ potion.unhunger=反常之飢
 potion.warpward=扭曲防護
 potion.deathgaze=死亡凝視
 potion.blurred=目朧
-potion.sunscorned=日灼
+potion.sunscorned=日之侮蔑
+potion.thaumarhia=玄奧
 #
 #Warp
 warp.text.1=你身體反常的的疲乏。
@@ -28,6 +29,13 @@ warp.text.5=光線突然壓倒性的亮了起來，你的皮膚開始燃燒。
 warp.text.6=濃霧自四周湧現，似乎有什麼翻弄於在其中。
 warp.text.7=它們無處不在！快跑！
 warp.text.8=肯定有什麼辦法能夠抑制這些痛苦！
+warp.text.9=你忽然對破壞感到了厭倦。 
+warp.text.10=你的知覺急遽的擴展開來。
+warp.text.11=那是什麼聲音？ 有什麼東西在你身旁。
+warp.text.12=有東西正跟著你。
+warp.text.13=有什麼東西正盯著你，或許是時候該收手了。
+warp.text.14=你感到一切忽然清晰明朗。
+warp.text.15=你的肚子忽然發出古怪的聲響。
 #
 # Entities
 entity.Thaumcraft.ThaumSlime.name=神秘史萊姆
@@ -65,6 +73,8 @@ entity.trunk.stay=箱子寶寶將留在原地
 entity.Thaumcraft.MindSpider.name=心魔蛛
 entity.Thaumcraft.EldritchGuardian.name=禁忌守衛
 entity.Thaumcraft.EldritchOrb.name=禁忌能量球
+entity.Thaumcraft.CultistKnight.name=血色騎士
+entity.Thaumcraft.CultistCleric.name=血色教徒
 #
 # Blocks
 tile.blockAiry.0.name=靈氣節點
@@ -149,6 +159,7 @@ tile.blockWoodenDevice.4.name=奧術鑽掘機基座
 tile.blockWoodenDevice.5.name=奧術鑽掘機
 tile.blockWoodenDevice.6.name=宏偉之樹木材
 tile.blockWoodenDevice.7.name=銀樹木材
+tile.blockWoodenDevice.8.name=旗幟
 tile.blockJar.0.name=要素罐子
 tile.blockJar.1.name=缸中之腦
 tile.blockJar.2.name=缸中節點
@@ -197,6 +208,9 @@ tile.blockStoneDevice.8.name=複合充能核心
 tile.blockStoneDevice.9.name=節點穩定器
 tile.blockStoneDevice.10.name=高級節點穩定器
 tile.blockStoneDevice.11.name=節點轉換器
+tile.blockStoneDevice.12.name=奧法浴池
+text.spa.mix.true=混合配方
+text.spa.mix.false=單純浸浴
 tile.blockTube.0.name=要素源質管道
 tile.blockTube.1.name=要素源質閥門
 tile.blockTube.2.name=奧術離心機
@@ -204,8 +218,15 @@ tile.blockTube.3.name=過濾源質管道
 tile.blockTube.4.name=源質緩衝器
 tile.blockTube.5.name=限制源質管道
 tile.blockTube.6.name=定向源質管道
+tile.blockTube.7.name=源質結晶器
 container.alchemyfurnace=煉金爐
 tile.blockArcaneFurnace.name=煉獄熔爐
+tile.blockEldritch.0.name=邪術祭壇
+tile.blockEldritch.1.name=邪術方尖塔
+tile.blockEldritch.2.name=邪術方尖塔
+tile.blockEldritch.3.name=邪術頂石
+tile.blockPortalEldritch.name=邪術傳送門
+tile.blockEssentiaReservoir.name=源質庫
 #
 # Items
 item.GolemBell.name=傀儡使之鈴
@@ -420,6 +441,7 @@ item.ItemRingRunic.3.name=回復符文護盾戒指
 item.ItemGirdleRunic.0.name=符文護盾腰帶
 item.ItemGirdleRunic.1.name=衝擊符文護盾腰帶
 item.runic.charge=符文護盾
+item.warping=扭曲
 item.ItemBaubleBlanks.0.name=凡人護身符
 item.ItemBaubleBlanks.1.name=凡人戒指
 item.ItemBaubleBlanks.2.name=凡人腰帶
@@ -431,13 +453,18 @@ item.ItemAmuletVis.1.name=儲魔護符
 item.ItemGirdleHover.name=奧術腰帶
 item.ItemBathSalts.name=淨化浴鹽
 item.ItemBucketDeath.name=化骨死水
+item.ItemBucketPure.name=淨化之泉
 item.ItemHelmetFortress.name=秘術城寨兜盔
 item.ItemChestplateFortress.name=秘術城寨胸鎧
 item.ItemLeggingsFortress.name=秘術城寨脛甲
 item.HelmetFortress.mask.0=獰笑惡鬼
 item.HelmetFortress.mask.1=暴怒幽魂
 item.HelmetFortress.mask.2=嗜血邪妖
-item.ItemEldritchObject.name=妖異之眼
+item.ItemEldritchObject.0.name=妖異之眼
+item.ItemEldritchObject.1.name=血色儀式
+item.ItemEldritchObject.text.1=它似乎盯著你看。
+item.ItemEldritchObject.text.2=書上畫滿了詭異的符號。
+item.ItemEldritchObject.text.3=點選以學習。[當前無法使用]
 item.ItemHelmetVoid.name=虛空頭盔
 item.ItemChestplateVoid.name=虛空胸甲
 item.ItemLeggingsVoid.name=虛空護腿
@@ -450,12 +477,21 @@ item.ItemHoeVoid.name=虛空鋤
 item.ItemHelmetVoidRobe.name=虛空祕術使兜帽
 item.ItemChestplateVoidRobe.name=虛空祕術使長袍
 item.ItemLeggingsVoidRobe.name=虛空祕術使護脛
+item.ItemSanitySoap.name=消毒皂
+item.itemSanityChecker.name=神智檢測儀
+item.ItemHelmetCultistRobe.name=血色邪徒兜帽
+item.ItemChestplateCultistRobe.name=血色邪徒法袍
+item.ItemLeggingsCultistRobe.name=血色邪徒護脛
+item.ItemBootsCultist.name=血色邪徒長靴
+item.ItemHelmetCultistPlate.name=血色邪徒頭盔
+item.ItemChestplateCultistPlate.name=血色邪徒胸甲
+item.ItemLeggingsCultistPlate.name=血色邪徒脛甲
 #
 # Fluids
 fluid.fluxGoo=汙染黏漿
 fluid.fluxGas=汙染瓦斯
-fluid.purity=淨化之泉
-fluid.death=化骨死水
+fluid.fluidPure=淨化之泉
+fluid.fluidDeath=化骨死水
 #
 # GUI
 golemblurb.0.text=吾主，您希望吾為您在此處保管何物呢？
@@ -535,9 +571,13 @@ tc.addaspectdiscovery=您已發現%n！
 tc.addclue=您已發現新研究的線索！
 tc.addcluefail=您已發現新研究的線索，但由於缺乏紙墨而無法進行記錄！
 tc.addaspectpool=取得%s研究點：%n
-tc.addwarp=§5你開始出現扭曲！§0
+tc.addwarp=§5你產生了常駐的扭曲！§0
 tc.addwarptemp=§5你出現了短暫的扭曲！§0
-tc.forbidden=§l§5禁忌知識(%n)§0
+tc.addwarpsticky=§5你產生了扭曲！§0
+tc.removewarp=§5你身上常駐的扭曲消退了！§0
+tc.removewarpsticky=§5你身上的扭曲消退了！§0
+tc.removewarptemp=§5你身上短暫的扭曲消退了！§0
+tc.forbidden=§l§5禁忌研究(%n)§0
 tc.forbidden.level.1=無害
 tc.forbidden.level.2=輕微
 tc.forbidden.level.3=中度
@@ -1229,7 +1269,7 @@ tc.research_page.DISTILESSENTIA.2=接下來你需要利用§l奧術蒸餾器§r�
 #
 tc.research_name.JARLABEL=要素罐子和標籤
 tc.research_text.JARLABEL=儲存和整理要素源質
-tc.research_page.JARLABEL.1=可以用§l要素罐子§r儲存要素源質。<BR>將要素罐子放置在地上，它能夠非常明瞭直觀地儲存源質。 由於魔法的力量，使用或者存放罐子中的源質都是小菜一碟的事情。<BR>將罐子置於奧術蒸餾器噴嘴下方，噴嘴會自動流出源質填充罐子.你也可以使用要素安瓿來填充或者清空罐子。<BR>此外它們還非常便於大量而密集地進行源質儲存。
+tc.research_page.JARLABEL.1=可以用§l要素罐子§r儲存要素源質。<BR>將要素罐子放置在地上，它能夠非常明瞭直觀地儲存源質。 由於魔法的力量，使用或者存放罐子中的源質都是小菜一碟的事情。<BR>手持罐子直接點擊奧術蒸餾器就可以將源質裝進罐中。你也可以使用要素安瓿來填充或清空罐子。<BR>此外它們還非常便於大量而密集地進行源質儲存。
 tc.research_page.JARLABEL.2=空手狀態下按住潛行鍵(Shift)右擊罐子或者蒸餾器能夠清空它們。<BR>只要罐子裡裝有源質，你就可以貼上§l罐子標籤l§。<BR>標籤將罐子鎖定為接收特定類型的要素源質而不再能接收任意其他類型的源質。<BR>空手對著罐子帖著標籤的一面按住潛行點擊，能夠取下標籤。注意如果誤點了其他面會清空罐子裡裝的源質。
 tc.research_page.JARLABEL.3=你可以對著空罐子使用與某種要素綁定過的標籤(在合成台中合成裝有要素的安瓿與標籤)，這樣空罐子會自動綁定到這種要素，變成對應的標籤罐子。而標籤上的要素僅僅只是標記，並不真的消耗源質。<BR>對著裝滿了要素的罐子使用，則會把罐子變成和其容納要素相對應的標籤罐子。<LINE>綁定過某種要素的標籤只需要放入合成網格參與一次合成就能變回空白標籤。
 #
@@ -1523,4 +1563,34 @@ tc.research_page.ARMORVOIDFORTRESS.1=一個真正開悟的祕術使理解了如�
 tc.research_name.CAP_void=虛空杖端
 tc.research_text.CAP_void=來自另一端的力量
 tc.research_page.CAP_void.1=用虛空金屬合成杖端由於其魔力抗性顯得違背直覺，但秘術使的天職就是做違背直覺的事情。<BR>你的賭注大獲全勝。儘管這種金屬具有魔抗抗性，但引導起魔力來卻是易如反掌，其魔法莫名的看似§o詭異§r，但這或許只是你的幻想。
+#
+tc.research_name.ARCANESPA=奧法浴池
+tc.research_text.ARCANESPA=時髦的休閒
+tc.research_page.ARCANESPA.1=手動將浴鹽灑進水裡麻煩又無趣，好在秘術使能利用一些魔法手段輕鬆地解決這個問題。<BR>你製造出了一台方便的設備，能夠自動混合水和浴鹽，並將它們泵出到設備上方的空間。泵出的流體將填滿機器正上方5X5大小的區域。<BR>此外，你發現它也能用於將任意其他流體泵出。你可以使用自動化設備裝填它。或者拿著合適的容器右鍵方塊。<BR>通入紅石信號能夠關閉它。
+#
+tc.research_name.SANESOAP=消毒皂
+tc.research_text.SANESOAP=擺脫那些骯髒的念頭吧
+tc.research_page.SANESOAP.1=淨化肉體固然容易，但是若受到扭曲糾纏，也同樣需要洗滌心靈的妙法。<BR>這塊肥皂能夠洗淨肉體上的污垢，但其真正特別之處在於還能對你的精神產生效果。它能夠祛除所有暫時性的扭曲。並有小機率能夠祛除非常駐的扭曲。<BR>浸泡淨化之水或處於扭曲守護狀態時使用這塊肥皂能夠增加生效的幾率。
+#
+tc.research_name.SANITYCHECK=神智檢測儀
+tc.research_text.SANITYCHECK=勇敢者的內省
+tc.research_page.SANITYCHECK.1=近來你的腦海中一片紛繁。似乎你應當好好自省一番，以確保沒有哪裡不對勁。<BR>神智檢測儀能夠幫助你查看精神世界的扭曲效果以及它們會如何影響你。<BR>理所當然地，你不可能允許這些資料落入敵手，因此你煞費苦心地讓它提供的信息模糊而晦澀，不過你似乎做得過頭了-你自己理解起來都有點困難。
+#
+tc.research_name.CRIMSON=血色崇拜
+tc.research_text.CRIMSON=一部警示錄
+tc.research_page.CRIMSON.1=書冊上的多數內容以密如蛛網，不知所云的字符寫成，但你明確讀懂的部分讓你對那些血色邪徒的目的隱約有了奇怪的瞭解。<BR>它們的起源仍籠罩在謎團中，但它們似乎正致力於完成一個它們稱為"Apertis Oculis"的開眼儀式。這儀式的目的尚未明瞭，但你推測那並不是什麼好事。<BR>但有趣的是，你認為神秘學能夠補完它們長久以來一直尋找的儀式所殘缺的部分。很明顯開展這類研究是相當瘋狂的行為...
+#
+tc.research_name.OCULUS=開眼儀式
+tc.research_text.OCULUS=我將向他們展示我的發現，向他們所有人。
+tc.research_page.OCULUS.1=一切都是那麼的簡單，你對那些血色邪徒一直沒有發現它感到驚訝。<BR>想要完成儀式，需要將4顆邪術之眼放在一種特別顯眼的頂石上。那種頂石在你頭一回發現血腥邪徒的祭壇那裡就能找到。拱頂石上方的凶險節點必須保持完整。<BR>完成上述步驟後，還需要讓頂石從法杖中抽取大量的元初要素，每種大約100點。
+tc.research_page.OCULUS.2=如果所有步驟均正確，那麼儀式將被完成，而名為"眼"之存在將會睜開。<BR>當然你並不知道那意味著什麼。不過那又何妨？只有愚者才會畏懼未知。
+#
+tc.research_name.ESSENTIARESERVOIR=高級源質儲存
+tc.research_text.ESSENTIARESERVOIR=別撞到它
+tc.research_page.ESSENTIARESERVOIR.1=多數類型的源質相當容易揮發，需要小心儲存，這也是普通秘術使會選擇使用密閉罐子的原因所在。可是你並非那些普通的秘術使。<BR>通過使用一種名為虛空錠的神奇新物質，你發現一種顯著提升源質存儲能力的方法。源質庫能夠容納256點任意類型組合的源質。<BR>這種新型金屬構築的動態隔間都夠有效隔絕不同類型的源質從而排除異種源質混合可能會造成的潛在危險。
+tc.research_page.ESSENTIARESERVOIR.2=如同罐子，源質庫也只有一面能夠參與源質物流系統，儘管你可以指定這一面的朝向。不幸的是。這種容器無法手動清空或者手動填裝。你必須借助於傀儡或者源質管道。<BR>不建議直接挖掉盛有內容的源質庫。<BR>這項發現讓你喜悅萬分，因此你向一些秘術使夥伴展示了它。奇怪的是，他們多數都一副避之唯恐不及的樣子，即使你已經向他們保證經過極端高壓處理後這種金屬的安全性值得信任。
+#
+tc.research_name.ESSENTIACRYSTAL=源質結晶器 
+tc.research_text.ESSENTIACRYSTAL=要結實的貨幣，還是要流動的資產？
+tc.research_page.ESSENTIACRYSTAL.1=你差不多已經掌握了如何將凝聚的物質轉換為液態的源質，所以反過來也並非多麻煩的事。<BR>源質結晶器從管道系統中抽取源質並緩慢地將其凝聚成要素源質水晶的小碎片。源質水晶易於管理運輸，也非常穩定。<BR>結晶器會將凝聚的水晶彈出來或者裝入旁邊的容器，通入紅石信號可以關閉這功能。<BR>向其提供terra魔力將顯著提升其速度。
 #
