@@ -376,9 +376,8 @@ item.ItemSwordThaumium.name=Thaumium Sword
 item.ItemPickThaumium.name=Thaumium Pickaxe
 item.ItemHoeThaumium.name=Thaumium Hoe
 item.researchnotes.name=Research Notes
-item.researchnotes.unknown=Unknown Knowledge
-item.researchnotes.failed.1=Failed, place in crafting grid
-item.researchnotes.failed.2=to regain knowledge fragments
+item.researchnotes.unknown.1=Unknown Knowledge
+item.researchnotes.unknown.2=<Right click to reveal> 
 item.discovery.name=Discovery
 item.ItemWispEssence.name=Ethereal Essence
 item.ItemCrystalEssence.name=Crystallized Essence
@@ -1025,11 +1024,11 @@ tc.research_page.ENCHANT.2=§nHaste§r<BR>This enchantment can be applied to foo
 tc.research_name.ELEMENTALAXE=Axe of the Stream
 tc.research_text.ELEMENTALAXE=Rivers of Wood
 tc.research_page.ELEMENTALAXE.1=By combining water shards and a thaumium axe, you have created a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block. 
-tc.research_page.ELEMENTALAXE.2=If you press and hold right click the axe will harvest at a much faster speed, but at a greater cost to its durability.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.#
+tc.research_page.ELEMENTALAXE.2=Any wood chopped in this fashion will automatically float towards you.<BR>If you press and hold right click the axe will axe will draw all nearby items towards you - not just wood it chopped.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.
 #
 tc.research_name.ELEMENTALPICK=Pickaxe of the Core
 tc.research_text.ELEMENTALPICK=Purifying Heat
-tc.research_page.ELEMENTALPICK.1=By infusing a thaumium pickaxe with fire shards, you have created a pickaxe that glows with the heat of a forge.<BR>When you mine ore blocks there is a chance that you will mine a cluster instead. Native clusters are much easier to process and produces double the normal amount of metal when smelted.<BR>It can also be use to sound out any surface you right click against to find out what valuable materials can be found nearby.
+tc.research_page.ELEMENTALPICK.1=By infusing a thaumium pickaxe with fire shards, you have created a pickaxe that glows with the heat of a forge.<BR>When you mine ore blocks there is a chance that you will mine a cluster instead. Native clusters are much easier to process and produces double the normal amount of metal when smelted.<BR>It can also be use to sound out any surface you right click against to find out what valuable ores, lava or water can be found nearby.
 tc.research_page.ELEMENTALPICK.2=If shift is held while using this tool all its special properties are suspended and it functions like a normal pickaxe.
 #
 tc.research_name.ELEMENTALSWORD=Sword of the Zephyr
