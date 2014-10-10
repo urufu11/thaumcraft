@@ -376,9 +376,8 @@ item.ItemSwordThaumium.name=秘術劍
 item.ItemPickThaumium.name=秘術鎬
 item.ItemHoeThaumium.name=秘術鋤
 item.researchnotes.name=研究筆記
-item.researchnotes.unknown=未知知識
-item.researchnotes.failed.1=研究已失敗，放入合成台
-item.researchnotes.failed.2=可以回收成知識碎片
+item.researchnotes.unknown.1=未知知識
+item.researchnotes.unknown.2=<右鍵以解明> 
 item.discovery.name=發現
 item.ItemWispEssence.name=源質精華
 item.ItemCrystalEssence.name=源質結晶
@@ -994,7 +993,7 @@ tc.research_page.TABLE.1=台桌並非僅僅是個裝飾性的方塊-比如在魔
 #
 tc.research_name.ARCTABLE=奧術工作台
 tc.research_text.ARCTABLE=魔導合成
-tc.research_page.ARCTABLE.1=對著放置好的台桌使用法杖(右鍵)就能創建一個奧術工作台奧術工作台，囊括了普通的木製工作台的功能。<BR>除了普通的合成，這個工作台還能用於製作一些秘術學上獨有的道具。合成這種物品時你需要將你的法杖放置在工作台右上角的位置，這樣製作過程中需要的源質就可以由這個法杖來供給。<BR>合成所需何種魔力會顯示在合成網格周圍的六角徽記中。
+tc.research_page.ARCTABLE.1=對著放置好的台桌使用法杖(右鍵)就能創建一個奧術工作台，奧術工作台囊括了普通的木製工作台的功能。<BR>除了普通的合成，這個工作台還能用於製作一些秘術學上獨有的道具。合成這種物品時你需要將你的法杖放置在工作台右上角的位置，這樣製作過程中需要的源質就可以由這個法杖來供給。<BR>合成所需何種魔力會顯示在合成網格周圍的六角徽記中。
 #
 tc.research_name.RESTABLE=研究台
 tc.research_text.RESTABLE=匯焦知識
@@ -1024,12 +1023,12 @@ tc.research_page.ENCHANT.2=§n急迫§r<BR>進行該附魔的鞋子能夠讓穿�
 #
 tc.research_name.ELEMENTALAXE=奔流斧
 tc.research_text.ELEMENTALAXE=木材的河流
-tc.research_page.ELEMENTALAXE.1=將水之碎片與秘術錠製作的斧融合，你打造出一柄擁有流水特性的魔斧。<BR>這把斧頭除了對木材和原木使用外，與普通斧頭相比無甚特殊之處。當用它來採伐木頭的時候，它會首先將與這個方塊相連最遠的方塊採掘並吸收過來。<BR>因此你可以用這柄斧頭從上到下地砍樹。
-tc.research_page.ELEMENTALAXE.2=如果你長按右鍵使用斧頭，將會消耗更多耐久，但以更快的速度來採伐目標木材或原木。<BR>當你按住潛行鍵則可以抑制其特效，將其作為普通斧頭使用。
+tc.research_page.ELEMENTALAXE.1=將水之碎片與秘術錠製作的斧融合，你打造出一柄擁有流水特性的魔斧。<BR>這把斧頭除了對木材和原木使用外，與普通斧頭相比無甚特殊之處。當用它來採伐木頭的時候，它會首先將與這個方塊相連最遠的方塊採掘並吸收過來。<BR>因此你可以用這柄斧頭由上至下砍樹。
+tc.research_page.ELEMENTALAXE.2=這把斧頭砍下的木材將自動流向你。<BR>如果你長按右鍵使用斧頭，將自動把周圍的物品拉向你-不僅只有你砍下的木頭。<BR>當你按住潛行鍵則可以抑制其特效，將其作為普通斧頭使用。
 #
 tc.research_name.ELEMENTALPICK=熾心鎬
 tc.research_text.ELEMENTALPICK=熔岩之心
-tc.research_page.ELEMENTALPICK.1=將火之碎片與秘術錠製作的鎬融合，你打造出一柄冒著熊熊火光的魔鎬。<BR>使用熾心鎬採掘礦物時有一定幾率掉落原礦簇而非礦石.冶煉原礦簇能得到雙倍的產出。<BR>持有熾心鎬右擊任意方塊表面，能夠探測並顯示附近最有價值的材料。
+tc.research_page.ELEMENTALPICK.1=將火之碎片與秘術錠製作的鎬融合，你打造出一柄冒著熊熊火光的魔鎬。<BR>使用熾心鎬採掘礦物時有一定幾率掉落原礦簇而非礦石.冶煉原礦簇能得到雙倍的產出。<BR>持有熾心鎬右擊任意方塊表面，能夠探測並顯示附近的礦物、水源、或是岩漿。
 tc.research_page.ELEMENTALPICK.2=當你按住潛行則可以抑制其特效，將其作為普通鎬子使用。
 #
 tc.research_name.ELEMENTALSWORD=風雷劍
@@ -1394,6 +1393,7 @@ tc.research_name.CENTRIFUGE=奧術離心機
 tc.research_text.CENTRIFUGE=分離物品
 tc.research_page.CENTRIFUGE.1=奧術離心機是一種令人驚艷，能夠將源質分解為更基本的前置要素的煉金設備。<BR>當複合要素的源質從下方流入離心機，就會被慢慢分解成組成它們的前置的複合要素或元初要素。但每消耗一點源質只能得到一點前置要素源質。<BR>分離得到的要素源質需要從離心機頂部抽走。由於管道壓力系統的特性，最好在離心機頂部連接一個§5源質緩衝器§0(見下頁)。
 tc.research_page.CENTRIFUGE.2=源質緩衝器能夠允許你暫時儲存一定量的源質，總計8點，可以是不同源質類型的任意組合。如同罐子它會自動吸收源質，但其吸力是各種可能中最小的(吸收的優先級最低)。<BR>換言之通常只有在直接將其安附在源質來源處它才能吸入源質，然而管道可以連接在它所有的方向上，這意味著除了用它來提取奧術離心機這種大容量空間的設備中的源質以外意義甚微。<BR>你可以為緩衝器安裝奧術風箱，每個風箱提升32點吸力。
+tc.research_page.CENTRIFUGE.=另外你可以向普通的管道般各別的開啟或關閉緩衝器的每一面，而當你按住shift點擊其任意連接處，能將那一面的吸力抑制在1(藍)或0(紅)。這個特性使得源質緩衝器在輸送源質時有許多有趣的可能性。
 #
 tc.research_name.TRAVELTRUNK=箱子寶寶
 tc.research_text.TRAVELTRUNK=會走路的行李
@@ -1566,7 +1566,7 @@ tc.research_page.CAP_void.1=用虛空金屬合成杖端由於其魔力抗性顯�
 #
 tc.research_name.ARCANESPA=奧法浴池
 tc.research_text.ARCANESPA=時髦的休閒
-tc.research_page.ARCANESPA.1=手動將浴鹽灑進水裡麻煩又無趣，好在秘術使能利用一些魔法手段輕鬆地解決這個問題。<BR>你製造出了一台方便的設備，能夠自動混合水和浴鹽，並將它們泵出到設備上方的空間。泵出的流體將填滿機器正上方5X5大小的區域。<BR>此外，你發現它也能用於將任意其他流體泵出。你可以使用自動化設備裝填它。或者拿著合適的容器右鍵方塊。<BR>通入紅石信號能夠關閉它。
+tc.research_page.ARCANESPA.1=手動將浴鹽灑進水裡麻煩又無趣，好在秘術使能利用一些魔法手段輕鬆地解決這個問題。<BR>你製造出了一台方便的設備，能夠自動混合水和浴鹽，並將它們泵出到設備上方的空間。泵出的流體將填滿機器正上方5X5大小的區域。<BR>此外，你發現它也能用於將任意其他流體泵出。你可以使用自動化設備裝填它，或是拿著合適的容器右鍵方塊。通入紅石信號能夠將它關閉。
 #
 tc.research_name.SANESOAP=消毒皂
 tc.research_text.SANESOAP=擺脫那些骯髒的念頭吧
@@ -1587,10 +1587,10 @@ tc.research_page.OCULUS.2=如果所有步驟均正確，那麼儀式將被完成
 #
 tc.research_name.ESSENTIARESERVOIR=高級源質儲存
 tc.research_text.ESSENTIARESERVOIR=小心輕放
-tc.research_page.ESSENTIARESERVOIR.1=多數類型的源質相當容易揮發，需要小心儲存，這也是普通秘術使會選擇使用密閉罐子的原因所在。可是你並非那些普通的秘術使。<BR>通過使用一種名為虛空錠的神奇新物質，你發現一種顯著提升源質存儲能力的方法。源質庫能夠容納256點任意類型組合的源質。<BR>這種新型金屬構築的動態隔間都夠有效隔絕不同類型的源質從而排除異種源質混合可能會造成的潛在危險。
-tc.research_page.ESSENTIARESERVOIR.2=如同罐子，源質庫也只有一面能夠參與源質物流系統，儘管你可以指定這一面的朝向。不幸的是。這種容器無法手動清空或者手動填裝。你必須借助於傀儡或者源質管道。<BR>不建議直接挖掉盛有內容的源質庫。<BR>這項發現讓你喜悅萬分，因此你向一些秘術使夥伴展示了它。奇怪的是，他們多數都一副避之唯恐不及的樣子，即使你已經向他們保證經過極端高壓處理後這種金屬的安全性值得信任。
+tc.research_page.ESSENTIARESERVOIR.1=多數類型的源質相當容易揮發，需要小心儲存，這也是一般秘術使會選擇使用密閉罐子的原因所在。可是你並非那些平凡的秘術使。<BR>通過使用一種名為虛空錠的神奇新物質，你發現一種顯著提升源質存儲能力的方法。源質庫能夠容納256點任意類型組合的源質。<BR>這種新型金屬構築的動態隔間都夠有效隔絕不同類型的源質從而排除異種源質混合可能會造成的潛在危險。
+tc.research_page.ESSENTIARESERVOIR.2=如同罐子，源質庫也只有一面能夠參與源質管道系統，儘管你可以指定這一面的朝向。不幸的是。這種容器無法手動清空或者手動填裝。你必須借助於傀儡或者源質管道。<BR>不建議直接挖掉盛有內容的源質庫。<BR>這項發現讓你喜悅萬分，因此你向一些秘術使夥伴展示了它。奇怪的是，他們多數都一副避之唯恐不及的樣子，即使你已經向他們保證經過極端高壓處理後這種金屬的安全性值得信任。
 #
 tc.research_name.ESSENTIACRYSTAL=源質結晶器 
 tc.research_text.ESSENTIACRYSTAL=要結實的貨幣，還是要流動的資產？
-tc.research_page.ESSENTIACRYSTAL.1=你差不多已經掌握了如何將凝聚的物質轉換為液態的源質，所以反過來也並非多麻煩的事。<BR>源質結晶器從管道系統中抽取源質並緩慢地將其凝聚成要素源質結晶的小碎片。源質水晶易於管理運輸，也非常穩定。<BR>結晶器會將凝聚的水晶彈出來或者裝入旁邊的容器，通入紅石信號可以關閉這功能。<BR>向其提供terra魔力將顯著提升其速度。
+tc.research_page.ESSENTIACRYSTAL.1=你差不多已經掌握了如何將凝聚的物體轉換為液態的源質，所以反過來也並非多麻煩的事。<BR>源質結晶器從管道系統中抽取源質並緩慢地將其凝聚成要素源質結晶的小碎片。源質水晶易於管理運輸，且非常穩定。<BR>結晶器會將凝聚的水晶彈出來或者裝入旁邊的容器，通入紅石信號可以關閉這功能。<BR>向其提供terra魔力將顯著提升其速度。
 #
