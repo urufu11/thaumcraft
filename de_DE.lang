@@ -376,9 +376,8 @@ item.ItemSwordThaumium.name=Thaumiumschwert
 item.ItemPickThaumium.name=Thaumiumspitzhacke
 item.ItemHoeThaumium.name=Thaumiumhacke
 item.researchnotes.name=Forschungsnotizen
-item.researchnotes.unknown=Unbekanntes Wissen
-item.researchnotes.failed.1=Fehlgeschlagen, platziere ins Werkfenster,
-item.researchnotes.failed.2=um Wissensfragmente wiederzubekommen
+item.researchnotes.unknown.1=Unbekanntes Wissen
+item.researchnotes.unknown.2=<Rechtsklicke zum Enthüllen>
 item.discovery.name=Entdeckung
 item.ItemWispEssence.name=Ätherische Essenz
 item.ItemCrystalEssence.name=Kristallisierte Essenz
@@ -1025,11 +1024,11 @@ tc.research_page.ENCHANT.2=§nHast§r<BR>Mit Hast verzauberte Stiefel erhöhen d
 tc.research_name.ELEMENTALAXE=Axt des Stroms
 tc.research_text.ELEMENTALAXE=Flüsse aus Holz
 tc.research_page.ELEMENTALAXE.1=Durch die Verbindung von Wasser-Scherben und einer Thaumiumaxt hast du ein Werkzeug entwickelt, dass die Aspekte der Bewegung und des Fließens vereint.<BR>Auf allen Materialien außer Baumstämmen verhält es sich wie eine normale Axt. Auf Stämmen jedoch sucht diese Axt den entferntesten, noch mit dem angeklickten Block verbundenen Block des selben Materials und baut diesen stattdessen ab.<BR>Du fällst also Bäume immer von oben nach unten, selbst, wenn du auf den untersten Block klickst.
-tc.research_page.ELEMENTALAXE.2=Wenn du die rechte Maustaste gedrückt hältst, ist die Axt wesentlich schneller, das geht jedoch auf Kosten der Haltbarkeit.<BR>Solange du Shift drückst, verliert dieses Werkzeug seine besonderen Fähigkeiten und verhält sich wie eine normale Axt.
+tc.research_page.ELEMENTALAXE.2=Jegliches auf diese Weise geschlagene Holz fliegt automatisch zu dir.<BR>Wenn du die rechte Maustaste gedrückt hältst, wird die Axt alle nahen Items zu dir ziehen - nicht nur geschlagenes Holz.<BR>Solange du Shift drückst, verliert dieses Werkzeug seine besonderen Fähigkeiten und verhält sich wie eine normale Axt.
 #
 tc.research_name.ELEMENTALPICK=Spitzhacke des Kerns
 tc.research_text.ELEMENTALPICK=Reinigende Hitze
-tc.research_page.ELEMENTALPICK.1=Mit dem Infundieren einer Thaumiumspitzhacke mit Feuer-Scherben hast du eine Spitzhacke geschaffen, die mit der Hitze einer Schmiede glüht.<BR>Wenn du ein Erz abbaust besteht die Chance, dass du stattdessen einen Klumpen erhältst. Native Klumpen sind wesentlich leichter zu verarbeiten und liefern die doppelte Menge an Metall, wenn sie eingeschmolzen werden.<BR>Zusätzlich kannst du mit einem Rechtsklick auf eine beliebige Oberfläche sondieren, welche wertvollen Materialien sich in der Nähe befinden.
+tc.research_page.ELEMENTALPICK.1=Mit dem Infundieren einer Thaumiumspitzhacke mit Feuer-Scherben hast du eine Spitzhacke geschaffen, die mit der Hitze einer Schmiede glüht.<BR>Wenn du ein Erz abbaust besteht die Chance, dass du stattdessen einen Klumpen erhältst. Native Klumpen sind wesentlich leichter zu verarbeiten und liefern die doppelte Menge an Metall, wenn sie eingeschmolzen werden.<BR>Zusätzlich kannst du mit einem Rechtsklick auf eine beliebige Oberfläche sondieren, welche wertvollen Erze (sowie Lava oder Wasser) sich in der Nähe befinden.
 tc.research_page.ELEMENTALPICK.2=Solange du Shift drückst, verliert dieses Werkzeug seine besonderen Fähigkeiten und verhält sich wie eine normale Spitzhacke.
 #
 tc.research_name.ELEMENTALSWORD=Schwert des Zephir
@@ -1394,6 +1393,7 @@ tc.research_name.CENTRIFUGE=Alchemische Zentrifuge
 tc.research_text.CENTRIFUGE=Nimmt Dinge auseinander
 tc.research_page.CENTRIFUGE.1=Die Alchemische Zentrifuge ist eine wundervolle Erfindung, die es dir erlaubt, Essentia in ihre Bestandteile zu zerlegen.<BR>Wenn Verbund-Essentia von der Unterseite in die Zentrifuge fließt, wird sie langsam in ihre Basis- oder Verbund-Essentia zerlegt. Nur eine der Komponenten wird für jeden Punkt der zerlegten Essentia erzeugt.<BR>Die resultierende Essentia muss von der Oberseite der Zentrifuge entnommen werden. Aufgrund der Eigenheiten des Röhrendrucksystems ist es ratsam, einen §5Essentia-Puffer§0 über der Zentrifuge anzubringen (siehe nächste Seite).
 tc.research_page.CENTRIFUGE.2=Der Essentia-Puffer ermöglicht es, eine kleine Menge Essentia - insgesamt 8 Punkte - zu speichern, und das in einer beliebigen Zusammensetzung. Wie ein Glas hat er eine Saugkraft, auch wenn diese auf einem minimalen Wert (1) ist.<BR>Das bedeutet, dass nur Essentia aus einer direkt verbundenen Quelle angesaugt werden. Dennoch können an jede Seite Röhren angebracht werden, wodurch der Puffer geeignet ist, Essentia aus Geräten wie der Zentrifuge zu entnehmen, deren Inhalt wechselnde Typen ausmachen.<BR>Du kannst Blasebälge an einem Puffer anbringen - jeder Blasebalg erhöht die Saugkraft um 32.
+tc.research_page.CENTRIFUGE.3=Zusätzlich kannst du spezifische Verbindungen wie bei normalen Röhren an- und abschalten, aber wenn du auf eine Verbindung shift-klickst, wird die Saugkraft auf der Seite auf 1 (blaues Band) oder 0 (rotes Band) gesetzt.<BR>Dies eröffnet interessante Möglichkeiten bezüglich deiner Essentia-Logistik.
 #
 tc.research_name.TRAVELTRUNK=Reisekoffer
 tc.research_text.TRAVELTRUNK=Mobiles Gepäck
@@ -1566,7 +1566,7 @@ tc.research_page.CAP_void.1=Stabkappen aus Leermetall zu fertigen, scheint zieml
 #
 tc.research_name.ARCANESPA=Arkanes Bad
 tc.research_text.ARCANESPA=Entspannung mit Stil
-tc.research_page.ARCANESPA.1=Badesalze ins Wasser zu geben, ist längst lästige Routine geworden, glücklicherweise kann man diese mit ein wenig Magie umgehen.<BR>Du hast eine praktische Maschine kreiert, die, wenn mit Wasser und Badesalzen gefüllt, beides automatisch mischen und die Flüssigkeit in einen Bereich oberhalb von ihr pumpen wird. Die Maschine wird einen 5x5-Bereich oberhalb von ihr befüllen.<BR>Zusätzlich hast du herausgefunden, dass sie zum Pumpen fast jeder Flüssigkeit, mit der du sie füllen kannst, verwenden kannst. Du kannst es durch jegliche Form von Automatisierung füllen sowie, indem du mit dem entsprechenden Container auf den Block klickst<BR>Ein Redstone-Signal wird ihn deaktivieren.
+tc.research_page.ARCANESPA.1=Badesalze ins Wasser zu geben, ist längst lästige Routine geworden, glücklicherweise kann man diese mit ein wenig Magie umgehen.<BR>Du hast eine praktische Maschine kreiert, die, wenn mit Wasser und Badesalzen gefüllt, beides automatisch mischen und die Flüssigkeit in einen Bereich oberhalb von ihr pumpen wird. Die Maschine wird einen 5x5-Bereich oberhalb von ihr befüllen.<BR>Zusätzlich hast du herausgefunden, dass sie zum Pumpen fast jeder Flüssigkeit, mit der du sie füllen kannst, verwenden kannst. Du kannst es durch jegliche Form von Automatisierung füllen sowie, indem du mit dem entsprechenden Container auf den Block klickst. Ein Redstone-Signal wird ihn deaktivieren.
 #
 tc.research_name.SANESOAP=Säubernde Seife
 tc.research_text.SANESOAP=Werde deine schmutzigen Gedanken los
@@ -1582,7 +1582,7 @@ tc.research_page.CRIMSON.1=Der größte Teil dieses Buches ist in einer krakelig
 #
 tc.research_name.OCULUS=Das Öffnen des Auges
 tc.research_text.OCULUS=Ich werd's ihnen zeigen, ich werde es allen zeigen!
-tc.research_page.OCULUS.1=Es war alles so einfach - du bist erstaunt, dass der Karmesinkult das nie entdeckt hat.<BR>Um das Ritual zu vollziehen, muss man lediglich vier dieser Unheimlichen Augen auf jenen speziell markierten Steinen platzieren, die bei einem dieser seltsamen Altare zu finden sind, bei welchen du zum ersten Mal auf den Kult getroffen bist. Die dunkle Nodie oberhalb des Steines muss dabei intakt bleiben.<BR>Sobald dies vollbracht ist, muss man nur noch mit einem Stab eine große Menge Primärvis in den Schlussstein hineinfüllen - 100 Einheiten jeder Sorte sollten genügen.
+tc.research_page.OCULUS.1=Es war alles so einfach - du bist erstaunt, dass die Karmesinkultisten das nie entdeckt hat.<BR>Um das Ritual zu vollziehen, muss man lediglich vier dieser Unheimlichen Augen auf jenen speziell markierten Steinen platzieren, die bei einem dieser seltsamen Altare zu finden sind, bei welchen du zum ersten Mal auf den Kult getroffen bist. Die dunkle Nodie oberhalb des Steines muss dabei intakt bleiben.<BR>Sobald dies vollbracht ist, muss man nur noch mit einem Stab eine große Menge Primärvis in den Schlussstein hineinfüllen - 100 Einheiten jeder Sorte sollten genügen.
 tc.research_page.OCULUS.2=Wenn du alles richtig gemacht hast, sollte das Ritual komplett stein und das sogenannte "Auge" würde geöffnet werden.<BR>Natürlich hast du keine Ahnung, was das heißt. Macht nichts, nur Narren fürchten das Unbekannte!
 #
 tc.research_name.ESSENTIARESERVOIR=Fortgeschnittene Essentiaspeicherung
