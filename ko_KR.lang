@@ -16,7 +16,7 @@ potion.warpward=뒤틀림 해소
 potion.deathgaze=죽음의 시선
 potion.blurred=안개
 potion.sunscorned=햇빛 알러지
-potion.thaumarhia=사우마히아
+potion.thaumarhia=플럭스 분비
 #
 #Warp
 warp.text.1=이상하게 기운이 빠진 듯 지칩니다.
@@ -29,7 +29,7 @@ warp.text.5=갑자기 불빛이 피부를 태울 정도로 너무나 강렬하�
 warp.text.6=갑자기 깊은 안개가 드리웠습니다. 무언가 심연 속에서 움직이는 것만 같습니다.
 warp.text.7=사방에 그것들이 있어... 도망, 도망가야돼!
 warp.text.8=머리가 너무 아파... 이 두통을 없앨순 없을까?
-warp.text.9=당신은 일을 그만두는 것이 꺼려집니다.
+warp.text.9=당신은 일을 하는 것에 피로감을 느꼈습니다.
 warp.text.10=당신은 방금 무언가를 느꼈습니다.
 warp.text.11=방금 그 소리는 뭐였지? 네 뒤에 무언가가 있어.
 warp.text.12=누군가가 날 따라오고 있어.
@@ -347,7 +347,7 @@ item.BlockJarFilledItem.name=에센시아 단지
 item.BlockJarFilledItem.void.name=공허의 에센시아 단지
 item.BlockJarNodeItem.name=단지 안의 노드
 item.TripleMeatTreat.name=삼종 고기 간식
-item.ItemShovelElemental.name=땅을 움직이는 자의 삽
+item.ItemShovelElemental.name=대지이동의 삽
 item.ItemPickaxeElemental.name=중심의 곡괭이
 item.ItemAxeElemental.name=흐름의 도끼
 item.ItemHoeElemental.name=성장의 괭이
@@ -1022,7 +1022,7 @@ tc.research_name.ELEMENTALSWORD=미풍의 검
 tc.research_text.ELEMENTALSWORD=바람의 분노
 tc.research_page.ELEMENTALSWORD.1=사우뮴 검에 에어 샤드의 마력을 더해 바람의 힘이 깃들어있는 검을 만들 수 있습니다.<BR>이 검으로 적을 공격하면 부채꼴 모양으로 주변의 적을 추가적으로 공격합니다.<BR>이 검을 들고 방어자세를 취하게 되면 사용자의 주위에 소용돌이치는 바람의 방어막을 소환해서 근처의 적이나 날아오는 물체들을 모두 튕겨냅니다.<BR>바람 방어막이 소환된 동안 사용자는 천천히 하늘로 떠오릅니다.
 #
-tc.research_name.ELEMENTALSHOVEL=땅을 움직이는 자의 삽
+tc.research_name.ELEMENTALSHOVEL=대지이동의 삽
 tc.research_text.ELEMENTALSHOVEL=대지의 움직임
 tc.research_page.ELEMENTALSHOVEL.1=사우뮴 삽에 어스 샤드의 마력을 더해 멈출 수 없는 성능을 보여주는 삽을 만들 수 있습니다.<BR>이 삽은 한번에 3x3공간을 파냅니다.<BR>블록의 한 면을 이 삽으로 우클릭하면 인벤토리에 충분한 양의 블럭이 있을 경우 같은 종류의 블럭을 3x3크기로 놓습니다.<BR>파는 방향이나 블럭을 설치하는 방향은 캐거나 설치할 때 누르는 방향으로 결정됩니다.
 tc.research_page.ELEMENTALSHOVEL.2=Shift키를 누른 채 이 삽을 사용하면 모든 특수한 기능들이 작동하지 않고 일반 삽처럼 쓸 수 있습니다.
