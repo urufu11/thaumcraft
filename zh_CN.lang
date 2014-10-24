@@ -750,7 +750,7 @@ tc.research_page.RESEARCH.5=§l   §n(2) 融合要素§r<BR><BR>当收集到一�
 tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>§l3§r 号区域会列出全部的元始要素以及可能出现的一些复合要素,且下标会注明数量.当你首次进入世界时,会获得少量元始要素作为初始奖励.<BR>若你之前通过魔导透镜做过一些探索研究,则会列出相关的元始要素以及复合要素.
 tc.research_page.RESEARCH.7=<BR>现在你可以开始融合更加复杂的要素了,只需将那些你希望用于融合的要素拖拽到§l4§r号区域的符文圆环之中.被选中的要素会出现在§l4§r号区域中,当已选中两个要素后按下紫色按钮就即可尝试将它们融合.如若成功你应该能在右下方看到得到了什么,它会出现在§l3§r号区域中.<BR>即使没有实际获得复合要素,参与融合的要素也会被消耗掉.
 tc.research_page.RESEARCH.8=§l   §n(3) 基础研究§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>完成此步骤时你需要随身带着一套笔与墨以及纸张.<BR>翻开魔导手册,你能够查阅你已学会的所有知识,也能够查看你目前能够继续探求那些知识.<BR>闪烁的方块或圆形的图标标志着前置的研究.
-tc.research_page.RESEARCH.9=若你能看到其名称(而非只是些怪异的符文),那你就可以点击它们,消耗掉一些物品栏中的纸张和墨水,获得一份研究笔记.现在将这份研究笔记放入研究台的§l2§r号格子中即可开始研究.<BR>§l5§r号区域会显示出一张纸卷,上面排满了外缘绘有要素图标的六边形格子.若你看到的是问号图标,说明你尚不了解这种要素,需要先进行学习.<LINE> 
+tc.research_page.RESEARCH.9=若你能看到其名称(而非只是些怪异的符文),那你就可以点击它们,消耗掉一些物品栏中的纸张和墨水,获得一份研究笔记.现在将这份研究笔记放入研究台的§l2§r号格子即可开始研究.<BR>§l5§r号区域会显示出一张纸卷,上面排满了外缘绘有要素图标的六边形格子.若你看到的是问号图标,说明你尚不了解这种要素,需要先进行学习.<LINE> 
 tc.research_page.RESEARCH.10=要完成你的研究,只需链接和激活全部要素.为此,你需要将要素拖拽到六边形格子中,并使其要么与能融合成它的要素相连,要么与其能与其他要素融合成的要素相连.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>放置要素会消耗一个研究点.若出现了错误,可以点击要素以移除它,但这不会让你取回付出的研究点.
 tc.research_page.RESEARCH.11=持续上述操作,直到起始的全部要素都被连起来.外圈的要素不必与其他所有要素相连,只需要让它们成为相连的整体即可.<BR>此后研究就会完成,研究笔记会变为发现卷轴.<LINE>注意: 放置或移除六边形中的要素均会消耗墨水,如果墨水耗尽你需要添置一个新的才能继续研究.
 tc.research_page.RESEARCH.12=§l    §n(4) 次生研究§r<BR>六边形图标标示的是次生研究.类似基础研究,你也需要点击它们来进行研究.然而你将会直接学会这项研究而非获得研究报告. 次生研究也会消耗要素点,但不要求你带着笔墨纸张.
@@ -1018,7 +1018,7 @@ tc.research_page.ENCHFABRIC.2=当穿戴法袍施法时你能够更高效地使�
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技术
-tc.research_page.ENCHANT.1=神秘使懂得许多种独特的附魔技术.<BR>§n潜能 (仅用于法杖核心) §r<BR>该附魔能够提升法杖核心可造成的伤害以及作用范围,但会略微增加魔力消耗.<BR>§n朴素(仅用于法杖核心)§r<BR>进行该附魔后的法杖核心更加节约魔力.<BR>§n瑰宝(仅用于法杖核心)§r<BR>类似时运附魔的效果,增加采集物品的产量.
+tc.research_page.ENCHANT.1=神秘使懂得许多独特的附魔技术.<BR>§n潜能 (仅用于法杖核心) §r<BR>该附魔能够提升法杖核心可造成的伤害以及作用范围,但会略微增加魔力消耗.<BR>§n朴素(仅用于法杖核心)§r<BR>进行该附魔后的法杖核心更加节约魔力.<BR>§n瑰宝(仅用于法杖核心)§r<BR>类似时运附魔的效果,增加采集物品的产量.
 tc.research_page.ENCHANT.2=§n急迫§r<BR>进行该附魔的鞋子能够让穿戴者在地上行走时健步如飞,附魔等级越高,增幅速度越多.<BR>§n修复§r<BR>该附魔能够从灵气中吸取魔力来缓慢地修复物品耐久,附魔等级越高,修复速度越快.这种附魔只能对部分神秘物品生效.
 #
 tc.research_name.ELEMENTALAXE=奔流斧
@@ -1054,7 +1054,7 @@ tc.research_page.ALCHEMICALMANUFACTURE.1=在已经掌握了炼金术基础和炼
 #
 tc.research_name.ENTROPICPROCESSING=混沌过程
 tc.research_text.ENTROPICPROCESSING=让事情变得更糟?
-tc.research_page.ENTROPICPROCESSING.1=魔法物品或者凡俗物品做起来都令人满意,但有时候你只是想将物品分解成组成部分.还有比向它们添加混沌能量更简单的事情吗?<BR>其实这主意足可罗列若干理由陈述其糟糕,但哪有不冒点风险就能取得进展的道理呢?
+tc.research_page.ENTROPICPROCESSING.1=魔法物品或者凡俗物品做起来都令人满意,但有时候你只是想将物品分解成基本的组成部分.还有比向它们添加混沌能量更简单的事情吗?<BR>其实这主意足可罗列若干理由陈述其糟糕,但哪有不冒点风险就能取得进展的道理呢?
 #
 tc.research_name.TRANSIRON=嬗变术:炼铁术
 tc.research_text.TRANSIRON=将金属炼化为铁
@@ -1112,35 +1112,35 @@ tc.research_name.GOLEMSTRAW=稻草傀儡
 tc.research_text.GOLEMSTRAW=简易魔法仆从
 tc.research_page.GOLEMSTRAW.1=你已发现制作傀儡仆从的奥秘.尽管铁傀儡令人印象深刻,但其应用有限,难以控制.你需要设法解决这些弊端.<BR>你的傀儡工人们具备足够的意志和自我意识来成为有用的工具,却又不至于使得他们难以掌控.对其使用法杖能够将其回收.<LINE>你同样学会了如何制作 §5傀儡使铃铛§0以及§5傀儡运转核心§0(参阅各自条目查看更详细的内容).
 tc.research_page.GOLEMSTRAW.2=傀儡可以被放置到世界之中,但如果未安装运转核心,它们将不会被激活.<BR>放置傀儡时需要仔细考虑相关问题-如果你想将它与某物品栏绑定,则需要手持它右击(或左击)对应的容器方块的对应一端.<BR>大部分类型的傀儡能够在以放置位置为中心16格范围内活动和工作.
-tc.research_page.GOLEMSTRAW.3=你能够制作的第一个傀儡使用干草垛以及稻草为材料.这种傀儡身体孱弱,易受伤害,但非常轻便灵魂.<BR>§l§n稻草傀儡属性§r<BR>§l耐久:§r 极低 <BR>§l强度:§r 极低<BR>§l回复:§r一般<BR>§l运载量:§r 1<BR>§l速度:§r 快捷<BR>§l升级:§r 1
+tc.research_page.GOLEMSTRAW.3=你能够制作的第一个傀儡使用干草垛以及稻草为材料.这种傀儡身体孱弱,易受伤害,但非常轻便灵魂.<BR>§l§n稻草傀儡属性§r<BR>§l耐久:§r 极低 <BR>§l力量:§r 极低<BR>§l回复:§r一般<BR>§l运载量:§r 1<BR>§l速度:§r 快捷<BR>§l升级:§r 1
 #
 tc.research_name.GOLEMWOOD=木头傀儡
 tc.research_text.GOLEMWOOD=如果木头傀儡能砍树,那么它们会砍多少树呢?
-tc.research_page.GOLEMWOOD.1=这种傀儡由宏伟之木的原木雕刻而成.相比稻草傀儡有适度提升.<BR>§l§n木头傀儡属性§r<BR>§l耐久:§r 低于均值<BR>§l强度:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 4<BR>§l速度:§r 高于均值<BR>§l升级:§r 1
+tc.research_page.GOLEMWOOD.1=这种傀儡由宏伟之木的原木雕刻而成.相比稻草傀儡有适度提升.<BR>§l§n木头傀儡属性§r<BR>§l耐久:§r 低于均值<BR>§l力量:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 4<BR>§l速度:§r 高于均值<BR>§l升级:§r 1
 #
 tc.research_name.GOLEMTALLOW=油脂傀儡
 tc.research_text.GOLEMTALLOW=远离明火
-tc.research_page.GOLEMTALLOW.1=这种更高级的傀儡略胜过粘土傀儡,能够进行两次升级.<BR>§l§n油脂傀儡属性§r<BR>§l耐久:§r 一般<BR>§l强度:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 2
+tc.research_page.GOLEMTALLOW.1=这种更高级的傀儡略胜过粘土傀儡,能够进行两次升级.<BR>§l§n油脂傀儡属性§r<BR>§l耐久:§r 一般<BR>§l力量:§r 低<BR>§l回复:§r 一般<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 2
 #
 tc.research_name.GOLEMCLAY=粘土傀儡
 tc.research_text.GOLEMCLAY=坚韧耐用
-tc.research_page.GOLEMCLAY.1=耐火的粘土被证明是一种卓越的傀儡制作材料.它不仅防火而且赋予傀儡远胜要求的机动能力.<BR>§l§n粘土傀儡属性§r<BR>§l耐久:§r 一般<BR>§l强度:§r 一般<BR>§l回复:§r 缓慢<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 1
+tc.research_page.GOLEMCLAY.1=耐火的粘土被证明是一种卓越的傀儡制作材料.它不仅防火而且赋予傀儡远胜要求的机动能力.<BR>§l§n粘土傀儡属性§r<BR>§l耐久:§r 一般<BR>§l力量:§r 一般<BR>§l回复:§r 缓慢<BR>§l运载量:§r 8<BR>§l速度:§r 一般<BR>§l升级:§r 1
 #
 tc.research_name.GOLEMFLESH=血肉傀儡
 tc.research_text.GOLEMFLESH=它是活的
-tc.research_page.GOLEMFLESH.1=尽管听上去可怕极了,但僵尸腐肉制作的傀儡却拥有若干让它们值得推荐的特性.它们不但能够快速地自我修复,还能够进行两次升级.<BR>§l§n血肉傀儡属性§r<BR>§l耐久:§r 低<BR>§l强度§r 低<BR>§l回复:§r 非常迅速<BR>§l运载量:§r 4<BR>§l速度:§r 高于均值<BR>§l升级:§r 2
+tc.research_page.GOLEMFLESH.1=尽管听上去可怕极了,但僵尸腐肉制作的傀儡却拥有若干让它们值得推荐的特性.它们不但能够快速地自我修复,还能够进行两次升级.<BR>§l§n血肉傀儡属性§r<BR>§l耐久:§r 低<BR>§l力量§r 低<BR>§l回复:§r 非常迅速<BR>§l运载量:§r 4<BR>§l速度:§r 高于均值<BR>§l升级:§r 2
 #
 tc.research_name.GOLEMSTONE=石头傀儡
 tc.research_text.GOLEMSTONE=壮硕而迟钝
-tc.research_page.GOLEMSTONE.1=石头傀儡结实抗用,还能高负重,但相比大多数其他类型的傀儡要更加迟钝缓慢.<BR>§l§n石头傀儡属性§r<BR>§l耐久:§r 高于均值<BR>§l强度:§r 高于均值<BR>§l回复:§r 缓慢<BR>§l运载量:§r 16<BR>§l速度:§r 缓慢<BR>§l升级:§r 1
+tc.research_page.GOLEMSTONE.1=石头傀儡结实抗用,还能高负重,但相比大多数其他类型的傀儡要更加迟钝缓慢.<BR>§l§n石头傀儡属性§r<BR>§l耐久:§r 高于均值<BR>§l力量:§r 高于均值<BR>§l回复:§r 缓慢<BR>§l运载量:§r 16<BR>§l速度:§r 缓慢<BR>§l升级:§r 1
 #
 tc.research_name.GOLEMIRON=铁质傀儡
 tc.research_text.GOLEMIRON=肖似村庄铁傀儡,但更小也更好
-tc.research_page.GOLEMIRON.1=铁质傀儡极其坚韧强壮,且能够荷载巨大的负重,但受累于体重,它移动起来相当缓慢迟钝.<BR>§l§n铁质傀儡属性§r<BR>§l耐久:§r 高<BR>§l强度§r 高<BR>§l回复:§r 非常低<BR>§l运载量:§r 32<BR>§l速度:§r 非常缓慢<BR>§l升级:§r 1
+tc.research_page.GOLEMIRON.1=铁质傀儡极其坚韧强壮,且能够荷载巨大的负重,但受累于体重,它移动起来相当缓慢迟钝.<BR>§l§n铁质傀儡属性§r<BR>§l耐久:§r 高<BR>§l力量§r 高<BR>§l回复:§r 非常低<BR>§l运载量:§r 32<BR>§l速度:§r 非常缓慢<BR>§l升级:§r 1
 #
 tc.research_name.GOLEMTHAUMIUM=神秘傀儡
 tc.research_text.GOLEMTHAUMIUM=魔力工人
-tc.research_page.GOLEMTHAUMIUM.1=神秘傀儡尤胜于铁质傀儡,且能够进行两次升级.且这种傀儡对魔法伤害同样具有高抗性.<BR>§l§n神秘傀儡属性§r<BR>§l耐久:§r 极高<BR>§l强度:§r 高<BR>§l回复:§r 缓慢<BR>§l运载量:§r 32<BR>§l速度:§r 缓慢<BR>§l升级:§r 2
+tc.research_page.GOLEMTHAUMIUM.1=神秘傀儡尤胜于铁质傀儡,且能够进行两次升级.且这种傀儡对魔法伤害同样具有高抗性.<BR>§l§n神秘傀儡属性§r<BR>§l耐久:§r 极高<BR>§l力量:§r 高<BR>§l回复:§r 缓慢<BR>§l运载量:§r 32<BR>§l速度:§r 缓慢<BR>§l升级:§r 2
 #
 tc.research_name.GOLEMBELL=傀儡使铃铛
 tc.research_text.GOLEMBELL=投以目光
@@ -1202,7 +1202,7 @@ tc.research_page.COREFISHING.5=    §n傀儡升级:混沌解锁§r<IMG>thaumcraf
 #
 tc.research_name.COREALCHEMY=傀儡核心:炼金
 tc.research_text.COREALCHEMY=移动要素
-tc.research_page.COREALCHEMY.1=这种核心可谓移液傀儡的特殊版本,专为运输要素源质而设计.<BR>炼金傀儡通常与炼金炉或者奥术蒸馏器绑定,它们会抽取蒸馏器中的要素源质并将其运输到要素罐子中.并不需要一一对罐子进行标注,炼金傀儡能够自动填充与被标记罐子连成一片的所有罐子.<BR>炼金傀儡会优先填充较近的罐子,且在一个罐子被填满前,不会将同类要素填充进其他罐子中.
+tc.research_page.COREALCHEMY.1=这种核心可谓移液傀儡核心的特殊版本,专为运输要素源质而设计.<BR>炼金傀儡通常与炼金炉或者奥术蒸馏器绑定,它们会抽取蒸馏器中的要素源质并将其运输到要素罐子中.并不需要一一对罐子进行标注,炼金傀儡能够自动填充与被标记罐子连成一片的所有罐子.<BR>炼金傀儡会优先填充较近的罐子,且在一个罐子被填满前,不会将同类要素填充进其他罐子中.
 tc.research_page.COREALCHEMY.2=炼金傀儡处理标签罐子的优先级比未贴标签的要高.而虚空罐子的优先级则比普通罐子低,除非你往虚空罐子上贴标签.因此虚空罐子总是最后才填满.<BR>炼金傀儡还能够在其他可容纳源质的容器和方块之间运输源质.
 #
 tc.research_name.UPGRADEAIR=傀儡升级:风
@@ -1211,7 +1211,7 @@ tc.research_page.UPGRADEAIR.1=安装这种升级的傀儡能够提升移动速�
 #
 tc.research_name.UPGRADEEARTH=傀儡升级:地
 tc.research_text.UPGRADEEARTH=强壮如地
-tc.research_page.UPGRADEEARTH.1=安装这种升级后傀儡能够一次携带更多物品.一次升级根据傀儡本身的基本运载能量能够提升运载量4~16不等.<BR>这种升级还能提升傀儡的物理伤害能力和采集材料的速度-一些需要蛮力的任务都会表现得更好.<BR>特定的傀儡核心配合这种核心还有更多好处,如果希望了解可以参阅其它傀儡核心条目的页面.
+tc.research_page.UPGRADEEARTH.1=安装这种升级后傀儡一次能够携带更多物品.根据傀儡本身的基本运载能力每次升级能够提升运载量4~16不等.<BR>这种升级还能提升傀儡的物理伤害能力和采集材料的速度-一些需要蛮力的任务都会表现得更好.<BR>特定的傀儡核心配合这种核心还有更多好处,如果希望了解可以参阅其它傀儡核心条目的页面.
 #
 tc.research_name.UPGRADEFIRE=傀儡升级:火
 tc.research_text.UPGRADEFIRE=威猛似火
@@ -1231,7 +1231,7 @@ tc.research_page.UPGRADEENTROPY.1=安装这种升级的傀儡能够自动对伤�
 #
 tc.research_name.TINYHAT=礼帽
 tc.research_text.TINYHAT=晒不着,淋不到
-tc.research_page.TINYHAT.1=这顶漂亮的帽子对任何傀儡来说都是完美的装饰品.它不仅能让傀儡们显得时髦,还能提高其生命力和活跃度.
+tc.research_page.TINYHAT.1=这顶漂亮的帽子对所有的傀儡来说都是完美的饰品.它不仅能让傀儡们显得时髦,还能提高其生命力和活跃度.
 #
 tc.research_name.TINYFEZ=毡帽
 tc.research_text.TINYFEZ=...依然这么酷!
@@ -1363,8 +1363,8 @@ tc.research_page.ETHEREALBLOOM.1=水银花常常生长在银树附近的阴影�
 tc.research_page.ETHEREALBLOOM.2=这种花只能净化沐浴在它荣光之下的8格范围内的土地.
 #
 tc.research_name.PECH=岩精
-tc.research_text.PECH=奇怪的生物
-tc.research_page.PECH.1=这些奇怪的类人生物生活在位面间隙的薄层之中.它们被魔力所吸引,在魔力浓郁之处遍地皆是.<BR>不要被它们小小的个头愚弄了,实际上它们拥有不可思议的力气,能够携运数倍于自身重量的物品.<BR>岩精通常不具有主动攻击性.但一旦被激怒,就会成群结队德追杀攻击它们的人.一般情况下,尽可能不要招惹它们.<BR>岩精是出了名的吝啬鬼,尽管它们收藏了很多贵重物品,
+tc.research_text.PECH=古怪的生物
+tc.research_page.PECH.1=这些奇怪的类人生物生活在位面间隙的薄层之中.它们被魔力所吸引,在魔力浓郁之处遍地皆是.<BR>不要被它们小小的个头愚弄了,实际上它们拥有不可思议的力气,能够携运数倍于自身重量的物品.<BR>岩精通常不具有主动攻击性.但一旦被激怒,就会成群结队地追杀攻击它们的人.一般情况下,尽可能不要招惹它们.<BR>岩精是出了名的吝啬鬼,尽管它们收藏了许多贵重物品,
 tc.research_page.PECH.2=可杀死它们不会得到任何战利品.据说如果你为它们提供想要的材料就有可能能够与它们结交.成为朋友后它们常常会搬来一些它们不想要了的神奇物品给你.<BR>应当说明的一点是,这样的友谊很少能长久维持.<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
 #
 tc.research_name.INFUSIONENCHANTMENT=注魔法附魔
@@ -1467,7 +1467,7 @@ tc.research_text.RUNICKINETIC=呵呵,你会后悔的
 tc.research_page.RUNICKINETIC.1=这是种特别版的护盾腰带.<BR>较改造前的腰带充能量略少些,但当护盾被打破时会爆发出一阵能够伤害并推开附近所有物品的冲击波.<BR>在20s内只能激活一次这种效果.
 #
 tc.research_name.RUNICEMERGENCY=应急护盾护身符
-tc.research_text.RUNICEMERGENCY=你就不能让我舒舒坦坦
+tc.research_text.RUNICEMERGENCY=你就不能让我舒舒坦坦吗
 tc.research_page.RUNICEMERGENCY.1=这是种特别版的护盾护身符.<BR>较改造前的护身符充能量略少些,但当护盾被打破时这项升级能够立即再为护盾增加8点能量.<BR>在1分钟内只能激活一次这种效果.
 #
 tc.research_name.WARDEDARCANA=守护之奥术
