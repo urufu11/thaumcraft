@@ -15,19 +15,27 @@ potion.unhunger=Faim anormale
 potion.warpward=Garde Warp
 potion.deathgaze=Regard mortel
 potion.blurred=Vision floue
-potion.sunscorned=Méprisé du soleil
+potion.sunscorned=Soleil méprisé
+potion.thaumarhia=Thaumarhia
 #
 #Warp
 warp.text.1=Vous vous sentez bizarrement drainé.
 warp.text.2=Une faim soudaine et anormal vous consume.
 warp.text.hunger.1=Votre faim ne peut être satisfaite avec de la nourriture normale.
 warp.text.hunger.2=Votre faim commence à disparaître.
-warp.text.3=D'étrange murmures vous révèlent des secrets.
+warp.text.3=D'étranges murmures vous révèlent des secrets.
 warp.text.4=Votre vue devient étrange et macabre.
 warp.text.5=La lumière devient soudain accablante et brule votre peau.
 warp.text.6=Un épais brouillard apparait de nul part. Quelque chose remue dans son cœur.
 warp.text.7=Ils sont partout ! Courrez !
 warp.text.8=Il existe surement un moyen de stopper ces migraines ?
+warp.text.9=Vous vous entez soudainement réticent à casser des choses. 
+warp.text.10=Votre perception s'étend soudainement.
+warp.text.11=Quel était ce bruit ? Quelque chose est derrière vous.
+warp.text.12=Quelque chose vous suit.
+warp.text.13=Quelque chose vous regarde. Peut être qu'il est temps d'arrêter.
+warp.text.14=Vous avez un moment de clarté.
+warp.text.15=Soudainement votre estomac gargouille de manière vraiment étrange.
 #
 # Entities
 entity.Thaumcraft.ThaumSlime.name=Slime thaumique
@@ -58,13 +66,15 @@ entity.Thaumcraft.Pech.name=Fouineur Pech
 entity.Thaumcraft.Pech.1.name=Mage Pech
 entity.Thaumcraft.Pech.2.name=Archer Pech
 entity.Thaumcraft.PrimalOrb.name=Orbe d'énergie primaire
-entity.TravelingTrunk.name=Malle de voyage
-entity.trunk.guiname= La malle de
+entity.Thaumcraft.TravelingTrunk.name=Malle de voyage
+entity.trunk.guiname=La malle de
 entity.trunk.move=La malle vous suit
 entity.trunk.stay=La malle reste où elle est
 entity.Thaumcraft.MindSpider.name=Araignée de l'esprit
-entity.Thaumcraft.EldritchGuardian.name=Gardien Surnaturel
-entity.Thaumcraft.EldritchOrb.name=Orbe Surnaturelle
+entity.Thaumcraft.EldritchGuardian.name=Gardien surnaturel
+entity.Thaumcraft.EldritchOrb.name=Orbe surnaturelle
+entity.Thaumcraft.CultistKnight.name=Chevalier cramoisi
+entity.Thaumcraft.CultistCleric.name=Clerc cramoisi
 #
 # Blocks
 tile.blockAiry.0.name=Noeud d'aura
@@ -149,6 +159,7 @@ tile.blockWoodenDevice.4.name=Base de foreuse arcanique
 tile.blockWoodenDevice.5.name=Foreuse arcanique
 tile.blockWoodenDevice.6.name=Planches de bois arcanique
 tile.blockWoodenDevice.7.name=Planches de bois d'argent
+tile.blockWoodenDevice.8.name=Bannière
 tile.blockJar.0.name=Bocal renforcé
 tile.blockJar.1.name=Cerveau en bocal
 tile.blockJar.2.name=Noeud en bocal
@@ -197,15 +208,25 @@ tile.blockStoneDevice.8.name=Focalisateur d'aspects composés
 tile.blockStoneDevice.9.name=Stabilisateur de nœud
 tile.blockStoneDevice.10.name=Stabilisateur de nœud avancé
 tile.blockStoneDevice.11.name=Transducteur de nœud
+tile.blockStoneDevice.12.name=Spa arcanique
+text.spa.mix.true=Mixer avec l'ingrédient
+text.spa.mix.false=Utiliser seulement le fluide
 tile.blockTube.0.name=Tube à Essentia
 tile.blockTube.1.name=Vanne à Essentia
 tile.blockTube.2.name=Centrifugeuse alchimique
-tile.blockTube.3.name=Tube à Essentia filtrant
+tile.blockTube.3.name=Tube à Essentia filtré
 tile.blockTube.4.name=Tampon à Essentia
-tile.blockTube.5.name=Tube à Essentia restreinte
+tile.blockTube.5.name=Tube à Essentia restreint
 tile.blockTube.6.name=Tube à Essentia directionnel
+tile.blockTube.7.name=Cristalliseur d'Essentia
 container.alchemyfurnace=Four alchimique
 tile.blockArcaneFurnace.name=Four infernal
+tile.blockEldritch.0.name=Autel surnaturel
+tile.blockEldritch.1.name=Obélisque surnaturel
+tile.blockEldritch.2.name=Obélisque surnaturel
+tile.blockEldritch.3.name=Pierre finale surnaturelle
+tile.blockPortalEldritch.name=Portail surnaturel
+tile.blockEssentiaReservoir.name=Réservoir à Essentia
 #
 # Items
 item.GolemBell.name=Cloche de golemancien
@@ -356,8 +377,7 @@ item.ItemPickThaumium.name=Pioche en thaumium
 item.ItemHoeThaumium.name=Houe en thaumium
 item.researchnotes.name=Notes de recherches
 item.researchnotes.unknown=Connaissance inconnue
-item.researchnotes.failed.1=Raté, placez dans la grille d'artisanat
-item.researchnotes.failed.2=pour récupérer les fragments de connaissance
+item.researchnotes.unknown.2=<Clic droit pour révéler> 
 item.discovery.name=Découverte
 item.ItemWispEssence.name=Essence éthérée
 item.ItemCrystalEssence.name=Essence cristalisée
@@ -409,7 +429,7 @@ item.ItemGolemUpgrade.5.desc=Augmente la défense, le raisonnement
 item.ItemBowBone.name=Arc en os
 item.ItemManaBean.name=Gousse de mana
 item.TrunkSpawner.name=Malle de voyage
-item.TrunkSpawner.text.1=Cette malle contient les objets
+item.TrunkSpawner.text.1=Cette malle contient des objets
 item.ItemResonator.name=Résonateur d'Essentia
 item.ItemAmuletRunic.0.name=Amulette de blindage runique
 item.ItemAmuletRunic.1.name=Amulette de blindage d'urgence
@@ -420,6 +440,7 @@ item.ItemRingRunic.3.name=Anneau revitalisant de blindage
 item.ItemGirdleRunic.0.name=Ceinture de blindage runique
 item.ItemGirdleRunic.1.name=Ceinture de blindage cinétique
 item.runic.charge=Bouclier runique
+item.warping=Warping
 item.ItemBaubleBlanks.0.name=amulette banale
 item.ItemBaubleBlanks.1.name=Anneau banal
 item.ItemBaubleBlanks.2.name=Ceinture banale
@@ -431,14 +452,19 @@ item.ItemAmuletVis.1.name=Amulette de Stockage de Vis
 item.ItemGirdleHover.name=Ceinture Thaumostatique
 item.ItemBathSalts.name=Sels de Bains Purifiants
 item.ItemBucketDeath.name=Seau de Mort Liquide
+item.ItemBucketPure.name=Seau de fluide purifiant
 item.ItemHelmetFortress.name=Casque de la forteresse en Thaumium
 item.ItemChestplateFortress.name=Cuirasse de la forteresse en Thaumium
 item.ItemLeggingsFortress.name=Jambières de la forteresse en Thaumium
 item.HelmetFortress.mask.0=Diable souriant
 item.HelmetFortress.mask.1=Fantôme enragé
 item.HelmetFortress.mask.2=Démon sirotant
-item.ItemEldritchObject.name=Oeil Surnaturel
-item.ItemHelmetVoid.name=Casque du Vide
+item.ItemEldritchObject.0.name=Oeil surnaturel
+item.ItemEldritchObject.1.name=Rites cramoisis
+item.ItemEldritchObject.text.1=Il semble vous regarder.
+item.ItemEldritchObject.text.2=Le livre est rempli d'étrange symboles.
+item.ItemEldritchObject.text.3=Cliquer pour l'étudier. [Actuellement désactivé]
+item.ItemHelmetVoid.name=Void Helm
 item.ItemChestplateVoid.name=Plastron du Vide
 item.ItemLeggingsVoid.name=Jambières du Vide
 item.ItemBootsVoid.name=Bottes du Vide
@@ -450,12 +476,21 @@ item.ItemHoeVoid.name=Houe du Vide
 item.ItemHelmetVoidRobe.name=Capuche du thaumaturge du Vide
 item.ItemChestplateVoidRobe.name=Robe du thaumaturge du Vide
 item.ItemLeggingsVoidRobe.name=Jambières du thaumaturge du Vide
+item.ItemSanitySoap.name=Savon désinfectant
+item.ItemSanityChecker.name=Contrôleur de santé mentale
+item.ItemHelmetCultistRobe.name=Capuche du culte cramosi
+item.ItemChestplateCultistRobe.name=Robe du culte cramoisi
+item.ItemLeggingsCultistRobe.name=Guêtres du culte cramoisi
+item.ItemBootsCultist.name=Bottes du culte cramoisi
+item.ItemHelmetCultistPlate.name=Heaume du culte cramoisi
+item.ItemChestplateCultistPlate.name=Plastron du culte cramoisi
+item.ItemLeggingsCultistPlate.name=Jambières du culte cramoisi
 #
 # Fluids
 fluid.fluxGoo=Flux boueux
 fluid.fluxGas=Flux Gazeux
-fluid.purity=Fluide purifiant
-fluid.death=Mort Liquide
+fluid.fluidPure=Fluide purifiant
+fluid.fluidDeath=Mort Liquide
 #
 # GUI
 golemblurb.0.text=Que voulez vous que je garde ici, Maître ?
@@ -535,8 +570,12 @@ tc.addaspectdiscovery=Vous avez découvert : %n !
 tc.addclue=Vous avez découvert un indice d'une nouvelle recherche !
 tc.addcluefail=Votre découverte de l'indice est perdue car vous ne pouvez pas l'enregistrer !
 tc.addaspectpool=Gagné %s point(s) de recherche pour %n
-tc.addwarp=§5Vous avez gagner du warp!§0
+tc.addwarp=§5Vous avez gagné du Warp permanent!§0
 tc.addwarptemp=§5Vous avez gagné du Warp temporaire!§0
+tc.addwarpsticky=§5Vous avez gagné du Warp!§0
+tc.removewarp=§5Vous avez perdu du Warp permanent!§0
+tc.removewarpsticky=§5Vous avez perdu du Warp!§0
+tc.removewarptemp=§5Vous avez perdu du Warp temporaire!§0
 tc.forbidden=§l§5Connaissance interdite (%n)§0
 tc.forbidden.level.1=généralement inoffensif
 tc.forbidden.level.2=Mineur
@@ -1354,6 +1393,7 @@ tc.research_name.CENTRIFUGE=Centrifugeuse alchimique
 tc.research_text.CENTRIFUGE=Prendre les choses différement
 tc.research_page.CENTRIFUGE.1=La centrifugeuse alchimique est une magnifique invention qui vous permet de briser l'Essentia en parties qui la composent.<BR>Lorsque L'Essentia composée est introduite dans la centrifuge par dessous, elle est décomposée en l'Essentia primaire ou parente dont elle est fait. Un seul des composants est créé pour chaque point d'Essentia brisé.<BR>L'Essentia résultant a besoin d'être drainée par le dessus de la centrifugeuse.En raison des particularités du système de pression des tubes, il serait préférable de connecter un §5Tampon à Essentia§0 au dessus de la centrifugeuse (voir page suivante).
 tc.research_page.CENTRIFUGE.2=Le tampon à Essentia vous permet de stocker une quantité limité d'essentia - 8 point au total, mais il peut être composé de n'importe quelle combinaison d'essentia. Comme un bocal, il a de la succion, mais il applique le montant minimum de succion possible (1).<BR>Cela signifie qu'il est seulement capable de drainer l'essentia provenant d'une source directement attaché à lui. Cependant les tubes peuvent être connecté a tout les côtés, signifiant qu'il est précieux pour récupérer l'essentia d'appareils comme la centrifugeuse qui peuvent contenir de variables types d'essentia.<BR>Vous pouvez attacher un soufflet au tampon - chaque soufflet attaché augmente la succion de 32.
+tc.research_page.CENTRIFUGE.3=De plus vous pouvez activer ou désactiver les connections individuelles comme sur un tube normal, mais si vous cliquer une connection en étant accroupi, la succion sera réduite à 1 (bande bleue) ou 0 (bande rouge) de ce coté.<BR>Cela permet des possibilités intéressantes pour contrôler l'itinéraire de l'essentia.
 #
 tc.research_name.TRAVELTRUNK=Malle de voyage
 tc.research_text.TRAVELTRUNK=Bagages mobile
@@ -1509,7 +1549,7 @@ tc.research_page.ELDRITCHMINOR.1=C'est soudainement devenu clair pour vous. Là 
 tc.research_name.ELDRITCHMAJOR=Révolution Surnaturelle
 tc.research_text.ELDRITCHMAJOR=J'ai vu au dela des limites de l'infini
 tc.research_page.ELDRITCHMAJOR.1=Un voile à été levé - une porte s'est ouverte dans mon esprit.<BR> Quand je regarde à traves je vois des merveilles. Non, pas des merveilles. §mCe que je vois est§r<BR>§oCe que je vois est JE vois je vois JE voIs j§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
-tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Who wrote this?
+tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>Qui à écrit ça?
 #
 tc.research_name.VOIDMETAL=Métal du Vide
 tc.research_text.VOIDMETAL=étrange, il devrait être froid...
@@ -1523,4 +1563,34 @@ tc.research_page.ARMORVOIDFORTRESS.1=Un thaumaturge réellemebt éclairé réali
 tc.research_name.CAP_void=Embout en métal du Vide
 tc.research_text.CAP_void=Pouvoir d'au-dela
 tc.research_page.CAP_void.1=Créer des embout pour baguette en métal du Vide semble contre-intuitif puisque ce métal à l'air résistant à la magie, mais le contre-intuitif est l'endroit où vous vivez désormais.<BR>Votre pari à payé. Le métal lui-même est peut être résistant à la magie, mais il la canalise avec une facilité surprenante. La magie semble §oétrange§r par contre, mais c'est probablement juste votre imagination.
+#
+tc.research_name.ARCANESPA=Spa arcanique
+tc.research_text.ARCANESPA=Détente dans le luxe
+tc.research_page.ARCANESPA.1=Verser des sels de bains dans l'eau est quelque peu une corvée, mais heuresement facilement résolue avec un peu de magie.<BR>Vous avez créer une machine pratique qui quand remplie d'eau et de sels de bains va automatiquement les mélanger et pomper le liquide obtenu dans une zone au dessus d'elle. Le liquide va remplir une zone de 5x5 au dessus de l'endroit où sera placée la machine.<BR>De plus, vous avez constaté qu'elle peut être utilisé pour pomper presque n'importe quel liquide qui peut la remplir. Le remplissage peut être automatisé, ou réalisé en cliquant sur le bloc avec le récipient approprié. Lui appliqué une signal de redstone désactivera la machine.  
+#
+tc.research_name.SANESOAP=Savon désinfectant
+tc.research_text.SANESOAP=Se débarrasser des idées sales
+tc.research_page.SANESOAP.1=Nettoyer le corps est simple, mais une fois que le warp devient une nuisance vous avez besoin de quelque chose qui puisse également laver l'esprit.<BR>Ce savon nettoie la chair, mais l'effet qu'il a sur votre psyché est ce qui le rend vraiment spécial. Quand il est utilisé il a une petite chance de réduire le warp (le warp permanent n'est pas affecté par contre) et va faire entièrement disparaitre le warp temporaire.<BR>L'utilisé quand vous êtes sous les effets d'un garde warp ou quand vous vous trouvé dans du fluide purifiant va augmenté les chances.  
+#
+tc.research_name.SANITYCHECK=Contrôleur de santé mentale
+tc.research_text.SANITYCHECK=Introspection pour le brave
+tc.research_page.SANITYCHECK.1=Les choses sont devenues animées dans votre esprit ces derniers temps. C'est probablement mieux que vous regardiez à l'intérieur et vous assuriez que tout est en bon état.<BR>Cet outil va vous permettre de vérifier les effets du warp sur votre pysché et comment il vous affecte.<BR>Bien sur vous ne pouvez autoriser un tel outil à tomber dans les mains de vos ennemis donc vous avez pris mal à compliquer la lecture de l'information qu'il donne. Vous êtes peut être allé trop loin par contre - vous avez du mal à le déchiffrer vous-même.  
+#
+tc.research_name.CRIMSON=Le Culte Cramoisi
+tc.research_text.CRIMSON=Un conte prudent
+tc.research_page.CRIMSON.1=La plus grande partie de ce livre est inscrit d'une écriture tremblante et incompréhensible, mais ce que vous parvenez à comprendre offre d'étranges aperçus sur les buts du Culte Cramoisi.<BR>Leur origine est enveloppée de mystère, mais il semble que leur but soit le perfectionnement d'un rituel qu'ils nomment "Apertis Oculis" - Ouvrir l'Oeil. Ce qu'il est censé faire n'est pas clair, mais vous doutez qu'il fasse quoi que se soit de bon.<BR>De façons intéréssante, vous pensez que le thaumaturgie pourrait offrir les pièces manquantes qu'ils ont si longtemps cherchés. Evidement seul un fou poursuivrait ce genre de recherches...
+#
+tc.research_name.OCULUS=Ouvrir l'Oeil
+tc.research_text.OCULUS=Je leur montrerai, je le montrerai à tous!
+tc.research_page.OCULUS.1=C'était si simple - c'est impressionant que les Cultistes Cramoisis ne l'ai jamais découvert.<BR>Pour réaliser le rituel vous avez simplement besoin de placer quatre Yeux Surnaturels sur les pierres de voûtes marquées spécialement dans les étranges autels où vous avez découvert ce culte. Le noeud sinistre au dessus de la pierre de voûte doit rester intact.<BR>Une fois que c'est fait il suffit d'injecter une grande quantité de vis primaire dans la pierre avec une baguette - 100 unités de chaque devrait être suffisant.
+tc.research_page.OCULUS.2=Si vous avez tout fait correctement le rituel devrait être complet et cette "Oeil" devrait s'ouvrir.<BR>Bien sur vous n'avez aucune idée de ce que cela veut dire. Aucune importance, seuls les fous craignent l'inconnu! 
+#
+tc.research_name.ESSENTIARESERVOIR=Stockage d'Essentia avancé 
+tc.research_text.ESSENTIARESERVOIR=Ne le heurtez pas
+tc.research_page.ESSENTIARESERVOIR.1=La pluparts des types d'essentia sont volatile et prudence doit être prise pour les stocker - c'est pourquoi la plupart des thaumaturges utilises des bocaux renforcés. Mais vous, par contre, n'êtes pas la pluparts des thaumaturges.<BR>Utilisant cette merveilleuse substance qu'est le métal du Vide, vous avez découvert un moyen de grandement améliorer le stockage de l'essentia. Les réservoirs d'essentia sont capables de stocker jusqu'à 256 unités d'essentia et ce dans n'importe quelle combinaison.<BR>Le mixage potentiellement désastreux de plusieurs types d'essentia est empecher par la présence de compartiments créés à partir du nouveau métal et se remodelant dynamiquement.
+tc.research_page.ESSENTIARESERVOIR.2=Tout comme les bocaux, les réservoirs ne peuvent être accédés que par un coté, mais vous pouvez choisir la façons dont ils sont orientés. Malheuresment ils ne peuvent être vidés ou remplit à la main, vous devrez donc utiliser des tuyau ou des golems pour ça.<BR>Récupérer un réservoir alors qu'il est remplit est, hum, déconseillé.<BR>Vous étiez si fière de cette découverte que vous l'avez montrer à tout vos collègues thaumaturges. Etrangement, la plupart a plongé vers un abri meme après les avoir assurés que le constant bruit de métal subissant un stress incroyable est parfaitement normal.
+#
+tc.research_name.ESSENTIACRYSTAL=Cristallisation de l'Essentia 
+tc.research_text.ESSENTIACRYSTAL=Monnaie solide ou avoir liquide?
+tc.research_page.ESSENTIACRYSTAL.1=Vous avez presque maitrisé l'art de transformer des objets concrets en essentia liquide, donc faire l'inverse devrait être simple.<BR>Le cristalliseur d'essentia aspire l'essentia liquide depuis un réseau de tuyau et la convertie lentement en de petits éclats d'essentia cristallisée. L'essentia cristalline est très stable et ne présente pas de danger à manipuler.<BR>Le cristalliseur l'éjecte soit dans le monde soit dans un containeur. Il peut être désactivé avec un signal de redstone.<BR>Le fournir en vis terra va grandement augmenter sa vitesse.
 #
