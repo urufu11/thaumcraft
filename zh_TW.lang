@@ -74,7 +74,7 @@ entity.Thaumcraft.MindSpider.name=心魔蛛
 entity.Thaumcraft.EldritchGuardian.name=禁忌守衛
 entity.Thaumcraft.EldritchOrb.name=禁忌能量球
 entity.Thaumcraft.CultistKnight.name=血色騎士
-entity.Thaumcraft.CultistCleric.name=血色教徒
+entity.Thaumcraft.CultistCleric.name=血色僧侶
 #
 # Blocks
 tile.blockAiry.0.name=靈氣節點
@@ -160,10 +160,10 @@ tile.blockWoodenDevice.5.name=奧術鑽掘機
 tile.blockWoodenDevice.6.name=宏偉之樹木材
 tile.blockWoodenDevice.7.name=銀樹木材
 tile.blockWoodenDevice.8.name=旗幟
-tile.blockJar.0.name=源質罐
-tile.blockJar.1.name=缸中之腦
-tile.blockJar.2.name=缸中節點
-tile.blockJar.3.name=虛空罐子
+tile.blockJar.0.name=封罐
+tile.blockJar.1.name=魔腦封罐
+tile.blockJar.2.name=節點封罐
+tile.blockJar.3.name=虛空封罐
 tile.blockTable.0.name=台桌
 tile.blockTable.1.name=台桌
 tile.blockTable.research.name=研究桌
@@ -249,10 +249,10 @@ item.WandCap.1.name=金杖端
 item.WandCap.2.name=充能秘術杖端
 item.WandCap.3.name=銅杖端
 item.WandCap.4.name=充能銀杖端
-item.WandCap.5.name=惰性銀杖端
-item.WandCap.6.name=惰性秘術杖端
+item.WandCap.5.name=銀杖端半成品
+item.WandCap.6.name=秘術杖端半成品
 item.WandCap.7.name=充能虛空杖端
-item.WandCap.8.name=惰性虛空杖端
+item.WandCap.8.name=虛空杖端半成品
 item.WandRod.0.name=宏偉之木杖柄
 item.WandRod.1.name=黑曜石杖柄
 item.WandRod.2.name=銀樹杖柄
@@ -307,7 +307,7 @@ item.ItemResource.9.name=知識碎片
 item.ItemResource.10.name=鏡面玻璃
 item.ItemResource.11.name=污染黏漿
 item.ItemResource.12.name=污染觸手
-item.ItemResource.13.name=罐子標籤
+item.ItemResource.13.name=封罐標籤
 item.ItemResource.14.name=世界鹽
 item.ItemResource.15.name=元初符咒
 item.ItemResource.16.name=虛空金屬錠
@@ -347,9 +347,9 @@ item.ItemNuggetChicken.name=雞肉粒
 item.ItemNuggetBeef.name=牛肉粒
 item.ItemNuggetPork.name=豬肉粒
 item.ItemNuggetFish.name=魚肉粒
-item.BlockJarFilledItem.name=源質罐
-item.BlockJarFilledItem.void.name=虛空源質罐
-item.BlockJarNodeItem.name=缸中節點
+item.BlockJarFilledItem.name=源質封罐
+item.BlockJarFilledItem.void.name=虛空封罐
+item.BlockJarNodeItem.name=節點封罐
 item.TripleMeatTreat.name=三層肉餅
 item.ItemShovelElemental.name=后土鏟
 item.ItemPickaxeElemental.name=熾心鎬
@@ -393,7 +393,7 @@ item.ItemGolemCore.5.name=移液
 item.ItemGolemCore.6.name=煉金
 item.ItemGolemCore.7.name=砍伐
 item.ItemGolemCore.8.name=使用
-item.ItemGolemCore.9.name=屠夫
+item.ItemGolemCore.9.name=屠宰
 item.ItemGolemCore.10.name=排序
 item.ItemGolemCore.11.name=垂釣
 item.ItemGolemCore.100.name=空白
@@ -445,7 +445,7 @@ item.ItemBaubleBlanks.0.name=凡人護身符
 item.ItemBaubleBlanks.1.name=凡人戒指
 item.ItemBaubleBlanks.2.name=凡人腰帶
 item.ItemBaubleBlanks.3.name=%TYPE之學徒戒指
-item.capacity.text=能力
+item.capacity.text=容量
 item.ItemAmuletVis.text=緩慢為所持法杖充能
 item.ItemAmuletVis.0.name=魔石
 item.ItemAmuletVis.1.name=儲魔護符
@@ -466,7 +466,7 @@ item.ItemEldritchObject.text.2=書上畫滿了詭異的符號。
 item.ItemEldritchObject.text.3=點選以學習。[當前無法使用]
 item.ItemHelmetVoid.name=虛空頭盔
 item.ItemChestplateVoid.name=虛空胸甲
-item.ItemLeggingsVoid.name=虛空護腿
+item.ItemLeggingsVoid.name=虛空脛甲
 item.ItemBootsVoid.name=虛空之靴
 item.ItemShovelVoid.name=虛空鏟
 item.ItemAxeVoid.name=虛空斧
@@ -478,13 +478,13 @@ item.ItemChestplateVoidRobe.name=虛空祕術使長袍
 item.ItemLeggingsVoidRobe.name=虛空祕術使護脛
 item.ItemSanitySoap.name=消毒皂
 item.itemSanityChecker.name=神智檢測儀
-item.ItemHelmetCultistRobe.name=血色邪徒兜帽
-item.ItemChestplateCultistRobe.name=血色邪徒法袍
-item.ItemLeggingsCultistRobe.name=血色邪徒護脛
-item.ItemBootsCultist.name=血色邪徒長靴
-item.ItemHelmetCultistPlate.name=血色邪徒頭盔
-item.ItemChestplateCultistPlate.name=血色邪徒胸甲
-item.ItemLeggingsCultistPlate.name=血色邪徒脛甲
+item.ItemHelmetCultistRobe.name=血色教徒兜帽
+item.ItemChestplateCultistRobe.name=血色教徒法袍
+item.ItemLeggingsCultistRobe.name=血色教徒護脛
+item.ItemBootsCultist.name=血色教徒長靴
+item.ItemHelmetCultistPlate.name=血色教徒頭盔
+item.ItemChestplateCultistPlate.name=血色教徒胸甲
+item.ItemLeggingsCultistPlate.name=血色教徒脛甲
 #
 # Fluids
 fluid.fluxGoo=汙染黏漿
@@ -564,7 +564,7 @@ tc.key11=奧術壓力板於
 tc.wandnocharge=法杖魔力不足
 tc.wandcharge=該法杖當前蘊含 %svis
 tc.jaressentia=蘊含 %s 要素
-tc.jarname=罐子：
+tc.jarname=封罐：
 tc.markedloc=標記位置
 tc.addaspectdiscovery=您已發現%n！
 tc.addclue=您已發現新研究的線索！
@@ -855,11 +855,11 @@ tc.research_page.CAP_gold.1=金是比鐵更好的魔導介質，使用金杖端�
 #
 tc.research_name.CAP_thaumium=秘術杖端
 tc.research_text.CAP_thaumium=魔法杖端
-tc.research_page.CAP_thaumium.1=秘術錠以其優良的法力吸納能力而著稱，因此使用它來製作杖端是非常明智的選擇。它在匯聚各種種類的魔力時都非常高效。<BR>僅僅在奧術工作台中制做出的杖端還不能馬上投入使用，還需要灌注額外的魔力啟動它。
+tc.research_page.CAP_thaumium.1=秘術錠以其優良的法力吸納能力而著稱，因此使用它來製作杖端是非常明智的選擇。它在匯聚各種種類的魔力時都非常高效。<BR>從奧術工作台中剛造出的杖端不能馬上投入使用，還需要灌注額外的魔力啟動它。
 #
 tc.research_name.CAP_silver=銀杖端
 tc.research_text.CAP_silver=低調做事
-tc.research_page.CAP_silver.1=銀作為杖端和金性質相似。但它在傳導4種基本要素(火，地，風，水)的時候效率稍高。<BR>僅僅在奧術工作台中制做出的杖端還不能馬上投入使用，還需要灌注額外的魔力啟動它。
+tc.research_page.CAP_silver.1=銀作為杖端和金性質相似。但它在傳導4種基本要素(火，地，風，水)的時候效率稍高。<BR>從奧術工作台中剛造出的杖端不能馬上投入使用，還需要灌注額外的魔力啟動它。
 #
 tc.research_name.CAP_copper=銅杖端
 tc.research_text.CAP_copper=鐵杖端不夠好之時
@@ -1112,35 +1112,35 @@ tc.research_name.GOLEMSTRAW=稻草傀儡
 tc.research_text.GOLEMSTRAW=簡易魔法僕從
 tc.research_page.GOLEMSTRAW.1=你已發現製作傀儡僕從的奧秘。儘管鐵傀儡令人印象深刻，但其應用有限，難以控制。你需要設法解決這些弊端。<BR>你的傀儡工人們具備足夠的意志和自我意識來成為有用的工具，卻又不至於使得他們難以掌控。<LINE>你同樣學會了如何製作 §5傀儡使之鈴§0以及§5傀儡運轉核心§0(參閱各自條目查看更詳細的內容)。
 tc.research_page.GOLEMSTRAW.2=傀儡可以被放置到世界之中，但如果未安裝運轉核心，它們將不會被啟動。<BR>放置傀儡時需要仔細考慮相關問題，如果你想將它與某物品欄綁定，則需要手持它右擊(或左擊)對應的容器方塊的對應一端。<BR>大部分類型的傀儡能夠在以放置位置為中心16格範圍內活動和工作。
-tc.research_page.GOLEMSTRAW.3=你能夠製作的第一個傀儡使用乾草垛以及稻草為材料。 這種傀儡身體孱弱，易受傷害，但非常輕便靈活。<BR>§l§n稻草傀儡屬性§r<BR>§l耐久：§r 極低 <BR>§l強度：§r 極低<BR>§l回復：§r一般<BR>§l運載量：§r 1<BR>§l速度：§r 快捷<BR>§l升級：§r 1
+tc.research_page.GOLEMSTRAW.3=你能夠製作的第一個傀儡使用乾草垛以及稻草為材料。 這種傀儡身體孱弱，易受傷害，但非常輕便靈活。<BR>§l§n稻草傀儡屬性§r<BR>§l耐久：§r 極低 <BR>§l力量：§r 極低<BR>§l回復：§r一般<BR>§l運載量：§r 1<BR>§l速度：§r 快捷<BR>§l升級：§r 1
 #
 tc.research_name.GOLEMWOOD=木頭傀儡
 tc.research_text.GOLEMWOOD=如果木頭傀儡能砍樹，那麼它們會砍多少樹呢？
-tc.research_page.GOLEMWOOD.1=這種傀儡由宏偉之木的原木雕刻而成，相比稻草傀儡有適度提升。<BR>§l§n木頭傀儡屬性§r<BR>§l耐久：§r 低於均值<BR>§l強度：§r 低<BR>§l回復：§r 一般<BR>§l運載量：§r 4<BR>§l速度：§r 高於均值<BR>§l升級：§r 1
+tc.research_page.GOLEMWOOD.1=這種傀儡由宏偉之木的原木雕刻而成，相比稻草傀儡有適度提升。<BR>§l§n木頭傀儡屬性§r<BR>§l耐久：§r 低於均值<BR>§l力量：§r 低<BR>§l回復：§r 一般<BR>§l運載量：§r 4<BR>§l速度：§r 高於均值<BR>§l升級：§r 1
 #
 tc.research_name.GOLEMTALLOW=油脂傀儡
 tc.research_text.GOLEMTALLOW=遠離明火
-tc.research_page.GOLEMTALLOW.1=這種更高級的傀儡略勝過黏土傀儡，能夠進行兩次升級。<BR>§l§n油脂傀儡屬性§r<BR>§l耐久：§r 一般<BR>§l強度：§r 低<BR>§l回復：§r 一般<BR>§l運載量：§r 8<BR>§l速度：§r 一般<BR>§l升級：§r 2
+tc.research_page.GOLEMTALLOW.1=這種更高級的傀儡略勝過黏土傀儡，能夠進行兩次升級。<BR>§l§n油脂傀儡屬性§r<BR>§l耐久：§r 一般<BR>§l力量：§r 低<BR>§l回復：§r 一般<BR>§l運載量：§r 8<BR>§l速度：§r 一般<BR>§l升級：§r 2
 #
 tc.research_name.GOLEMCLAY=黏土傀儡
 tc.research_text.GOLEMCLAY=堅韌耐用
-tc.research_page.GOLEMCLAY.1=耐火的黏土被證明是一種卓越的傀儡製作材料，它不僅防火而且賦予傀儡遠勝要求的機動能力。<BR>§l§n黏土傀儡屬性§r<BR>§l耐久：§r 一般<BR>§l強度：§r 一般<BR>§l回復：§r 緩慢<BR>§l運載量：§r 8<BR>§l速度：§r 一般<BR>§l升級：§r 1
+tc.research_page.GOLEMCLAY.1=耐火的黏土被證明是一種卓越的傀儡製作材料，它不僅防火而且賦予傀儡遠勝要求的機動能力。<BR>§l§n黏土傀儡屬性§r<BR>§l耐久：§r 一般<BR>§l力量：§r 一般<BR>§l回復：§r 緩慢<BR>§l運載量：§r 8<BR>§l速度：§r 一般<BR>§l升級：§r 1
 #
 tc.research_name.GOLEMFLESH=血肉傀儡
 tc.research_text.GOLEMFLESH=牠是活的
-tc.research_page.GOLEMFLESH.1=儘管聽起來非常可怕，但殭屍腐肉製作的傀儡卻擁有若干讓它們值得推薦的特性。它們不但能夠快速地自我修復，還能夠進行兩次升級。<BR>§l§n血肉傀儡屬性§r<BR>§l耐久：§r 低<BR>§l強度§r 低<BR>§l回復：§r 非常迅速<BR>§l運載量：§r 4<BR>§l速度：§r 高於均值<BR>§l升級：§r 2
+tc.research_page.GOLEMFLESH.1=儘管聽起來非常可怕，但殭屍腐肉製作的傀儡卻擁有若干讓它們值得推薦的特性。它們不但能夠快速地自我修復，還能夠進行兩次升級。<BR>§l§n血肉傀儡屬性§r<BR>§l耐久：§r 低<BR>§l力量§r 低<BR>§l回復：§r 非常迅速<BR>§l運載量：§r 4<BR>§l速度：§r 高於均值<BR>§l升級：§r 2
 #
 tc.research_name.GOLEMSTONE=石頭傀儡
 tc.research_text.GOLEMSTONE=壯碩而遲鈍
-tc.research_page.GOLEMSTONE.1=石頭傀儡結實耐用，而且高承載，但相比大多數其他類型的傀儡要更加遲鈍緩慢。<BR>§l§n石頭傀儡屬性§r<BR>§l耐久：§r 高於均值<BR>§l強度：§r 高於均值<BR>§l回復：§r 緩慢<BR>§l運載量：§r 16<BR>§l速度：§r 緩慢<BR>§l升級：§r 1
+tc.research_page.GOLEMSTONE.1=石頭傀儡結實耐用，而且高承載，但相比大多數其他類型的傀儡要更加遲鈍緩慢。<BR>§l§n石頭傀儡屬性§r<BR>§l耐久：§r 高於均值<BR>§l力量：§r 高於均值<BR>§l回復：§r 緩慢<BR>§l運載量：§r 16<BR>§l速度：§r 緩慢<BR>§l升級：§r 1
 #
 tc.research_name.GOLEMIRON=鋼鐵傀儡
 tc.research_text.GOLEMIRON=神似村莊裡的鐵傀儡，但更小也更好
-tc.research_page.GOLEMIRON.1=鐵質傀儡極其堅韌強壯，且能夠荷載巨大的負重，但受累於體重，它移動起來相當緩慢遲鈍。<BR>§l§n鐵質傀儡屬性§r<BR>§l耐久：§r 高<BR>§l強度§r 高<BR>§l回復：§r 非常低<BR>§l運載量：§r 32<BR>§l速度：§r 非常緩慢<BR>§l升級：§r 1
+tc.research_page.GOLEMIRON.1=鐵質傀儡極其堅韌強壯，且能夠荷載巨大的負重，但受累於體重，它移動起來相當緩慢遲鈍。<BR>§l§n鐵質傀儡屬性§r<BR>§l耐久：§r 高<BR>§l力量§r 高<BR>§l回復：§r 非常低<BR>§l運載量：§r 32<BR>§l速度：§r 非常緩慢<BR>§l升級：§r 1
 #
 tc.research_name.GOLEMTHAUMIUM=秘術傀儡
 tc.research_text.GOLEMTHAUMIUM=魔法小小兵
-tc.research_page.GOLEMTHAUMIUM.1=秘術傀儡尤勝於鐵質傀儡，且能夠進行兩次升級。且這種傀儡對魔法傷害同樣具有高抗性。<BR>§l§n秘術傀儡屬性§r<BR>§l耐久：§r 極高<BR>§l強度：§r 高<BR>§l回復：§r 緩慢<BR>§l運載量：§r 32<BR>§l速度：§r 緩慢<BR>§l升級：§r 2
+tc.research_page.GOLEMTHAUMIUM.1=秘術傀儡尤勝於鐵質傀儡，且能夠進行兩次升級。且這種傀儡對魔法傷害同樣具有高抗性。<BR>§l§n秘術傀儡屬性§r<BR>§l耐久：§r 極高<BR>§l力量：§r 高<BR>§l回復：§r 緩慢<BR>§l運載量：§r 32<BR>§l速度：§r 緩慢<BR>§l升級：§r 2
 #
 tc.research_name.GOLEMBELL=傀儡使之鈴
 tc.research_text.GOLEMBELL=聽好囉～
@@ -1202,8 +1202,8 @@ tc.research_page.COREFISHING.5=       §n混沌升級解鎖能力§r<IMG>thaumcr
 #
 tc.research_name.COREALCHEMY=傀儡核心：煉金
 tc.research_text.COREALCHEMY=移動周圍的源質
-tc.research_page.COREALCHEMY.1=這種核心可說是移液傀儡的特殊版本，專為運輸要素源質而設計。<BR>煉金傀儡通常與煉金爐或者奧術蒸餾器綁定，它們會抽取蒸餾器中的要素源質並將其運輸到源質罐中。並不需要一一對罐子進行標注，煉金傀儡能夠自動填充與被標記罐子連成一片的所有罐子。<BR>煉金傀儡會優先填充較近的罐子，且在一個罐子被填滿前，不會將同類源質填充進其他罐子中。
-tc.research_page.COREALCHEMY.2=煉金傀儡能方便整理貼標籤罐子和未貼標籤的罐子。若虛空罐子已滿時，傀儡會優先把源質送往一般的罐子，除非你在虛空罐子上貼了標籤。否則虛空罐子的優先順位將排在最末。<BR>煉金傀儡也能在不同的要素源質容器間輸送源質。
+tc.research_page.COREALCHEMY.1=這種核心可說是移液傀儡的特殊版本，專為運輸要素源質而設計。<BR>煉金傀儡通常與煉金爐或者奧術蒸餾器綁定，它們會抽取蒸餾器中的要素源質並將其運輸到封罐中。並不需要個別對封罐進行標注，煉金傀儡能夠自動填充與被標記的封罐連再一起的所有罐子。<BR>煉金傀儡會優先填充較近的罐子，且在一個罐子被填滿前，不會將同類源質填充進其他罐子中。
+tc.research_page.COREALCHEMY.2=煉金傀儡能方便整理貼標籤封罐和未貼標籤的罐子。若虛空罐子已滿時，傀儡會優先把源質送往一般的罐子，除非你在虛空封罐上貼了標籤。否則虛空封罐的優先順位將排在最末。<BR>煉金傀儡也能在不同的源質容器間輸送源質。
 #
 tc.research_name.UPGRADEAIR=傀儡升級：風
 tc.research_text.UPGRADEAIR=迅捷如風
@@ -1211,7 +1211,7 @@ tc.research_page.UPGRADEAIR.1=安裝這種升級的傀儡能夠提升移動速�
 #
 tc.research_name.UPGRADEEARTH=傀儡升級：地
 tc.research_text.UPGRADEEARTH=強壯如地
-tc.research_page.UPGRADEEARTH.1=安裝這種升級後傀儡能夠一次攜帶更多物品.一次升級根據傀儡本身的基本運載能量能夠提升運載量4~16不等。<BR>這種升級還能提升傀儡的物理傷害能力和採集材料的速度-一些需要蠻力的任務都會表現得更好。<BR>特定的傀儡核心配合這種核心還有更多好處，如果希望瞭解可以參閱其它傀儡核心條目的頁面。
+tc.research_page.UPGRADEEARTH.1=安裝這種升級後傀儡一次能夠攜帶更多物品。每次升級根據傀儡本身的基本運載能量能夠提升運載量4~16不等。<BR>這種升級還能提升傀儡的物理傷害能力和採集材料的速度-一些需要蠻力的任務都會表現得更好。<BR>特定的傀儡核心配合這種核心還有更多好處，如果希望瞭解可以參閱其它傀儡核心條目的頁面。
 #
 tc.research_name.UPGRADEFIRE=傀儡升級：火
 tc.research_text.UPGRADEFIRE=威猛似火
@@ -1266,11 +1266,11 @@ tc.research_text.DISTILESSENTIA=收穫要素源質
 tc.research_page.DISTILESSENTIA.1=你意識到未來會需求使用龐大種類的數種要素-而非存在法杖內的寥寥幾種元初要素。<BR>利用基本煉金原理你已瞭解了如何分解物品將其轉化為基本的要素源質。<BR>首先你需要一台§l煉金爐§r。煉金爐就像普通熔爐那樣燃燒燃料獲得熱量，但並不用於冶煉礦物，而是用以分解物品得到要素源質黏漿。
 tc.research_page.DISTILESSENTIA.2=接下來你需要利用§l奧術蒸餾器§r分離源質黏漿。<BR>你需要將奧術蒸餾器放置在煉金爐頂部。源質黏漿會慢慢被抽取到蒸餾器中，分餾成獨立的要素源質。<BR>如果使用源動之焰作為煉金爐的燃料，那麼分餾過程將更迅速。<BR>一個單獨的煉金爐上方可以疊放5個奧術蒸餾器。<BR>可以使用要素安瓿取出煉金爐中的要素源質。
 #
-tc.research_name.JARLABEL=源質罐和標籤
+tc.research_name.JARLABEL=封罐與標籤
 tc.research_text.JARLABEL=儲存和整理要素源質
-tc.research_page.JARLABEL.1=可以用§l源質罐§r儲存要素源質。<BR>將要素罐子放置在地上，它能夠非常明瞭直觀地儲存源質。 由於魔法的力量，使用或者存放罐子中的源質都是小菜一碟的事情。<BR>手持罐子直接點擊奧術蒸餾器就可以將源質裝進罐中。你也可以使用要素安瓿來填充或清空罐子。<BR>此外它們還非常便於大量且密集地進行源質儲存。
-tc.research_page.JARLABEL.2=空手狀態下按住潛行鍵(Shift)右擊罐子或者蒸餾器能夠清空它們。<BR>只要罐子裡裝有源質，你就可以貼上§l罐子標籤§r。<BR>標籤可以將罐子鎖定為接收特定類型的要素源質，而不再接收其他類型的源質。<BR>空手對著罐子貼著標籤的一面按住潛行右鍵可以取下標籤。注意如果誤點了其他面會清空罐子裡裝的源質。
-tc.research_page.JARLABEL.3=你可以對著空罐子使用與某種要素綁定過的標籤(在合成台中合成裝有要素的安瓿與標籤)，這樣空罐子會自動綁定到這種要素，變成對應的標籤罐子。而標籤上的要素僅僅只是標記，並不真的消耗源質。<BR>對著裝滿了源質的罐子使用，則會把罐子變成和其容納要素相對應的標籤罐子。<LINE>綁定過某種要素的標籤只需要放入合成網格進行一次合成就能變回空白標籤。
+tc.research_page.JARLABEL.1=可以用§l封罐§r儲存要素源質。<BR>只要將封罐放置在地上，就能夠非常明瞭直觀地儲存源質。由於魔法的力量，使用或者存放封罐中的源質都是小菜一碟的事情。<BR>手持封罐直接點擊奧術蒸餾器就可以將源質裝進罐中。你也可以使用要素安瓿來填充或清空罐子。<BR>此外它們還非常便於大量且密集地進行源質儲存。
+tc.research_page.JARLABEL.2=空手狀態下按住潛行鍵(Shift)右擊封罐或者蒸餾器能夠清空它們。<BR>只要罐子裡裝有源質，你就可以貼上§l封罐標籤§r。<BR>標籤可以將罐子鎖定為接收特定類型的要素源質，而不再接收其他類型的源質。<BR>空手對著罐子貼著標籤的一面按住潛行右鍵可以取下標籤。注意如果誤點了其他面會清空罐子裡裝的源質。
+tc.research_page.JARLABEL.3=你可以對著空罐子使用與某種要素綁定過的標籤(在合成台中合成裝有要素的安瓿與標籤)，這樣空罐子會自動綁定到這種要素，變成對應標籤的封罐。而標籤上的要素僅僅只是標記，並不會消耗源質。<BR>對著裝滿了源質的罐子使用，則會把罐子變成和其容納要素相對應的標籤封罐。<LINE>綁定過某種要素的標籤只需要放入合成網格進行一次合成就能變回空白標籤。
 #
 tc.research_name.INFERNALFURNACE=煉獄熔爐
 tc.research_text.INFERNALFURNACE=夠熱？
@@ -1280,7 +1280,7 @@ tc.research_page.INFERNALFURNACE.2=你應該還要注意的是煉獄熔爐偶爾
 tc.research_name.BELLOWS=奧術風箱
 tc.research_text.BELLOWS=煽風點火
 tc.research_page.BELLOWS.1=奧術風箱功能正如其名，不過它能夠自己動作，對著需要的方向發出陣陣氣流。<BR>將其安裝在地獄熔爐側面和後面的開孔處(一個熔爐可以安裝3個)會出現有趣的現象：蘊含魔力的氣流不僅僅加快了熔爐燃燒的速度，也讓火焰更加純淨，減少了咒波的產生率，增大了獲得金屬粒或者其他材料的額外產物的機會。
-tc.research_page.BELLOWS.2=它也能安裝在普通熔爐邊上來為其加速。<BR>如果安裝在坩堝旁邊，則能縮短水煮沸的時間。<BR>你相信你未來能發掘出它更多的應用。 <BR>按住 Shift 點擊罐子或者蒸餾器能夠清空它們。
+tc.research_page.BELLOWS.2=它也能安裝在普通熔爐邊上來為其加速。<BR>如果安裝在坩堝旁邊，則能縮短水煮沸的時間。<BR>你相信你未來能發掘出它更多的應用。
 #
 tc.research_name.ARCANESTONE=奧術石材
 tc.research_text.ARCANESTONE=魔力強化的建築材料
@@ -1289,18 +1289,18 @@ tc.research_page.ARCANESTONE.1=奧術石材是多種複雜的神秘構造的建�
 tc.research_name.INFUSION=注魔
 tc.research_text.INFUSION=魔導聚變
 tc.research_page.INFUSION.1=奧術合成以及煉金術也就只能做到這個程度而已了。更好的東西需要你創建更強力的魔導設備。<BR>注魔合成能夠向單件物品中灌注魔力以及來自其他物品的特性。比方說，你能夠將風之要素以及羽毛灌注入普通石頭來得到一種非常輕盈的石材。 <BR>秘術學中通常難有輕鬆而又簡單的事物。建造注魔台前你需要做如下準備：符文矩陣，奧術基座，以及足夠數量的要素源質。
-tc.research_page.INFUSION.2=當你將符文矩陣正確地放置在一個名為注魔祭壇的神秘構造上後，便能夠開始進行注魔合成。<BR>符文矩陣下方，坐落於正中的基座是你用於放置被注魔物品的地方。你還需要環繞祭壇放置一些基座來放置被灌注的材料。最後你還需要在附近放置一些盛放了要素源質的罐子或者其他儲存魔力的容器。<BR>當一切就緒，你需要使用法杖點擊符文矩陣來開始注魔過程。<BR>在這個過程的第一階段，將會從附近吸取要素源質。 
+tc.research_page.INFUSION.2=當你將符文矩陣正確地放置在一個名為注魔祭壇的神秘構造上後，便能夠開始進行注魔合成。<BR>符文矩陣下方，坐落於正中的基座是你用於放置被注魔物品的地方。你還需要環繞祭壇放置一些基座來放置被灌注的材料。最後你還需要在附近放置一些盛放了源質的封罐或者其他儲存魔力的容器。<BR>當一切就緒，你需要使用法杖點擊符文矩陣來開始注魔過程。<BR>在這個過程的第一階段，將會從附近吸取要素源質。 
 tc.research_page.INFUSION.3=若沒有足夠的源質供應，注魔過程會中斷-後文將會對這種你不希望發生的情況做進一步的闡釋。<BR>當所有需求的源質被灌入目標物品後，才能開始吸收被灌注的其他物品的要素。僅當這些都完成後注魔才能順利完成。<LINE>注魔合成並非毫無風險。其完整的過程實質上是把龐雜的魔法能量強制集中到單獨的物品中，在這種情況下往往會發生一些不可預知的事情：<BR>
 tc.research_page.INFUSION.4=比較常見的意外包括注魔過載被基座中斷掉，產生咒波等，但也可能遭遇一些聞所未聞的災難事件。<BR>由於源質缺乏，物品掉落等未解決的問題導致而的注魔時間延遲越久，就越發有可能發生糟糕的事情。<BR>可以有多種途徑來減少這些意外的影響。首先你應該盡可能對稱地佈置注魔祭壇，一定要確保你放置的基座對側有以祭壇為原點對稱的基座與之平衡。當放置被灌注材料時，也需要盡可能保證放置位置對稱與平衡。
 tc.research_page.INFUSION.5=最後你可以環繞祭壇對稱放置一些具有魔導性質的物品(比如蠟燭、頭骨、水晶等)，它們也能夠減少注魔過程的風險。<IMG>thaumcraft:textures/misc/research5.png:128:0:128:136:1</IMG>
 #
-tc.research_name.JARBRAIN=缸中之腦
+tc.research_name.JARBRAIN=魔腦封罐
 tc.research_text.JARBRAIN=封閉的糾結
-tc.research_page.JARBRAIN.1=-向罐子投入一個殭屍之腦。<BR>-添加蜘蛛眼和水。<BR>-回想那些邪惡的念頭，然後對著它揮舞你的法杖。<BR>若你能遵循上述步驟就能得到一個會動的邪惡的缸中之腦。<BR>它保留了作為殭屍的飢餓慾望卻無力享用那些「美味」的腦子。但它仍然會試圖收集那些在其附近死亡的生靈的思想和經驗(以經驗球的實體形式出現)。 當你搖一搖容納它的罐子，它會放棄一部分不義之財將其交給你。<BR>當罐子裝滿時上方會顯示粒子效果。
+tc.research_page.JARBRAIN.1=-向封罐投入一個殭屍之腦。<BR>-添加蜘蛛眼和水。<BR>-回想那些邪惡的念頭，然後對著它揮舞你的法杖。<BR>若你能遵循上述步驟就能得到一個會動的邪惡魔腦封罐。<BR>它保留了作為殭屍的飢餓慾望卻無力享用那些「美味」的腦子。但它仍然會試圖收集那些在其附近亡靈的思想和經驗(以經驗球的實體形式出現)。 當你搖一搖容納它的封罐，它會放棄一部分不義之財將其交給你。<BR>當封罐裝滿時上方會顯示粒子效果。
 #
 tc.research_name.HOVERHARNESS=奧術韁繩
 tc.research_text.HOVERHARNESS=那是一隻鳥？
-tc.research_page.HOVERHARNESS.1=最終你揭開了飛行的秘密。 你創造出一種通過使用奧術能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要的魔力在創造的時候就已經全部加入進去，它消耗的燃料是單純的源質：Potentia(能量)。當手持著韁繩的時候右擊以安裝盛滿的源質罐。<BR>當穿戴有奧術韁繩時按下"H"開啟或關閉其功能。
+tc.research_page.HOVERHARNESS.1=最終你揭開了飛行的秘密。 你創造出一種通過使用奧術能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要的魔力在創造的時候就已經全部加入進去，它消耗的燃料是單純的源質：Potentia(能量)。當手持著韁繩的時候右擊以安裝盛滿 Potentia 源質的封罐。<BR>當穿著奧術韁繩時按下"H"開啟或關閉其功能。
 tc.research_page.HOVERHARNESS.2=啟動後奧術韁繩會持續消耗 Potentia 源質。<BR>急迫附魔能夠加快奧術韁繩的飛行速度。
 #
 tc.research_name.HOVERGIRDLE=奧術腰帶
@@ -1329,16 +1329,16 @@ tc.research_name.MIRROR=魔鏡
 tc.research_text.MIRROR=鏡中奇緣
 tc.research_page.MIRROR.1=你嘗試對鏡子施加魔法，將它變成通往世界間隙那廣漠虛空的傳送門。投入其(或是使用管道向鏡子輸入)的物品將會跨越空間甚至次元，從另外一面鏡子噴出。<BR>不幸的是空間通道對像你這樣的實體生物非常排斥，因此用這種魔鏡來傳輸生物暫時是不可能的。<BR>要連結一對魔鏡，你需要先將其中一面鏡子安裝在目標位置，
 tc.research_page.MIRROR.2=然後用第二面鏡子右擊第一面鏡子，並安裝在需要的位置。當兩面都裝好後會建立連結，鏡面會出現黑洞的圖樣。當你將物品投入其中，物品會自動從另一個鏡子被拋出。<BR>魔鏡只能成對鏈接，當安裝好後不能與第三個魔鏡建立鏈接。當你拆卸後重新安裝魔鏡的時候，它能夠自動回憶上次建立配對的魔鏡。同理，拆卸配對的魔鏡後，你也能很方便地用它建立新的鏈接。
-tc.research_page.MIRROR.3=通過鏡子傳輸物品會對魔導玻璃造成壓力，為了免於破碎，鏡子會自動降低從另一端的鏡面噴吐出物品的頻率。不穩定性越高，傳輸速度越慢。<BR>這種不穩定性會隨著時間推移而下降，或是向鏡子直接通入§7Ordo§0要素來抵消它。
+tc.research_page.MIRROR.3=通過鏡子傳輸物品會對魔導玻璃造成壓力，為了避免破碎，鏡子會自動降低從另一端的鏡面噴拋出物品的頻率。不穩定性越高，傳輸速度越慢。<BR>這種不穩定性會隨著時間推移而下降，或是向鏡子直接通入§7Ordo§0要素來抵消它。
 #
 tc.research_name.MIRRORHAND=魔導手鏡
 tc.research_text.MIRRORHAND=反思時間
-tc.research_page.MIRRORHAND.1=魔導手鏡如同普通的魔鏡。但首先，正如其名，它可以隨身攜帶，手持已經連結到目標魔鏡的手鏡右擊就可以打開界面，將物品放入魔鏡中的格子即可以實現傳遞，他們會被另一端的魔鏡吐出來。<BR>其次，魔導手鏡能夠通過右鍵與新的魔鏡綁定。你能夠使用手鏡來方便地將物品進行傳輸。<BR>手鏡能夠連結到已經連結過其他手鏡的魔鏡上。<BR>注意手鏡只能傳出物品，不能接收物品。
+tc.research_page.MIRRORHAND.1=魔導手鏡如同普通的魔鏡。但是第一個不同點正如其名，它可以隨身攜帶。手持已經連結到目標魔鏡的手鏡右鍵就可以打開傳送界面，將物品放入魔鏡中的格子中即可傳遞，它們會從另一端的魔鏡中彈出。<BR>其次，魔導手鏡能透過右鍵另一個魔鏡來重新綁定。你可以方便地使用手鏡來將物品進行傳輸。<BR>手鏡能夠連結到已經連結過其他手鏡的魔鏡上。<BR>注意手鏡只能送出物品，不能接收物品。
 #
-tc.research_name.NODEJAR=缸中節點
-tc.research_text.NODEJAR=專為旅行中的秘術使設計
-tc.research_page.NODEJAR.1=源質罐被證明能夠儲存各種世俗或神秘的物品，但你相信你又發掘出他們的新應用：用於捕獲靈氣節點。<BR>圍繞靈氣節點，建造一個大號的罐子，然後使用法杖配合以合適的秘術式，便能夠將節點捕獲進罐中並迅速縮小變成便於管理的大小。這種罐子能夠被安全地回收和攜帶。但注意在初始化捕獲儀式的過程中有很大可能會損傷到節點。<BR>被捕獲的節點懸浮在罐中，既不能再生魔力，也不會允許法杖從中抽取魔力。
-tc.research_page.NODEJAR.2=將其放置在地上，並對其使用法杖就能再次釋放節點。這樣會摧毀罐子本身。
+tc.research_name.NODEJAR=節點封罐
+tc.research_text.NODEJAR=專為旅行中的秘術使所設計
+tc.research_page.NODEJAR.1=封罐被證明能夠儲存各種世俗或神秘的物品，但你相信你又發掘出他們的新應用：用於捕獲靈氣節點。<BR>圍繞靈氣節點，建造一個特大號的封罐，然後使用法杖配合以合適的秘術式，便能夠將節點捕獲進罐中並迅速縮小變成便於管理的大小。這種罐子能夠被安全地回收和攜帶。但注意在開始捕獲儀式時有很大可能會損傷到節點。<BR>被捕獲的節點懸浮在罐中，既不能再生魔力，也不允許法杖從中抽取魔力。
+tc.research_page.NODEJAR.2=將節點封罐放置在地上，並對其使用法杖就能再次釋放節點。這樣會摧毀封罐本身。
 #
 tc.research_name.PAVETRAVEL=旅人路磚
 tc.research_text.PAVETRAVEL=縮地成寸
@@ -1363,8 +1363,8 @@ tc.research_page.ETHEREALBLOOM.1=水銀花常常生長在銀樹附近的陰影�
 tc.research_page.ETHEREALBLOOM.2=這種花只能淨化沐浴在它榮光之下的8格範圍內的土地。
 #
 tc.research_name.PECH=地精
-tc.research_text.PECH=奇怪的生物
-tc.research_page.PECH.1=這些奇怪的類人生物生活在位面間隙的薄層之中。它們被魔力所吸引，在魔力濃郁之處遍地皆是。<BR>不要被它們小小的個頭愚弄了，實際上它們擁有不可思議的力氣，能夠攜運數倍於自身重量的物品。<BR>地精通常不具有主動攻擊性。但一旦被激怒，就會成群結隊德追殺攻擊它們的人。一般情況下，盡可能不要招惹它們。<BR>地精是出了名的吝嗇鬼，儘管它們收藏了很多貴重物品，
+tc.research_text.PECH=古怪的生物
+tc.research_page.PECH.1=這些奇怪的類人生物生活在位面間隙的薄層之中。它們被魔力所吸引，在魔力濃郁之處遍地皆是。<BR>不要被它們小小的個頭愚弄了，實際上它們擁有不可思議的力氣，能夠攜運數倍於自身重量的物品。<BR>地精通常不具有主動攻擊性。但一旦被激怒，就會成群結隊追殺攻擊它們的人。一般情況下，盡可能不要招惹它們。<BR>地精是出了名的吝嗇鬼，儘管它們收藏了很多貴重物品，
 tc.research_page.PECH.2=但是殺死它們不會得到任何戰利品。據說如果你為它們提供想要的材料就有可能能夠與它們結交。成為朋友後它們常常會搬來一些它們不想要了的神奇物品給你。<BR>應當說明的一點是，這樣的友誼很少能長久維持。<BR><IMG>thaumcraft:textures/misc/research5.png:128:136:112:120:.75</IMG>
 #
 tc.research_name.INFUSIONENCHANTMENT=注魔法附魔
@@ -1385,14 +1385,14 @@ tc.research_page.BASICARTIFACE.1=§n元初符咒§r<BR><BR>元初符咒是構築
 tc.research_name.TUBES=要素源質管道
 tc.research_text.TUBES=運輸要素源質
 tc.research_page.TUBES.1=你已發現了好些運輸要素源質的方法，但都被證明難以與大規模的煉金操作相適應-現在這問題解決了。<BR>你已破解了製作穩定及相對密封的管道的關鍵所在。儘管普通的化學物質可以用玻璃管道運輸，但某些類型的要素源質卻可能溶解掉或者直接穿透玻璃。在玻璃管道上裹上鐵皮並用水銀處理，讓即使最不穩定的源質也能安全通過。黃金的管道配件裝飾得管道系統極其美觀。
-tc.research_page.TUBES.2=管道可以與各種類型的奧術設備相連，儘管一般你主要用它連接源質罐和蒸餾器。<BR>要素源質會主動流向任意可以容納它的容器，例如源質罐。<BR>裝有不同源質的罐子只會吸引那些同類要素源質。但管道一次只能吸入並運輸一種類型的源質，吸力最高的會優先處理。若無法恰當使用閥門很容易導致管道系統堵塞，所以閥門的使用尤其關鍵。
+tc.research_page.TUBES.2=管道可以與各種類型的奧術設備相連，儘管一般你主要用它連接封罐和蒸餾器。<BR>要素源質會主動流向任意可以容納它的容器，例如封罐。<BR>裝有不同源質的封罐只會吸引那些同類要素源質。但管道一次只能吸入並運輸一種類型的源質，吸力最高的會優先處理。若無法恰當使用閥門很容易導致管道系統堵塞，所以閥門的使用尤其關鍵。
 tc.research_page.TUBES.3=當你看到氣體被從一個管道被排出，這意味著不同的吸力會干擾彼此。顏色告訴了你其吸入源質類型的線索。<LINE>要素閥門如同普通管道，但可以通過手動或者紅石信號控制其開閉。關閉閥門後通過它的源質流會被阻斷。<LINE>要素共鳴器是為管道系統排障的方便工具。你可以使用它查看管道或其他使用源質的設備中當前容納著何種源質以及它們的吸力強弱。
 tc.research_page.TUBES.4=可以藉由魔杖點擊來斷開或接上相鄰的源質管道。<BR>也能用魔杖點擊中央部份來旋轉一些像是閥門之類的管道。
 #
 tc.research_name.CENTRIFUGE=奧術離心機
 tc.research_text.CENTRIFUGE=分離物品
 tc.research_page.CENTRIFUGE.1=奧術離心機是一種令人驚艷，能夠將源質分解為更基本的前置要素的煉金設備。<BR>當複合要素的源質從下方流入離心機，就會被慢慢分解成組成它們的前置的複合要素或元初要素。但每消耗一點源質只能得到一點前置要素源質。<BR>分離得到的要素源質需要從離心機頂部抽走。由於管道壓力系統的特性，最好在離心機頂部連接一個§5源質緩衝器§0(見下頁)。
-tc.research_page.CENTRIFUGE.2=源質緩衝器能夠允許你暫時儲存一定量的源質，總計8點，可以是不同源質類型的任意組合。如同罐子它會自動吸收源質，但其吸力是各種可能中最小的(吸收的優先級最低)。<BR>換言之通常只有在直接將其安附在源質來源處它才能吸入源質，然而管道可以連接在它所有的方向上，這意味著除了用它來提取奧術離心機這種大容量空間的設備中的源質以外意義甚微。<BR>你可以為緩衝器安裝奧術風箱，每個風箱提升32點吸力。
+tc.research_page.CENTRIFUGE.2=源質緩衝器能夠允許你暫時儲存一定量的源質，總計8點，可以是不同源質類型的任意組合。如同封罐它會自動吸收源質，但其吸力是各種可能中最小的(吸收的優先級最低)。<BR>換言之通常只有在直接將其安附在源質來源處它才能吸入源質，然而管道可以連接在它所有的方向上，這意味著除了用它來提取奧術離心機這種大容量空間的設備中的源質以外意義甚微。<BR>你可以為緩衝器安裝奧術風箱，每個風箱提升32點吸力。
 tc.research_page.CENTRIFUGE.=另外你可以向普通的管道般各別的開啟或關閉緩衝器的每一面，而當你按住shift點擊其任意連接處，能將那一面的吸力抑制在1(藍)或0(紅)。這個特性使得源質緩衝器在輸送源質時有許多有趣的可能性。
 #
 tc.research_name.TRAVELTRUNK=箱子寶寶
@@ -1414,9 +1414,9 @@ tc.research_name.LAMPFERTILITY=繁衍燈
 tc.research_text.LAMPFERTILITY=散發出羅曼蒂克的光輝照耀事物
 tc.research_page.LAMPFERTILITY.1=沐浴在此燈柔和的粉色光芒之中的所有動物都會逕自陷入更加羅曼蒂克的情緒之中。 它們會盡可能地尋找同類交配。<BR>若某種動物已經達到8隻或更多，這種燈便不會再對其造成影響。<BR>它需要 victus 源質來驅動，可以透過直接將繁衍燈安附在源質管道上來提供。
 #
-tc.research_name.JARVOID=虛空之罐
+tc.research_name.JARVOID=虛空封罐
 tc.research_text.JARVOID=源質太多？不可能！
-tc.research_page.JARVOID.1=虛空罐子用起來類似普通的要素罐，但是有一個重要的不同之處：即使它們裝滿了也能夠繼續接收要素源質，但多餘的要素源質會消失。這讓你總會有這種源質可用，但卻不至於糾結多做出來的那些。<BR>就像普通的要素罐子一樣虛空罐子也可使用標籤。但它們在源質管道系統中的優先級低於其他貼了標籤的罐子(介於沒有貼標籤的罐子和貼了標籤的罐子之間)。優先級(或吸力)：標籤罐子>標籤虛空罐>普通罐子>虛空罐。
+tc.research_page.JARVOID.1=虛空封罐用起來如同普通的封罐，但是有一個重要的不同之處：即使它們裝滿了也能夠繼續接收要素源質，但多餘的要素源質會消失。這讓你總會有這種源質可用，但卻不至於糾結多做出來的那些。<BR>就像普通的封罐一樣虛空封罐也可使用標籤。但它們在源質管道系統中的優先級低於其他貼了標籤的封罐(介於沒有貼標籤的罐子和貼了標籤的罐子之間)。優先級(或吸力)：標籤封罐>標籤虛空封罐>普通封罐>虛空封罐。
 #
 tc.research_name.TUBEFILTER=高級源質管道
 tc.research_text.TUBEFILTER=你需要什麼，要用在何處
@@ -1467,7 +1467,7 @@ tc.research_text.RUNICKINETIC=呵呵，你會後悔的
 tc.research_page.RUNICKINETIC.1=這是種特別版的護盾腰帶。<BR>較改造前的腰帶蓄能量略少些，但當護盾被打破時會爆發出一陣能夠傷害並推開附近所有物品的衝擊波。<BR>在20s內只能啟動一次這種效果。
 #
 tc.research_name.RUNICEMERGENCY=應急護盾護身符
-tc.research_text.RUNICEMERGENCY=你就不能讓我舒舒坦坦
+tc.research_text.RUNICEMERGENCY=你就不能讓我輕鬆點嗎?
 tc.research_page.RUNICEMERGENCY.1=這是種特別版的護盾護身符。<BR>較改造前的護身符蓄能量略少些，但當護盾被打破時這項升級能夠立即再為護盾增加8點能量。<BR>每分鐘只能啟動一次這種效果。 
 #
 tc.research_name.WARDEDARCANA=守護之奧術
@@ -1587,8 +1587,8 @@ tc.research_page.OCULUS.2=如果所有步驟均正確，那麼儀式將被完成
 #
 tc.research_name.ESSENTIARESERVOIR=高級源質儲存
 tc.research_text.ESSENTIARESERVOIR=小心輕放
-tc.research_page.ESSENTIARESERVOIR.1=多數類型的源質相當容易揮發，需要小心儲存，這也是一般秘術使會選擇使用密閉罐子的原因所在。可是你並非那些平凡的秘術使。<BR>通過使用一種名為虛空錠的神奇新物質，你發現一種顯著提升源質存儲能力的方法。源質庫能夠容納256點任意類型組合的源質。<BR>這種新型金屬構築的動態隔間都夠有效隔絕不同類型的源質從而排除異種源質混合可能會造成的潛在危險。
-tc.research_page.ESSENTIARESERVOIR.2=如同罐子，源質庫也只有一面能夠參與源質管道系統，儘管你可以指定這一面的朝向。不幸的是。這種容器無法手動清空或者手動填裝。你必須借助於傀儡或者源質管道。<BR>不建議直接挖掉盛有內容的源質庫。<BR>這項發現讓你喜悅萬分，因此你向一些秘術使夥伴展示了它。奇怪的是，他們多數都一副避之唯恐不及的樣子，即使你已經向他們保證經過極端高壓處理後這種金屬的安全性值得信任。
+tc.research_page.ESSENTIARESERVOIR.1=多數類型的源質相當容易揮發，需要小心儲存，這也是一般秘術使會選擇使用封罐的原因所在。可是你並非那些平凡的秘術使。<BR>通過使用一種名為虛空錠的神奇新物質，你發現一種顯著提升源質存儲能力的方法。源質庫能夠容納256點任意類型組合的源質。<BR>這種新型金屬構築的動態隔間都夠有效隔絕不同類型的源質從而排除異種源質混合可能會造成的潛在危險。
+tc.research_page.ESSENTIARESERVOIR.2=如同封罐，源質庫也只有一面能夠參與源質管道系統，儘管你可以指定這一面的朝向。不幸的是。這種容器無法手動清空或者手動填裝。你必須借助於傀儡或者源質管道。<BR>不建議直接挖掉盛有內容的源質庫。<BR>這項發現讓你喜悅萬分，因此你向一些秘術使夥伴展示了它。奇怪的是，他們多數都一副避之唯恐不及的樣子，即使你已經向他們保證經過極端高壓處理後這種金屬的安全性值得信任。
 #
 tc.research_name.ESSENTIACRYSTAL=源質結晶器 
 tc.research_text.ESSENTIACRYSTAL=要結實的貨幣，還是要流動的資產？
