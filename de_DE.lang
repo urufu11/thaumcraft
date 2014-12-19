@@ -1738,8 +1738,8 @@ tc.research_page.BOTTLETAINT.1=Magischen Schmutz zu säubern ist eine Sache, abe
 #
 tc.research_name.FOCALMANIPULATION=Fokusmanipulation 
 tc.research_text.FOCALMANIPULATION=Zauberfoki - Ganz neu!
-tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible.A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focual Manipulator and choose the upgrade you wish to apply to it. You also need to provide it with vis from relays and spend experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
-tc.research_page.FOCALMANIPULATION.2=but each rank is doubles the cost.<BR>While some upgrades can be applied multiple times or at any rank, many foci have upgrades that can only be applied at certain ranks or only if certain requisite upgrades had been taken at lower ranks. Experimentation is encouraged.<BR>Upgrades are permanent - you are not aware of any method to remove unwanted upgrades so care must be taken when choosing them.  
+tc.research_page.FOCALMANIPULATION.1=Stabfoki sind zu erstaunlichen Leistungen fähig, aber sie sind nicht sehr flexibel. Ein einzelner Fokus ist selten zu mehr als einer einzigen Funktion fähig.<BR>Du hast einen Weg entdeckt, gewöhnliche Foki zu verbessern, um die Art, wie sie Magie manipulieren, zu ändern. Du musst lediglich einen Fokus in einen Fokusmanipulator platzieren und wählen, welches Upgrade you anbringen möchtest. Du musst das Gerät auch mit Vis aus Relais und Erfahrungspunkten von dir selbst versorgen, um den Prozess zu beginnen, danach heißt es nur noch: Warten.<BR>Jeder Fokus kann bis zu fünfmal verbessert werden,
+tc.research_page.FOCALMANIPULATION.2=aber jeder Rang verdoppelt die Kosten.<BR>Während manche Upgrades mehr als einmal oder bei jeglichem Rang angebracht werden können, haben viele Foki Upgrades, die nur auf bestimmten Rängen oder nur mit bestimmten bereits angebrachten Upgrades angebracht werden können. Probieren geht über Studieren.<BR>Upgrades sind permanent - dir ist keine Möglichkeit bekannt, ungewollte Upgrades zu entfernen, daher ist bei der Wahl Vorsicht geboten.
 #
 tc.research_name.VAMPBAT=Stufe-5-Upgrade: Vampirfledermäuse
 tc.research_text.VAMPBAT=Gemeine kleine Blutsauger
@@ -1751,7 +1751,7 @@ tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are no
 #
 tc.research_name.PRIMNODE=Primordialnodienmanipulation 
 tc.research_text.PRIMNODE=Ein ziemlich langes Wort
-tc.research_page.PRIMNODE.1=You have developed a bit of a wild theory that might be worth exploring. Why not bring a primordial pearl into contact with an aura node?<BR>Sure, bringing two such sources of raw magical energy might into contact with each other might be catastrophic, but their interaction could also be highly... interesting.<BR>While anyone can do this, you are sure that completing this research has slightly improved your chances of getting a good result. Very slightly.
+tc.research_page.PRIMNODE.1=Du hast eine relativ seltsame Theorie entwickelt, die es zu erforschen gilt. Warum bringst du nicht einfach eine Primordialperle in Kontakt mit einer Auranodie?<BR>Natürlich könnte der Kontakt dieser beiden Quellen roher magischer Energie katastrophal enden, aber ihre Interaktion könnte auch sehr... interessant sein.<BR>Während jeder dies tun kann, bist du sicher, dass das Beenden dieser Forschung deine Chancen auf ein gutes Ergebnis leicht verbessert hat. Sehr leicht.
 #
 tc.research_name.ADVALCHEMYFURNACE=Verbesserter Alchemieofen
 tc.research_text.ADVALCHEMYFURNACE=Essentiakreierung vereinfacht
