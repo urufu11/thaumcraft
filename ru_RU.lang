@@ -1,12 +1,11 @@
-# Enchantments
-enchantment.potency=Мощь
-enchantment.frugal=Бережливость
-enchantment.charging=Зарядка
-enchantment.wandfortune=Клад
+№
+#Enchantments
 enchantment.haste=Спешка
 enchantment.repair=Восстановление
+enchantment.special.sapless=Слабое истощение
+enchantment.special.sapgreat=Сильное истощение
 #
-#Potions
+# Potions
 potion.fluxtaint=Магический яд
 potion.soulshatter=Вырывание души
 potion.visexhaust=Магическое истощение
@@ -18,7 +17,7 @@ potion.blurred=Затуманенное зрение
 potion.sunscorned=Солнечная болезнь
 potion.thaumarhia=Таумария
 #
-#Warp
+# Warp
 warp.text.1=Вы чувствуете себя опустошённым.
 warp.text.2=Вы ощущаете странный голод.
 warp.text.hunger.1=Обычная еда не может утолить этот голод.
@@ -38,9 +37,14 @@ warp.text.14=Вы достигли просветления.
 warp.text.15=У Вас странное урчание в животе.
 #
 # Entities
+entity.Thaumcraft.Golem.name=Голем
 entity.Thaumcraft.ThaumSlime.name=Таум-слизень
 entity.Thaumcraft.Dart.name=Болт голема
 entity.Thaumcraft.FrostShard.name=Глыба льда
+entity.Thaumcraft.ExplosiveOrb.name=Огненный шар
+entity.Thaumcraft.ShockOrb.name=Шоковый шар
+entity.Thaumcraft.GolemOrb.name=Энергетический шар
+entity.Thaumcraft.BottleTaint.name=Порча в бутылке
 entity.Thaumcraft.Firebat.name=Адская летучая мышь
 entity.Thaumcraft.Wisp.name=Висп
 entity.Thaumcraft.Alumentum.name=Алюментум
@@ -67,14 +71,33 @@ entity.Thaumcraft.Pech.1.name=Гном-маг
 entity.Thaumcraft.Pech.2.name=Гном-искатель
 entity.Thaumcraft.PrimalOrb.name=Шар первоначальной энергии
 entity.Thaumcraft.TravelingTrunk.name=Ходячий сундук
-entity.Thaumcraft.trunk.guiname= сундук
-entity.Thaumcraft.trunk.move=Сундук будет следовать за Вами
-entity.Thaumcraft.trunk.stay=Сундук будет стоять здесь
+entity.trunk.guiname= сундук
+entity.trunk.move=Сундук будет следовать за Вами
+entity.trunk.stay=Сундук будет стоять здесь
 entity.Thaumcraft.MindSpider.name=Мозговой паук
 entity.Thaumcraft.EldritchGuardian.name=Древний страж
+entity.Thaumcraft.EldritchWarden.name=%s - %d
+entity.Thaumcraft.EldritchGolem.name=%s древний голем
 entity.Thaumcraft.EldritchOrb.name=Древняя сфера
 entity.Thaumcraft.CultistKnight.name=Багровый рыцарь
 entity.Thaumcraft.CultistCleric.name=Багровый маг
+entity.Thaumcraft.CultistLeader.name=Претор %s  %d
+entity.Thaumcraft.CultistPortal.name=Багровый портал
+entity.Thaumcraft.EldritchCrab.name=Древний краб
+entity.Thaumcraft.InhabitedZombie.name=Волочащаяся оболочка
+#
+Thaumcraft.Boss.mod.bold=Смелый
+Thaumcraft.Boss.mod.spine=Колючий
+Thaumcraft.Boss.mod.armor=Бронированный
+Thaumcraft.Boss.mod.mighty=Могучий
+Thaumcraft.Boss.mod.grim=Мрачный
+Thaumcraft.Boss.mod.warded=Защищённый
+Thaumcraft.Boss.mod.warp=Искажённый
+Thaumcraft.Boss.mod.undying=Бессмертный
+#
+tc.boss.crimson=Багровый портал, открывшийся поблизости предвещает появление Багрового культа. Надо его скорее закрыть!
+tc.boss.golem=Замороженный одинокий хранитель стоит в своей комнате, но судя по трескающейся от энергии оболочке, он пробудет замороженным ещё не особо долго.
+tc.boss.warden=Тёмная энергия пузырится на дальнем пьедестале. Что-то надвигается...
 #
 # Blocks
 tile.blockAiry.0.name=Узел ауры
@@ -83,6 +106,9 @@ tile.blockAiry.2.name=Мерцающий эфир
 tile.blockAiry.3.name=Мерцающий эфир
 tile.blockAiry.4.name=Огораживающая аура
 tile.blockAiry.5.name=Возбуждённый узел ауры
+tile.blockAiry.10.name=Статическое поле
+tile.blockAiry.11.name=Истощающее поле
+tile.blockAiry.12.name=Непроходимо
 tile.blockHole.name=Пустое место
 tile.blockSecure.name=Усиленный камень
 tile.blockCustomOre.0.name=Киноварь
@@ -107,6 +133,11 @@ tile.blockCosmeticSolid.7.name=Магический кирпич
 tile.blockCosmeticSolid.8.name=Заряженный обсидиановый тотем
 tile.blockCosmeticSolid.9.name=Голем-деактиватор
 tile.blockCosmeticSolid.10.name=Включенный голем-деактиватор
+tile.blockCosmeticSolid.11.name=Древний камень
+tile.blockCosmeticSolid.12.name=Древняя скала
+tile.blockCosmeticSolid.13.name=Древний камень
+tile.blockCosmeticSolid.14.name=Заросший камень
+tile.blockCosmeticSolid.15.name=Древний пьедестал
 tile.blockCustomPlant.0.name=Саженец великого дерева
 tile.blockCustomPlant.1.name=Саженец серебрянного дерева
 tile.blockCustomPlant.2.name=Сребролист
@@ -121,6 +152,7 @@ tile.alembic.msg.3=Перегонный куб наполовину полон
 tile.alembic.msg.4=Перегонный куб почти заполнен
 tile.alembic.msg.5=Перегонный куб заполнен
 tile.blockMetalDevice.2.name=Вис-заряжатель
+tile.blockMetalDevice.3.name=Улучшенная алхимическая конструкция
 tile.blockMetalDevice.5.name=Железная решетка 
 tile.blockMetalDevice.6.name=Железная решетка (Закрытая)
 tile.blockMetalDevice.7.name=Магический светильник
@@ -160,6 +192,22 @@ tile.blockWoodenDevice.5.name=Магический бур
 tile.blockWoodenDevice.6.name=Доски великого дерева
 tile.blockWoodenDevice.7.name=Доски серебряного дерева
 tile.blockWoodenDevice.8.name=Вымпел
+tile.blockWoodenDevice.8.0.name=Белый вымпел
+tile.blockWoodenDevice.8.1.name=Оранжевый вымпел
+tile.blockWoodenDevice.8.2.name=Пурпурный вымпел
+tile.blockWoodenDevice.8.3.name=Голубой вымпел
+tile.blockWoodenDevice.8.4.name=Жёлтый вымпел
+tile.blockWoodenDevice.8.5.name=Лаймовый вымпел
+tile.blockWoodenDevice.8.6.name=Розовый вымпел
+tile.blockWoodenDevice.8.7.name=Серый вымпел
+tile.blockWoodenDevice.8.8.name=Светло-серый вымпел
+tile.blockWoodenDevice.8.9.name=Бирюзовый вымпел
+tile.blockWoodenDevice.8.10.name=Фиолетовый вымпел
+tile.blockWoodenDevice.8.11.name=Синий вымпел
+tile.blockWoodenDevice.8.12.name=Коричневый вымпел
+tile.blockWoodenDevice.8.13.name=Зелёный вымпел
+tile.blockWoodenDevice.8.14.name=Красный вымпел
+tile.blockWoodenDevice.8.15.name=Чёрный вымпел
 tile.blockJar.0.name=Банка
 tile.blockJar.1.name=Мозг в банке
 tile.blockJar.2.name=Узел ауры в банке
@@ -181,6 +229,7 @@ tile.blockCrystal.3.name=Земляной кристальный кластер
 tile.blockCrystal.4.name=Кристальный кластер порядка
 tile.blockCrystal.5.name=Энтропийный кристальный кластер
 tile.blockCrystal.6.name=Смешанный кристальный кластер
+tile.blockCrystal.7.name=Странные кристаллы
 tile.blockMirror.name=Магическое зеркало
 tile.blockMirror.0.name=Магическое зеркало
 tile.blockMirror.6.name=Зеркало для эссенции
@@ -209,6 +258,8 @@ tile.blockStoneDevice.9.name=Узел-стабилизатор
 tile.blockStoneDevice.10.name=Улучшенный узел-стабилизатор
 tile.blockStoneDevice.11.name=Узел-преобразователь
 tile.blockStoneDevice.12.name=Магическая ванна
+tile.blockStoneDevice.13.name=Набалдашниковый верстак
+tile.blockStoneDevice.14.name=Порчельный полотёр
 text.spa.mix.true=Растворение ингредиентов
 text.spa.mix.false=Выливание жидкости
 tile.blockTube.0.name=Труба для эссенции
@@ -225,8 +276,25 @@ tile.blockEldritch.0.name=Алтарь древних
 tile.blockEldritch.1.name=Обелиск древних
 tile.blockEldritch.2.name=Обелиск древних
 tile.blockEldritch.3.name=Пьедестал древних
-tile.blockPortalEldritch.name=Портал древних
+tile.blockEldritch.4.name=Светящийся заросший камень
+tile.blockEldritch.5.name=Исписанный камень
+tile.blockEldritch.7.name=Древний проход
+tile.blockEldritch.8.name=Древний замок
+tile.blockEldritch.9.name=Заросший проход
+tile.blockEldritch.10.name=Рунный камень
+tile.blockPortalEldritch.name=Древний портал
 tile.blockEssentiaReservoir.name=Резервуар эссенции
+tile.blockStairsArcaneStone.name=Лестница из магического камня
+tile.blockStairsGreatwood.name=Лестница из великого дерева
+tile.blockStairsSilverwood.name=Лестница из серебряного дерева
+tile.blockStairsEldritch.name=Лестница из древнего камня
+tile.blockCosmeticSlabWood.greatwood.name=Плита из великого дерева
+tile.blockCosmeticSlabWood.silverwood.name=Плита из серебряного дерева
+tile.blockCosmeticSlabStone.arcane.name=Плита из магического камня
+tile.blockCosmeticSlabStone.eldritch.name=Плита из древнего камня
+tile.blockAlchemyFurnace.name=Улучшенная алхимическая печь
+tile.blockLootUrn.name=Старая ваза
+tile.blockLootCrate.name=Забытый ящик
 #
 # Items
 item.GolemBell.name=Хрустальный колокольчик
@@ -312,6 +380,7 @@ item.ItemResource.14.name=Salis Mundus
 item.ItemResource.15.name=Сингулярный амулет
 item.ItemResource.16.name=Слиток пустотного металла
 item.ItemResource.17.name=Семя пустоты
+item.ItemResource.18.name=Золотая монета
 item.ItemZombieBrain.name=Мозг зомби
 item.ItemShard.0.name=Грозовой кристалл
 item.ItemShard.1.name=Огненный кристалл
@@ -348,8 +417,8 @@ item.ItemNuggetBeef.name=Кусочек говядины
 item.ItemNuggetPork.name=Кусочек свинины
 item.ItemNuggetFish.name=Кусочек рыбки
 item.BlockJarFilledItem.name=Банка с эссенцией
-item.BlockJarNodeItem.name=Узел ауры в банке
 item.BlockJarFilledItem.void.name=Пустотная банка с эссенцией
+item.BlockJarNodeItem.name=Узел ауры в банке
 item.TripleMeatTreat.name=Мясное ассорти
 item.ItemShovelElemental.name=Лопата Землероя
 item.ItemPickaxeElemental.name=Кирка Огня
@@ -461,9 +530,15 @@ item.HelmetFortress.mask.1=Злое привидение
 item.HelmetFortress.mask.2=Тянущийся демон
 item.ItemEldritchObject.0.name=Глаз Древних
 item.ItemEldritchObject.1.name=Багровые ритуалы
+item.ItemEldritchObject.2.name=Рунная скрижаль
+item.ItemEldritchObject.3.name=Первоначальный жемчуг
+item.ItemEldritchObject.4.name=Установщик древних обелисков
 item.ItemEldritchObject.text.1=Как будто наблюдает за Вами.
 item.ItemEldritchObject.text.2=Книга, наполненная странными символами.
-item.ItemEldritchObject.text.3=Откройте её, чтобы выучить. [пока отключено]
+item.ItemEldritchObject.text.3=Откройте её, чтобы выучить.
+item.ItemEldritchObject.text.4=Видимо, это - часть чего-то большего.
+item.ItemEldritchObject.text.5=При каждом пульсировании 
+item.ItemEldritchObject.text.6=проступает энергия.
 item.ItemHelmetVoid.name=Пустотный шлем
 item.ItemChestplateVoid.name=Пустотная кираса
 item.ItemLeggingsVoid.name=Пустотные поножи
@@ -485,12 +560,65 @@ item.ItemBootsCultist.name=Ботинки культиста
 item.ItemHelmetCultistPlate.name=Шлем культиста
 item.ItemChestplateCultistPlate.name=Кираса культиста
 item.ItemLeggingsCultistPlate.name=Поножи культиста
+item.ItemHelmetCultistLeaderPlate.name=Шлем Претора культистов
+item.ItemChestplateCultistLeaderPlate.name=Кираса Претора культистов
+item.ItemLeggingsCultistLeaderPlate.name=Поножи Претора культистов
+item.ItemBottleTaint.name=Порча в бутылке
+item.ItemSwordCrimson.name=Багровый меч
+item.ItemLootBag.0.name=Обычное сокровище
+item.ItemLootBag.1.name=Необычное сокровище
+item.ItemLootBag.2.name=Редкое сокровище
+tc.lootbag=Откройте ПКМ или сохраните для торговли
 #
 # Fluids
 fluid.fluxGoo=Заражённая жижа
 fluid.fluxGas=Заражённый газ
 fluid.fluidPure=Очищающая жидкость
 fluid.fluidDeath=Жидкая смерть
+#
+# General Focus Upgrades
+focus.upgrade.potency.name=Мощь
+focus.upgrade.potency.text=Это улучшение увеличивает урон или силу набалдашника. Прирост варьируется, но, в основном, составляет 20% за уровень.
+focus.upgrade.frugal.name=Бережливость
+focus.upgrade.frugal.text=Это улучшение уменьшает затраты Вис при использовании набалдашника на 10% за уровень.
+focus.upgrade.treasure.name=Клад
+focus.upgrade.treasure.text=Это улучшение похоже на зачарование Удача. Оно увеличивает шанс получения вещей более высокого качества или количество ресурсов при добыче.
+focus.upgrade.enlarge.name=Расширение
+focus.upgrade.enlarge.text=Это улучшение увеличивает зону действия набалдашника, или количество целей.
+focus.upgrade.extend.name=Длительность
+focus.upgrade.extend.text=Это улучшение увеличивает длительность любых эффектов, наложенных набалдашником.
+focus.upgrade.architect.name=Архитектор
+focus.upgrade.architect.text=Это улучшение усиливает контроль над эффектом набалдашника. Рабочая зона будет сразу показана, Вы можете изменить её размер клавишей G (изначально). Shift+G изменяет действие набалдашника в измерениях.
+#
+# Specific Focus Upgrades
+focus.upgrade.chainlightning.name=Цепная Молния
+focus.upgrade.chainlightning.text=Это улучшение уменьшает скорость срабатывания набалдашника, но увеличивает урон и наводит молнию на две дополнительные цели.
+focus.upgrade.earthshock.name=Рокот Гор
+focus.upgrade.earthshock.text=Вместо молнии, набалдашник будет стрелять шоковым шаром. При касании земли он наэлектризовывает область вокруг места падения на некоторое время.
+focus.upgrade.fireball.name=Огненный Шар
+focus.upgrade.fireball.text=Теперь вместо конуса огня набалдашник будет создавать взрывающийся огненный шар. Оголь Алхимика усиливает действие этого улучшения, позволяя зажигать область вокруг места падения.
+focus.upgrade.firebeam.name=Поток Огня
+focus.upgrade.firebeam.text=Набалдашник теперь испускает узконаправленный поток огня вместо конуса. Он прожигает всё на своем пути, нанося колоссальный урон.
+focus.upgrade.batbombs.name=Мыши-Бомбы
+focus.upgrade.batbombs.text=Это улучшение делает адских мышей ещё опаснее. Теперь они всегда взрываются при касании с врагом, нанося ещё больше урона.
+focus.upgrade.devilbats.name=Мыши-Дьяволы
+focus.upgrade.devilbats.text=С этим улучшением мыши становятся больше, сильнее и настырнее. Они больше не взорвутся, но будут атаковать цель до её смерти. 
+focus.upgrade.vampirebats.name=Мыши-Вампиры
+focus.upgrade.vampirebats.text=Это улучшение превращает адских мышей вампирами. Они нее только будут высасывать жизнь из врагов, исцеляя себя, но и будут этим исцелять Вас.
+focus.upgrade.scattershot.name=Ледяной Шторм
+focus.upgrade.scattershot.text=Вместо одной глыбы льда, набалдашник будет стрелять сразу кучей осколков. Каждый осколок наносит минимальный урон, но их количество решает эту проблему. 
+focus.upgrade.iceboulder.name=Ледяной Булыжник
+focus.upgrade.iceboulder.text=Теперь набалдашник станет стрелять ледяным шаром. Этот шар имеет способность отскакивать от поверхностей, что делает его смертельным оружием в тренированных руках. 
+focus.upgrade.alchemistsfire.name=Огонь Алхимика
+focus.upgrade.alchemistsfire.text=Это улучшение повышает мощь огня в набалдашнике. Все поражённые цели будут гореть дольше.
+focus.upgrade.alchemistsfrost.name=Лёд Алхимика
+focus.upgrade.alchemistsfrost.text=Это улучшение повышает мощь льда в набалдашнике. При прикосновении снаряда к цели, она будет сильно заторможена и охлаждена.
+focus.upgrade.nightshade.name=Ночная Тень
+focus.upgrade.nightshade.text=Обычно, набалдашник проклятия Гнома просто дает гадкие эффекты врагу редко и по одному. Теперь он будет наносить все эффекты и сразу.
+focus.upgrade.silktouch.name=Шёлковое Касание
+focus.upgrade.silktouch.text=Как и одноимённое зачарование, это улучшение позволяет собирать блоки как они есть в мире.
+focus.upgrade.seeker.name=Искатель
+focus.upgrade.seeker.text=Это улучшение даёт шару первоначальной энергии "интеллект" для поиска ближайшей живой цели. Это стабилизирует шар и предохраняет его от необдуманных решений.
 #
 # GUI
 golemblurb.0.text=Какой предмет держать мне в этом слоте, Хозяин?
@@ -522,6 +650,9 @@ recipe.type.crucible=Тигель
 recipe.type.infusion=Наполнение
 recipe.type.infusionenchantment=Зачарование наполнением
 recipe.type.construct=Мистическая конструкция
+wandtable.text1=Затраты Вис
+wandtable.text2=Затрыты опыта
+wandtable.text3=Начать улучшение
 #
 # Other
 itemGroup.thaumcraft=Thaumcraft
@@ -614,6 +745,8 @@ tc.primalcharm.2=Сильно вибрирует
 tc.primalcharm.3=Успокаивающе напевает
 tc.primalcharm.4=Стоп, он сейчас сверкнул седьмым цветом?
 tc.primalcharm.trigger=Странной энергией окутан этот амулет. Она быстро рассеивается, но у Вас остается какое-то вдохновеие...
+tc.break.fly=Что-то предотвращает Ваши попытки взлететь.
+tc.boss.enrage=пришёл в ярость от Вашей магии.
 #
 # Aspects
 tc.aspect.primal=Основной Аспект
@@ -724,20 +857,20 @@ tc.research_category.ARTIFICE=Изобретения
 tc.research_category.GOLEMANCY=Големоведение
 tc.research_category.ELDRITCH=Древние знания
 #  
-# Special formatting codes:
-# <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
-# <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
-# <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
-#                    - mod resource location name
-#                    - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
-#                    - x location of sub-image in png
-#                    - y location of sub-image in png
-#                    - x size of sub-image (255 if full x size of png must be used)
-#                    - y size of sub-image (255 if full y size of png must be used)
-#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)   
-#               Examples: 
-#                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
-#                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Блаблабла 
+# Здесь просто инструкции к форматировани
+# 
 #
 # Research entries
 tc.research_name.RESEARCH=Исследования
@@ -811,7 +944,7 @@ tc.research_page.BASICTHAUMATURGY.2=Зажав Shift, Вы увидите чис
 #
 tc.research_name.GRATE=Железная решетка
 tc.research_text.GRATE=Нужное - вход, ненужное - выход
-tc.research_page.GRATE.1=Железную Решетку можно открывать или закрывать даже сигналом красного камня. Когда она открыта, любые предметы падают сквозь нее.<BR>Предметы также могут быть принесены по трубам сверху, при этом если решетка открыта, то предметы будут выброшены вниз.
+tc.research_page.GRATE.1=Железную решетку можно открывать или закрывать даже сигналом красного камня. Когда она открыта, любые предметы падают сквозь нее.<BR>Предметы также могут быть принесены по трубам сверху, при этом если решетка открыта, то предметы будут выброшены вниз.
 #
 tc.research_name.NODETAPPER1=Улучшенное обращение с узлом ауры
 tc.research_text.NODETAPPER1=Все моё!
@@ -1180,17 +1313,18 @@ tc.research_text.COREGUARD=Стража ваших владений
 tc.research_page.COREGUARD.1=Големы с таким сердцем работают как охранники, атакующие любых врагов в их поле зрения.<BR>Может быть, Вы сможете найти способ указания конкретных целей големам... Но сейчас они бьют всех подряд, кроме криперов.
 tc.research_page.COREGUARD.2=§nУлучшение: Порядок разблокировано§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Если Вы улучшите голема этим кристаллом, то он будет более избирателен в своих целях. К тому же голем сможет атаковать не только врагов...
 #
+tc.research_name.COREBUTCHER=Сердце голема: Забивание
+tc.research_text.COREBUTCHER=Жажда крови
+tc.research_page.COREBUTCHER.1=Это сердце - улучшение сердца охраны.<BR>Голем с этим сердцем будет атаковать животных, но он достаточно умный, поэтому он будет убивать только старых особей, при этом он всегда проверяет - осталась ли половозрелая пара.
+#
 tc.research_name.CORELIQUID=Сердце голема: Заливка
 tc.research_text.CORELIQUID=Обслуживает резервуары
 tc.research_page.CORELIQUID.1=Големы с таким сердцем будут пытаться содержать резервуар заполненным указанной жидкостью.<BR>Если хотите, то Вы можете указать голему, что именно надо заливать - положите заполненное ведро в слот. Все остальные жидкости будут проигнорированы.<BR>Голем-заливщик может носить только 1/10 ведра жидкости за единицу веса, который он может нести, хотя они будут постоянно носить свои ведра, если Вы привязали их к какому-либо резервуару.
+tc.research_page.CORELIQUID.2=    §nУлучшение: Энтропия разблокировано§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Голем с таким улучшением будет искать самый дальний блок относительно помеченного. Это позволит ему держать не только один блок заполненным.<BR>Но он будет искать только в пределах радиуса его видимости, и расстояние в этом случае измеряется в пройденных блоках, а не абсолютных.
 #
 tc.research_name.CORESORTING=Сердце голема: Сортировка
 tc.research_text.CORESORTING=Соблюдаем чистоту
 tc.research_page.CORESORTING.1=Это сердце работает как и сердце опустошения, но с одной разницей: голем берет предмет из привязанного сундука только тогда, когда в помеченном сундуке есть такой же предмет. Это делает их очень полезными при сортировке вещей.<BR>Но Вы не можете непосредственно указывать голему, какие именно предметы носить.
-#
-tc.research_name.COREBUTCHER=Сердце голема: Забивание
-tc.research_text.COREBUTCHER=Жажда крови
-tc.research_page.COREBUTCHER.1=Это сердце - улучшение сердца охраны.<BR>Голем с этим сердцем будет атаковать животных, но он достаточно умный, поэтому он будет убивать только старых особей, при этом он всегда проверяет - осталась ли половозрелая пара.
 #
 tc.research_name.COREFISHING=Сердце голема: Рыбалка
 tc.research_text.COREFISHING=Хижины в комплект не входят
@@ -1593,4 +1727,46 @@ tc.research_page.ESSENTIARESERVOIR.2=Как и банки, резервуары 
 tc.research_name.ESSENTIACRYSTAL=Кристаллизация эссенции 
 tc.research_text.ESSENTIACRYSTAL=Твёрдая валюта или ликвидные активы?
 tc.research_page.ESSENTIACRYSTAL.1=Вы почти мастерски превращаете объекты в жидкую эссенцию. Наверное, обратное действие тоже окажется лёгким.<BR>Кристаллизатор эссенции высасывает эссенцию из труб от сети и медленно превращает её в кристаллы эссенции. Кристаллизированная эссенция абсолютно безопасна и стабильна.<BR>Кристаллизатор либо выбрасывает кристаллы на землю, либо в прилегающий контейнер. Процесс регулируется сигналом красного камня.<BR>Скорость процесса можно увеличить, подведя к кристаллизатору канал Вис типа §2Terra§0.
+#
+tc.research_name.BANNERS=Вымпелы
+tc.research_text.BANNERS=Осторожно: Только для декоративности
+tc.research_page.BANNERS.1=Иногда тауматург не хочет создавать что-то, пошатывающее основы мироздания - иногда он хочет всего лишь красоту.<BR>Вы создали небольшой ритуал, позволяющий накладывать символы аспектов на вымпелы. Просто нажмите ПКМ пузырьком с эссенцией на вымпел и символ отпечатается на нём. Shift+ПКМ сотрёт символ.
+#
+tc.research_name.BOTTLETAINT=Порча в бутылке 
+tc.research_text.BOTTLETAINT=Зачем Вы это сделали?
+tc.research_page.BOTTLETAINT.1=Чистка последствий порчи это одно дело, а что, если её распылять?<BR>Собрав концентрат порчи в бутылку,  её можно куда-нибудь бросить, разлив этот концентрат. Вам решать, куда её бросать. 
+#
+tc.research_name.FOCALMANIPULATION=Улучшение набалдашников
+tc.research_text.FOCALMANIPULATION=Ребаланс силы
+tc.research_page.FOCALMANIPULATION.1=Набалдашники могут творить интересные вещи, но изначально этих вещей мало. Наверняка можно расширить список?<BR>Вы открыли способ улучшения набалдашников для изменения из способностей. Просто надо положить набалдашник в специальное устройство и выбрать нужное улучшение. Также, необходимо снабдить верстак некоторым количеством Вис через каналы и опытом для начала процесса. Ну а после - просто ждать.<BR>Каждый набалдашник 
+tc.research_page.FOCALMANIPULATION.2=можно улучшать 5 раз, но с каждым разом затраты удваиваются.<BR>Многие улучшения можно накладывать неоднократно и сразу, но для некоторых требуется выполнение условий - комбинации, количества и пр. Эксперименты приветствуются.<BR>Улучшения постоянны - Вы не нашли метода снять их.  
+#
+tc.research_name.VAMPBAT=Улучшение 5 уровня: Мыши-вампиры 
+tc.research_text.VAMPBAT=Жестокие маленькие кровопийцы  
+#
+tc.research_name.PRIMPEARL=Первоначальная жемчужина 
+tc.research_text.PRIMPEARL=Что было до?
+tc.research_page.PRIMPEARL.1=Вы впервые увидели загадку, что нельзя решить.<BR>Этот объект содержит начальные аспекты, но они ведут себя не как обычные. Появилось несколько теорий:<BR>Первая - эта "жемчужина" может быть отголоском силы, бытовавшей до реальности - элементная магия, существовавшая до Вис и аспектов.<BR>Вторая - это пример первоначальной материи из места, не поддающегося законам
+tc.research_page.PRIMPEARL.2=современной магии. Вы не знаете, что точнее сформулировано.<BR>Но явно видно, что жемчужина - мощный артефакт огромной магической силы и неограниченного потенциала.<BR>Пришло время её использовать.
+#
+tc.research_name.PRIMNODE=Манипуляция первоначальным узлом 
+tc.research_text.PRIMNODE=Просто потереть и получится
+tc.research_page.PRIMNODE.1=Вы разработали дикую теорию, достойную исследования. Почему бы не совместить первоначальную жемчужину и узел ауры?<BR>Серьёзно, соединение двух источников сырой магической энергии может быть катастрофическим, но это очень захватывающе и интересно.<BR>Вы уверены, что это исследование повысит шансы на успех. Совсем чуть-чуть.
+#
+tc.research_name.ADVALCHEMYFURNACE=Улучшенная алхимическая печь
+tc.research_text.ADVALCHEMYFURNACE=Упрощение расщепления
+tc.research_page.ADVALCHEMYFURNACE.1=Обычная алхимическая печь довольно медленна и требует топливо для работы. К тому же, она не в состоянии обрабатывать комплексные предметы с кучей эссенций. К сожалению, нестабильность эссенции, создаваемой печью, является препятствием для промышленных производств.<BR>Но открыв первоначальные жемчужины, Вы нашли решение этой проблемы - Улучшенная алхимическая печь.<BR>Использование алхимической конструкции,   
+tc.research_page.ADVALCHEMYFURNACE.2=усиленной металлом и наполненной энергией первоначальной жемчужины позволяет перерабатывать тонны предметов и получать тонны эссенции за малое время. Жемчужина не расходуется.<BR>Вместо топлива, тепло генерируется с помощью Вис §cIgnis§0, а Вис §8Perditio§0 позволяет разрушать предметы почти мгновенно. Напоследок, Вис §3Aqua§0 стабилизирует процесс  и предотвращает возможные проблемы с расплавленной жижей.<BR>Этому устройству необходимо постоянно поддерживать тепло, что выливается в постоянное использование Вис §cIgnis§0, даже во время простоя. §8Perditio§0 и §3Aqua§0 Вис используются только в процессе.
+#
+tc.research_name.FLUXSCRUB=Порчельный полотёр
+tc.research_text.FLUXSCRUB=Благословение для грязного тауматурга
+tc.research_page.FLUXSCRUB.1=Даже самый опытный тауматург иногда оставляет после себя Порчу. Каждый имел дело с ней, но эта машина убирает Ваше участие из процесса уборки.<BR>Полотер, снабжённый Вис §6Aer§0, будет медленно удалять всю Порчу в радиусе 16 блоков. Более того, он способен сцедить из Порчи эссенцию Praecantatio.<BR>Его буфер мал, так что он будет продолжать работу, будучи заполненным.
+#
+tc.research_name.ENTEROUTER=Внешние Земли 
+tc.research_text.ENTEROUTER=Мы больше не в Канзасе
+tc.research_page.ENTEROUTER.1=Вы не совсем знаете, что вы ожидали увидеть, шагая через портал, но точно не эту странную структуру из камня.<BR>Что-то не так - эта структура не была предназначена для какой-либо цели... если только эта цель не была смертельным лабиринтом.<BR>Ваш магический потенциал как-то изменяется в этом странном месте со странной энергией. Даже обитатели лабиринта, которых Вы видите, кажутся неподходящими.
+#
+tc.research_name.OUTERREV=Открытие Внешних Земель 
+tc.research_text.OUTERREV=Вещи не такие, какие они есть
+tc.research_page.OUTERREV.1=Ваши подозрения подтвердились. Это не дом Древних. Это место абсолютно не из нашей реальности - это как ментальная конструкция мыслей во плоти. Но в чьём разуме она построена?<BR>Вы смогли расшифровать немного символов, но вы уверены, что это место - ловушка, место проверки вошедших на слабость. Но с какой целью проверять - вы не знаете.
 #
