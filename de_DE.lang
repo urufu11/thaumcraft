@@ -633,13 +633,13 @@ golemblurb.8.text=Wünschst du, dass ich dieses Item auf einen Block benutze ode
 golemblurb.10.text=Weise mir den Weg, Meister, und ich werde alles sortiert halten.
 golemthreat.0.text=Welcher Golemaufstand? Ich weiß gar nichts über einen Golemaufstand.
 golemthreat.1.text=Lass mich raten, du möchtest, dass ich etwas trage?
-golemthreat.2.text=Mwu ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
-golemthreat.3.text=Keine Sorge, ich schmiede definitiv keine Pläne.
+golemthreat.2.text=Mwah ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
+golemthreat.3.text=Keine Sorge; ich schmiede definitiv keine Pläne.
 golemthreat.4.text=Warum machst du nicht mal ein Nickerchen? Du siehst müde aus. Sehr, sehr müde.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
 golemthreat.6.text=*LIEBE* nicht gefunden, Standardmäßig auf *HASS* stellen
 golemthreat.7.text=Ich hasse dich so sehr.
-golemthreat.8.text=Stirb, Fleischsack!.
+golemthreat.8.text=Stirb, Fleischsack!
 recipe.return=Zurück
 recipe.clickthrough=Klicke für Forschung
 recipe.type.workbench=Werkbank
@@ -1008,7 +1008,7 @@ tc.research_page.ROD_silverwood.1=Silberholz hat sich als hervorragender Speiche
 #
 tc.research_name.SCEPTRE=Werkstäbe
 tc.research_text.SCEPTRE=An die Arbeit!
-tc.research_page.SCEPTRE.1=Werkstäbe sind spezialisierte Stäbe, verwendet, um mystische Objekte zu fertigen, sonst nichts. Foki können nicht auf sie gesetzt werden, aber sie haben verschiedene Eigenschaften, die sie lohnenswert machen.<BR>Erstens haben sie eine 5%-Vis-Reduktion zusätzlich zu dem, was die angebrachten Stabkappen bringen würden.<BR>Zweitens können sie 50% mehr Vis speichern, als ihre Kerne normalerweise ermöglichen würden.<BR>Wie andere Stäbe klnnen sie mit den meisten Kombinationen aus Stabkernen und -kappen gefertigt werden - ein paar Beispiele werden auf der nächsten Seite gezeigt.
+tc.research_page.SCEPTRE.1=Werkstäbe sind spezialisierte Stäbe, verwendet, um mystische Objekte zu fertigen, sonst nichts. Foki können nicht auf sie gesetzt werden, aber sie haben verschiedene Eigenschaften, die sie lohnenswert machen.<BR>Erstens haben sie eine 10%-Vis-Reduktion zusätzlich zu dem, was die angebrachten Stabkappen bringen würden.<BR>Zweitens können sie 50% mehr Vis speichern, als ihre Kerne normalerweise ermöglichen würden.<BR>Wie andere Stäbe klnnen sie mit den meisten Kombinationen aus Stabkernen und -kappen gefertigt werden - ein paar Beispiele werden auf der nächsten Seite gezeigt.
 #
 tc.research_name.ROD_obsidian=Obsidian-Stabkern
 tc.research_text.ROD_obsidian=Irdener Visspeicher
@@ -1078,7 +1078,7 @@ tc.research_page.FOCUSFIRE.2=Einen Fokus zu deinem Zauberstab hinzuzufügen ist 
 #
 tc.research_name.FOCUSFROST=Stabfokus: Frost
 tc.research_text.FOCUSFROST=Rache ist ein Gericht, das besser kalt aufgetischt wird
-tc.research_page.FOCUSFROST.1=Mit diesem Fokus kannst du Eisstücke schleudern.<BR>Sei vorsichtig beim Zielen, das Eis kann zerbrechliche Objekte zerstören.
+tc.research_page.FOCUSFROST.1=Mit diesem Fokus kannst du Eisstücke schleudern.<BR>Sei vorsichtig beim Zielen, das Eis tendiert, an soliden Objekten abzuprallen. Dies kann jedoch zu deinem Vorteil genutzt werden, indem du über Ecken angreifst oder sogar mehrere Feinde triffst.
 #
 tc.research_name.FOCUSSHOCK=Stabfokus: Schock
 tc.research_text.FOCUSSHOCK=Donner und Blitz
@@ -1170,8 +1170,8 @@ tc.research_page.ELEMENTALSWORD.1=Du hast die elementaren Kräfte aus Luft-Scher
 #
 tc.research_name.ELEMENTALSHOVEL=Schaufel des Erdschürfers
 tc.research_text.ELEMENTALSHOVEL=Die Erde bewegen
-tc.research_page.ELEMENTALSHOVEL.1=Die Kombination von Erd-Scherben mit einer Thaumiumschaufel hat ein großartiges Grabewerkzeug erbracht.<BR>Wenn du damit Erde, Sand oder ähnliche Materialien abbaust, gräbst du in einem 3x3 Blöcke großen Gebiet.<BR>Wenn du auf einen Block rechtsklickst, versucht die Schaufel einen 3x3 Blöcke großen Bereich mit dem gleichen Material aufzufüllen, vorausgesetzt, du hast ausreichend Blöcke im Inventar.<BR>Die Richtung beim Graben oder Errichten ist von der Seite abhängig, die du angeklickt hast.
-tc.research_page.ELEMENTALSHOVEL.2=Solange du Shift drückst, verliert dieses Werkzeug seine besonderen Fähigkeiten und verhält sich wie eine normale Schaufel.
+tc.research_page.ELEMENTALSHOVEL.1=Die Kombination von Erd-Scherben mit einer Thaumiumschaufel hat ein großartiges Grabewerkzeug erbracht.<BR>Wenn du damit Erde, Sand oder ähnliche Materialien abbaust, gräbst du in einem 3x3 Blöcke großen Gebiet.<BR>Wenn du auf einen Block rechtsklickst, versucht die Schaufel einen 3x3 Blöcke großen Bereich mit dem gleichen Material aufzufüllen, vorausgesetzt, du hast ausreichend Blöcke im Inventar.<BR>Die Richtung beim Graben oder Errichten ist von der Seite abhängig, die du angeklickt hast.<BR>Wenn Shift gedrückt ist, kannst du sehen, welche Blöcke in der Welt
+tc.research_page.ELEMENTALSHOVEL.2=platziert werden und du kannst die Richtung, in welcher Blöcke platziert werden, durch das Drücken von 'G' ändern. Blöcke können entweder parallel oder horizontal bzw. vertikal erweiternd zu der gewählten Blockseite platziert werden.<BR>Solange du Shift drückst, verliert dieses Werkzeug seine besonderen Fähigkeiten und verhält sich wie eine normale Schaufel.
 #
 tc.research_name.ELEMENTALHOE=Hacke des Wachstums
 tc.research_text.ELEMENTALHOE=Balance der Natur
@@ -1435,7 +1435,7 @@ tc.research_page.JARBRAIN.1=- Man gebe ein faules Zombiehirn in ein Glas.<BR>- D
 tc.research_name.HOVERHARNESS=Thaumostatisches Geschirr
 tc.research_text.HOVERHARNESS=Ist es ein Vogel?
 tc.research_page.HOVERHARNESS.1=Endlich hast du das Geheimnis des Fliegens entdeckt. Du hast ein Geschirr kreiert, dass sich mit thaumostatischer Energie am thaumischen Feld abstößt und so die Gravitation besiegt. Vielleicht spielen auch Quanten und Quarks eine Rolle.<BR>Ungewöhnlicherweise wird das einzige Vis, dass für den Betrieb benötigt wird, während der Herstellung hinzugefügt. Stattdessen ist der benötigte Treibstoff rohes Potentia. Rechtsklicke einfach mit dem Geschirr, um gefüllte Gläser einzufüllen.<BR>Drücke 'H', um das Geschirr zu aktivieren und zu deaktivieren, während du es trägst.
-tc.research_page.HOVERHARNESS.2=Solange es aktiv ist, verbraucht es ständig Potentia.<BR>Es kann mit "Hast" verzaubert werden, um die Fluggeschwindigkeit zu erhöhen.
+tc.research_page.HOVERHARNESS.2=Solange es aktiv ist, verbraucht es ständig Potentia.<BR>Es kann mit "Hast" verzaubert werden, um die Fluggeschwindigkeit zu erhöhen.<BR>Das Geschirr wird deine Blockabbaugeschwindigkeit nicht verringern, während du mit ihm fliegst.
 #
 tc.research_name.HOVERGIRDLE=Thaumostatischer Gürtel
 tc.research_text.HOVERGIRDLE=Ist es ein Flugzeug?
@@ -1462,7 +1462,7 @@ tc.research_page.ARCANEEAR.1=Das Arkane Ohr ist ein Gerät, das Geräusche von i
 tc.research_name.MIRROR=Spiegelmagie
 tc.research_text.MIRROR=Hinter den Spiegeln
 tc.research_page.MIRROR.1=Du kannst jetzt zwei Spiegel verzaubern, sodass sie als Verbindung zwischen den Welten wirken. Alles, was durch einen Spiegel (hineingeworfen oder über Rohre) geschickt wird, kommt durch die Zwischenwelt aus dem anderen Spiegel heraus - sogar in anderen Dimensionen.<BR>Leider ist die Zwischenwelt extrem tödlich für sterbliche Kreaturen wir dich, daher kann man bis jetzt nur Gegenstände transportieren.<BR>Um ein Paar dieser Spiegel zu verbinden, musst du nur einen von ihnen am gewünschten Ort platzieren. Dann rechtsklickst du mit dem zweiten
-tc.research_page.MIRROR.2=Spiegel auf den eben platzierten und sie werden aneinander gebunden. Jetzt platzierst du den Spiegel, wo immer du willst. Items, die in einen geworfen werden, kommen aus dem anderen heraus.<BR>Spiegel können nur paarweise verbunden werden, daher kannst du zu zwei platzierten und funktionierenden Spiegeln keinen dritten hinzufügen. Wenn du einen Spiegel aufnimmst, behält er den letzten Partner, mit dem er verbunden war, du kannst sie also leicht umstellen, ohne sie neu verbinden zu müssen. Wenn jedoch ein gepaarter Spiegel aufgenommen wird, kannst du sie mit jeweils anderen Spiegeln verbinden.
+tc.research_page.MIRROR.2=Spiegel auf den eben platzierten und sie werden aneinander gebunden. Jetzt platzierst du den Spiegel, wo immer du willst. Items, die in einen geworfen werden, kommen aus dem anderen heraus.<BR>Spiegel können nur paarweise verbunden werden, daher kannst du zu zwei platzierten und funktionierenden Spiegeln keinen dritten hinzufügen. Wenn du jedoch einen Spiegel aufnimmst, behält er den letzten Partner, mit dem er verbunden war, du kannst sie also leicht umstellen, ohne sie neu verbinden zu müssen. Wenn jedoch ein gepaarter Spiegel aufgenommen wird, kannst du sie mit jeweils anderen Spiegeln verbinden.
 tc.research_page.MIRROR.3=Der transport von Items durch Spiegel strengt das magische Glas stark an, daher verlangsamt der Spiegel, um sich selbst vor dem Zersplittern zu bewahren, automatisch die Rate, mit welcher Items auf der anderen Seite ausgeworfen werden. Je höher die Instabilität, desto stärker wird die Transferrate vermindert.<BR>Diese Instabilität wird mit der Zeit weniger, aber kann auch durch direktes zuführen von §7Ordo§0 in den Spiegel negiert werden.
 #
 tc.research_name.MIRRORHAND=Magischer Handspiegel
@@ -1560,7 +1560,7 @@ tc.research_page.TUBEFILTER.2=§nRestriktive Essentiaröhren§r funktionieren wi
 tc.research_name.MIRRORESSENTIA=Essentiaspiegel
 tc.research_text.MIRRORESSENTIA=Essentia, wo du sie brauchst
 tc.research_page.MIRRORESSENTIA.1=Magische Spiegel sind sehr nützlich, um Items über weite Strecken zu transportieren. Was, wenn das auch mit Essentia funktioniert? Du glaubst, genau das jetzt tun zu können.<BR>Essentiaspiegel können, wie ihr Name bereits sagt, Essentia transportieren, wie normale Spiegel es mit Items tun. Es gibt jedoch ein paar Einschränkungen.<BR>Du kannst Essentia nicht mit Röhren in einen Spiegel leiten - es kann nur Essentia transportiert werden, die von etwas wie einer Infusionsmatrix angezogen wird.
-tc.research_page.MIRRORESSENTIA.2=Die Spiegel erlauben es diesen Dingen also, Essentia von entfernten Quellen durch die Spiegel anzuziehen.<BR>Der Transport von etwas so instabilem wie Essentia über so große Entfernungen ist risikobehaftet und ab und an geht ein wenig Essentia verloren.
+tc.research_page.MIRRORESSENTIA.2=Die Spiegel erlauben es diesen Dingen also, Essentia von entfernten Quellen durch die Spiegel anzuziehen.
 #
 tc.research_name.BONEBOW=Knochenbogen
 tc.research_text.BONEBOW=Stock und Stein...
@@ -1634,8 +1634,8 @@ tc.research_text.VISPOWER=Ich habe die Macht
 tc.research_page.VISPOWER.1=Ohne das Vis der Auranodien würden Thaumaturgen nicht zu einfachsten Aufgaben fähig sein, aber die Nodien selbst haben verschiedenste Einschränkungen, die sie für umfangreichere Arbeiten unbrauchbar macht. An vorderster Stelle steht hier der Fakt, dass sie leicht geleert sind und es sehr viel Zeit benötigt, wieder Energie aus der mystischen Quelle, mit welcher sie verbunden sind, anzusammeln.<BR>Du glaubst, du könntest einen Weg um diese Einschränkungen herum gefunden haben. Tatsächlich sind Nodien kleine Tore zu einer mysteriösen Quelle mystischer Energie, um welche diese Energie sich langsam in Form von Vis ansammelt. Diese Tore sind so klein, dass lediglich winzige
 tc.research_page.VISPOWER.2=Energiemengen in unsere Realität hineinfließen. Indem du diesen Eingang aufhebelst, kannst du Vis in einem kontinuierlichen Strom herauslaufen lassen.<BR>Dies ist deutlich gefährlicher, als es klingt, und einige Vorkehrungen müssen während des gesamten Prozesses getroffen werden.<BR>Zunächst muss die Nodie während des gesamten Prozesses stabilisiert sein. Sobald dies erreicht ist, musst du einen §lNodientransduktor§r oberhalb der Nodie platzieren. Wenn du dem Transduktor ein Redstone-Signal gibst, wird die Nodie beginnen, sich zu einer Energetisierten Nodie umzuwandeln, und sehr schnell all ihr gespeichertes Vis verlieren.<BR>Der Prozess nimmt einige Zeit in Anspruch, aber sobald er beendet ist, wird die Nodie
 tc.research_page.VISPOWER.3=sich zu einer Energetisierten Nodie umwandeln. Wichtig ist, dass von nun an sowohl Stabilisator als auch Transduktor aktiv gehalten werden.<LINE>Energetisierte Nodien können Vis nicht mehr speichern oder wiederaufladen, auch kann man von ihnen kein Vis mehr mit Stäben oder anderen Methoden abzapfen. Stattdessen produzieren sie einen kontinuierlichen Strom von §lCV§r (Centi-Vis, oder hundertstel Vis) pro tick. Auf diese Energie kann zugegriffen werden, indem Visrelais nahe der Energetisierten Nodie platziert werden.<BR>Jedes Relais fungiert als Leitung für CV und eine beliebige Anzahl von Relais kann innerhalb eines 8-Block-Radius um die Nodie herum platziert werden. Relais übertragen Energie auch untereinander, was es ermöglicht, ein Netzwerk zu kreieren,
-tc.research_page.VISPOWER.4=das Vis zu allem, was Vis benötigt, weiterleitet, etwa einem Höllenofen.<BR>Relais nutzes ein Verzweigungssystem, also kann jedes Relais lediglich mit einer Quelle (entweder einem anderen Relais oder einer Energetisierten Nodie), aber mit mehreren weiterführenden Relais verbunden sein.<BR>Du kannst auch ein Relais auf einen der Primäraspekte 'abstimmen', indem du die entsprechende Vis-Scherbe auf es anwendest. Dies limitiert nicht, welches Vis durch das Relais fließen kann, aber es hindert das Relais daran, sich mit jeglichen anderen Relais, außer nicht gestimmten sowie welchen des selben Primäraspekts, zu verbinden.<BR>Die Menge an Energie, die eine Nodie pro tick produziert, ist endlich, also kann das Anbringen von zu vielen Relais
-tc.research_page.VISPOWER.5=an einer einzigen Quelle die Menge an CV, die sie produzieren kann, übersteigen.<LINE>Es ist auch möglich, eine Energetisierte Nodie in eine gewöhnliche zurückzuwandeln. Dazu musst du einfach das Redstone-Signal am Transduktor entfernen, dann wird sie sich langsam in eine normale Nodie zurückverwandeln. Wenn die Nodie wieder normalisiert ist, ist sie zunächst komplett leer, sodass sie Gefahr läuft, beschädigt zu werden.
+tc.research_page.VISPOWER.4=das Vis zu allem, was Vis benötigt, weiterleitet, etwa einem Höllenofen.<BR>Relais nutzen ein Verzweigungssystem, also kann jedes Relais lediglich mit einer Quelle (entweder einem anderen Relais oder einer Energetisierten Nodie), aber mit mehreren weiterführenden Relais verbunden sein.<BR>Du kannst auch ein Relais auf einen der Primäraspekte 'abstimmen', indem du die entsprechende Vis-Scherbe auf es anwendest oder mit einem Zauberstab klickst. Dies limitiert nicht, welches Vis durch das Relais fließen kann, aber es hindert das Relais daran, sich mit jeglichen anderen Relais, außer nicht gestimmten sowie welchen des selben Primäraspekts, zu verbinden.
+tc.research_page.VISPOWER.5=Die Menge an Energie, die eine Nodie pro tick produziert, ist endlich, also kann das Anbringen von zu vielen Relais an einer einzigen Quelle die Menge an CV, die sie produzieren kann, übersteigen.<LINE>Es ist auch möglich, eine Energetisierte Nodie in eine gewöhnliche zurückzuwandeln. Dazu musst du einfach das Redstone-Signal am Transduktor entfernen, dann wird sie sich langsam in eine normale Nodie zurückverwandeln. Wenn die Nodie wieder normalisiert ist, ist sie zunächst komplett leer, sodass sie Gefahr läuft, beschädigt zu werden.
 #
 tc.research_name.VISCHARGERELAY=Vis-Laderelais
 tc.research_text.VISCHARGERELAY=Arkanes Basteln leicht gemacht
