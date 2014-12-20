@@ -1,12 +1,11 @@
+#
 # Enchantments
-enchantment.potency=Force
-enchantment.frugal=Frugal
-enchantment.charging=Recharge
-enchantment.wandfortune=Trésor
 enchantment.haste=Hâte
 enchantment.repair=Réparation
+enchantment.special.sapless=Faible Absorption
+enchantment.special.sapgreat=Grande Absorption
 #
-#Potions
+# Potions
 potion.fluxtaint=Poison corrupteur
 potion.soulshatter=Destruction d'âme
 potion.visexhaust=Grippe de Flux
@@ -15,10 +14,10 @@ potion.unhunger=Faim anormale
 potion.warpward=Garde Warp
 potion.deathgaze=Regard mortel
 potion.blurred=Vision floue
-potion.sunscorned=Soleil méprisé
+potion.sunscorned=Mépris de Soleil
 potion.thaumarhia=Thaumarhia
 #
-#Warp
+# Warp
 warp.text.1=Vous vous sentez bizarrement drainé.
 warp.text.2=Une faim soudaine et anormal vous consume.
 warp.text.hunger.1=Votre faim ne peut être satisfaite avec de la nourriture normale.
@@ -38,9 +37,14 @@ warp.text.14=Vous avez un moment de clarté.
 warp.text.15=Soudainement votre estomac gargouille de manière vraiment étrange.
 #
 # Entities
+entity.Thaumcraft.Golem.name=Golem
 entity.Thaumcraft.ThaumSlime.name=Slime thaumique
 entity.Thaumcraft.Dart.name=Dard de golem
 entity.Thaumcraft.FrostShard.name=Fragment gelé
+entity.Thaumcraft.ExplosiveOrb.name=Boule de feu explosive
+entity.Thaumcraft.ShockOrb.name=Orbe éléctrique
+entity.Thaumcraft.GolemOrb.name=Orbe d'énergie
+entity.Thaumcraft.BottleTaint.name=Corruption en bouteille
 entity.Thaumcraft.Firebat.name=Chauve-souris de feu
 entity.Thaumcraft.Wisp.name=Feu-follet
 entity.Thaumcraft.Alumentum.name=Alumentum
@@ -72,9 +76,28 @@ entity.trunk.move=La malle vous suit
 entity.trunk.stay=La malle reste où elle est
 entity.Thaumcraft.MindSpider.name=Araignée de l'esprit
 entity.Thaumcraft.EldritchGuardian.name=Gardien surnaturel
+entity.Thaumcraft.EldritchWarden.name=%s  %d
+entity.Thaumcraft.EldritchGolem.name=%s Construction surnaturelle
 entity.Thaumcraft.EldritchOrb.name=Orbe surnaturelle
 entity.Thaumcraft.CultistKnight.name=Chevalier cramoisi
 entity.Thaumcraft.CultistCleric.name=Clerc cramoisi
+entity.Thaumcraft.CultistLeader.name=Praetor %s Le %d
+entity.Thaumcraft.CultistPortal.name=Portail cramoisi
+entity.Thaumcraft.EldritchCrab.name=Crabe surnaturel
+entity.Thaumcraft.InhabitedZombie.name=Enveloppe rampante
+#
+Thaumcraft.Boss.mod.bold=Le Brave
+Thaumcraft.Boss.mod.spine=L'Epineux
+Thaumcraft.Boss.mod.armor=Le Blindé
+Thaumcraft.Boss.mod.mighty=Le Puissant
+Thaumcraft.Boss.mod.grim=Le Sinistre
+Thaumcraft.Boss.mod.warded=Le Protégé
+Thaumcraft.Boss.mod.warp=Le Perverti
+Thaumcraft.Boss.mod.undying=Le Non-mort
+#
+tc.boss.crimson=Un portail rubis s'ouvre non loin, annonçant l'arrivé du Culte Cramoisi. Vous devez fermer le portail au plus vite!
+tc.boss.golem=Une sentinelle solitaire se dresse figée dans la pièce, mais quand l'énergie commence à crépiter à travers son vieux corps, vous comprenez qu'elle ne vas pas rester immobile très longtemps.
+tc.boss.warden=De l'énergie sombre bouillonne sur un pièdestal distant. Quelque chose vient...
 #
 # Blocks
 tile.blockAiry.0.name=Noeud d'aura
@@ -83,6 +106,9 @@ tile.blockAiry.2.name=Faible lueur de lumière
 tile.blockAiry.3.name=Faible lueur de lumière
 tile.blockAiry.4.name=Aura protectrice
 tile.blockAiry.5.name=Noeud d'aura énergétique
+tile.blockAiry.10.name=Champ statique
+tile.blockAiry.11.name=Champ affaiblissant
+tile.blockAiry.12.name=Infranchissable
 tile.blockHole.name=Espace vide
 tile.blockSecure.name=Roche renforcée
 tile.blockCustomOre.0.name=Minerai de cinabre
@@ -107,6 +133,11 @@ tile.blockCosmeticSolid.7.name=Pierre taillée arcanique
 tile.blockCosmeticSolid.8.name=Totem d'obsidienne chargé
 tile.blockCosmeticSolid.9.name=Entrave de Golem
 tile.blockCosmeticSolid.10.name=Entrave active de Golem
+tile.blockCosmeticSolid.11.name=Pierre ancienne
+tile.blockCosmeticSolid.12.name=Roche ancienne
+tile.blockCosmeticSolid.13.name=Pierre ancienne
+tile.blockCosmeticSolid.14.name=Pierre incrustée
+tile.blockCosmeticSolid.15.name=Ancien pièdestal de pierre
 tile.blockCustomPlant.0.name=Pousse de bois arcanique
 tile.blockCustomPlant.1.name=Pousse de bois d'argent
 tile.blockCustomPlant.2.name=Brillefeuille
@@ -121,6 +152,7 @@ tile.alembic.msg.3=L'alambic est à moitié plein
 tile.alembic.msg.4=L'alambic est presque plein
 tile.alembic.msg.5=L'alambic est plein
 tile.blockMetalDevice.2.name=Relais de recharge de Vis
+tile.blockMetalDevice.3.name=Construction alchimique anvancée
 tile.blockMetalDevice.5.name=Grille à objets
 tile.blockMetalDevice.6.name=Grille à objets (fermée)
 tile.blockMetalDevice.7.name=Lampe arcanique
@@ -138,12 +170,12 @@ tile.blockMagicalLeaves.silverwood.name=Feuilles de bois d'argent
 tile.blockCandle.0.name=Chandelle de suif blanche
 tile.blockCandle.1.name=Chandelle de suif orange
 tile.blockCandle.2.name=Chandelle de suif magenta
-tile.blockCandle.3.name=Chandelle de suif bleue claire
+tile.blockCandle.3.name=Chandelle de suif bleu clair
 tile.blockCandle.4.name=Chandelle de suif jaune
-tile.blockCandle.5.name=Chandelle de suif verte claire
+tile.blockCandle.5.name=Chandelle de suif vert clair
 tile.blockCandle.6.name=Chandelle de suif rose
 tile.blockCandle.7.name=Chandelle de suif grise
-tile.blockCandle.8.name=Chandelle de suif grisse claire
+tile.blockCandle.8.name=Chandelle de suif gris clair
 tile.blockCandle.9.name=Chandelle de suif cyan
 tile.blockCandle.10.name=Chandelle de suif violette
 tile.blockCandle.11.name=Chandelle de suif bleue
@@ -160,6 +192,22 @@ tile.blockWoodenDevice.5.name=Foreuse arcanique
 tile.blockWoodenDevice.6.name=Planches de bois arcanique
 tile.blockWoodenDevice.7.name=Planches de bois d'argent
 tile.blockWoodenDevice.8.name=Bannière
+tile.blockWoodenDevice.8.0.name=Bannière blanche
+tile.blockWoodenDevice.8.1.name=Bannière orange
+tile.blockWoodenDevice.8.2.name=Bannière magenta
+tile.blockWoodenDevice.8.3.name=Bannière bleu clair
+tile.blockWoodenDevice.8.4.name=Bannière jaune
+tile.blockWoodenDevice.8.5.name=Bannière vert clair
+tile.blockWoodenDevice.8.6.name=Bannière rose
+tile.blockWoodenDevice.8.7.name=Bannière grise
+tile.blockWoodenDevice.8.8.name=Bannière gris clair
+tile.blockWoodenDevice.8.9.name=Bannière cyan
+tile.blockWoodenDevice.8.10.name=Bannière violette
+tile.blockWoodenDevice.8.11.name=Bannière bleue
+tile.blockWoodenDevice.8.12.name=Bannière marron
+tile.blockWoodenDevice.8.13.name=Bannière verte
+tile.blockWoodenDevice.8.14.name=Bannière rouge
+tile.blockWoodenDevice.8.15.name=Bannière noire
 tile.blockJar.0.name=Bocal renforcé
 tile.blockJar.1.name=Cerveau en bocal
 tile.blockJar.2.name=Noeud en bocal
@@ -181,6 +229,7 @@ tile.blockCrystal.3.name=Amas de cristaux de terre
 tile.blockCrystal.4.name=Amas de cristaux d'ordre
 tile.blockCrystal.5.name=Amas de cristaux d'entropie
 tile.blockCrystal.6.name=Amas de cristaux mixtes
+tile.blockCrystal.7.name=Cristaux étranges
 tile.blockMirror.name=Miroir magique
 tile.blockMirror.0.name=Miroir magique
 tile.blockMirror.6.name=Miroir à essentia
@@ -209,6 +258,8 @@ tile.blockStoneDevice.9.name=Stabilisateur de nœud
 tile.blockStoneDevice.10.name=Stabilisateur de nœud avancé
 tile.blockStoneDevice.11.name=Transducteur de nœud
 tile.blockStoneDevice.12.name=Spa arcanique
+tile.blockStoneDevice.13.name=Manipulateur focal
+tile.blockStoneDevice.14.name=Brosse à Flux
 text.spa.mix.true=Mixer avec l'ingrédient
 text.spa.mix.false=Utiliser seulement le fluide
 tile.blockTube.0.name=Tube à Essentia
@@ -225,8 +276,25 @@ tile.blockEldritch.0.name=Autel surnaturel
 tile.blockEldritch.1.name=Obélisque surnaturel
 tile.blockEldritch.2.name=Obélisque surnaturel
 tile.blockEldritch.3.name=Pierre finale surnaturelle
+tile.blockEldritch.4.name=Pierre incrustée brillante
+tile.blockEldritch.5.name=Pierre glyphée
+tile.blockEldritch.7.name=Ancienne porte
+tile.blockEldritch.8.name=Mechanisme de fermeture Ancien
+tile.blockEldritch.9.name=Ouverture incrustée
+tile.blockEldritch.10.name=Pierre runique
 tile.blockPortalEldritch.name=Portail surnaturel
 tile.blockEssentiaReservoir.name=Réservoir à Essentia
+tile.blockStairsArcaneStone.name=Escalier en Pierre taillée arcanique
+tile.blockStairsGreatwood.name=Escalier en bois arcanique
+tile.blockStairsSilverwood.name=Escalier en bois d'argent
+tile.blockStairsEldritch.name=Escalier en pierre ancienne
+tile.blockCosmeticSlabWood.greatwood.name=Dalle en bois arcanique
+tile.blockCosmeticSlabWood.silverwood.name=Dalle en bois d'argent
+tile.blockCosmeticSlabStone.arcane.name=Dalle en Pierre taillée arcanique
+tile.blockCosmeticSlabStone.eldritch.name=Dalle en pierre ancienne
+tile.blockAlchemyFurnace.name=Four alchimique avancé
+tile.blockLootUrn.name=Vielle urne
+tile.blockLootCrate.name=Caisse abandonnée
 #
 # Items
 item.GolemBell.name=Cloche de golemancien
@@ -312,6 +380,7 @@ item.ItemResource.14.name=Salis Mundus
 item.ItemResource.15.name=Charme primaire
 item.ItemResource.16.name=Lingot de métal du Vide
 item.ItemResource.17.name=Graine de Vide
+item.ItemResource.18.name=Pièce d'or
 item.ItemZombieBrain.name=Cerveau de Zombie
 item.ItemShard.0.name=Cristal d'air
 item.ItemShard.1.name=Cristal de feu
@@ -319,7 +388,7 @@ item.ItemShard.2.name=Cristal d'eau
 item.ItemShard.3.name=Cristal de terre
 item.ItemShard.4.name=Cristal d'ordre
 item.ItemShard.5.name=Cristal d'entropie
-item.ItemShard.6.name=Cristal balancé
+item.ItemShard.6.name=Cristal équilibré
 item.ItemPrimalArrow.0.name=Flèche d'Air
 item.ItemPrimalArrow.1.name=Flèche de Feu
 item.ItemPrimalArrow.2.name=Flèche d'Eau
@@ -461,9 +530,15 @@ item.HelmetFortress.mask.1=Fantôme enragé
 item.HelmetFortress.mask.2=Démon sirotant
 item.ItemEldritchObject.0.name=Oeil surnaturel
 item.ItemEldritchObject.1.name=Rites cramoisis
+item.ItemEldritchObject.2.name=Tablette runique
+item.ItemEldritchObject.3.name=Perle primordiale
+item.ItemEldritchObject.4.name=Placeur d'obelisque surnaturelle
 item.ItemEldritchObject.text.1=Il semble vous regarder.
 item.ItemEldritchObject.text.2=Le livre est rempli d'étrange symboles.
-item.ItemEldritchObject.text.3=Cliquer pour l'étudier. [Actuellement désactivé]
+item.ItemEldritchObject.text.3=Cliquer pour l'étudier.
+item.ItemEldritchObject.text.4=On dirait que ça fait parti de quelque chose de plus large.
+item.ItemEldritchObject.text.5=La structure même de la magie semble 
+item.ItemEldritchObject.text.6=se tordre à chaque fois que ça pulse.
 item.ItemHelmetVoid.name=Void Helm
 item.ItemChestplateVoid.name=Plastron du Vide
 item.ItemLeggingsVoid.name=Jambières du Vide
@@ -485,12 +560,65 @@ item.ItemBootsCultist.name=Bottes du culte cramoisi
 item.ItemHelmetCultistPlate.name=Heaume du culte cramoisi
 item.ItemChestplateCultistPlate.name=Plastron du culte cramoisi
 item.ItemLeggingsCultistPlate.name=Jambières du culte cramoisi
+item.ItemHelmetCultistLeaderPlate.name=Heaume du Praetor cramoisi
+item.ItemChestplateCultistLeaderPlate.name=Plastron du Praetor cramoisi
+item.ItemLeggingsCultistLeaderPlate.name=Jambières du Praetor cramoisi
+item.ItemBottleTaint.name=Corruption en bouteille
+item.ItemSwordCrimson.name=Lame cramoisi
+item.ItemLootBag.0.name=Trésor commun
+item.ItemLootBag.1.name=Trésor peu commun
+item.ItemLootBag.2.name=Trésor rare
+tc.lootbag=Clic pour ouvrir ou garder le pour échanger
 #
 # Fluids
 fluid.fluxGoo=Flux boueux
 fluid.fluxGas=Flux Gazeux
 fluid.fluidPure=Fluide purifiant
 fluid.fluidDeath=Mort Liquide
+#
+# General Focus Upgrades
+focus.upgrade.potency.name=Force
+focus.upgrade.potency.text=Cette amélioration augmente les dégats ou la force des pouvoirs du focus. Le montant de dégats exact varie d'un focus à l'autre, mais c'est généralement 20% par niveau.
+focus.upgrade.frugal.name=Frugal
+focus.upgrade.frugal.text=Cette amélioration réduit le coût de vis de l'utilisation du focus de 10% par niveau.
+focus.upgrade.treasure.name=Trésor
+focus.upgrade.treasure.text=Cette amélioration agit comme les enchantements fortune ou butin. Elle augmente les chances d'avoir plus/de meilleurs butins.
+focus.upgrade.enlarge.name=Agrandit
+focus.upgrade.enlarge.text=Cette amélioration augmente la taille de la zone d'effet du focus, ou le nombre de cibles afféctées.
+focus.upgrade.extend.name=Rallonge
+focus.upgrade.extend.text=Cette amélioration augmente la durée de tous les effets qu'un focus peut avoir grâce à une amélioration.
+focus.upgrade.architect.name=Architect
+focus.upgrade.architect.text=Cette amélioration donne beaucoup plus de controle sur la zone d'effet de certains foci. l'air d'effet exacte qui sera affectée va etre affichée et vous pourrez changer sa taille en utilisant la touche d'activation de baguette (default G). accroupit+G permet de changer quelle dimension sera changée.
+#
+# Specific Focus Upgrades
+focus.upgrade.chainlightning.name=Eclair en chaîne
+focus.upgrade.chainlightning.text=Cette amélioration réduit la vitesse à laquelle le focus tire, mais les dégats sont augmentés et le projectile peut sauter sur un maximum de deux autres cibles.
+focus.upgrade.earthshock.name=Choc terrestre
+focus.upgrade.earthshock.text=A la place d'une boule de foudre, le focus tire a présent une balle d'énergie éléctrique en lob. Cette balle inflige des dégats de zone autour de l'endroit qu'elle touche et laisse le sol dangereusement éléctrifié pour quelque temps.
+focus.upgrade.fireball.name=Boule de feu
+focus.upgrade.fireball.text=Le focus produit à présent une boule de feu explosive que vous pouvez lancer à vos ennemis. L'amélioration du feu de l'alchimiste fait qu'elle enflammera le sol autour du point d'impact.
+focus.upgrade.firebeam.name=Rayon de flamme
+focus.upgrade.firebeam.text=La focus produit à présent un étroit rayon de feu plutot qu'un large nuage. Il brule à travers tout ce qu'il touche infligeant des dégats massifs.
+focus.upgrade.batbombs.name=Chauves-souris explosives
+focus.upgrade.batbombs.text=Cette amélioration va rendre les chauves-souris invoquées encore plus instables. Elles vont toujours exploser au contact d'une cible et l'explosion sera plus puissante.
+focus.upgrade.devilbats.name=Chauve-souris démoniaques
+focus.upgrade.devilbats.text=Avec cette amélioration les chauves-souris invoquées sont plus grosses, plus résistantes et plus méchantes. Elles n'exploseront jamais, mais continueront d'attaquer leur cible jusqu'a que celle-ci meurt ou que la chauve-souris soit tuée. 
+focus.upgrade.vampirebats.name=Chauve-souris vampires
+focus.upgrade.vampirebats.text=Cette amélioration transforme les chauves-souris en chauves-souris vampires. Non seulement elles aspireront la vie de leur cible pour régénerer la leur, mais en plus une partie de la vie volée est envoyée à leur invocateur.
+focus.upgrade.scattershot.name=Tir de barrage
+focus.upgrade.scattershot.text=A la place d'un unique fragment de glace, le focus va maintenant tirer de multiples fragments. Chaque fragments fait des dégats minimaux, maisune salve concentrée peut faire des dégats important à une cible unique. 
+focus.upgrade.iceboulder.name=Bloc de glace
+focus.upgrade.iceboulder.text=Le focus va créer un large bloc de glace. Le bloc a tendance à rebondir le rendant mortel entre des mains expertes. 
+focus.upgrade.alchemistsfire.name=Feu de l'alchimiste
+focus.upgrade.alchemistsfire.text=Cette amélioration améliore la puissance de l'élément feu dans le focus. Toutes cibles enflammer brulera beaucoup plus longtemps.
+focus.upgrade.alchemistsfrost.name=Froid de l'alchimiste
+focus.upgrade.alchemistsfrost.text=Cette amélioration améliore le puissance de l'élément froid dans le focus. Quand le focus cible ou blesse une créature, cette dernière sera gelé et ralentit considérablement.
+focus.upgrade.nightshade.name=Ombrenuit
+focus.upgrade.nightshade.text=Normalement le focus de la malédictions des Pech inflige un effet debilitant parmi une peite poignée d'effets. Avec cette amélioration il les infligera tous.
+focus.upgrade.silktouch.name=Toucher de soie
+focus.upgrade.silktouch.text=Comme l'enchantement du meme nom, cette amélioration permet de récupérer les blocs tel qu'ils sont dans le monde.
+focus.upgrade.seeker.name=Chercheur
+focus.upgrade.seeker.text=Cette amélioration fait que l'orbe créer par le focus primaire cherchera la forme de vie la plus proche plutot que de vagabondera pas un peu partout. Cela les rends beaucoup plus stable, elle ne feront donc rien d'étranges à part exploser.
 #
 # GUI
 golemblurb.0.text=Que voulez vous que je garde ici, Maître ?
@@ -522,6 +650,9 @@ recipe.type.crucible=Creuset
 recipe.type.infusion=Infusion arcanique
 recipe.type.infusionenchantment=Infusion d'enchantement
 recipe.type.construct=Construction mystique
+wandtable.text1=Coût en vis
+wandtable.text2=Coût en experience
+wandtable.text3=Commencer l'amélioration
 #
 # Other
 itemGroup.thaumcraft=Thaumcraft
@@ -614,6 +745,8 @@ tc.primalcharm.2=Ça vibre violemment
 tc.primalcharm.3=Ce fredonnement est plutôt apaisant
 tc.primalcharm.4=Attendez, ça a clignoté d'une septième couleur?
 tc.primalcharm.trigger=Pendant un moment, d'étranges énergies entourent le charme primaire. Elles se dissipent rapidement mais ça vous à laissé étrangement inspiré.
+tc.break.fly=Something disrupts your ability to fly.
+tc.boss.enrage=is enraged by your powerful blows.
 #
 # Aspects
 tc.aspect.primal=Aspect Primaire
@@ -1187,6 +1320,7 @@ tc.research_page.COREBUTCHER.1=Ce noyau est un raffinement du noyau standard Gar
 tc.research_name.CORELIQUID=Noyau d'animation: Décanter
 tc.research_text.CORELIQUID=Maintenir un réservoir rempli de liquide.
 tc.research_page.CORELIQUID.1=Un golem équipé de ce noyau remplit le réservoir qui lui est assigné.<BR>Si vous voulez, vous pouvez spécifier le liquide à placer dans le réservoir sur l'interface du golem en plaçant un conteneur de liquide (comme un seau rempli) dans la case. Tous les autres liquides sont ignorés.<BR>Un golem décanteur transporte seulement 100 mb de liquide entre deux réservoirs mais il transporte un seau complet lorsqu'il prends un liquide dans la nature.
+tc.research_page.CORELIQUID.2=    §nAmélioration "entropie" débloqué§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Si vous equpipez cette amélioration, le golem va d'abord tenter de récupérer le liquide le plus loin possible toujours attaché à celui que vous avez marqué. Cela lui permetra de vider des bassins de liquide et pas seulement le bloc que vous avez marqué.<BR>Il cherchera seulement aussi loin qu'il peut voir, et la distance est mesuré en bloc cherché et non en ligne droite.
 #
 tc.research_name.CORESORTING=Noyau d'animation: Trier
 tc.research_text.CORESORTING=Garder les choses en ordre
@@ -1593,4 +1727,46 @@ tc.research_page.ESSENTIARESERVOIR.2=Tout comme les bocaux, les réservoirs ne p
 tc.research_name.ESSENTIACRYSTAL=Cristallisation de l'Essentia 
 tc.research_text.ESSENTIACRYSTAL=Monnaie solide ou avoir liquide?
 tc.research_page.ESSENTIACRYSTAL.1=Vous avez presque maitrisé l'art de transformer des objets concrets en essentia liquide, donc faire l'inverse devrait être simple.<BR>Le cristalliseur d'essentia aspire l'essentia liquide depuis un réseau de tuyau et la convertie lentement en de petits éclats d'essentia cristallisée. L'essentia cristalline est très stable et ne présente pas de danger à manipuler.<BR>Le cristalliseur l'éjecte soit dans le monde soit dans un containeur. Il peut être désactivé avec un signal de redstone.<BR>Le fournir en vis terra va grandement augmenter sa vitesse.
+#
+tc.research_name.BANNERS=Bannières
+tc.research_text.BANNERS=Attention: Pour la décoration uniquement
+tc.research_page.BANNERS.1=Parfois un thaumaturge n'a pas besoin de créer quelquechose qui fait trembler les fondations même de la réalité - Parfois il veut juste quelque chose de jolie.<BR>Vous avez developpé un enchantement simple qui vous permet d'appliquer des symboles thaumaturgiques au bannières. Vous faites ceci simplement en cliquant avec une phial d'essantia sur une bannière que cous avez créer et le symbole sera imprimé dessus. Shift-clic sur la bannière enleve le symbole.
+#
+tc.research_name.BOTTLETAINT=Corruption en bouteille 
+tc.research_text.BOTTLETAINT=Pourquoi vous voudriez ça?
+tc.research_page.BOTTLETAINT.1=Purifier la corruption est une chose, mais avez-vous déjà considéré l'étendre?<BR>En concentrant et en collectant l'essence de la corruption dans une bouteille, c'est aussi simple que de la laisser tomber au sol pour créer une zone de corruption. C'est à vous de décidez ce que vous voulez faire de ça. 
+#
+tc.research_name.FOCALMANIPULATION=Manipulation Focal 
+tc.research_text.FOCALMANIPULATION=Retouche de foci de baguette
+tc.research_page.FOCALMANIPULATION.1=Les foci de baguette sont capable d'exploit incroyables, mais ils sont peu flexibles. Un seul focus est rarement capable d'avoir plus d'une fontion.<BR>Vous avez découvert un moyen d'améliorer les foci basiques pour alterer la façon dont ils manipulent la magie. Vous avez juste besoin de placer le focus dans la manipulateur focal et de choisir quelle amélioration vous voulez appliquer dessus. Vous avez aussi besoin de fournir du vis depuis des relais et devez utiliser des points d'experiences pour lancer le processus, mais après ça c'est juste une question de patience.<BR>Chaque focus peut être améliorer cinq fois, 
+tc.research_page.FOCALMANIPULATION.2=mais chaque rang double le prix.<BR>Certaines améliorations peuvent être appliqué de multiples fois ou à chaque rangs, mais de nombreux foci ont des améliorations qui ne peuvent être appliquée qu'à certains rangs ou seulement si certaines améliorations ont étées apposées à des rangs précédents. L'expérimentation est encouragée.<BR>Les améliorations sont permanentes - Vous ne connaissez aucun moyen de retirer une amélioration alors choissisez bien!  
+#
+tc.research_name.VAMPBAT=Amélioration tier 5: Chauves-souris vampires 
+tc.research_text.VAMPBAT=Vicieux petits suceurs de sang  
+#
+tc.research_name.PRIMPEARL=Perle primordiale
+tc.research_text.PRIMPEARL=Ce qui est venu avant
+tc.research_page.PRIMPEARL.1=Pour la première fois vous faites face à un puzzle que vous pensez impossible à résoudre.<BR>Cet objet contien des aspects primaires pures, mais ils possèdent des propriétées différentes de que vous considérez comme des aspects primaires normaux. vous avez néamoins quelques théories:<BR>Premièrement cette "perle" peut être un reste de la matière première qui fut créer à l'aube de la réalité - de la magie élémentaire qui existait avant même qu'elles se mélange en aspects composés.<BR>Alternativement ça pourrait être de la matière primordiale d'un endroit différent, qui n'est pas conforme au règles établies de la
+tc.research_page.PRIMPEARL.2=magie, tel que vous la comprenez. Vous n'êtes pas sur de l'explication qui vous inquiète le plus.<BR>De toutes façons, la perle est un artéfact puissant qui contient de vaste pouvoir magiques et un potentiel presque illimité.<BR>Il est temps que vous commenciez à vous en servir.
+#
+tc.research_name.PRIMNODE=Manipulation de noeuds primordiaux 
+tc.research_text.PRIMNODE=Frottez les juste ensembles et regarder ce qui arrive
+tc.research_page.PRIMNODE.1=Vous avez developpé une théorie un peu folle qui pourrait valoir d'être explorée. Pourquoi ne pas mettre une perle primordiale en contact avec un noeud d'aura?<BR>Bien entendu, mettre en contact deux sources d'énergie magique pures pourrait être catastrophique, mais l'interraction serait très... interessante.<BR>Tout le monde peut faire ça, mais vous êtes sur que vos recherches augmentes vos chances d'obtenir un bon résultat. Un tout petit peu.
+#
+tc.research_name.ADVALCHEMYFURNACE=Four alchimique avancé 
+tc.research_text.ADVALCHEMYFURNACE=Création d'essentia simplifié
+tc.research_page.ADVALCHEMYFURNACE.1=Le four alchimique standard est assez lent et a besoin de carburant pour opérer. Si ces deux obstacles ne sont pas vraiment des incovénients pour vous, Le fait qu'il est incapable de produire de grande quantités d'essentia n'est pas quelquechose qui peut etre ignoré. Malheuresement l'instabilité du mélange d'essantia qu'il produit rend dangereux le fait d'en accumuler beaucoup en un seul edroit.<BR>Avec les découverte des perles primordiales vous avez trouvé une solution à ce problème - Le four alchimique avancé.<BR>Utiliser une construction alchimique qui à été renforcé avec du métal du   
+tc.research_page.ADVALCHEMYFURNACE.2=Vide et exposé a l'énergie étrange d'une perle primordiale permet de produire beaucoup plus d'essentia et ce plus rapidement. La perle n'est pas consummée lors de la fabrication du four.<BR>Au lieu d'utiliser du carburant, la chaleur est générée par du vis ignis et au lieu de se reposer totalement sur la chaleur du vis perditio détruit les objets presque instantanément. Dernièrment le vis aqua permet au tout de fonctionner sans problèmes et empeche le mélange de se poser et causer des problèmes.<BR>La machine demande une quantité énorme de chaleur pour fonctionner et doit être alimenté constamment par du vis ignis même au repos. Les vis perditio et aqua ne sont utilisé que lorsque la machine fonctionne.
+#
+tc.research_name.FLUXSCRUB=Brosse à Flux 
+tc.research_text.FLUXSCRUB=Une aubaine pour le thaumaturge maladroit
+tc.research_page.FLUXSCRUB.1=Meme le plus talentueux des thaumaturges laisse parfois du Flux derrière lui. C'est un problème auquel tout le monde doit faire face, mais cette machine enlève la partie fastidieuse du travail.<BR>La brosse à flux, si alimenté avec du vis d'aer, va lentement retirer toute forme de flux dans un rayon de 16 blocs autours d'elle. Encore mieux, elle est capable de récupérer une petite portion de la magie qui compose le flux sous forme d'essentia de praecantio.<BR>Son réservoir interne est très faible et la brosse continuera de fonctioner meme quand il sera plein, donc videz le souvent si vous voulez récupérer un maximum d'essentia.
+#
+tc.research_name.ENTEROUTER=Les terres extérieurs 
+tc.research_text.ENTEROUTER=Nous ne sommes plus au Kansas
+tc.research_page.ENTEROUTER.1=Vous n'etes pas bien sur de ce à quoi vous vous attendiez en travesant l'Oculus, mais ce n'était pas cette étrange structure de pierre émiéttée et de couloirs tordus.<BR>Quelque chose n'est pas correct ici - La structure n'a pas été créer pour remplir une quelconque fonction pratique que vous pouvez comprendre... à moins que sa fonction soit d'être un labyrinthe mortel.<BR>Des énergies étranges abondent et votre magie semble agir étrangement dans cette environnement étrange. Meme les autres occupant des lieux que vous rencontrez ne semble pas à leur place ici.
+#
+tc.research_name.OUTERREV=Révélations dans les terres extérieures 
+tc.research_text.OUTERREV=Les choses ne sont pas ce qu'elles semblent être
+tc.research_page.OUTERREV.1=Vos suspicions sont confirmées. Cet endroit n'est pas le foyer de la race que vous nommez les Eldritch. Cet endroit est quelque chose de completement différent et vous ne pensez pas qu'il existe dans ce que vous concevez être la "réalité" - C'est autant une construction mentale que physique, mais quel esprit peut bien contenir ceci?<BR>Vous avez réussit à déchiffrer uniquement une petite parties des symboles, mais vous êtes sur que ce lieu est un piège - un lieu pour teste les visiteur afin de se débarrasser des faibles. Pour quel raison? Mystère.
 #
