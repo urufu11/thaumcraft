@@ -195,7 +195,7 @@ tile.blockWoodenDevice.8.name=Crimson Cult Banner
 tile.blockWoodenDevice.8.0.name=White Banner
 tile.blockWoodenDevice.8.1.name=Orange Banner
 tile.blockWoodenDevice.8.2.name=Magenta Banner
-tile.blockWoodenDevice.8.3.name=Light Banner
+tile.blockWoodenDevice.8.3.name=Light Blue Banner
 tile.blockWoodenDevice.8.4.name=Yellow Banner
 tile.blockWoodenDevice.8.5.name=Lime Banner
 tile.blockWoodenDevice.8.6.name=Pink Banner
@@ -1078,7 +1078,7 @@ tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simp
 #
 tc.research_name.FOCUSFROST=Wand Focus: Frost
 tc.research_text.FOCUSFROST=Revenge is a dish best served cold
-tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks tend to bounce of solid objects. This can be used to your advantage however as you can bounce the shards around corners, or even hit multiple foes. 
+tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks tend to bounce off solid objects. This can be used to your advantage however as you can bounce the shards around corners, or even hit multiple foes. 
 #
 tc.research_name.FOCUSSHOCK=Wand Focus: Shock
 tc.research_text.FOCUSSHOCK=Thunder and Lightning
@@ -1738,7 +1738,7 @@ tc.research_page.BOTTLETAINT.1=Cleaning Taint is one thing, but ever considered 
 #
 tc.research_name.FOCALMANIPULATION=Focal Manipulation 
 tc.research_text.FOCALMANIPULATION=Wand foci remade
-tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible.A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focual Manipulator and choose the upgrade you wish to apply to it. You also need to provide it with vis from relays and spend experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
+tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focual Manipulator and choose the upgrade you wish to apply to it. You also need to provide it with vis from relays and spend experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
 tc.research_page.FOCALMANIPULATION.2=but each rank is doubles the cost.<BR>While some upgrades can be applied multiple times or at any rank, many foci have upgrades that can only be applied at certain ranks or only if certain requisite upgrades had been taken at lower ranks. Experimentation is encouraged.<BR>Upgrades are permanent - you are not aware of any method to remove unwanted upgrades so care must be taken when choosing them.  
 #
 tc.research_name.VAMPBAT=Tier 5 Upgrade: Vampire Bats 
