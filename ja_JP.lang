@@ -1,47 +1,103 @@
-# Enchantments
-enchantment.potency=強化
-enchantment.frugal=節約
-enchantment.charging=充填
-enchantment.wandfortune=財宝
-enchantment.haste=迅速
-enchantment.repair=修復
 #
-#Potions
-potion.fluxtaint=フラックス汚染
-potion.soulshatter=ソウルシャッター
+# Enchantments
+enchantment.haste=迅速
+enchantment.repair=自己修復
+enchantment.special.sapless=Lesser Sapping
+enchantment.special.sapgreat=Greater Sapping
+#
+# Potions
+potion.fluxtaint=汚染毒
+potion.soulshatter=砕ける魂
+potion.visexhaust=フラックス症
+potion.infvisexhaust=フラックス疫
+potion.unhunger=不自然な空腹
+potion.warpward=歪み保護
+potion.deathgaze=死の凝視
+potion.blurred=視界のぼやけ
+potion.sunscorned=太陽の嘲り
+potion.thaumarhia=ソーマライア
+#
+# Warp
+warp.text.1=You feel oddly drained.
+warp.text.2=A sudden and unnatural hunger consumes you.
+warp.text.hunger.1=あなたの空腹は通常の食べ物では満たされない。
+warp.text.hunger.2=あなたの空腹は薄れはじめた。
+warp.text.3=Strange whispers reveal secrets to you.
+warp.text.4=Your vision becomes strange and grim.
+warp.text.5=急激な眩い光があなたの肌を焦がす。
+warp.text.6=深い霧が急に立ち込め、霧の向こうには"何か"が現れる
+warp.text.7=彼らはどこにでも存在する! 逃げろ!
+warp.text.8=Surely there must be a way to stop these headaches?
+warp.text.9=You suddenly feel reluctant to break things. 
+warp.text.10=Your perception suddenly expands.
+warp.text.11=What was that noise? Something is behind you.
+warp.text.12=Something is following you.
+warp.text.13=Something is watching you. Maybe it is time to stop.
+warp.text.14=You have a moment of clarity.
+warp.text.15=Your stomach suddenly gurgles very strangely.
 #
 # Entities
-entity.ThaumSlime.name=魔導スライム
-entity.Dart.name=ゴーレムダーツ
-entity.FrostShard.name=氷のかけら
-entity.Firebat.name=ファイアーバット
-entity.Wisp.name=ウィスプ
-entity.Alumentum.name=アルメンタム
-entity.GiantBrainyZombie.name=激怒したゾンビ
-entity.BrainyZombie.name=怒れるゾンビ
-entity.FollowItem.name=以下のアイテム
-entity.SpecialItem.name=魔法のアイテム
-entity.FallingTaint.name=汚染の固まり
+entity.Thaumcraft.Golem.name=ゴーレム
+entity.Thaumcraft.ThaumSlime.name=魔導スライム
+entity.Thaumcraft.Dart.name=ゴーレムの矢
+entity.Thaumcraft.FrostShard.name=氷のかけら
+entity.Thaumcraft.ExplosiveOrb.name=Explosive Fireball
+entity.Thaumcraft.ShockOrb.name=Shocking Orb
+entity.Thaumcraft.GolemOrb.name=エネルギーオーブ
+entity.Thaumcraft.BottleTaint.name=瓶詰の汚染
+entity.Thaumcraft.Firebat.name=ファイアーバット
+entity.Thaumcraft.Wisp.name=ウィスプ
+entity.Thaumcraft.Alumentum.name=アルメンタム
+entity.Thaumcraft.GiantBrainyZombie.name=激怒したゾンビ
+entity.Thaumcraft.BrainyZombie.name=怒れるゾンビ
+entity.Thaumcraft.FollowItem.name=以下のアイテム
+entity.Thaumcraft.SpecialItem.name=魔法のアイテム
+entity.Thaumcraft.FallingTaint.name=汚染の固まり
 entity.Thaumcraft.AspectOrb.name=相オーブ
-entity.TaintSpider.name=汚れた這うもの
-entity.Taintacle.name=触手
-entity.TaintacleTiny.name=触手(小)
-entity.TaintSpore.name=汚染胞
-entity.TaintSwarmer.name=汚染群胞
-entity.TaintSwarm.name=汚染群
-entity.TaintedVillager.name=汚染村人
-entity.TaintedChicken.name=汚染ニワトリ
-entity.TaintedPig.name=汚染豚
-entity.TaintedSheep.name=汚染ヒツジ
-entity.TaintedCow.name=汚染ウシ
-entity.TaintedCreeper.name=汚染クリーパー
-entity.Pech.name=ペックの略奪者
-entity.Pech.1.name=ペックの魔法使い
-entity.Pech.2.name=ペックのストーカー
-entity.TravelingTrunk.name=旅行かばん
+entity.Thaumcraft.TaintSpider.name=汚れた這うもの
+entity.Thaumcraft.Taintacle.name=触手
+entity.Thaumcraft.TaintacleTiny.name=触手(小)
+entity.Thaumcraft.TaintSpore.name=汚染胞
+entity.Thaumcraft.TaintSwarmer.name=汚染群胞
+entity.Thaumcraft.TaintSwarm.name=汚染群
+entity.Thaumcraft.TaintedVillager.name=汚染村人
+entity.Thaumcraft.TaintedChicken.name=汚染ニワトリ
+entity.Thaumcraft.TaintedPig.name=汚染豚
+entity.Thaumcraft.TaintedSheep.name=汚染ヒツジ
+entity.Thaumcraft.TaintedCow.name=汚染ウシ
+entity.Thaumcraft.TaintedCreeper.name=汚染クリーパー
+entity.Thaumcraft.Pech.name=ペックの略奪者
+entity.Thaumcraft.Pech.1.name=ペックの魔法使い
+entity.Thaumcraft.Pech.2.name=ペックのストーカー
+entity.Thaumcraft.PrimalOrb.name=根源のエネルギーオーブ
+entity.Thaumcraft.TravelingTrunk.name=旅行かばん
 entity.trunk.guiname=のかばん
 entity.trunk.move=かばんをあなたに追従させます
 entity.trunk.stay=かばんをここに留まらせます
+entity.Thaumcraft.MindSpider.name=Mind Spider
+entity.Thaumcraft.EldritchGuardian.name=Eldritch Guardian
+entity.Thaumcraft.EldritchWarden.name=%s the %d
+entity.Thaumcraft.EldritchGolem.name=%s Eldritch Construct
+entity.Thaumcraft.EldritchOrb.name=Eldritch Orb
+entity.Thaumcraft.CultistKnight.name=Crimson Knight
+entity.Thaumcraft.CultistCleric.name=Crimson Cleric
+entity.Thaumcraft.CultistLeader.name=Praetor %s the %d
+entity.Thaumcraft.CultistPortal.name=Crimson Portal
+entity.Thaumcraft.EldritchCrab.name=Eldritch Crab
+entity.Thaumcraft.InhabitedZombie.name=Shambling Husk
+#
+Thaumcraft.Boss.mod.bold=Bold
+Thaumcraft.Boss.mod.spine=Spined
+Thaumcraft.Boss.mod.armor=Armored
+Thaumcraft.Boss.mod.mighty=Mighty
+Thaumcraft.Boss.mod.grim=Grim
+Thaumcraft.Boss.mod.warded=Warded
+Thaumcraft.Boss.mod.warp=Warped
+Thaumcraft.Boss.mod.undying=Undying
+#
+tc.boss.crimson=A ruby portal opens nearby heralding the arrival of the Crimson Cult. You must close the portal quickly!
+tc.boss.golem=A lone sentinel stands frozen in this room, but as energy starts crackling through its ancient frame you know it will not stay frozen for long.
+tc.boss.warden=Black energy bubbles on the distant pedestal. Something is coming...
 #
 # Blocks
 tile.blockAiry.0.name=オーラ節
