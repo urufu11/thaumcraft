@@ -57,6 +57,7 @@ entity.Thaumcraft.AspectOrb.name=Aspect Orb
 entity.Thaumcraft.TaintSpider.name=Tainted Crawler
 entity.Thaumcraft.Taintacle.name=Taintacle
 entity.Thaumcraft.TaintacleTiny.name=Taint Tendril
+entity.Thaumcraft.TaintacleGiant.name=Giant Taintacle
 entity.Thaumcraft.TaintSpore.name=Taint Spore
 entity.Thaumcraft.TaintSwarmer.name=Taint Spore Swarmer
 entity.Thaumcraft.TaintSwarm.name=Taint Swarm
@@ -86,18 +87,24 @@ entity.Thaumcraft.CultistPortal.name=Crimson Portal
 entity.Thaumcraft.EldritchCrab.name=Eldritch Crab
 entity.Thaumcraft.InhabitedZombie.name=Shambling Husk
 #
-Thaumcraft.Boss.mod.bold=Bold
-Thaumcraft.Boss.mod.spine=Spined
-Thaumcraft.Boss.mod.armor=Armored
-Thaumcraft.Boss.mod.mighty=Mighty
-Thaumcraft.Boss.mod.grim=Grim
-Thaumcraft.Boss.mod.warded=Warded
-Thaumcraft.Boss.mod.warp=Warped
-Thaumcraft.Boss.mod.undying=Undying
+champion.mod.bold=Bold
+champion.mod.spine=Spined
+champion.mod.armor=Armored
+champion.mod.mighty=Mighty
+champion.mod.grim=Grim
+champion.mod.warded=Warded
+champion.mod.warp=Warped
+champion.mod.undying=Undying
+champion.mod.fiery=Fiery
+champion.mod.sickly=Sickly
+champion.mod.venomous=Venomous
+champion.mod.vampiric=Vampiric
+champion.mod.infested=Infested
 #
 tc.boss.crimson=A ruby portal opens nearby heralding the arrival of the Crimson Cult. You must close the portal quickly!
 tc.boss.golem=A lone sentinel stands frozen in this room, but as energy starts crackling through its ancient frame you know it will not stay frozen for long.
 tc.boss.warden=Black energy bubbles on the distant pedestal. Something is coming...
+tc.boss.taint=An organic rustling comes from the room beyond. The sound of something wrong... something growing...
 #
 # Blocks
 tile.blockAiry.0.name=Aura Node
@@ -569,6 +576,8 @@ item.ItemLootBag.0.name=Common Treasure
 item.ItemLootBag.1.name=Uncommon Treasure
 item.ItemLootBag.2.name=Rare Treasure
 tc.lootbag=Click to open or keep to trade
+item.ItemCompassStone.name=Sinister Lodestone
+item.ItemPrimalCrusher.name=Primal Crusher
 #
 # Fluids
 fluid.fluxGoo=Flux Goo
@@ -604,7 +613,7 @@ focus.upgrade.batbombs.text=This upgrade will make the summoned firebats even mo
 focus.upgrade.devilbats.name=Devil Bats
 focus.upgrade.devilbats.text=With this upgrade applied the summoned bats are larger, tougher and nastier. They will never explode, but keep attacking their target till it expires or they are slain. 
 focus.upgrade.vampirebats.name=Vampire Bats
-focus.upgrade.vampirebats.text=This upgrade changes the summoned bats into vampire bats. Not only will they suck the life out of their targest to replenish their own, but some of the stolen life force is given to their summoner.
+focus.upgrade.vampirebats.text=This upgrade changes the summoned bats into vampire bats. Not only will they suck the life out of their target to replenish their own, but some of the stolen life force is given to their summoner.
 focus.upgrade.scattershot.name=Scattershot
 focus.upgrade.scattershot.text=Instead of a single shard of ice, the focus will now fire multiple shards. Each shard does minimal damage, but a concentrated volley of them can do significant damage to a single target. 
 focus.upgrade.iceboulder.name=Ice Boulder
@@ -619,6 +628,8 @@ focus.upgrade.silktouch.name=Silk Touch
 focus.upgrade.silktouch.text=Like the enchantment of the same name, this upgrade allows you to pick up harvested blocks as-is instead of gaining the normal drops.
 focus.upgrade.seeker.name=Seeker
 focus.upgrade.seeker.text=This upgrade makes the orbs created by the primal focus seek out the nearest living target and not wander all over the place. This makes them a lot more stable which also means they won't do anything unusual beyond exploding.
+focus.upgrade.dowsing.name=Dowsing
+focus.upgrade.dowsing.text=This upgrade gives the excavation focus a small chance to mine native clusters instead of normal ores. These clusters usually give double the number of ingots when smelted.
 #
 # GUI
 golemblurb.0.text=What do you want me to keep here, Master?
@@ -1151,8 +1162,8 @@ tc.research_page.ENCHFABRIC.2=The various pieces of this outfit grant a small di
 #
 tc.research_name.ENCHANT=Enchantments
 tc.research_text.ENCHANT=New Enchantments
-tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearers land speed. The higher the enchantment level, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from wands in your inventory. The vis cost is determined by the value of the item.<BR>The higher the level of the enchantment, the quicker this takes place. This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.
-tc.research_page.ENCHANT.2=
+tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearers land speed. The higher the enchantment level, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from wands in your inventory. The vis cost is determined by the value of the item.
+tc.research_page.ENCHANT.2=The higher the level of the enchantment, the quicker this takes place. This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.
 #
 tc.research_name.ELEMENTALAXE=Axe of the Stream
 tc.research_text.ELEMENTALAXE=Rivers of Wood
@@ -1738,7 +1749,7 @@ tc.research_page.BOTTLETAINT.1=Cleaning Taint is one thing, but ever considered 
 #
 tc.research_name.FOCALMANIPULATION=Focal Manipulation 
 tc.research_text.FOCALMANIPULATION=Wand foci remade
-tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focual Manipulator and choose the upgrade you wish to apply to it. You also need to provide it with vis from relays and spend experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
+tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focal Manipulator and choose the upgrade you wish to apply to it. You also need to provide it with vis from relays and spend experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
 tc.research_page.FOCALMANIPULATION.2=but each rank is doubles the cost.<BR>While some upgrades can be applied multiple times or at any rank, many foci have upgrades that can only be applied at certain ranks or only if certain requisite upgrades had been taken at lower ranks. Experimentation is encouraged.<BR>Upgrades are permanent - you are not aware of any method to remove unwanted upgrades so care must be taken when choosing them.  
 #
 tc.research_name.VAMPBAT=Tier 5 Upgrade: Vampire Bats 
@@ -1751,7 +1762,7 @@ tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are no
 #
 tc.research_name.PRIMNODE=Primordial Node Manipulation 
 tc.research_text.PRIMNODE=Just rub them together and see what happens
-tc.research_page.PRIMNODE.1=You have developed a bit of a wild theory that might be worth exploring. Why not bring a primordial pearl into contact with an aura node?<BR>Sure, bringing two such sources of raw magical energy might into contact with each other might be catastrophic, but their interaction could also be highly... interesting.<BR>While anyone can do this, you are sure that completing this research has slightly improved your chances of getting a good result. Very slightly.
+tc.research_page.PRIMNODE.1=You have developed a bit of a wild theory that might be worth exploring. Why not bring a primordial pearl into contact with an aura node?<BR>Sure, bringing two such sources of raw magical energy into contact with each other might be catastrophic, but their interaction could also be highly... interesting.<BR>While anyone can do this, you are sure that completing this research has slightly improved your chances of getting a good result. Very slightly.
 #
 tc.research_name.ADVALCHEMYFURNACE=Advanced Alchemical Furnace 
 tc.research_text.ADVALCHEMYFURNACE=Essentia Creation Simplified
@@ -1769,4 +1780,14 @@ tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting whe
 tc.research_name.OUTERREV=Revelations in the Outer Lands 
 tc.research_text.OUTERREV=Things are not what they seem
 tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
+#
+tc.research_name.SINSTONE=Sinister Lodestone 
+tc.research_text.SINSTONE=Do you dare follow it?
+tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of nodes. Different kinds of nodes emit varying types of radiant energy, but none are quite as distinct as that of Sinister nodes.<BR>The energy emitted by Sinister nodes is quite unique and simple to track. By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such a node.<BR>The range is limited, but it is a worthwhile invention since you have often found Sinister nodes in the most interesting of places.
+#
+tc.research_name.PRIMALCRUSHER=Primal Crusher 
+tc.research_text.PRIMALCRUSHER=Breaking all the things
+tc.research_page.PRIMALCRUSHER.1=The theory behind infusion crafting is simple - infuse a single object with essentia and the properties of other objects. There are limits however, but it seems with the discovery of the primordial pearl these limits are becoming less and less.<BR>As an experiment you tried infusing the properties of completely different objects into the pearl with suprising success. The Primal Crusher is the first practical application of this discovery.<BR>By combining a Shovel of the Earthmover and a Pickaxe of the Core with their void metal counterparts you created a
+tc.research_page.PRIMALCRUSHER.2=tool of unrivaled destructive capabilities that has most of the features of its component pieces.<BR>The Primal Crusher can mine through earth and stone with equal ease and does so in a 3x3 area. Like the Pickaxe of the Core it occasionally mines native clusters instead of raw ore.<BR>It repairs itself over time, has high enchantability and serves as a relatively good weapon in a pinch.<BR>Unfortunately it seems purely destructive in nature and has lost the construction and detection abilities of its parent tools.
+
 #
