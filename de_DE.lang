@@ -1162,8 +1162,8 @@ tc.research_page.ENCHFABRIC.2=Die einzelnen Teile dieses Outfits geben dir einen
 #
 tc.research_name.ENCHANT=Verzauberungen
 tc.research_text.ENCHANT=Neue Verzauberungen
-tc.research_page.ENCHANT.1=Thaumcraft fügt einige einzigartige Verzauberungen hinzu.<BR>§nHast§r<BR>Mit Hast verzauberte Stiefel erhöhen die Land-Geschwindigkeit des Trägers. Je höher die Stufe der Verzauberung ist, desto größer ist dabei der Geschwindigkeitsbonus.<BR>§nReparieren§r<BR>Diese Verzauberung repariert Items, indem sie Vis aus Stäben in deinem Inventar zieht. Die Viskosten werden durch den Wert des Items bestimmt. Je höher die Stufe der Verzauberung ist, desto schneller ist dieser Prozess. Sie kann nur auf manche Thaumcraft-Items angewendet werden.
-tc.research_page.ENCHANT.2=
+tc.research_page.ENCHANT.1=Thaumcraft fügt einige einzigartige Verzauberungen hinzu.<BR>§nHast§r<BR>Mit Hast verzauberte Stiefel erhöhen die Land-Geschwindigkeit des Trägers. Je höher die Stufe der Verzauberung ist, desto größer ist dabei der Geschwindigkeitsbonus.<BR>§nReparieren§r<BR>Diese Verzauberung repariert Items, indem sie Vis aus Stäben in deinem Inventar zieht. Die Viskosten werden durch den Wert des Items bestimmt.
+tc.research_page.ENCHANT.2=Je höher die Stufe der Verzauberung ist, desto schneller ist dieser Prozess. Sie kann nur auf manche Thaumcraft-Items angewendet werden.
 #
 tc.research_name.ELEMENTALAXE=Axt des Stroms
 tc.research_text.ELEMENTALAXE=Flüsse aus Holz
