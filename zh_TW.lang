@@ -1,12 +1,11 @@
+#
 # Enchantments
-enchantment.potency=效能
-enchantment.frugal=節約
-enchantment.charging=充能
-enchantment.wandfortune=瑰寶
 enchantment.haste=急迫
 enchantment.repair=修復
+enchantment.special.sapless=輕度虛弱
+enchantment.special.sapgreat=重度虛弱
 #
-#Potions
+# Potions
 potion.fluxtaint=腐毒
 potion.soulshatter=裂魂
 potion.visexhaust=咒流
@@ -18,7 +17,7 @@ potion.blurred=視線飄渺
 potion.sunscorned=日之侮蔑
 potion.thaumarhia=玄奧
 #
-#Warp
+# Warp
 warp.text.1=你身體反常的的疲乏。
 warp.text.2=突如其來的反常飢餓感讓你感到勞累。
 warp.text.hunger.1=你再也無法滿足於平常的食物。
@@ -38,14 +37,19 @@ warp.text.14=你感到一切忽然清晰明朗。
 warp.text.15=你的肚子忽然發出古怪的聲響。
 #
 # Entities
+entity.Thaumcraft.Golem.name=傀儡
 entity.Thaumcraft.ThaumSlime.name=神秘史萊姆
 entity.Thaumcraft.Dart.name=傀儡飛鏢
 entity.Thaumcraft.FrostShard.name=霜星
+entity.Thaumcraft.ExplosiveOrb.name=爆炎珠
+entity.Thaumcraft.ShockOrb.name=震雷玉
+entity.Thaumcraft.GolemOrb.name=能量球
+entity.Thaumcraft.BottleTaint.name=汙染瓶
 entity.Thaumcraft.Firebat.name=九獄焱蝠
 entity.Thaumcraft.Wisp.name=精靈
 entity.Thaumcraft.Alumentum.name=源動之焰
-entity.Thaumcraft.GiantBrainyZombie.name=紅眼巨大殭屍
-entity.Thaumcraft.BrainyZombie.name=紅眼殭屍
+entity.Thaumcraft.GiantBrainyZombie.name=暴怒巨型殭屍
+entity.Thaumcraft.BrainyZombie.name=暴怒殭屍
 entity.Thaumcraft.FollowItem.name=跟隨物品
 entity.Thaumcraft.SpecialItem.name=魔力物品
 entity.Thaumcraft.FallingTaint.name=污染泥土
@@ -54,7 +58,7 @@ entity.Thaumcraft.TaintSpider.name=污染魔蛛
 entity.Thaumcraft.Taintacle.name=污染觸手怪
 entity.Thaumcraft.TaintacleTiny.name=污染觸手
 entity.Thaumcraft.TaintSpore.name=污染孢子
-entity.Thaumcraft.TaintSwarmer.name=污染孢子巢穴
+entity.Thaumcraft.TaintSwarmer.name=污染孢子巢
 entity.Thaumcraft.TaintSwarm.name=污染孢子群
 entity.Thaumcraft.TaintedVillager.name=污染村民
 entity.Thaumcraft.TaintedChicken.name=污染雞
@@ -71,10 +75,29 @@ entity.trunk.guiname=的箱子寶寶
 entity.trunk.move=箱子寶寶將跟隨你行動
 entity.trunk.stay=箱子寶寶將留在原地
 entity.Thaumcraft.MindSpider.name=心魔蛛
-entity.Thaumcraft.EldritchGuardian.name=禁忌守衛
-entity.Thaumcraft.EldritchOrb.name=禁忌能量球
-entity.Thaumcraft.CultistKnight.name=血色騎士
-entity.Thaumcraft.CultistCleric.name=血色僧侶
+entity.Thaumcraft.EldritchGuardian.name=異象守衛
+entity.Thaumcraft.EldritchWarden.name=%s[%d]
+entity.Thaumcraft.EldritchGolem.name=%s之異象機關
+entity.Thaumcraft.EldritchOrb.name=異象能量球
+entity.Thaumcraft.CultistKnight.name=緋色騎士
+entity.Thaumcraft.CultistCleric.name=緋色僧侶
+entity.Thaumcraft.CultistLeader.name=審判者%s[%d]
+entity.Thaumcraft.CultistPortal.name=緋色傳送門
+entity.Thaumcraft.EldritchCrab.name=異象魔蟹
+entity.Thaumcraft.InhabitedZombie.name=蹣跚的軀殼
+#
+Thaumcraft.Boss.mod.bold=魯莽
+Thaumcraft.Boss.mod.spine=尖棘
+Thaumcraft.Boss.mod.armor=裝甲
+Thaumcraft.Boss.mod.mighty=全能
+Thaumcraft.Boss.mod.grim=冷峻
+Thaumcraft.Boss.mod.warded=防衛
+Thaumcraft.Boss.mod.warp=扭曲
+Thaumcraft.Boss.mod.undying=不朽
+#
+tc.boss.crimson=紅寶石之門在附近被開啟了，這意味著緋色邪徒們即將湧入。你必須盡快關上那道傳送門！
+tc.boss.golem=一個孤獨的守衛矗立在這個冰封的房間中，但是隨著能量開始通過骨架劈啪作響，你知道這冰封不會維持太久。
+tc.boss.warden=遠處的基座上有一團黑暗的能量泡。有什麼即將到來...
 #
 # Blocks
 tile.blockAiry.0.name=靈氣節點
@@ -83,6 +106,9 @@ tile.blockAiry.2.name=閃爍之光
 tile.blockAiry.3.name=閃爍之光
 tile.blockAiry.4.name=守護結界
 tile.blockAiry.5.name=活化靈氣節點
+tile.blockAiry.10.name=靜電力場
+tile.blockAiry.11.name=弱化力場
+tile.blockAiry.12.name=封絕立場
 tile.blockHole.name=狹縫
 tile.blockSecure.name=守衛方塊
 tile.blockCustomOre.0.name=硃砂礦石
@@ -107,6 +133,11 @@ tile.blockCosmeticSolid.7.name=奧術石磚
 tile.blockCosmeticSolid.8.name=蘊靈黑曜石圖騰
 tile.blockCosmeticSolid.9.name=傀儡腳鐐
 tile.blockCosmeticSolid.10.name=啟動的傀儡腳鐐
+tile.blockCosmeticSolid.11.name=悠久之石
+tile.blockCosmeticSolid.12.name=悠久岩石
+tile.blockCosmeticSolid.13.name=悠久之石
+tile.blockCosmeticSolid.14.name=風化石
+tile.blockCosmeticSolid.15.name=悠久石座
 tile.blockCustomPlant.0.name=宏偉之木樹苗
 tile.blockCustomPlant.1.name=銀樹樹苗
 tile.blockCustomPlant.2.name=水銀花
@@ -121,6 +152,7 @@ tile.alembic.msg.3=蒸餾器半滿
 tile.alembic.msg.4=蒸餾器快滿了
 tile.alembic.msg.5=蒸餾器已經滿了
 tile.blockMetalDevice.2.name=靈氣充能中繼器
+tile.blockMetalDevice.3.name=高級煉金構材
 tile.blockMetalDevice.5.name=物品格柵
 tile.blockMetalDevice.6.name=物品格柵(關閉)
 tile.blockMetalDevice.7.name=奧術燈
@@ -130,7 +162,7 @@ tile.blockMetalDevice.10.name=秘術煉金塔
 tile.blockMetalDevice.11.name=秘術煉金塔
 tile.blockMetalDevice.12.name=記憶矩陣
 tile.blockMetalDevice.13.name=繁衍燈
-tile.blockMetalDevice.14.name=靈氣中繼器
+tile.blockMetalDevice.14.name=節點中繼器
 tile.blockMagicalLog.greatwood.name=宏偉之木原木
 tile.blockMagicalLog.silverwood.name=銀樹原木
 tile.blockMagicalLeaves.greatwood.name=宏偉之木樹葉
@@ -159,7 +191,23 @@ tile.blockWoodenDevice.4.name=奧術鑽掘機基座
 tile.blockWoodenDevice.5.name=奧術鑽掘機
 tile.blockWoodenDevice.6.name=宏偉之樹木材
 tile.blockWoodenDevice.7.name=銀樹木材
-tile.blockWoodenDevice.8.name=旗幟
+tile.blockWoodenDevice.8.name=緋色邪教旗幟
+tile.blockWoodenDevice.8.0.name=白色旗幟
+tile.blockWoodenDevice.8.1.name=橙色旗幟
+tile.blockWoodenDevice.8.2.name=洋紅色旗幟
+tile.blockWoodenDevice.8.3.name=淡藍色旗幟
+tile.blockWoodenDevice.8.4.name=黃色旗幟
+tile.blockWoodenDevice.8.5.name=黃綠色旗幟
+tile.blockWoodenDevice.8.6.name=粉色旗幟
+tile.blockWoodenDevice.8.7.name=灰色旗幟
+tile.blockWoodenDevice.8.8.name=淺灰色旗幟
+tile.blockWoodenDevice.8.9.name=青色旗幟
+tile.blockWoodenDevice.8.10.name=紫色旗幟
+tile.blockWoodenDevice.8.11.name=藍色旗幟
+tile.blockWoodenDevice.8.12.name=褐色旗幟
+tile.blockWoodenDevice.8.13.name=綠色旗幟
+tile.blockWoodenDevice.8.14.name=紅色旗幟
+tile.blockWoodenDevice.8.15.name=黑色旗幟
 tile.blockJar.0.name=封罐
 tile.blockJar.1.name=魔腦封罐
 tile.blockJar.2.name=節點封罐
@@ -181,6 +229,7 @@ tile.blockCrystal.3.name=地之魔晶
 tile.blockCrystal.4.name=秩序魔晶
 tile.blockCrystal.5.name=混沌魔晶
 tile.blockCrystal.6.name=複相魔晶
+tile.blockCrystal.7.name=異象結晶
 tile.blockMirror.name=魔鏡
 tile.blockMirror.0.name=魔鏡
 tile.blockMirror.6.name=源質之鏡
@@ -192,8 +241,8 @@ tile.blockTaintFibres.1.name=污染草地
 tile.blockTaintFibres.2.name=污染植物
 tile.blockTaintFibres.3.name=孢子梗
 tile.blockTaintFibres.4.name=成熟孢子梗
-tile.blockFluxGoo.name=汙染黏漿
-tile.blockFluxGas.name=汙染瓦斯  
+tile.blockFluxGoo.name=污染黏漿
+tile.blockFluxGas.name=污染瓦斯  
 tile.blockFluidPure.name=淨化之泉
 tile.blockFluidDeath.name=化骨死水
 tile.blockStoneDevice.0.name=煉金爐
@@ -209,8 +258,10 @@ tile.blockStoneDevice.9.name=節點穩定器
 tile.blockStoneDevice.10.name=高級節點穩定器
 tile.blockStoneDevice.11.name=節點轉換器
 tile.blockStoneDevice.12.name=奧法浴池
+tile.blockStoneDevice.13.name=核心調整台
+tile.blockStoneDevice.14.name=咒波清淨機
 text.spa.mix.true=混合配方
-text.spa.mix.false=單純浸浴
+text.spa.mix.false=單純流體
 tile.blockTube.0.name=要素源質管道
 tile.blockTube.1.name=要素源質閥門
 tile.blockTube.2.name=奧術離心機
@@ -221,12 +272,29 @@ tile.blockTube.6.name=定向源質管道
 tile.blockTube.7.name=源質結晶器
 container.alchemyfurnace=煉金爐
 tile.blockArcaneFurnace.name=煉獄熔爐
-tile.blockEldritch.0.name=邪術祭壇
-tile.blockEldritch.1.name=邪術方尖碑
-tile.blockEldritch.2.name=邪術方尖碑
-tile.blockEldritch.3.name=邪術頂石
-tile.blockPortalEldritch.name=邪術傳送門
+tile.blockEldritch.0.name=異象祭壇
+tile.blockEldritch.1.name=異象方尖碑
+tile.blockEldritch.2.name=異象方尖碑
+tile.blockEldritch.3.name=異象頂石
+tile.blockEldritch.4.name=發光的風化石
+tile.blockEldritch.5.name=雕紋石
+tile.blockEldritch.7.name=悠久門廊
+tile.blockEldritch.8.name=悠久的門鎖機關
+tile.blockEldritch.9.name=風化蟲洞
+tile.blockEldritch.10.name=符文石
+tile.blockPortalEldritch.name=異象傳送門
 tile.blockEssentiaReservoir.name=源質庫
+tile.blockStairsArcaneStone.name=奧術石階梯
+tile.blockStairsGreatwood.name=宏偉之樹階梯
+tile.blockStairsSilverwood.name=銀樹階梯
+tile.blockStairsEldritch.name=悠久之石階梯
+tile.blockCosmeticSlabWood.greatwood.name=宏偉之樹半磚
+tile.blockCosmeticSlabWood.silverwood.name=銀樹半磚
+tile.blockCosmeticSlabStone.arcane.name=奧術石半磚
+tile.blockCosmeticSlabStone.eldritch.name=悠久之石半磚
+tile.blockAlchemyFurnace.name=高級煉金爐
+tile.blockLootUrn.name=古甕
+tile.blockLootCrate.name=廢棄的木箱
 #
 # Items
 item.GolemBell.name=傀儡使之鈴
@@ -249,10 +317,10 @@ item.WandCap.1.name=金杖端
 item.WandCap.2.name=充能秘術杖端
 item.WandCap.3.name=銅杖端
 item.WandCap.4.name=充能銀杖端
-item.WandCap.5.name=銀杖端半成品
-item.WandCap.6.name=秘術杖端半成品
+item.WandCap.5.name=未完成銀杖端
+item.WandCap.6.name=未完成秘術杖端
 item.WandCap.7.name=充能虛空杖端
-item.WandCap.8.name=虛空杖端半成品
+item.WandCap.8.name=未完成虛空杖端
 item.WandRod.0.name=宏偉之木杖柄
 item.WandRod.1.name=黑曜石杖柄
 item.WandRod.2.name=銀樹杖柄
@@ -261,15 +329,15 @@ item.WandRod.4.name=石英杖柄
 item.WandRod.5.name=甘蔗杖柄
 item.WandRod.6.name=烈焰杖柄
 item.WandRod.7.name=白骨杖柄
-item.WandRod.50.name=宏偉之木棍柄
-item.WandRod.51.name=黑曜石棍柄
-item.WandRod.52.name=銀樹棍柄
-item.WandRod.53.name=寒霜棍柄
-item.WandRod.54.name=石英棍柄
-item.WandRod.55.name=甘蔗棍柄
-item.WandRod.56.name=烈焰棍柄
-item.WandRod.57.name=白骨棍柄
-item.WandRod.100.name=元初棍柄
+item.WandRod.50.name=宏偉之木長柄
+item.WandRod.51.name=黑曜石長柄
+item.WandRod.52.name=銀樹長柄
+item.WandRod.53.name=寒霜長柄
+item.WandRod.54.name=石英長柄
+item.WandRod.55.name=甘蔗長柄
+item.WandRod.56.name=烈焰長柄
+item.WandRod.57.name=白骨長柄
+item.WandRod.100.name=元初長柄
 #
 # this is what is used to name the wand - the position of the variables can be altered so it makes more sense in other languages
 item.Wand.name=%CAP%ROD%OBJ
@@ -312,6 +380,7 @@ item.ItemResource.14.name=世界鹽
 item.ItemResource.15.name=元初符咒
 item.ItemResource.16.name=虛空金屬錠
 item.ItemResource.17.name=虛空之種
+item.ItemResource.18.name=金幣
 item.ItemZombieBrain.name=殭屍之腦
 item.ItemShard.0.name=風之碎片
 item.ItemShard.1.name=火之碎片
@@ -459,11 +528,17 @@ item.ItemLeggingsFortress.name=秘術城寨脛甲
 item.HelmetFortress.mask.0=獰笑惡鬼
 item.HelmetFortress.mask.1=暴怒幽魂
 item.HelmetFortress.mask.2=嗜血邪妖
-item.ItemEldritchObject.0.name=妖異之眼
-item.ItemEldritchObject.1.name=血色儀禮
+item.ItemEldritchObject.0.name=異象邪眼
+item.ItemEldritchObject.1.name=緋色儀禮
+item.ItemEldritchObject.2.name=符文石板
+item.ItemEldritchObject.3.name=元初明珠
+item.ItemEldritchObject.4.name=異象方尖碑放置器
 item.ItemEldritchObject.text.1=它似乎正盯著你看。
 item.ItemEldritchObject.text.2=書上畫滿了詭異的符號。
-item.ItemEldritchObject.text.3=點選以學習。[當前無法使用]
+item.ItemEldritchObject.text.3=點選以學習。
+item.ItemEldritchObject.text.4=它看起來似乎是什麼大東西的一部分。
+item.ItemEldritchObject.text.5=其中蘊含的魔力脈動
+item.ItemEldritchObject.text.6=似乎陣陣的衝擊著。
 item.ItemHelmetVoid.name=虛空頭盔
 item.ItemChestplateVoid.name=虛空胸甲
 item.ItemLeggingsVoid.name=虛空脛甲
@@ -477,20 +552,73 @@ item.ItemHelmetVoidRobe.name=虛空祕術使兜帽
 item.ItemChestplateVoidRobe.name=虛空祕術使長袍
 item.ItemLeggingsVoidRobe.name=虛空祕術使護脛
 item.ItemSanitySoap.name=消毒皂
-item.itemSanityChecker.name=神智檢測儀
-item.ItemHelmetCultistRobe.name=血色教徒兜帽
-item.ItemChestplateCultistRobe.name=血色教徒法袍
-item.ItemLeggingsCultistRobe.name=血色教徒護脛
-item.ItemBootsCultist.name=血色教徒長靴
-item.ItemHelmetCultistPlate.name=血色教徒頭盔
-item.ItemChestplateCultistPlate.name=血色教徒胸甲
-item.ItemLeggingsCultistPlate.name=血色教徒脛甲
+item.ItemSanityChecker.name=神智檢測儀
+item.ItemHelmetCultistRobe.name=緋色教徒兜帽
+item.ItemChestplateCultistRobe.name=緋色教徒法袍
+item.ItemLeggingsCultistRobe.name=緋色教徒護脛
+item.ItemBootsCultist.name=緋色教徒長靴
+item.ItemHelmetCultistPlate.name=緋色教徒頭盔
+item.ItemChestplateCultistPlate.name=緋色教徒胸甲
+item.ItemLeggingsCultistPlate.name=緋色教徒脛甲
+item.ItemHelmetCultistLeaderPlate.name=緋色審判者頭盔
+item.ItemChestplateCultistLeaderPlate.name=緋色審判者胸甲
+item.ItemLeggingsCultistLeaderPlate.name=緋色審判者脛甲
+item.ItemBottleTaint.name=污染之瓶
+item.ItemSwordCrimson.name=緋紅之刃
+item.ItemLootBag.0.name=普通寶藏
+item.ItemLootBag.1.name=不凡寶藏
+item.ItemLootBag.2.name=稀世珍寶
+tc.lootbag=點擊開啟或留著等待交易
 #
 # Fluids
-fluid.fluxGoo=汙染黏漿
-fluid.fluxGas=汙染瓦斯
+fluid.fluxGoo=污染黏漿
+fluid.fluxGas=污染瓦斯
 fluid.fluidPure=淨化之泉
 fluid.fluidDeath=化骨死水
+#
+# General Focus Upgrades
+focus.upgrade.potency.name=效能
+focus.upgrade.potency.text=這項升級主要是增加核心的力量或殺傷力。各種核心提升量不等，但通常大約在20%上下。
+focus.upgrade.frugal.name=簡樸
+focus.upgrade.frugal.text=這項升級減低每次法術啟動所需的魔力，每級10%。	
+focus.upgrade.treasure.name=瑰寶
+focus.upgrade.treasure.text=這項升級等同於幸運和掠奪附魔，讓你獲得更多/更好的戰利品。
+focus.upgrade.enlarge.name=擴大
+focus.upgrade.enlarge.text=這項升級增加了法術所能觸及的範圍以及目標數
+focus.upgrade.extend.name=延長
+focus.upgrade.extend.text=這項升級延長任何核心所造成之持續效果的時間。
+focus.upgrade.architect.name=建築師
+focus.upgrade.architect.text=這項升級提供了某些核心更多的空間控制能力，它將顯示魔法將施行的確切區域，你可以使用魔杖的雜項鍵(預設G)來改變範圍大小，按住潛行+G還能控制你要改變的方向。
+#
+# Specific Focus Upgrades
+focus.upgrade.chainlightning.name=連鎖閃電
+focus.upgrade.chainlightning.text=這項升級減慢了閃電放出的速度，但是增加了傷害，並且能額外增加兩個擊中目標。
+focus.upgrade.earthshock.name=大地震擊
+focus.upgrade.earthshock.text=核心取代了閃電的是放出一粒飽含雷電的球體，對敵人造成傷害，而擊中的地面將維持著危險的高壓電流一段時間。
+focus.upgrade.fireball.name=火球
+focus.upgrade.fireball.text=這顆核心現在可以對著敵人投出爆炸性的火球。熾炎煉化升級還能使火球的落點周圍熊熊燃燒。
+focus.upgrade.firebeam.name=炎束
+focus.upgrade.firebeam.text=現在核心會生成一條狹窄的火焰流，而非廣闊的火焰。可以燒穿萬物造成巨大傷害。
+focus.upgrade.batbombs.name=蝙蝠爆彈
+focus.upgrade.batbombs.text=這項升級使得你召喚的炎蝠更加危險，他們在接觸目標時會立即產生比原先更加有力的大爆炸。
+focus.upgrade.devilbats.name=惡魔蝙蝠
+focus.upgrade.devilbats.text=這項升級產生的蝙蝠更大，更強壯，更難纏。這隻蝙蝠不會爆炸，但是在時效到達前會不斷的攻擊它的目標，直到其中一方死亡。
+focus.upgrade.vampirebats.name=嗜血之蝠
+focus.upgrade.vampirebats.text=這項升級將召喚出的蝙蝠化為吸血蝙蝠。牠們不僅吸取目標的生命來補充自己，更會將盜取來的生命力回饋給召喚者。
+focus.upgrade.scattershot.name=散彈
+focus.upgrade.scattershot.text=取代單一個霜星的是同時發射出大量的冰晶碎片。每個碎片只有最低限度的攻擊力，但是若一次集中在同一個目標時將產生顯著的傷害。
+focus.upgrade.iceboulder.name=霜岩
+focus.upgrade.iceboulder.text=這顆核心能產生冰之巨石。四處彈跳的巨石在熟練的施術人手中是相當的致命。
+focus.upgrade.alchemistsfire.name=熾炎煉化
+focus.upgrade.alchemistsfire.text=這使核心對火焰元素的效力增強。被點燃的目標會燃燒得更持久。
+focus.upgrade.alchemistsfrost.name=冰霜煉化
+focus.upgrade.alchemistsfrost.text=這使核心對冰冷要素的效力增強。受到攻擊的目標將受到冰凍而明顯緩速。
+focus.upgrade.nightshade.name=夜葵
+focus.upgrade.nightshade.text=普通的地精詛咒核心只會發生少量的負面效果。有了這項升級將使同樣的效果再發生一次。
+focus.upgrade.silktouch.name=絲綢之觸
+focus.upgrade.silktouch.text=這項升級就像同名的附魔，能使你完整取得方塊，而非其掉落物。
+focus.upgrade.seeker.name=導引
+focus.upgrade.seeker.text=這項升級使得元初核心產生的能量球自動飄往最接近的生命體，而非漫無目的地四處遊蕩。這使它變得穩定許多也意味著它在爆炸前不會出現其他異常的舉動。
 #
 # GUI
 golemblurb.0.text=吾主，您希望吾為您在此處保管何物呢？
@@ -505,7 +633,7 @@ golemblurb.8.text=您希望吾在方塊上還是僅僅在空置的位置上使�
 golemblurb.10.text=將我放在合適的方向，吾主啊。然後我便能讓一切都井井有條。
 golemthreat.0.text=傀儡起義？對這個我什麼都不清楚。
 golemthreat.1.text=讓我猜猜，你指望我給你搬東西？
-golemthreat.2.text=唔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈！
+golemthreat.2.text=唔哇哈 哈 哈 哈 哈 哈 哈 哈 哈 哈 哈 哈 哈 哈 哈 哈 哈 哈！
 golemthreat.3.text=無須擔憂，我並無陰謀。
 golemthreat.4.text=為什麼你不去打個盹兒呢？你看起來如此疲乏，非常非常地疲乏.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!(在拉萊耶的宅邸中，長眠的克蘇魯候汝入夢！)
@@ -522,6 +650,9 @@ recipe.type.crucible=坩堝
 recipe.type.infusion=奧術注魔
 recipe.type.infusionenchantment=注魔附魔
 recipe.type.construct=神秘方塊構成
+wandtable.text1=魔力消耗
+wandtable.text2=經驗值消耗
+wandtable.text3=開始升級
 #
 # Other
 itemGroup.thaumcraft=秘術時代4
@@ -605,15 +736,17 @@ tc.research.purchase=點擊以取得此項研究
 tc.research.short=你沒有取得此項研究所需的研究點數
 tc.research.getprim=點擊以獲取此項研究的研究筆記
 tc.research.shortprim=你需要筆與墨以及紙張才能獲取研究筆記
-tc.research.hasnote=研究筆記已放入物品欄中
-tc.research.popup=有關%1$s的研究筆記已經放入物品欄中
+tc.research.hasnote=研究筆記已存在於物品欄內
+tc.research.popup=有關%1$s的研究筆記已放入物品欄
 tc.research.copy=複製此項研究需耗費：
-tc.primalcharm.0=它好像漏了
+tc.primalcharm.0=它彷彿洩漏而出
 tc.primalcharm.1=你覺得似乎聽到了耳語
-tc.primalcharm.2=一陣猛烈的顛簸
-tc.primalcharm.3=它嗡嗡的響聲十分舒緩
-tc.primalcharm.4=稍等，它剛剛閃爍著七色的光芒？
+tc.primalcharm.2=一陣劇烈的抖動
+tc.primalcharm.3=它的輕聲低吟十分舒緩
+tc.primalcharm.4=等等，它剛剛閃爍著七色的光芒？
 tc.primalcharm.trigger=片刻間，詭異的能量纏繞著元初符咒。它們很快便消散了，但使你受到了奇異的啟發……
+tc.break.fly=有什麼奪去了你的飛行能力。
+tc.boss.enrage=被你強力的攻擊激怒了。
 #
 # Aspects
 tc.aspect.primal=元初要素
@@ -656,7 +789,7 @@ tc.aspect.vitreus=水晶、玻璃、澄澈
 tc.aspect.sano=治療、痊癒
 tc.aspect.iter=旅行、行程
 tc.aspect.venenum=毒藥
-tc.aspect.alienis=異域、怪異、詭譎
+tc.aspect.alienis=異域、詭異、異象	
 tc.aspect.tutamen=裝備、防護
 tc.aspect.fames=飢餓
 tc.aspect.fabrico=合成、工藝
@@ -676,7 +809,7 @@ tc.aspect.help.perditio=破碎的物體
 tc.aspect.help.vacuos=中空的物體
 tc.aspect.help.praecantatio=含有魔力的物體
 tc.aspect.help.auram=節點
-tc.aspect.help.vitium=受魔力汙染的物體
+tc.aspect.help.vitium=受魔力污染的物體
 tc.aspect.help.lux=光
 tc.aspect.help.potentia=能量
 tc.aspect.help.motus=移動的物體
@@ -717,12 +850,12 @@ tc.aspect.help.permutatio=交換
 tc.aspect.help.corpus=肉
 #  
 # Research categories
-tc.research_category.BASICS=基本信息
+tc.research_category.BASICS=基礎訊息
 tc.research_category.THAUMATURGY=秘術學
 tc.research_category.ALCHEMY=煉金術
 tc.research_category.ARTIFICE=奧術學
 tc.research_category.GOLEMANCY=傀儡學
-tc.research_category.ELDRITCH=禁術
+tc.research_category.ELDRITCH=異端研究
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -769,7 +902,7 @@ tc.research_name.NODES=靈氣和節點
 tc.research_text.NODES=魔法無所不在
 tc.research_page.NODES.1=§5靈氣§0是籠罩世界的魔法能量，其源頭未明。有的人相信靈氣是活物積累的生命能量，而有的人則傾向於認為它僅僅不過是一種從某些地方滲出的能量。後一種觀點似乎更具可能：因為人們經常發現靈氣環繞於一種集中了魔法能量的§5「靈氣節點」§0周圍。<BR>每一個「靈氣節點」都容納了一定數量蘊含一種或數種要素的魔力能量。 多數節點蘊含的是一些§5元初要素§0，但某些稀有節點會蘊含§5複合要素§0。
 tc.research_page.NODES.2=秘術使能按需求對靈氣節點中的要素加以利用，最簡單的途徑是使用法杖。<BR>如此加以利用後的靈氣也被稱之為魔導力 vis.<LINE>肉眼難以看見靈氣節點，但節點發出的微弱光線會暴露其存在位置。 使用§5魔導透鏡§0則能夠清晰地看見節點，使其更容易被搜尋。<BR>§4重要信息：§0在抽取節點時需要謹慎小心。當徹底抽乾節點中某一類要素時會有小機率使得該要素徹底消失從而損害到節點的完整性。
-tc.research_page.NODES.3=<BR>如果其蘊含的要素都消失了那麼節點本身也可能會消失。<LINE>幸運的是節點中的要素會緩慢恢復，如果妥善管理，足以供應明智的秘術使所需。
+tc.research_page.NODES.3=<BR>如果其蘊含的要素都消失了那麼節點本身也可能會消失。<LINE>幸運的是節點中的要素會緩慢恢復，如果妥善管理，足以供應明智的秘術使所需。<BR>節點之間會對彼此出現一些有趣的反應，較大的節點會從較弱小的鄰居中抽取魔力以增加自身的能量。
 #
 tc.research_name.ORE=礦石
 tc.research_text.ORE=深度發掘
@@ -801,7 +934,7 @@ tc.research_page.RESEARCHDUPE.1=你已發現拷貝完整研究筆記的方法。
 #
 tc.research_name.DECONSTRUCTOR=解構工作台
 tc.research_text.DECONSTRUCTOR=當僅僅看一眼並不足夠時
-tc.research_page.DECONSTRUCTOR.1=在秘術使的研究生涯中，難免因欠缺某些方面知識而導致研究受到礙阻。 <BR>此時可以借助結構工作台進行輔助。這個工作台能夠將物品分解成最基礎的六種元初要素，從而為你提供研究的突破口。然而這種設備的限制顯而易見 - 被分解的複合要素並非直接變成組合成它們的要素，而是變成了組成它們的最基礎的元初要素之一，而元初要素如何組合搭配仍然不得而知。<BR>例如分解鐵錠(蘊含 Metallum ) 
+tc.research_page.DECONSTRUCTOR.1=在秘術使的研究生涯中，難免因欠缺某些方面知識而導致研究受到礙阻。 <BR>此時可以借助解構工作台進行輔助。這個工作台能夠將物品分解成最基礎的六種元初要素，從而為你提供研究的突破口。然而這種設備的限制顯而易見 - 被分解的複合要素並非直接變成組合成它們的要素，而是變成了組成它們的最基礎的元初要素之一，而元初要素如何組合搭配仍然不得而知。<BR>例如分解鐵錠(蘊含 Metallum ) 
 tc.research_page.DECONSTRUCTOR.2=理論上可以得到2點 §2Terra§0 要素和1點 §8Ordo§0 要素，但你只能由一定幾率得知其中一種元初要素。<BR>而且，這台設備效率極低，當物品中蘊含要素越少，能有所發現就越難。
 #
 tc.research_name.BASICTHAUMATURGY=基礎法杖工藝
@@ -839,14 +972,14 @@ tc.research_page.THAUMIUM.1=已經證實通過秘術學原理能夠輕易處理�
 #
 tc.research_name.NITOR=閃耀之光
 tc.research_text.NITOR=永恆的花火
-tc.research_page.NITOR.1=這團發光的花火靠魔力來自己燃燒。這種不滅的永恆之光並不產熱，因此無法用作燃料。<BR>但是它們足夠穩定，可以用來作為光線以及能量的來源。
+tc.research_page.NITOR.1=這團發光的花火靠魔力來燃燒自己。這種不滅的永恆之光所生成的熱能遠少於其光芒，因此無法用作燃料。<BR>但是它們足夠穩定，可以用來作為光線以及能量的來源。
 #
 tc.research_name.ALUMENTUM=源動之焰
 tc.research_text.ALUMENTUM=神秘的能量團
 tc.research_page.ALUMENTUM.1=一團伴隨著跳動火焰的物質，輕微的顛簸便可能導致一次劇烈的能量釋放。這種不穩定的能源可能能成為很高效的燃料。<BR>如果你不是特別喜歡爆炸的話就別把它隨便丟出去。
 #
 tc.research_name.HUNGRYCHEST=饕餮之箱
-tc.research_text.HUNGRYCHEST=無需每次都打開
+tc.research_text.HUNGRYCHEST=無需等待你開啟
 tc.research_page.HUNGRYCHEST.1=只要物品落在附近，饕餮之箱便能自動拾取這些物品。
 #
 tc.research_name.CAP_gold=金杖端
@@ -875,68 +1008,68 @@ tc.research_page.ROD_silverwood.1=銀樹被證明是極其優良的魔力儲存�
 #
 tc.research_name.SCEPTRE=工藝權杖
 tc.research_text.SCEPTRE=以製造為己任
-tc.research_page.SCEPTRE.1=工藝權杖是一種特製法杖，它專於製造魔導物品而別無他用。雖無法安裝法術核心，但其若干特性仍使得它非常實用。<BR>首先，這種法杖會額外提供5%的魔力減免，這比任何杖端能提供的還要多。<BR>其次，在其杖柄通常所提供的容量的基礎上，這種法杖還能夠多儲存50%的魔力。<BR>就如同其他法杖，工藝權杖也可以通過杖端杖柄的大多數組合方式製出。下頁僅僅給出部分例子。
+tc.research_page.SCEPTRE.1=工藝權杖是一種特製法杖，它專於製造魔導物品而別無他用。雖無法安裝法術核心，但其若干特性仍使得它非常實用。<BR>首先，這種法杖會額外提供10%的魔力減免，這比任何杖端所能提供的還要多。<BR>其次，在其杖柄通常所提供的容量的基礎上，這種法杖還能夠多儲存50%的魔力。<BR>就如同其他法杖，工藝權杖也可以通過杖端杖柄的大多數組合方式製出。下頁僅僅給出部分例子。
 #
 tc.research_name.ROD_obsidian=黑曜石杖柄
 tc.research_text.ROD_obsidian=大地魔力容器
-tc.research_page.ROD_obsidian.1=黑曜石雕琢成的稍好於宏偉之木杖柄的杖柄，相對於宏偉之木杖柄來說其優勢在於，當地之魔力低於10%，且無需節點也能緩慢恢復魔力。
+tc.research_page.ROD_obsidian.1=以黑曜石雕琢而成，稍微優於宏偉之木杖柄的杖柄，相對於宏偉之木杖柄而言，優勢在於當地之魔力低於10%時，無需節點其大地魔力也能緩慢恢復。
 #
 tc.research_name.ROD_bone=白骨杖柄
 tc.research_text.ROD_bone=混沌魔力容器
-tc.research_page.ROD_bone.1=使用白骨作為杖柄稍好於宏偉之木杖柄，相對於宏偉之木杖柄來說，其優勢在於，當混沌魔力低於10%時無需節點也能緩慢恢復魔力。
+tc.research_page.ROD_bone.1=使用白骨作為杖柄，稍微優於宏偉之木杖柄，相對於宏偉之木杖柄而言，優勢在於當混沌魔力低於10%時，無需節點其渾沌魔力也能緩慢恢復。
 #
 tc.research_name.ROD_blaze=烈焰杖柄
 tc.research_text.ROD_blaze=火炎魔力容器
-tc.research_page.ROD_blaze.1=使用烈焰棒作為杖柄稍好於宏偉之木杖柄，相對於宏偉之木杖柄來說，其優勢在於，當火之魔力低於10%時在炎熱環境中無需節點也能緩慢恢復魔力。
+tc.research_page.ROD_blaze.1=使用烈焰桿作為杖柄，稍微優於宏偉之木的杖柄，相對於宏偉之木杖柄而言，優勢在於當火之魔力低於10%時，無需節點其火之魔力也能緩慢恢復。
 #
 tc.research_name.ROD_ice=寒霜杖柄
 tc.research_text.ROD_ice=冰霜魔力容器
-tc.research_page.ROD_ice.1=冰塊雕琢成的稍好於宏偉之木杖柄的杖柄，相對於宏偉之木杖柄來說其優勢在於，當水之魔力低於10%且在寒冷環境中時無需節點也能緩慢恢復魔力。
+tc.research_page.ROD_ice.1=由冰塊雕琢成，稍微優於宏偉之木杖柄的杖柄，相對於宏偉之木杖柄而言，優勢在於當水之魔力低於10%時，無需節點其水之魔力也能緩慢恢復。
 #
 tc.research_name.ROD_quartz=石英杖柄
 tc.research_text.ROD_quartz=秩序魔力容器
-tc.research_page.ROD_quartz.1=石英雕琢成的稍好於宏偉之木杖柄的杖柄，相對於宏偉之木杖柄來說其優勢在於，當秩序魔力低於10%時無需節點也能緩慢恢復魔力。
+tc.research_page.ROD_quartz.1=以石英雕琢成，稍微優於宏偉之木杖柄的杖柄，相對於宏偉之木杖柄而言，優勢在於當秩序魔力低於10%時，無需節點其秩序之力也能緩慢恢復。
 #
 tc.research_name.ROD_reed=甘蔗杖柄
 tc.research_text.ROD_reed=風之魔力容器
-tc.research_page.ROD_reed.1=甘蔗制做的稍好於宏偉之木杖柄的杖柄，相對於宏偉之木杖柄來說其優勢在於，當風之魔力低於10%時無需節點也能緩慢恢復魔力。
+tc.research_page.ROD_reed.1=由甘蔗製成，稍微優於宏偉之木杖柄的杖柄，相對於宏偉之木杖柄而言，優勢在於當風之魔力低於10%時，無需節點其風之魔力也能緩慢恢復。
 #
 tc.research_name.ROD_greatwood_staff=魔法長杖
-tc.research_text.ROD_greatwood_staff=末端有握把的巫師之杖
+tc.research_text.ROD_greatwood_staff=末端帶有有握把的巫師之杖
 tc.research_page.ROD_greatwood_staff.1=法杖是秘術使的必備行頭，但有時候你總會期望能用上更酷炫的款式。魔法長杖基本上只是一種更大號的法杖。它們能儲存更多魔力。<BR>由於相較於短杖它們造得個頭更大也更堅固，應急情況也能作為武器。<BR>不幸的是，這也使得它無法用於進行複雜工藝，且缺乏奧術工作台等製作平台所需的精細控制能力。
 tc.research_page.ROD_greatwood_staff.2=宏偉之木製成的長杖儲存魔力是同等材料的短杖的2倍，能夠儲存每種魔力達125vis。
 #
-tc.research_name.ROD_silverwood_staff=銀樹棍柄
+tc.research_name.ROD_silverwood_staff=銀樹長柄
 tc.research_text.ROD_silverwood_staff=魔力入髓
 tc.research_page.ROD_silverwood_staff.1=這種銀樹製成的魔杖能夠容納每種類型的魔力250vis。
 #
-tc.research_name.ROD_obsidian_staff=黑曜石棍柄
+tc.research_name.ROD_obsidian_staff=黑曜石長柄
 tc.research_text.ROD_obsidian_staff=儲存大地魔力
 tc.research_page.ROD_obsidian_staff.1=這種黑曜石製成的魔杖能夠容納每種類型的魔力175vis。<BR>如同其杖柄它也能夠緩慢恢復魔力。
 #
-tc.research_name.ROD_bone_staff=白骨棍柄
+tc.research_name.ROD_bone_staff=白骨長柄
 tc.research_text.ROD_bone_staff=儲存混沌魔力
 tc.research_page.ROD_bone_staff.1=這種白骨製成的魔杖能夠容納每種類型的魔力175vis。<BR>如同其杖柄它也能夠緩慢恢復魔力。
 #
-tc.research_name.ROD_blaze_staff=烈焰棍柄
+tc.research_name.ROD_blaze_staff=烈焰長柄
 tc.research_text.ROD_blaze_staff=儲存火炎魔力
 tc.research_page.ROD_blaze_staff.1=這種烈焰棒製成的魔杖能夠容納每種類型的魔力175vis。<BR>如同其杖柄它也能夠緩慢恢復魔力。
 #
-tc.research_name.ROD_ice_staff=冰霜棍柄
+tc.research_name.ROD_ice_staff=冰霜長柄
 tc.research_text.ROD_ice_staff=儲存冰霜魔力
 tc.research_page.ROD_ice_staff.1=這種由冰製成的魔杖能夠容納每種類型的魔力175vis。<BR>如同其杖柄它也能夠緩慢恢復魔力。
 #
-tc.research_name.ROD_quartz_staff=石英棍柄
+tc.research_name.ROD_quartz_staff=石英長柄
 tc.research_text.ROD_quartz_staff=儲存秩序魔力
 tc.research_page.ROD_quartz_staff.1=這種石英製成的魔杖能夠容納每種類型的魔力175vis。<BR>如同其杖柄它也能夠緩慢恢復魔力。
 #
-tc.research_name.ROD_reed_staff=甘蔗棍柄
+tc.research_name.ROD_reed_staff=甘蔗長柄
 tc.research_text.ROD_reed_staff=儲存風之魔力
 tc.research_page.ROD_reed_staff.1=這種甘蔗製成的魔杖能夠容納每種類型的魔力175vis。<BR>如同其杖柄它也能夠緩慢恢復魔力。
 #
-tc.research_name.ROD_primal_staff=元初棍柄
+tc.research_name.ROD_primal_staff=元初長柄
 tc.research_text.ROD_primal_staff=融合的元初能量
-tc.research_page.ROD_primal_staff.1=這種棍柄中韻動著潛伏的能量。<BR>它由所有次級的杖柄融合製成，其魔力容量等同於銀樹棍柄且能夠像各種元初要素對應的棍柄那樣恢復魔力。<BR>最後，它還會使得安裝的法術核心自動附帶一級的效能附魔效果。<BR>這玩意兒在任何秘術使的裝備庫裡都算得上真正潛力十足的工具。
+tc.research_page.ROD_primal_staff.1=這種長柄中韻動著潛伏的能量。<BR>它由所有次級的杖柄融合製成，其魔力容量等同於銀樹長柄，且能夠像各種元初要素對應的長柄那樣恢復魔力。<BR>最後，它還會使安裝的法術核心增加一級的效能。<BR>這在任何秘術使的裝備庫裡都算得上真正潛力十足的工具。<BR>注意：你依然需要為這把長柄加上杖端，就如同其他的魔杖。
 #
 tc.research_name.FOCUSFIRE=法術核心
 tc.research_text.FOCUSFIRE=形式遇上功能
@@ -945,7 +1078,7 @@ tc.research_page.FOCUSFIRE.2=為法杖安裝核心操作並不複雜，只需在
 #
 tc.research_name.FOCUSFROST=法術核心：寒霜
 tc.research_text.FOCUSFROST=復仇要在冷靜後再動手
-tc.research_page.FOCUSFROST.1=這種法術核心能夠讓法杖成為投擲霜星的戰鬥兵器。<BR>使用這種法術瞄準時需要相當小心，因為四濺的霜星有時可能會打壞一些脆弱的物品。注意不要在脆弱的建築附近使用它，此外，霜星能夠化水為冰。
+tc.research_page.FOCUSFROST.1=這種法術核心能夠讓法杖成為投擲霜星的戰鬥兵器。<BR>使用這種法術瞄準時需要相當小心，因為霜星會在固體之間彈跳，這同時也是你的優勢，你可以角落巧妙的控制反彈，甚至同時擊中複數的敵人。
 #
 tc.research_name.FOCUSSHOCK=法術核心：震擊
 tc.research_text.FOCUSSHOCK=雷霆與風暴
@@ -965,7 +1098,7 @@ tc.research_page.FOCUSHELLBAT.1=你的下界之旅讓你充分領略到了九獄
 #
 tc.research_name.FOCUSPORTABLEHOLE=法術核心：攜帶式洞穴
 tc.research_text.FOCUSPORTABLEHOLE=再也不怕找不到出口
-tc.research_page.FOCUSPORTABLEHOLE.1=你已經能夠成功地使用魔力創造異次元空間。使用該核心的法杖能夠在牆壁或者其他表面打通異次元通道通往彼端。<BR>通道只能維持數秒，且根據通道深度會從法杖中抽取不等數量的魔力以完成施法。<BR>異次元通道在一些特定方塊或者比較複雜的物體表面都無法創建。
+tc.research_page.FOCUSPORTABLEHOLE.1=你已經能夠成功地使用魔力創造異次元空間。使用該核心的法杖能夠在牆壁或者其他表面打通異次元通道通往彼端。<BR>通道只能維持數秒，且根據通道深度會從法杖中抽取不等數量的魔力以完成施法。<BR>異次元通道在一些特殊方塊或者比較複雜的物體表面都無法創建。
 #
 tc.research_name.FOCUSWARDING=法術核心：守護
 tc.research_text.FOCUSWARDING=護汝所有
@@ -1009,7 +1142,7 @@ tc.research_page.CRUCIBLE.1=只需對著放置在地上的普通煉藥鍋揮舞�
 tc.research_page.CRUCIBLE.2=你可以向坩堝內丟入觸媒這種特殊物品。觸媒將作為核心聚合要素，且轉換成全新的物品後，會從坩堝中彈出。<BR>多餘的源質會留存在坩堝中以備後用，但長期讓要素殘留在坩堝中無疑不是好主意。<BR>使用坩堝製作物品還會消耗坩堝中少量的水，因此你最終會需要重新添水。<BR>坩堝中的要素會持續降解。複合要素會降解成組成它的要素之一，而元初要素會蒸發消失。
 tc.research_page.CRUCIBLE.3=這不僅僅會造成資源的浪費，蒸發和降解的源質還會造成諸多奇怪的副作用。<BR>你可以對著坩堝使用法杖清空坩堝中的要素源質製作物品，但這會讓坩堝中的源質全部流失到大氣中…… 因此你並不希望經常這樣做。
 tc.research_page.CRUCIBLE.4=下面是一些所有人皆可使用的煉金配方。<LINE>    §n均衡碎片§r<BR><BR>向普通的魔力碎片灌注其餘五種它不具有的元初要素的魔力碎片，最終得到的就是這種六大元初要素相互平衡的，能與元初能量完美共鳴的水晶碎片。<BR> 在熔爐中冶煉平衡碎片能夠得到世界鹽(參見後文)。
-tc.research_page.CRUCIBLE.5=    §n世界鹽§r<BR><BR>世界鹽,或其廣為人知的名稱秘術使之鹽，是加熱均衡碎片使其分解得到的細粉。<BR>正如凡俗世界的鹽一樣，秘術使之鹽也能夠給所有那些普通的魔法配方或儀軌增添美妙的滋味(這是個隱喻)。它是一種強力的黏合劑。能夠讓彼此間最暌離的魔力要素聚合在一起。
+tc.research_page.CRUCIBLE.5=    §n世界鹽§r<BR><BR>世界鹽,或其廣為人知的名稱秘術使之鹽，是加熱均衡碎片使其分解得到的細粉。<BR>正如凡俗世界的鹽一樣，秘術使之鹽也能夠給所有那些普通的魔法配方或儀式增添美妙的滋味(這是個隱喻)。它是一種強力的黏合劑。能夠讓彼此間最暌離的魔力要素聚合在一起。
 #
 tc.research_name.ENCHFABRIC=魔導布料
 tc.research_text.ENCHFABRIC=絲般柔滑
@@ -1018,8 +1151,8 @@ tc.research_page.ENCHFABRIC.2=當穿戴法袍施法時你能夠更高效地使�
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技術
-tc.research_page.ENCHANT.1=秘術使擁有許多種獨特的附魔技術。<BR>§n效能 (僅用於法術核心) §r<BR>該附魔能夠提升法術核心可造成的傷害以及作用範圍。<BR>§n節約(僅用於法術核心)§r<BR>進行該附魔後的法術核心使用時更節約魔力。<BR>§n瑰寶(僅用於法術核心)§r<BR>類似幸運附魔的效果，能夠在採集物品時增加產量。
-tc.research_page.ENCHANT.2=§n急迫§r<BR>進行該附魔的鞋子能夠讓穿戴者在地上行走時健步如飛，附魔等級越高，增幅速度越多。 <BR>§n修復§r<BR>該附魔能夠從靈氣中吸取魔力來緩慢地修復物品耐久，附魔等級越高，修復速度越快。這種附魔只能對部分秘術物品生效。
+tc.research_page.ENCHANT.1=秘術使擁有許多獨特的附魔技術。<BR>§n急迫§r<BR>進行該附魔的鞋子能夠讓穿戴者在地上行走時健步如飛，附魔等級越高，增幅速度越多。 <BR>§n修復§r<BR>該附魔能夠從靈氣中吸取魔力來緩慢地修復物品耐久，附魔等級越高，修復速度越快。這種附魔只能對部分秘術相關物品生效。
+tc.research_page.ENCHANT.2=
 #
 tc.research_name.ELEMENTALAXE=奔流斧
 tc.research_text.ELEMENTALAXE=木材的河流
@@ -1036,9 +1169,9 @@ tc.research_text.ELEMENTALSWORD=狂怒之颶風
 tc.research_page.ELEMENTALSWORD.1=將風之碎片與秘術錠製作的劍融合，你打造出一柄蘊含風雷之力的魔劍。<BR>用這柄魔劍攻擊敵人時可以觸發連鎖閃電特性，彈射的電弧將會波及次要目標。<BR>右鍵格擋的時候則會召喚出一道纏繞你自身的旋風，將你的敵人以及任何實體目標吹開。<BR>格擋時持有者也會緩慢騰升至空中。
 #
 tc.research_name.ELEMENTALSHOVEL=后土鏟
-tc.research_text.ELEMENTALSHOVEL=中央土，其神后土
-tc.research_page.ELEMENTALSHOVEL.1=將地之碎片與秘術錠製作的鏟融合，你打造出一柄洋溢著大地氣息的魔鏟。<BR>當你用來它挖掘沙子，泥土以及這類物品的時候能夠一次性挖掘3x3範圍內的相同方塊。<BR>如果你右擊某方塊時，它會試圖放置3x3的相同方塊.當然你的物品欄中必須有足夠的同種方塊。<BR>它的挖掘和放置方向取決於你所挖或點擊的面。
-tc.research_page.ELEMENTALSHOVEL.2=當你按住潛行則可以抑制其特效，將其作為普通鏟子使用。
+tc.research_text.ELEMENTALSHOVEL=顛覆大地
+tc.research_page.ELEMENTALSHOVEL.1=將地之碎片與秘術錠製作的鏟融合，你打造出一柄洋溢著大地氣息的魔鏟。<BR>當你用來它挖掘沙子，泥土以及這類物品的時候能夠一次性挖掘3x3範圍內的相同方塊。<BR>如果你右擊某方塊時，它會試圖放置3x3的相同方塊。當然你的物品欄中必須有足夠的同種方塊。<BR>它的挖掘和放置方向取決於你所挖或點擊的面。
+tc.research_page.ELEMENTALSHOVEL.2=按住SHIFT可以看到方塊將如何被安置在世界中，你可以按"G"鍵來改變方塊放置的方向。可以是水平，垂直，或是你所面對的方向。 <BR>當你按住潛行時挖掘可以抑制其特殊效果，將其作為普通鏟子使用。
 #
 tc.research_name.ELEMENTALHOE=句芒鋤
 tc.research_text.ELEMENTALHOE=大自然的均衡之力
@@ -1106,7 +1239,7 @@ tc.research_page.PURELEAD.1=原礦簇是稀有而最純淨的金屬聚合物。�
 #
 tc.research_name.TALLOW=魔導油脂
 tc.research_text.TALLOW=魔力熬製的油脂
-tc.research_page.TALLOW.1=在坩堝中熬煉肉塊，你製作出一種具有多種奧術用途的魔導油脂。<BR>這種油脂可以用作製作蠟燭.在奧術工作台中可以使用顏料為蠟燭染色。
+tc.research_page.TALLOW.1=在坩堝中熬煉肉塊，你製作出一種具有多種奧術用途的魔導油脂。<BR>這種油脂可以用作製作蠟燭。在奧術工作台中可以使用顏料為蠟燭染色。
 #
 tc.research_name.GOLEMSTRAW=稻草傀儡
 tc.research_text.GOLEMSTRAW=簡易魔法僕從
@@ -1144,8 +1277,8 @@ tc.research_page.GOLEMTHAUMIUM.1=秘術傀儡尤勝於鐵質傀儡，且能夠�
 #
 tc.research_name.GOLEMBELL=傀儡使之鈴
 tc.research_text.GOLEMBELL=聽好囉～
-tc.research_page.GOLEMBELL.1=傀儡難以服從口頭指令的劣習廣為人知，而這個鈴鐺可以幫助你避免這種窘況。<BR>使用鈴鐺右擊傀儡就能選擇它。之後傀儡的放置位置以及綁定位置會亮起一道齒輪狀的光環。<BR>然後你便可以使用鈴鐺右擊世界上的任意位置來將傀儡連結到某方塊，某位置或者某個將與之連結的容器上。再次點擊相同位置會解除連結，如果傀儡能夠同多種顏色的標記互動也可能會出現在不同顏色中循環切換的情況。
-tc.research_page.GOLEMBELL.2=<BR>在標記位置潛行(Shift)+右鍵會清除標記，而按下 F 鍵則會清除所有標記位置。 <LINE>左鍵敲擊傀儡會完好無損地取縣安置好的傀儡。潛行(Shift)+左鍵能夠拆除傀儡，但其傀儡運轉核心以及升級會分別獨立掉落。然而這樣做有很大機率丟失掉升級。 
+tc.research_page.GOLEMBELL.1=傀儡難以服從口頭指令的劣習廣為人知，而這個鈴鐺可以幫助你避免這種窘況。<BR>使用鈴鐺右擊傀儡就能選擇它。之後傀儡的放置位置以及綁定位置會亮起一道齒輪狀的光環。<BR>然後你便可以使用鈴鐺右擊世界上的任意位置來將傀儡連結到某方塊，某位置或者某個將與之連結的容器上。再次點擊相同位置會解除連結，如果傀儡能夠與多種顏色的標記互動，則會使標記在不同顏色中循環切換。
+tc.research_page.GOLEMBELL.2=<BR>在標記位置按下潛行(Shift)+右鍵會清除標記，而按下 F 鍵則會清除所有標記位置。 <LINE>左鍵敲擊傀儡會完好無損地取縣安置好的傀儡。潛行(Shift)+左鍵能夠拆除傀儡，但其傀儡運轉核心以及升級會分別獨立掉落。然而這樣做有很大機率丟失掉升級。 
 #
 tc.research_name.COREGATHER=傀儡核心：聚集
 tc.research_text.COREGATHER=拾取你放下的物品
@@ -1187,6 +1320,7 @@ tc.research_page.COREBUTCHER.1=這種核心是標準的守衛核心的強化版�
 tc.research_name.CORELIQUID=傀儡核心：移液
 tc.research_text.CORELIQUID=向蓄水槽裡填充液體
 tc.research_page.CORELIQUID.1=安裝了這種核心的傀儡會努力保證與其綁定的液體容器內存滿指定的液體。<BR>你可以打開傀儡的界面，如願設定傀儡蓄水槽中應該存入的特定液體類型，並為傀儡提供一個液體容器(比如水桶).其他類型的液體將會被忽略。<BR>儘管移液傀儡常常被指示去用水桶盛裝世界中的流體方塊，但受限於材料允許，每樣物品，它們僅僅能攜帶100mb的液體。只要指定要撈起的液體，移液傀儡會把手上的桶子填滿。
+tc.research_page.CORELIQUID.2=    §n渾沌升級解鎖能力§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>安裝這種升級的傀儡將從所標記液體中自己所能接觸到最遠處開始撈起液體，這將能使它撈盡整池液體，而非把只一格液體撈乾。<BR>它只會搜尋自己的視野範圍，而最遠處則是指傀儡所能走到的最遠處，而非直線距離。
 #
 tc.research_name.CORESORTING=傀儡核心：排序
 tc.research_text.CORESORTING=讓一切都井井有條
@@ -1211,7 +1345,7 @@ tc.research_page.UPGRADEAIR.1=安裝這種升級的傀儡能夠提升移動速�
 #
 tc.research_name.UPGRADEEARTH=傀儡升級：地
 tc.research_text.UPGRADEEARTH=強壯如地
-tc.research_page.UPGRADEEARTH.1=安裝這種升級後傀儡一次能夠攜帶更多物品。每次升級根據傀儡本身的基本運載能量能夠提升運載量4~16不等。<BR>這種升級還能提升傀儡的物理傷害能力和採集材料的速度-一些需要蠻力的任務都會表現得更好。<BR>特定的傀儡核心配合這種核心還有更多好處，如果希望瞭解可以參閱其它傀儡核心條目的頁面。
+tc.research_page.UPGRADEEARTH.1=安裝這種升級後傀儡一次能夠攜帶更多物品。每次升級根據傀儡本身的基本運載能量能夠提升運載量4~16不等。<BR>這種升級還能提升傀儡的物理傷害能力和採集材料的速度-一些需要高運載量的任務都會表現得更好。<BR>特定的傀儡核心配合這種核心還有更多好處，如果希望瞭解可以參閱其它傀儡核心條目的頁面。
 #
 tc.research_name.UPGRADEFIRE=傀儡升級：火
 tc.research_text.UPGRADEFIRE=威猛似火
@@ -1279,7 +1413,7 @@ tc.research_page.INFERNALFURNACE.2=你應該還要注意的是煉獄熔爐偶爾
 #
 tc.research_name.BELLOWS=奧術風箱
 tc.research_text.BELLOWS=煽風點火
-tc.research_page.BELLOWS.1=奧術風箱功能正如其名，不過它能夠自己動作，對著需要的方向發出陣陣氣流。<BR>將其安裝在地獄熔爐側面和後面的開孔處(一個熔爐可以安裝3個)會出現有趣的現象：蘊含魔力的氣流不僅僅加快了熔爐燃燒的速度，也讓火焰更加純淨，減少了咒波的產生率，增大了獲得金屬粒或者其他材料的額外產物的機會。
+tc.research_page.BELLOWS.1=奧術風箱功能正如其名，不過它能夠自動運轉，對著需要的方向發出無盡的氣流。<BR>將其安裝在地獄熔爐側面和後面的開孔處(一個熔爐可以安裝3個)會出現有趣的現象：蘊含魔力的氣流不僅僅加快了熔爐燃燒的速度，也讓火焰更加純淨，減少了咒波的產生率，增大了獲得金屬粒或者其他材料的額外產物的機會。
 tc.research_page.BELLOWS.2=它也能安裝在普通熔爐邊上來為其加速。<BR>如果安裝在坩堝旁邊，則能縮短水煮沸的時間。<BR>你相信你未來能發掘出它更多的應用。
 #
 tc.research_name.ARCANESTONE=奧術石材
@@ -1301,7 +1435,7 @@ tc.research_page.JARBRAIN.1=-向封罐投入一個殭屍之腦。<BR>-添加蜘�
 tc.research_name.HOVERHARNESS=奧術韁繩
 tc.research_text.HOVERHARNESS=那是一隻鳥？
 tc.research_page.HOVERHARNESS.1=最終你揭開了飛行的秘密。 你創造出一種通過使用奧術能量將自身錨定在神秘力場中，因此幫助你擺脫重力的韁繩。你認為量子和夸克在某種程度上也參與了這個過程。<BR>韁繩需要的魔力在創造的時候就已經全部加入進去，它消耗的燃料是單純的源質：Potentia(能量)。當手持著韁繩的時候右擊以安裝盛滿 Potentia 源質的封罐。<BR>當穿著奧術韁繩時按下"H"開啟或關閉其功能。
-tc.research_page.HOVERHARNESS.2=啟動後奧術韁繩會持續消耗 Potentia 源質。<BR>急迫附魔能夠加快奧術韁繩的飛行速度。
+tc.research_page.HOVERHARNESS.2=啟動後奧術韁繩會持續消耗 Potentia 源質。<BR>急迫附魔能夠加快奧術韁繩的飛行速度。<BR>使用奧術韁繩飛行並不會影響你破壞方塊的速度。
 #
 tc.research_name.HOVERGIRDLE=奧術腰帶
 tc.research_text.HOVERGIRDLE=那是一架飛機？
@@ -1315,7 +1449,7 @@ tc.research_name.ARCANEBORE=奧術鑽掘機
 tc.research_text.ARCANEBORE=採礦業的進化
 tc.research_page.ARCANEBORE.1=你已經發現一種擁有採掘核心能力，且具有更大的工作範圍的奧術設備，不僅如此，這台機器還可以無人監控地自動運行。只需要將它安裝在特別的基座上，先以法杖將其方向調校正確後，再用紅石信號啟動即可。<BR>奧術鑽掘機需要兩件東西才能正常工作。首先你需要將採掘核心放在物品欄左側格子中，法杖核心的附魔效果也會被加成到鑽掘機上。
 tc.research_page.ARCANEBORE.2=再來，你需要在右邊格子裡放置一個任意類型的鎬子。鎬的材料對鑽掘機運行效果影響很小，但其耐久直接決定鑽掘機的運轉時間。此外，就如同核心，鎬子上的附魔效果也能夠被加成到鑽掘機上。<BR>奧術鑽掘機只能安裝在奧術鑽探基座的上方或下方。挖掘到的物品都會從鑽探基座的噴嘴所朝方向彈出。<BR>若有箱子則會自動放入其物品欄。你可以用法杖改變奧術鑽掘機的方向。
-tc.research_page.ARCANEBORE.3=倘若向鑽掘機供應§8Perditio§0源質或魔力將大大提升其鑽探效率。既可以使用管道供應魔力源質，也可以使用靈氣中繼器供應厘魔。一點§8Perditio§0源質能夠讓鑽掘機以更快的速度挖掘接下來的20個方塊。而作為另外一種選擇的中繼器系統的效率則是每加速挖掘一個方塊消耗5點厘魔，而鑽掘機每tick最多能夠輸入100厘魔。
+tc.research_page.ARCANEBORE.3=倘若向鑽掘機供應§8Perditio§0源質或魔力將大大提升其鑽探效率。既可以使用管道供應魔力源質，也可以使用節點中繼器供應厘魔。一點§8Perditio§0源質能夠讓鑽掘機以更快的速度挖掘接下來的20個方塊。而作為另外一種選擇的中繼器系統的效率則是每加速挖掘一個方塊消耗5點厘魔，而鑽掘機每tick最多能夠輸入100厘魔。
 #
 tc.research_name.LEVITATOR=奧術懸浮台
 tc.research_text.LEVITATOR=下面該研究怎麼飛了！
@@ -1328,7 +1462,7 @@ tc.research_page.ARCANEEAR.1=奧術之耳是一個能夠檢測附近的音符盒
 tc.research_name.MIRROR=魔鏡
 tc.research_text.MIRROR=鏡中奇緣
 tc.research_page.MIRROR.1=你嘗試對鏡子施加魔法，將它變成通往世界間隙那廣漠虛空的傳送門。投入其(或是使用管道向鏡子輸入)的物品將會跨越空間甚至次元，從另外一面鏡子噴出。<BR>不幸的是空間通道對像你這樣的實體生物非常排斥，因此用這種魔鏡來傳輸生物暫時是不可能的。<BR>要連結一對魔鏡，你需要先將其中一面鏡子安裝在目標位置，
-tc.research_page.MIRROR.2=然後用第二面鏡子右擊第一面鏡子，並安裝在需要的位置。當兩面都裝好後會建立連結，鏡面會出現黑洞的圖樣。當你將物品投入其中，物品會自動從另一個鏡子被拋出。<BR>魔鏡只能成對鏈接，當安裝好後不能與第三個魔鏡建立鏈接。當你拆卸後重新安裝魔鏡的時候，它能夠自動回憶上次建立配對的魔鏡。同理，拆卸配對的魔鏡後，你也能很方便地用它建立新的鏈接。
+tc.research_page.MIRROR.2=然後用第二面鏡子右擊第一面鏡子，並安裝在需要的位置。當兩面都裝好後會建立連結，鏡面會出現黑洞的圖樣。當你將物品投入其中，物品會自動從另一個鏡子被拋出。<BR>魔鏡只能成對鏈接，當安裝好後不能與第三個魔鏡建立鏈接。當你拆卸後重新安裝魔鏡的時候，它能夠自動記憶最後一次建立配對的魔鏡。所以拆下配對的魔鏡後，你也能很方便地重新鏈接原本的鏡子。
 tc.research_page.MIRROR.3=通過鏡子傳輸物品會對魔導玻璃造成壓力，為了避免破碎，鏡子會自動降低從另一端的鏡面噴拋出物品的頻率。不穩定性越高，傳輸速度越慢。<BR>這種不穩定性會隨著時間推移而下降，或是向鏡子直接通入§7Ordo§0要素來抵消它。
 #
 tc.research_name.MIRRORHAND=魔導手鏡
@@ -1425,8 +1559,8 @@ tc.research_page.TUBEFILTER.2=§n限制源質管道§r如同普通管道，但�
 #
 tc.research_name.MIRRORESSENTIA=源質之鏡
 tc.research_text.MIRRORESSENTIA=隨處可用的源質
-tc.research_page.MIRRORESSENTIA.1=魔導手鏡對長途運輸物品可謂實用，但相同的原理能否應用於源質系統呢？你覺得你已經研究出實現它的方法了。<BR>源質之鏡，顧名思義，可以像魔導手鏡傳輸物品那樣傳輸源質。然而也有幾條重要的使用限制：<BR>你無法用管道將源質導入鏡中，源質之鏡只能從源頭抽取源質運輸到類似注魔矩陣這樣的設備去。
-tc.research_page.MIRRORESSENTIA.2=意即鏡子允許這些設備通過鏡子從源頭抽取源質。<BR>遠距離抽取像源質這麼不穩定的東西並非毫無風險，有時會造成少量源質流失。
+tc.research_page.MIRRORESSENTIA.1=魔導手鏡對長途運輸物品可謂實用，但相同的原理能否應用於源質系統呢？你覺得你已經研究出實現它的方法了。<BR>源質之鏡，顧名思義，可以像魔導手鏡傳輸物品那樣傳輸源質。然而也有幾條重要的使用限制：<BR>你無法用管道將源質導入鏡中，源質之鏡只能從源頭抽取源質，運輸到類似注魔矩陣這樣的設備去。
+tc.research_page.MIRRORESSENTIA.2=意即鏡子允許這些設備通過鏡子從源頭抽取源質。
 #
 tc.research_name.BONEBOW=骨弓
 tc.research_text.BONEBOW=以石為矢；以棍為箭……
@@ -1467,7 +1601,7 @@ tc.research_text.RUNICKINETIC=呵呵，你會後悔的
 tc.research_page.RUNICKINETIC.1=這是種特別版的護盾腰帶。<BR>較改造前的腰帶蓄能量略少些，但當護盾被打破時會爆發出一陣能夠傷害並推開附近所有物品的衝擊波。<BR>在20s內只能啟動一次這種效果。
 #
 tc.research_name.RUNICEMERGENCY=應急護盾護身符
-tc.research_text.RUNICEMERGENCY=你就不能讓我輕鬆點嗎?
+tc.research_text.RUNICEMERGENCY=你就不能讓我輕鬆點嗎？
 tc.research_page.RUNICEMERGENCY.1=這是種特別版的護盾護身符。<BR>較改造前的護身符蓄能量略少些，但當護盾被打破時這項升級能夠立即再為護盾增加8點能量。<BR>每分鐘只能啟動一次這種效果。 
 #
 tc.research_name.WARDEDARCANA=守護之奧術
@@ -1480,7 +1614,7 @@ tc.research_page.WARDEDARCANA.4=守衛玻璃並非單純的裝飾方塊，如同
 tc.research_name.VISAMULET=魔力儲存
 tc.research_text.VISAMULET=儉以防匱
 tc.research_page.VISAMULET.1=大多數時候，對秘術使來說，有一根法杖就遠遠滿足需求了，但有時候它儲存的魔力卻偏偏不夠用。多帶一支法杖就能解決問題，但實驗表明另有他法。<BR>製作一枚儲存有魔力的護身符，就能在法杖或者相關物品耗盡魔力時為其充能了。<BR>然而你的這項成就並非盡善盡美。只有手裡握著法杖的時候才能為其充能，且充能速度緩慢。
-tc.research_page.VISAMULET.2=然而護身符是類似修復附魔或者符文護盾這類物品非常好的能量來源。<BR>護身符只能在法杖基座中或依靠周圍的靈氣中繼器中充能。
+tc.research_page.VISAMULET.2=然而護身符是類似修復附魔或者符文護盾這類物品非常好的能量來源。<BR>護身符只能在法杖基座中或依靠周圍的節點中繼器中充能。
 #
 tc.research_name.NODESTABILIZER=節點穩定器
 tc.research_text.NODESTABILIZER=醫治節點
@@ -1499,13 +1633,13 @@ tc.research_name.VISPOWER=駕馭魔力
 tc.research_text.VISPOWER=力之於人
 tc.research_page.VISPOWER.1=沒有節點的話，秘術使甚至難以達成最簡單的課題，但是節點先天上的諸多特性卻使其難以運用在更廣泛的用途上。其中最明顯的障礙就是它非常容易耗盡其要素，且需要相當長的時間才能從連結至節點的神秘能量中重新累積魔力。<BR>你覺得或許找到了解決這種限制的方法。實際上節點相當於一個通往神秘的空間的傳送門，而門的另一端則充滿著緩緩凝聚為要素的神秘能量。
 tc.research_page.VISPOWER.2=然而這些傳送門是如此之狹窄，以至於只能將極少量的魔力流洩到我們現實世界所在的次元。但是透過控制這些傳送門的開合，就能夠讓魔力形成漩渦，噴湧而出。<BR>但是這動作實際上比理論還要危險，所以其過程務必謹慎。<BR>首先節點在全程操作中必需保持在穩定狀態。為了保證這一點你需要將一個§l節點轉換器§r置於節點之上。向節點轉換器施以紅石訊號便能開始將節點轉換為充能節點，此階段節點中的要素會快速流失。<BR>這個步驟需要稍微花點時間，
-tc.research_page.VISPOWER.3=結束後你就能得到一個活化的靈氣節點。此步驟後務必保持節點穩定器與節點轉換器都維持在穩定運作的狀態。<LINE>活化靈氣節點不再產生和儲存魔力，也不再為法杖和其他裝置提供魔力。取而代之的是，它將穩定的持續產生§l厘魔§r(centi-vis，百分之一魔力)的能力。這種能量能夠被靈氣中繼器所轉接與分流。<BR>活化靈氣節點能與八格內的靈氣中繼器相連接，且每個做為厘魔中轉站的靈氣中繼器也都能互相連結。如此便能建造出一個傳導魔力的靈氣網，
-tc.research_page.VISPOWER.4=能為任何所需的裝置提供能量，例如煉獄熔爐。<BR>節點中繼器屬於樹狀系統，故每個中繼器只能接受一個魔力來源(活化靈氣節點或其他靈氣中繼器)，但是能對多個中繼器輸出能量。<BR>你也可以利用適當的要素碎片使中繼器產生共鳴，此舉並不影響任何種類的靈氣流經中繼器，但是會防止中繼器與共鳴頻率不同的其他中繼器相連。<BR>活化節點單位時間內所產生的魔力有限，
-tc.research_page.VISPOWER.5=因此如果連接的設備過多會出現供應量不足的情形。<LINE>活化節點也可恢復成普通節點，只要切斷通入轉換器的紅石信號，它就開始緩慢恢復。需要注意的是由於節點會被抽乾魔力，因此有遭受永久性損傷的危險。
+tc.research_page.VISPOWER.3=結束後你就能得到一個活化的靈氣節點。此步驟後務必保持節點穩定器與節點轉換器都維持在穩定運作的狀態。<LINE>活化靈氣節點不再產生和儲存魔力，也不再為法杖和其他裝置提供魔力。取而代之的是，它將穩定的持續產生§l厘魔§r(centi-vis，百分之一魔力)的能力。這種能量能夠被節點中繼器所轉接與分流。<BR>活化靈氣節點能與八格內的節點中繼器相連接，且每個做為厘魔中轉站的節點中繼器也都能互相連結。如此便能建造出一個傳導魔力的靈氣網，
+tc.research_page.VISPOWER.4=能為任何所需的裝置提供能量，例如煉獄熔爐。<BR>節點中繼器屬於樹狀系統，故每個中繼器只能接受一個魔力來源(活化靈氣節點或其他節點中繼器)，但是能對多個中繼器輸出能量。<BR>你也可以利用適當的要素碎片對中繼器調律，用魔杖點擊中繼器可使它在各種頻率間循環切換。此舉並不影響任何種類的靈氣流經中繼器，但是會防止中繼器與共鳴頻率不同的其他中繼器相連。
+tc.research_page.VISPOWER.5=活化節點單位時間內所產生的魔力有限，因此如果連接的設備過多會出現供應量不足的情形。<LINE>活化節點也可恢復成普通節點，只要切斷通入轉換器的紅石信號，它就開始緩慢恢復。需要注意的是由於節點會被抽乾魔力，因此有遭受永久性損傷的危險。
 #
 tc.research_name.VISCHARGERELAY=靈氣充能中繼器
 tc.research_text.VISCHARGERELAY=簡化奧術合成
-tc.research_page.VISCHARGERELAY.1=只要是秘術使，都曾有過進行常規奧術合成後總要不厭其煩地為法杖充能的煩惱。<BR>如今你已能夠製造靈氣充能中繼器，能夠讓設備直接自節點中抽取能量，其功能就像普通的靈氣中繼器，但它被設計成可以安置在奧術合成台上，它將從中繼器抽取魔力並對放在合成台裡的法杖充能。<BR>美中不足的地方是，比起法杖充能基座或者手持法杖進行充能，它進行充能的速度慢了許多。
+tc.research_page.VISCHARGERELAY.1=只要是秘術使，都曾有過進行常規奧術合成後總要不厭其煩地為法杖充能的煩惱。<BR>如今你已能夠製造靈氣充能中繼器，能夠讓設備直接自節點中抽取能量，其功能就像普通的節點中繼器，但它被設計成可以安置在奧術合成台上，它將從中繼器抽取魔力並對放在合成台裡的法杖充能。<BR>美中不足的地方是，比起法杖充能基座或者手持法杖進行充能，它進行充能的速度慢了許多。
 #
 tc.research_name.WARP=扭曲、咒波，以及所有不祥之物
 tc.research_text.WARP=萬物皆有其價值
@@ -1523,7 +1657,7 @@ tc.research_page.LIQUIDDEATH.1=這種液體是極其危險之溶劑，豈止骨�
 #
 tc.research_name.ARMORFORTRESS=秘術城寨甲冑
 tc.research_text.ARMORFORTRESS=難攻不破
-tc.research_page.ARMORFORTRESS.1=秘術盔甲優點雖多，但基礎的護甲等級卻遜於鑽石盔甲。在提升其構材性能與複雜性的同時，你逐漸發展出一項額外提升護甲的工藝、耐久和強度的技術。<BR>每項秘術城寨甲胄部件都有和鑽石護甲同等程度的防護能力，不僅如此，它們還具有更加卓絕的耐久值，並且對火焰和魔法傷害有額外的防護效果。<BR>
+tc.research_page.ARMORFORTRESS.1=秘術盔甲優點雖多，但基礎的護甲等級卻遜於鑽石盔甲。在提升其結構性能與複雜性的同時，你逐漸發展出一項額外提升護甲的工藝、耐久和強度的技術。<BR>每項秘術城寨甲胄部件都有和鑽石護甲同等程度的防護能力，不僅如此，它們還具有更加卓絕的耐久值，並且對火焰和魔法傷害有額外的防護效果。<BR>
 tc.research_page.ARMORFORTRESS.2=但它們最不可思議之處在於如果同時穿戴獨立的護甲部件將會啟動套裝效果：每多穿戴一件部件，都會提升整體部件的防護效果，並使造型變得更加華麗。<BR>由於其構成使用的大量秘術錠，使得這種護甲很容易附​​魔。
 #
 tc.research_name.HELMGOGGLES=揭示之盔
@@ -1542,11 +1676,11 @@ tc.research_name.MASKSIPPINGFIEND=嗜血邪妖面具
 tc.research_text.MASKSIPPINGFIEND=秘術城寨兜盔升級
 tc.research_page.MASKSIPPINGFIEND.1=此面具為城寨兜盔的配件。<BR>在戴上這幅面具後，你如果攻擊其他生物，有機會竊取它們的生命力來強化自己。<BR>你吸它們血實際上似乎並沒有像你所以為的那樣感覺有什麼異樣。但你困惑的是你該不該對此憂心？
 #
-tc.research_name.ELDRITCHMINOR=禁忌頓悟
+tc.research_name.ELDRITCHMINOR=異象頓悟
 tc.research_text.ELDRITCHMINOR=踏入未知的第一步
 tc.research_page.ELDRITCHMINOR.1=一切忽然變的如此清晰。在他人眼中的渾沌，你偶爾能有所驚鴻一瞥...看到那令人不安的圖樣，有什麼在宇宙的最深闇處騷動著。<BR>你一度試圖向別人解釋你發現的一切，但卻只招來了奇怪的眼神，無論如何，終有一日你將會向他們展現你所發現的一切！<BR>向他們所有人！
 #
-tc.research_name.ELDRITCHMAJOR=禁忌啟示錄
+tc.research_name.ELDRITCHMAJOR=異象啟示錄
 tc.research_text.ELDRITCHMAJOR=我已經看穿了那無垠的邊界
 tc.research_page.ELDRITCHMAJOR.1=面紗已經被揭開-吾心中有道門已經被開啟。<BR>當我望穿吾所迷惘處。不，那並非迷惘§m我所看見的§r<BR>§o吾之所見 吾 見 吾見靓 五口目 ㄨ§r<IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
 tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>這啥鬼！？誰畫的阿？
@@ -1576,13 +1710,13 @@ tc.research_name.SANITYCHECK=神智檢測儀
 tc.research_text.SANITYCHECK=勇於內省
 tc.research_page.SANITYCHECK.1=近來你的腦海中一片紛繁。似乎你應當好好自省一番，以確保沒有哪裡不對勁。<BR>神智檢測儀能夠幫助你查看精神世界的扭曲效果以及它們會如何影響你。<BR>理所當然地，你不可能允許這些資料落入敵手，因此你煞費苦心地讓它提供的信息模糊而晦澀，不過你似乎做得過頭了-你自己理解起來都有點困難。
 #
-tc.research_name.CRIMSON=血色崇拜
+tc.research_name.CRIMSON=緋色崇拜
 tc.research_text.CRIMSON=一則警示的傳說
-tc.research_page.CRIMSON.1=書冊上的多數內容以密如蛛網，不知所云的字符寫成，但你所能讀懂的部分讓你對那些血色邪徒的目的隱約有了奇怪的瞭解。<BR>它們的起源仍籠罩在謎霧之中，但它們似乎正致力於完成一個它們稱為"Apertis Oculis"的開眼儀式。這儀式的目的尚未明瞭，你推測那並不是什麼好事。<BR>但有趣的是，你認為秘術學能夠補完它們長久以來一直尋找的儀式所殘缺的部分。但很明顯開展這類研究是相當瘋狂的行為...
+tc.research_page.CRIMSON.1=書冊上的多數內容以密如蛛網，不知所云的字符寫成，但你所能讀懂的部分讓你對那些緋色邪徒的目的隱約有了奇怪的瞭解。<BR>緋色邪徒的起源仍籠罩在謎霧之中，但他們似乎正致力於完成一個他們稱之為"Apertis Oculis"的開眼儀式。這儀式的目的尚未明瞭，你推測那並不是什麼好事。<BR>但有趣的是，你認為秘術學能夠補完它們長久以來一直尋找的儀式所殘缺的部分。但很明顯開展這類研究是相當瘋狂的行為...
 #
 tc.research_name.OCULUS=開眼儀式
 tc.research_text.OCULUS=我將向他們展示我的發現，向他們所有人。
-tc.research_page.OCULUS.1=一切都是那麼的簡單，你對那些血色邪徒一直沒有發現它感到驚訝。<BR>想要完成儀式，需要將4顆邪術之眼放在一種特別顯眼的頂石上。那種頂石在你頭一回發現血腥邪徒的祭壇那裡就能找到。拱頂石上方的凶險節點必須保持完整。<BR>完成上述步驟後，還需要讓頂石從法杖中抽取大量的元初要素，每種大約100點。
+tc.research_page.OCULUS.1=一切都是那麼的簡單，你對那些緋色邪徒一直沒有發現它感到驚訝。<BR>想要完成儀式，需要將4顆異象邪眼放在一種特別顯眼的頂石上。那種頂石在你頭一回發現血腥邪徒的祭壇那裡就能找到。拱頂石上方的凶險節點必須保持完整。<BR>完成上述步驟後，還需要讓頂石從法杖中抽取大量的元初要素，每種大約100點。
 tc.research_page.OCULUS.2=如果所有步驟均正確，那麼儀式將被完成，而名為"眼"之存在將會睜開。<BR>當然你並不知道那意味著什麼。不過那又何妨？只有愚者才會畏懼未知。
 #
 tc.research_name.ESSENTIARESERVOIR=高級源質儲存
@@ -1593,4 +1727,46 @@ tc.research_page.ESSENTIARESERVOIR.2=如同封罐，源質庫也只有一面能�
 tc.research_name.ESSENTIACRYSTAL=源質結晶器 
 tc.research_text.ESSENTIACRYSTAL=要結實的貨幣，還是要流動的資產？
 tc.research_page.ESSENTIACRYSTAL.1=你差不多已經掌握了如何將凝聚的物體轉換為液態的源質，所以反過來也並非多麻煩的事。<BR>源質結晶器從管道系統中抽取源質並緩慢地將其凝聚成要素源質結晶的小碎片。源質水晶易於管理運輸，且非常穩定。<BR>結晶器會將凝聚的水晶彈出來或者裝入旁邊的容器，通入紅石信號可以關閉這功能。<BR>向其提供terra魔力將顯著提升其速度。
+#
+tc.research_name.BANNERS=旗幟                          
+tc.research_text.BANNERS=注意：純用於裝飾
+tc.research_page.BANNERS.1=有時祕術使不需製造些驚世駭俗的東西，只是想製造些讓自己順眼的東西。<BR>你開發出了一種術式讓你能輕易地將秘術圖案顯現在旗幟上。你只需單純地用裝有源質的安瓿灑在旗幟上，該要素的圖示就會顯現在旗幟表面。按住潛行點擊旗幟即可清除圖案。
+#
+tc.research_name.BOTTLETAINT=汙染之瓶
+tc.research_text.BOTTLETAINT=你為何要這麼做？
+tc.research_page.BOTTLETAINT.1=清除污染是一回事，但有沒有考慮要擴散它呢？<BR>只需濃縮污染要素並收集在瓶子裡，並將它扔在你希望創造污染的地方，一切就完成了。但是你究竟是為了什麼？
+#
+tc.research_name.FOCALMANIPULATION=核心調整台
+tc.research_text.FOCALMANIPULATION=重製法杖核心
+tc.research_page.FOCALMANIPULATION.1=法杖核心是一項驚人的創舉，但是卻不夠靈巧。一個法杖核心鮮少能達成超初原本效力的功能。<BR>你發現了一個方法來修改核心原先的魔法控制能力。你只需將核心放上核心調整台，並選擇你想要進行的升級項目。另外你得用節點中繼器來提供魔力並消耗自己的經驗值來啟動，但之後的工作就只剩下單純的等待。<BR>每顆核心可以進行五次升級， 
+tc.research_page.FOCALMANIPULATION.2=但是每次升級都會加倍地增加消耗。<BR>雖然有些升級可以再任意的升級階段進行，但許多核心升級項目都必須在特定階段進行或是僅在完成了某些必要的前置升級後才能進行。建議多加嘗試。<BR>由於升級是不可逆的，你沒有任何移除升級項目的手段，所以在在進行升級前務必小心選擇。 
+#
+tc.research_name.VAMPBAT=第五階升級：嗜血之蝠
+tc.research_text.VAMPBAT=邪惡的小吸血鬼們
+#
+tc.research_name.PRIMPEARL=元初明珠
+tc.research_text.PRIMPEARL=曾經有什麼來過
+tc.research_page.PRIMPEARL.1=你第一次發現了一個你認為自己永遠無法解開的謎團。<BR>這東西包含著單純的元初要素，但卻擁有不同於你平常所知，普通的元初要素的性質。你對這個現象有幾個理論：<BR>首先，這顆"珠子"可能是在現實世界創世初期的元初物質所殘留下-初級的魔法形成之前就已混雜並合併成複合元素。<BR>或者，它可能是來自於一個具有不符合你所知的魔法規則的地方。
+tc.research_page.PRIMPEARL.2=你不知道何種解釋較令人擔憂。<BR>不論是哪種方式，這顆珠子都是一個蘊含著強大且近乎無限魔力的至寶。<BR>該是時候將它做為己用了。
+#
+tc.research_name.PRIMNODE=操作元初節點
+tc.research_text.PRIMNODE=單純讓它們互相接觸，看看會發生什麼事
+tc.research_page.PRIMNODE.1=你找出了一個有點瘋狂的理論或許值得探討。何不拿一個元初明珠來碰觸一下靈氣節點呢？<BR>當然，讓兩個強大元初魔力的來源相互接觸可能會有災難性的後果，然而它們的互動也有可能相當的...有趣。<BR>雖然任何人都有辦法做到這件事，但你很確定完成這項研究能微微提高你獲得一個好結果的機會。是的，非常微小。
+#
+tc.research_name.ADVALCHEMYFURNACE=高級煉金爐
+tc.research_text.ADVALCHEMYFURNACE=源質精煉簡單化
+tc.research_page.ADVALCHEMYFURNACE.1=標準的煉金爐實在太過緩慢，而且還必須用燃料來驅動。你再也不用為這些事情困擾，實際上上你所不能忽視的事情是無法同時處理多種源質的問題。而且不幸的是，太多不穩定的源質黏漿若累積在同一處將會發生危險。<BR>伴隨著元初明珠的發現，你找到了這一切的解決方案：高級煉金爐。<BR>使用以虛空金屬進行強化、並暴露在元初明珠詭異能量中的煉金構材能以更快的速度一次處理大量的源質黏漿。
+tc.research_page.ADVALCHEMYFURNACE.2=製程中不會消耗元初明珠。<BR>利用ignis魔力取代燃料作為熱源，並以 perditio 魔力配合熱能，在幾乎一瞬之間將物質分解。最後以aqua魔力維持源質平穩的流動，避免產生沉澱而引發事故。<BR>這台機器需要大量的熱能來驅動運轉，所以需要供應穩定的ignis魔力，即使不是在運轉的狀態下。至於perditio和aqua魔力僅有在機器分解物質時才會被消耗。
+#
+tc.research_name.FLUXSCRUB=咒波清淨機
+tc.research_text.FLUXSCRUB=拯救飽受憂煩的祕術使
+tc.research_page.FLUXSCRUB.1=即使是最熟練的祕術使偶爾也會被咒波搞得焦頭爛額。這是個每個人都得面對的麻煩，但這台機器省下了其中的瑣碎工作。<BR>咒波清淨機，當它受air魔力驅動時，可以緩緩的清除16格範圍內任何形式的咒波生成物。不僅如此，它還能將其中的一小部分魔力回收成咒波主要源頭：praecantatio要素。<BR>它的儲存容量非常的小，而即使存滿了它依然會繼續運轉，所以若你想回收所有的源質，你必須隨時保持它淨空。
+#
+tc.research_name.ENTEROUTER=外面的世界
+tc.research_text.ENTEROUTER=我們不再處於堪薩斯州
+tc.research_page.ENTEROUTER.1=你不大確定跨入圓環時究竟期待著什麼，但是絕對不是這種由破碎的石塊構成的詭異結構和扭曲的通道。<BR>這地方非常的不對勁-你無法看出這結構有任何的實際用途... 除非它的目的就是作為一個致命的迷宮。<BR>怪異的能量經常自四周產生，你的魔法在這個異境中的狀態也相當怪異。而你所曾遭遇的外來客似乎也是出自於此處。
+#
+tc.research_name.OUTERREV=外界的啟示
+tc.research_text.OUTERREV=事情不如看上去的那麼單純
+tc.research_page.OUTERREV.1=你的質疑獲得了證實。這裡並非比賽的終點，你將此處稱之為異象。這個地方與你所知道的"現實"完全不同，你也不願相信這存在於你所理解的"現實"-比起物理上，它更接近於精神結構的存在，但是什麼樣的精神能構容納這個？<BR>你所能解出的只有極少數的符號，但是你能肯定這是一個陷阱-一個用來測試來客，淘汰弱者的地方。但你無法確定是出於什麼目的。
 #
