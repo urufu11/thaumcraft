@@ -1,10 +1,9 @@
+#
 # Enchantments
-enchantment.potency=潜能
-enchantment.frugal=朴素
-enchantment.charging=充能
-enchantment.wandfortune=瑰宝
 enchantment.haste=急迫
 enchantment.repair=修复
+enchantment.special.sapless=次级弱化
+enchantment.special.sapgreat=高级弱化
 #
 #Potions
 potion.fluxtaint=腐毒
@@ -38,9 +37,14 @@ warp.text.14=有那么一瞬间你感到头脑无比清晰.
 warp.text.15=你的胃突然发出异常奇怪的咕咕声.
 #
 # Entities
+entity.Thaumcraft.Golem.name=傀儡
 entity.Thaumcraft.ThaumSlime.name=神秘史莱姆
 entity.Thaumcraft.Dart.name=傀儡飞镖
 entity.Thaumcraft.FrostShard.name=霜星
+entity.Thaumcraft.ExplosiveOrb.name=爆炎
+entity.Thaumcraft.ShockOrb.name=电球
+entity.Thaumcraft.GolemOrb.name=能珠
+entity.Thaumcraft.BottleTaint.name=Bottled Taint
 entity.Thaumcraft.Firebat.name=九狱焱蝠
 entity.Thaumcraft.Wisp.name=精灵
 entity.Thaumcraft.Alumentum.name=源动之焰
@@ -75,6 +79,23 @@ entity.Thaumcraft.EldritchGuardian.name=邪术守卫
 entity.Thaumcraft.EldritchOrb.name=邪术球
 entity.Thaumcraft.CultistKnight.name=血腥骑士
 entity.Thaumcraft.CultistCleric.name=血腥教徒
+entity.Thaumcraft.CultistLeader.name=血腥主教%s%d世
+entity.Thaumcraft.CultistPortal.name=血腥门户
+entity.Thaumcraft.EldritchCrab.name=邪术爪牙
+entity.Thaumcraft.InhabitedZombie.name=行尸走肉
+#
+Thaumcraft.Boss.mod.bold=悍勇无畏的
+Thaumcraft.Boss.mod.spine=张牙舞爪的
+Thaumcraft.Boss.mod.armor=全副武装的
+Thaumcraft.Boss.mod.mighty=威猛强力的
+Thaumcraft.Boss.mod.grim=冷酷无情的
+Thaumcraft.Boss.mod.warded=抵御万物的
+Thaumcraft.Boss.mod.warp=乖戾扭曲的
+Thaumcraft.Boss.mod.undying=永恒不朽的
+#
+tc.boss.crimson=A ruby portal opens nearby heralding the arrival of the Crimson Cult. You must close the portal quickly!
+tc.boss.golem=A lone sentinel stands frozen in this room, but as energy starts crackling through its ancient frame you know it will not stay frozen for long.
+tc.boss.warden=Black energy bubbles on the distant pedestal. Something is coming...
 #
 # Blocks
 tile.blockAiry.0.name=灵气节点
@@ -83,6 +104,9 @@ tile.blockAiry.2.name=闪烁之光
 tile.blockAiry.3.name=闪烁之光
 tile.blockAiry.4.name=守护之光
 tile.blockAiry.5.name=充能灵气节点
+tile.blockAiry.10.name=静电力场
+tile.blockAiry.11.name=弱化力场
+tile.blockAiry.12.name=封绝力场
 tile.blockHole.name=隙间
 tile.blockSecure.name=守卫者方块
 tile.blockCustomOre.0.name=朱砂矿石
@@ -107,6 +131,11 @@ tile.blockCosmeticSolid.7.name=奥术石砖
 tile.blockCosmeticSolid.8.name=蕴灵黑曜石图腾
 tile.blockCosmeticSolid.9.name=傀儡脚镣
 tile.blockCosmeticSolid.10.name=激活傀儡脚镣
+tile.blockCosmeticSolid.11.name=荒古石头
+tile.blockCosmeticSolid.12.name=荒古岩石
+tile.blockCosmeticSolid.13.name=荒古石头
+tile.blockCosmeticSolid.14.name=陈年石头
+tile.blockCosmeticSolid.15.name=荒古石座
 tile.blockCustomPlant.0.name=宏伟之木树苗
 tile.blockCustomPlant.1.name=银树树苗
 tile.blockCustomPlant.2.name=水银花
@@ -160,6 +189,23 @@ tile.blockWoodenDevice.5.name=奥术钻探机
 tile.blockWoodenDevice.6.name=宏伟之树木板
 tile.blockWoodenDevice.7.name=银树木板
 tile.blockWoodenDevice.8.name=旗帜
+tile.blockWoodenDevice.8.name=血腥教徒旗帜
+tile.blockWoodenDevice.8.0.name=白色旗帜
+tile.blockWoodenDevice.8.1.name=橙色旗帜
+tile.blockWoodenDevice.8.2.name=品红色旗帜
+tile.blockWoodenDevice.8.3.name=浅蓝色旗帜
+tile.blockWoodenDevice.8.4.name=黄色旗帜
+tile.blockWoodenDevice.8.5.name=柠檬色旗帜
+tile.blockWoodenDevice.8.6.name=粉色旗帜
+tile.blockWoodenDevice.8.7.name=灰色旗帜
+tile.blockWoodenDevice.8.8.name=浅灰色旗帜
+tile.blockWoodenDevice.8.9.name=青色旗帜
+tile.blockWoodenDevice.8.10.name=紫色旗帜
+tile.blockWoodenDevice.8.11.name=蓝色旗帜
+tile.blockWoodenDevice.8.12.name=棕色旗帜
+tile.blockWoodenDevice.8.13.name=绿色旗帜
+tile.blockWoodenDevice.8.14.name=红色旗帜
+tile.blockWoodenDevice.8.15.name=黑色旗帜
 tile.blockJar.0.name=要素罐子
 tile.blockJar.1.name=缸中之脑
 tile.blockJar.2.name=缸中节点
@@ -181,6 +227,7 @@ tile.blockCrystal.3.name=地之魔晶
 tile.blockCrystal.4.name=秩序魔晶
 tile.blockCrystal.5.name=混沌魔晶
 tile.blockCrystal.6.name=复相魔晶
+tile.blockCrystal.7.name=诡异魔晶
 tile.blockMirror.name=魔镜
 tile.blockMirror.0.name=魔镜
 tile.blockMirror.6.name=源质之镜
@@ -209,6 +256,8 @@ tile.blockStoneDevice.9.name=节点稳定器
 tile.blockStoneDevice.10.name=高级节点稳定器
 tile.blockStoneDevice.11.name=节点换能器
 tile.blockStoneDevice.12.name=奥术浴场
+tile.blockStoneDevice.13.name=核心镶饰台
+tile.blockStoneDevice.14.name=咒波洗涤器
 text.spa.mix.true=药浴
 text.spa.mix.false=仅使用该流体进行洗浴
 tile.blockTube.0.name=要素源质管道
@@ -225,8 +274,25 @@ tile.blockEldritch.0.name=邪术祭坛
 tile.blockEldritch.1.name=邪术方尖碑
 tile.blockEldritch.2.name=邪术方尖碑
 tile.blockEldritch.3.name=邪术拱顶石
+tile.blockEldritch.4.name=发光荒古石头
+tile.blockEldritch.5.name=雕文石头
+tile.blockEldritch.7.name=荒古门廊
+tile.blockEldritch.8.name=荒古锁械
+tile.blockEldritch.9.name=荒古之启
+tile.blockEldritch.10.name=符文石头
 tile.blockPortalEldritch.name=邪术传送门
 tile.blockEssentiaReservoir.name=源质库
+tile.blockStairsArcaneStone.name=奥术楼梯
+tile.blockStairsGreatwood.name=宏伟之木楼梯
+tile.blockStairsSilverwood.name=银树楼梯
+tile.blockStairsEldritch.name=荒古楼梯
+tile.blockCosmeticSlabWood.greatwood.name=宏伟之木台阶
+tile.blockCosmeticSlabWood.silverwood.name=银树台阶
+tile.blockCosmeticSlabStone.arcane.name=奥术台阶
+tile.blockCosmeticSlabStone.eldritch.name=荒古台阶
+tile.blockAlchemyFurnace.name=荒古炼金炉
+tile.blockLootUrn.name=古旧之瓮
+tile.blockLootCrate.name=废弃箱子
 #
 # Items
 item.GolemBell.name=傀儡使铃铛
@@ -430,7 +496,7 @@ item.ItemBowBone.name=骨弓
 item.ItemManaBean.name=魔豆
 item.TrunkSpawner.name=箱子宝宝
 item.TrunkSpawner.text.1=箱子宝宝可以携运物品
-item.ItemResonator.name=要素谐振器
+item.ItemResonator.name=源质谐振器
 item.ItemAmuletRunic.0.name=符文护盾护身符
 item.ItemAmuletRunic.1.name=应急护盾护身符
 item.ItemRingRunic.0.name=防护指环
@@ -458,12 +524,18 @@ item.ItemChestplateFortress.name=神秘要塞胸铠
 item.ItemLeggingsFortress.name=神秘要塞护胫
 item.HelmetFortress.mask.0=狞笑恶魔面具
 item.HelmetFortress.mask.1=暴怒幽魂面具
-item.HelmetFortress.mask.2=吸血邪妖面具
+item.HelmetFortress.mask.2=嗜血邪妖面具
 item.ItemEldritchObject.name=邪术之眼
 item.ItemEldritchObject.1.name=血腥仪式
-item.ItemEldritchObject.text.1=它似乎正注视着你.
+item.ItemEldritchObject.2.name=符文石板
+item.ItemEldritchObject.3.name=元始珍珠
+item.ItemEldritchObject.4.name=邪术方尖碑敷设器
+item.ItemEldritchObject.text.1=它似乎正凝视着你.
 item.ItemEldritchObject.text.2=书上涂满了诡异的符文.
-item.ItemEldritchObject.text.3=点击以学习.[当前不可用]
+item.ItemEldritchObject.text.3=点击以研究.
+item.ItemEldritchObject.text.4=看来它似乎是某个大玩意儿的一部分.
+item.ItemEldritchObject.text.5=那魔法的结构似乎在每次
+item.ItemEldritchObject.text.6=脉动时都会造成一阵波荡.
 item.ItemHelmetVoid.name=虚空头盔
 item.ItemChestplateVoid.name=虚空胸甲
 item.ItemLeggingsVoid.name=虚空护腿
@@ -485,12 +557,62 @@ item.ItemBootsCultist.name=血腥邪徒靴子
 item.ItemHelmetCultistPlate.name=血腥邪徒头盔
 item.ItemChestplateCultistPlate.name=血腥邪徒胸甲
 item.ItemLeggingsCultistPlate.name=血腥邪徒护胫
+item.ItemBottleTaint.name=腐化瓶
+item.ItemSwordCrimson.name=血腥之刃
+item.ItemLootBag.0.name=寻常藏宝袋
+item.ItemLootBag.1.name=非凡藏宝袋
+item.ItemLootBag.2.name=稀有藏宝袋
+tc.lootbag=点击以开启或存留以备交易
 #
 # Fluids
 fluid.fluxGoo=咒波粘浆
 fluid.fluxGas=咒波瓦斯
 fluid.fluidPurity=净化之水
 fluid.fluidDeath=死亡之水
+#
+# General Focus Upgrades
+focus.upgrade.potency.name=潜能
+focus.upgrade.potency.text=This upgrade increases the damage or strength of the focus's powers. The exact damage increase varies from focus to focus, but is usually about 20% per level.
+focus.upgrade.frugal.name=朴素
+focus.upgrade.frugal.text=This upgrade reduces the vis cost of activating the focus's powers by 10% per level.
+focus.upgrade.treasure.name=瑰宝
+focus.upgrade.treasure.text=This upgrade acts like the Fortune or Looting enchantments. It increases the chance of getting more/better loot.
+focus.upgrade.enlarge.name=增幅
+focus.upgrade.enlarge.text=This upgrade increases how large an area the focus's powers effect, or increases the number of targets effected.
+focus.upgrade.extend.name=固本
+focus.upgrade.extend.text=This upgrade increases the duration of any effects the upgrade might create.
+focus.upgrade.architect.name=匠心
+focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be effected is displayed and you can change the size using the misc wand toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
+#
+# Specific Focus Upgrades
+focus.upgrade.chainlightning.name=连锁闪电
+focus.upgrade.chainlightning.text=This upgrade reduces the speed at which the focus fires bolts, but the damage is increased and the bolt can chain to up to two additional targets.
+focus.upgrade.earthshock.name=电波震荡
+focus.upgrade.earthshock.text=Instead of a bolt of lightning, the focus now lobs a ball of electrical energy. It inflicts damage in an area around where it hits and leaves the ground dangerously electrified for some time.
+focus.upgrade.fireball.name=火球
+focus.upgrade.fireball.text=The focus will now produce a explosive ball of fire you can hurl at your foes. The Alchemists Fire upgrade causes it to also set the ground aflame around the point of impact.
+focus.upgrade.firebeam.name=火柱
+focus.upgrade.firebeam.text=The focus now emits a narrow stream of fire instead of a wide swathe. It burns through anything it touches inflicting massive damage.
+focus.upgrade.batbombs.name=爆炎魔蝠
+focus.upgrade.batbombs.text=This upgrade will make the summoned firebats even more volatile. They always explode when they contact their target and the explosion will be a lot more potent than normal.
+focus.upgrade.devilbats.name=恶魔之蝠
+focus.upgrade.devilbats.text=With this upgrade applied the summoned bats are larger, tougher and nastier. They will never explode, but keep attacking their target till it expires or they are slain. 
+focus.upgrade.vampirebats.name=嗜血魔蝠
+focus.upgrade.vampirebats.text=This upgrade changes the summoned bats into vampire bats. Not only will they suck the life out of their targest to replenish their own, but some of the stolen life force is given to their summoner.
+focus.upgrade.scattershot.name=溅射
+focus.upgrade.scattershot.text=Instead of a single shard of ice, the focus will now fire multiple shards. Each shard does minimal damage, but a concentrated volley of them can do significant damage to a single target. 
+focus.upgrade.iceboulder.name=冰岩
+focus.upgrade.iceboulder.text=The focus will now create a large boulder of ice. The boulder has a tendancy to bounce around making it deadly in skilled hands. 
+focus.upgrade.alchemistsfire.name=炼金之焰
+focus.upgrade.alchemistsfire.text=This increases the potency of the elemental fire in the focus. Any targets set alight will burn for much longer.
+focus.upgrade.alchemistsfrost.name=炼金之霜
+focus.upgrade.alchemistsfrost.text=This increases the potency of the elemental cold in the focus. When the focus targets or damages a creature it will be chilled and slowed significantly.
+focus.upgrade.nightshade.name=夜刃
+focus.upgrade.nightshade.text=Normally the Pech's curse focus inflicts one of a small handful of debilitating effects. With this upgrade it will inflict all of them at once.
+focus.upgrade.silktouch.name=丝绸之触
+focus.upgrade.silktouch.text=Like the enchantment of the same name, this upgrade allows you to pick up harvested blocks as-is instead of gaining the normal drops.
+focus.upgrade.seeker.name=追踪
+focus.upgrade.seeker.text=This upgrade makes the orbs created by the primal focus seek out the nearest living target and not wander all over the place. This makes them a lot more stable which also means they won't do anything unusual beyond exploding.
 #
 # GUI
 golemblurb.0.text=吾主,您希望吾为您在此处保管何物呢?
@@ -522,6 +644,9 @@ recipe.type.crucible=坩埚
 recipe.type.infusion=奥术注魔
 recipe.type.infusionenchantment=注魔附魔
 recipe.type.construct=神秘多方块结构
+wandtable.text1=魔力消耗
+wandtable.text2=经验消耗
+wandtable.text3=开始升级
 #
 # Other
 itemGroup.thaumcraft=神秘时代4
@@ -614,6 +739,8 @@ tc.primalcharm.2=一阵猛烈的颠簸
 tc.primalcharm.3=它嗡嗡的响声十分舒缓
 tc.primalcharm.4=稍等,它刚刚闪烁着七色的光芒?
 tc.primalcharm.trigger=一刹那,诡异的能量缠绕着元始符咒.它们很快便消散了,但你却受到了奇异的启发...
+tc.break.fly=你被某种力量褫夺了飞行的能力.
+tc.boss.enrage=被你那有力的攻击激怒了.
 #
 # Aspects
 tc.aspect.primal=元始要素
@@ -1538,7 +1665,7 @@ tc.research_name.MASKANGRYGHOST=暴怒幽魂面具
 tc.research_text.MASKANGRYGHOST=神秘要塞兜鍪升级
 tc.research_page.MASKANGRYGHOST.1=此面具乃是神秘要塞兜鍪的专属附件.<BR>当身处战场,那些攻击戴上这幅冷酷面具后的你的生物,都会有一定几率染上凋灵效果.<BR>真是自己作死!
 #
-tc.research_name.MASKSIPPINGFIEND=吸血邪妖面具
+tc.research_name.MASKSIPPINGFIEND=嗜血邪妖面具
 tc.research_text.MASKSIPPINGFIEND=神秘要塞兜鍪升级
 tc.research_page.MASKSIPPINGFIEND.1=此面具乃是神秘要塞兜鍪的专属附件.<BR>戴上这幅面具后的你如果攻击其他生物,有时候会窃取它们的生命力用来强化自己.<BR>你吸它们血的事情实际上似乎并没有像你以为那样让你觉得有什么异样.但你疑惑的是你该不该对此忧心呢?
 #
@@ -1593,4 +1720,46 @@ tc.research_page.ESSENTIARESERVOIR.2=类似罐子,源质库也只有一面能够
 tc.research_name.ESSENTIACRYSTAL=源质结晶器 
 tc.research_text.ESSENTIACRYSTAL=要硬通货,还是要流动资产?
 tc.research_page.ESSENTIACRYSTAL.1=你差不多已经掌握了如何将凝聚的物质转换为液态的源质,所以反过来也并不是多麻烦的事儿.<BR>源质结晶器从管道系统中抽取源质并缓慢地将其凝聚成要素源质水晶的小碎片.源质水晶易于管理运输,也非常稳定.<BR>结晶器会将凝聚的水晶弹射出来或者装入旁边的容器,通入红石信号可以关闭这一功能.<BR>向其提供terra魔力将显著提升其速度.
+#
+tc.research_name.BANNERS=旗帜
+tc.research_text.BANNERS=警告:仅用于装饰
+tc.research_page.BANNERS.1=有时候,神秘使也不需要创造出撼动现实根基的东西,他们只不过是想做出一些赏心悦目的装饰品.<BR>你发明出一种能够在旗帜上描绘神秘学符文的便捷附魔方法.只需要拿着要素安瓿点击旗帜就能将相应的符文镌写在旗面上.按住shift右击则可以擦除旗帜上的符文图案.
+#
+tc.research_name.BOTTLETAINT=腐化瓶
+tc.research_text.BOTTLETAINT=为什么你想要这个呢?
+tc.research_page.BOTTLETAINT.1=清除腐化自然是一回事,可要是想要传播它呢?<BR>将腐化源质浓缩并收集到瓶中,将其抛出就能将那里变成一小片腐化之地.至于你意欲何为就是你自己的事了.
+#
+tc.research_name.FOCALMANIPULATION=核心镶饰台
+tc.research_text.FOCALMANIPULATION=重制法杖核心
+tc.research_page.FOCALMANIPULATION.1=法杖核心功能惊艳,但灵活性不足.一种法杖核心罕有超过一种功能.<BR>你发现一种升级核心的技术,能够调整核心操作魔力的方式.只需将法杖核心放入核心镶饰台并选择你所需的升级项目即可.当然你还需要用中继器为这台设备提供魔力,并且耗费经验值来开始升级过程,不过这之后你唯一需要做的就只是等待了.<BR>每种核心最多能升级五次. 
+tc.research_page.FOCALMANIPULATION.2=每次升级都会显著提高升级的消耗.<BR>有些升级可以进行多次,无需考虑顺序.而有些升级则要求按照特定序列进行,其中有些会要求已经进行过前置的升级.因此最好多加实验.<BR>升级是永久性的-你还未曾想到移除升级的方法,因此选择时切记走心.
+#
+tc.research_name.VAMPBAT=五阶升级:嗜血魔蝠
+tc.research_text.VAMPBAT=恶毒的小吸血鬼们 
+#
+tc.research_name.PRIMPEARL=元始珍珠
+tc.research_text.PRIMPEARL=开端之前
+tc.research_page.PRIMPEARL.1=For the first time you find yourself with a puzzle that you do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what you consider normal, everyday primal aspects. You have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of
+tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is time you start putting it to use.
+#
+tc.research_name.PRIMNODE=元始节点操纵
+tc.research_text.PRIMNODE=只是放一块摩擦摩擦，看看会发生啥
+tc.research_page.PRIMNODE.1=你草创了一种值得深究的新理论.为何不试试将元始珍珠连接到灵气节点中去呢?<BR>当然,将两种原始魔力的源泉汇聚一处很可能造成灾难性的后果.但两者之交互亦可能会非常... 有趣.<BR>尽管无论谁都可以这样做,但你确信一旦完成这项研究将略微有助于取得好的结果.略略略微.
+#
+tc.research_name.ADVALCHEMYFURNACE=荒古炼金炉
+tc.research_text.ADVALCHEMYFURNACE=源质提炼简化
+tc.research_page.ADVALCHEMYFURNACE.1=The standard alchemical furnace is fairly slow and requires fuel to operate. While neither of those are particularly difficult obstacles to you, the fact that it is unable to process large sources of essentia is something that can not be ignored. Unfortunately the instability of the essentia slurry it creates makes it dangerous to gather too much of it in one location.<BR>With the discovery of Primordial Pearls you have found a solution to that problem - The Advanced Alchemical Furnace.<BR>Using alchemical constructs that have been strengthened with void   
+tc.research_page.ADVALCHEMYFURNACE.2=metal and exposed to a primordial pearl's strange energies much more slurry can be processed at once and at much greater speeds. The pearl is not consumed during the crafting process.<BR>Instead of fuel, heat is generated by ignis vis and instead of relying on heat alone perditio vis breaks down objects almost instantly. Lastly aqua vis keeps everything running smoothly and prevents the slurry from settling and causing problems.<BR>The machine requires a considerable amount of heat to function and requires a constant supply of ignis vis even when not operating. Perditio and aqua vis is only used when the machine is smelting.
+#
+tc.research_name.FLUXSCRUB=咒波洗涤器
+tc.research_text.FLUXSCRUB=混乱神秘使的福利
+tc.research_page.FLUXSCRUB.1=Even the most skilled thaumaturge occasionally leaves a mess in the form of flux. It is a nuisance everyone has to deal with, but this machine removes the drudgery involved.<BR>The flux scrubber, when powered with aer vis, will slowly remove any form of flux within 16 blocks of where it is placed. What is more, it is able to reclaim a small portion of the magic that makes up the flux in the form of praecantatio essentia.<BR>It's internal buffer is very small and it will continue operating even when full, so it must be emptied if you wish to reclaim all the essentia.
+#
+tc.research_name.ENTEROUTER=外域
+tc.research_text.ENTEROUTER=我有种感觉，这里已经不是堪萨斯了
+tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting when you stepped through the Oculus, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
+#
+tc.research_name.OUTERREV=外域之启示
+tc.research_text.OUTERREV=事物并非如它们咋眼所见
+tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
 #
