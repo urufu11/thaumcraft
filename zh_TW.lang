@@ -55,8 +55,9 @@ entity.Thaumcraft.SpecialItem.name=魔力物品
 entity.Thaumcraft.FallingTaint.name=污染泥土
 entity.Thaumcraft.AspectOrb.name=要素球
 entity.Thaumcraft.TaintSpider.name=污染魔蛛
-entity.Thaumcraft.Taintacle.name=污染觸手怪
-entity.Thaumcraft.TaintacleTiny.name=污染觸手
+entity.Thaumcraft.Taintacle.name=污染觸手
+entity.Thaumcraft.TaintacleTiny.name=污染觸鬚
+entity.Thaumcraft.TaintacleGiant.name=污染觸手怪
 entity.Thaumcraft.TaintSpore.name=污染孢子
 entity.Thaumcraft.TaintSwarmer.name=污染孢子巢
 entity.Thaumcraft.TaintSwarm.name=污染孢子群
@@ -86,18 +87,24 @@ entity.Thaumcraft.CultistPortal.name=緋色傳送門
 entity.Thaumcraft.EldritchCrab.name=異象魔蟹
 entity.Thaumcraft.InhabitedZombie.name=蹣跚的軀殼
 #
-Thaumcraft.Boss.mod.bold=魯莽
-Thaumcraft.Boss.mod.spine=尖棘
-Thaumcraft.Boss.mod.armor=裝甲
-Thaumcraft.Boss.mod.mighty=全能
-Thaumcraft.Boss.mod.grim=冷峻
-Thaumcraft.Boss.mod.warded=防衛
-Thaumcraft.Boss.mod.warp=扭曲
-Thaumcraft.Boss.mod.undying=不朽
+champion.mod.bold=魯莽
+champion.mod.spine=尖棘
+champion.mod.armor=裝甲
+champion.mod.mighty=全能
+champion.mod.grim=冷峻
+champion.mod.warded=防衛
+champion.mod.warp=扭曲
+champion.mod.undying=不朽
+champion.mod.fiery=炙熱
+champion.mod.sickly=病弱
+champion.mod.venomous=惡毒
+champion.mod.vampiric=嗜血
+champion.mod.infested=瘟疫
 #
 tc.boss.crimson=紅寶石之門在附近被開啟了，這意味著緋色邪徒們即將湧入。你必須盡快關上那道傳送門！
 tc.boss.golem=一個孤獨的守衛矗立在這個冰封的房間中，但是隨著能量開始通過骨架劈啪作響，你知道這冰封不會維持太久。
-tc.boss.warden=遠處的基座上有一團黑暗的能量泡。有什麼即將到來...
+tc.boss.warden=遠處的基座上有一團黑暗的能量泡。有什麼東西即將出現...
+tc.boss.taint=有東西自門後發出奇怪的沙沙聲。那聲音聽起來非常不對勁... 有東西正在滋長...
 #
 # Blocks
 tile.blockAiry.0.name=靈氣節點
@@ -280,7 +287,7 @@ tile.blockEldritch.4.name=發光的風化石
 tile.blockEldritch.5.name=雕紋石
 tile.blockEldritch.7.name=悠久門廊
 tile.blockEldritch.8.name=悠久的門鎖機關
-tile.blockEldritch.9.name=風化蟲洞
+tile.blockEldritch.9.name=風化孔隙
 tile.blockEldritch.10.name=符文石
 tile.blockPortalEldritch.name=異象傳送門
 tile.blockEssentiaReservoir.name=源質庫
@@ -402,7 +409,7 @@ item.ItemNugget.2.name=錫粒
 item.ItemNugget.3.name=銀粒
 item.ItemNugget.4.name=鉛粒
 item.ItemNugget.5.name=水銀液滴
-item.ItemNugget.6.name=秘術粒
+item.ItemNugget.6.name=秘術金屬粒
 item.ItemNugget.7.name=虛空金屬粒
 item.ItemNugget.16.name=鐵原礦簇
 item.ItemNugget.17.name=銅原礦簇
@@ -569,6 +576,8 @@ item.ItemLootBag.0.name=普通寶藏
 item.ItemLootBag.1.name=不凡寶藏
 item.ItemLootBag.2.name=稀世珍寶
 tc.lootbag=點擊開啟或留著等待交易
+item.ItemCompassStone.name=凶險磁石
+item.ItemPrimalCrusher.name=元初粉碎者
 #
 # Fluids
 fluid.fluxGoo=污染黏漿
@@ -619,6 +628,8 @@ focus.upgrade.silktouch.name=絲綢之觸
 focus.upgrade.silktouch.text=這項升級就像同名的附魔，能使你完整取得方塊，而非其掉落物。
 focus.upgrade.seeker.name=導引
 focus.upgrade.seeker.text=這項升級使得元初核心產生的能量球自動飄往最接近的生命體，而非漫無目的地四處遊蕩。這使它變得穩定許多也意味著它在爆炸前不會出現其他異常的舉動。
+focus.upgrade.dowsing.name=礦藏
+focus.upgrade.dowsing.text=這項升即使採掘核心採掘礦物時有低機率能挖出礦物晶簇，而非一般的礦物。礦物晶簇在冶煉能獲得雙倍的產物。
 #
 # GUI
 golemblurb.0.text=吾主，您希望吾為您在此處保管何物呢？
@@ -855,7 +866,7 @@ tc.research_category.THAUMATURGY=秘術學
 tc.research_category.ALCHEMY=煉金術
 tc.research_category.ARTIFICE=奧術學
 tc.research_category.GOLEMANCY=傀儡學
-tc.research_category.ELDRITCH=異端研究
+tc.research_category.ELDRITCH=異象研究
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -1151,8 +1162,8 @@ tc.research_page.ENCHFABRIC.2=當穿戴法袍施法時你能夠更高效地使�
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技術
-tc.research_page.ENCHANT.1=秘術使擁有許多獨特的附魔技術。<BR>§n急迫§r<BR>進行該附魔的鞋子能夠讓穿戴者在地上行走時健步如飛，附魔等級越高，增幅速度越多。 <BR>§n修復§r<BR>該附魔能夠從靈氣中吸取魔力來緩慢地修復物品耐久，附魔等級越高，修復速度越快。這種附魔只能對部分秘術相關物品生效。
-tc.research_page.ENCHANT.2=
+tc.research_page.ENCHANT.1=秘術使擁有許多獨特的附魔技術。<BR>§n急迫§r<BR>進行該附魔的鞋子能夠讓穿戴者在地上行走時健步如飛，附魔等級越高，增幅速度越多。 <BR>§n修復§r<BR>該附魔能夠從靈氣中吸取魔力來緩慢地修復物品耐久，
+tc.research_page.ENCHANT.2=附魔等級越高，修復速度越快。此附魔只能對一部分秘術相關物品生效。
 #
 tc.research_name.ELEMENTALAXE=奔流斧
 tc.research_text.ELEMENTALAXE=木材的河流
@@ -1756,7 +1767,7 @@ tc.research_page.PRIMNODE.1=你找出了一個有點瘋狂的理論或許值得�
 tc.research_name.ADVALCHEMYFURNACE=高級煉金爐
 tc.research_text.ADVALCHEMYFURNACE=源質精煉簡單化
 tc.research_page.ADVALCHEMYFURNACE.1=標準的煉金爐實在太過緩慢，而且還必須用燃料來驅動。你再也不用為這些事情困擾，實際上上你所不能忽視的事情是無法同時處理多種源質的問題。而且不幸的是，太多不穩定的源質黏漿若累積在同一處將會發生危險。<BR>伴隨著元初明珠的發現，你找到了這一切的解決方案：高級煉金爐。<BR>使用以虛空金屬進行強化、並暴露在元初明珠詭異能量中的煉金構材能以更快的速度一次處理大量的源質黏漿。
-tc.research_page.ADVALCHEMYFURNACE.2=製程中不會消耗元初明珠。<BR>利用ignis魔力取代燃料作為熱源，並以 perditio 魔力配合熱能，在幾乎一瞬之間將物質分解。最後以aqua魔力維持源質平穩的流動，避免產生沉澱而引發事故。<BR>這台機器需要大量的熱能來驅動運轉，所以需要供應穩定的ignis魔力，即使不是在運轉的狀態下。至於perditio和aqua魔力僅有在機器分解物質時才會被消耗。
+tc.research_page.ADVALCHEMYFURNACE.2=製程中不會消耗元初明珠。<BR>利用ignis魔力取代燃料作為熱源，並以perditio魔力配合熱能，在幾乎一瞬之間將物質分解。最後以aqua魔力維持源質平穩的流動，避免產生沉澱而引發事故。<BR>這台機器需要大量的熱能來驅動運轉，所以需要供應穩定的ignis魔力，即使不是在運轉的狀態下。至於perditio和aqua魔力僅有在機器分解物質時才會被消耗。
 #
 tc.research_name.FLUXSCRUB=咒波清淨機
 tc.research_text.FLUXSCRUB=拯救飽受憂煩的祕術使
@@ -1769,4 +1780,14 @@ tc.research_page.ENTEROUTER.1=你不大確定跨入圓環時究竟期待著什�
 tc.research_name.OUTERREV=外界的啟示
 tc.research_text.OUTERREV=事情不如看上去的那麼單純
 tc.research_page.OUTERREV.1=你的質疑獲得了證實。這裡並非比賽的終點，你將此處稱之為異象。這個地方與你所知道的"現實"完全不同，你也不願相信這存在於你所理解的"現實"-比起物理上，它更接近於精神結構的存在，但是什麼樣的精神能構容納這個？<BR>你所能解出的只有極少數的符號，但是你能肯定這是一個陷阱-一個用來測試來客，淘汰弱者的地方。但你無法確定是出於什麼目的。
+#
+tc.research_name.SINSTONE=凶險磁石
+tc.research_text.SINSTONE=你有跟隨它的勇氣嗎？
+tc.research_page.SINSTONE.1=你在研究節點時得到一個有趣的發現。不同類型的節點放射出不同的輻射能量，但是沒有一種如凶險節點那麼獨特。<BR>自凶險節點放出的能量是如此的獨特而易於追蹤。透過在一片燧石上注魔，你認為你做出的這項簡單占卜設備能在面向這種節點時為你指明。<BR>其偵測範圍有限，但卻是一項有價值的發明，因為你經常能在一些有趣的場所發現凶險節點。
+#
+tc.research_name.PRIMALCRUSHER=元初粉碎者
+tc.research_text.PRIMALCRUSHER=粉碎一切
+tc.research_page.PRIMALCRUSHER.1=注魔合成背後的理論相當單純，只是在一項物品中注入要素以及其他物件的性質。然而這是有極限的，但伴隨著元初明珠的發現，其限制逐漸一個個被解開。<BR>你在一個實驗中試圖將性質迥異的物件注入元初明珠時獲得了驚人的成果。而元初粉碎者就是這項發現的第一項實際應用。<BR>透過融合后土鏟、熾心鎬以及相對應的虛空金屬工具，
+tc.research_page.PRIMALCRUSHER.2=你創造出了同時具有其構成中大多數功能的破壞性工具。<BR>元初粉碎者可以挖穿泥土及石塊，作用範圍也能擴展到3x3大小的區域。並且能像熾心鎬般有機會挖掘出礦物晶簇。<BR>它能隨著時間緩緩自行恢復耐久，魔力親合度非常優異甚至能在緊要關頭作為效果非凡的武器。<BR>不幸的是為了追求單純的破壞力，它失去了其原型的建設和檢測的功能。
+
 #
