@@ -57,6 +57,7 @@ entity.Thaumcraft.AspectOrb.name=Aspektorb
 entity.Thaumcraft.TaintSpider.name=Verseuchte Spinne
 entity.Thaumcraft.Taintacle.name=Schmutztentakel
 entity.Thaumcraft.TaintacleTiny.name=Schmutzranke
+entity.Thaumcraft.TaintacleGiant.name=Riesige Schmutzranke
 entity.Thaumcraft.TaintSpore.name=Schmutzspore
 entity.Thaumcraft.TaintSwarmer.name=Schmutzsporen-Spawner
 entity.Thaumcraft.TaintSwarm.name=Schmutzschwarm
@@ -86,18 +87,24 @@ entity.Thaumcraft.CultistPortal.name=Karmesinportal
 entity.Thaumcraft.EldritchCrab.name=Unheimliche Krabbe
 entity.Thaumcraft.InhabitedZombie.name=Wandelnde Hülle
 #
-Thaumcraft.Boss.mod.bold=Mutige
-Thaumcraft.Boss.mod.spine=Schaurige
-Thaumcraft.Boss.mod.armor=Gepanzerte
-Thaumcraft.Boss.mod.mighty=Mächtige
-Thaumcraft.Boss.mod.grim=Grimmige
-Thaumcraft.Boss.mod.warded=Verbannte
-Thaumcraft.Boss.mod.warp=Verzerrte
-Thaumcraft.Boss.mod.undying=Unvergängliche
+champion.mod.bold=Mutige
+champion.mod.spine=Schaurige
+champion.mod.armor=Gepanzerte
+champion.mod.mighty=Mächtige
+champion.mod.grim=Grimmige
+champion.mod.warded=Verbannte
+champion.mod.warp=Verzerrte
+champion.mod.undying=Unvergängliche
+champion.mod.fiery=Feurige
+champion.mod.sickly=Widerliche
+champion.mod.venomous=Giftige
+champion.mod.vampiric=Vampirische
+champion.mod.infested=Verpestete
 #
 tc.boss.crimson=Ein Rubinportal öffnet sich in der Nähe, die Ankunft des Karmesinkultes ankündigend. Du musst das Portal schnell verschließen!
 tc.boss.golem=Ein einsamer Wächter steht wie gefroren in diesem Raum, aber als Energie beginnt, durch seine antike Gestalt zu dringen, weißt du, dass er nicht mehr für lange eingefroren bleibt.
 tc.boss.warden=Schwarze Energie brodelt auf den entfernten Sockeln. Irgendetwas naht...
+tc.boss.taint=Ein organisches Rascheln kommt aus dem hinteren Raum. Das Geräusch vom irgendetwas Falschem... irgentetwas Wachsendem...
 #
 # Blocks
 tile.blockAiry.0.name=Auranodie
@@ -569,6 +576,8 @@ item.ItemLootBag.0.name=Gewöhnlicher Schatz
 item.ItemLootBag.1.name=Ungewöhnlicher Schatz
 item.ItemLootBag.2.name=Seltener Schatz
 tc.lootbag=Klicke zum Öffnen oder behalte zum Handeln
+item.ItemCompassStone.name=Dunkelmagnet
+item.ItemPrimalCrusher.name=Primärhäcksler
 #
 # Fluids
 fluid.fluxGoo=Fluxschleim
@@ -619,6 +628,8 @@ focus.upgrade.silktouch.name=Behutsamkeit
 focus.upgrade.silktouch.text=Wie die gleichnamige Verzauberung erlaubt dir dieses Upgrade, abgebaute Blöcke so, wie sie sind, aufzusammeln, statt ihre gewöhnlichen Produkte zu erhalten.
 focus.upgrade.seeker.name=Suche
 focus.upgrade.seeker.text=Dieses Upgrade lässt die vom Primärfokus kreierten Orbs nach dem nächsten lebendigen Ziel suchen und nicht wie wild umherwandern. Dies macht sie deutlich stabiler, was auch bedeutet, dass sie, außer zu explodieren, nichts ungewöhnliches machen werden.
+focus.upgrade.dowsing.name=Wünscheln
+focus.upgrade.dowsing.text=Dieses Upgrade gibt dem Grabefokus eine geringe Chance, Native Klumpen statt normalen Erzen abzubauen. Werden sie eingeschmolzen, geben diese Klumpen die doppelte Anzahl an Barren.
 #
 # GUI
 golemblurb.0.text=Was soll ich hier behalten, Meister?
@@ -1151,8 +1162,8 @@ tc.research_page.ENCHFABRIC.2=Die einzelnen Teile dieses Outfits geben dir einen
 #
 tc.research_name.ENCHANT=Verzauberungen
 tc.research_text.ENCHANT=Neue Verzauberungen
-tc.research_page.ENCHANT.1=Thaumcraft fügt einige einzigartige Verzauberungen hinzu.<BR>§nHast§r<BR>Mit Hast verzauberte Stiefel erhöhen die Land-Geschwindigkeit des Trägers. Je höher die Stufe der Verzauberung ist, desto größer ist dabei der Geschwindigkeitsbonus.<BR>§nReparieren§r<BR>Diese Verzauberung repariert Items, indem sie Vis aus Stäben in deinem Inventar zieht. Die Viskosten werden durch den Wert des Items bestimmt. Je höher die Stufe der Verzauberung ist, desto schneller ist dieser Prozess. Sie kann nur auf manche Thaumcraft-Items angewendet werden.
-tc.research_page.ENCHANT.2=
+tc.research_page.ENCHANT.1=Thaumcraft fügt einige einzigartige Verzauberungen hinzu.<BR>§nHast§r<BR>Mit Hast verzauberte Stiefel erhöhen die Land-Geschwindigkeit des Trägers. Je höher die Stufe der Verzauberung ist, desto größer ist dabei der Geschwindigkeitsbonus.<BR>§nReparieren§r<BR>Diese Verzauberung repariert Items, indem sie Vis aus Stäben in deinem Inventar zieht. Die Viskosten werden durch den Wert des Items bestimmt.
+tc.research_page.ENCHANT.2=Je höher die Stufe der Verzauberung ist, desto schneller ist dieser Prozess. Sie kann nur auf manche Thaumcraft-Items angewendet werden.
 #
 tc.research_name.ELEMENTALAXE=Axt des Stroms
 tc.research_text.ELEMENTALAXE=Flüsse aus Holz
@@ -1769,4 +1780,13 @@ tc.research_page.ENTEROUTER.1=Du bist dir nicht ganz sicher, was du erwartet has
 tc.research_name.OUTERREV=Erkenntnisse in den Fernen Landen
 tc.research_text.OUTERREV=Dinge sind nicht so, wie sie scheinen
 tc.research_page.OUTERREV.1=Dein Verdacht hat sich bestätigt. Dies ist nicht die Heimat der Rasse, die du nur die Unheimlichen nennst. Dieser Ort ist etwas völlig anderes und du glaubst nicht, dass es in dem, was du unter "Realität" verstehst, existiert - es ist viel eher ein mentales Konstrukt als ein physisches, aber welcher Kopf kann dies enthalten?<BR>Dir war es nur möglich, einen kleine Anzahl von Symbolen zu entziffern, aber du bist dir sicher, dass dieser Ort eine Falle ist - ein Ort, um Besucher auf die Probe zu stellen und Schwache auszusortieren. Du bist nicht sicher, für welchen Zweck.
+#
+tc.research_name.SINSTONE=Dunkelmagnet
+tc.research_text.SINSTONE=Wagst du es, ihm zu folgen?
+tc.research_page.SINSTONE.1=Du hast eine interessante Entdeckung während deiner Erforschung der Nodien gemacht. Verschiedene Nodienarten entsenden unterschiedliche Arten von Strahlung, aber keine ist so herausstechend wie die der Dunklen Nodien.<BR>Die Energie, die von diesen Nodien ausgestrahlt wird, ist ziemlich einzigartig und einfach zu verfolgen. Durch Infusion eines Stückchens Feuerstein glaubst du, ein Gerät entwickeln zu können, das aufleuchtet, sobald es in Richtung einer solchen Nodie gehalten wird.<BR>Die Reichweite ist begrenzt, dennoch ist es eine nützliche Erfindung, da du Dunkle Nodien oft an äußerst interessanten Orten findest.
+#
+tc.research_name.PRIMALCRUSHER=Primärhäcksler
+tc.research_text.PRIMALCRUSHER=Massive Zerstörung
+tc.research_page.PRIMALCRUSHER.1=Die Theorie hinter Infusion ist einfach - man infundiert ein einzelnes Objekt mit Essentia sowie den Eigenschaften anderer Gegenstände. Es gibt jedoch Grenzen, auch wenn diese dank der Entdeckung der Primordialperle weniger und weniger werden.<BR>Als Experiment hast du versucht, die Eigenschaften völlig unterschiedlicher Objekte in eine Primordialperle zu infundieren, mit überraschendem Erfolg. Das Ergebnis, welches du liebevoll Primärhäcksler nennst, ist die erste praktische Anwendung dieser Entdeckung.<BR>Durch Kombination einer Schaufel des Erdschürfers und einer Spitzhacke des Kerns mit ihren Gegenstücken aus Leermetall hast du
+tc.research_page.PRIMALCRUSHER.2=ein Werkzeug unerreichter zerstörerischer Fähigkeiten erschaffen, dass die meisten Eigenschaften seiner Komponenten beibehalten hat.<BR>Der Primärhäcksler kann mit Leichtigkeit gleichsam durch Erd und Stein graben, und das in einem 3x3-Gebiet. Wie die Spitzhacke des Kerns gräbt er manchmal Native Klumpen statt rohen Erzes aus.<BR>Er repariert sich langsam von selbst, ist sehr leicht zu verzaubern und fungiert zur Not auch als relativ gute Waffe.<BR>Leider scheint er rein destruktiver Natur zu sein; er hat alle Konstruktions- und Erkennungsfähigkeiten seiner Komponenten verloren.
 #
