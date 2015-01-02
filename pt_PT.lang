@@ -57,6 +57,7 @@ entity.Thaumcraft.AspectOrb.name=Orbe de Aspeto
 entity.Thaumcraft.TaintSpider.name=Aranha Corrompida
 entity.Thaumcraft.Taintacle.name=Tentáculo Corrompido
 entity.Thaumcraft.TaintacleTiny.name=Pequeno Tentáculo Corrompido
+entity.Thaumcraft.TaintacleGiant.name=Tentáculo Corrompido Gigante
 entity.Thaumcraft.TaintSpore.name=Esporo Corrompido
 entity.Thaumcraft.TaintSwarmer.name=Swarmer de Esporo Corrompido
 entity.Thaumcraft.TaintSwarm.name=Enxame Corrompido
@@ -86,18 +87,24 @@ entity.Thaumcraft.CultistPortal.name=Crimson Portal
 entity.Thaumcraft.EldritchCrab.name=Caranguejo Eldritch
 entity.Thaumcraft.InhabitedZombie.name=Shambling Husk
 #
-Thaumcraft.Boss.mod.bold=Bold
-Thaumcraft.Boss.mod.spine=Spined
-Thaumcraft.Boss.mod.armor=Armored
-Thaumcraft.Boss.mod.mighty=Mighty
-Thaumcraft.Boss.mod.grim=Grim
-Thaumcraft.Boss.mod.warded=Warded
-Thaumcraft.Boss.mod.warp=Warped
-Thaumcraft.Boss.mod.undying=Undying
+champion.mod.bold=Bold
+champion.mod.spine=Spined
+champion.mod.armor=Armored
+champion.mod.mighty=Mighty
+champion.mod.grim=Grim
+champion.mod.warded=Warded
+champion.mod.warp=Warped
+champion.mod.undying=Undying
+champion.mod.fiery=Fiery
+champion.mod.sickly=Sickly
+champion.mod.venomous=Venomous
+champion.mod.vampiric=Vampiric
+champion.mod.infested=Infested
 #
 tc.boss.crimson=Um portal de ruby abre-se perto daqui anunciando a chegada do Culto da Crimson. Tu tens de fechar o portal rapidamente!
 tc.boss.golem=Um solitário sentinela permanece congelado nesta sala, mas à medida que a energia começa a crepitar através da sua antiga estrutura tu apercebes-te que não vai ficar congelado durante muito mais tempo.
 tc.boss.warden=Bolhas de enrgia negra num pedestal distante. Algo vem aí...
+tc.boss.taint=Um ruído meio que orgânico parece vir da sala à frente. O som de algo errado... algo a crescer...
 #
 # Blocks
 tile.blockAiry.0.name=Nodo de Aura
@@ -119,7 +126,6 @@ tile.blockCustomOre.4.name=Pedra Infundida com Terra
 tile.blockCustomOre.5.name=Pedra Infundida com Ordem
 tile.blockCustomOre.6.name=Pedra Infundida com Entropia
 tile.blockCustomOre.7.name=Pedra de Âmbar Relevante
-
 tile.blockCosmeticOpaque.0.name=Bloco de Âmbar
 tile.blockCosmeticOpaque.1.name=Tijolos de Âmbar
 tile.blockCosmeticOpaque.2.name=Vidro Protegido
@@ -153,6 +159,7 @@ tile.alembic.msg.3=O alambique está meio cheio
 tile.alembic.msg.4=O alambique está quase cheio
 tile.alembic.msg.5=O alambique está cheio
 tile.blockMetalDevice.2.name=Suporte de Carregamento de Vis
+tile.blockMetalDevice.3.name=Advanced Alchemical Construct
 tile.blockMetalDevice.5.name=Grelha de Itens
 tile.blockMetalDevice.6.name=Grelha de Itens (Fechada)
 tile.blockMetalDevice.7.name=Lâmpada Arcana
@@ -293,7 +300,7 @@ tile.blockCosmeticSlabWood.silverwood.name=Silverwood Slab
 tile.blockCosmeticSlabStone.arcane.name=Arcane Stone Slab
 tile.blockCosmeticSlabStone.eldritch.name=Ancient Stone Slab
 tile.blockAlchemyFurnace.name=Advanced Alchemical Furnace
-tile.blockLootUrn.name=Old Urn
+tile.blockLootUrn.name=Urna Antiga
 tile.blockLootCrate.name=Abandoned Crate
 #
 # Items
@@ -517,7 +524,7 @@ item.capacity.text=Capacidade
 item.ItemAmuletVis.text=Recarrega lentamente varinhas seguradas
 item.ItemAmuletVis.0.name=Pedra de Vis
 item.ItemAmuletVis.1.name=Amuleto de armazenamento de Vis
-item.ItemGirdleHover.name=Cinto Thaumoestático
+item.ItemGirdleHover.name=Cinto Táumo-estático
 item.ItemBathSalts.name=Banhos de Sal Purificantes
 item.ItemBucketDeath.name=Balde de Morte Líquida
 item.ItemHelmetFortress.name=Capacete de Fortaleza Thaúmico
@@ -539,6 +546,8 @@ item.ItemHoeVoid.name=Enxada do Void
 item.ItemHelmetVoidRobe.name=Capuz do Thaumaturgo do Void
 item.ItemChestplateVoidRobe.name=Robe do Thaumaturgo do Void
 item.ItemLeggingsVoidRobe.name=Calças do Thaumaturgo do Void
+item.ItemCompassStone.name=Sinister Lodestone
+item.ItemPrimalCrusher.name=Primal Crusher
 #
 # Fluids
 fluid.fluxGoo=Gosma de Fluxo
