@@ -55,10 +55,11 @@ entity.Thaumcraft.SpecialItem.name=Objet magique
 entity.Thaumcraft.FallingTaint.name=Corruption incrustée
 entity.Thaumcraft.AspectOrb.name=Orbe d'aspect
 entity.Thaumcraft.TaintSpider.name=Araignée corrompue
-entity.Thaumcraft.Taintacle.name=Tentacule corrompue
+entity.Thaumcraft.Taintacle.name=Tentacule corrompu
 entity.Thaumcraft.TaintacleTiny.name=Vrille corrompue
+entity.Thaumcraft.TaintacleGiant.name=Tentacule corrompu géant
 entity.Thaumcraft.TaintSpore.name=Spore corrompu
-entity.Thaumcraft.TaintSwarmer.name=Essaim de spores corrompus
+entity.Thaumcraft.TaintSwarmer.name=Essaim de spores corrompues
 entity.Thaumcraft.TaintSwarm.name=Essaim corrompu
 entity.Thaumcraft.TaintedVillager.name=Villageois corrompu
 entity.Thaumcraft.TaintedChicken.name=Poulet corrompu
@@ -86,18 +87,24 @@ entity.Thaumcraft.CultistPortal.name=Portail cramoisi
 entity.Thaumcraft.EldritchCrab.name=Crabe surnaturel
 entity.Thaumcraft.InhabitedZombie.name=Enveloppe rampante
 #
-Thaumcraft.Boss.mod.bold=Le Brave
-Thaumcraft.Boss.mod.spine=L'Epineux
-Thaumcraft.Boss.mod.armor=Le Blindé
-Thaumcraft.Boss.mod.mighty=Le Puissant
-Thaumcraft.Boss.mod.grim=Le Sinistre
-Thaumcraft.Boss.mod.warded=Le Protégé
-Thaumcraft.Boss.mod.warp=Le Perverti
-Thaumcraft.Boss.mod.undying=Le Non-mort
+champion.mod.bold=Le Brave
+champion.mod.spine=L'Epineux
+champion.mod.armor=Le Blindé
+champion.mod.mighty=Le Puissant
+champion.mod.grim=Le Sinistre
+champion.mod.warded=Le Protégé
+champion.mod.warp=Le Perverti
+champion.mod.undying=L'Eternel
+champion.mod.fiery=L'Ardent
+champion.mod.sickly=Le Maladif
+champion.mod.venomous=Le Venimeux
+champion.mod.vampiric=Le Vampire
+champion.mod.infested=L'Infesté
 #
 tc.boss.crimson=Un portail rubis s'ouvre non loin, annonçant l'arrivé du Culte Cramoisi. Vous devez fermer le portail au plus vite!
 tc.boss.golem=Une sentinelle solitaire se dresse figée dans la pièce, mais quand l'énergie commence à crépiter à travers son vieux corps, vous comprenez qu'elle ne vas pas rester immobile très longtemps.
 tc.boss.warden=De l'énergie sombre bouillonne sur un pièdestal distant. Quelque chose vient...
+tc.boss.taint=Un bruissement organique arrive de la pièce plus loin. Le son d'une chose mauvaise... une chose qui grandit...
 #
 # Blocks
 tile.blockAiry.0.name=Noeud d'aura
@@ -568,6 +575,8 @@ item.ItemSwordCrimson.name=Lame cramoisi
 item.ItemLootBag.0.name=Trésor commun
 item.ItemLootBag.1.name=Trésor peu commun
 item.ItemLootBag.2.name=Trésor rare
+item.ItemCompassStone.name=Aimant Sinistre
+item.ItemPrimalCrusher.name=Broyeur Primordial
 tc.lootbag=Clic pour ouvrir ou garder le pour échanger
 #
 # Fluids
@@ -619,6 +628,8 @@ focus.upgrade.silktouch.name=Toucher de soie
 focus.upgrade.silktouch.text=Comme l'enchantement du meme nom, cette amélioration permet de récupérer les blocs tel qu'ils sont dans le monde.
 focus.upgrade.seeker.name=Chercheur
 focus.upgrade.seeker.text=Cette amélioration fait que l'orbe créer par le focus primaire cherchera la forme de vie la plus proche plutot que de vagabondera pas un peu partout. Cela les rends beaucoup plus stable, elle ne feront donc rien d'étranges à part exploser.
+focus.upgrade.dowsing.name=Radiesthésie
+focus.upgrade.dowsing.text=Cette amélioration donne au focus d'excavation une petite chance de miner des amas plutot que des minerais normaux. Ces amas donnent habituellement deux fois plus de lingots quand ils sont fondus.
 #
 # GUI
 golemblurb.0.text=Que voulez vous que je garde ici, Maître ?
@@ -1151,8 +1162,8 @@ tc.research_page.ENCHFABRIC.2=Elles accordent une petite réduction sur la quant
 #
 tc.research_name.ENCHANT=Enchantements
 tc.research_text.ENCHANT=Nouveaux enchantements
-tc.research_page.ENCHANT.1=Thaumcraft ajoute plusieurs enchantements unique.<BR>§nForce (foci seulement)§r<BR>Cet enchantement augmente les dégâts, la portée ou la zone du foci sur lequel il est appliqué.<BR>§nFrugal (foci seulement)§r<BR>Les focis avec cet enchantement utilisent moins de Vis quand ils sont activés.<BR>§nTrésor (foci seulement)§r<BR>Cet enchantement fonctionne comme l'enchantement fortune : augmente la
-tc.research_page.ENCHANT.2=quantité d'objets récoltés.<BR>§nHâte§r<BR>Cet enchantemant peut être appliqué aux chaussures de tous types et augmente la vitesse de déplacement du porteur. Le bonus en vitesse est en fonction du niveau de l'enchantement.<BR>§nRéparation§r<BR>Cet enchantement répare lentement l'objet en drainant le Vis d'un nœud d'aura. Cet enchantement peut seulement être appliqué à quelques objets thaumaturgiques.
+tc.research_page.ENCHANT.1=Thaumcraft ajoute plusieurs enchantements unique.<BR>§nHâte§r<BR>Cet enchantemant peut être appliqué aux chaussures de tous types et augmente la vitesse de déplacement du porteur. Le bonus en vitesse est en fonction du niveau de l'enchantement.<BR>§nRéparation§r<BR>Cet enchantement répare lentement l'objet en drainant le Vis depuis une baguette dans votre inventaire. Le coût en Vis est déterminé par la valeur de l'objet. 
+tc.research_page.ENCHANT.2=Plus haut sera le niveau de cet enchantement et plus rapide le processus sera. Cet enchantement peut seulement être appliqué à quelques objets thaumaturgiques.
 #
 tc.research_name.ELEMENTALAXE=Hache du déluge
 tc.research_text.ELEMENTALAXE=Rivières de bois
@@ -1770,3 +1781,11 @@ tc.research_name.OUTERREV=Révélations dans les terres extérieures
 tc.research_text.OUTERREV=Les choses ne sont pas ce qu'elles semblent être
 tc.research_page.OUTERREV.1=Vos suspicions sont confirmées. Cet endroit n'est pas le foyer de la race que vous nommez les Eldritch. Cet endroit est quelque chose de completement différent et vous ne pensez pas qu'il existe dans ce que vous concevez être la "réalité" - C'est autant une construction mentale que physique, mais quel esprit peut bien contenir ceci?<BR>Vous avez réussit à déchiffrer uniquement une petite parties des symboles, mais vous êtes sur que ce lieu est un piège - un lieu pour teste les visiteur afin de se débarrasser des faibles. Pour quel raison? Mystère.
 #
+tc.research_name.SINSTONE=Aimant sinistre
+tc.research_text.SINSTONE=Oserez-vous le suivre?
+tc.research_page.SINSTONE.1=Vous avez fait une intéressante découverte pendant vos études des noeuds. Différents types de noeuds émettent des types d'énergies variées, mais aucun ne sont aussi disctincts que les noeuds sinistres.<BR>L'énergie émise par les noeuds sinistres est assez unique et simple à suivre. En infusant un simple silex, vous pensez pouvoir créer un aimant basique qui s'allumera lorsqu'il est pointé vers un noeud sinistre.<BR>La portée est limitée, mais c'est une invention utile puisque vous trouvez les noeuds sinistres dans des endroits très intéressants.
+#
+tc.research_name.PRIMALCRUSHER=Broyeur Primordial
+tc.research_text.PRIMALCRUSHER=Casser toutes les choses
+tc.research_page.PRIMALCRUSHER.1=La théorie derrière l'infusion est simple - infuser un seul objet avec l'essentia et les propriétés d'autres objets. Il y a des limites néanmoins, mais il semble qu'avec la découverte de la perle primordiale ces limites disparaissent les unes apres les autres.<BR>Pour une expérience, vous avez essayé d'infusé les propriétés d'objets complétement différents dans une perle et avez réussit avec une surprenante facilité. Le broyeur primordiale est la première application pratique de cette découverte.<BR>En combinant une pelle du génie civile et une pioche du noyau avec leur homologues en métal du vide vous avez crée un
+tc.research_page.PRIMALCRUSHER.2=outil capable de capacités destructives inégalées et qui possède la pluparts des propriétes des objets ayant servit à sa création.<BR>Le broyeur primordial peut miner la terre et la pierre aussi aisément et le fait en zone de 3x3. Comme la pioche du noyau, il mine occasionnelement des amas de minerais.<BR>Il se répare seul avec le temps, s'enchante facilement et constitue une arme correct si l'occasion se présente.<BR>Malheuresement est purement destructif par nature et à perdu les capacités de constructions et de detections des outils dont il est issus.
