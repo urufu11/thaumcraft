@@ -2,8 +2,8 @@
 # Enchantments
 enchantment.haste=急迫
 enchantment.repair=修复
-enchantment.special.sapless=次级削弱
-enchantment.special.sapgreat=高级削弱
+enchantment.special.sapless=次级弱化
+enchantment.special.sapgreat=高级弱化
 #
 #Potions
 potion.fluxtaint=腐毒
@@ -57,6 +57,7 @@ entity.Thaumcraft.AspectOrb.name=要素球
 entity.Thaumcraft.TaintSpider.name=腐化魔蛛
 entity.Thaumcraft.Taintacle.name=腐化触手怪
 entity.Thaumcraft.TaintacleTiny.name=腐化触手
+entity.Thaumcraft.TaintacleGiant.name=巨型腐化触手
 entity.Thaumcraft.TaintSpore.name=腐化孢子
 entity.Thaumcraft.TaintSwarmer.name=腐化孢子巢穴
 entity.Thaumcraft.TaintSwarm.name=腐化孢子群
@@ -84,18 +85,24 @@ entity.Thaumcraft.CultistPortal.name=血腥门户
 entity.Thaumcraft.EldritchCrab.name=邪术爪牙
 entity.Thaumcraft.InhabitedZombie.name=行尸走肉
 #
-Thaumcraft.Boss.mod.bold=悍勇无畏的
-Thaumcraft.Boss.mod.spine=张牙舞爪的
-Thaumcraft.Boss.mod.armor=全副武装的
-Thaumcraft.Boss.mod.mighty=威猛强力的
-Thaumcraft.Boss.mod.grim=冷酷无情的
-Thaumcraft.Boss.mod.warded=抵御万物的
-Thaumcraft.Boss.mod.warp=乖戾扭曲的
-Thaumcraft.Boss.mod.undying=永恒不朽的
+champion.mod.bold=悍勇无畏的
+champion.mod.spine=张牙舞爪的
+champion.mod.armor=全副武装的
+champion.mod.mighty=威猛强力的
+champion.mod.grim=冷酷无情的
+champion.mod.warded=抵御万物的
+champion.mod.warp=乖戾扭曲的
+champion.mod.undying=永恒不朽的
+champion.mod.fiery=火爆狂躁的
+champion.mod.sickly=疾病缠身的
+champion.mod.venomous=淬毒匕首的
+champion.mod.vampiric=嗜血邪妖的
+champion.mod.infested=瘟疫感染的
 #
 tc.boss.crimson=那猩红传送门的开启预示着血腥邪徒将会抵达,你必须尽快关闭它!
-tc.boss.golem=守卫孤独屹立,被冻结在房间中,但能量已经从它那古老的框架上溢出,你意识到它不久就将恢复活动.
+tc.boss.golem=守卫孤独屹立,被冻结在房间中,但能量已经从它那古老的框架上溢裂而出,你意识到它不久就将恢复活动.
 tc.boss.warden=远处的基座涌动着黑色的能量.有什么要出来了...
+tc.boss.taint=房间那边传来组织生长发出的悉悉索索声.不太对劲的声音...有什么正在滋生...
 #
 # Blocks
 tile.blockAiry.0.name=灵气节点
@@ -563,6 +570,8 @@ item.ItemLootBag.0.name=寻常藏宝袋
 item.ItemLootBag.1.name=非凡藏宝袋
 item.ItemLootBag.2.name=稀有藏宝袋
 tc.lootbag=点击以开启或存留以备交易
+item.ItemCompassStone.name=凶险磁石
+item.ItemPrimalCrusher.name=元始杵
 #
 # Fluids
 fluid.fluxGoo=咒波粘浆
@@ -613,6 +622,8 @@ focus.upgrade.silktouch.name=丝绸之触
 focus.upgrade.silktouch.text=类似精准采集附魔,这种升级能够让你直接拾取采掘前的原材料而非一般的掉落物.
 focus.upgrade.seeker.name=追踪
 focus.upgrade.seeker.text=这种升级赋予元始核心发射的魔力球自动追踪最接近的生物目标的能力而不是像平常那样漫无目标的游荡.这多少让它们更加可控了,虽然除了爆炸外它们依然不会有任何别的效果.
+focus.upgrade.dowsing.name=勘探
++focus.upgrade.dowsing.text=这种升级赋予采掘核心小几率挖出原矿簇而非普通矿石的能力.这些原矿簇在冶炼时通常都能得到双倍的金属锭.
 #
 # GUI
 golemblurb.0.text=吾主,您希望吾为您在此处保管何物呢?
@@ -1145,8 +1156,8 @@ tc.research_page.ENCHFABRIC.2=当穿戴法袍施法时你能够更高效地使�
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技术
-tc.research_page.ENCHANT.1=神秘使懂得许多独特的附魔技术.<BR>§n潜能 (仅用于法杖核心) §r<BR>该附魔能够提升法杖核心可造成的伤害以及作用范围,但会略微增加魔力消耗.<BR>§n朴素(仅用于法杖核心)§r<BR>进行该附魔后的法杖核心更加节约魔力.<BR>§n瑰宝(仅用于法杖核心)§r<BR>类似时运附魔的效果,增加采集物品的产量.
-tc.research_page.ENCHANT.2=§n急迫§r<BR>进行该附魔的鞋子能够让穿戴者在地上行走时健步如飞,附魔等级越高,增幅速度越多.<BR>§n修复§r<BR>该附魔能够从灵气中吸取魔力来缓慢地修复物品耐久,附魔等级越高,修复速度越快.这种附魔只能对部分神秘物品生效.
+tc.research_page.ENCHANT.1=神秘使懂得许多独特的附魔技术.n急迫§r<BR>进行该附魔的鞋子能够让穿戴者在地上行走时健步如飞,附魔等级越高,增幅速度越多.<BR>§n修复§r<BR>该附魔能够从灵气中吸取魔力来缓慢地修复物品耐久.
+tc.research_page.ENCHANT.2=附魔等级越高,修复速度越快.这种附魔只能对部分神秘物品生效.
 #
 tc.research_name.ELEMENTALAXE=奔流斧
 tc.research_text.ELEMENTALAXE=木材的河流
@@ -1739,7 +1750,7 @@ tc.research_text.VAMPBAT=恶毒的小吸血鬼们
 #
 tc.research_name.PRIMPEARL=元始珍珠
 tc.research_text.PRIMPEARL=开端之前
-tc.research_page.PRIMPEARL.1=平生头一回你发觉自己在面对的是一个你认为不可能被解决的问题.<BR>这玩意儿中蕴含着纯净的元始要素,但它们拥有的特性与你所以为的普通寻常的元始要素相比截然不同.你对为何如此所知甚少:<BR>要么这种所谓珍珠是现实世界创造伊始时残留的物质-最基础的魔法早在它们尚未融合形成更加复杂的要素时就已经存在.<BR>要么它可能是来自某个神奇的地方,
+tc.research_page.PRIMPEARL.1=平生头一回你发觉自己在面对一个你认为不可能被解决的问题.<BR>这玩意儿中蕴含着纯净的元始要素,但它们拥有的特性却与你所以为的普通寻常的元始要素截然不同.你对为何如此所知甚少:<BR>要么这种所谓的珍珠是现实世界创造伊始时残留的物质-最基础的魔法早在它们尚未融合形成更加复杂的要素时就已经存在.<BR>要么它可能是来自某个神奇的地方,
 tc.research_page.PRIMPEARL.2=那里并不遵循你刚开始有所了解的已知魔法规则.你难以确定哪一种解释更让人担忧.<BR>无论如何,这种珍珠都是强大的魔法物品,蕴含巨大的魔力,拥有近乎无穷的潜能.<BR>是时候将其投诸实用了.
 #
 tc.research_name.PRIMNODE=元始节点操纵
@@ -1753,14 +1764,23 @@ tc.research_page.ADVALCHEMYFURNACE.2=并用元始珍珠诡异的能量进行辐�
 #
 tc.research_name.FLUXSCRUB=咒波洗涤器
 tc.research_text.FLUXSCRUB=混乱神秘使的福利
-tc.research_page.FLUXSCRUB.1=即使是最富技巧的神秘使也难免因为咒波污染留下一大堆乱摊子,清理它们是所有人都必须面对的麻烦,但这台设备能够让你减轻这些折磨人的苦差.<BR>咒波洗涤器,当使用aer要素驱动后,进会缓慢地对所在位置16格半径内的各种类型的咒波加以清理.不仅如此,它还能够将部分咒波以praecantatio源质的形式回收.<BR>它内置的缓存空间很小即使已经满了也会持续运作,因此,如果你希望回收掉所有的praecantatio源质,那么你就需要及时地将它清空.
+tc.research_page.FLUXSCRUB.1=即使是最富技巧的神秘使也难免因为咒波污染留下一大堆乱摊子,清理它们是所有人都必须面对的麻烦,但这台设备能够让你减轻这些折磨人的苦差.<BR>咒波洗涤器,当使用aer要素驱动后,将会缓慢地对所在位置16格半径内的各种类型的咒波加以清理.不仅如此,它还能够将部分咒波以praecantatio源质的形式回收.<BR>它内置的缓存空间很小,即使已经满了也会持续运作,因此,如果你希望回收掉所有的praecantatio源质,那么你就需要及时地将它清空.
 #
 tc.research_name.ENTEROUTER=外域
-tc.research_text.ENTEROUTER=我有种感觉，这里已经不是堪萨斯了
+tc.research_text.ENTEROUTER=我有种感觉,这里已经不是堪萨斯了
 tc.research_page.ENTEROUTER.1=通过开眼仪式时你并不十分确定你究竟在期待什么,但肯定不是眼前这些碎裂石块建成的诡异建筑和这些七拐八弯的扭曲通道.<BR>这里有些不对劲-这些建筑物看上去除了构成巨大的致命迷宫外别无设计目的.<BR>四周涌动着诡异的能量波动,你的魔力在这异域的环境中似乎表现得有些异常.即使你遇到的其他生物看上去也给你一种格格不入的诡异感觉.
 #
 tc.research_name.OUTERREV=外域之启示
 tc.research_text.OUTERREV=事物并非如它们咋眼所见
 tc.research_page.OUTERREV.1=你所疑虑之事得到了证实.这里并非你打算命名为异域人的种族的家园.这完全是另一个地方.你并不相信它存在于你所理解的"现实"当中-相比实在的事物它更接近某种精神上的结构,但什么样的精神能够容纳它呢?<BR>你仅仅能破译出少量的符文,但你确信这地方是一个陷阱,一个用于考验来客并淘汰掉弱者的地方.出于何种目的你还不得而知.
+#
+tc.research_name.SINSTONE=凶险磁石
+tc.research_text.SINSTONE=你敢跟来吗?
+tc.research_page.SINSTONE.1=研究节点的过程中你获得了一个有趣的发现.不同类型的节点都会发出不同类型的辐射能量,但它们大都不像凶险节点那样独树一帜.<BR>凶险节点发出的能量十分独特且易于追踪.你认为利用向燧石注魔得到的简易探测设备就能够帮助你指明凶险节点所指向的地方.<BR>探测范围非常有限,但这项发明物有所值,因为你发现凶险节点通常会出现在那些最有趣的地方.
+#
+tc.research_name.PRIMALCRUSHER=元始杵
+tc.research_text.PRIMALCRUSHER=掘尽万物
+tc.research_page.PRIMALCRUSHER.1=注魔合成背后的原理并不复杂-向一件物品中灌注要素源质以及其他物品的特性.这种工艺的效果尽管有其局限,但是,在发现元始珍珠后,这些局限似乎变得越来越少.<BR>你试图将完全不同的物品的特性注入珍珠的实验获得了惊人的成功.元始杵是这项发现结出的第一枚硕果.<BR>通过将后土铲,炽心镐的特性融入虚空金属你制成了一柄具备无可比拟的破坏能力的工具,
+tc.research_page.PRIMALCRUSHER.2=它拥有组成部件大多数的能力.<BR>元始杵挖土掘石都视若等闲,并且能够一次作用于3X3的范围.类似炽心镐,它有时会挖出原矿簇而非天然的矿石.<BR>它能够随着时间推移恢复耐久,具有良好的附魔性,揍人打怪时也是不可多得的好武器.<BR>遗憾的是由于追求纯碎的破坏力,它似乎没能保留其原型所具有的建造和探测的能力.
 #
 #
