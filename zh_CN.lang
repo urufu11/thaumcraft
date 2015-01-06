@@ -1160,7 +1160,7 @@ tc.research_page.ENCHFABRIC.2=当穿戴法袍施法时你能够更高效地使�
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技术
-tc.research_page.ENCHANT.1=神秘使懂得许多独特的附魔技术.n急迫§r<BR>进行该附魔的鞋子能够让穿戴者在地上行走时健步如飞,附魔等级越高,增幅速度越多.<BR>§n修复§r<BR>该附魔能够从灵气中吸取魔力来缓慢地修复物品耐久.
+tc.research_page.ENCHANT.1=神秘使懂得许多独特的附魔技术.§n急迫§r<BR>进行该附魔的鞋子能够让穿戴者在地上行走时健步如飞,附魔等级越高,增幅速度越多.<BR>§n修复§r<BR>该附魔能够从灵气中吸取魔力来缓慢地修复物品耐久.
 tc.research_page.ENCHANT.2=附魔等级越高,修复速度越快.这种附魔只能对部分神秘物品生效.
 #
 tc.research_name.ELEMENTALAXE=奔流斧
