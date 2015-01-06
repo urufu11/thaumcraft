@@ -16,7 +16,7 @@ potion.warpward=뒤틀림 해소
 potion.deathgaze=죽음의 시선
 potion.blurred=안개
 potion.sunscorned=햇빛 알러지
-potion.thaumarhia=플럭스 분비
+potion.thaumarhia=플럭스 구토
 #
 #Warp
 warp.text.1=이상하게 기운이 빠진 듯 지칩니다.
@@ -35,7 +35,7 @@ warp.text.11=방금 그 소리는 뭐였지? 네 뒤에 무언가가 있어.
 warp.text.12=누군가가 날 따라오고 있어.
 warp.text.13=누군가가 당신을 보고 있습니다. 아마도 이제 멈출 시간인 것 같습니다.
 warp.text.14=당신은 방금 뭔가가 명확해짐을 느꼈습니다.
-warp.text.15=당신의 뱃속이 갑자기 꼴록꼴록거리기 시작합니다.
+warp.text.15=뱃속에 뭔가 가득 찬 것 같이 배가 아파옵니다.
 #
 # Entities
 entity.Thaumcraft.ThaumSlime.name=사우믹 슬라임
