@@ -44,7 +44,7 @@ entity.Thaumcraft.FrostShard.name=霜星
 entity.Thaumcraft.ExplosiveOrb.name=爆炎
 entity.Thaumcraft.ShockOrb.name=电球
 entity.Thaumcraft.GolemOrb.name=能珠
-entity.Thaumcraft.BottleTaint.name=Bottled Taint
+entity.Thaumcraft.BottleTaint.name=腐化瓶
 entity.Thaumcraft.Firebat.name=九狱焱蝠
 entity.Thaumcraft.Wisp.name=精灵
 entity.Thaumcraft.Alumentum.name=源动之焰
@@ -57,6 +57,7 @@ entity.Thaumcraft.AspectOrb.name=要素球
 entity.Thaumcraft.TaintSpider.name=腐化魔蛛
 entity.Thaumcraft.Taintacle.name=腐化触手怪
 entity.Thaumcraft.TaintacleTiny.name=腐化触手
+entity.Thaumcraft.TaintacleGiant.name=巨型腐化触手
 entity.Thaumcraft.TaintSpore.name=腐化孢子
 entity.Thaumcraft.TaintSwarmer.name=腐化孢子巢穴
 entity.Thaumcraft.TaintSwarm.name=腐化孢子群
@@ -84,18 +85,24 @@ entity.Thaumcraft.CultistPortal.name=血腥门户
 entity.Thaumcraft.EldritchCrab.name=邪术爪牙
 entity.Thaumcraft.InhabitedZombie.name=行尸走肉
 #
-Thaumcraft.Boss.mod.bold=悍勇无畏的
-Thaumcraft.Boss.mod.spine=张牙舞爪的
-Thaumcraft.Boss.mod.armor=全副武装的
-Thaumcraft.Boss.mod.mighty=威猛强力的
-Thaumcraft.Boss.mod.grim=冷酷无情的
-Thaumcraft.Boss.mod.warded=抵御万物的
-Thaumcraft.Boss.mod.warp=乖戾扭曲的
-Thaumcraft.Boss.mod.undying=永恒不朽的
+champion.mod.bold=悍勇无畏的
+champion.mod.spine=张牙舞爪的
+champion.mod.armor=全副武装的
+champion.mod.mighty=威猛强力的
+champion.mod.grim=冷酷无情的
+champion.mod.warded=抵御万物的
+champion.mod.warp=乖戾扭曲的
+champion.mod.undying=永恒不朽的
+champion.mod.fiery=火爆狂躁的
+champion.mod.sickly=疾病缠身的
+champion.mod.venomous=淬毒匕首的
+champion.mod.vampiric=嗜血邪妖的
+champion.mod.infested=瘟疫感染的
 #
-tc.boss.crimson=A ruby portal opens nearby heralding the arrival of the Crimson Cult. You must close the portal quickly!
-tc.boss.golem=A lone sentinel stands frozen in this room, but as energy starts crackling through its ancient frame you know it will not stay frozen for long.
-tc.boss.warden=Black energy bubbles on the distant pedestal. Something is coming...
+tc.boss.crimson=那猩红传送门的开启预示着血腥邪徒将会抵达,你必须尽快关闭它!
+tc.boss.golem=守卫孤独屹立,被冻结在房间中,但能量已经从它那古老的框架上溢裂而出,你意识到它不久就将恢复活动.
+tc.boss.warden=远处的基座涌动着黑色的能量.有什么要出来了...
+tc.boss.taint=房间那边传来组织生长发出的悉悉索索声.不太对劲的声音...有什么正在滋生...
 #
 # Blocks
 tile.blockAiry.0.name=灵气节点
@@ -563,6 +570,8 @@ item.ItemLootBag.0.name=寻常藏宝袋
 item.ItemLootBag.1.name=非凡藏宝袋
 item.ItemLootBag.2.name=稀有藏宝袋
 tc.lootbag=点击以开启或存留以备交易
+item.ItemCompassStone.name=凶险磁石
+item.ItemPrimalCrusher.name=元始杵
 #
 # Fluids
 fluid.fluxGoo=咒波粘浆
@@ -572,47 +581,49 @@ fluid.fluidDeath=死亡之水
 #
 # General Focus Upgrades
 focus.upgrade.potency.name=潜能
-focus.upgrade.potency.text=This upgrade increases the damage or strength of the focus's powers. The exact damage increase varies from focus to focus, but is usually about 20% per level.
+focus.upgrade.potency.text=这种升级能够提升法杖核心的威力或伤害.额外的伤害效果因核心类型而有所差异,但一般来说增幅为每级20%.
 focus.upgrade.frugal.name=朴素
-focus.upgrade.frugal.text=This upgrade reduces the vis cost of activating the focus's powers by 10% per level.
+focus.upgrade.frugal.text=这种升级能够减免使用法杖核心时的部分魔力消耗,每级减免20%.
 focus.upgrade.treasure.name=瑰宝
-focus.upgrade.treasure.text=This upgrade acts like the Fortune or Looting enchantments. It increases the chance of getting more/better loot.
-focus.upgrade.enlarge.name=增幅
-focus.upgrade.enlarge.text=This upgrade increases how large an area the focus's powers effect, or increases the number of targets effected.
+focus.upgrade.treasure.text=这种升级效果类似时运或掠夺附魔,战利品将来得又好又多.
+focus.upgrade.enlarge.name=增广
+focus.upgrade.enlarge.text=这种升级能够增加法杖核心作用的范围,或者增加其影响的目标数量.
 focus.upgrade.extend.name=固本
-focus.upgrade.extend.text=This upgrade increases the duration of any effects the upgrade might create.
+focus.upgrade.extend.text=这种升级能够增加升级可能造成的各种效果的持续时间.
 focus.upgrade.architect.name=匠心
-focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be effected is displayed and you can change the size using the misc wand toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
+focus.upgrade.architect.text=这种升级能够使得某些法杖核心的效果范围更具可控性.额外的生效范围将会被显示出来,而且你可以使用法杖控制快捷键(默认为G)来切换其大小,同时按下潜行则可以调整你每次能够切换多大范围.
 #
 # Specific Focus Upgrades
 focus.upgrade.chainlightning.name=连锁闪电
-focus.upgrade.chainlightning.text=This upgrade reduces the speed at which the focus fires bolts, but the damage is increased and the bolt can chain to up to two additional targets.
+focus.upgrade.chainlightning.text=这种升级会减少法杖核心发射闪电的速度,但却能够提升其伤害效果并使得它能够连锁作用到至多两个额外目标上.
 focus.upgrade.earthshock.name=电波震荡
-focus.upgrade.earthshock.text=Instead of a bolt of lightning, the focus now lobs a ball of electrical energy. It inflicts damage in an area around where it hits and leaves the ground dangerously electrified for some time.
+focus.upgrade.earthshock.text=有别于连锁闪电的效果,这种升级能够使得核心掷出带电的能量球,造成撞击位置附近的区域伤害效果,并且会让地面附电一段时间.
 focus.upgrade.fireball.name=火球
-focus.upgrade.fireball.text=The focus will now produce a explosive ball of fire you can hurl at your foes. The Alchemists Fire upgrade causes it to also set the ground aflame around the point of impact.
+focus.upgrade.fireball.text=这种升级能够赋予核心产生爆裂火球伤害敌人的能力.进行炼金之焰升级后还能在撞击位置点燃一团火焰.
 focus.upgrade.firebeam.name=火柱
-focus.upgrade.firebeam.text=The focus now emits a narrow stream of fire instead of a wide swathe. It burns through anything it touches inflicting massive damage.
+focus.upgrade.firebeam.text=这种升级能够让法杖核心发出的火焰由大片喷射状态变成集束的火柱.它点燃喷射到的一切事物.它能够造成巨大的伤害.
 focus.upgrade.batbombs.name=爆炎魔蝠
-focus.upgrade.batbombs.text=This upgrade will make the summoned firebats even more volatile. They always explode when they contact their target and the explosion will be a lot more potent than normal.
+focus.upgrade.batbombs.text=这种升级能够让应召而来的蝙蝠变得更加不稳定.它们一旦碰触到目标就会爆炸且爆炸伤害会比普通的蝙蝠更加巨大.
 focus.upgrade.devilbats.name=恶魔之蝠
-focus.upgrade.devilbats.text=With this upgrade applied the summoned bats are larger, tougher and nastier. They will never explode, but keep attacking their target till it expires or they are slain. 
+focus.upgrade.devilbats.text=安装这种升级后召唤来的蝙蝠会更巨大,更坚韧,更折磨人.它们不会发生爆炸,但在召唤时效结束或者被杀死前会一直纠缠着目标进行持续的攻击.
 focus.upgrade.vampirebats.name=嗜血魔蝠
-focus.upgrade.vampirebats.text=This upgrade changes the summoned bats into vampire bats. Not only will they suck the life out of their targest to replenish their own, but some of the stolen life force is given to their summoner.
+focus.upgrade.vampirebats.text=这种升级将召唤来的蝙蝠转化为嗜血魔蝠.它们不但能够通过吸血回复自己的生命,这些窃取来的生命能量也会分享给它们的召唤者.
 focus.upgrade.scattershot.name=溅射
-focus.upgrade.scattershot.text=Instead of a single shard of ice, the focus will now fire multiple shards. Each shard does minimal damage, but a concentrated volley of them can do significant damage to a single target. 
+focus.upgrade.scattershot.text=这种升级赋予法杖溅射出多个而非单独一个霜冻新星的能力.每个溅射的碎片都会造成微量的伤害,但一次集中的攒射也能造成和单独的霜冻新星等量齐观的伤害效果.
 focus.upgrade.iceboulder.name=冰岩
-focus.upgrade.iceboulder.text=The focus will now create a large boulder of ice. The boulder has a tendancy to bounce around making it deadly in skilled hands. 
+focus.upgrade.iceboulder.text=这种升级能够让法杖制造出更大的冰块.冰块能够在表面弹射的特性在富有技巧的高明神秘使操纵下非常致命.
 focus.upgrade.alchemistsfire.name=炼金之焰
-focus.upgrade.alchemistsfire.text=This increases the potency of the elemental fire in the focus. Any targets set alight will burn for much longer.
+focus.upgrade.alchemistsfire.text=这种升级能够提高法杖核心的元素之焰的威力.被点燃的目标会燃烧得更久.
 focus.upgrade.alchemistsfrost.name=炼金之霜
-focus.upgrade.alchemistsfrost.text=This increases the potency of the elemental cold in the focus. When the focus targets or damages a creature it will be chilled and slowed significantly.
+focus.upgrade.alchemistsfrost.text=这种升级能够提高法杖核心的元素之霜的威力.法杖核心作用或伤害的生物会被冻僵并显著减速.
 focus.upgrade.nightshade.name=夜刃
-focus.upgrade.nightshade.text=Normally the Pech's curse focus inflicts one of a small handful of debilitating effects. With this upgrade it will inflict all of them at once.
+focus.upgrade.nightshade.text=通常来说岩精之诅咒一次只能触发一种负面效果,安装这种升级后它就能一次造成所有种类的负面效果了.
 focus.upgrade.silktouch.name=丝绸之触
-focus.upgrade.silktouch.text=Like the enchantment of the same name, this upgrade allows you to pick up harvested blocks as-is instead of gaining the normal drops.
+focus.upgrade.silktouch.text=类似精准采集附魔,这种升级能够让你直接拾取采掘前的原材料而非一般的掉落物.
 focus.upgrade.seeker.name=追踪
-focus.upgrade.seeker.text=This upgrade makes the orbs created by the primal focus seek out the nearest living target and not wander all over the place. This makes them a lot more stable which also means they won't do anything unusual beyond exploding.
+focus.upgrade.seeker.text=这种升级赋予元始核心发射的魔力球自动追踪最接近的生物目标的能力而不是像平常那样漫无目标的游荡.这多少让它们更加可控了,虽然除了爆炸外它们依然不会有任何别的效果.
+focus.upgrade.dowsing.name=勘探
++focus.upgrade.dowsing.text=这种升级赋予采掘核心小几率挖出原矿簇而非普通矿石的能力.这些原矿簇在冶炼时通常都能得到双倍的金属锭.
 #
 # GUI
 golemblurb.0.text=吾主,您希望吾为您在此处保管何物呢?
@@ -1145,8 +1156,8 @@ tc.research_page.ENCHFABRIC.2=当穿戴法袍施法时你能够更高效地使�
 #
 tc.research_name.ENCHANT=附魔
 tc.research_text.ENCHANT=新附魔技术
-tc.research_page.ENCHANT.1=神秘使懂得许多独特的附魔技术.<BR>§n潜能 (仅用于法杖核心) §r<BR>该附魔能够提升法杖核心可造成的伤害以及作用范围,但会略微增加魔力消耗.<BR>§n朴素(仅用于法杖核心)§r<BR>进行该附魔后的法杖核心更加节约魔力.<BR>§n瑰宝(仅用于法杖核心)§r<BR>类似时运附魔的效果,增加采集物品的产量.
-tc.research_page.ENCHANT.2=§n急迫§r<BR>进行该附魔的鞋子能够让穿戴者在地上行走时健步如飞,附魔等级越高,增幅速度越多.<BR>§n修复§r<BR>该附魔能够从灵气中吸取魔力来缓慢地修复物品耐久,附魔等级越高,修复速度越快.这种附魔只能对部分神秘物品生效.
+tc.research_page.ENCHANT.1=神秘使懂得许多独特的附魔技术.n急迫§r<BR>进行该附魔的鞋子能够让穿戴者在地上行走时健步如飞,附魔等级越高,增幅速度越多.<BR>§n修复§r<BR>该附魔能够从灵气中吸取魔力来缓慢地修复物品耐久.
+tc.research_page.ENCHANT.2=附魔等级越高,修复速度越快.这种附魔只能对部分神秘物品生效.
 #
 tc.research_name.ELEMENTALAXE=奔流斧
 tc.research_text.ELEMENTALAXE=木材的河流
@@ -1272,7 +1283,7 @@ tc.research_page.GOLEMTHAUMIUM.1=神秘傀儡尤胜于铁质傀儡,且能够进�
 tc.research_name.GOLEMBELL=傀儡使铃铛
 tc.research_text.GOLEMBELL=投以目光
 tc.research_page.GOLEMBELL.1=傀儡难以服从口头指令的劣习广为人知,而这个铃铛可以帮助你避免这种窘况.<BR>使用铃铛右击傀儡就能选择它.之后傀儡的放置位置以及绑定位置会亮起一道齿轮状的光环.<BR>然后你便可以使用铃铛右击世界上的任意位置来将傀儡链接到某方块,某位置或者某个将与之交互的容器上.再次点击相同位置会解除链接,如果傀儡能够同多种颜色的标记互动也可能会出现在不同颜色中循环切换的情况.
-tc.research_page.GOLEMBELL.2=<BR>在标记位置潜行(Shift)+右键会清除标记,而按下F键则会清除所有标记位置.<LINE>左击傀儡则会完好无损地卸载当前安装的全部升级.潜行(Shift )+左键能够拾取傀儡,但其傀儡运转核心以及升级会分别独立掉落.然后这样做有很大几率丢失掉升级.
+tc.research_page.GOLEMBELL.2=<BR>在标记位置潜行(Shift)右键会清除标记,而按下F键则会清除所有标记位置.<LINE>左击傀儡则会完好无损地卸载当前安装的全部升级.潜行(Shift )左键能够拾取傀儡,但其傀儡运转核心以及升级会分别独立掉落.然后这样做有很大几率丢失掉升级.
 #
 tc.research_name.COREGATHER=傀儡核心:聚集
 tc.research_text.COREGATHER=拾取你放下的物品
@@ -1739,8 +1750,8 @@ tc.research_text.VAMPBAT=恶毒的小吸血鬼们
 #
 tc.research_name.PRIMPEARL=元始珍珠
 tc.research_text.PRIMPEARL=开端之前
-tc.research_page.PRIMPEARL.1=For the first time you find yourself with a puzzle that you do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what you consider normal, everyday primal aspects. You have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of
-tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is time you start putting it to use.
+tc.research_page.PRIMPEARL.1=平生头一回你发觉自己在面对一个你认为不可能被解决的问题.<BR>这玩意儿中蕴含着纯净的元始要素,但它们拥有的特性却与你所以为的普通寻常的元始要素截然不同.你对为何如此所知甚少:<BR>要么这种所谓的珍珠是现实世界创造伊始时残留的物质-最基础的魔法早在它们尚未融合形成更加复杂的要素时就已经存在.<BR>要么它可能是来自某个神奇的地方,
+tc.research_page.PRIMPEARL.2=那里并不遵循你刚开始有所了解的已知魔法规则.你难以确定哪一种解释更让人担忧.<BR>无论如何,这种珍珠都是强大的魔法物品,蕴含巨大的魔力,拥有近乎无穷的潜能.<BR>是时候将其投诸实用了.
 #
 tc.research_name.PRIMNODE=元始节点操纵
 tc.research_text.PRIMNODE=只是放一块摩擦摩擦，看看会发生啥
@@ -1748,18 +1759,28 @@ tc.research_page.PRIMNODE.1=你草创了一种值得深究的新理论.为何不
 #
 tc.research_name.ADVALCHEMYFURNACE=荒古炼金炉
 tc.research_text.ADVALCHEMYFURNACE=源质提炼简化
-tc.research_page.ADVALCHEMYFURNACE.1=The standard alchemical furnace is fairly slow and requires fuel to operate. While neither of those are particularly difficult obstacles to you, the fact that it is unable to process large sources of essentia is something that can not be ignored. Unfortunately the instability of the essentia slurry it creates makes it dangerous to gather too much of it in one location.<BR>With the discovery of Primordial Pearls you have found a solution to that problem - The Advanced Alchemical Furnace.<BR>Using alchemical constructs that have been strengthened with void   
-tc.research_page.ADVALCHEMYFURNACE.2=metal and exposed to a primordial pearl's strange energies much more slurry can be processed at once and at much greater speeds. The pearl is not consumed during the crafting process.<BR>Instead of fuel, heat is generated by ignis vis and instead of relying on heat alone perditio vis breaks down objects almost instantly. Lastly aqua vis keeps everything running smoothly and prevents the slurry from settling and causing problems.<BR>The machine requires a considerable amount of heat to function and requires a constant supply of ignis vis even when not operating. Perditio and aqua vis is only used when the machine is smelting.
+tc.research_page.ADVALCHEMYFURNACE.1=普通的炼金炉运行相当缓慢且需要燃料才能驱动.虽说对你来说这些都不是什么难以克服的大麻烦,但是无法忽略的事实是你面临着无法生产大量源质的瓶颈限制.遗憾的是由于源质自身的不稳定性,在一个位置汇聚大量的源质粘浆依然十分危险.<BR>发现元始珍珠后你找到了这个问题的解决之道 - 荒古炼金炉.<BR>使用由虚空金属加固后的炼金构材搭建,
+tc.research_page.ADVALCHEMYFURNACE.2=并用元始珍珠诡异的能量进行辐照,荒古炼金炉将能够以更快的速率一次性处理更多的源质粘浆.在处理过程中并不会消耗掉珍珠.<BR>不再使用燃料,热量由ignis要素提供,分解过程也不再只依赖于提高热量,而是凭借perditio要素的效果直接破坏材料.最后由aqua要素保证整个过程运行平顺良好,防止粘浆沉淀成问题.<BR>这台机器需要适当的热量来启动并且即使没有进行生产也需要持续提供ignis要素.而perditio要素和aqua要素仅仅在进行源质提炼时才会消耗.
 #
 tc.research_name.FLUXSCRUB=咒波洗涤器
 tc.research_text.FLUXSCRUB=混乱神秘使的福利
-tc.research_page.FLUXSCRUB.1=Even the most skilled thaumaturge occasionally leaves a mess in the form of flux. It is a nuisance everyone has to deal with, but this machine removes the drudgery involved.<BR>The flux scrubber, when powered with aer vis, will slowly remove any form of flux within 16 blocks of where it is placed. What is more, it is able to reclaim a small portion of the magic that makes up the flux in the form of praecantatio essentia.<BR>It's internal buffer is very small and it will continue operating even when full, so it must be emptied if you wish to reclaim all the essentia.
+tc.research_page.FLUXSCRUB.1=即使是最富技巧的神秘使也难免因为咒波污染留下一大堆乱摊子,清理它们是所有人都必须面对的麻烦,但这台设备能够让你减轻这些折磨人的苦差.<BR>咒波洗涤器,当使用aer要素驱动后,将会缓慢地对所在位置16格半径内的各种类型的咒波加以清理.不仅如此,它还能够将部分咒波以praecantatio源质的形式回收.<BR>它内置的缓存空间很小,即使已经满了也会持续运作,因此,如果你希望回收掉所有的praecantatio源质,那么你就需要及时地将它清空.
 #
 tc.research_name.ENTEROUTER=外域
-tc.research_text.ENTEROUTER=我有种感觉，这里已经不是堪萨斯了
-tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting when you stepped through the Oculus, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
+tc.research_text.ENTEROUTER=我有种感觉,这里已经不是堪萨斯了
+tc.research_page.ENTEROUTER.1=通过开眼仪式时你并不十分确定你究竟在期待什么,但肯定不是眼前这些碎裂石块建成的诡异建筑和这些七拐八弯的扭曲通道.<BR>这里有些不对劲-这些建筑物看上去除了构成巨大的致命迷宫外别无设计目的.<BR>四周涌动着诡异的能量波动,你的魔力在这异域的环境中似乎表现得有些异常.即使你遇到的其他生物看上去也给你一种格格不入的诡异感觉.
 #
 tc.research_name.OUTERREV=外域之启示
 tc.research_text.OUTERREV=事物并非如它们咋眼所见
-tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
+tc.research_page.OUTERREV.1=你所疑虑之事得到了证实.这里并非你打算命名为异域人的种族的家园.这完全是另一个地方.你并不相信它存在于你所理解的"现实"当中-相比实在的事物它更接近某种精神上的结构,但什么样的精神能够容纳它呢?<BR>你仅仅能破译出少量的符文,但你确信这地方是一个陷阱,一个用于考验来客并淘汰掉弱者的地方.出于何种目的你还不得而知.
+#
+tc.research_name.SINSTONE=凶险磁石
+tc.research_text.SINSTONE=你敢跟来吗?
+tc.research_page.SINSTONE.1=研究节点的过程中你获得了一个有趣的发现.不同类型的节点都会发出不同类型的辐射能量,但它们大都不像凶险节点那样独树一帜.<BR>凶险节点发出的能量十分独特且易于追踪.你认为利用向燧石注魔得到的简易探测设备就能够帮助你指明凶险节点所指向的地方.<BR>探测范围非常有限,但这项发明物有所值,因为你发现凶险节点通常会出现在那些最有趣的地方.
+#
+tc.research_name.PRIMALCRUSHER=元始杵
+tc.research_text.PRIMALCRUSHER=掘尽万物
+tc.research_page.PRIMALCRUSHER.1=注魔合成背后的原理并不复杂-向一件物品中灌注要素源质以及其他物品的特性.这种工艺的效果尽管有其局限,但是,在发现元始珍珠后,这些局限似乎变得越来越少.<BR>你试图将完全不同的物品的特性注入珍珠的实验获得了惊人的成功.元始杵是这项发现结出的第一枚硕果.<BR>通过将后土铲,炽心镐的特性融入虚空金属你制成了一柄具备无可比拟的破坏能力的工具,
+tc.research_page.PRIMALCRUSHER.2=它拥有组成部件大多数的能力.<BR>元始杵挖土掘石都视若等闲,并且能够一次作用于3X3的范围.类似炽心镐,它有时会挖出原矿簇而非天然的矿石.<BR>它能够随着时间推移恢复耐久,具有良好的附魔性,揍人打怪时也是不可多得的好武器.<BR>遗憾的是由于追求纯碎的破坏力,它似乎没能保留其原型所具有的建造和探测的能力.
+#
 #
