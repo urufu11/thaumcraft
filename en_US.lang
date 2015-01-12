@@ -1031,7 +1031,7 @@ tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater stor
 #
 tc.research_name.ROD_blaze=Blaze Rod Wand Core
 tc.research_text.ROD_blaze=Fiery vis storage
-tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, it fiery nature will slowly replenish it.
+tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
 #
 tc.research_name.ROD_ice=Icy Wand Core
 tc.research_text.ROD_ice=Icy vis storage
