@@ -593,11 +593,11 @@ focus.upgrade.frugal.text=This upgrade reduces the vis cost of activating the fo
 focus.upgrade.treasure.name=Treasure
 focus.upgrade.treasure.text=This upgrade acts like the Fortune or Looting enchantments. It increases the chance of getting more/better loot.
 focus.upgrade.enlarge.name=Enlarge
-focus.upgrade.enlarge.text=This upgrade increases how large an area the focus's powers effect, or increases the number of targets effected.
+focus.upgrade.enlarge.text=This upgrade increases how large an area the focus's powers affect, or increases the number of targets affected.
 focus.upgrade.extend.name=Extend
 focus.upgrade.extend.text=This upgrade increases the duration of any effects the upgrade might create.
 focus.upgrade.architect.name=Architect
-focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci effect. The exact area that will be effected is displayed and you can change the size using the misc wand toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
+focus.upgrade.architect.text=This upgrade gives a lot more control over the area certain foci affect. The exact area that will be affected is displayed and you can change the size using the misc wand toggle key (default G). Sneak+G allows you to toggle which dimensions you can change.
 #
 # Specific Focus Upgrades
 focus.upgrade.chainlightning.name=Chain Lightning
@@ -1023,15 +1023,15 @@ tc.research_page.SCEPTRE.1=Crafting scepters are specialized wands made to be us
 #
 tc.research_name.ROD_obsidian=Obsidian Wand Core
 tc.research_text.ROD_obsidian=Earthen vis storage
-tc.research_page.ROD_obsidian.1=A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.ROD_obsidian.1=A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
 #
 tc.research_name.ROD_bone=Bone Wand Core
 tc.research_text.ROD_bone=Entropic vis storage
-tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
 #
 tc.research_name.ROD_blaze=Blaze Rod Wand Core
 tc.research_text.ROD_blaze=Fiery vis storage
-tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
+tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, it fiery nature will slowly replenish it.
 #
 tc.research_name.ROD_ice=Icy Wand Core
 tc.research_text.ROD_ice=Icy vis storage
@@ -1039,11 +1039,11 @@ tc.research_page.ROD_ice.1=Wand cores crafted from ice can store slightly more v
 #
 tc.research_name.ROD_quartz=Quartz Wand Core
 tc.research_text.ROD_quartz=Ordered vis storage
-tc.research_page.ROD_quartz.1=A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.ROD_quartz.1=A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
 #
 tc.research_name.ROD_reed=Reed Wand Core
 tc.research_text.ROD_reed=Airy vis storage
-tc.research_page.ROD_reed.1=A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.ROD_reed.1=A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
 #
 tc.research_name.ROD_greatwood_staff=Magic Staves
 tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
@@ -1117,7 +1117,7 @@ tc.research_page.FOCUSWARDING.1=This powerful focus has a very interesting abili
 #
 tc.research_name.FOCUSPRIMAL=Wand Focus: Primal
 tc.research_text.FOCUSPRIMAL=Raw Magic
-tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
+tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
 #
 tc.research_name.FOCUSPOUCH=Focus Pouch
 tc.research_text.FOCUSPOUCH=Convenient carry container for your foci.
@@ -1162,7 +1162,7 @@ tc.research_page.ENCHFABRIC.2=The various pieces of this outfit grant a small di
 #
 tc.research_name.ENCHANT=Enchantments
 tc.research_text.ENCHANT=New Enchantments
-tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearers land speed. The higher the enchantment level, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from wands in your inventory. The vis cost is determined by the value of the item.
+tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearer's land speed. The higher the enchantment level, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from wands in your inventory. The vis cost is determined by the value of the item.
 tc.research_page.ENCHANT.2=The higher the level of the enchantment, the quicker this takes place. This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.
 #
 tc.research_name.ELEMENTALAXE=Axe of the Stream
