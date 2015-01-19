@@ -86,6 +86,7 @@ entity.Thaumcraft.CultistLeader.name=Praetor %s the %d
 entity.Thaumcraft.CultistPortal.name=Crimson Portal
 entity.Thaumcraft.EldritchCrab.name=Eldritch Crab
 entity.Thaumcraft.InhabitedZombie.name=Shambling Husk
+entity.Thaumcraft.GolemBobber.name=Golem Fishing Bobber
 #
 champion.mod.bold=Bold
 champion.mod.spine=Spined
@@ -1168,7 +1169,7 @@ tc.research_page.ENCHANT.2=The higher the level of the enchantment, the quicker 
 tc.research_name.ELEMENTALAXE=Axe of the Stream
 tc.research_text.ELEMENTALAXE=Rivers of Wood
 tc.research_page.ELEMENTALAXE.1=By combining water shards and a thaumium axe, you have created a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block. 
-tc.research_page.ELEMENTALAXE.2=Any wood chopped in this fashion will automatically float towards you.<BR>If you press and hold right click the axe will axe will draw all nearby items towards you - not just wood it chopped.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.
+tc.research_page.ELEMENTALAXE.2=Any wood chopped in this fashion will automatically float towards you.<BR>If you press and hold right click the axe will draw all nearby items towards you - not just wood it chopped.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.
 #
 tc.research_name.ELEMENTALPICK=Pickaxe of the Core
 tc.research_text.ELEMENTALPICK=Purifying Heat
