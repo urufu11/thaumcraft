@@ -86,6 +86,7 @@ entity.Thaumcraft.CultistLeader.name=Prätor %s der %d
 entity.Thaumcraft.CultistPortal.name=Karmesinportal
 entity.Thaumcraft.EldritchCrab.name=Unheimliche Krabbe
 entity.Thaumcraft.InhabitedZombie.name=Wandelnde Hülle
+entity.Thaumcraft.GolemBobber.name=Golemschwimmer
 #
 champion.mod.bold=Mutige
 champion.mod.spine=Schaurige
