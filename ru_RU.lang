@@ -86,6 +86,7 @@ entity.Thaumcraft.CultistLeader.name=Претор %s  %d
 entity.Thaumcraft.CultistPortal.name=Багровый портал
 entity.Thaumcraft.EldritchCrab.name=Древний краб
 entity.Thaumcraft.InhabitedZombie.name=Волочащаяся оболочка
+entity.Thaumcraft.GolemBobber.name=Поплавок голема
 #
 champion.bold=Смелый
 champion.spine=Колючий
