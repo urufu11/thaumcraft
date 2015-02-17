@@ -805,7 +805,7 @@ tc.research_text.NODETAPPER1=모두 내 꺼!
 tc.research_page.NODETAPPER1.1=보통 노드에서 비스를 추출하는 작업은 꽤 느립니다. 하지만 더이상은 아니죠.<BR>좀 더 효율적인 방법으로 일반적인 속도보다 두 배 빠르게 비스를 추출할 수 있습니다.
 #
 tc.research_name.NODETAPPER2=노드 추출 마스터
-tc.research_text.NODETAPPER2=너의 비스는 곧 나의 것
+tc.research_text.NODETAPPER2=모든 네 비스 다 내거 다요
 tc.research_page.NODETAPPER2.1=비스 추출 기술이 거의 최고수준에 도달했습니다.<BR>이제 평소의 세 배의 속도로 비스를 추출할 수 있습니다.
 #
 tc.research_name.NODEPRESERVE=노드 수호자
