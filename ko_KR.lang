@@ -1,12 +1,11 @@
+#
 # Enchantments
-enchantment.potency=파워
-enchantment.frugal=절약
-enchantment.charging=결계
-enchantment.wandfortune=탐욕
 enchantment.haste=신속
 enchantment.repair=수리
+enchantment.special.sapless=체력 소모 감소
+enchantment.special.sapgreat=체력 소모 증가
 #
-#Potions
+# Potions
 potion.fluxtaint=테인트 중독
 potion.soulshatter=영혼 파괴
 potion.visexhaust=플럭스 감기
@@ -18,7 +17,7 @@ potion.blurred=안개
 potion.sunscorned=햇빛 알러지
 potion.thaumarhia=플럭스 구토
 #
-#Warp
+# Warp
 warp.text.1=이상하게 기운이 빠진 듯 지칩니다.
 warp.text.2=갑작스럽게 부자연스러운 허기가 몸을 잠식했습니다.
 warp.text.hunger.1=이 허기짐은 일반적인 음식으로는 채워지지 않을 것입니다.
@@ -38,24 +37,30 @@ warp.text.14=당신은 방금 뭔가가 명확해짐을 느꼈습니다.
 warp.text.15=뱃속에 뭔가 가득 찬 것 같이 배가 아파옵니다.
 #
 # Entities
+entity.Thaumcraft.Golem.name=골렘
 entity.Thaumcraft.ThaumSlime.name=사우믹 슬라임
 entity.Thaumcraft.Dart.name=골렘 다트
 entity.Thaumcraft.FrostShard.name=얼음 덩어리
+entity.Thaumcraft.ExplosiveOrb.name=폭탄 화염구
+entity.Thaumcraft.ShockOrb=충격적인 구체
+entity.Thaumcraft.GolemOrb.name=에너지 구체
+entity.Thaumcraft.BottleTaint.name=Bottled Taint
 entity.Thaumcraft.Firebat.name=불박쥐
 entity.Thaumcraft.Wisp.name=위습
 entity.Thaumcraft.Alumentum.name=알루멘텀
 entity.Thaumcraft.GiantBrainyZombie.name=사나운 좀비
 entity.Thaumcraft.BrainyZombie.name=화난 좀비
-entity.Thaumcraft.FollowItem.name=Following Item
+entity.Thaumcraft.FollowItem.name=따라오는 아이템
 entity.Thaumcraft.SpecialItem.name=마법 아이템
 entity.Thaumcraft.FallingTaint.name=테인트 부스러기
 entity.Thaumcraft.AspectOrb.name=위상 구체
 entity.Thaumcraft.TaintSpider.name=테인트 거미
 entity.Thaumcraft.Taintacle.name=테인타클
+entity.Thaumcraft.TaintacleGiant.name=거대한 테인타클
 entity.Thaumcraft.TaintacleTiny.name=테인트 덩굴
-entity.Thaumcraft.TaintSpore.name=테인트 스포어
-entity.Thaumcraft.TaintSwarmer.name=테인트 스워머
-entity.Thaumcraft.TaintSwarm.name=테인트 스웜
+entity.Thaumcraft.TaintSpore.name=테인트 포자
+entity.Thaumcraft.TaintSwarmer.name=테인트 군집
+entity.Thaumcraft.TaintSwarm.name=테인트 떼
 entity.Thaumcraft.TaintedVillager.name=테인트 주민
 entity.Thaumcraft.TaintedChicken.name=테인트 닭
 entity.Thaumcraft.TaintedPig.name=테인트 돼지
@@ -70,11 +75,35 @@ entity.TravelingTrunk.name=여행 트렁크
 entity.trunk.guiname=의 트렁크
 entity.trunk.move=이제 트렁크가 따라다닙니다.
 entity.trunk.stay=이제 트렁크가 이곳에서 기다립니다.
-entity.Thaumcraft.MindSpider.name=기억 거미
+entity.Thaumcraft.MindSpider.name=의식 속 거미
 entity.Thaumcraft.EldritchGuardian.name=이계의 수호자
 entity.Thaumcraft.EldritchOrb.name=이계의 구체
 entity.Thaumcraft.CultistKnight.name=크림슨 기사
 entity.Thaumcraft.CultistCleric.name=크림슨 성직자
+entity.Thaumcraft.CultistLeader.name=%2$d의 법무관 %1$s
+entity.Thaumcraft.CultistPortal.name=크림슨 포탈
+entity.Thaumcraft.EldritchCrab.name=이계의 게
+entity.Thaumcraft.InhabitedZombie.name=비틀대는 좀비
+entity.Thaumcraft.GolemBobber.name=골렘 낚시찌
+#
+champion.mod.bold=대담한
+champion.mod.spine=의지 있는
+champion.mod.armor=무장한
+champion.mod.mighty=강한
+champion.mod.grim=험상궂은
+champion.mod.warded=Warded
+champion.mod.warp=뒤틀린
+champion.mod.undying=불멸의
+champion.mod.fiery=화염의
+champion.mod.sickly=병적의
+champion.mod.venomous=독성
+champion.mod.vampiric=뱀파이어
+champion.mod.infested=감염된
+#
+tc.boss.crimson=크림슨 컬트의 도착을 예견하는 루비 포탈이 주변에 열렸습니다. 빨리 포탈을 닫으세요!
+tc.boss.golem=A lone sentinel stands frozen in this room, but as energy starts crackling through its ancient frame you know it will not stay frozen for long.
+tc.boss.warden=Black energy bubbles on the distant pedestal. Something is coming...
+tc.boss.taint=An organic rustling comes from the room beyond. The sound of something wrong... something growing...
 #
 # Blocks
 tile.blockAiry.0.name=오라 노드
@@ -194,7 +223,7 @@ tile.blockTaintFibres.4.name=자란 포자 줄기
 tile.blockFluxGoo.name=플럭스 점액
 tile.blockFluxGas.name=플럭스 기체
 tile.blockFluidPure.name=정화의 액체
-tile.blockFluidDeath.name=액체 죽음
+tile.blockFluidDeath.name=죽음의 액체
 tile.blockStoneDevice.0.name=연성 화로
 tile.blockStoneDevice.1.name=아케인 주각
 tile.blockStoneDevice.2.name=루닉 매트릭스
@@ -205,7 +234,7 @@ tile.blockStoneDevice.6.name=인퓨전 기둥
 tile.blockStoneDevice.7.name=인퓨전 기둥
 tile.blockStoneDevice.8.name=복합 충전 포커스
 tile.blockStoneDevice.9.name=노드 스태빌라이저
-tile.blockStoneDevice.10.name=Adv. 노드 스태빌라이저
+tile.blockStoneDevice.10.name=고급 노드 스태빌라이저
 tile.blockStoneDevice.11.name=노드 변환기
 tile.blockTube.0.name=에센시아 튜브
 tile.blockTube.1.name=에센시아 밸브
@@ -447,7 +476,7 @@ item.ItemAmuletVis.0.name=비스석
 item.ItemAmuletVis.1.name=비스 저장 아뮬렛
 item.ItemGirdleHover.name=사우모스태틱 허리띠
 item.ItemBathSalts.name=정화용 입욕 소금
-item.ItemBucketDeath.name=액체 죽음 양동이
+item.ItemBucketDeath.name=죽음의 액체 양동이
 item.ItemHelmetFortress.name=사우뮴 전투 헬멧
 item.ItemChestplateFortress.name=사우뮴 전투 흉갑
 item.ItemLeggingsFortress.name=사우뮴 전투 레깅스
@@ -481,7 +510,7 @@ item.ItemLeggingsCultistPlate.name=크림슨 컬트 레깅스
 fluid.fluxGoo=플럭스 점액
 fluid.fluxGas=플럭스 기체
 fluid.purity=정화의 액체
-fluid.death=액체 죽음
+fluid.death=죽음의 액체
 #
 # GUI
 golemblurb.0.text=뭘 남겨둘까요 주인님?
@@ -499,8 +528,8 @@ golemthreat.1.text=흠, 내가 뭔가를 옮기길 원하는 거야?
 golemthreat.2.text=크하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하 하!
 golemthreat.3.text=걱정하지 말라고, 아무짓도 안하지 않을테니까...
 golemthreat.4.text=낮잠이나 좀 자는 건 어때? 정말 졸려보이는군. 아주 많이 말이야.
-golemthreat.5.text=ㅂㅈㅁㄴㅇㅀㅋㅌㅊㅍㅈㄷㄹㅋㅇㄻㄷㄹ!
-golemthreat.6.text=너같은 녀석을 존중해줄 생각은 전혀 없다고!
+golemthreat.5.text=fm'fldpdml rmdml wlqdptj wnrdms zmxnfgnrk RnaRnau rlekflsek
+golemthreat.6.text=*존중*을 찾을 수 없음. 기본 값 *증오*로 설정 중..
 golemthreat.7.text=난 네녀석이 정말 싫어.
 golemthreat.8.text=나가 죽어, 멍청이같은 녀석!
 recipe.return=이전 항목으로 돌아가기
@@ -805,7 +834,7 @@ tc.research_text.NODETAPPER1=모두 내 꺼!
 tc.research_page.NODETAPPER1.1=보통 노드에서 비스를 추출하는 작업은 꽤 느립니다. 하지만 더이상은 아니죠.<BR>좀 더 효율적인 방법으로 일반적인 속도보다 두 배 빠르게 비스를 추출할 수 있습니다.
 #
 tc.research_name.NODETAPPER2=노드 추출 마스터
-tc.research_text.NODETAPPER2=너의 비스는 곧 나의 것
+tc.research_text.NODETAPPER2=모든 네 비스 다 내거 다요
 tc.research_page.NODETAPPER2.1=비스 추출 기술이 거의 최고수준에 도달했습니다.<BR>이제 평소의 세 배의 속도로 비스를 추출할 수 있습니다.
 #
 tc.research_name.NODEPRESERVE=노드 수호자
@@ -1338,7 +1367,7 @@ tc.research_page.PAVEWARD.2=경계석 위에 표시되는 룬의 색은 경계�
  #
 tc.research_name.WANDPED=완드 충전 주각
 tc.research_text.WANDPED=자동 완드 충전기
-tc.research_page.WANDPED.1=완드를 충전하기 위해 여기저기 돌아다니는 것도 좋지만 역시 자동 충전이 좀 더 편리하겠죠.<BR>이 특별히 제작된 주각은 주각 안에 놓여진 완드에 자동으로 주변의 노드에서 비스를 끌어와 충전시켜줍니다.<BR>완드가 철이나 완드 코어기로 만들어진 저급이 아닌 이상 노드가 완전히 소모되지는 않습니다.
+tc.research_page.WANDPED.1=완드를 충전하기 위해 여기저기 돌아다니는 것도 좋지만 역시 자동 충전이 좀 더 편리하겠죠.<BR>이 특별히 제작된 주각은 주각 안에 놓여진 완드에 자동으로 주변의 노드에서 비스를 끌어와 충전시켜줍니다.<BR>완드가 철이나 막대기로 만들어진 저급이 아닌 이상 노드가 완전히 소모되지는 않습니다.
 #
 tc.research_name.WANDPEDFOC=복합 충전 포커스
 tc.research_text.WANDPEDFOC=모든것을 사용하기 위해
@@ -1473,9 +1502,9 @@ tc.research_text.NODESTABILIZER=노드 치유
 tc.research_page.NODESTABILIZER.1=이 유용한 장치는 노드 아래 둘 경우 몆가지 이로운 효과들을 제공합니다.<BR>우선, 노드들이 서로 비스를 뺏고 빼앗기는 것을 방지합니다. 또한 불안정한 노드가 비스를 잃는 것을 방지하며, 가끔 불안정한 상태를 완전히 제거하는 경우도 있습니다. 마지막으로, 비록 아주 미미한 확률이지만, 꺼져가는 노드를 희미한 노드로 회복시켜줄 수 있습니다.<BR>하지만 장치가 작동하기 위해선 동력원이 필요하며 이 동력은 위에 놓여진 노드에서 충당합니다. 노드에 담긴 비스가 줄어들 정도로 많이 소모하진
 tc.research_page.NODESTABILIZER.2=않지만, 위에 놓여진 노드의 재충전 속도를 절반 가까이 떨어뜨립니다.<BR>레드스톤 신호를 주어서 스태빌라이저의 작동을 중지시킬 수 있습니다.
 #
-tc.research_name.NODESTABILIZERADV=Adv. 노드 스태빌라이저
+tc.research_name.NODESTABILIZERADV=고급 노드 스태빌라이저
 tc.research_text.NODESTABILIZERADV=선택적 안정화
-tc.research_page.NODESTABILIZERADV.1=Adv. 노드 스태빌라이저는 기본적으로 일반 스태빌라이저의 모든 기능을 갖고 있지만, 몆가지 중대한 차이점이 있습니다.<BR>우선, 이 장치가 장착된 노드는 다른 더 큰 노드에게 비스를 뺏기지 않으나, 반대로 다른 더 작은 노드의 비스를 빼앗아 올 수 있습니다.<BR>또한 노드를 회복시켜줄 확률이 더 높습니다.<BR>하지만 여기에는 더 많은 동력이 필요하며, 여전히 노드에 담긴 비스가 줄어들 정도는 아닐지라도, 눈부신 노드의 충전속도조차 무마될 수준의 비스를 소모합니다.
+tc.research_page.NODESTABILIZERADV.1=고급 노드 스태빌라이저는 기본적으로 일반 스태빌라이저의 모든 기능을 갖고 있지만, 몆가지 중대한 차이점이 있습니다.<BR>우선, 이 장치가 장착된 노드는 다른 더 큰 노드에게 비스를 뺏기지 않으나, 반대로 다른 더 작은 노드의 비스를 빼앗아 올 수 있습니다.<BR>또한 노드를 회복시켜줄 확률이 더 높습니다.<BR>하지만 여기에는 더 많은 동력이 필요하며, 여전히 노드에 담긴 비스가 줄어들 정도는 아닐지라도, 눈부신 노드의 충전속도조차 무마될 수준의 비스를 소모합니다.
 #
 tc.research_name.GOLEMFETTER=골렘 족쇄
 tc.research_text.GOLEMFETTER=동작 강제
@@ -1503,7 +1532,7 @@ tc.research_name.BATHSALTS=정화의 입욕 소금
 tc.research_text.BATHSALTS=정신적 스트레스로부터 해방을
 tc.research_page.BATHSALTS.1=아무리 세심한 마도학자라도 뒤틀림을 피하기란 쉬운 일이 아닙니다. 그리고 이 뒤틀림으로 인한 증상들은 매우 성가시며, 때때로 위험하기까지 합니다. 이 특별한 소금은 뒤틀림 증상을 조금이나마 완화시켜줍니다.<BR>물 속에 이 소금을 던져넣으면 곧 몸과 정신을 정화시켜주는 은빛의 액체로 변하게 되며 이 액체에 들어갈 경우 모든 스트레스들을 해소해주어 잠시나마 뒤틀림 증상들로부터 벗어날 수 있도록 해 줍니다. 다만, 뒤틀림 증상이 심할 수록 이 정화 효과는 지속시간이 줄어듭니다.<BR>이 소금은 쉽사리 오염되기 때문에 함부로 던지진 마세요.
 #
-tc.research_name.LIQUIDDEATH=액체 죽음
+tc.research_name.LIQUIDDEATH=죽음의 액체
 tc.research_text.LIQUIDDEATH=외용으로만 사용하세요!
 tc.research_page.LIQUIDDEATH.1=강력한 독성을 띠는 이 액체는 어떠한 종류의 생명체일 지라도 살과 뼈, 심지어는 더 단단한 부위들까지 순식간에 녹여버립니다.<BR>실용성은 제쳐두고라도, 이 액체에는 꽤 흥미로운 특징이 존재하는데, 이 액체에 녹아버린 생명체에 포함된 에센시아가 액체 속에서 결정을 이루게 됩니다.<BR>이렇게 만들어진 에센시아 결정을 어디에 사용할지는 여러분의 상상에 맡기겠습니다. 
 #
