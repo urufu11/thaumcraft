@@ -1,4 +1,4 @@
-# Traducció d'en MrPotatoMC / Translated by MrPotatoMC
+# Traducció de ElDogeMC / Translated by ElDogeMC
 # Enchantments
 enchantment.potency=Potència
 enchantment.frugal=Econòmic
@@ -402,9 +402,9 @@ item.ItemRingRunic.1.name=Anell de Blindatje Rúnic
 item.ItemRingRunic.2.name=Anell de Blindatje Carregat
 item.ItemRingRunic.3.name=Anell Enfortidor de Blindatje
 item.ItemGirdleRunic.0.name=Cinturó de Blindatje Rúnic
-item.ItemGirdleRunic.1.name=Cinturón Cinético de Blindaje
+item.ItemGirdleRunic.1.name=Cinturó Cinètic de Blindatge
 item.runic.charge=Escudo Rúnico
-item.ItemBaubleBlanks.0.name=Amuleto Mundà
+item.ItemBaubleBlanks.0.name=Amulet Mundà
 item.ItemBaubleBlanks.1.name=Anell Mundà
 item.ItemBaubleBlanks.2.name=Cinturón Mundà
 item.ItemBaubleBlanks.3.name=Anell de Aprenent de %TYPE
@@ -648,9 +648,9 @@ tc.research_category.GOLEMANCY=Golemància
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
 # Research entries
-tc.research_name.RESEARCH=Investigación
-tc.research_text.RESEARCH=Cómo descubrir cosas
-tc.research_page.RESEARCH.1=Antes de poder construir la mayoría de items y bloques taumatúrgicos necesitas descubrir como hacerlo. Hay varios pasos en este proceso:<BR>(1) Explorar el mundo y examinar bloques, objetos y criaturas con un §5Taumómetro§0<BR><BR>(2) Tomar los puntos de investigación reunidos en el primer paso y expandir el conocimiento de los Aspectos con la §5Mesa de Investigación§0<BR><BR>(3) Usar los Aspectos que conoces y descubrir conocimientos prácticos y recetas en la §5Mesa de Investigación§0.<LINE>
+tc.research_name.RESEARCH=Investigació
+tc.research_text.RESEARCH=Com descubrir coses
+tc.research_page.RESEARCH.1=Abans de poder contruïr la majoría d'ítems i blocs taumatúrgics necessites descobrir como fer-ho. Hi ha alguns passos en aquest procés:<BR>(1) Explorar el món i analitzar blocs, objectes y criatures amb un §5Taumómetre§0<BR><BR>(2) Prendere els punts d'investigació reunits en el primer pas i expandir el coneixement dels Aspectes amb la §5Taula d'Investigació§0<BR><BR>(3) Usar los Aspectos que conoces y descubrir conocimientos prácticos y recetas en la §5Mesa de Investigación§0.<LINE>
 tc.research_page.RESEARCH.2=§l      §n(1) Exploración§r<BR><BR>No puedes realizar la investigación sin puntos de  investigación, y la mejor forma de ganar puntos de investigación es explorando y examinando objetos por el mundo.<BR>Lo primero que tendrás que hacer es construir un §5Taumómetro§0 (ver siguiente página). Al apuntar con el §5Taumómetro§0 a objetos o criaturas y manteniendo pulsado el botón derecho del ratón, comenzarás a examinarlos. El proceso no lleva mucho tiempo, pero tu velocidad de movimiento se reduce mientras lo haces.<BR>Una vez completo, el §5Taumómetro§0 mostrará qué aspectos contiene el objeto. En la parte inferior derecha de la pantalla también puedes ver un resumen de los aspectos y puntos de
 tc.research_page.RESEARCH.3=investigación que descubriste.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>Al principio no podrás examinar todos los objetos ya que no habrás descubierto los Aspectos que lo componen. Por ejemplo, un objeto que contenga el aspecto Lux unicamente podrá ser examinado si previamente has descubierto el aspecto Lux,  
 tc.research_page.RESEARCH.4=o saber los dos aspectos que al combinarlos lo crean.<BR>La primera vez que descubres un aspecto examinando algo ganarás el doble de puntos de investigación que ganarías normalmente.<BR>Por lo general los objetos y criaturas pueden ser examinados una única vez.<BR>En algunas ocasiones, examinar algo revelará pistas e intuiciones adicionales para la investigación taumatúrgica, obteniendo una serie de notas en las que podrás indagar más a fondo.
