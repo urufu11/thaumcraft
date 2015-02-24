@@ -1563,7 +1563,7 @@ tc.research_page.ELDRITCHMINOR.1=머릿속의 광명으로부터 갑작스런 �
 #
 tc.research_name.ELDRITCHMAJOR=드러난 이세계
 tc.research_text.ELDRITCHMAJOR=나는 무한의 경계 저 너머를 보고야 말았어...
-tc.research_page.ELDRITCHMAJOR.1=장막은 거두어지기 마련이고, 이계를 가린 장막이 지금 막, 내 머릿속에서 거둬졌다.<BR>나는 경이로움을 목격했다. 경이로움? 아니, 그건 경이로움이 아니야..내가 본 것은 말이ㅣㅈ 말ㅣㅇㅈ 마ㄹ 이ㅣㅈ<R><IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
+tc.research_page.ELDRITCHMAJOR.1=장막은 거두어지기 마련이고, 이계를 가린 장막이 지금 막, 내 머릿속에서 거둬졌다.<BR>나는 경이로움을 목격했다. 경이로움? 아니, 그건 경이로움이 아니야..내가 본 것은 말이ㅣㅈ 말ㅣㅇㅈ 마ㄹ 이ㅣㅈ<BR><IMG>thaumcraft:textures/misc/eldritchajor1.png:0:255:255:255:.5</IMG>
 tc.research_page.ELDRITCHMAJOR.2=§o나는 봤어.. 나는 봤어... 봤어.. 봤어.. 봤다고 봐버렸어!.... "나는 그들을 봤어"§r<BR><BR><IMG>thaumcraft:textures/misc/eldritchajor2.png:0:255:255:255:.5</IMG><BR><BR>
 #
 tc.research_name.VOIDMETAL=공허합금
