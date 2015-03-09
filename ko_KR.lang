@@ -44,7 +44,7 @@ entity.Thaumcraft.FrostShard.name=얼음 덩어리
 entity.Thaumcraft.ExplosiveOrb.name=폭탄 화염구
 entity.Thaumcraft.ShockOrb=충격적인 구체
 entity.Thaumcraft.GolemOrb.name=에너지 구체
-entity.Thaumcraft.BottleTaint.name=Bottled Taint
+entity.Thaumcraft.BottleTaint.name=테인트 병
 entity.Thaumcraft.Firebat.name=불박쥐
 entity.Thaumcraft.Wisp.name=위습
 entity.Thaumcraft.Alumentum.name=알루멘텀
@@ -1251,7 +1251,7 @@ tc.research_page.TINYHAT.1=이 작은 모자는 어느 골렘에게나 잘 어�
 #
 tc.research_name.TINYFEZ=작은 터키모자
 tc.research_text.TINYFEZ=...역시 멋져
-tc.research_page.TINYFEZ.1=이 독특한 모자를 착용한 골렘을 활력으로 가득 차 좀 더 빠르게 자가회복을 할 수 있게 됩니다.
+tc.research_page.TINYFEZ.1=이 독특한 모자를 착용한 골렘은 활력으로 가득 차 좀 더 빠르게 자가회복을 할 수 있게 됩니다.
 #
 tc.research_name.TINYBOWTIE=작은 나비넥타이
 tc.research_text.TINYBOWTIE=...멋지군
