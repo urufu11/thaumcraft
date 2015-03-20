@@ -1047,7 +1047,7 @@ tc.research_text.ROD_reed=Luftiger Visspeicher
 tc.research_page.ROD_reed.1=Ein Stabkern aus Zuckerrohr besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das §6Aer§0-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
 #
 tc.research_name.ROD_greatwood_staff=Magische Langstäbe
-tc.research_text.ROD_greatwood_staff=Zauberstäbe haben Knäufe an den Enden
+tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
 tc.research_page.ROD_greatwood_staff.1=Stäbe sind das Handwerkszeug von jedem Thaumaturgen, aber manchmal sind die einfach nicht befriedigend. Magische Langstäbe sind an sich nur größere Stäbe, die mehr Vis speichern können.<BR>Weil sie größer und auch stabiler als normale Stäbe sind, können sie im Notfall sogar als Waffe eingesetzt werden.<BR>Leider macht sie das unbrauchbar für die komplizierten Vorgänge und die gute Kontrolle, die Arkane Werkbänke oder ähnliche Geräte erfordern.
 tc.research_page.ROD_greatwood_staff.2=Ein Langstab aus Großholz hat mehr als das doppelte Speicherpotential eines normalen Großholzstabes, er kann bis zu 125 Vis jedes Typs speichern.<BR>Anmerkung: Du musst trotz allem Kappen auf den Langstab setzen, damit er funktioniert, genau wie bei normalen Stäben.
 #
@@ -1125,7 +1125,7 @@ tc.research_text.FOCUSPOUCH=Angenehmer Behälter für deine Foki
 tc.research_page.FOCUSPOUCH.1=Nachdem du eine ansehnliche Sammlung an Foki zusammengetragen hast, ist es recht lästig, sie alle immer mit dir zu tragen. Diese Tasche löst das Problem.<BR>Immer, wenn du den Fokus an deinem Zauberstab wechselst, versucht der Stab zunächst, den Fokus in der Tasche abzulegen. Ebenso kannst du mit der Tasche rechtsklicken, um Foki manuell abzulegen.<BR>Er kann ebenfalls in deinem Gürtel-Slot getragen werden.
 #
 tc.research_name.BOOTSTRAVELLER=Stiefel des Reisenden
-tc.research_text.BOOTSTRAVELLER=Diese Stiefel wurden für das Laufen erschaffen
+tc.research_text.BOOTSTRAVELLER=These boots were made for walking
 tc.research_page.BOOTSTRAVELLER.1=Dieses Paar verzauberter Schuhe ist voll mit Magie, um den Weg eines jeden Reisenden zu erleichtern.<BR>Sie erlauben dir, dich schneller zu bewegen und höher und weiter zu springen als je zuvor.<BR>Außerdem erlauben sie dir, wie ein Fisch durch das Wasser zu pflügen. Wie ein ungeschickter, langsamer Fisch, aber immerhin ein Fisch...
 #
 tc.research_name.PHIAL=Glasphiole
@@ -1305,7 +1305,7 @@ tc.research_name.COREUSE=Golemkern: Nutzen
 tc.research_text.COREUSE=Klickedieklick
 tc.research_page.COREUSE.1=Wie beim "Leeren"-Kern entnehmen Golems mit diesem Kern Items aus dem zugewiesenen Inventar, aber anstatt sie in ein anderes Inventar zu legen oder in die Gegend zu werfen, versuchen sie, die Items an einem Zielblock oder einer Zielgegend zu benutzen.<BR>Dabei gehen sie vor, als wären sie ein Spieler, der mit dem Item auf das gewählte Ziel rechts- oder linksklickt - du bestimmst, was von beidem getan wird.<BR>Wenn du willst, kannst du festlegen, welche Items entfernt werden sollen, indem du das Interface des Golems öffnest. Alle anderen Items werden ignoriert.
 tc.research_page.COREUSE.2=Wenn der Golem nicht an ein Inventar gebunden ist, wird er versuchen, seine Aktion mit leeren Händen auszuführen - einfach auf das Ziel zu klicken, wie angeordnet.<LINE>Du bist fähig, dem Golem zu sagen, wie auf etwas 'geklickt' werden soll - statt nur zu sagen, rechts- oder linkszuklicken, kannst du auch bestimmen, ob der Golem bei der Ausführung schleichen soll oder nicht.<BR>Du kannst auch bestimmen, ob er nur auf Luft statt auf einen Block klicken soll.
-tc.research_page.COREUSE.3= §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Dieses Upgrade erhöht die Geschwindigkeit, mit welcher der Golem den Zielblock oder -raum klicken kann.
+tc.research_page.COREUSE.3=    §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Dieses Upgrade erhöht die Geschwindigkeit, mit welcher der Golem den Zielblock oder -raum klicken kann.
 #
 tc.research_name.COREFILL=Golemkern: Füllen
 tc.research_text.COREFILL=Ein Inventar gefüllt haltend
@@ -1314,7 +1314,7 @@ tc.research_page.COREFILL.1=Mit diesem Kern ausgestattete Golems durchsuchen von
 tc.research_name.COREHARVEST=Golemkern: Ernten
 tc.research_text.COREHARVEST=Animierter Farmer
 tc.research_page.COREHARVEST.1=Golems mit diesem Kern muss kein Inventar zugewiesen werden. Sie suchen reifes Getreide, Zuckerrohr und andere angebaute Pflanzen in einem kleinen Umkreis und ernten sie. Die Ernte wird auf den Boden fallen gelassen und muss irgendwie gesammelt werden.<BR>Leider sind sie nicht intelligent genug, um geerntetes Getreide nachzupflanzen, aber du bist dir sicher, dass du diesen Makel mit etwas Aufwand beheben könntest.
-tc.research_page.COREHARVEST.2= §nOrdnungs-Upgrade freigeschaltet§r <IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Ernte-Golems mit diesem Upgrade versuchen nun, geerntetes Getreide neu zu pflanzen. Dies kann fehlschlagen, wenn die Pflanze keinen brauchbaren Samen hat fallen lassen.
+tc.research_page.COREHARVEST.2=    §nOrdnungs-Upgrade freigeschaltet§r <IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Ernte-Golems mit diesem Upgrade versuchen nun, geerntetes Getreide neu zu pflanzen. Dies kann fehlschlagen, wenn die Pflanze keinen brauchbaren Samen hat fallen lassen.
 #
 tc.research_name.CORELUMBER=Golemkern: Fällen
 tc.research_text.CORELUMBER=Animierter Holzfäller
@@ -1323,7 +1323,7 @@ tc.research_page.CORELUMBER.1=Wie Ernte-Golems können auch Holzfäller-Golems �
 tc.research_name.COREGUARD=Golemkern: Schützen
 tc.research_text.COREGUARD=Schützt deine Wertsachen
 tc.research_page.COREGUARD.1=Golems mit diesem Kern arbeiten als Wachen, sie greifen jede feindliche Kreatur in Reichweite an.<BR>Du bist sicher, dass du mit ein wenig Bastelei die Golems präziser bei der Auswahl ihrer Ziele machen kannst, aber im Moment suchen sie nur aggressive Monster, außer Creeper.
-tc.research_page.COREGUARD.2= §nOrdnungs-Upgrade freigeschaltet§r <IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Mit diesem Upgrade kannst du festlegen, welche Kreaturen der Golem angreifen soll. Außerdem kann der Golem auch andere Wesen als Feinde angreifen.
+tc.research_page.COREGUARD.2=    §nOrdnungs-Upgrade freigeschaltet§r <IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Mit diesem Upgrade kannst du festlegen, welche Kreaturen der Golem angreifen soll. Außerdem kann der Golem auch andere Wesen als Feinde angreifen.
 #
 tc.research_name.COREBUTCHER=Golemkern: Schlachten
 tc.research_text.COREBUTCHER=Blutige Angelegenheit
@@ -1332,7 +1332,7 @@ tc.research_page.COREBUTCHER.1=Dieser Kern ist eine Verbesserung des normalen Sc
 tc.research_name.CORELIQUID=Golemkern: Umfüllen
 tc.research_text.CORELIQUID=Halte einen Tank gefüllt mit Flüssigkeit
 tc.research_page.CORELIQUID.1=Golems mit diesem Kern bemühen sich, den ihnen zugewiesenen Tank mit der richtigen Flüssigkeit gefüllt zu halten.<BR>Wenn du willst, kannst du festlegen, welche Flüssigkeit in den Tank gebracht werden soll, indem du das Interface des Golems öffnest und einen Behälter mit der Flüssigkeit (etwa einen Eimer) in ein Feld legst. Alle anderen Flüssigkeiten werden ignoriert.<BR>Ein Umfüll-Golem kann nur 100mB an Flüssigkeit pro Item, dass ein Sammel-Golem aus dem selben Material tragen dürfte, transportieren. Dennoch sieht es so aus, als würden sie immer einen ganzen Eimer voll Flüssigkeit tragen, wenn sie angewiesen wurden, Quellblöcke aufzunehmen.
-tc.research_page.CORELIQUID.2= §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Mit diesem Upgrade wird der Golem versuchen, den am weitesten entfernten Flüssigkeitsblock zuerst aufzunehmen, der an einen Block, den du markiert hast, anschließt. Dies erlaubt ihnen, ganze Becken einer Flüssigkeit zu leeren, nicht nur den Block, den du markiert hast.<BR>Er wird lediglich so weit suchen, wie er blicken kann; die Distanz wird als Anzahl der Blöcke vom markierten zum Zielblock gemessen, nicht in einer geraden Linie.
+tc.research_page.CORELIQUID.2=    §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Mit diesem Upgrade wird der Golem versuchen, den am weitesten entfernten Flüssigkeitsblock zuerst aufzunehmen, der an einen Block, den du markiert hast, anschließt. Dies erlaubt ihnen, ganze Becken einer Flüssigkeit zu leeren, nicht nur den Block, den du markiert hast.<BR>Er wird lediglich so weit suchen, wie er blicken kann; die Distanz wird als Anzahl der Blöcke vom markierten zum Zielblock gemessen, nicht in einer geraden Linie.
 #
 tc.research_name.CORESORTING=Golemkern: Sortieren
 tc.research_text.CORESORTING=Alles in Ordnung
@@ -1341,10 +1341,10 @@ tc.research_page.CORESORTING.1=Dieser Kern funktioniert fast wie der Leeren-Kern
 tc.research_name.COREFISHING=Golemkern: Angeln
 tc.research_text.COREFISHING=Petri heil!
 tc.research_page.COREFISHING.1=Dieser Kern ermöglicht es einem Golem, für dich zu angeln.<BR>Für beste Ergebnisse muss der Golem nahe tiefen und offenen Wassers platziert werden.<BR>Die Stärke des Golems bestimmt die Angelgeschwindigkeit.<BR>
-tc.research_page.COREFISHING.2= §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade hat eine geringe Chance, mehr als ein Ding auf einmal zu fangen.
-tc.research_page.COREFISHING.3= §nFeuer-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade wird automatisch allen Fisch, den er fängt, kochen.
-tc.research_page.COREFISHING.4= §nOrdnungs-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Odnungs-Upgrades werden die Chance für gute Angel-Resultate erhöhen.
-tc.research_page.COREFISHING.5= §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropie-Upgrades werden die Chance für schlechte Angel-Resultate verringern.
+tc.research_page.COREFISHING.2=      §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade hat eine geringe Chance, mehr als ein Ding auf einmal zu fangen.
+tc.research_page.COREFISHING.3=      §nFeuer-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade wird automatisch allen Fisch, den er fängt, kochen.
+tc.research_page.COREFISHING.4=     §nOrdnungs-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Odnungs-Upgrades werden die Chance für gute Angel-Resultate erhöhen.
+tc.research_page.COREFISHING.5=    §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropie-Upgrades werden die Chance für schlechte Angel-Resultate verringern.
 #
 tc.research_name.COREALCHEMY=Golemkern: Alchemie
 tc.research_text.COREALCHEMY=Essentia herumbewegen
@@ -1353,7 +1353,7 @@ tc.research_page.COREALCHEMY.2=Ebenfalls werden sie Gläser mit Schildern solche
 #
 tc.research_name.UPGRADEAIR=Golemupgrade: Luft
 tc.research_text.UPGRADEAIR=Macht deinen Golem schneller
-tc.research_page.UPGRADEAIR.1=Wenn dieses Upgrade an einem Golem angebracht wird, erhöht es die Bewegungs- und Fernkampfgeschwindigkeit des Golems.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
+tc.research_page.UPGRADEAIR.1=Wenn dieses Upgrade an einem Golem angebracht wird, erhöht es die Bewegungs- und Fernkampfgeschwindigkeit des Golems.<BR>Bestimmte Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
 #
 tc.research_name.UPGRADEEARTH=Golemupgrade: Erde
 tc.research_text.UPGRADEEARTH=Macht deinen Golem stärker
@@ -1361,11 +1361,11 @@ tc.research_page.UPGRADEEARTH.1=Dieses Upgrade erhöht die Anzahl an Items, die 
 #
 tc.research_name.UPGRADEFIRE=Golemupgrade: Feuer
 tc.research_text.UPGRADEFIRE=Feuert deinen Golem an
-tc.research_page.UPGRADEFIRE.1=Dieses Upgrade erweitert das Interface-Inventar des Golems, dadurch können mehr Items gefiltert oder sortiert werden. Die Zahl an hinzugefügten Slots hängt von der Nummer der normalerweise verfügbaren Slots ab.<BR>Die Nahkampfattacken des Golems entzünden seinen Gegner.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
+tc.research_page.UPGRADEFIRE.1=Dieses Upgrade erweitert das Interface-Inventar des Golems, dadurch können mehr Items gefiltert oder sortiert werden. Die Zahl an hinzugefügten Slots hängt von der Nummer der normalerweise verfügbaren Slots ab.<BR>Die Nahkampfattacken des Golems entzünden seinen Gegner.<BR>Bestimmte Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
 #
 tc.research_name.UPGRADEWATER=Golemupgrade: Wasser
 tc.research_text.UPGRADEWATER=Macht deinen Golem scharfsinniger
-tc.research_page.UPGRADEWATER.1=Dieses Upgrade erhöht die Sichtweite der meisten Golems, dadurch können sie sich weiter bewegen, um ihre Aufgaben auszuführen.<BR>Ebenso erhöht es die Reichweite und Genauigkeit von Fernkampfattacken.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
+tc.research_page.UPGRADEWATER.1=Dieses Upgrade erhöht die Sichtweite der meisten Golems, dadurch können sie sich weiter bewegen, um ihre Aufgaben auszuführen.<BR>Ebenso erhöht es die Reichweite und Genauigkeit von Fernkampfattacken.<BR>Bestimmte Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
 #
 tc.research_name.UPGRADEORDER=Golemupgrade: Ordnung
 tc.research_text.UPGRADEORDER=Macht deinen Golem organisierter
@@ -1373,7 +1373,7 @@ tc.research_page.UPGRADEORDER.1=Dieses Upgrade ermöglicht es Golems, Farben zu 
 #
 tc.research_name.UPGRADEENTROPY=Golemupgrade: Entropie
 tc.research_text.UPGRADEENTROPY=Macht deinen Golem bissig... und ungenau
-tc.research_page.UPGRADEENTROPY.1=Golems mit diesem Upgrade verletzen automatisch alles, was ihnen Schaden zufügt.<BR>Ebenfalls werden Golems mit diesem Upgrade mehr Kontrolle darüber haben, welche Items sie suchen. Du wirst fähig sein, sie Metadaten und NBT-Daten ignorieren sowie im OreDictionary nach ähnlichen Items suchen zu lassen.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
+tc.research_page.UPGRADEENTROPY.1=Golems mit diesem Upgrade verletzen automatisch alles, was ihnen Schaden zufügt.<BR>Ebenfalls werden Golems mit diesem Upgrade mehr Kontrolle darüber haben, welche Items sie suchen. Du wirst fähig sein, sie Metadaten und NBT-Daten ignorieren sowie im OreDictionary nach ähnlichen Items suchen zu lassen.<BR>Bestimmte Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
 #
 tc.research_name.TINYHAT=Winzige Hüte
 tc.research_text.TINYHAT=Halten die Sonne unter Kontrolle
@@ -1522,7 +1522,7 @@ tc.research_page.INFUSIONENCHANTMENT.3=Zusätzliche Kosten entstehen, wenn das I
 tc.research_name.ARCANELAMP=Arkane Lampe
 tc.research_text.ARCANELAMP=Große Erleuchtung
 tc.research_page.ARCANELAMP.1=Diese mystische Lampe kann an Wänden, Böden oder Decken angebracht werden und spendet helles und gleichmäßiges Licht.<BR>Zusätzliche Lichtquellen können bis zu 16 Blöcke entfernt entstehen, wenn der Lichtlevel dort unterhalb von es "sicheren" Levels liegt. Vergiss niemals: Nur DU kannst die Zombie-Apokalypse verhindern.<BR>Diese sekundären Lichtquellen verschwinden, kurz nachdem die Lampe entfernt wurde.<LINE>Du bist sicher, dass du noch weitere Verwendung für diese Lampe finden wirst, also schlage nochmal nach, wenn du weitere Entdeckungen gemacht hast.
-tc.research_page.ARCANELAMP.2= §nArkaner Bohrer§r<BR>In Verbindung mit dem Gestell des Arkanen Bohrers erhält die Arkane Lampe eine weitere Fähigkeit: Sie beleuchtet den Tunnel, den der Bohrer gräbt.
+tc.research_page.ARCANELAMP.2=           §nArkaner Bohrer§r<BR>In Verbindung mit dem Gestell des Arkanen Bohrers erhält die Arkane Lampe eine weitere Fähigkeit: Sie beleuchtet den Tunnel, den der Bohrer gräbt.
 #
 tc.research_name.BASICARTIFACE=Basis-Artefaktkreierung
 tc.research_text.BASICARTIFACE=Notwendige Dinge
@@ -1530,7 +1530,7 @@ tc.research_page.BASICARTIFACE.1=§nUrsprungstalisman§r<BR><BR>Ursprungstalisma
 #
 tc.research_name.TUBES=Essentiaröhren
 tc.research_text.TUBES=Transport von Essentia
-tc.research_page.TUBES.1=Du hast verschiedene Wege entdeckt, um Essentia zu transportieren, aber keiner von ihnen hat sich für Alchemie in großem Stil als brauchbar erwiesen - bis jetzt.<BR>Du weißt jetzt, wie man stabile und relativ dichte Röhren herstellt. Während man normale Chemikalien in Glas transportieren kann, können bestimme Arten von Essentia sich entweder auflösen oder aber hindurch diffundieren. Indem du das Glas in Eisen einfasst und es mit Quecksilber behandelst, kannst du selbst die flüchtigsten Arten von Essentia beschützen. Goldene Anschlüsse geben dem Röhrensystem den letzten Schliff und machen es optisch ansprechend.
+tc.research_page.TUBES.1=Du hast verschiedene Wege entdeckt, um Essentia zu transportieren, aber keiner von ihnen hat sich für Alchemie in großem Stil als brauchbar erwiesen - bis jetzt.<BR>Du weißt jetzt, wie man stabile und relativ dichte Röhren herstellt. Während man normale Chemikalien in Glas transportieren kann, können bestimmte Arten von Essentia sich entweder auflösen oder aber hindurch diffundieren. Indem du das Glas in Eisen einfasst und es mit Quecksilber behandelst, kannst du selbst die flüchtigsten Arten von Essentia beschützen. Goldene Anschlüsse geben dem Röhrensystem den letzten Schliff und machen es optisch ansprechend.
 tc.research_page.TUBES.2=Die Röhren können mit allen möglichen alchemischen Geräten verbunden werden, Bannende Gläser und Alambiken sind jedoch ihre Hauptbestimmung.<BR>Essentia fließt immer dann durch die Röhren, wenn diese mit etwas verbunden sind, das sie aufnehmen kann, etwa Bannende Gläser.<BR>Gläser mit verschiedenen Sorten Essentia werden nur den in ihnen enthaltenen Essentia-Typ zu sich saugen. Die Röhren können jedoch nur eine Art Essentia gleichzeitig saugen und transportieren - die höchste Saugkraft hat Priorität. Ohne die richtige Verwendung von Ventilen ist es sehr leicht, ein Röhrennetz zu verstopfen. Der Gebrauch von Ventilen ist unerlässlich.<BR>Wenn du Röhren siehst,
 tc.research_page.TUBES.3=an denen Essentia austritt, bedeutet das, dass verschiedene Saugkräfte interferieren. Die Farbe gibt dir einen Hinweis auf die Art der Absaugung.<LINE>Das Essentia-Ventil verhält sich wie eine normale Röhre, außer dass es manuell oder mit einem Redstone-Signal geschlossen werden kann. In diesem Fall wird der Essentiafluss unterbrochen.<LINE>Der Essentia-Resonator ist nützlich, um Fehler in deinem Netzwerk zu finden. Du kannst ihn an einer Röhre oder einem verbundenen Gerät verwenden, um zu sehen, welche Essentia es momentan enthält und wie groß die Saugkraft ist.
 tc.research_page.TUBES.4=Röhren können von ihren Nachbarn getrennt und wieder verbunden werden, indem man mit einem Stab auf einen Röhrenabschnitt klickt.<BR>Der Stab kann auch verwendet werden, um auf das Mittelstück zu klicken, um bestimmte Röhren wie das Ventil zu rotieren.
@@ -1545,12 +1545,12 @@ tc.research_name.TRAVELTRUNK=Reisekoffer
 tc.research_text.TRAVELTRUNK=Mobiles Gepäck
 tc.research_page.TRAVELTRUNK.1=Durch erweiterte Forschung in der Golemantik hast du einen nützlichen Begleiter für alle Thaumaturgen geschaffen, die viel unterwegs sind: Den Reisekoffer.<BR>Diese hölzerne Kiste folgt fröhlich hüpfend ihrem Meister, immer bereit einen praktischen Lagerraum für alles, was du aufsammelst, anzubieten.<BR>Der Reisekoffer kann viel Schaden einstecken. Er ist äußerst resistent gegenüber Feuer und nimmt keinen Fallschaden.<BR>Der Koffer kann seinem Meister überall hin folgen - sogar in andere Dimensionen. Solltest du jedoch wünschen, dass er da bleibt, wo er ist, gibt es dafür einen Knopf in seinem Interface.
 tc.research_page.TRAVELTRUNK.2=Der Reisekoffer heilt sich im Laufe der Zeit selbst, doch mit etwas Nahrung lässt es sich beschleunigen.<BR>Wie normale Golems auch, kann der Reisekoffer durch einen Linksklick mit der Glocke des Golemanten aufgehoben werden. Dabei lässt er alle Items aus seinem Inventar fallen. Mit einem Shift-klick wird er auch alle Upgrades, die du angebracht hast, mit der normalen Verlustchance fallen lassen.<BR>Wie normale Golems kann er mit einem einzelnen Upgrade versehen werden, das dem Koffer besondere Fähigkeiten ermöglicht. Mehr dazu findest du auf den folgenden Seiten, wenn du die entsprechenden Upgrades entdeckst.
-tc.research_page.TRAVELTRUNK.UAI= §nGolemupgrade: Luft§r<BR>Mit diesem Upgrade ist der Reisekoffer in der Lage, sich schneller zu bewegen.
-tc.research_page.TRAVELTRUNK.UEA= §nGolemupgrade: Erde§r<BR>Mit diesem Upgrade kann der Reisekoffer mehr Items transportieren und erhält eine zusätzliche Reihe Inventarplatz.
-tc.research_page.TRAVELTRUNK.UFI= §nGolemupgrade: Feuer§r<BR>Mit diesem Upgrade verteidigt der Reisekoffer seinen Meister, wenn dieser angegriffen wird.
-tc.research_page.TRAVELTRUNK.UWA= §nGolemupgrade: Wasser§r<BR>Mit diesem Upgrade kann der Reisekoffer nur von seinem Meister aufgenommen oder geöffnet werden.<BR>Zusätzlich wird er selbst gegen die größten Schäden sehr widerstandsfähig.
-tc.research_page.TRAVELTRUNK.UOR= §nGolemupgrade: Ordnung§r<BR>Mit diesem Upgrade wird der Reisekoffer seinen Inhalt behalten, wenn er mit der Glocke des Golemanten aufgenommen wurde. Er lässt seinen Inhalt fallen, wenn shift-klick benutzt wird.
-tc.research_page.TRAVELTRUNK.UEN= §nGolemupgrade: Entropie§r<BR>Mit diesem Upgrade wird der Reisekoffer automatisch alle Items in der Nähe aufsaugen, für die er Platz hat.
+tc.research_page.TRAVELTRUNK.UAI=      §nGolemupgrade: Luft§r<BR>Mit diesem Upgrade ist der Reisekoffer in der Lage, sich schneller zu bewegen.
+tc.research_page.TRAVELTRUNK.UEA=      §nGolemupgrade: Erde§r<BR>Mit diesem Upgrade kann der Reisekoffer mehr Items transportieren und erhält eine zusätzliche Reihe Inventarplatz.
+tc.research_page.TRAVELTRUNK.UFI=     §nGolemupgrade: Feuer§r<BR>Mit diesem Upgrade verteidigt der Reisekoffer seinen Meister, wenn dieser angegriffen wird.
+tc.research_page.TRAVELTRUNK.UWA=     §nGolemupgrade: Wasser§r<BR>Mit diesem Upgrade kann der Reisekoffer nur von seinem Meister aufgenommen oder geöffnet werden.<BR>Zusätzlich wird er selbst gegen die größten Schäden sehr widerstandsfähig.
+tc.research_page.TRAVELTRUNK.UOR=    §nGolemupgrade: Ordnung§r<BR>Mit diesem Upgrade wird der Reisekoffer seinen Inhalt behalten, wenn er mit der Glocke des Golemanten aufgenommen wurde. Er lässt seinen Inhalt fallen, wenn shift-klick benutzt wird.
+tc.research_page.TRAVELTRUNK.UEN=    §nGolemupgrade: Entropie§r<BR>Mit diesem Upgrade wird der Reisekoffer automatisch alle Items in der Nähe aufsaugen, für die er Platz hat.
 #
 tc.research_name.LAMPGROWTH=Lampe des Wachstums
 tc.research_text.LAMPGROWTH=Dinge zum Wachsen motivieren
