@@ -9,7 +9,7 @@ enchantment.special.sapgreat=Starkes Zehren
 potion.fluxtaint=Fluxvergiftung
 potion.soulshatter=Seelensplittern
 potion.visexhaust=Fluxgrippe
-potion.infvisexhaust=Fluxphage
+potion.infvisexhaust=Fluxvirus
 potion.unhunger=Unnatürlicher Hunger
 potion.warpward=Warpbann
 potion.deathgaze=Tödlicher Blick
@@ -19,16 +19,16 @@ potion.thaumarhia=Thaumarhoe
 #
 # Warp
 warp.text.1=Du fühlst dich auf eigenartige Weise leer.
-warp.text.2=Ein spontaner und unnatürlicher Hunger sucht dich heim.
+warp.text.2=Ein plötzlicher und unnatürlicher Hunger sucht dich heim.
 warp.text.hunger.1=Dein Hunger kann mit gewöhnlicher Nahrung nicht gestillt werden.
 warp.text.hunger.2=Dein Hunger scheint zu verschwinden.
-warp.text.3=Selsame Stimmen enthüllen dir Geheimnisse.
+warp.text.3=Seltsame Stimmen enthüllen dir Geheimnisse.
 warp.text.4=Deine Sicht wird seltsam und schummrig.
 warp.text.5=Das Licht wird auf einmal unglaublich hell und verbrennt deine Haut.
 warp.text.6=Ein dichter Nebel kommt aus dem Nichts. Irgendetwas rührt sich in seinen Tiefen.
 warp.text.7=Sie sind überall! Lauf!
-warp.text.8=Es muss doch irgendeinen Weg geben, diese Kopfschmerzen zu loszuwerden... Oder?
-warp.text.9=Du fühlst dich plötzlich schlecht dabei, Dinge abzubauen.
+warp.text.8=Es muss doch irgendeinen Weg geben, diese Kopfschmerzen loszuwerden... Oder?
+warp.text.9=Du fühlst dich plötzlich zu schwach um Dinge abzubauen.
 warp.text.10=Deine Wahrnehmung erweitert sich plötzlich.
 warp.text.11=Was war das für ein Geräusch? Etwas ist hinter dir.
 warp.text.12=Irgendetwas folgt dir.
@@ -42,7 +42,7 @@ entity.Thaumcraft.ThaumSlime.name=Thaumischer Schleim
 entity.Thaumcraft.Dart.name=Golemdart
 entity.Thaumcraft.FrostShard.name=Frostscherbe
 entity.Thaumcraft.ExplosiveOrb.name=Explosiver Feuerball
-entity.Thaumcraft.ShockOrb.name=Shockierender Orb
+entity.Thaumcraft.ShockOrb.name=Schockierender Orb
 entity.Thaumcraft.GolemOrb.name=Energie-Orb
 entity.Thaumcraft.BottleTaint.name=Abgefüllter Schmutz
 entity.Thaumcraft.Firebat.name=Flammfledermaus
@@ -105,7 +105,7 @@ champion.mod.infested=Verpestete
 tc.boss.crimson=Ein Rubinportal öffnet sich in der Nähe, die Ankunft des Karmesinkultes ankündigend. Du musst das Portal schnell verschließen!
 tc.boss.golem=Ein einsamer Wächter steht wie gefroren in diesem Raum, aber als Energie beginnt, durch seine antike Gestalt zu dringen, weißt du, dass er nicht mehr für lange eingefroren bleibt.
 tc.boss.warden=Schwarze Energie brodelt auf den entfernten Sockeln. Irgendetwas naht...
-tc.boss.taint=Ein organisches Rascheln kommt aus dem hinteren Raum. Das Geräusch vom irgendetwas Falschem... irgentetwas Wachsendem...
+tc.boss.taint=Ein organisches Rascheln kommt aus dem hinteren Raum. Das Geräusch vom irgendetwas Falschem... irgendetwas Wachsendem...
 #
 # Blocks
 tile.blockAiry.0.name=Auranodie
@@ -395,7 +395,7 @@ item.ItemShard.1.name=Feuer-Scherbe
 item.ItemShard.2.name=Wasser-Scherbe
 item.ItemShard.3.name=Erd-Scherbe
 item.ItemShard.4.name=Ordnungs-Scherbe
-item.ItemShard.5.name=Entropie-Scherbe
+item.ItemShard.5.name=Chaos-Scherbe
 item.ItemShard.6.name=Balance-Scherbe
 item.ItemPrimalArrow.0.name=Luftpfeil
 item.ItemPrimalArrow.1.name=Feuerpfeil
@@ -634,8 +634,8 @@ focus.upgrade.dowsing.text=Dieses Upgrade gibt dem Grabefokus eine geringe Chanc
 #
 # GUI
 golemblurb.0.text=Was soll ich hier behalten, Meister?
-golemblurb.1.text=Meister, soll ich alles aus diesem Behälter entfernen oder irgendwas bestimmtes?
-golemblurb.2.text=Meister, soll ich irgendwas bestimmtes aufsammeln oder weitermachen alles aufzusammeln?
+golemblurb.1.text=Meister, soll ich alles aus diesem Behälter entfernen oder irgendetwas bestimmtes?
+golemblurb.2.text=Meister, soll ich irgendetwas bestimmtes aufsammeln oder weitermachen alles aufzusammeln?
 golemblurb.3.text=??
 golemblurb.4.text=Ich werde diesen Bereich schützen, Meister.
 golemblurb.5.text=Soll ich alle Flüssigkeiten sammeln oder nur jene, die du festlegst? Zeige mir einfach einen Container mit der Flüssigkeit und ich werde tun was du sagst!
@@ -721,7 +721,7 @@ tc.removewarpsticky=§5Du bist Warp losgeworden!§0
 tc.removewarptemp=§5Du bist temporären Warp losgeworden!§0
 tc.forbidden=§l§5Verbotenes Wissen (%n)§0
 tc.forbidden.level.1=Hauptsächlich harmlos
-tc.forbidden.level.2=Gerinfügig gefährlich
+tc.forbidden.level.2=Geringfügig gefährlich
 tc.forbidden.level.3=Mäßig gefährlich
 tc.forbidden.level.4=Gefährlich
 tc.forbidden.level.5=Tabu
@@ -870,35 +870,35 @@ tc.research_category.GOLEMANCY=Golemantik
 tc.research_category.ELDRITCH=Unnatürliches
 #
 # Special formatting codes:
-# <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
-# <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
-# <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
-#                    - mod resource location name
-#                    - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
-#                    - x location of sub-image in png
-#                    - y location of sub-image in png
-#                    - x size of sub-image (255 if full x size of png must be used)
-#                    - y size of sub-image (255 if full y size of png must be used)
-#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)
-#               Examples:
-#                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
-#                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
+# <BR> or <BR/> Paragraph break (<BR/> is included for people using XML for their localization)
+# <LINE> or <LINE/> Insert a fancy linebreak between sections of text.
+# <IMG>...</IMG> Insert a centered image into text. Parameters are separated by ':' and are:
+# - mod resource location name
+# - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
+# - x location of sub-image in png
+# - y location of sub-image in png
+# - x size of sub-image (255 if full x size of png must be used)
+# - y size of sub-image (255 if full y size of png must be used)
+# - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)
+# Examples:
+# <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG> <-- line break image as used in <LINE> above
+# <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG> <-- alumentum item icon
 #
 # Research entries
 tc.research_name.RESEARCH=Forschung
 tc.research_text.RESEARCH=Wie man Dinge entdeckt
 tc.research_page.RESEARCH.1=Bevor du die meisten thaumaturgischen Items und Blöcke herstellen kannst, musst du erst lernen, wie es geht. In diesem Prozess gibt es einige Schritte:<BR>(1) Erforsche die Welt und untersuche Blöcke, Items und Kreaturen mit einem §5Thaumometer§0<BR><BR>(2) Benutze die im ersten Schritt gesammelten Forschungspunkte und erweitere dein Wissen über die Aspekte mit einem §5Forschungstisch§0<BR><BR>(3) Lerne praktisches Wissen und Rezepte mit dem §5Forschungstisch§0, indem du deine bekannten Aspekte verwendest.<LINE>
-tc.research_page.RESEARCH.2=§l      §n(1) Erforschen§r<BR><BR>Du kannst ohne Forschungspunkte keine Forschung betreiben. Der beste Weg, diese zu bekommen ist, indem du die Welt erforscht und Objekte untersuchst.<BR>Zuerst musst du dafür ein §5Thaumometer§0 (siehe nächste Seite) herstellen. Du untersuchst Objekte und Kreaturen, indem du dein §5Thaumometer§0 darauf richtest und die rechte Maustaste gedrückt hältst. Es dauert nicht lange, aber währenddessen ist deine Beweglichkeit eingeschränkt.<BR>Anschließend zeigt das §5Thaumometer§0 an, welche Aspekte das Objekt enthält. In der unteren rechten Bildschirmecke kannst du eine Zusammenfassung der Aspekte und Forschungspunkte sehen,
+tc.research_page.RESEARCH.2=§l §n(1) Erforschen§r<BR><BR>Du kannst ohne Forschungspunkte keine Forschung betreiben. Der beste Weg, diese zu bekommen ist, indem du die Welt erforscht und Objekte untersuchst.<BR>Zuerst musst du dafür ein §5Thaumometer§0 (siehe nächste Seite) herstellen. Du untersuchst Objekte und Kreaturen, indem du dein §5Thaumometer§0 darauf richtest und die rechte Maustaste gedrückt hältst. Es dauert nicht lange, aber währenddessen ist deine Beweglichkeit eingeschränkt.<BR>Anschließend zeigt das §5Thaumometer§0 an, welche Aspekte das Objekt enthält. In der unteren rechten Bildschirmecke kannst du eine Zusammenfassung der Aspekte und Forschungspunkte sehen,
 tc.research_page.RESEARCH.3=die du entdeckt hast.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>Anfangs kannst du noch nicht alle Objekte untersuchen, da du noch nicht ihre Verbundaspekte entdeckt hast. Ein Objekt mit Lux beispielsweise kann nur dann erforscht werden, wenn du zuvor Lux entdeckt hast oder die Aspekte
 tc.research_page.RESEARCH.4=kennst, aus denen es kombiniert wird.<BR>Wenn du einen Aspekt das erste Mal entdeckst, erhältst du die doppelte Anzahl an Forschungspunkten wie normal.<BR>Objekte und Kreaturen können für gewöhnlich nur einmal untersucht werden.<BR>Manchmal enthüllt eine Untersuchung Hinweise und Einblicke in eine thaumaturgische Forschung, deren Notizen du für weitere Forschung benutzen kannst.<BR>Eine so entdeckte Forschung hat ein oranges Symbol.
-tc.research_page.RESEARCH.5=§l   §n(2) Aspekte verbinden§r<BR><BR>Nachdem du Forschungspunkte gesammelt hast, kannst du versuchen, sie am Forschungstisch zu Verbundaspekten zu kombinieren.<BR>Um einen Forschungstisch zu bauen, musst du lediglich zwei §5Tische§0 nebeneinander stellen und sie mit einem Schreibset anklicken. Das Rezept für Tische befindet sich in der Kategorie §5Artefakte§0.<BR>Wenn du das Inventar des Forschungstisches öffnest, siehst du das rechts gezeigte Interface.<BR>Das Schreibset, dass du zur Herstellung benutzt hast, befindet sich bei §l1§r.
+tc.research_page.RESEARCH.5=§l §n(2) Aspekte verbinden§r<BR><BR>Nachdem du Forschungspunkte gesammelt hast, kannst du versuchen, sie am Forschungstisch zu Verbundaspekten zu kombinieren.<BR>Um einen Forschungstisch zu bauen, musst du lediglich zwei §5Tische§0 nebeneinander stellen und sie mit einem Schreibset anklicken. Das Rezept für Tische befindet sich in der Kategorie §5Artefakte§0.<BR>Wenn du das Inventar des Forschungstisches öffnest, siehst du das rechts gezeigte Interface.<BR>Das Schreibset, dass du zur Herstellung benutzt hast, befindet sich bei §l1§r.
 tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>Du solltest alle primären (und vielleicht einige verbundene) Aspekte im Bereich §l3§r mit unterschiedlichen Anzahlen aufgelistet sehen können. Wenn du eine Welt zum ersten Mal betrittst, erhältst du eine kleine Anzahl an primären Aspekten, um anfangen zu können.<BR>Wenn du mit dem Thaumometer
 tc.research_page.RESEARCH.7=bereits unterwegs warst, könnte hier bereits eine große Anzahl an primären und Verbundaspekten zu finden sein.<BR>Jetzt kannst du beginnen, Aspekte zu komplexeren verbundenen zu kombinieren, indem du die gewünschten Aspekte anklickst oder sie in die Runenkreise in §l4§r ziehst. Die gewählten Aspekte erscheinen bei §l4§r und sobald du zwei gewählt hast, kannst du mit dem violetten Button versuchen, sie zu kombinieren. War das erfolgreich, dann siehst du unten rechts deinen Ertrag, er sollte ebenso bei §l3§r erscheinen.<BR>Die Komponenten werden auch dann verbraucht, wenn die Kombination nicht zu einem gültigen Aspekt führte.
-tc.research_page.RESEARCH.8=§l   §n(3) Grundlagenforschung§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Für diesen Schritt musst du Schreibzeug und Papier dabei haben.<BR>Wenn du dein Thaumonomikon öffnest, kannst du dein bereits erreichtes Wissen und Forschungen, die du jetzt betreiben kannst, sehen.<BR>Blinkende quadratische oder runde Symbole stehen für Grundlagenforschungen.
+tc.research_page.RESEARCH.8=§l §n(3) Grundlagenforschung§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>Für diesen Schritt musst du Schreibzeug und Papier dabei haben.<BR>Wenn du dein Thaumonomikon öffnest, kannst du dein bereits erreichtes Wissen und Forschungen, die du jetzt betreiben kannst, sehen.<BR>Blinkende quadratische oder runde Symbole stehen für Grundlagenforschungen.
 tc.research_page.RESEARCH.9=Wenn du ihren Titel lesen kannst (anstelle von merkwürdigen Runen), kannst du sie anklicken. Papier und Tinte aus deinem Inventar werden verbraucht und du erhältst eine Forschungsnotiz. Diese Notiz kannst du nun am Tisch erforschen, indem du sie in §l2§r legst.<BR>Bereich §l5§r zeigt nun ein Blatt Papier mit Sechsecken und Aspekt-Symbolen am Rand. Wenn du ein Fragezeichen siehst, bedeutet es, dass du diesen Aspekt noch nicht kennst und ihn erst lernen musst.<LINE>
 tc.research_page.RESEARCH.10=Um eine Forschung abzuschließen, musst du alle Aspekte verbinden und aktivieren. Dafür ziehst du einen Aspekt zu einem benachbarten Sechseck, das entweder einen der Aspekte enthält, aus denen sich der bewegte Aspekt zusammensetzt, oder in welchem der bewegte Aspekt ein Bestandteil ist.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>Das Setzen eines Aspekts verbraucht einen Forschungspunkt. Wenn du einen Fehler machst, kannst du den Aspekt mit einem Klick entfernen, aber du erhältst den Forschungspunkt nicht zurück.
 tc.research_page.RESEARCH.11=Das machst du so lange, bis du ein Muster erzeugt hast, das alle Rand-Aspekte verbindet. Diese müssen nicht mit jedem anderen verbunden sein, es reicht, wenn es eine zusammenhängende Fläche gibt.<BR>Jetzt verwandeln sich die Forschungsnotizen in eine Entdeckung.<LINE>Anmerkung: Das Setzen und Entfernen von Aspekten aus den Sechsecken verbraucht Tinte aus deinem Schreibset. Wenn es leer ist, musst du es erst wieder füllen, bevor du fortfahren kannst.
-tc.research_page.RESEARCH.12=§l    §nSekundärforschung§r<BR>Sechseckige Symbole im Thaumonomikon zeigen Sekundärforschungen an. Wie bei Grundlagenforschungen musst du darauf klicken, doch anstelle von Forschungsnotizen erhältst du die Forschung direkt. Sekundärforschungen haben einen Preis an Aspekten, den du bezahlen musst, aber sie kosten keine Tinte und kein Papier.
+tc.research_page.RESEARCH.12=§l §nSekundärforschung§r<BR>Sechseckige Symbole im Thaumonomikon zeigen Sekundärforschungen an. Wie bei Grundlagenforschungen musst du darauf klicken, doch anstelle von Forschungsnotizen erhältst du die Forschung direkt. Sekundärforschungen haben einen Preis an Aspekten, den du bezahlen musst, aber sie kosten keine Tinte und kein Papier.
 #
 tc.research_name.KNOWFRAG=Wissensfragmente
 tc.research_text.KNOWFRAG=Fragmente verlorenen Wissens
@@ -918,18 +918,18 @@ tc.research_page.NODES.3=Dadurch kann er verschwinden oder der Integrität der N
 #
 tc.research_name.ORE=Erze
 tc.research_text.ORE=Grabe tief
-tc.research_page.ORE.1=§l      §nDurchzogene Steine§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>Gelegentlich gibt es so viel primäre Energie in einer Aura, dass sie sich in solidem Stein manifestiert, was durchzogene Steine erzeugt. Diese magische Energie kann in Form von Kristallen abgebaut werden.
+tc.research_page.ORE.1=§l §nDurchzogene Steine§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>Gelegentlich gibt es so viel primäre Energie in einer Aura, dass sie sich in solidem Stein manifestiert, was durchzogene Steine erzeugt. Diese magische Energie kann in Form von Kristallen abgebaut werden.
 tc.research_page.ORE.2=Diese Kristalle haben verschiedene elementare Eigenschaften und eine große Verwendung in der Thaumaturgie.<BR>Es gibt sechs Arten von durchzogenen Steinen, eine für jeden primären Aspekt.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>Sie können zu Kristallbündeln zusammengefasst werden. Diese Bündel haben keine besonderen Eigenschaften, außer, dass sie einen Hauch von Exklusivität in jedes Haus bringen. Das Abbauen eines Kristallbündels zerbricht es wieder in seine einzelnen Kristalle.
-tc.research_page.ORE.3=§l         §nZinnober§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>Dieses rötliche Erz kann tief unter der Erde gefunden werden. Durch Einschmelzen erhält man Quecksilber.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.ORE.4=§l        §nBernstein§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>Dieses Erz findet man knapp unter der Oberfläche und beim Abbau erhält man Bernsteine.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.3=§l §nZinnober§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>Dieses rötliche Erz kann tief unter der Erde gefunden werden. Durch Einschmelzen erhält man Quecksilber.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=§l §nBernstein§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>Dieses Erz findet man knapp unter der Oberfläche und beim Abbau erhält man Bernsteine.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
 tc.research_name.PLANTS=Pflanzen & Bäume
 tc.research_text.PLANTS=Magische Vegetation
-tc.research_page.PLANTS.1=§l       §nGroßholzbäume§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>Die großen und majestätischen Bäume können überall vereinzelt gefunden werden.<BR>Ihr Holz ist in der Lage, eine beeindruckende Menge Magie aufzunehmen, was es zu einem beliebten Material für magische Geräte macht.
-tc.research_page.PLANTS.2=§l      §nSilberholzbäume§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Diese seltenen magischen Bäume sind eine Augenweide. Ihr Laub schimmert durch magische Energie und ihr blasses, weiches Holz ist bekannt für seine filternden Eigenschaften.<BR>Die magische Natur dieser Bäume ist so groß, dass sich manchmal Aura-Nodien in ihrem Innersten bilden - alleine das macht einen Silberholz-Setzling unbezahlbar.
-tc.research_page.PLANTS.3=§l       §nSchimmerblatt§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Nur im Schatten eines Silberholzbaumes sind diese seltsamen, glühenden Blumen zu finden. Sie können geerntet und zerstampft werden, um Quecksilber zu produzieren.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.PLANTS.4=§l        §nAschperle§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Lediglich in den heißesten Gegenden der Welt wächst diese Pflanze, genährt von elementarem Feuer. Wird sie geerntet und zermahlen, erhält man ein feines Pulver, das Lohenstaub ähnelt.
-tc.research_page.PLANTS.5=§l        §nManaschote§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Diese seltsame, schotenartige Pflanze kann nur an Bäumen in magischen Wäldern gefunden werden. Sie gedeihen nur sehr langsam und geben bei der Ernte selten mehr als eine oder zwei Bohnen.
+tc.research_page.PLANTS.1=§l §nGroßholzbäume§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>Die großen und majestätischen Bäume können überall vereinzelt gefunden werden.<BR>Ihr Holz ist in der Lage, eine beeindruckende Menge Magie aufzunehmen, was es zu einem beliebten Material für magische Geräte macht.
+tc.research_page.PLANTS.2=§l §nSilberholzbäume§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>Diese seltenen magischen Bäume sind eine Augenweide. Ihr Laub schimmert durch magische Energie und ihr blasses, weiches Holz ist bekannt für seine filternden Eigenschaften.<BR>Die magische Natur dieser Bäume ist so groß, dass sich manchmal Aura-Nodien in ihrem Innersten bilden - alleine das macht einen Silberholz-Setzling unbezahlbar.
+tc.research_page.PLANTS.3=§l §nSchimmerblatt§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>Nur im Schatten eines Silberholzbaumes sind diese seltsamen, glühenden Blumen zu finden. Sie können geerntet und zerstampft werden, um Quecksilber zu produzieren.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l §nAschperle§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Lediglich in den heißesten Gegenden der Welt wächst diese Pflanze, genährt von elementarem Feuer. Wird sie geerntet und zermahlen, erhält man ein feines Pulver, das Lohenstaub ähnelt.
+tc.research_page.PLANTS.5=§l §nManaschote§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>Diese seltsame, schotenartige Pflanze kann nur an Bäumen in magischen Wäldern gefunden werden. Sie gedeihen nur sehr langsam und geben bei der Ernte selten mehr als eine oder zwei Bohnen.
 tc.research_page.PLANTS.6=Jene Bohnen, Manabohnen genannt, enthalten konzentrierte Essentia. Sie können verspeist werden, doch die Nebenwirkungen sind unvorhersehbar.<BR>Es ist möglich, sie anzubauen, doch das Kultivieren ist schwierig und zeitaufwändig.<BR>Wilde Manaschoten produzieren nur Primäraspekte, aber man erzählt sich, dass das Pflanzen von Bohnen nahe beieinander gelegentlich in Bohnen mit Verbundaspekten resultiert.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
 tc.research_name.RESEARCHER1=Forschungskenntnis
@@ -1047,7 +1047,7 @@ tc.research_text.ROD_reed=Luftiger Visspeicher
 tc.research_page.ROD_reed.1=Ein Stabkern aus Zuckerrohr besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das §6Aer§0-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
 #
 tc.research_name.ROD_greatwood_staff=Magische Langstäbe
-tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
+tc.research_text.ROD_greatwood_staff=Zauberstäbe haben Knäufe an den Enden
 tc.research_page.ROD_greatwood_staff.1=Stäbe sind das Handwerkszeug von jedem Thaumaturgen, aber manchmal sind die einfach nicht befriedigend. Magische Langstäbe sind an sich nur größere Stäbe, die mehr Vis speichern können.<BR>Weil sie größer und auch stabiler als normale Stäbe sind, können sie im Notfall sogar als Waffe eingesetzt werden.<BR>Leider macht sie das unbrauchbar für die komplizierten Vorgänge und die gute Kontrolle, die Arkane Werkbänke oder ähnliche Geräte erfordern.
 tc.research_page.ROD_greatwood_staff.2=Ein Langstab aus Großholz hat mehr als das doppelte Speicherpotential eines normalen Großholzstabes, er kann bis zu 125 Vis jedes Typs speichern.<BR>Anmerkung: Du musst trotz allem Kappen auf den Langstab setzen, damit er funktioniert, genau wie bei normalen Stäben.
 #
@@ -1125,11 +1125,11 @@ tc.research_text.FOCUSPOUCH=Angenehmer Behälter für deine Foki
 tc.research_page.FOCUSPOUCH.1=Nachdem du eine ansehnliche Sammlung an Foki zusammengetragen hast, ist es recht lästig, sie alle immer mit dir zu tragen. Diese Tasche löst das Problem.<BR>Immer, wenn du den Fokus an deinem Zauberstab wechselst, versucht der Stab zunächst, den Fokus in der Tasche abzulegen. Ebenso kannst du mit der Tasche rechtsklicken, um Foki manuell abzulegen.<BR>Er kann ebenfalls in deinem Gürtel-Slot getragen werden.
 #
 tc.research_name.BOOTSTRAVELLER=Stiefel des Reisenden
-tc.research_text.BOOTSTRAVELLER=These boots were made for walking
+tc.research_text.BOOTSTRAVELLER=Diese Stiefel wurden für das Laufen erschaffen
 tc.research_page.BOOTSTRAVELLER.1=Dieses Paar verzauberter Schuhe ist voll mit Magie, um den Weg eines jeden Reisenden zu erleichtern.<BR>Sie erlauben dir, dich schneller zu bewegen und höher und weiter zu springen als je zuvor.<BR>Außerdem erlauben sie dir, wie ein Fisch durch das Wasser zu pflügen. Wie ein ungeschickter, langsamer Fisch, aber immerhin ein Fisch...
 #
 tc.research_name.PHIAL=Glasphiole
-tc.research_text.PHIAL=Mystische Container
+tc.research_text.PHIAL=Mystische Behälter
 tc.research_page.PHIAL.1=Glasphiolen sind in der Lage, alle Arten von Flüssigkeiten und Substanzen zu halten, aber ihr größter Nutzen für einen Thaumaturgen ist ihre Fähigkeit, Essentia zu halten.
 #
 tc.research_name.TABLE=Tisch
@@ -1138,7 +1138,7 @@ tc.research_page.TABLE.1=Der Tisch ist mehr als ein einfacher dekorativer Block 
 #
 tc.research_name.ARCTABLE=Arkaner Werktisch
 tc.research_text.ARCTABLE=Herstellung mit Magie
-tc.research_page.ARCTABLE.1=Um einen Arkanen Werktisch zu kreieren, musst du einfach mit einem Stab einen Tisch, den du platziert hast, rechtsklicken. Der Arkane Werktisch funktioniert wie eine normale Werkbank, mit ein paar wichtigen Unterschieden.<BR>Neben normalen Herstellungsrezepten kann er auch einige der Items herstellen, die einzig für Thaumaturgie sind. Dafür musst du einen Stab in den Slot oben rechts platzieren. Das wird dir erlauben, Items herzustellen, die Vis benötigen, indem die Energie direkt aus dem Stab gesogen wird.<BR>Das Vis, das nur Herstellung eines Items nötig ist, wird in den sechs runden Symbolen, die das Handwerksgitter umgeben, angezeigt.
+tc.research_page.ARCTABLE.1=Um einen Arkanen Werktisch zu kreieren, musst du einfach mit einem Stab einen Tisch, den du platziert hast, rechtsklicken. Der Arkane Werktisch funktioniert wie eine normale Werkbank, mit ein paar wichtigen Unterschieden.<BR>Neben normalen Herstellungsrezepten kann er auch einige der Items herstellen, die einzig für Thaumaturgie sind. Dafür musst du einen Stab in den Slot oben rechts platzieren. Das wird dir erlauben, Items herzustellen, die Vis benötigen, indem die Energie direkt aus dem Stab gesogen wird.<BR>Das Vis, das zur Herstellung eines Items nötig ist, wird in den sechs runden Symbolen, die das Handwerksgitter umgeben, angezeigt.
 #
 tc.research_name.RESTABLE=Forschungstisch
 tc.research_text.RESTABLE=Um sich Wissen anzueignen
@@ -1191,7 +1191,7 @@ tc.research_page.ELEMENTALHOE.1=Durch das Zusammenfügen von Ordnungs- und Entro
 #
 tc.research_name.ALCHEMICALDUPLICATION=Alchemische Duplizierung
 tc.research_text.ALCHEMICALDUPLICATION=Je mehr, desto besser
-tc.research_page.ALCHEMICALDUPLICATION.1=Es gibt viele Substanzen alchemischer Natur in der Welt.<BR>Indem du vorsichting die richtigen Aspekte zu dieden Substanzen hinzufügst, solltest du fähig sein, mehr aus ihnen zu machen.
+tc.research_page.ALCHEMICALDUPLICATION.1=Es gibt viele Substanzen alchemischer Natur in der Welt.<BR>Indem du vorsichting die richtigen Aspekte zu diesen Substanzen hinzufügst, solltest du fähig sein, mehr aus ihnen zu machen.
 #
 tc.research_name.ALCHEMICALMANUFACTURE=Alchemische Fertigung
 tc.research_text.ALCHEMICALMANUFACTURE=Viele Wege führen zum Ziel
@@ -1305,7 +1305,7 @@ tc.research_name.COREUSE=Golemkern: Nutzen
 tc.research_text.COREUSE=Klickedieklick
 tc.research_page.COREUSE.1=Wie beim "Leeren"-Kern entnehmen Golems mit diesem Kern Items aus dem zugewiesenen Inventar, aber anstatt sie in ein anderes Inventar zu legen oder in die Gegend zu werfen, versuchen sie, die Items an einem Zielblock oder einer Zielgegend zu benutzen.<BR>Dabei gehen sie vor, als wären sie ein Spieler, der mit dem Item auf das gewählte Ziel rechts- oder linksklickt - du bestimmst, was von beidem getan wird.<BR>Wenn du willst, kannst du festlegen, welche Items entfernt werden sollen, indem du das Interface des Golems öffnest. Alle anderen Items werden ignoriert.
 tc.research_page.COREUSE.2=Wenn der Golem nicht an ein Inventar gebunden ist, wird er versuchen, seine Aktion mit leeren Händen auszuführen - einfach auf das Ziel zu klicken, wie angeordnet.<LINE>Du bist fähig, dem Golem zu sagen, wie auf etwas 'geklickt' werden soll - statt nur zu sagen, rechts- oder linkszuklicken, kannst du auch bestimmen, ob der Golem bei der Ausführung schleichen soll oder nicht.<BR>Du kannst auch bestimmen, ob er nur auf Luft statt auf einen Block klicken soll.
-tc.research_page.COREUSE.3=      §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Dieses Upgrade erhöht die Geschwindigkeit, mit welcher der Golem den Zielblock oder -raum klicken kann.
+tc.research_page.COREUSE.3= §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Dieses Upgrade erhöht die Geschwindigkeit, mit welcher der Golem den Zielblock oder -raum klicken kann.
 #
 tc.research_name.COREFILL=Golemkern: Füllen
 tc.research_text.COREFILL=Ein Inventar gefüllt haltend
@@ -1314,7 +1314,7 @@ tc.research_page.COREFILL.1=Mit diesem Kern ausgestattete Golems durchsuchen von
 tc.research_name.COREHARVEST=Golemkern: Ernten
 tc.research_text.COREHARVEST=Animierter Farmer
 tc.research_page.COREHARVEST.1=Golems mit diesem Kern muss kein Inventar zugewiesen werden. Sie suchen reifes Getreide, Zuckerrohr und andere angebaute Pflanzen in einem kleinen Umkreis und ernten sie. Die Ernte wird auf den Boden fallen gelassen und muss irgendwie gesammelt werden.<BR>Leider sind sie nicht intelligent genug, um geerntetes Getreide nachzupflanzen, aber du bist dir sicher, dass du diesen Makel mit etwas Aufwand beheben könntest.
-tc.research_page.COREHARVEST.2=     §nOrdnungs-Upgrade freigeschaltet§r <IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Ernte-Golems mit diesem Upgrade versuchen nun, geerntetes Getreide neu zu pflanzen. Dies kann fehlschlagen, wenn die Pflanze keinen brauchbaren Samen hat fallen lassen.
+tc.research_page.COREHARVEST.2= §nOrdnungs-Upgrade freigeschaltet§r <IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Ernte-Golems mit diesem Upgrade versuchen nun, geerntetes Getreide neu zu pflanzen. Dies kann fehlschlagen, wenn die Pflanze keinen brauchbaren Samen hat fallen lassen.
 #
 tc.research_name.CORELUMBER=Golemkern: Fällen
 tc.research_text.CORELUMBER=Animierter Holzfäller
@@ -1323,7 +1323,7 @@ tc.research_page.CORELUMBER.1=Wie Ernte-Golems können auch Holzfäller-Golems �
 tc.research_name.COREGUARD=Golemkern: Schützen
 tc.research_text.COREGUARD=Schützt deine Wertsachen
 tc.research_page.COREGUARD.1=Golems mit diesem Kern arbeiten als Wachen, sie greifen jede feindliche Kreatur in Reichweite an.<BR>Du bist sicher, dass du mit ein wenig Bastelei die Golems präziser bei der Auswahl ihrer Ziele machen kannst, aber im Moment suchen sie nur aggressive Monster, außer Creeper.
-tc.research_page.COREGUARD.2=     §nOrdnungs-Upgrade freigeschaltet§r <IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Mit diesem Upgrade kannst du festlegen, welche Kreaturen der Golem angreifen soll. Außerdem kann der Golem auch andere Wesen als Feinde angreifen.
+tc.research_page.COREGUARD.2= §nOrdnungs-Upgrade freigeschaltet§r <IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Mit diesem Upgrade kannst du festlegen, welche Kreaturen der Golem angreifen soll. Außerdem kann der Golem auch andere Wesen als Feinde angreifen.
 #
 tc.research_name.COREBUTCHER=Golemkern: Schlachten
 tc.research_text.COREBUTCHER=Blutige Angelegenheit
@@ -1332,19 +1332,19 @@ tc.research_page.COREBUTCHER.1=Dieser Kern ist eine Verbesserung des normalen Sc
 tc.research_name.CORELIQUID=Golemkern: Umfüllen
 tc.research_text.CORELIQUID=Halte einen Tank gefüllt mit Flüssigkeit
 tc.research_page.CORELIQUID.1=Golems mit diesem Kern bemühen sich, den ihnen zugewiesenen Tank mit der richtigen Flüssigkeit gefüllt zu halten.<BR>Wenn du willst, kannst du festlegen, welche Flüssigkeit in den Tank gebracht werden soll, indem du das Interface des Golems öffnest und einen Behälter mit der Flüssigkeit (etwa einen Eimer) in ein Feld legst. Alle anderen Flüssigkeiten werden ignoriert.<BR>Ein Umfüll-Golem kann nur 100mB an Flüssigkeit pro Item, dass ein Sammel-Golem aus dem selben Material tragen dürfte, transportieren. Dennoch sieht es so aus, als würden sie immer einen ganzen Eimer voll Flüssigkeit tragen, wenn sie angewiesen wurden, Quellblöcke aufzunehmen.
-tc.research_page.CORELIQUID.2=    §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Mit diesem Upgrade wird der Golem versuchen, den am weitesten entfernten Flüssigkeitsblock zuerst aufzunehmen, der an einen Block, den du markiert hast, anschließt. Dies erlaubt ihnen, ganze Becken einer Flüssigkeit zu leeren, nicht nur den Block, den du markiert hast.<BR>Er wird lediglich so weit suchen, wie er blicken kann; die Distanz wird als Anzahl der Blöcke vom markierten zum Zielblock gemessen, nicht in einer geraden Linie.
+tc.research_page.CORELIQUID.2= §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Mit diesem Upgrade wird der Golem versuchen, den am weitesten entfernten Flüssigkeitsblock zuerst aufzunehmen, der an einen Block, den du markiert hast, anschließt. Dies erlaubt ihnen, ganze Becken einer Flüssigkeit zu leeren, nicht nur den Block, den du markiert hast.<BR>Er wird lediglich so weit suchen, wie er blicken kann; die Distanz wird als Anzahl der Blöcke vom markierten zum Zielblock gemessen, nicht in einer geraden Linie.
 #
 tc.research_name.CORESORTING=Golemkern: Sortieren
 tc.research_text.CORESORTING=Alles in Ordnung
-tc.research_page.CORESORTING.1=Dieser Kern funktioniert fast wie der Leeren-Kern, mit einem Hautunterschied: Der Golem nimmt ein Item nur dann aus dem Inventar, an dem er angebracht ist, wenn sich bereits ein Item gleicher Art in einem der markierten Inventare befindet. Dies macht den Kern äußerst nützlich, um ungeordnete Items in einem Container in gerordnete Container zu sortieren.<BR>Du kannst nicht bestimmen, ob ausschließlich oder ausgeschlossen spezifische Items transportiert werden, wie es beim normalen Leeren-Kern möglich ist.
+tc.research_page.CORESORTING.1=Dieser Kern funktioniert fast wie der Leeren-Kern, mit einem Hautunterschied: Der Golem nimmt ein Item nur dann aus dem Inventar, an dem er angebracht ist, wenn sich bereits ein Item gleicher Art in einem der markierten Inventare befindet. Dies macht den Kern äußerst nützlich, um ungeordnete Items in einem Container in geordnete Container zu sortieren.<BR>Du kannst nicht bestimmen, ob ausschließlich oder ausgeschlossen spezifische Items transportiert werden, wie es beim normalen Leeren-Kern möglich ist.
 #
 tc.research_name.COREFISHING=Golemkern: Angeln
 tc.research_text.COREFISHING=Petri heil!
 tc.research_page.COREFISHING.1=Dieser Kern ermöglicht es einem Golem, für dich zu angeln.<BR>Für beste Ergebnisse muss der Golem nahe tiefen und offenen Wassers platziert werden.<BR>Die Stärke des Golems bestimmt die Angelgeschwindigkeit.<BR>
-tc.research_page.COREFISHING.2=      §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade hat eine geringe Chance, mehr als ein Ding auf einmal zu fangen.
-tc.research_page.COREFISHING.3=      §nFeuer-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade wird automatisch allen Fisch, den er fängt, kochen.
-tc.research_page.COREFISHING.4=     §nOrdnungs-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Odnungs-Upgrades werden die Chance für gute Angel-Resultate erhöhen.
-tc.research_page.COREFISHING.5=    §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropie-Upgrades werden die Chance für schlechte Angel-Resultate verringern.
+tc.research_page.COREFISHING.2= §nLuft-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade hat eine geringe Chance, mehr als ein Ding auf einmal zu fangen.
+tc.research_page.COREFISHING.3= §nFeuer-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Ein Angel-Golem mit diesem Upgrade wird automatisch allen Fisch, den er fängt, kochen.
+tc.research_page.COREFISHING.4= §nOrdnungs-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Odnungs-Upgrades werden die Chance für gute Angel-Resultate erhöhen.
+tc.research_page.COREFISHING.5= §nEntropie-Upgrade freigeschaltet§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropie-Upgrades werden die Chance für schlechte Angel-Resultate verringern.
 #
 tc.research_name.COREALCHEMY=Golemkern: Alchemie
 tc.research_text.COREALCHEMY=Essentia herumbewegen
@@ -1369,11 +1369,11 @@ tc.research_page.UPGRADEWATER.1=Dieses Upgrade erhöht die Sichtweite der meiste
 #
 tc.research_name.UPGRADEORDER=Golemupgrade: Ordnung
 tc.research_text.UPGRADEORDER=Macht deinen Golem organisierter
-tc.research_page.UPGRADEORDER.1=Dieses Upgrade ermöglicht es Golems, Farben zu unterscheiden, die Blöcken mit der Glocke des Golemanten zugewiesen wurden. Dieses erlaubt größere Kontrolle darüber, was und wo die Golems etwas tun.<BR>Zusätzlich schaltet dieses Upgrade weitere Fähigkeiten von manchen Golemkernen frei, die eine größere Auswahl an Aufgaben ermöglichen.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
+tc.research_page.UPGRADEORDER.1=Dieses Upgrade ermöglicht es Golems, Farben zu unterscheiden, die Blöcken mit der Glocke des Golemanten zugewiesen wurden. Dieses erlaubt größere Kontrolle darüber, was und wo die Golems etwas tun.<BR>Zusätzlich schaltet dieses Upgrade weitere Fähigkeiten von manchen Golemkernen frei, die eine größere Auswahl an Aufgaben ermöglichen.<BR>Bestimmte Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
 #
 tc.research_name.UPGRADEENTROPY=Golemupgrade: Entropie
 tc.research_text.UPGRADEENTROPY=Macht deinen Golem bissig... und ungenau
-tc.research_page.UPGRADEENTROPY.1=Golems mit diesem Upgrade verletzen automatisch alles, was ihnen Schaden zufügt.<BR>Ebenfalls werden Golems mit diesem Upgrade mehr Kontrolle darüber haben, welche Items sie suchen. Du wirst fähig sein, sie Metadaten un NBT-Daten ignorieren sowie im OreDictionary nach ähnlichen Items suchen zu lassen.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
+tc.research_page.UPGRADEENTROPY.1=Golems mit diesem Upgrade verletzen automatisch alles, was ihnen Schaden zufügt.<BR>Ebenfalls werden Golems mit diesem Upgrade mehr Kontrolle darüber haben, welche Items sie suchen. Du wirst fähig sein, sie Metadaten und NBT-Daten ignorieren sowie im OreDictionary nach ähnlichen Items suchen zu lassen.<BR>Bestimme Golemkerne können von diesem Upgrade auch noch auf andere Weise profitieren, siehe also nach, ob zu ihnen weitere Seiten im Thaumonomikon hinzugefügt wurden.
 #
 tc.research_name.TINYHAT=Winzige Hüte
 tc.research_text.TINYHAT=Halten die Sonne unter Kontrolle
@@ -1415,7 +1415,7 @@ tc.research_page.DISTILESSENTIA.2=Der nächste Prozessschritt ist, die Essentia-
 tc.research_name.JARLABEL=Bannende Gläser und Glasschilder
 tc.research_text.JARLABEL=Essentia speichern und organisieren
 tc.research_page.JARLABEL.1=Essentia kann in §lBannenden Gläsern§r gespeichert werden.<BR>Bannende Gläser können in der Welt platziert werden und sind fähig, Essentia nahezu unbegrenzt lange zu lagern. Die Verzauberungen auf den Gläsern machen auch das Hinzufügen oder Extrahieren von Essentia zum Kinderspiel.<BR>Gläser können direkt aus einem Alambik befüllt werden, indem mit dem Glas auf den Alambik geklickt wird. Sie können auch mit Phiolen befüllt werden.<BR>Auch bieten sie ein exzellentes Lagermedium für Marmeladen und Eingemachtes.
-tc.research_page.JARLABEL.2=Auf Gläser und Alambiks mit Shift zu klicken, wird sie leeren.<BR>So lange ein Glas etwas Essentia enthält, kannst du ein §lGlassschild§r an ihm anbringen.<BR>Dieses Glasschild wird dem Glas diesen Essentiatyp 'zuordnen' und es wird nicht mehr fähig sein, andere Arten von Essentia aufzunehmen.<BR>Du kannst ein Glasschild entfernen, indem du mit einer leeren Hand auf die Seite des Glases, auf der das Glasschild ist, Shift-rechtsklickst. Sei vorsichtig, nicht auf eine andere Seite zu Shift-rechtsklicken, da dies wie gewöhnlich das Glas leeren würde.
+tc.research_page.JARLABEL.2=Auf Gläser und Alambiks mit Shift zu klicken, wird sie leeren.<BR>So lange ein Glas etwas Essentia enthält, kannst du ein §lGlasschild§r an ihm anbringen.<BR>Dieses Glasschild wird dem Glas diesen Essentiatyp 'zuordnen' und es wird nicht mehr fähig sein, andere Arten von Essentia aufzunehmen.<BR>Du kannst ein Glasschild entfernen, indem du mit einer leeren Hand auf die Seite des Glases, auf der das Glasschild ist, Shift-rechtsklickst. Sei vorsichtig, nicht auf eine andere Seite zu Shift-rechtsklicken, da dies wie gewöhnlich das Glas leeren würde.
 tc.research_page.JARLABEL.3=Du kannst ein Glasschild mit einer Essentiaphiole in einer Werkbank kombinieren, um ihm einen Aspekt zuzuordnen, und, wenn auf einem leeren Glas platziert, wird es dem Glas automatisch den Aspekt zuordnen. Die für das Rezept nötige Essentia wird nicht verbraucht.<BR>Ein Glasschild auf einem gefüllten Glas zu platzieren, wird seinen Aspekt zum Essentiatyp des Glases ändern.<LINE>Ein Glasschild kann wieder leer gemacht werden, indem es einfach allein in einem Werkgitter platziert wird.
 #
 tc.research_name.INFERNALFURNACE=Höllischer Ofen
@@ -1475,10 +1475,10 @@ tc.research_name.MIRROR=Spiegelmagie
 tc.research_text.MIRROR=Hinter den Spiegeln
 tc.research_page.MIRROR.1=Du kannst jetzt zwei Spiegel verzaubern, sodass sie als Verbindung zwischen den Welten wirken. Alles, was durch einen Spiegel (hineingeworfen oder über Rohre) geschickt wird, kommt durch die Zwischenwelt aus dem anderen Spiegel heraus - sogar in anderen Dimensionen.<BR>Leider ist die Zwischenwelt extrem tödlich für sterbliche Kreaturen wir dich, daher kann man bis jetzt nur Gegenstände transportieren.<BR>Um ein Paar dieser Spiegel zu verbinden, musst du nur einen von ihnen am gewünschten Ort platzieren. Dann rechtsklickst du mit dem zweiten
 tc.research_page.MIRROR.2=Spiegel auf den eben platzierten und sie werden aneinander gebunden. Jetzt platzierst du den Spiegel, wo immer du willst. Items, die in einen geworfen werden, kommen aus dem anderen heraus.<BR>Spiegel können nur paarweise verbunden werden, daher kannst du zu zwei platzierten und funktionierenden Spiegeln keinen dritten hinzufügen. Wenn du jedoch einen Spiegel aufnimmst, behält er den letzten Partner, mit dem er verbunden war, du kannst sie also leicht umstellen, ohne sie neu verbinden zu müssen. Wenn jedoch ein gepaarter Spiegel aufgenommen wird, kannst du sie mit jeweils anderen Spiegeln verbinden.
-tc.research_page.MIRROR.3=Der transport von Items durch Spiegel strengt das magische Glas stark an, daher verlangsamt der Spiegel, um sich selbst vor dem Zersplittern zu bewahren, automatisch die Rate, mit welcher Items auf der anderen Seite ausgeworfen werden. Je höher die Instabilität, desto stärker wird die Transferrate vermindert.<BR>Diese Instabilität wird mit der Zeit weniger, aber kann auch durch direktes zuführen von §7Ordo§0 in den Spiegel negiert werden.
+tc.research_page.MIRROR.3=Der Transport von Items durch Spiegel strengt das magische Glas stark an, daher verlangsamt der Spiegel, um sich selbst vor dem Zersplittern zu bewahren, automatisch die Rate, mit welcher Items auf der anderen Seite ausgeworfen werden. Je höher die Instabilität, desto stärker wird die Transferrate vermindert.<BR>Diese Instabilität wird mit der Zeit weniger, aber kann auch durch direktes zuführen von §7Ordo§0 in den Spiegel negiert werden.
 #
 tc.research_name.MIRRORHAND=Magischer Handspiegel
-tc.research_text.MIRRORHAND=Persönliche Reflektion
+tc.research_text.MIRRORHAND=Persönliche Reflexion
 tc.research_page.MIRRORHAND.1=Dieser magische Handspiegel funktioniert genau wie andere magische Spiegel. Du schiebst einfach Items durch das Glas und sie fallen aus dem verbundenen Spiegel heraus.<BR>Mache mit dem verbundenen Handspiegel einfach einen Rechtsklick und du kannst Items aus deinem Inventar mit dem Spiegel transportieren.<BR>Der Handspiegel kann mit einem Spiegel verbunden werden, der bereits mit einem anderen gepaart wurde.<BR>Du solltest wissen, dass der Handspiegel nur Items versenden kann und nicht empfangen.
 #
 tc.research_name.NODEJAR=Nodie im Glas
@@ -1522,7 +1522,7 @@ tc.research_page.INFUSIONENCHANTMENT.3=Zusätzliche Kosten entstehen, wenn das I
 tc.research_name.ARCANELAMP=Arkane Lampe
 tc.research_text.ARCANELAMP=Große Erleuchtung
 tc.research_page.ARCANELAMP.1=Diese mystische Lampe kann an Wänden, Böden oder Decken angebracht werden und spendet helles und gleichmäßiges Licht.<BR>Zusätzliche Lichtquellen können bis zu 16 Blöcke entfernt entstehen, wenn der Lichtlevel dort unterhalb von es "sicheren" Levels liegt. Vergiss niemals: Nur DU kannst die Zombie-Apokalypse verhindern.<BR>Diese sekundären Lichtquellen verschwinden, kurz nachdem die Lampe entfernt wurde.<LINE>Du bist sicher, dass du noch weitere Verwendung für diese Lampe finden wirst, also schlage nochmal nach, wenn du weitere Entdeckungen gemacht hast.
-tc.research_page.ARCANELAMP.2=           §nArkaner Bohrer§r<BR>In Verbindung mit dem Gestell des Arkanen Bohrers erhält die Arkane Lampe eine weitere Fähigkeit: Sie beleuchtet den Tunnel, den der Bohrer gräbt.
+tc.research_page.ARCANELAMP.2= §nArkaner Bohrer§r<BR>In Verbindung mit dem Gestell des Arkanen Bohrers erhält die Arkane Lampe eine weitere Fähigkeit: Sie beleuchtet den Tunnel, den der Bohrer gräbt.
 #
 tc.research_name.BASICARTIFACE=Basis-Artefaktkreierung
 tc.research_text.BASICARTIFACE=Notwendige Dinge
@@ -1545,12 +1545,12 @@ tc.research_name.TRAVELTRUNK=Reisekoffer
 tc.research_text.TRAVELTRUNK=Mobiles Gepäck
 tc.research_page.TRAVELTRUNK.1=Durch erweiterte Forschung in der Golemantik hast du einen nützlichen Begleiter für alle Thaumaturgen geschaffen, die viel unterwegs sind: Den Reisekoffer.<BR>Diese hölzerne Kiste folgt fröhlich hüpfend ihrem Meister, immer bereit einen praktischen Lagerraum für alles, was du aufsammelst, anzubieten.<BR>Der Reisekoffer kann viel Schaden einstecken. Er ist äußerst resistent gegenüber Feuer und nimmt keinen Fallschaden.<BR>Der Koffer kann seinem Meister überall hin folgen - sogar in andere Dimensionen. Solltest du jedoch wünschen, dass er da bleibt, wo er ist, gibt es dafür einen Knopf in seinem Interface.
 tc.research_page.TRAVELTRUNK.2=Der Reisekoffer heilt sich im Laufe der Zeit selbst, doch mit etwas Nahrung lässt es sich beschleunigen.<BR>Wie normale Golems auch, kann der Reisekoffer durch einen Linksklick mit der Glocke des Golemanten aufgehoben werden. Dabei lässt er alle Items aus seinem Inventar fallen. Mit einem Shift-klick wird er auch alle Upgrades, die du angebracht hast, mit der normalen Verlustchance fallen lassen.<BR>Wie normale Golems kann er mit einem einzelnen Upgrade versehen werden, das dem Koffer besondere Fähigkeiten ermöglicht. Mehr dazu findest du auf den folgenden Seiten, wenn du die entsprechenden Upgrades entdeckst.
-tc.research_page.TRAVELTRUNK.UAI=      §nGolemupgrade: Luft§r<BR>Mit diesem Upgrade ist der Reisekoffer in der Lage, sich schneller zu bewegen.
-tc.research_page.TRAVELTRUNK.UEA=      §nGolemupgrade: Erde§r<BR>Mit diesem Upgrade kann der Reisekoffer mehr Items transportieren und erhält eine zusätzliche Reihe Inventarplatz.
-tc.research_page.TRAVELTRUNK.UFI=     §nGolemupgrade: Feuer§r<BR>Mit diesem Upgrade verteidigt der Reisekoffer seinen Meister, wenn dieser angegriffen wird.
-tc.research_page.TRAVELTRUNK.UWA=     §nGolemupgrade: Wasser§r<BR>Mit diesem Upgrade kann der Reisekoffer nur von seinem Meister aufgenommen oder geöffnet werden.<BR>Zusätzlich wird er selbst gegen die größten Schäden sehr widerstandsfähig.
-tc.research_page.TRAVELTRUNK.UOR=    §nGolemupgrade: Ordnung§r<BR>Mit diesem Upgrade wird der Reisekoffer seinen Inhalt behalten, wenn er mit der Glocke des Golemanten aufgenommen wurde. Er lässt seinen Inhalt fallen, wenn shift-klick benutzt wird.
-tc.research_page.TRAVELTRUNK.UEN=    §nGolemupgrade: Entropie§r<BR>Mit diesem Upgrade wird der Reisekoffer automatisch alle Items in der Nähe aufsaugen, für die er Platz hat.
+tc.research_page.TRAVELTRUNK.UAI= §nGolemupgrade: Luft§r<BR>Mit diesem Upgrade ist der Reisekoffer in der Lage, sich schneller zu bewegen.
+tc.research_page.TRAVELTRUNK.UEA= §nGolemupgrade: Erde§r<BR>Mit diesem Upgrade kann der Reisekoffer mehr Items transportieren und erhält eine zusätzliche Reihe Inventarplatz.
+tc.research_page.TRAVELTRUNK.UFI= §nGolemupgrade: Feuer§r<BR>Mit diesem Upgrade verteidigt der Reisekoffer seinen Meister, wenn dieser angegriffen wird.
+tc.research_page.TRAVELTRUNK.UWA= §nGolemupgrade: Wasser§r<BR>Mit diesem Upgrade kann der Reisekoffer nur von seinem Meister aufgenommen oder geöffnet werden.<BR>Zusätzlich wird er selbst gegen die größten Schäden sehr widerstandsfähig.
+tc.research_page.TRAVELTRUNK.UOR= §nGolemupgrade: Ordnung§r<BR>Mit diesem Upgrade wird der Reisekoffer seinen Inhalt behalten, wenn er mit der Glocke des Golemanten aufgenommen wurde. Er lässt seinen Inhalt fallen, wenn shift-klick benutzt wird.
+tc.research_page.TRAVELTRUNK.UEN= §nGolemupgrade: Entropie§r<BR>Mit diesem Upgrade wird der Reisekoffer automatisch alle Items in der Nähe aufsaugen, für die er Platz hat.
 #
 tc.research_name.LAMPGROWTH=Lampe des Wachstums
 tc.research_text.LAMPGROWTH=Dinge zum Wachsen motivieren
@@ -1566,7 +1566,7 @@ tc.research_page.JARVOID.1=Gläser der Leere funktionieren größtenteils wie no
 #
 tc.research_name.TUBEFILTER=Fortgeschrittene Essentiaröhren
 tc.research_text.TUBEFILTER=Was du willst, wo du es willst
-tc.research_page.TUBEFILTER.1=§nGefilterte Essentiaröhren§r funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Glasschildern zu markieren.  Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Glasschild entfernen.
+tc.research_page.TUBEFILTER.1=§nGefilterte Essentiaröhren§r funktionieren wie normale Röhren, nur, dass es möglich ist, sie mit Glasschildern zu markieren. Wenn markiert, werden sie die Essentia, die hindurchfließt, auf das begrenzen, mit dem sie markiert wurden.<BR>Shift-klicken mit einer leeren Hand wird das Glasschild entfernen.
 tc.research_page.TUBEFILTER.2=§nRestriktive Essentiaröhren§r funktionieren wie normale Röhren, nur, dass durch sie alle Saugkraft, die durch sie führt, halbiert wird.<LINE>§nEssentia-Richtungsröhren§r akzeptieren nur das Saugen aus einer Richtung. Die blauen Markierungen zeigen die Richtung an, von der das Saugen akzeptiert wird.
 #
 tc.research_name.MIRRORESSENTIA=Essentiaspiegel
@@ -1597,7 +1597,7 @@ tc.research_page.RUNICARMOR.2=Die Runenschilde laden sich mit der Zeit wieder au
 #
 tc.research_name.RUNICAUGMENTATION=Runenschild-Erweiterung
 tc.research_text.RUNICAUGMENTATION=Schilde auf Maximum!
-tc.research_page.RUNICAUGMENTATION.1=Ringe, Amulette und Gürtle mit Runenschilden sind schön und gut, aber bestimmt du kannst diese schützende Verzauberung auch auf andere dinge legen?<BR>Natürlich kannst du! Indem die die Magie der Thaumaturgie(c) (Patent steht aus) nutzt, bist du fähig, den meisten magisch stabilen Rüstungsteilen Runenschilde hinzuzufügen.<BR>'Magisch stabile' Items sind jene, die aus Thaumium, Verzaubertem Stoff oder ähnlichen magischen Materialien gefertigt wurden.<BR>Nur eine einzige Runenschildladung wird dem Item hinzugefügt, aber du kannst ein Item mehrmals verzaubern. Dies ist jedoch sehr teuer und
+tc.research_page.RUNICAUGMENTATION.1=Ringe, Amulette und Gürtel mit Runenschilden sind schön und gut, aber bestimmt du kannst diese schützende Verzauberung auch auf andere dinge legen?<BR>Natürlich kannst du! Indem die die Magie der Thaumaturgie(c) (Patent steht aus) nutzt, bist du fähig, den meisten magisch stabilen Rüstungsteilen Runenschilde hinzuzufügen.<BR>'Magisch stabile' Items sind jene, die aus Thaumium, Verzaubertem Stoff oder ähnlichen magischen Materialien gefertigt wurden.<BR>Nur eine einzige Runenschildladung wird dem Item hinzugefügt, aber du kannst ein Item mehrmals verzaubern. Dies ist jedoch sehr teuer und
 tc.research_page.RUNICAUGMENTATION.2=Die Menge an Zutaten und Essentia erhöhen sich mit jedem Level. Das benötigte Salis Mundus wird dem Level gleichen, dass du zu erreichen versuchst, und die Essentiakosten werden exponentiell steigen.<BR>Du kannst existierende Runen-Items ebenfalls verzaubern, jedoch werden die Kosten auf der bereits existierenden Runenladung berechnet, was einen solchen Vorgang außergewöhnlich teuer macht.
 #
 tc.research_name.RUNICCHARGED=Geladener Ring des Schutzes
@@ -1645,23 +1645,23 @@ tc.research_name.VISPOWER=Visnutzung
 tc.research_text.VISPOWER=Ich habe die Macht
 tc.research_page.VISPOWER.1=Ohne das Vis der Auranodien würden Thaumaturgen nicht zu einfachsten Aufgaben fähig sein, aber die Nodien selbst haben verschiedenste Einschränkungen, die sie für umfangreichere Arbeiten unbrauchbar macht. An vorderster Stelle steht hier der Fakt, dass sie leicht geleert sind und es sehr viel Zeit benötigt, wieder Energie aus der mystischen Quelle, mit welcher sie verbunden sind, anzusammeln.<BR>Du glaubst, du könntest einen Weg um diese Einschränkungen herum gefunden haben. Tatsächlich sind Nodien kleine Tore zu einer mysteriösen Quelle mystischer Energie, um welche diese Energie sich langsam in Form von Vis ansammelt. Diese Tore sind so klein, dass lediglich winzige
 tc.research_page.VISPOWER.2=Energiemengen in unsere Realität hineinfließen. Indem du diesen Eingang aufhebelst, kannst du Vis in einem kontinuierlichen Strom herauslaufen lassen.<BR>Dies ist deutlich gefährlicher, als es klingt, und einige Vorkehrungen müssen während des gesamten Prozesses getroffen werden.<BR>Zunächst muss die Nodie während des gesamten Prozesses stabilisiert sein. Sobald dies erreicht ist, musst du einen §lNodientransduktor§r oberhalb der Nodie platzieren. Wenn du dem Transduktor ein Redstone-Signal gibst, wird die Nodie beginnen, sich zu einer Energetisierten Nodie umzuwandeln, und sehr schnell all ihr gespeichertes Vis verlieren.<BR>Der Prozess nimmt einige Zeit in Anspruch, aber sobald er beendet ist, wird die Nodie
-tc.research_page.VISPOWER.3=sich zu einer Energetisierten Nodie umwandeln. Wichtig ist, dass von nun an sowohl Stabilisator als auch Transduktor aktiv gehalten werden.<LINE>Energetisierte Nodien können Vis nicht mehr speichern oder wiederaufladen, auch kann man von ihnen kein Vis mehr mit Stäben oder anderen Methoden abzapfen. Stattdessen produzieren sie einen kontinuierlichen Strom von §lCV§r (Centi-Vis, oder hundertstel Vis) pro tick. Auf diese Energie kann zugegriffen werden, indem Visrelais nahe der Energetisierten Nodie platziert werden.<BR>Jedes Relais fungiert als Leitung für CV und eine beliebige Anzahl von Relais kann innerhalb eines 8-Block-Radius um die Nodie herum platziert werden. Relais übertragen Energie auch untereinander, was es ermöglicht, ein Netzwerk zu kreieren,
+tc.research_page.VISPOWER.3=sich zu einer Energetisierten Nodie umwandeln. Wichtig ist, dass von nun an sowohl Stabilisator als auch Transduktor aktiv gehalten werden.<LINE>Energetisierte Nodien können Vis nicht mehr speichern oder wiederaufladen, auch kann man von ihnen kein Vis mehr mit Stäben oder anderen Methoden abzapfen. Stattdessen produzieren sie einen kontinuierlichen Strom von §lCV§r (Centi-Vis, oder hundertstel Vis) pro Tick. Auf diese Energie kann zugegriffen werden, indem Visrelais nahe der Energetisierten Nodie platziert werden.<BR>Jedes Relais fungiert als Leitung für CV und eine beliebige Anzahl von Relais kann innerhalb eines 8-Block-Radius um die Nodie herum platziert werden. Relais übertragen Energie auch untereinander, was es ermöglicht, ein Netzwerk zu kreieren,
 tc.research_page.VISPOWER.4=das Vis zu allem, was Vis benötigt, weiterleitet, etwa einem Höllenofen.<BR>Relais nutzen ein Verzweigungssystem, also kann jedes Relais lediglich mit einer Quelle (entweder einem anderen Relais oder einer Energetisierten Nodie), aber mit mehreren weiterführenden Relais verbunden sein.<BR>Du kannst auch ein Relais auf einen der Primäraspekte 'abstimmen', indem du die entsprechende Vis-Scherbe auf es anwendest oder mit einem Zauberstab klickst. Dies limitiert nicht, welches Vis durch das Relais fließen kann, aber es hindert das Relais daran, sich mit jeglichen anderen Relais, außer nicht gestimmten sowie welchen des selben Primäraspekts, zu verbinden.
-tc.research_page.VISPOWER.5=Die Menge an Energie, die eine Nodie pro tick produziert, ist endlich, also kann das Anbringen von zu vielen Relais an einer einzigen Quelle die Menge an CV, die sie produzieren kann, übersteigen.<LINE>Es ist auch möglich, eine Energetisierte Nodie in eine gewöhnliche zurückzuwandeln. Dazu musst du einfach das Redstone-Signal am Transduktor entfernen, dann wird sie sich langsam in eine normale Nodie zurückverwandeln. Wenn die Nodie wieder normalisiert ist, ist sie zunächst komplett leer, sodass sie Gefahr läuft, beschädigt zu werden.
+tc.research_page.VISPOWER.5=Die Menge an Energie, die eine Nodie pro Tick produziert, ist endlich, also kann das Anbringen von zu vielen Relais an einer einzigen Quelle die Menge an CV, die sie produzieren kann, übersteigen.<LINE>Es ist auch möglich, eine Energetisierte Nodie in eine gewöhnliche zurückzuverwandeln. Dazu musst du einfach das Redstone-Signal am Transduktor entfernen, dann wird sie sich langsam in eine normale Nodie zurückverwandeln. Wenn die Nodie wieder normalisiert ist, ist sie zunächst komplett leer, sodass sie Gefahr läuft, beschädigt zu werden.
 #
 tc.research_name.VISCHARGERELAY=Vis-Laderelais
 tc.research_text.VISCHARGERELAY=Arkanes Basteln leicht gemacht
-tc.research_page.VISCHARGERELAY.1=Ein Ärgernis für jeden Thaumaturgen, der regulär arkane Objekte fertigt, ist, kontinuierlich seinen Stab aufgeladen zu haben.<BR>Nun da du einen Weg gefunden hast, Vis direkt aus Nodien zu ziehen, ist es dir möglich, ein Vis-Laderelais zu fertigen. Es funktionier wie ein gewöhnliches Relais, aber es ist dafür geschaffen, oberhalb einer Arkanen Werkbank platziert zu werden. Es wird Vis aus dem Relais ziehen, um damit Stäbe innerhalb der Werkbank aufzuladen.<BR>Der einzige Nachteil ist, dass das Relais die Stäbe viel langsamer auflädt, als ein Aufladungssockel oder Mensch es könnte.
+tc.research_page.VISCHARGERELAY.1=Ein Ärgernis für jeden Thaumaturgen, der regulär arkane Objekte fertigt, ist, kontinuierlich seinen Stab aufgeladen zu haben.<BR>Nun da du einen Weg gefunden hast, Vis direkt aus Nodien zu ziehen, ist es dir möglich, ein Vis-Laderelais zu fertigen. Es funktioniert wie ein gewöhnliches Relais, aber es ist dafür geschaffen, oberhalb einer Arkanen Werkbank platziert zu werden. Es wird Vis aus dem Relais ziehen, um damit Stäbe innerhalb der Werkbank aufzuladen.<BR>Der einzige Nachteil ist, dass das Relais die Stäbe viel langsamer auflädt, als ein Aufladungssockel oder Mensch es könnte.
 #
 tc.research_name.WARP=Warp, Flux und weiteres Böse
 tc.research_text.WARP=Alles hat seinen Preis
 tc.research_page.WARP.1=§nWarp§r<BR>Viele glauben, das der Mensch sich nicht mit Magie hätte befassen sollen, und nichts lässt dies glaubwürdiger erscheinen als die Existenz von Warp.<BR>Das Erforschen verbotener Magie sowie das Fertigen von Objekten fragwürdiger Natur scheinen die Realitätswahrnehmung eines Thaumaturgen zu verzerren, was sowohl ihren Verstand als auch ihren Körper verändert. Diesen Effekt nennen unsere englischen Kollegen Warp.<LINE>Während mancher Warp temporär ist und mit der Zeit verschwindet,
 tc.research_page.WARP.2=gibt es keinen bekannten Weg, permanenten Warp loszuwerden, sobald er einmal erhalten wurde, und ein Thaumaturge, der beim Streben nach Macht wählt, diese Gefahren zu ignorieren, findet sich oft mit einigen Problemen mehr wieder.<BR>Warp manifestiert sich für gewöhnlich in kleinen Konzentrationslücken, physischem Schmerz oder Halluzinationen.<LINE>Diese sind jedoch mehr als bloß mental, da Visionen manchmal nützliches Wissen vermitteln oder scheinbare Halluzinationen sich als erschreckend real herausstellen.
-tc.research_page.WARP.3=§nFlux§r<BR>Wenn Warp die mentale Manifestierung von schiefgelaufener Magie ist, ist Flux die physische.<LINE>Flux kann sich auf drei Arten manifestieren: Als eine Flüssigkeit, ein Gas oder ein physisches Leiden. Die ersten beiden Manifestierungen sind für die meisten Thaumaturgen ein Ärgernis und resultueren oftmals aus verschwenderischer Nutzung von Magie. Sie sind nicht besonders schwer wieder loszuwerden, aber in Kontakt mit ihnen zu kommen verursacht oft die dritte Manifestierung: Die Fluxgrippe.<LINE>Die Fluxgrippe ist nicht besonders gefährlich, aber solange ein Thaumaturge an ihr leidet, ist es für ihn besonders schwer, Vis zu fokussieren, was often in erhöhten Viskosten resultiert, um irgendetwas zu schaffen.
+tc.research_page.WARP.3=§nFlux§r<BR>Wenn Warp die mentale Manifestierung von schiefgelaufener Magie ist, ist Flux die physische.<LINE>Flux kann sich auf drei Arten manifestieren: Als eine Flüssigkeit, ein Gas oder ein physisches Leiden. Die ersten beiden Manifestierungen sind für die meisten Thaumaturgen ein Ärgernis und resultieren oftmals aus verschwenderischer Nutzung von Magie. Sie sind nicht besonders schwer wieder loszuwerden, aber in Kontakt mit ihnen zu kommen verursacht oft die dritte Manifestierung: Die Fluxgrippe.<LINE>Die Fluxgrippe ist nicht besonders gefährlich, aber solange ein Thaumaturge an ihr leidet, ist es für ihn besonders schwer, Vis zu fokussieren, was oft in erhöhten Viskosten resultiert, um irgendetwas zu schaffen.
 #
 tc.research_name.BATHSALTS=Reinigendes Badesalz
 tc.research_text.BATHSALTS=Entspannung für den Geist
-tc.research_page.BATHSALTS.1=Warp ist eine Gefahr selbst für die vorsichtigsten Thaumaturgen. Für solche, die etwas unvorsichtiger waren, sind Warp-Effekte wahrscheinlich mehr als nur ein Ärgernis. Reinigendes Badesalz hilft dagegen.<BR>Wenn du etwas Salz in Wasser wirfst, wird dieses zu einer silbrigen, reinigenden Flüssigkeit, die alle Leiden des Tages lindert und temporär eine Entlastung von den Effekten von Warp mit sich bringt. Es sollte jedoch folgendes angemerkt werden: An je mehr Warp ein Thaumaturge leidet, desto kürzer ist Dauer dieses Schutzes.<BR>Die Salze sind sehr fragil und werden sich schnell auflösen, werden sie willkürlich umhergeworfen.
+tc.research_page.BATHSALTS.1=Warp ist eine Gefahr selbst für die vorsichtigsten Thaumaturgen. Für solche, die etwas unvorsichtiger waren, sind Warp-Effekte wahrscheinlich mehr als nur ein Ärgernis. Reinigendes Badesalz hilft dagegen.<BR>Wenn du etwas Salz in Wasser wirfst, wird dieses zu einer silbrigen, reinigenden Flüssigkeit, die alle Leiden des Tages lindert und temporär eine Entlastung von den Effekten von Warp mit sich bringt. Es sollte jedoch folgendes angemerkt werden: An je mehr Warp ein Thaumaturge leidet, desto kürzer ist Dauer dieses Schutzes.<BR>Die Salze sind sehr fragil und werden sich schnell auflösen, werden sie willkürlich umher geworfen.
 #
 tc.research_name.LIQUIDDEATH=Flüssiger Tod
 tc.research_text.LIQUIDDEATH=Lass besser die Finger davon
@@ -1674,7 +1674,7 @@ tc.research_page.ARMORFORTRESS.2=Teil dieser Rüstung erhöht den Schutz, der vo
 #
 tc.research_name.HELMGOGGLES=Helm der Enthüllung
 tc.research_text.HELMGOGGLES=Thaumiumfestungshelm-Upgrade
-tc.research_page.HELMGOGGLES.1=Für gewöhnlich muss sich ein Thaumaturge zwischen Schutz und Nutzen entscheiden, wenn er unterwegs ist. Nun nicht mehr!<BR>Dieses Werk modifiziert einen Thaumiumfestungshelm, sodass er dir die Funktionalität der Brille der Enthüllung bietet. Eine Visreduktion, wie die Brille sie mit sich bringt, hat der Helm jedoch nicht.<BR>Ein helm kann dieses Upgrade zusammen mit einer Maske tragen.
+tc.research_page.HELMGOGGLES.1=Für gewöhnlich muss sich ein Thaumaturge zwischen Schutz und Nutzen entscheiden, wenn er unterwegs ist. Nun nicht mehr!<BR>Dieses Werk modifiziert einen Thaumiumfestungshelm, sodass er dir die Funktionalität der Brille der Enthüllung bietet. Eine Visreduktion, wie die Brille sie mit sich bringt, hat der Helm jedoch nicht.<BR>Ein Helm kann dieses Upgrade zusammen mit einer Maske tragen.
 #
 tc.research_name.MASKGRINNINGDEVIL=Maske: Grinsender Teufel
 tc.research_text.MASKGRINNINGDEVIL=Thaumiumfestungshelm-Upgrade
@@ -1690,7 +1690,7 @@ tc.research_page.MASKSIPPINGFIEND.1=Diese Maske ist dafür geschaffen, einem exi
 #
 tc.research_name.ELDRITCHMINOR=Unwirkliche Erscheinungen
 tc.research_text.ELDRITCHMINOR=Die ersten Schritte ins Unbekannte
-tc.research_page.ELDRITCHMINOR.1=Plötzlich wurde es dir kalr. Wo andere Chaos sehen, siehst du gelegentlich den Anschein eines Musters... eines sehr seltsamen und beunruhigenden Musters. Irgendetwas rührt sich in den dunkelsten Ecken des Universums.<BR>Du hast versucht, es anderen zu erklären, jedoch wurdest du dafür nur schief angeschaut. Ganz egal, irgendwann wirst du es ihnen zeigen.<BR>Du wirst es allen zeigen.
+tc.research_page.ELDRITCHMINOR.1=Plötzlich wurde es dir klar. Wo andere Chaos sehen, siehst du gelegentlich den Anschein eines Musters... eines sehr seltsamen und beunruhigenden Musters. Irgendetwas rührt sich in den dunkelsten Ecken des Universums.<BR>Du hast versucht, es anderen zu erklären, jedoch wurdest du dafür nur schief angeschaut. Ganz egal, irgendwann wirst du es ihnen zeigen.<BR>Du wirst es allen zeigen.
 #
 tc.research_name.ELDRITCHMAJOR=Unwirkliche Enthüllung
 tc.research_text.ELDRITCHMAJOR=Ich sah es. Ich habe es gesehen.
@@ -1699,8 +1699,8 @@ tc.research_page.ELDRITCHMAJOR.2=<IMG>thaumcraft:textures/misc/eldritchajor2.png
 #
 tc.research_name.VOIDMETAL=Leermetall
 tc.research_text.VOIDMETAL=Seltsam, sollte sich doch kalt anfühlen...
-tc.research_page.VOIDMETAL.1=Indem du Magie in Metall infundiert hast, kreiertest du Thaumium. Es war eine würdige Entdeckung, aber es ist an der Zeit, Thaumium den Amateuren und Dilettanten zu überlassen.<BR>Ein seltsamer und halbvergessener Traum hat dich veranlasst, etwas... anderes zu versuchen. Was wäre, wenn du Metall mit mehr als nut Magie infundieren könntest, mit der wahren Essenz dessen, aus dem Magie kommt: Dunkelheit und die Leere, die zwischen den Sternen liegt.<BR>Das resultierende Metall ist beunruhigend glatt und warm anzufassen. Es ist fast so weich wie Gold, was es leicht zu bearbeiten macht, aber,
-tc.research_page.VOIDMETAL.2=wenn hart getroffen, wird es so hart wie Thaumium, manchmal sogar härter. Noch beeinduckendererweise repariert das Metall sich nach allem außer dem allerverheerendsten Schaden von selbst, da dass Metall langsam in seine Ursprungsform zurückfließt.<BR>Der einzige Nachteil ist, dass es nicht so leicht zu verzaubern ist wie Thaumium, jedoch ist es immer noch besser als gewöhliche Materialien wie Eisen.<BR>Du hast entdeckt, dass Vorsicht beim Umgang mit diesem Metall geboten ist - von ihm verletzt zu werden, scheint temporär deine Stärke auszusaugen.
+tc.research_page.VOIDMETAL.1=Indem du Magie in Metall infundiert hast, kreiertest du Thaumium. Es war eine würdige Entdeckung, aber es ist an der Zeit, Thaumium den Amateuren und Dilettanten zu überlassen.<BR>Ein seltsamer und halb vergessener Traum hat dich veranlasst, etwas... anderes zu versuchen. Was wäre, wenn du Metall mit mehr als nur Magie infundieren könntest, mit der wahren Essenz dessen, aus dem Magie kommt: Dunkelheit und die Leere, die zwischen den Sternen liegt.<BR>Das resultierende Metall ist beunruhigend glatt und warm anzufassen. Es ist fast so weich wie Gold, was es leicht zu bearbeiten macht, aber,
+tc.research_page.VOIDMETAL.2=wenn hart getroffen, wird es so hart wie Thaumium, manchmal sogar härter. Noch beeindruckenderweise repariert das Metall sich nach allem außer dem allerverheerendsten Schaden von selbst, da dass Metall langsam in seine Ursprungsform zurückfließt.<BR>Der einzige Nachteil ist, dass es nicht so leicht zu verzaubern ist wie Thaumium, jedoch ist es immer noch besser als gewöhnliche Materialien wie Eisen.<BR>Du hast entdeckt, dass Vorsicht beim Umgang mit diesem Metall geboten ist - von ihm verletzt zu werden, scheint temporär deine Stärke auszusaugen.
 #
 tc.research_name.ARMORVOIDFORTRESS=Leerthaumaturgenroben
 tc.research_text.ARMORVOIDFORTRESS=Der Stil einer anderen Welt
@@ -1724,7 +1724,7 @@ tc.research_page.SANITYCHECK.1=In deinem Kopf hat sich in letzter Zeit ziemlich 
 #
 tc.research_name.CRIMSON=Der Karmesinkult
 tc.research_text.CRIMSON=Eine Warnung an dich
-tc.research_page.CRIMSON.1=Der größte Teil dieses Buches ist in einer krakeligen und unverständlichen Schrift geschrieben, aber das, was du verstehen konntest, eröffnet außergewöhnliche Einblicke in die Ziele des Karmesinkultes.<BR>Ihre Ursprünge sind geheimnisumwoben, aber es scheint, dass ihr Ziel die Perfektion eines Rituals, welches sie als "Apertis Oculis" - Öffnen des Auges -  bezeichnen, ist. Was es macht, ist unklar, aber es ist höchstwahrscheinlich nichts Gutes.<BR>Interessanterweise glaubst du, dass Thaumaturgie die fehlendene Teile bietet, nach denen sie so lange suchten. Natürlich würde nur ein Wahnsinniger dieser Idee nachgehen...
+tc.research_page.CRIMSON.1=Der größte Teil dieses Buches ist in einer krakeligen und unverständlichen Schrift geschrieben, aber das, was du verstehen konntest, eröffnet außergewöhnliche Einblicke in die Ziele des Karmesinkultes.<BR>Ihre Ursprünge sind geheimnisumwoben, aber es scheint, dass ihr Ziel die Perfektion eines Rituals, welches sie als "Apertis Oculis" - Öffnen des Auges - bezeichnen, ist. Was es macht, ist unklar, aber es ist höchstwahrscheinlich nichts Gutes.<BR>Interessanterweise glaubst du, dass Thaumaturgie die fehlenden Teile bietet, nach denen sie so lange suchten. Natürlich würde nur ein Wahnsinniger dieser Idee nachgehen...
 #
 tc.research_name.OCULUS=Das Öffnen des Auges
 tc.research_text.OCULUS=Ich werd's ihnen zeigen, ich werde es allen zeigen!
@@ -1734,7 +1734,7 @@ tc.research_page.OCULUS.2=Wenn du alles richtig gemacht hast, sollte das Ritual 
 tc.research_name.ESSENTIARESERVOIR=Fortgeschnittene Essentiaspeicherung
 tc.research_text.ESSENTIARESERVOIR=Nicht anstoßen
 tc.research_page.ESSENTIARESERVOIR.1=Die meisten Arten von Essentia sind ziemlich instabil, bei ihrer Speicherung ist Vorsicht geboten - deshalb verwenden die meisten Thaumaturgen Bannende Gläser. Du, jedoch, bist nicht wie die meisten Thaumaturgen.<BR>Indem du die wundervolle neue Substanz namens Leermetall nutzt, hast du einen Weg gefunden, Essentiaspeicherung drastisch zu verbessern. Essentiareservoirs sind fähig, bis zu 256 Einheiten Essentia in jeglicher Kombination zu speichern.<BR>Die potenziell verheerende Vermischung verschiedener Essentiatypen wird durch die sich automatisch verformenden Fächer, die aus diesem neuen Metall bestehen, verhindert.
-tc.research_page.ESSENTIARESERVOIR.2=Wie Gläser kann auf Reservoirs nur von einer Seite aus zugegriffen werden, aber du kannst wählen, von welcher. Leider können Reservoirs nicht per Hand befüllt oder entleert werden, also musst du dich dafür auf Rohre oder Golems verlassen.<BR>Das Reservoir zu zerstören, während es Essentia enhält, ist, ähm, nicht ratsam.<BR>Du warst so froh über diese Entdeckung, dass du sie ein paar Kollegen gezeigt hast. Seltsamerweise rannten sie alle in Deckung, auch nachdem du ihnen versichert hast, dass das beständige Geräusch von unter unglaublich hohem Druck stehenden Metall völlig normal ist.
+tc.research_page.ESSENTIARESERVOIR.2=Wie Gläser kann auf Reservoirs nur von einer Seite aus zugegriffen werden, aber du kannst wählen, von welcher. Leider können Reservoirs nicht per Hand befüllt oder entleert werden, also musst du dich dafür auf Rohre oder Golems verlassen.<BR>Das Reservoir zu zerstören, während es Essentia enthält, ist, ähm, nicht ratsam.<BR>Du warst so froh über diese Entdeckung, dass du sie ein paar Kollegen gezeigt hast. Seltsamerweise rannten sie alle in Deckung, auch nachdem du ihnen versichert hast, dass das beständige Geräusch von unter unglaublich hohem Druck stehenden Metall völlig normal ist.
 #
 tc.research_name.ESSENTIACRYSTAL=Essentiakristallisation
 tc.research_text.ESSENTIACRYSTAL=Immerhin sublimieren sie nicht
@@ -1748,9 +1748,9 @@ tc.research_name.BOTTLETAINT=Abgefüllter Schmutz
 tc.research_text.BOTTLETAINT=Warum würdest du so etwas wollen?
 tc.research_page.BOTTLETAINT.1=Magischen Schmutz zu säubern ist eine Sache, aber jemals in Erwägung ziehen, ihn zu verbreiten?<BR>Wenn du die Essenz dieses Schmutzes in einer Flasche sammelst und konzentrierst, ist es einfach, diese Flasche irgendwo fallenzulassen, um ein Fleckchen Schmutz zu kreieren. Es liegt an dir, zu entscheiden, warum du so etwas tun würdest.
 #
-tc.research_name.FOCALMANIPULATION=Fokusmanipulation 
+tc.research_name.FOCALMANIPULATION=Fokusmanipulation
 tc.research_text.FOCALMANIPULATION=Zauberfoki - Ganz neu!
-tc.research_page.FOCALMANIPULATION.1=Stabfoki sind zu erstaunlichen Leistungen fähig, aber sie sind nicht sehr flexibel. Ein einzelner Fokus ist selten zu mehr als einer einzigen Funktion fähig.<BR>Du hast einen Weg entdeckt, gewöhnliche Foki zu verbessern, um die Art, wie sie Magie manipulieren, zu ändern. Du musst lediglich einen Fokus in einen Fokusmanipulator platzieren und wählen, welches Upgrade you anbringen möchtest. Du musst das Gerät auch mit Vis aus Relais und Erfahrungspunkten von dir selbst versorgen, um den Prozess zu beginnen, danach heißt es nur noch: Warten.<BR>Jeder Fokus kann bis zu fünfmal verbessert werden,
+tc.research_page.FOCALMANIPULATION.1=Stabfoki sind zu erstaunlichen Leistungen fähig, aber sie sind nicht sehr flexibel. Ein einzelner Fokus ist selten zu mehr als einer einzigen Funktion fähig.<BR>Du hast einen Weg entdeckt, gewöhnliche Foki zu verbessern, um die Art, wie sie Magie manipulieren, zu ändern. Du musst lediglich einen Fokus in einen Fokusmanipulator platzieren und wählen, welches Upgrade du anbringen möchtest. Du musst das Gerät auch mit Vis aus Relais und Erfahrungspunkten von dir selbst versorgen, um den Prozess zu beginnen, danach heißt es nur noch: Warten.<BR>Jeder Fokus kann bis zu fünfmal verbessert werden,
 tc.research_page.FOCALMANIPULATION.2=aber jeder Rang verdoppelt die Kosten.<BR>Während manche Upgrades mehr als einmal oder bei jeglichem Rang angebracht werden können, haben viele Foki Upgrades, die nur auf bestimmten Rängen oder nur mit bestimmten bereits angebrachten Upgrades angebracht werden können. Probieren geht über Studieren.<BR>Upgrades sind permanent - dir ist keine Möglichkeit bekannt, ungewollte Upgrades zu entfernen, daher ist bei der Wahl Vorsicht geboten.
 #
 tc.research_name.VAMPBAT=Stufe-5-Upgrade: Vampirfledermäuse
@@ -1758,10 +1758,10 @@ tc.research_text.VAMPBAT=Gemeine kleine Blutsauger
 #
 tc.research_name.PRIMPEARL=Primordialperle
 tc.research_text.PRIMPEARL=Was vorher geschah
-tc.research_page.PRIMPEARL.1=Zum allerersten Mal befindest du dich vor einem Rätsel, dass, so glaubst du, nicht gelöst werden kann.<BR>Dieses Objekt enhält reine Primäraspekte, aber sie haben andere Eigenschaften als die, die du für alltägliche, normale Primäraspekte hältst. Du hast ein paar Theorien, warum das sein könnte:<BR>Zunächst könnte dieses "Perle" ein Rest der Primätmaterie sein, die zu Beginn der Realität entstand - Elementarmagie, die existierte, bevor sie vermischt und zu Verbundaspekten verbunden wurde.<BR>Alternativ könnte es Primärmaterie von einem Ort sein, der den bekannten Gesetzen der
+tc.research_page.PRIMPEARL.1=Zum allerersten Mal befindest du dich vor einem Rätsel, dass, so glaubst du, nicht gelöst werden kann.<BR>Dieses Objekt enhält reine Primäraspekte, aber sie haben andere Eigenschaften als die, die du für alltägliche, normale Primäraspekte hältst. Du hast ein paar Theorien, warum das sein könnte:<BR>Zunächst könnte dieses "Perle" ein Rest der Primärmaterie sein, die zu Beginn der Realität entstand - Elementarmagie, die existierte, bevor sie vermischt und zu Verbundaspekten verbunden wurde.<BR>Alternativ könnte es Primärmaterie von einem Ort sein, der den bekannten Gesetzen der
 tc.research_page.PRIMPEARL.2=Magie, wie du sie verstehst, widersteht. Du bist nicht sicher, welche der Erklärungen besorgniserregender ist.<BR>So oder so, die Perle ist ein mächtiges Artefakt, das gewaltige magische Energie und nahezu unbegrenztes Potenzial enthält.<BR>Es wird Zeit, dass du sie verwendest.
 #
-tc.research_name.PRIMNODE=Primordialnodienmanipulation 
+tc.research_name.PRIMNODE=Primordialnodienmanipulation
 tc.research_text.PRIMNODE=Ein ziemlich langes Wort
 tc.research_page.PRIMNODE.1=Du hast eine relativ seltsame Theorie entwickelt, die es zu erforschen gilt. Warum bringst du nicht einfach eine Primordialperle in Kontakt mit einer Auranodie?<BR>Natürlich könnte der Kontakt dieser beiden Quellen roher magischer Energie katastrophal enden, aber ihre Interaktion könnte auch sehr... interessant sein.<BR>Während jeder dies tun kann, bist du sicher, dass das Beenden dieser Forschung deine Chancen auf ein gutes Ergebnis leicht verbessert hat. Sehr leicht.
 #
@@ -1789,5 +1789,5 @@ tc.research_page.SINSTONE.1=Du hast eine interessante Entdeckung während deiner
 tc.research_name.PRIMALCRUSHER=Primärhäcksler
 tc.research_text.PRIMALCRUSHER=Massive Zerstörung
 tc.research_page.PRIMALCRUSHER.1=Die Theorie hinter Infusion ist einfach - man infundiert ein einzelnes Objekt mit Essentia sowie den Eigenschaften anderer Gegenstände. Es gibt jedoch Grenzen, auch wenn diese dank der Entdeckung der Primordialperle weniger und weniger werden.<BR>Als Experiment hast du versucht, die Eigenschaften völlig unterschiedlicher Objekte in eine Primordialperle zu infundieren, mit überraschendem Erfolg. Das Ergebnis, welches du liebevoll Primärhäcksler nennst, ist die erste praktische Anwendung dieser Entdeckung.<BR>Durch Kombination einer Schaufel des Erdschürfers und einer Spitzhacke des Kerns mit ihren Gegenstücken aus Leermetall hast du
-tc.research_page.PRIMALCRUSHER.2=ein Werkzeug unerreichter zerstörerischer Fähigkeiten erschaffen, dass die meisten Eigenschaften seiner Komponenten beibehalten hat.<BR>Der Primärhäcksler kann mit Leichtigkeit gleichsam durch Erd und Stein graben, und das in einem 3x3-Gebiet. Wie die Spitzhacke des Kerns gräbt er manchmal Native Klumpen statt rohen Erzes aus.<BR>Er repariert sich langsam von selbst, ist sehr leicht zu verzaubern und fungiert zur Not auch als relativ gute Waffe.<BR>Leider scheint er rein destruktiver Natur zu sein; er hat alle Konstruktions- und Erkennungsfähigkeiten seiner Komponenten verloren.
+tc.research_page.PRIMALCRUSHER.2=ein Werkzeug unerreichter zerstörerischer Fähigkeiten erschaffen, dass die meisten Eigenschaften seiner Komponenten beibehalten hat.<BR>Der Primärhäcksler kann mit Leichtigkeit gleichsam durch Erde und Stein graben, und das in einem 3x3-Gebiet. Wie die Spitzhacke des Kerns gräbt er manchmal Native Klumpen statt rohen Erzes aus.<BR>Er repariert sich langsam von selbst, ist sehr leicht zu verzaubern und fungiert zur Not auch als relativ gute Waffe.<BR>Leider scheint er rein destruktiver Natur zu sein; er hat alle Konstruktions- und Erkennungsfähigkeiten seiner Komponenten verloren.
 #
