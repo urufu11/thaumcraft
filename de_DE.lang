@@ -1758,7 +1758,7 @@ tc.research_text.VAMPBAT=Gemeine kleine Blutsauger
 #
 tc.research_name.PRIMPEARL=Primordialperle
 tc.research_text.PRIMPEARL=Was vorher geschah
-tc.research_page.PRIMPEARL.1=Zum allerersten Mal befindest du dich vor einem Rätsel, dass, so glaubst du, nicht gelöst werden kann.<BR>Dieses Objekt enhält reine Primäraspekte, aber sie haben andere Eigenschaften als die, die du für alltägliche, normale Primäraspekte hältst. Du hast ein paar Theorien, warum das sein könnte:<BR>Zunächst könnte dieses "Perle" ein Rest der Primärmaterie sein, die zu Beginn der Realität entstand - Elementarmagie, die existierte, bevor sie vermischt und zu Verbundaspekten verbunden wurde.<BR>Alternativ könnte es Primärmaterie von einem Ort sein, der den bekannten Gesetzen der
+tc.research_page.PRIMPEARL.1=Zum allerersten Mal befindest du dich vor einem Rätsel, dass, so glaubst du, nicht gelöst werden kann.<BR>Dieses Objekt enhält reine Primäraspekte, aber sie haben andere Eigenschaften als die, die du für alltägliche, normale Primäraspekte hältst. Du hast ein paar Theorien, warum das sein könnte:<BR>Zunächst könnte diese "Perle" ein Rest der Primärmaterie sein, die zu Beginn der Realität entstand - Elementarmagie, die existierte, bevor sie vermischt und zu Verbundaspekten verbunden wurde.<BR>Alternativ könnte es Primärmaterie von einem Ort sein, der den bekannten Gesetzen der
 tc.research_page.PRIMPEARL.2=Magie, wie du sie verstehst, widersteht. Du bist nicht sicher, welche der Erklärungen besorgniserregender ist.<BR>So oder so, die Perle ist ein mächtiges Artefakt, das gewaltige magische Energie und nahezu unbegrenztes Potenzial enthält.<BR>Es wird Zeit, dass du sie verwendest.
 #
 tc.research_name.PRIMNODE=Primordialnodienmanipulation
